@@ -50,17 +50,6 @@ def add_to_statistics(fileName:string):
         tree = ast.parse(code)
         NamesCounter().visit(tree)
 
-def add_name_with_kind(name:string, kind:string):
-    if name not in statsDictionary:
-        statsDictionary[name] = {"all": 0}
-    statsDictionary[name]["all"] += 1
-
-    if kind not in statsDictionary[name]:
-        statsDictionary[name][kind] = 1
-    else:
-        statsDictionary[name][kind] += 1
-    
-
 class NamesCounter(ast.NodeVisitor):
     def visit_FunctionDef(self, node: ast.FunctionDef):
         add_name_with_kind(node.name, "function")
@@ -106,7 +95,6 @@ class NamesCounter(ast.NodeVisitor):
         add_name_with_kind(node.arg, "param")
         return self.generic_visit(node)
 
-    # Nie wiem, co to
     def visit_keyword (self, node: ast.keyword):
         if node.arg:
             add_name_with_kind(node.arg, "keyword")
@@ -119,9 +107,18 @@ class NamesCounter(ast.NodeVisitor):
             add_name_with_kind(node.asname, "alias")
         return self.generic_visit(node)
 
-    # Prawdopodobnie jeszcze Match, ale tam są dziwne przypadki, o których muszę doczytać
+# Dodanie wystąpienia nazwy
+def add_name_with_kind(name:string, kind:string):
+    if name not in statsDictionary:
+        statsDictionary[name] = {"all": 0}
+    statsDictionary[name]["all"] += 1
 
+    if kind not in statsDictionary[name]:
+        statsDictionary[name][kind] = 1
+    else:
+        statsDictionary[name][kind] += 1  
 
+# Start programu
 if __name__ == '__main__':
     args = sys.argv[1:]
     if len(args):
