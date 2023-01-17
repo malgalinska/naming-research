@@ -7,6 +7,7 @@ import sys
 import shutil
 import string
 import zipfile
+
 from data_getter import get_data
 
 
@@ -18,14 +19,14 @@ def main (path:string):
 
     # Przechodzenie po katalogu
     for path, subfiles, files in os.walk(path):
-        for fileName in files:
-            if zipfile.is_zipfile(path + "/" + fileName):
+        for file_name in files:
+            if zipfile.is_zipfile(path + "/" + file_name):
                 os.mkdir(path + "/tmp")
                 try:
-                    with zipfile.ZipFile(path + "/" + fileName, 'r') as zip:
+                    with zipfile.ZipFile(path + "/" + file_name, 'r') as zip:
                         zip.extractall(path + "/tmp")
 
-                    name = fileName.split(".", 1)[0]
+                    name = file_name.split(".", 1)[0]
                     get_data(path + "/tmp", path + "/" + name + "_stats.csv")
                 finally:
                     shutil.rmtree(path + "/tmp")

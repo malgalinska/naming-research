@@ -3,15 +3,16 @@
 
 from logging import error
 import os
-import string
+# import string
 import sys
 import ast
 import csv
 
-statsDictionary = {}
-field_names = ["name", "all", "function def", "class def", "import", "exception", "param", "keyword", "alias", "object decl", "object"]
+stats_dictionary = {}
+field_names = ["name", "all", "function def", "class def", "import", "exception", "param", "keyword", "alias", "object decl", "object", "case_convention", "words"]
 
-def get_data(path:string, output:string):
+
+def get_data(path: str, output: str):
     # Sprawdzenie poprawności ścieżki
     if not os.path.isdir(path):
         error("That is not dir path.")
@@ -22,19 +23,19 @@ def get_data(path:string, output:string):
 
     # Przechodzenie po katalogu
     for path, subfiles, files in os.walk(path):
-        for fileName in files:
-            x  = fileName.split(".", 1)
+        for file_name in files:
+            x  = file_name.split(".", 1)
             if len(x) > 1 and x[1] == "py":
-                add_to_statistics(path + "/" + fileName)
+                add_to_statistics(path + "/" + file_name)
                 n_of_py += 1 
             else:
                 n_of_others += 1
 
     # Zapisanie danych do pliku
-    with open(output, 'w', -1, 'utf-8') as statsFile:
-        csvwriter = csv.DictWriter(statsFile, fieldnames=field_names)
+    with open(output, 'w', -1, 'utf-8') as stats_file:
+        csvwriter = csv.DictWriter(stats_file, fieldnames=field_names)
         csvwriter.writeheader()
-        for key, value in statsDictionary.items():
+        for key, value in stats_dictionary.items():
             value["name"] = key
             csvwriter.writerow(value)
     
@@ -43,12 +44,14 @@ def get_data(path:string, output:string):
     print("There is " + str(n_of_py) + " Python files of " + str(n) + " of all files.\n\n")
     return 0
 
+
 # Wyłuskanie danych z pojedynczego pliku pythonowego
-def add_to_statistics(fileName:string):
-    with open(fileName, encoding='utf-8') as f:
+def add_to_statistics(file_name: str):
+    with open(file_name, encoding='utf-8') as f:
         code = f.read()
         tree = ast.parse(code)
         NamesCounter().visit(tree)
+
 
 class NamesCounter(ast.NodeVisitor):
     def visit_FunctionDef(self, node: ast.FunctionDef):
@@ -108,8 +111,9 @@ class NamesCounter(ast.NodeVisitor):
 
         return self.generic_visit(node)
 
+
 # Dodanie wystąpienia nazwy
-def add_name_with_kind(name:string, kind:string):
+def add_name_with_kind(name: str, kind: str):
     if name == "self" or (name[:2] == "__" and name[-2:] == "__") or name == "":
         return
 
@@ -118,14 +122,75 @@ def add_name_with_kind(name:string, kind:string):
             add_name_with_kind(module, kind)
         return
 
-    if name not in statsDictionary:
-        statsDictionary[name] = {"all": 0}
-    statsDictionary[name]["all"] += 1
+    if name not in stats_dictionary:
+        stats_dictionary[name] = {"all": 0}
+        add_new_name_with_case_convention_and_words(name)
+    stats_dictionary[name]["all"] += 1
 
-    if kind not in statsDictionary[name]:
-        statsDictionary[name][kind] = 1
+    if kind not in stats_dictionary[name]:
+        stats_dictionary[name][kind] = 1
     else:
-        statsDictionary[name][kind] += 1  
+        stats_dictionary[name][kind] += 1
+
+
+def add_new_name_with_case_convention_and_words(name: str):
+    stats_dictionary[name]["case_convention"] = convention(name)
+    stats_dictionary[name]["words"] = split_to_words(name)
+
+
+# Based on: https://peps.python.org/pep-0008/#descriptive-naming-styles
+def convention(name: str):
+    name = name.strip("_")
+    if len(name) == 0:
+        return "ugly"
+
+    if len(name) == 1:
+        if name.islower():
+            return "b" # single lowercase letter
+        if name.isupper():
+            return "B" # single uppercase letter
+    
+    if '_' in name:
+        if name.islower():
+            return "lower_case_with_underscores"
+        if name.isupper():
+            return "UPPER_CASE_WITH_UNDERSCORES"
+    else:
+        if name.islower():
+            return "lowercase"
+        if name.isupper():
+            return "UPPERCASE"
+        if name[0].isupper():
+            return "CapitalizedWords"
+        return "mixedCase"
+    return "ugly"
+    
+
+def split_to_words(name: str):
+    name = name.strip("_")
+    if len(name) == 0:
+        return []
+        
+    if '_' in name:
+        return name.lower().split("_")
+
+    ret = []
+    start_of_word = 0
+    for i in range(1, len(name) - 1):
+        if name[i].isupper() and (name[i + 1].islower() or name[i - 1].islower()):
+            ret.append(name[start_of_word:i].lower())
+            start_of_word = i
+
+    if name[-1].isupper():
+        ret.append(name[start_of_word:-1].lower())
+        ret.append(name[-1].lower())
+    else:
+        ret.append(name[start_of_word:].lower())
+
+    return ret
+            
+
+
 
 # Start programu
 if __name__ == '__main__':
