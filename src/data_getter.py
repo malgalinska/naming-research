@@ -32,7 +32,7 @@ def get_data(path: str, output: str):
                 n_of_others += 1
 
     # Zapisanie danych do pliku
-    with open(output, 'w', -1, 'utf-8') as stats_file:
+    with open(output, "w", -1, "utf-8") as stats_file:
         csvwriter = csv.DictWriter(stats_file, fieldnames=field_names)
         csvwriter.writeheader()
         for key, value in stats_dictionary.items():
@@ -47,7 +47,7 @@ def get_data(path: str, output: str):
 
 # Wyłuskanie danych z pojedynczego pliku pythonowego
 def add_to_statistics(file_name: str):
-    with open(file_name, encoding='utf-8') as f:
+    with open(file_name, encoding="utf-8") as f:
         code = f.read()
         tree = ast.parse(code)
         NamesCounter().visit(tree)
@@ -150,7 +150,7 @@ def convention(name: str):
         if name.isupper():
             return "B" # single uppercase letter
     
-    if '_' in name:
+    if "_" in name:
         if name.islower():
             return "lower_case_with_underscores"
         if name.isupper():
@@ -171,7 +171,7 @@ def split_to_words(name: str):
     if len(name) == 0:
         return []
         
-    if '_' in name:
+    if "_" in name:
         return name.lower().split("_")
 
     ret = []
@@ -193,7 +193,7 @@ def split_to_words(name: str):
 
 
 # Start programu
-if __name__ == '__main__':
+if __name__ == "__main__":
     args = sys.argv[1:]
     if len(args) >= 2:
         sys.exit(get_data(args[0], args[1]))
