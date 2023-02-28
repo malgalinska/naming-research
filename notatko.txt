@@ -11,7 +11,7 @@ when each routine turns out to be pretty much what you expected.”
 
 Opisy ropos:
 
-Airflow: - pierwszy realese co roku
+Airflow: - pierwszy realese co roku <- poniższe linki mogą już być nieaktualne
 
 https://github.com/apache/airflow
 
