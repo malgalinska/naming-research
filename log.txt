@@ -1,0 +1,376 @@
+./data/airflow/2019_stats.csv:
+    Started at 02:12:00, ended at 02:12:10 (duration 0:00:10.292586).
+    There is 944 Python files of all 1329 files(71.03%).
+
+./data/airflow/2020_stats.csv:
+    Started at 02:12:32, ended at 02:12:44 (duration 0:00:12.070564).
+    There is 1103 Python files of all 1602 files(68.85%).
+
+./data/airflow/2021_stats.csv:
+    Started at 02:13:42, ended at 02:14:15 (duration 0:00:33.772858).
+    There is 2590 Python files of all 4013 files(64.54%).
+
+./data/airflow/2022_stats.csv:
+    Started at 02:15:14, ended at 02:15:39 (duration 0:00:25.258429).
+    There is 1836 Python files of all 3620 files(50.72%).
+
+./data/airflow/2023_stats.csv:
+    Started at 02:16:33, ended at 02:16:58 (duration 0:00:24.154441).
+    There is 1524 Python files of all 3256 files(46.81%).
+
+./data/ansible/2014_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print("#################################")? (<unknown>, line 27)
+
+./data/ansible/2015_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print("Ansible now needs setuptools in order to build. " \)? (<unknown>, line 12)
+
+./data/ansible/2016_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print("No hosts found")? (<unknown>, line 15)
+
+./data/ansible/2017_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print("UP ***********")? (<unknown>, line 75)
+
+./data/ansible/2018_stats.csv:
+invalid syntax (<unknown>, line 84)
+
+./data/authlib/2019_stats.csv:
+    Started at 02:21:29, ended at 02:21:32 (duration 0:00:03.098882).
+    There is 250 Python files of all 340 files(73.53%).
+
+./data/authlib/2020_stats.csv:
+    Started at 02:21:38, ended at 02:21:42 (duration 0:00:04.029393).
+    There is 326 Python files of all 440 files(74.09%).
+
+./data/authlib/2021_stats.csv:
+    Started at 02:21:48, ended at 02:21:52 (duration 0:00:03.534368).
+    There is 262 Python files of all 391 files(67.01%).
+
+./data/authlib/2022_stats.csv:
+    Started at 02:21:57, ended at 02:22:01 (duration 0:00:03.490105).
+    There is 268 Python files of all 401 files(66.83%).
+
+./data/authlib/2023_stats.csv:
+    Started at 02:22:07, ended at 02:22:10 (duration 0:00:03.526539).
+    There is 275 Python files of all 416 files(66.11%).
+
+./data/django/2014_stats.csv:
+    Started at 02:23:52, ended at 02:24:51 (duration 0:00:59.506725).
+    There is 1807 Python files of all 4942 files(36.56%).
+
+./data/django/2015_stats.csv:
+    Started at 02:27:06, ended at 02:28:11 (duration 0:01:04.682198).
+    There is 1920 Python files of all 5388 files(35.63%).
+
+./data/django/2016_stats.csv:
+invalid syntax (<unknown>, line 1)
+
+./data/django/2017_stats.csv:
+    Started at 02:32:26, ended at 02:33:28 (duration 0:01:02.063583).
+    There is 2342 Python files of all 5577 files(41.99%).
+
+./data/django/2018_stats.csv:
+    Started at 02:35:44, ended at 02:36:49 (duration 0:01:04.951319).
+    There is 2454 Python files of all 5881 files(41.73%).
+
+./data/fastapi/2019_stats.csv:
+    Started at 02:37:14, ended at 02:37:17 (duration 0:00:02.952322).
+    There is 194 Python files of all 302 files(64.24%).
+
+./data/fastapi/2020_stats.csv:
+    Started at 02:37:26, ended at 02:37:31 (duration 0:00:05.560524).
+    There is 436 Python files of all 621 files(70.21%).
+
+./data/fastapi/2021_stats.csv:
+    Started at 02:37:45, ended at 02:37:53 (duration 0:00:07.652506).
+    There is 548 Python files of all 921 files(59.50%).
+
+./data/fastapi/2022_stats.csv:
+    Started at 02:38:12, ended at 02:38:22 (duration 0:00:10.039385).
+    There is 747 Python files of all 1220 files(61.23%).
+
+./data/fastapi/2023_stats.csv:
+    Started at 02:38:43, ended at 02:38:53 (duration 0:00:09.952787).
+    There is 808 Python files of all 1388 files(58.21%).
+
+./data/flask/2019_stats.csv:
+    Started at 02:38:59, ended at 02:39:00 (duration 0:00:01.683151).
+    There is 71 Python files of all 225 files(31.56%).
+
+./data/flask/2020_stats.csv:
+    Started at 02:39:03, ended at 02:39:05 (duration 0:00:01.815611).
+    There is 73 Python files of all 221 files(33.03%).
+
+./data/flask/2021_stats.csv:
+    Started at 02:39:09, ended at 02:39:10 (duration 0:00:01.891400).
+    There is 75 Python files of all 235 files(31.91%).
+
+./data/flask/2022_stats.csv:
+    Started at 02:39:14, ended at 02:39:16 (duration 0:00:01.873753).
+    There is 75 Python files of all 239 files(31.38%).
+
+./data/flask/2023_stats.csv:
+    Started at 02:39:19, ended at 02:39:21 (duration 0:00:01.915766).
+    There is 83 Python files of all 253 files(32.81%).
+
+./data/keras/2019_stats.csv:
+    Started at 02:39:25, ended at 02:39:28 (duration 0:00:03.513012).
+    There is 192 Python files of all 259 files(74.13%).
+
+./data/keras/2020_stats.csv:
+    Started at 02:39:31, ended at 02:39:34 (duration 0:00:02.625717).
+    There is 172 Python files of all 237 files(72.57%).
+
+./data/keras/2021_stats.csv:
+    Started at 02:39:50, ended at 02:39:58 (duration 0:00:08.802129).
+    There is 512 Python files of all 1346 files(38.04%).
+
+./data/keras/2022_stats.csv:
+    Started at 02:40:16, ended at 02:40:26 (duration 0:00:09.642762).
+    There is 541 Python files of all 1405 files(38.51%).
+
+./data/keras/2023_stats.csv:
+    Started at 02:40:48, ended at 02:40:59 (duration 0:00:11.169743).
+    There is 701 Python files of all 1627 files(43.09%).
+
+./data/matplotlib/2014_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print(i,k)? (<unknown>, line 44)
+
+./data/matplotlib/2015_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print(i,k)? (<unknown>, line 42)
+
+./data/matplotlib/2016_stats.csv:
+    Started at 02:43:19, ended at 02:43:31 (duration 0:00:12.233490).
+    There is 859 Python files of all 3357 files(25.59%).
+
+./data/matplotlib/2017_stats.csv:
+    Started at 02:44:33, ended at 02:44:45 (duration 0:00:12.802488).
+    There is 861 Python files of all 4041 files(21.31%).
+
+./data/matplotlib/2018_stats.csv:
+    Started at 02:45:51, ended at 02:46:04 (duration 0:00:13.303752).
+    There is 867 Python files of all 4111 files(21.09%).
+
+./data/mopidy/2014_stats.csv:
+leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers (<unknown>, line 36)
+
+./data/mopidy/2015_stats.csv:
+bytes can only contain ASCII literal characters. (<unknown>, line 134)
+
+./data/mopidy/2016_stats.csv:
+bytes can only contain ASCII literal characters. (<unknown>, line 136)
+
+./data/mopidy/2017_stats.csv:
+    Started at 02:46:33, ended at 02:46:37 (duration 0:00:03.347418).
+    There is 202 Python files of all 364 files(55.49%).
+
+./data/mopidy/2018_stats.csv:
+    Started at 02:46:41, ended at 02:46:45 (duration 0:00:03.345461).
+    There is 202 Python files of all 366 files(55.19%).
+
+./data/numpy/2014_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print("Testing 4D Functions of Module SuperTensor")? (<unknown>, line 384)
+
+./data/numpy/2015_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print("Testing 4D Functions of Module SuperTensor")? (<unknown>, line 384)
+
+./data/numpy/2016_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print("Testing 4D Functions of Module SuperTensor")? (<unknown>, line 384)
+
+./data/numpy/2017_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print("Testing 4D Functions of Module SuperTensor")? (<unknown>, line 384)
+
+./data/numpy/2018_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print("Testing 4D Functions of Module SuperTensor")? (<unknown>, line 384)
+
+./data/pandas/2014_stats.csv:
+invalid syntax (<unknown>, line 74)
+
+./data/pandas/2015_stats.csv:
+invalid syntax (<unknown>, line 52)
+
+./data/pandas/2016_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print(target_module)? (<unknown>, line 117)
+
+./data/pandas/2017_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print(target_module)? (<unknown>, line 117)
+
+./data/pandas/2018_stats.csv:
+    Started at 02:49:42, ended at 02:49:58 (duration 0:00:16.366555).
+    There is 672 Python files of all 1280 files(52.50%).
+
+./data/pip/2019_stats.csv:
+'utf-8' codec can't decode byte 0xfa in position 104: invalid start byte
+
+./data/pip/2020_stats.csv:
+'utf-8' codec can't decode byte 0xfa in position 104: invalid start byte
+
+./data/pip/2021_stats.csv:
+'utf-8' codec can't decode byte 0xfa in position 104: invalid start byte
+
+./data/pip/2022_stats.csv:
+'utf-8' codec can't decode byte 0xfa in position 107: invalid start byte
+
+./data/pip/2023_stats.csv:
+'utf-8' codec can't decode byte 0xfa in position 106: invalid start byte
+
+./data/pylint/2019_stats.csv:
+invalid syntax (<unknown>, line 17)
+
+./data/pylint/2020_stats.csv:
+Missing parentheses in call to 'exec' (<unknown>, line 3)
+
+./data/pylint/2021_stats.csv:
+Missing parentheses in call to 'exec' (<unknown>, line 3)
+
+./data/pylint/2022_stats.csv:
+unexpected EOF while parsing (<unknown>, line 2)
+
+./data/pylint/2023_stats.csv:
+'utf-8' codec can't decode byte 0xe9 in position 105: invalid continuation byte
+
+./data/pytorch/2019_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print(dic['data'].shape, dic['labels'].shape)? (<unknown>, line 286)
+
+./data/pytorch/2020_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print("directory: " + directory)? (<unknown>, line 35)
+
+./data/pytorch/2021_stats.csv:
+invalid syntax (<unknown>, line 10)
+
+./data/pytorch/2022_stats.csv:
+    Started at 03:02:02, ended at 03:02:48 (duration 0:00:45.415875).
+    There is 2290 Python files of all 9074 files(25.24%).
+
+./data/pytorch/2023_stats.csv:
+    Started at 03:05:36, ended at 03:06:34 (duration 0:00:57.213495).
+    There is 2991 Python files of all 11012 files(27.16%).
+
+./data/sentry/2014_stats.csv:
+invalid syntax (<unknown>, line 171)
+
+./data/sentry/2015_stats.csv:
+Generator expression must be parenthesized (<unknown>, line 33)
+
+./data/sentry/2016_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print('Error: Sentry requires Python 2.7')? (<unknown>, line 30)
+
+./data/sentry/2017_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print('ERROR: could not import sentryext.  You need to check out the _sentryext submodule.')? (<unknown>, line 245)
+
+./data/sentry/2018_stats.csv:
+bytes can only contain ASCII literal characters. (<unknown>, line 5)
+
+./data/spark/2014_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print("%s" % PUSH_REMOTE_NAME)? (<unknown>, line 41)
+
+./data/spark/2015_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print("This tool requires the jira-python library")? (<unknown>, line 30)
+
+./data/spark/2016_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print("This tool requires the jira-python library")? (<unknown>, line 30)
+
+./data/spark/2017_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print("This tool requires the jira-python library")? (<unknown>, line 30)
+
+./data/spark/2018_stats.csv:
+    Started at 03:28:15, ended at 03:28:48 (duration 0:00:32.670946).
+    There is 259 Python files of all 14456 files(1.79%).
+
+./data/superset/2019_stats.csv:
+    Started at 03:29:36, ended at 03:29:43 (duration 0:00:07.277360).
+    There is 298 Python files of all 1299 files(22.94%).
+
+./data/superset/2020_stats.csv:
+    Started at 03:30:05, ended at 03:30:12 (duration 0:00:06.995198).
+    There is 314 Python files of all 1280 files(24.53%).
+
+./data/superset/2021_stats.csv:
+    Started at 03:30:52, ended at 03:31:05 (duration 0:00:13.015061).
+    There is 659 Python files of all 2583 files(25.51%).
+
+./data/superset/2022_stats.csv:
+    Started at 03:31:59, ended at 03:32:17 (duration 0:00:17.520625).
+    There is 823 Python files of all 3072 files(26.79%).
+
+./data/superset/2023_stats.csv:
+    Started at 03:33:42, ended at 03:34:10 (duration 0:00:27.783901).
+    There is 1090 Python files of all 4787 files(22.77%).
+
+./data/theano/2014_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print('SKIPPING optimizations')? (<unknown>, line 127)
+
+./data/theano/2015_stats.csv:
+Missing parentheses in call to 'print'. Did you mean print('SKIPPING optimizations')? (<unknown>, line 125)
+
+./data/theano/2016_stats.csv:
+    Started at 03:34:49, ended at 03:34:59 (duration 0:00:10.285213).
+    There is 408 Python files of all 764 files(53.40%).
+
+./data/theano/2017_stats.csv:
+    Started at 03:35:10, ended at 03:35:21 (duration 0:00:10.908364).
+    There is 423 Python files of all 868 files(48.73%).
+
+./data/theano/2018_stats.csv:
+    Started at 03:35:33, ended at 03:35:43 (duration 0:00:10.828574).
+    There is 380 Python files of all 833 files(45.62%).
+
+./data/wagtail/2019_stats.csv:
+    Started at 03:36:49, ended at 03:37:22 (duration 0:00:33.568659).
+    There is 745 Python files of all 3043 files(24.48%).
+
+./data/wagtail/2020_stats.csv:
+    Started at 03:38:39, ended at 03:39:12 (duration 0:00:33.112632).
+    There is 776 Python files of all 3161 files(24.55%).
+
+./data/wagtail/2021_stats.csv:
+    Started at 03:40:41, ended at 03:41:20 (duration 0:00:38.284107).
+    There is 911 Python files of all 3721 files(24.48%).
+
+./data/wagtail/2022_stats.csv:
+    Started at 03:43:10, ended at 03:43:56 (duration 0:00:45.757951).
+    There is 1033 Python files of all 4465 files(23.14%).
+
+./data/wagtail/2023_stats.csv:
+    Started at 03:45:48, ended at 03:46:37 (duration 0:00:48.445458).
+    There is 1177 Python files of all 4708 files(25.00%).
+
+./data/youtube-dl/2014_stats.csv:
+    Started at 03:46:56, ended at 03:47:00 (duration 0:00:03.866080).
+    There is 224 Python files of all 243 files(92.18%).
+
+./data/youtube-dl/2015_stats.csv:
+    Started at 03:47:06, ended at 03:47:12 (duration 0:00:06.149692).
+    There is 483 Python files of all 527 files(91.65%).
+
+./data/youtube-dl/2016_stats.csv:
+    Started at 03:47:19, ended at 03:47:27 (duration 0:00:07.416508).
+    There is 624 Python files of all 669 files(93.27%).
+
+./data/youtube-dl/2017_stats.csv:
+    Started at 03:47:36, ended at 03:47:44 (duration 0:00:08.787446).
+    There is 764 Python files of all 814 files(93.86%).
+
+./data/youtube-dl/2018_stats.csv:
+    Started at 03:47:55, ended at 03:48:05 (duration 0:00:09.762716).
+    There is 830 Python files of all 890 files(93.26%).
+
+./data/zulip/2019_stats.csv:
+    Started at 03:48:56, ended at 03:49:13 (duration 0:00:17.280085).
+    There is 902 Python files of all 3916 files(23.03%).
+
+./data/zulip/2020_stats.csv:
+    Started at 03:50:13, ended at 03:50:33 (duration 0:00:19.542030).
+    There is 1024 Python files of all 4143 files(24.72%).
+
+./data/zulip/2021_stats.csv:
+    Started at 03:51:39, ended at 03:51:59 (duration 0:00:19.913315).
+    There is 1100 Python files of all 4546 files(24.20%).
+
+./data/zulip/2022_stats.csv:
+    Started at 03:53:08, ended at 03:53:31 (duration 0:00:22.447594).
+    There is 1153 Python files of all 4785 files(24.10%).
+
+./data/zulip/2023_stats.csv:
+    Started at 03:54:55, ended at 03:55:20 (duration 0:00:24.862380).
+    There is 1363 Python files of all 5888 files(23.15%).
+

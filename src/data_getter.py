@@ -7,41 +7,66 @@ import os
 import sys
 import ast
 import csv
+from datetime import datetime
 
 stats_dictionary = {}
 field_names = ["name", "all", "function def", "class def", "import", "exception", "param", "keyword", "alias", "object decl", "object", "case_convention", "words"]
 
 
-def get_data(path: str, output: str):
-    # Sprawdzenie poprawności ścieżki
-    if not os.path.isdir(path):
-        error("That is not dir path.")
-        return 1
-    
-    n_of_py = 0
-    n_of_others = 0
+def get_data(input: str, output: str):
+    try:
+        startTime = datetime.now()
 
-    # Przechodzenie po katalogu
-    for path, subfiles, files in os.walk(path):
-        for file_name in files:
-            x  = file_name.split(".", 1)
-            if len(x) > 1 and x[1] == "py":
-                add_to_statistics(path + "/" + file_name)
-                n_of_py += 1 
-            else:
-                n_of_others += 1
+        # Sprawdzenie poprawności ścieżki
+        if not os.path.isdir(input):
+            error("That is not dir path.")
+            return 1
+        
+        n_of_py = 0
+        n_of_others = 0
 
-    # Zapisanie danych do pliku
-    with open(output, "w", -1, "utf-8") as stats_file:
-        csvwriter = csv.DictWriter(stats_file, fieldnames=field_names)
-        csvwriter.writeheader()
-        for key, value in stats_dictionary.items():
-            value["name"] = key
-            csvwriter.writerow(value)
-    
-    # Zakończenie progamu
-    n = n_of_others + n_of_py
-    print("There is " + str(n_of_py) + " Python files of " + str(n) + " of all files.\n\n")
+        # Przechodzenie po katalogu
+        for path, subfiles, files in os.walk(input):
+            for file_name in files:
+                x  = file_name.split(".", 1)
+                if len(x) > 1 and x[1] == "py":
+                    add_to_statistics(path + "/" + file_name)
+                    n_of_py += 1 
+                else:
+                    n_of_others += 1
+
+        # Zapisanie danych do pliku
+        with open(output, "w", -1, "utf-8") as stats_file:
+            csvwriter = csv.DictWriter(stats_file, fieldnames=field_names)
+            csvwriter.writeheader()
+            for key, value in stats_dictionary.items():
+                value["name"] = key
+                csvwriter.writerow(value)
+        
+        endTime = datetime.now()
+    except Exception as e:
+        with open("./log.txt", "a", -1, "utf-8") as log:
+            log.write(f'{output}:\n')
+            log.write(f'{e}\n\n')
+
+        print(f'{output}:')
+        print(f'{e}\n')
+
+    else:
+        # Zakończenie progamu
+        n = n_of_others + n_of_py
+        percent_of_py = n_of_py * 100 / n
+        duration = endTime - startTime
+
+        with open("./log.txt", "a", -1, "utf-8") as log:
+            log.write(f'{output}:\n')
+            log.write(f'    Started at {startTime:%H:%M:%S}, ended at {endTime:%H:%M:%S} (duration {duration}).\n')
+            log.write(f'    There is {n_of_py} Python files of all {n} files({percent_of_py:.2f}%).\n\n')
+
+        print(f'{output}:')
+        print(f'    Started at {startTime:%H:%M:%S}, ended at {endTime:%H:%M:%S} (duration {duration}).')
+        print(f'    There is {n_of_py} Python files of all {n} files ({percent_of_py:.2f}%).\n')
+
     return 0
 
 
