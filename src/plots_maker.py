@@ -5,6 +5,7 @@ import os
 import matplotlib.pyplot as plt
 import numpy as np
 import nltk
+from datetime import datetime
 
 
 def make_plots (data: dict, repo_name: str, path: str):
@@ -24,10 +25,11 @@ def make_plots (data: dict, repo_name: str, path: str):
     make_procent_of_functions_with_verb_plot(data, path)
     make_number_of_functions_with_verb_plot(data, path)
     make_words_to_avoid_in_procents_plot(data, path)
-    make_words_to_avoid_plot(data, path)
+    make_number_of_words_to_avoid_plot(data, path)
     make_procent_of_good_convention_plot(data, path)
     make_number_of_bad_convention_plot(data, path)
 
+    plt.close('all')
     endTime = datetime.now()
     duration = endTime - startTime
 
@@ -276,7 +278,7 @@ def make_words_to_avoid_in_procents_plot(data, path):
     fig.savefig(path + "words_to_avoid_in_procents_plot.jpg")
 
 
-def make_words_to_avoid_number_plot(data, path):
+def make_number_of_words_to_avoid_plot(data, path):
     words_to_avoid = ["klass", 'clss']
 
     fig,ax = plt.subplots()
@@ -297,7 +299,7 @@ def make_words_to_avoid_number_plot(data, path):
     ax.plot(df.keys(), df.values(), label="Liczba nazw ze słowami do omijania")
     
     fig.legend()
-    fig.savefig(path + "words_to_avoid_plot.jpg")
+    fig.savefig(path + "number_of_words_to_avoid_plot.jpg")
 
     
 def make_procent_of_good_convention_plot(data, path):

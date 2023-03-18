@@ -24,7 +24,7 @@ def main (path_in:str, path_out: str):
                 timestamp = file_name[:-10]
                 dfs[timestamp] = pd.read_csv(path + "/" + file_name)
                 dfs[timestamp]["len"] = dfs[timestamp]["name"].apply(lambda x: len(str(x)))
-        if files:
+        if len(dfs) > 0:
             make_plots(dfs, path.split("/")[-1], path_out)
 
     # Zakończenie progamu
