@@ -1,0 +1,2603 @@
+name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,case_convention,words
+test_simple_string_ipv4_port,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'simple', 'string', 'ipv4', 'port']"
+child,6,,,,,,,,,6,lowercase,['child']
+actual_pass,6,,,,,,,,,6,lower_case_with_underscores,"['actual', 'pass']"
+prefix,7,,,,,,2,,,5,lowercase,['prefix']
+sleep,5,,,,,,,,,5,lowercase,['sleep']
+test_playbook_ignore_errors,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'playbook', 'ignore', 'errors']"
+dist,1,,,,,,,,,1,lowercase,['dist']
+aliases,13,,,,,,1,,,12,lowercase,['aliases']
+callback_loader,2,,,,,,,,,2,lower_case_with_underscores,"['callback', 'loader']"
+all_ssh_keys,1,,,,,,,,,1,lower_case_with_underscores,"['all', 'ssh', 'keys']"
+Host,16,,1,6,,,,,,9,CapitalizedWords,['host']
+is_set,1,1,,,,,,,,,lower_case_with_underscores,"['is', 'set']"
+dest_dir,2,,,,,,,,,2,lower_case_with_underscores,"['dest', 'dir']"
+DefaultRunnerCallbacks,5,,1,1,,,,,,3,CapitalizedWords,"['default', 'runner', 'callbacks']"
+sha256,2,1,,1,,,,,,,lowercase,['sha256']
+spec,9,,,,,,,,,9,lowercase,['spec']
+localtime,4,,,,,,,,,4,lowercase,['localtime']
+updated,3,,,,,,,,,3,lowercase,['updated']
+msg2,6,,,,,,,,,6,lowercase,['msg2']
+get_template,6,,,,,,,,,6,lower_case_with_underscores,"['get', 'template']"
+my_list,9,,,,,,,,,9,lower_case_with_underscores,"['my', 'list']"
+gce_ini_default_path,2,,,,,,,,,2,lower_case_with_underscores,"['gce', 'ini', 'default', 'path']"
+encoded_args,3,,,,,,,,,3,lower_case_with_underscores,"['encoded', 'args']"
+template_uid,3,,,,,,,,,3,lower_case_with_underscores,"['template', 'uid']"
+isdir,17,,,,,,,,,17,lowercase,['isdir']
+lchmod,1,,,,,,,,,1,lowercase,['lchmod']
+test_async,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'async']"
+accport,10,,,,,,,,,10,lowercase,['accport']
+cmd,92,,,,,,6,,,86,lowercase,['cmd']
+Decrypt,1,,,,,,,,,1,CapitalizedWords,['decrypt']
+html_last_updated_fmt,1,,,,,,,,,1,lower_case_with_underscores,"['html', 'last', 'updated', 'fmt']"
+_check_for_check_mode,2,1,,,,,,,,1,lower_case_with_underscores,"['check', 'for', 'check', 'mode']"
+chrootsh,2,,,,,,,,,2,lowercase,['chrootsh']
+shlex,18,,,9,,,,,,9,lowercase,['shlex']
+vars_prompt,5,,,,,,,,,5,lower_case_with_underscores,"['vars', 'prompt']"
+ksmeta,1,,,,,,,,,1,lowercase,['ksmeta']
+selinux_context,4,1,,,,,,,,3,lower_case_with_underscores,"['selinux', 'context']"
+force,3,,,,,,1,,,2,lowercase,['force']
+test_check_conditional_jinja2_literals,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'check', 'conditional', 'jinja2', 'literals']"
+sampleroot,6,,,,,,,,,6,lowercase,['sampleroot']
+lgetfilecon_raw,1,,,,,,,,,1,lower_case_with_underscores,"['lgetfilecon', 'raw']"
+second,2,,,,,,,,,2,lowercase,['second']
+tcgetattr,1,,,,,,,,,1,lowercase,['tcgetattr']
+route53_enabled,3,,,,,,,,,3,lower_case_with_underscores,"['route53', 'enabled']"
+errors,267,,,56,,,,7,,204,lowercase,['errors']
+load_platform_subclass,1,1,,,,,,,,,lower_case_with_underscores,"['load', 'platform', 'subclass']"
+item0,10,,,,,,,,,10,lowercase,['item0']
+item1,2,,,,,,,,,2,lowercase,['item1']
+exclude_patterns,1,,,,,,,,,1,lower_case_with_underscores,"['exclude', 'patterns']"
+instance_class,1,,,,,,,,,1,lower_case_with_underscores,"['instance', 'class']"
+instance_vars,22,,,,,,,,,22,lower_case_with_underscores,"['instance', 'vars']"
+new,1,,,,,,,,,1,lowercase,['new']
+net,8,,,,,,,,,8,lowercase,['net']
+SphinxBuilder,2,,1,,,,,,,1,CapitalizedWords,"['sphinx', 'builder']"
+metadata,3,,,,,,,,,3,lowercase,['metadata']
+DOCUMENTATION,3,,,,,,,,,3,UPPERCASE,"['documentatio', 'n']"
+today_fmt,1,,,,,,,,,1,lower_case_with_underscores,"['today', 'fmt']"
+_system_host_keys,1,,,,,,,,,1,lower_case_with_underscores,"['system', 'host', 'keys']"
+GW2,2,,,,,,,,,2,UPPERCASE,['gw2']
+atfork,2,,,1,,,,,,1,lowercase,['atfork']
+gettempdir,1,,,,,,,,,1,lowercase,['gettempdir']
+test_lineinfile_backrefs,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'lineinfile', 'backrefs']"
+USE_PD,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['use', 'pd']"
+codecs,5,,,3,,,,,,2,lowercase,['codecs']
+S_ISDIR,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['s', 'isdir']"
+path,633,,,8,,,12,,,613,lowercase,['path']
+parse_json,12,1,,,,,,,,11,lower_case_with_underscores,"['parse', 'json']"
+is_cache_valid,10,5,,,,,,,,5,lower_case_with_underscores,"['is', 'cache', 'valid']"
+digits,4,,,2,,,,,,2,lowercase,['digits']
+cache_key,11,,,,,,,,,11,lower_case_with_underscores,"['cache', 'key']"
+HTTPPasswordMgrWithDefaultRealm,1,,,,,,,,,1,CapitalizedWords,"['http', 'password', 'mgr', 'with', 'default', 'realm']"
+task_basepath,2,,,,,,,,,2,lower_case_with_underscores,"['task', 'basepath']"
+items,41,,,,,,,,,41,lowercase,['items']
+k,164,,,,,,1,,,163,b,['k']
+changed,68,1,,,,,13,,,54,lowercase,['changed']
+get_variables,22,3,,,,,,,,19,lower_case_with_underscores,"['get', 'variables']"
+my_lookup,4,2,,,,,,,,2,lower_case_with_underscores,"['my', 'lookup']"
+zabbix_api,1,,,1,,,,,,,lower_case_with_underscores,"['zabbix', 'api']"
+get_systems,1,,,,,,,,,1,lower_case_with_underscores,"['get', 'systems']"
+Group,21,,1,6,,,,,,14,CapitalizedWords,['group']
+secure,3,,,,,,1,,,2,lowercase,['secure']
+variable_start_string,1,,,,,,1,,,,lower_case_with_underscores,"['variable', 'start', 'string']"
+replace,50,,,,,,,,,50,lowercase,['replace']
+module_dir,6,,,,,,,,,6,lower_case_with_underscores,"['module', 'dir']"
+counts,3,,,,,,,,,3,lowercase,['counts']
+ord,2,,,,,,,,,2,lowercase,['ord']
+master_doc,1,,,,,,,,,1,lower_case_with_underscores,"['master', 'doc']"
+module_list,2,,,,,,,,,2,lower_case_with_underscores,"['module', 'list']"
+abs_dir,3,,,,,,,,,3,lower_case_with_underscores,"['abs', 'dir']"
+DEST,1,,,,,,,,,1,UPPERCASE,"['des', 't']"
+to,3,,,,,,,,,3,lowercase,['to']
+FileSystemLoader,3,,,1,,,,,,2,CapitalizedWords,"['file', 'system', 'loader']"
+serole,5,,,,,,2,,,3,lowercase,['serole']
+unfrackpath,3,1,,,,,,,,2,lowercase,['unfrackpath']
+imported_file,7,,,,,,,,,7,lower_case_with_underscores,"['imported', 'file']"
+sample,43,,,,,,,,,43,lowercase,['sample']
+is_selinux_enabled,1,,,,,,,,,1,lower_case_with_underscores,"['is', 'selinux', 'enabled']"
+call,2,,,,,,,,,2,lowercase,['call']
+dns,6,,,2,,,,,,4,lowercase,['dns']
+files2,2,,,,,,,,,2,lowercase,['files2']
+type,114,,,,,,4,,,110,lowercase,['type']
+until,6,,,,,,,,,6,lowercase,['until']
+i_end,3,,,,,,,,,3,lower_case_with_underscores,"['i', 'end']"
+isatty,1,,,,,,,,,1,lowercase,['isatty']
+st_nlink,1,,,,,,,,,1,lower_case_with_underscores,"['st', 'nlink']"
+DIST_MODULE_PATH,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['dist', 'module', 'path']"
+accumulated_plays,4,,,,,,,,,4,lower_case_with_underscores,"['accumulated', 'plays']"
+webbrowser,2,,,1,,,,,,1,lowercase,['webbrowser']
+DEFAULT_REMOTE_PORT,6,,,,,,,,,6,UPPER_CASE_WITH_UNDERSCORES,"['default', 'remote', 'port']"
+get_platform,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'platform']"
+unpack,1,,,,,,,,,1,lowercase,['unpack']
+add_child_group,11,1,,,,,,,,10,lower_case_with_underscores,"['add', 'child', 'group']"
+branch_path,4,,,,,,,,,4,lower_case_with_underscores,"['branch', 'path']"
+from_string,2,,,,,,,,,2,lower_case_with_underscores,"['from', 'string']"
+join,188,,,,,,,,,188,lowercase,['join']
+err,36,1,,,,,,,,35,lowercase,['err']
+output_opts,2,,,,,,,,,2,lower_case_with_underscores,"['output', 'opts']"
+extra_vars,14,,,,,,1,,,13,lower_case_with_underscores,"['extra', 'vars']"
+setup,15,2,,1,,,1,,,11,lowercase,['setup']
+strerror,3,,,,,,,,,3,lowercase,['strerror']
+mv,6,,,,,,,,,6,lowercase,['mv']
+fnmatch,8,,,2,,,,,,6,lowercase,['fnmatch']
+allgroup,2,,,,,,,,,2,lowercase,['allgroup']
+DEFAULT_ASK_PASS,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['default', 'ask', 'pass']"
+smtp,3,,,,,,,,,3,lowercase,['smtp']
+compare_tags,2,1,,,,,,,,1,lower_case_with_underscores,"['compare', 'tags']"
+OSError,22,,,,,,,,,22,CapitalizedWords,"['os', 'error']"
+end,45,,,,,,2,,,43,lowercase,['end']
+actual_port,11,,,,,,,,,11,lower_case_with_underscores,"['actual', 'port']"
+MSG_FORMAT,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['msg', 'format']"
+test_callback,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'callback']"
+on_no_hosts,7,4,,,,,,,,3,lower_case_with_underscores,"['on', 'no', 'hosts']"
+_check_invalid_arguments,2,1,,,,,,,,1,lower_case_with_underscores,"['check', 'invalid', 'arguments']"
+max_fail_pct,5,,,,,,,,,5,lower_case_with_underscores,"['max', 'fail', 'pct']"
+unmatched_tags,4,,,,,,,,,4,lower_case_with_underscores,"['unmatched', 'tags']"
+env,25,,,,,,1,,,24,lowercase,['env']
+zabbix_username,4,,,,,,,,,4,lower_case_with_underscores,"['zabbix', 'username']"
+pathname,4,,,,,,,,,4,lowercase,['pathname']
+ancestor,2,,,,,,,,,2,lowercase,['ancestor']
+config,88,,,,,,,,,88,lowercase,['config']
+TestInventory,2,,2,,,,,,,,CapitalizedWords,"['test', 'inventory']"
+ipv6_re,2,,,,,,,,,2,lower_case_with_underscores,"['ipv6', 're']"
+description,9,,,,,,9,,,,lowercase,['description']
+after,4,,,,,,4,,,,lowercase,['after']
+is_chained,2,,,,,,,,,2,lower_case_with_underscores,"['is', 'chained']"
+summarize,2,1,,,,,,,,1,lowercase,['summarize']
+exec_command,11,8,,,,,,,,3,lower_case_with_underscores,"['exec', 'command']"
+constants,56,,,29,,,,,,27,lowercase,['constants']
+on_file_diff,6,3,,,,,,,,3,lower_case_with_underscores,"['on', 'file', 'diff']"
+loader,6,,,,,,2,,,4,lowercase,['loader']
+alias,5,,,,,,,,,5,lowercase,['alias']
+environ,37,,,,,,,,,37,lowercase,['environ']
+is_new_style,1,,,,,,,,,1,lower_case_with_underscores,"['is', 'new', 'style']"
+json_inventory,8,,,,,,,,,8,lower_case_with_underscores,"['json', 'inventory']"
+restriction,10,,,,,,,,,10,lowercase,['restriction']
+test_check_conditional_jinja2_expression_in_variable,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'check', 'conditional', 'jinja2', 'expression', 'in', 'variable']"
+check_list_of_one_list,3,1,,,,,,,,2,lower_case_with_underscores,"['check', 'list', 'of', 'one', 'list']"
+vars,162,,,,,,2,,,160,lowercase,['vars']
+_async_notified,10,,,,,,,,,10,lower_case_with_underscores,"['async', 'notified']"
+on_any,4,4,,,,,,,,,lower_case_with_underscores,"['on', 'any']"
+category_names,3,,,,,,,,,3,lower_case_with_underscores,"['category', 'names']"
+_is_valid_tag,2,1,,,,,,,,1,lower_case_with_underscores,"['is', 'valid', 'tag']"
+top_level_url,2,,,,,,,,,2,lower_case_with_underscores,"['top', 'level', 'url']"
+globbed,2,,,,,,,,,2,lowercase,['globbed']
+CONF_FILE,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['conf', 'file']"
+destination_variable,2,,,,,,,,,2,lower_case_with_underscores,"['destination', 'variable']"
+libcloud,5,,,5,,,,,,,lowercase,['libcloud']
+S_IMODE,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['s', 'imode']"
+digest,11,,,,,,,,,11,lowercase,['digest']
+runner_on_async_poll,3,3,,,,,,,,,lower_case_with_underscores,"['runner', 'on', 'async', 'poll']"
+hostsData,2,,,,,,,,,2,mixedCase,"['hosts', 'data']"
+AUTHENTICITY_MSG,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['authenticity', 'msg']"
+HOST_KEY_CHECKING,6,,,,,,,,,6,UPPER_CASE_WITH_UNDERSCORES,"['host', 'key', 'checking']"
+endpoint,1,,,,,,,,,1,lowercase,['endpoint']
+_connect_uncached,2,1,,,,,,,,1,lower_case_with_underscores,"['connect', 'uncached']"
+NameError,1,,,,,,,,,1,CapitalizedWords,"['name', 'error']"
+imp,3,,,1,,,,,,2,lowercase,['imp']
+kwargs,42,,,,,,,,,42,lowercase,['kwargs']
+load_chube_config,1,,,,,,,,,1,lower_case_with_underscores,"['load', 'chube', 'config']"
+html_style,1,,,,,,,,,1,lower_case_with_underscores,"['html', 'style']"
+variables,3,,,,,,,,,3,lowercase,['variables']
+cls,9,,,,,,,,,9,lowercase,['cls']
+clear_hosts_cache,5,1,,,,,,,,4,lower_case_with_underscores,"['clear', 'hosts', 'cache']"
+fragment,3,,,,,,,,,3,lowercase,['fragment']
+INAME6,6,,,,,,,,,6,UPPERCASE,['iname6']
+INAME7,5,,,,,,,,,5,UPPERCASE,['iname7']
+INAME4,10,,,,,,,,,10,UPPERCASE,['iname4']
+INAME5,10,,,,,,,,,10,UPPERCASE,['iname5']
+jinja2,20,,,5,,,2,,,13,lowercase,['jinja2']
+INAME3,10,,,,,,,,,10,UPPERCASE,['iname3']
+TemporaryFile,2,,,,,,,,,2,CapitalizedWords,"['temporary', 'file']"
+add_locals,2,1,,,,,,,,1,lower_case_with_underscores,"['add', 'locals']"
+acmd,3,,,,,,,,,3,lowercase,['acmd']
+inventory,255,,,24,,,2,1,,228,lowercase,['inventory']
+_get_variables,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'variables']"
+test_large_range,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'large', 'range']"
+dumps,39,,,,,,,,,39,lowercase,['dumps']
+template_from_file,6,1,,,,,,,,5,lower_case_with_underscores,"['template', 'from', 'file']"
+timeout,19,,,,,,5,,,14,lowercase,['timeout']
+raw_data,3,,,,,,,,,3,lower_case_with_underscores,"['raw', 'data']"
+run_ansible_playbook,3,1,,,,,,,,2,lower_case_with_underscores,"['run', 'ansible', 'playbook']"
+is_handler,2,,,,,,,,,2,lower_case_with_underscores,"['is', 'handler']"
+set_missing_host_key_policy,1,,,,,,,,,1,lower_case_with_underscores,"['set', 'missing', 'host', 'key', 'policy']"
+on_setup,3,2,,,,,,,,1,lower_case_with_underscores,"['on', 'setup']"
+write_tree_file,3,1,,,,,,,,2,lower_case_with_underscores,"['write', 'tree', 'file']"
+_cache_key,3,1,,,,,,,,2,lower_case_with_underscores,"['cache', 'key']"
+test_assemble,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'assemble']"
+snippet_path,3,,,,,,,,,3,lower_case_with_underscores,"['snippet', 'path']"
+t2,4,,,,,,,,,4,lowercase,['t2']
+_stop,2,1,,,,,,,,1,lowercase,['stop']
+pathlist,4,,,,,,,,,4,lowercase,['pathlist']
+get_all_dbinstances,1,,,,,,,,,1,lower_case_with_underscores,"['get', 'all', 'dbinstances']"
+InventoryDirectory,4,,1,1,,,,,,2,CapitalizedWords,"['inventory', 'directory']"
+aliases_results,3,,,,,,,,,3,lower_case_with_underscores,"['aliases', 'results']"
+flock,2,,,,,,,,,2,lowercase,['flock']
+getch,3,1,,1,,,,,,1,lowercase,['getch']
+banner_cowsay,2,1,,,,,,,,1,lower_case_with_underscores,"['banner', 'cowsay']"
+basedir,295,1,,,,,8,,,286,lowercase,['basedir']
+content,26,,,,,,1,,,25,lowercase,['content']
+re,47,,,18,,,,,,29,lowercase,['re']
+rf,2,,,,,,,,,2,lowercase,['rf']
+to_nice_json,2,1,,,,,,,,1,lower_case_with_underscores,"['to', 'nice', 'json']"
+rc,27,,,,,,5,,,22,lowercase,['rc']
+got,2,,,,,,,,,2,lowercase,['got']
+incompatibles,2,,,,,,,,,2,lowercase,['incompatibles']
+is_lookup,9,,,,,,,,,9,lower_case_with_underscores,"['is', 'lookup']"
+GCE,2,,,,,,,,,2,UPPERCASE,"['gc', 'e']"
+TestFilters,1,,1,,,,,,,,CapitalizedWords,"['test', 'filters']"
+orig_gid,3,,,,,,,,,3,lower_case_with_underscores,"['orig', 'gid']"
+wanted,9,,,,,,,,,9,lowercase,['wanted']
+md5,11,2,,6,,,,,,3,lowercase,['md5']
+part_start,9,,,,,,,,,9,lower_case_with_underscores,"['part', 'start']"
+sys,179,,,37,,,,,,142,lowercase,['sys']
+logging,7,,,2,,,,,,5,lowercase,['logging']
+includes_file,3,,,,,,,,,3,lower_case_with_underscores,"['includes', 'file']"
+traceback,27,,,12,,,,,,15,lowercase,['traceback']
+dep_defaults_data,3,,,,,,,,,3,lower_case_with_underscores,"['dep', 'defaults', 'data']"
+filter,2,,,,,,1,,,1,lowercase,['filter']
+ST_SIZE,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['st', 'size']"
+_TO_UNICODE_TYPES,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['to', 'unicode', 'types']"
+close_fds,5,,,,,,2,,,3,lower_case_with_underscores,"['close', 'fds']"
+_partition_results,2,1,,,,,,,,1,lower_case_with_underscores,"['partition', 'results']"
+render,2,,,,,,,,,2,lowercase,['render']
+makefile,1,,,,,,,,,1,lowercase,['makefile']
+remote_pass,13,,,,,,4,,,9,lower_case_with_underscores,"['remote', 'pass']"
+CIDR1,7,,,,,,,,,7,UPPERCASE,['cidr1']
+enumerate,4,,,,,,,,,4,lowercase,['enumerate']
+salt_size,13,,,,,,2,,,11,lower_case_with_underscores,"['salt', 'size']"
+basestring,42,,,,,,,,,42,lowercase,['basestring']
+isalnum,1,,,,,,,,,1,lowercase,['isalnum']
+_apply_ranges,2,1,,,,,,,,1,lower_case_with_underscores,"['apply', 'ranges']"
+add_instance,2,1,,,,,,,,1,lower_case_with_underscores,"['add', 'instance']"
+module_result,6,,,,,,,,,6,lower_case_with_underscores,"['module', 'result']"
+NUM,4,,,,,,,,,4,UPPERCASE,"['nu', 'm']"
+master,2,,,,,,,,,2,lowercase,['master']
+autoclass_content,1,,,,,,,,,1,lower_case_with_underscores,"['autoclass', 'content']"
+DEFAULT_SYSLOG_FACILITY,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['default', 'syslog', 'facility']"
+warns,3,,,,,,,,,3,lowercase,['warns']
+_check_argument_values,2,1,,,,,,,,1,lower_case_with_underscores,"['check', 'argument', 'values']"
+_find_snippet_imports,2,1,,,,,,,,1,lower_case_with_underscores,"['find', 'snippet', 'imports']"
+pattern_str,4,,,,,,,,,4,lower_case_with_underscores,"['pattern', 'str']"
+add_host,16,1,,,,,,,,15,lower_case_with_underscores,"['add', 'host']"
+filtered_lines,3,,,,,,,,,3,lower_case_with_underscores,"['filtered', 'lines']"
+sudo_prompt,3,,,,,,,,,3,lower_case_with_underscores,"['sudo', 'prompt']"
+tokens,57,,,,,,,,,57,lowercase,['tokens']
+sha1,2,,,1,,,,,,1,lowercase,['sha1']
+abs_dirs,4,,,,,,,,,4,lower_case_with_underscores,"['abs', 'dirs']"
+runner_results,3,,,,,,,,,3,lower_case_with_underscores,"['runner', 'results']"
+role_vars,15,,,,,,,,,15,lower_case_with_underscores,"['role', 'vars']"
+get_driver,4,,,2,,,,,,2,lower_case_with_underscores,"['get', 'driver']"
+target,3,,,,,,1,,,2,lowercase,['target']
+roles,13,,,,,,,,,13,lowercase,['roles']
+tree,15,,,,,,,,,15,lowercase,['tree']
+project,1,,,,,,,,,1,lowercase,['project']
+CallbackModule,6,,6,,,,,,,,CapitalizedWords,"['callback', 'module']"
+outputname,11,,,,,,,,,11,lowercase,['outputname']
+runner,385,,,25,,,29,,,331,lowercase,['runner']
+mine,4,,,,,,,,,4,lowercase,['mine']
+private_key_file,35,,,,,,5,,,30,lower_case_with_underscores,"['private', 'key', 'file']"
+raw,26,,,,,,1,,,25,lowercase,['raw']
+seed,1,,,,,,,,,1,lowercase,['seed']
+slurpres,4,,,,,,,,,4,lowercase,['slurpres']
+seen,5,,,,,,,,,5,lowercase,['seen']
+seek,1,,,,,,,,,1,lowercase,['seek']
+import_tags,8,,,,,,,,,8,lower_case_with_underscores,"['import', 'tags']"
+jls_cmd,3,,,,,,,,,3,lower_case_with_underscores,"['jls', 'cmd']"
+finditer,1,,,,,,,,,1,lowercase,['finditer']
+ktype,2,,,,,,,,,2,lowercase,['ktype']
+record_set,3,,,,,,,,,3,lower_case_with_underscores,"['record', 'set']"
+get_flags,4,1,,,,,,,,3,lower_case_with_underscores,"['get', 'flags']"
+that,4,,,,,,,,,4,lowercase,['that']
+altzone,1,,,,,,,,,1,lowercase,['altzone']
+parameter_group,1,,,,,,,,,1,lower_case_with_underscores,"['parameter', 'group']"
+template_class,2,,,,,,,,,2,lower_case_with_underscores,"['template', 'class']"
+fname,9,,,,,,,,,9,lowercase,['fname']
+add_group,5,2,,,,,,,,3,lower_case_with_underscores,"['add', 'group']"
+sub_folders,1,,,,,,,,,1,lower_case_with_underscores,"['sub', 'folders']"
+_search_executable,3,1,,,,,,,,2,lower_case_with_underscores,"['search', 'executable']"
+get_host_variables,5,3,,,,,,,,2,lower_case_with_underscores,"['get', 'host', 'variables']"
+data2,2,,,,,,,,,2,lowercase,['data2']
+hostfiledir,5,,,,,,,,,5,lowercase,['hostfiledir']
+sudocmd,4,,,,,,,,,4,lowercase,['sudocmd']
+HC3,6,,,,,,,,,6,UPPERCASE,['hc3']
+glob,21,,,6,,,,,,15,lowercase,['glob']
+object,88,,,,,,,,,88,lowercase,['object']
+_datacenter_cache,5,,,,,,,,,5,lower_case_with_underscores,"['datacenter', 'cache']"
+scripts,1,,,,,,1,,,,lowercase,['scripts']
+sudo_user_var,3,,,,,,,,,3,lower_case_with_underscores,"['sudo', 'user', 'var']"
+test_simple_string_ipv4_vars,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'simple', 'string', 'ipv4', 'vars']"
+settimeout,2,,,,,,,,,2,lowercase,['settimeout']
+doc,21,,,,,,,,,21,lowercase,['doc']
+m,32,,,,,,,,,32,b,['m']
+inventory_dir,2,,,,,,,,,2,lower_case_with_underscores,"['inventory', 'dir']"
+chroot_cmd,4,,,,,,,,,4,lower_case_with_underscores,"['chroot', 'cmd']"
+te,2,,,,,,,,,2,lowercase,['te']
+AttributeError,5,,,,,,,,,5,CapitalizedWords,"['attribute', 'error']"
+sum,1,,,,,,,,,1,lowercase,['sum']
+universal_newlines,1,,,,,,1,,,,lower_case_with_underscores,"['universal', 'newlines']"
+secrets_found,5,,,,,,,,,5,lower_case_with_underscores,"['secrets', 'found']"
+contacted,6,,,,,,2,,,4,lowercase,['contacted']
+availability_zone,1,,,,,,,,,1,lower_case_with_underscores,"['availability', 'zone']"
+get_ancestors,4,1,,,,,,,,3,lower_case_with_underscores,"['get', 'ancestors']"
+random,18,,,10,,,,,,8,lowercase,['random']
+found_paths,4,,,,,,,,,4,lower_case_with_underscores,"['found', 'paths']"
+has_key,17,,,,,,,,,17,lower_case_with_underscores,"['has', 'key']"
+Template,1,,,,,,,,,1,CapitalizedWords,['template']
+gitdir,4,,,,,,,,,4,lowercase,['gitdir']
+parse_kv,20,1,,3,,,,,,16,lower_case_with_underscores,"['parse', 'kv']"
+MODULE_COMPLEX_ARGS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['module', 'complex', 'args']"
+ssh_keys,2,,,,,,,,,2,lower_case_with_underscores,"['ssh', 'keys']"
+TemplateSyntaxError,2,,,1,,,,,,1,CapitalizedWords,"['template', 'syntax', 'error']"
+get_bin_path,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'bin', 'path']"
+last_category,3,,,,,,,,,3,lower_case_with_underscores,"['last', 'category']"
+orig_uid,3,,,,,,,,,3,lower_case_with_underscores,"['orig', 'uid']"
+FILTERS,5,,,,,,,,,5,UPPERCASE,"['filter', 's']"
+oct,1,,,,,,,,,1,lowercase,['oct']
+ansible_version,1,,,,,,,,,1,lower_case_with_underscores,"['ansible', 'version']"
+test_simple_ungrouped,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'simple', 'ungrouped']"
+runas_opts,2,,,,,,,,,2,lower_case_with_underscores,"['runas', 'opts']"
+setdefaultencoding,3,,,,,,,,,3,lowercase,['setdefaultencoding']
+dc,3,,,,,,,,,3,lowercase,['dc']
+set_owner_if_different,3,1,,,,,,,,2,lower_case_with_underscores,"['set', 'owner', 'if', 'different']"
+play_basedirs,6,,,,,,,,,6,lower_case_with_underscores,"['play', 'basedirs']"
+test_hosts_list,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'hosts', 'list']"
+test_script_restrict,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'script', 'restrict']"
+_handle_aliases,2,1,,,,,,,,1,lower_case_with_underscores,"['handle', 'aliases']"
+ds,128,,,,,,,,,128,lowercase,['ds']
+required_together,2,,,,,,,,,2,lower_case_with_underscores,"['required', 'together']"
+REGION,14,,,,,,,,,14,UPPERCASE,"['regio', 'n']"
+public,5,,,,,,,,,5,lowercase,['public']
+reload,3,,,,,,,,,3,lowercase,['reload']
+get_datacenter_city,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'datacenter', 'city']"
+st_uid,4,,,,,,,,,4,lower_case_with_underscores,"['st', 'uid']"
+module_path,23,,,,,,4,,,19,lower_case_with_underscores,"['module', 'path']"
+runner_on_no_hosts,3,3,,,,,,,,,lower_case_with_underscores,"['runner', 'on', 'no', 'hosts']"
+_get_group_variables,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'group', 'variables']"
+r53_conn,3,,,,,,,,,3,lower_case_with_underscores,"['r53', 'conn']"
+complex_args_json,2,,,,,,,,,2,lower_case_with_underscores,"['complex', 'args', 'json']"
+makefile_stderr,1,,,,,,,,,1,lower_case_with_underscores,"['makefile', 'stderr']"
+new_context,12,1,,,,,1,,,10,lower_case_with_underscores,"['new', 'context']"
+set_mode_if_different,3,1,,,,,,,,2,lower_case_with_underscores,"['set', 'mode', 'if', 'different']"
+test_subset_filename,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'subset', 'filename']"
+host_result,14,,,,,,,,,14,lower_case_with_underscores,"['host', 'result']"
+_groups_list,9,,,,,,,,,9,lower_case_with_underscores,"['groups', 'list']"
+selinux_enabled,10,1,,,,,,,,9,lower_case_with_underscores,"['selinux', 'enabled']"
+result,518,,,,,,52,,,466,lowercase,['result']
+fail_on_missing,4,,,,,,,,,4,lower_case_with_underscores,"['fail', 'on', 'missing']"
+DNAME6,2,,,,,,,,,2,UPPERCASE,['dname6']
+subject,20,,,,,,4,,,16,lowercase,['subject']
+check_output,2,,,,,,,,,2,lower_case_with_underscores,"['check', 'output']"
+actual_user,7,,,,,,,,,7,lower_case_with_underscores,"['actual', 'user']"
+test_script_combined,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'script', 'combined']"
+remote_port,16,,,,,,2,,,14,lower_case_with_underscores,"['remote', 'port']"
+required_one_of,2,,,,,,,,,2,lower_case_with_underscores,"['required', 'one', 'of']"
+host_file,3,,,,,,,,,3,lower_case_with_underscores,"['host', 'file']"
+filename,96,,,,,,8,,,88,lowercase,['filename']
+ReturnData,71,,1,17,,,,,,53,CapitalizedWords,"['return', 'data']"
+playbook_on_play_start,4,4,,,,,,,,,lower_case_with_underscores,"['playbook', 'on', 'play', 'start']"
+UndefinedError,3,,,,,,,,,3,CapitalizedWords,"['undefined', 'error']"
+posix,1,,,,,,1,,,,lowercase,['posix']
+_compute_environment_string,3,1,,,,,,,,2,lower_case_with_underscores,"['compute', 'environment', 'string']"
+_get_host,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'host']"
+C,110,,,,,,,22,,88,B,"['', 'c']"
+items_terms,4,,,,,,,,,4,lower_case_with_underscores,"['items', 'terms']"
+terms,151,,,,,,,,,151,lowercase,['terms']
+extend,27,,,,,,,,,27,lowercase,['extend']
+_check_required_arguments,2,1,,,,,,,,1,lower_case_with_underscores,"['check', 'required', 'arguments']"
+_execute_module,18,1,,,,,,,,17,lower_case_with_underscores,"['execute', 'module']"
+Queue,4,,,1,,,,,,3,CapitalizedWords,['queue']
+output_lockfile,8,,,,,,,,,8,lower_case_with_underscores,"['output', 'lockfile']"
+ans_callbacks,11,,,,,,,1,,10,lower_case_with_underscores,"['ans', 'callbacks']"
+packages,1,,,,,,1,,,,lowercase,['packages']
+new_char,3,,,,,,,,,3,lower_case_with_underscores,"['new', 'char']"
+fnt,6,,,,,,,,,6,lowercase,['fnt']
+get_rds_instances_by_region,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'rds', 'instances', 'by', 'region']"
+VALID_KEYS,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['valid', 'keys']"
+_restriction,6,,,,,,,,,6,lowercase,['restriction']
+paths_to_check,2,,,,,,,,,2,lower_case_with_underscores,"['paths', 'to', 'check']"
+subitem,11,,,,,,,,,11,lowercase,['subitem']
+test_simple_vars,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'simple', 'vars']"
+new_dict,3,,,,,,,,,3,lower_case_with_underscores,"['new', 'dict']"
+login,1,,,,,,,,,1,lowercase,['login']
+module_docs,4,,,1,,,,1,,2,lower_case_with_underscores,"['module', 'docs']"
+J2Template,3,,1,,,,,,,2,CapitalizedWords,"['j2', 'template']"
+path_dwim,36,1,,,,,,,,35,lower_case_with_underscores,"['path', 'dwim']"
+hosts_remaining,3,,,,,,,,,3,lower_case_with_underscores,"['hosts', 'remaining']"
+EXAMPLE_YAML,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['example', 'yaml']"
+active,2,,,,,,,,,2,lowercase,['active']
+loaded,2,,,,,,,,,2,lowercase,['loaded']
+HAVE_HASHLIB,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['have', 'hashlib']"
+diff,60,,,,,,5,,,55,lowercase,['diff']
+NETWORK,7,,,,,,,,,7,UPPERCASE,"['networ', 'k']"
+test_playbook_failed_when,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'playbook', 'failed', 'when']"
+screen_only,2,,,,,,,,,2,lower_case_with_underscores,"['screen', 'only']"
+linux_distribution,1,,,,,,,,,1,lower_case_with_underscores,"['linux', 'distribution']"
+rga,1,,,,,,1,,,,lowercase,['rga']
+union,3,1,,,,,,,,2,lowercase,['union']
+_module_cache,7,,,,,,,,,7,lower_case_with_underscores,"['module', 'cache']"
+resource_records,1,,,,,,,,,1,lower_case_with_underscores,"['resource', 'records']"
+SIGINT,1,,,,,,,,,1,UPPERCASE,"['sigin', 't']"
+_check_argument_types,2,1,,,,,,,,1,lower_case_with_underscores,"['check', 'argument', 'types']"
+rgc,1,,,,,,1,,,,lowercase,['rgc']
+itervalues,4,,,,,,,,,4,lowercase,['itervalues']
+expected,22,,,,,,,,,22,lowercase,['expected']
+sudo_user,49,,,,,,2,,,47,lower_case_with_underscores,"['sudo', 'user']"
+vars_files,12,,,,,,,,,12,lower_case_with_underscores,"['vars', 'files']"
+location,7,,,,,,,,,7,lowercase,['location']
+lift_restriction,7,1,,,,,,,,6,lower_case_with_underscores,"['lift', 'restriction']"
+SRC,1,,,,,,,,,1,UPPERCASE,"['sr', 'c']"
+src_contents,2,,,,,,,,,2,lower_case_with_underscores,"['src', 'contents']"
+included_path,2,,,,,,,,,2,lower_case_with_underscores,"['included', 'path']"
+droplets,3,,,,,,,,,3,lowercase,['droplets']
+worker,5,,,,,,,,,5,lowercase,['worker']
+source_trailing_slash,3,,,,,,,,,3,lower_case_with_underscores,"['source', 'trailing', 'slash']"
+_connect,2,1,,,,,,,,1,lowercase,['connect']
+UnicodeEncodeError,3,,,,,,,,,3,CapitalizedWords,"['unicode', 'encode', 'error']"
+_load_vars_from_path,4,1,,,,,,,,3,lower_case_with_underscores,"['load', 'vars', 'from', 'path']"
+DEFAULT_MODULE_NAME,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['default', 'module', 'name']"
+test_configfile_and_env_both_set,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'configfile', 'and', 'env', 'both', 'set']"
+exception,4,,,1,,,,,,3,lowercase,['exception']
+_get_test_file,7,2,,,,,,,,5,lower_case_with_underscores,"['get', 'test', 'file']"
+format_help,2,1,,,,,,,,1,lower_case_with_underscores,"['format', 'help']"
+open_sftp,2,,,,,,,,,2,lower_case_with_underscores,"['open', 'sftp']"
+Process,1,,,,,,,,,1,CapitalizedWords,['process']
+handlers,7,1,,,,,,,,6,lowercase,['handlers']
+wfd,6,,,,,,,,,6,lowercase,['wfd']
+test_complex_vars,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'complex', 'vars']"
+readfp,1,,,,,,,,,1,lowercase,['readfp']
+ipaddresses,2,,,,,,,,,2,lowercase,['ipaddresses']
+_legal_inputs,4,,,,,,,,,4,lower_case_with_underscores,"['legal', 'inputs']"
+spawn,4,,,2,,,,,,2,lowercase,['spawn']
+template2,12,,,,,,,1,,11,lowercase,['template2']
+build_opener,1,,,,,,,,,1,lower_case_with_underscores,"['build', 'opener']"
+shebang,11,,,,,,,,,11,lowercase,['shebang']
+filename4,13,,,,,,,,,13,lowercase,['filename4']
+S_IXOTH,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['s', 'ixoth']"
+filename2,8,,,,,,,,,8,lowercase,['filename2']
+filename3,8,,,,,,,,,8,lowercase,['filename3']
+read_environment,2,1,,,,,,,,1,lower_case_with_underscores,"['read', 'environment']"
+inventory_file,2,,,,,,,,,2,lower_case_with_underscores,"['inventory', 'file']"
+cond,9,,,,,,,,,9,lowercase,['cond']
+name_list,3,,,,,,,,,3,lower_case_with_underscores,"['name', 'list']"
+get_groups,6,2,,,,,,,,4,lower_case_with_underscores,"['get', 'groups']"
+ie,4,,,,,,,,,4,lowercase,['ie']
+id,11,,,,,,,,,11,lowercase,['id']
+conn,222,,,,,,44,,,178,lowercase,['conn']
+all_keys,5,,,,,,,,,5,lower_case_with_underscores,"['all', 'keys']"
+detect_range,4,1,,1,,,,,,2,lower_case_with_underscores,"['detect', 'range']"
+tcopy,16,,,,,,,,,16,lowercase,['tcopy']
+var_start,5,,,,,,,,,5,lower_case_with_underscores,"['var', 'start']"
+list_jails,2,1,,,,,,,,1,lower_case_with_underscores,"['list', 'jails']"
+new_role,4,,,,,,,,,4,lower_case_with_underscores,"['new', 'role']"
+delimit_me,3,,,,,,,,,3,lower_case_with_underscores,"['delimit', 'me']"
+combine_vars,19,1,,,,,,,,18,lower_case_with_underscores,"['combine', 'vars']"
+banner_normal,3,1,,,,,,,,2,lower_case_with_underscores,"['banner', 'normal']"
+selevel,5,,,,,,2,,,3,lowercase,['selevel']
+items_lookup_plugin,4,,,,,,,,,4,lower_case_with_underscores,"['items', 'lookup', 'plugin']"
+saved_undefined_var_behavior,2,,,,,,,,,2,lower_case_with_underscores,"['saved', 'undefined', 'var', 'behavior']"
+path_dwim_relative,8,1,,,,,,,,7,lower_case_with_underscores,"['path', 'dwim', 'relative']"
+password_mgr,3,,,,,,,,,3,lower_case_with_underscores,"['password', 'mgr']"
+generated_jid,2,,,,,,,,,2,lower_case_with_underscores,"['generated', 'jid']"
+test_simple_restrict,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'simple', 'restrict']"
+_basedirs,4,,,,,,,,,4,lowercase,['basedirs']
+kid,2,,,,,,,,,2,lowercase,['kid']
+test_dir,28,,,,,,,,,28,lower_case_with_underscores,"['test', 'dir']"
+dns_name,8,,,,,,,,,8,lower_case_with_underscores,"['dns', 'name']"
+extra_args,3,,,,,,,,,3,lower_case_with_underscores,"['extra', 'args']"
+Manager,1,,,,,,,,,1,CapitalizedWords,['manager']
+client,11,,,2,,,,,,9,lowercase,['client']
+log_only,2,,,,,,,,,2,lower_case_with_underscores,"['log', 'only']"
+left,17,,,,,,,,,17,lowercase,['left']
+human,2,,,,,,,,,2,lowercase,['human']
+facts,4,,,,,,,,,4,lowercase,['facts']
+shell_expand_path,5,1,,,,,,,,4,lower_case_with_underscores,"['shell', 'expand', 'path']"
+to_unicode,3,1,,,,,,,,2,lower_case_with_underscores,"['to', 'unicode']"
+getboolean,2,,,,,,,,,2,lowercase,['getboolean']
+data_to_print,17,,,,,,,,,17,lower_case_with_underscores,"['data', 'to', 'print']"
+test_configfile_not_set_env_set,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'configfile', 'not', 'set', 'env', 'set']"
+Read,1,,,,,,,,,1,CapitalizedWords,['read']
+collections,7,,,3,,,,,,4,lowercase,['collections']
+use_slug,2,,,,,,,,,2,lower_case_with_underscores,"['use', 'slug']"
+_build_role_dependencies,3,1,,,,,,,,2,lower_case_with_underscores,"['build', 'role', 'dependencies']"
+_run_play,2,1,,,,,,,,1,lower_case_with_underscores,"['run', 'play']"
+last_non_blank_line,3,1,,,,,,,,2,lower_case_with_underscores,"['last', 'non', 'blank', 'line']"
+BYPASS_HOST_LOOP,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['bypass', 'host', 'loop']"
+re_compile,2,,,,,,,1,,1,lower_case_with_underscores,"['re', 'compile']"
+pathstat,4,,,,,,,,,4,lowercase,['pathstat']
+duration_unit,5,,,,,,,,,5,lower_case_with_underscores,"['duration', 'unit']"
+textwrap,3,,,1,,,,,,2,lowercase,['textwrap']
+st_mode,6,,,,,,,,,6,lower_case_with_underscores,"['st', 'mode']"
+matched_skip_tags,2,,,,,,,,,2,lower_case_with_underscores,"['matched', 'skip', 'tags']"
+callbacks,87,,,17,,,12,,,58,lowercase,['callbacks']
+boxes,5,,,,,,,,,5,lowercase,['boxes']
+test_quotes,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'quotes']"
+listify_lookup_plugin_terms,26,1,,,,,,,,25,lower_case_with_underscores,"['listify', 'lookup', 'plugin', 'terms']"
+background,14,,,,,,2,,,12,lowercase,['background']
+async_seconds,6,,,,,,,,,6,lower_case_with_underscores,"['async', 'seconds']"
+obvious_local_path,4,,,,,,,,,4,lower_case_with_underscores,"['obvious', 'local', 'path']"
+unique,2,1,,,,,,,,1,lowercase,['unique']
+ConfigParser,25,,,11,,,,,,14,CapitalizedWords,"['config', 'parser']"
+cache_path_inventory,4,,,,,,,,,4,lower_case_with_underscores,"['cache', 'path', 'inventory']"
+group_ids,6,,,,,,,,,6,lower_case_with_underscores,"['group', 'ids']"
+user_agent_append,1,,,,,,,,,1,lower_case_with_underscores,"['user', 'agent', 'append']"
+freshenv,2,,,,,,,,,2,lowercase,['freshenv']
+FAILED_VOICE,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['failed', 'voice']"
+DEFAULT_POLL_INTERVAL,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['default', 'poll', 'interval']"
+scan_pass,4,,,,,,,,,4,lower_case_with_underscores,"['scan', 'pass']"
+security,1,,,1,,,,,,,lowercase,['security']
+_to_filesystem_str,4,1,,,,,,,,3,lower_case_with_underscores,"['to', 'filesystem', 'str']"
+right,16,,,,,,,,,16,lowercase,['right']
+playbook_basedir,2,1,,,,,,,,1,lower_case_with_underscores,"['playbook', 'basedir']"
+sendv,1,,,,,,,,,1,lowercase,['sendv']
+flatten,14,6,,,,,,,,8,lowercase,['flatten']
+escape,2,,,,,,,,,2,lowercase,['escape']
+_ds,3,,,,,,,,,3,lowercase,['ds']
+on_notify,3,2,,,,,,,,1,lower_case_with_underscores,"['on', 'notify']"
+rsync_path,5,,,,,,,,,5,lower_case_with_underscores,"['rsync', 'path']"
+LookupModule,21,,20,,,,,,,1,CapitalizedWords,"['lookup', 'module']"
+add_rds_instance,2,1,,,,,,,,1,lower_case_with_underscores,"['add', 'rds', 'instance']"
+subnet_id,1,,,,,,,,,1,lower_case_with_underscores,"['subnet', 'id']"
+flush,1,,,,,,,,,1,lowercase,['flush']
+subclass,8,,,,,,,,,8,lowercase,['subclass']
+HAVE_FUNC,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['have', 'func']"
+aggregrate,1,,,,,,,,,1,lowercase,['aggregrate']
+exec_rc,8,,,,,,,,,8,lower_case_with_underscores,"['exec', 'rc']"
+set_group_if_different,3,1,,,,,,,,2,lower_case_with_underscores,"['set', 'group', 'if', 'different']"
+backupdest,4,,,,,,,,,4,lowercase,['backupdest']
+StringTypes,2,,,,,,,,,2,CapitalizedWords,"['string', 'types']"
+new_terms,4,,,,,,,,,4,lower_case_with_underscores,"['new', 'terms']"
+defaultdict,4,,,,,,,,,4,lowercase,['defaultdict']
+core,14,,,2,,,,,,12,lowercase,['core']
+file_args,18,,,,,,,,,18,lower_case_with_underscores,"['file', 'args']"
+aes_keys,2,,,,,,,,,2,lower_case_with_underscores,"['aes', 'keys']"
+env_string,2,,,,,,,,,2,lower_case_with_underscores,"['env', 'string']"
+Crypto,1,,,1,,,,,,,CapitalizedWords,['crypto']
+_increment,7,1,,,,,,,,6,lowercase,['increment']
+super,21,,,,,,,,,21,lowercase,['super']
+_has_vars_in,7,1,,,,,,,,6,lower_case_with_underscores,"['has', 'vars', 'in']"
+filter_plugins,13,,,1,,,,,,12,lower_case_with_underscores,"['filter', 'plugins']"
+inv_group,6,,,,,,,,,6,lower_case_with_underscores,"['inv', 'group']"
+o,7,,,,,,,,,7,b,['o']
+add_directory,6,1,,,,,,,,5,lower_case_with_underscores,"['add', 'directory']"
+commit,2,,,,,,,,,2,lowercase,['commit']
+attrib,2,,,,,,,,,2,lowercase,['attrib']
+runtime,2,,,1,,,,,,1,lowercase,['runtime']
+MODULE_LANG,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['module', 'lang']"
+target_line,9,,,,,,,,,9,lower_case_with_underscores,"['target', 'line']"
+facility,3,,,,,,,,,3,lowercase,['facility']
+set_context_if_different,6,1,,,,,,,,5,lower_case_with_underscores,"['set', 'context', 'if', 'different']"
+splitext,1,,,,,,,,,1,lowercase,['splitext']
+float,5,,,,,,,,,5,lowercase,['float']
+Environment,4,,,1,,,,,,3,CapitalizedWords,['environment']
+slurp,3,1,,,,,,,,2,lowercase,['slurp']
+splitlines,8,,,,,,,,,8,lowercase,['splitlines']
+raises,6,,,1,,,,,,5,lowercase,['raises']
+Provider,5,,,2,,,,,,3,CapitalizedWords,['provider']
+wrap,2,,,,,,,,,2,lowercase,['wrap']
+bool,15,1,,,,,,,,14,lowercase,['bool']
+playbook_on_no_hosts_remaining,3,3,,,,,,,,,lower_case_with_underscores,"['playbook', 'on', 'no', 'hosts', 'remaining']"
+_load_playbook_from_file,3,1,,,,,,,,2,lower_case_with_underscores,"['load', 'playbook', 'from', 'file']"
+PlaybookCallbacks,1,,1,,,,,,,,CapitalizedWords,"['playbook', 'callbacks']"
+on_failed,7,4,,,,,,,,3,lower_case_with_underscores,"['on', 'failed']"
+dest_result,15,,,,,,,,,15,lower_case_with_underscores,"['dest', 'result']"
+digestmod,1,,,,,,1,,,,lowercase,['digestmod']
+sudo_output,19,,,,,,,,,19,lower_case_with_underscores,"['sudo', 'output']"
+AnsibleUndefinedVariable,5,,1,,,,,,,4,CapitalizedWords,"['ansible', 'undefined', 'variable']"
+width,7,,,,,,1,,,6,lowercase,['width']
+gid,10,,,,,,,,,10,lowercase,['gid']
+vars_data,8,,,,,,,,,8,lower_case_with_underscores,"['vars', 'data']"
+playbook_on_setup,3,3,,,,,,,,,lower_case_with_underscores,"['playbook', 'on', 'setup']"
+parse_simple_args,2,1,,,,,,,,1,lower_case_with_underscores,"['parse', 'simple', 'args']"
+host_record,4,,,,,,,,,4,lower_case_with_underscores,"['host', 'record']"
+head,2,,,,,,,,,2,lowercase,['head']
+_playbook_basedir,3,,,,,,,,,3,lower_case_with_underscores,"['playbook', 'basedir']"
+selinux_mls_enabled,3,1,,,,,,,,2,lower_case_with_underscores,"['selinux', 'mls', 'enabled']"
+FilterModule,1,,1,,,,,,,,CapitalizedWords,"['filter', 'module']"
+all_failed,6,,,,,,,,,6,lower_case_with_underscores,"['all', 'failed']"
+set_file_attributes_if_different,1,1,,,,,,,,,lower_case_with_underscores,"['set', 'file', 'attributes', 'if', 'different']"
+reset,2,1,,,,,,,,1,lowercase,['reset']
+on_async_poll,7,4,,,,,,,,3,lower_case_with_underscores,"['on', 'async', 'poll']"
+paramiko,2,,,1,,,,,,1,lowercase,['paramiko']
+time_limit,2,,,,,,,,,2,lower_case_with_underscores,"['time', 'limit']"
+test_alpha_end_before_beg,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'alpha', 'end', 'before', 'beg']"
+bounds,7,,,,,,,,,7,lowercase,['bounds']
+tell,3,,,,,,,,,3,lowercase,['tell']
+complex_inventory,7,1,,,,,,,,6,lower_case_with_underscores,"['complex', 'inventory']"
+display_group,1,,,,,,,,,1,lower_case_with_underscores,"['display', 'group']"
+get_hosts,14,2,,,,,,,,12,lower_case_with_underscores,"['get', 'hosts']"
+accelerate,9,,,,,,2,,,7,lowercase,['accelerate']
+test_complex_intersect,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'complex', 'intersect']"
+expand_lists,23,,,,,,6,,,17,lower_case_with_underscores,"['expand', 'lists']"
+blocksize,6,,,,,,,,,6,lowercase,['blocksize']
+random_salt,3,1,,,,,,,,2,lower_case_with_underscores,"['random', 'salt']"
+decrypt,8,1,,,,,,,,7,lowercase,['decrypt']
+test_script_all,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'script', 'all']"
+dest_contents,15,,,,,,,,,15,lower_case_with_underscores,"['dest', 'contents']"
+caplevel,5,,,,,,3,,,2,lowercase,['caplevel']
+LOCK_EX,8,,,,,,,,,8,UPPER_CASE_WITH_UNDERSCORES,"['lock', 'ex']"
+timezone,1,,,,,,,,,1,lowercase,['timezone']
+floating,3,,,,,,1,,,2,lowercase,['floating']
+check,28,,,,,,5,,,23,lowercase,['check']
+remote_user,25,,,,,,4,,,21,lower_case_with_underscores,"['remote', 'user']"
+encrypt,31,1,,,,,1,,,29,lowercase,['encrypt']
+vname,9,,,,,,,,,9,lowercase,['vname']
+remote_module_path,6,,,,,,,,,6,lower_case_with_underscores,"['remote', 'module', 'path']"
+author_email,1,,,,,,1,,,,lower_case_with_underscores,"['author', 'email']"
+when,3,,,,,,,,,3,lowercase,['when']
+missing_host_key,1,1,,,,,,,,,lower_case_with_underscores,"['missing', 'host', 'key']"
+kid_group,3,,,,,,,,,3,lower_case_with_underscores,"['kid', 'group']"
+role,11,,,,,,,,,11,lowercase,['role']
+testinvalid_entry,1,1,,,,,,,,,lower_case_with_underscores,"['testinvalid', 'entry']"
+test,17,,,,,,,,,17,lowercase,['test']
+test_combined_range,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'combined', 'range']"
+nt,6,,,,,,,,,6,lowercase,['nt']
+this_platform,3,,,,,,,,,3,lower_case_with_underscores,"['this', 'platform']"
+node,40,,,,,,,,,40,lowercase,['node']
+tcsetattr,1,,,,,,,,,1,lowercase,['tcsetattr']
+DNAME,38,,,,,,,,,38,UPPERCASE,"['dnam', 'e']"
+setLevel,1,,,,,,,,,1,mixedCase,"['set', 'level']"
+DEFAULT_FORKS,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['default', 'forks']"
+update,63,,,,,,,,,63,lowercase,['update']
+quoted_command,4,,,,,,,,,4,lower_case_with_underscores,"['quoted', 'command']"
+fillvalue,1,,,,,,1,,,,lowercase,['fillvalue']
+variable,2,,,,,,,,,2,lowercase,['variable']
+configs,3,,,,,,,,,3,lowercase,['configs']
+_get_hosts,5,2,,,,,,,,3,lower_case_with_underscores,"['get', 'hosts']"
+managed_default,2,,,,,,,,,2,lower_case_with_underscores,"['managed', 'default']"
+test_callback_disabled,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'callback', 'disabled']"
+modules,3,,,,,,,,,3,lowercase,['modules']
+hmac,2,,,1,,,,,,1,lowercase,['hmac']
+defaults_data,3,,,,,,,,,3,lower_case_with_underscores,"['defaults', 'data']"
+instance_type,1,,,,,,,,,1,lower_case_with_underscores,"['instance', 'type']"
+environment_string,2,,,,,,,,,2,lower_case_with_underscores,"['environment', 'string']"
+this_file,2,,,,,,,,,2,lower_case_with_underscores,"['this', 'file']"
+time,57,,,22,,,,,,35,lowercase,['time']
+push,33,5,,,,,,,,28,lowercase,['push']
+test_incorrect_format,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'incorrect', 'format']"
+old_settings,2,,,,,,,,,2,lower_case_with_underscores,"['old', 'settings']"
+large_range_inventory_file,2,,,,,,,,,2,lower_case_with_underscores,"['large', 'range', 'inventory', 'file']"
+my_dict,20,,,,,,,,,20,lower_case_with_underscores,"['my', 'dict']"
+_process_origin,3,1,,,,,,,,2,lower_case_with_underscores,"['process', 'origin']"
+host_names,3,,,,,,,,,3,lower_case_with_underscores,"['host', 'names']"
+open_session,1,,,,,,,,,1,lower_case_with_underscores,"['open', 'session']"
+manager,15,,,1,,,,,,14,lowercase,['manager']
+ansible_facts,2,,,,,,2,,,,lower_case_with_underscores,"['ansible', 'facts']"
+app_name,6,,,,,,,,,6,lower_case_with_underscores,"['app', 'name']"
+zone,9,,,,,,,,,9,lowercase,['zone']
+is_list_of_strings,2,1,,,,,,,,1,lower_case_with_underscores,"['is', 'list', 'of', 'strings']"
+environment,22,,,,,,1,,,21,lowercase,['environment']
+test_playbook_hash_merge,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'playbook', 'hash', 'merge']"
+problem_mark,1,,,,,,,,,1,lower_case_with_underscores,"['problem', 'mark']"
+currentframe,1,,,,,,,,,1,lowercase,['currentframe']
+DoManager,4,,,1,,,,,,3,CapitalizedWords,"['do', 'manager']"
+Linode,3,,,,,,,,,3,CapitalizedWords,['linode']
+start_at,6,,,,,,,,,6,lower_case_with_underscores,"['start', 'at']"
+string,16,,,6,,,,,,10,lowercase,['string']
+md,3,,,,,,,,,3,lowercase,['md']
+unknown_tags,4,,,,,,,,,4,lower_case_with_underscores,"['unknown', 'tags']"
+latex_documents,1,,,,,,,,,1,lower_case_with_underscores,"['latex', 'documents']"
+choice,4,,,,,,,,,4,lowercase,['choice']
+_get_extensions,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'extensions']"
+VERSION,3,,,,,,,,,3,UPPERCASE,"['versio', 'n']"
+configRegions_exclude,2,,,,,,,,,2,ugly,"['configregions', 'exclude']"
+load_file_common_arguments,1,1,,,,,,,,,lower_case_with_underscores,"['load', 'file', 'common', 'arguments']"
+subprocess,90,,,18,,,,,,72,lowercase,['subprocess']
+defaults_files,5,,,,,,,,,5,lower_case_with_underscores,"['defaults', 'files']"
+_load_vars_from_folder,2,1,,,,,,,,1,lower_case_with_underscores,"['load', 'vars', 'from', 'folder']"
+test_facter,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'facter']"
+is_successful,5,1,,,,,,,,4,lower_case_with_underscores,"['is', 'successful']"
+private_ips,1,,,,,,,,,1,lower_case_with_underscores,"['private', 'ips']"
+get_route53_records,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'route53', 'records']"
+level,6,,,,,,2,,,4,lowercase,['level']
+test_simple_string_ipv6_port,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'simple', 'string', 'ipv6', 'port']"
+should_run,5,,,,,,,,,5,lower_case_with_underscores,"['should', 'run']"
+host_result2,7,,,,,,,,,7,lower_case_with_underscores,"['host', 'result2']"
+item,72,,,,,,1,,,71,lowercase,['item']
+defaults,6,,,,,,,,,6,lowercase,['defaults']
+added_this_time,6,,,,,,,,,6,lower_case_with_underscores,"['added', 'this', 'time']"
+loads,14,,,,,,,,,14,lowercase,['loads']
+intersection,1,,,,,,,,,1,lowercase,['intersection']
+multiprocessing,3,,,1,,,,,,2,lowercase,['multiprocessing']
+dir,6,,,1,,,2,,,3,lowercase,['dir']
+upper,2,,,,,,,,,2,lowercase,['upper']
+on_stats,1,1,,,,,,,,,lower_case_with_underscores,"['on', 'stats']"
+on_play_start,3,2,,,,,,,,1,lower_case_with_underscores,"['on', 'play', 'start']"
+install_requires,1,,,,,,1,,,,lower_case_with_underscores,"['install', 'requires']"
+get_gce_driver,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'gce', 'driver']"
+parent_groups,4,,,,,,,,,4,lower_case_with_underscores,"['parent', 'groups']"
+APIVersion,2,,,,,,,,,2,CapitalizedWords,"['api', 'version']"
+LASER_VOICE,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['laser', 'voice']"
+htmlhelp_basename,1,,,,,,,,,1,lower_case_with_underscores,"['htmlhelp', 'basename']"
+find_executable,2,,,,,,,,,2,lower_case_with_underscores,"['find', 'executable']"
+port,74,,,,,,5,,,69,lowercase,['port']
+playbook_on_import_for_host,3,3,,,,,,,,,lower_case_with_underscores,"['playbook', 'on', 'import', 'for', 'host']"
+filler,2,,,,,,,,,2,lowercase,['filler']
+openlog,2,,,,,,,,,2,lowercase,['openlog']
+on_async_ok,8,4,,,,,,,,4,lower_case_with_underscores,"['on', 'async', 'ok']"
+getuser,3,,,,,,,,,3,lowercase,['getuser']
+input_was,1,,,,,,1,,,,lower_case_with_underscores,"['input', 'was']"
+template,140,1,,18,,,,6,,115,lowercase,['template']
+DNSException,2,,,1,,,,,,1,CapitalizedWords,"['dns', 'exception']"
+shared,3,,,,,,2,,,1,lowercase,['shared']
+True,394,,,,,,,,,394,CapitalizedWords,['true']
+defaultgroup,3,,,,,,,,,3,lowercase,['defaultgroup']
+buildername,2,,,,,,,,,2,lowercase,['buildername']
+urlopen,2,,,,,,,,,2,lowercase,['urlopen']
+ask_passwords,1,1,,,,,,,,,lower_case_with_underscores,"['ask', 'passwords']"
+html_copy_source,1,,,,,,,,,1,lower_case_with_underscores,"['html', 'copy', 'source']"
+add_argument,35,,,,,,,,,35,lower_case_with_underscores,"['add', 'argument']"
+exceptions,4,,,1,,,,,,3,lowercase,['exceptions']
+DEFAULT_MODULE_PATH,5,,,1,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['default', 'module', 'path']"
+stop_filtering,3,,,,,,,,,3,lower_case_with_underscores,"['stop', 'filtering']"
+groups,125,,,,,,,,,125,lowercase,['groups']
+address,4,,,,,,,,,4,lowercase,['address']
+DEBUG,7,,,,,,,,,7,UPPERCASE,"['debu', 'g']"
+all_lines,3,,,,,,,,,3,lower_case_with_underscores,"['all', 'lines']"
+groupz,2,,,,,,,,,2,lowercase,['groupz']
+box,2,,,,,,,,,2,lowercase,['box']
+VERBOSE,2,,,,,,,,,2,UPPERCASE,"['verbos', 'e']"
+KeyboardInterrupt,2,,,,,,,,,2,CapitalizedWords,"['keyboard', 'interrupt']"
+delimiter,5,,,,,,,,,5,lowercase,['delimiter']
+new_vars,6,,,,,,,,,6,lower_case_with_underscores,"['new', 'vars']"
+ZabbixAPI,2,,,1,,,,,,1,CapitalizedWords,"['zabbix', 'ap', 'i']"
+domains,2,,,,,,,,,2,lowercase,['domains']
+BaseException,1,,,,,,,,,1,CapitalizedWords,"['base', 'exception']"
+tasks,11,1,,,,,,,,10,lowercase,['tasks']
+extra,20,,,,,,,,,20,lowercase,['extra']
+class_name,15,,,,,,,,,15,lower_case_with_underscores,"['class', 'name']"
+log_args,8,,,,,,,,,8,lower_case_with_underscores,"['log', 'args']"
+enumeration_details,1,,,,,,,,,1,lower_case_with_underscores,"['enumeration', 'details']"
+get_transport,1,,,,,,,,,1,lower_case_with_underscores,"['get', 'transport']"
+populate_datacenter_cache,2,1,,,,,,,,1,lower_case_with_underscores,"['populate', 'datacenter', 'cache']"
+regex,5,1,,,,,,,,4,lowercase,['regex']
+st_mtime,2,,,,,,,,,2,lower_case_with_underscores,"['st', 'mtime']"
+droplet_id,2,,,,,,,,,2,lower_case_with_underscores,"['droplet', 'id']"
+old_conditions,2,,,,,,,,,2,lower_case_with_underscores,"['old', 'conditions']"
+rindex,2,,,,,,,,,2,lowercase,['rindex']
+subset_opts,2,,,,,,,,,2,lower_case_with_underscores,"['subset', 'opts']"
+fail_json,37,1,,,,,,,,36,lower_case_with_underscores,"['fail', 'json']"
+connector,2,,,,,,,,,2,lowercase,['connector']
+handler,35,,,,,,,,,35,lowercase,['handler']
+encode,12,,,,,,,,,12,lowercase,['encode']
+dict,161,,,,,,,,,161,lowercase,['dict']
+prev,2,,,,,,,,,2,lowercase,['prev']
+today,1,,,,,,,,,1,lowercase,['today']
+record_name,5,,,,,,,,,5,lower_case_with_underscores,"['record', 'name']"
+new_default_vars,5,,,,,,,,,5,lower_case_with_underscores,"['new', 'default', 'vars']"
+rlen,3,,,,,,,,,3,lowercase,['rlen']
+cache_path,18,,,,,,,,,18,lower_case_with_underscores,"['cache', 'path']"
+VarsModule,1,,1,,,,,,,,CapitalizedWords,"['vars', 'module']"
+paramiko_ssh,1,,,1,,,,,,,lower_case_with_underscores,"['paramiko', 'ssh']"
+set_play,5,1,,,,,,,,4,lower_case_with_underscores,"['set', 'play']"
+test_bool_yes,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'bool', 'yes']"
+regions,22,,,,,,,,,22,lowercase,['regions']
+values,11,,,,,,,,,11,lowercase,['values']
+host_details,4,,,,,,,,,4,lower_case_with_underscores,"['host', 'details']"
+lockf,16,,,,,,,,,16,lowercase,['lockf']
+expand_hostname_range,4,1,,1,,,,,,2,lower_case_with_underscores,"['expand', 'hostname', 'range']"
+is_invalid,6,,,,,,,,,6,lower_case_with_underscores,"['is', 'invalid']"
+expandvars,3,,,,,,,,,3,lowercase,['expandvars']
+_do_setup_step,2,1,,,,,,,,1,lower_case_with_underscores,"['do', 'setup', 'step']"
+update_cache,4,1,,,,,,,,3,lower_case_with_underscores,"['update', 'cache']"
+test_file,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'file']"
+set_variable,17,2,,,,,,,,15,lower_case_with_underscores,"['set', 'variable']"
+configRegions,3,,,,,,,,,3,mixedCase,"['config', 'regions']"
+test_simple_string_ipv6_vars,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'simple', 'string', 'ipv6', 'vars']"
+build_rst_docs,3,1,,,,,,,,2,lower_case_with_underscores,"['build', 'rst', 'docs']"
+rst_fmt,2,1,,,,,,,,1,lower_case_with_underscores,"['rst', 'fmt']"
+new_handlers,4,,,,,,,,,4,lower_case_with_underscores,"['new', 'handlers']"
+write,60,,,,,,,,,60,lowercase,['write']
+query,1,,,,,,,,,1,lowercase,['query']
+get_host,5,2,,,,,,,,3,lower_case_with_underscores,"['get', 'host']"
+afile,3,,,,,,,,,3,lowercase,['afile']
+restricted_hosts,6,,,,,,,,,6,lower_case_with_underscores,"['restricted', 'hosts']"
+old_path,2,,,,,,,,,2,lower_case_with_underscores,"['old', 'path']"
+fn_orig,2,,,,,,,,,2,lower_case_with_underscores,"['fn', 'orig']"
+max,1,,,,,,,,,1,lowercase,['max']
+incfile,8,,,,,,,,,8,lowercase,['incfile']
+jinja_exts,3,,,,,,,,,3,lower_case_with_underscores,"['jinja', 'exts']"
+NETWK2,9,,,,,,,,,9,UPPERCASE,['netwk2']
+date,3,,,,,,,,,3,lowercase,['date']
+callback_plugins,6,,,,,,,,1,5,lower_case_with_underscores,"['callback', 'plugins']"
+sz,3,,,,,,,,,3,lowercase,['sz']
+DigitalOceanInventory,2,,1,,,,,,,1,CapitalizedWords,"['digital', 'ocean', 'inventory']"
+process_yaml_error,2,1,,,,,,,,1,lower_case_with_underscores,"['process', 'yaml', 'error']"
+sp,4,,,,,,,,,4,lowercase,['sp']
+push_basedir,4,1,,,,,,,,3,lower_case_with_underscores,"['push', 'basedir']"
+InventoryParserYaml,2,,1,,,,,,,1,CapitalizedWords,"['inventory', 'parser', 'yaml']"
+jail,10,,,,,,,,,10,lowercase,['jail']
+safe_dump,2,,,,,,,,,2,lower_case_with_underscores,"['safe', 'dump']"
+groupfile,3,,,,,,,,,3,lowercase,['groupfile']
+sc,9,,,,,,,,,9,lowercase,['sc']
+new_mode,2,,,,,,,,,2,lower_case_with_underscores,"['new', 'mode']"
+expand_hosts,2,,,2,,,,,,,lower_case_with_underscores,"['expand', 'hosts']"
+tty,2,,,1,,,,,,1,lowercase,['tty']
+gitinfo,3,,,,,,,,,3,lowercase,['gitinfo']
+remote_src,2,,,,,,,,,2,lower_case_with_underscores,"['remote', 'src']"
+orig_data,3,,,,,,,,,3,lower_case_with_underscores,"['orig', 'data']"
+snippet_names,5,,,,,,,,,5,lower_case_with_underscores,"['snippet', 'names']"
+setraw,1,,,,,,,,,1,lowercase,['setraw']
+key_to,2,,,,,,,,,2,lower_case_with_underscores,"['key', 'to']"
+new_tasks,9,,,,,,,,,9,lower_case_with_underscores,"['new', 'tasks']"
+TestCase,7,,,,,,,,,7,CapitalizedWords,"['test', 'case']"
+jid,61,,,,,,,,,61,lowercase,['jid']
+overlord,1,,,1,,,,,,,lowercase,['overlord']
+group,124,,,6,,,2,,,116,lowercase,['group']
+_copy_module,3,1,,,,,,,,2,lower_case_with_underscores,"['copy', 'module']"
+BOOLEANS,1,,,,,,,,,1,UPPERCASE,"['boolean', 's']"
+USER_AGENT_PRODUCT,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['user', 'agent', 'product']"
+simplefilter,2,,,,,,,,,2,lowercase,['simplefilter']
+yaml,18,,,6,,,,,,12,lowercase,['yaml']
+async_opts,2,,,,,,,,,2,lower_case_with_underscores,"['async', 'opts']"
+mail,5,1,,,,,,,,4,lowercase,['mail']
+main,8,4,,,,,,,,4,lowercase,['main']
+on_async_failed,9,4,,,,,,,,5,lower_case_with_underscores,"['on', 'async', 'failed']"
+SCOPES,6,,,,,,,,,6,UPPERCASE,"['scope', 's']"
+filesdir,6,,,,,,,,,6,lowercase,['filesdir']
+expanduser,30,,,,,,,,,30,lowercase,['expanduser']
+matches,3,,,,,,,,,3,lowercase,['matches']
+matcher,6,,,,,,,,,6,lowercase,['matcher']
+sorted,77,,,,,,,,,77,lowercase,['sorted']
+dep_path,5,,,,,,,,,5,lower_case_with_underscores,"['dep', 'path']"
+instance_attributes,2,,,,,,,,,2,lower_case_with_underscores,"['instance', 'attributes']"
+_executor_internal,2,1,,,,,,,,1,lower_case_with_underscores,"['executor', 'internal']"
+term,87,,,,,,1,,,86,lowercase,['term']
+name,184,,,,,,9,,,175,lowercase,['name']
+filter_loader,2,,,,,,,,,2,lower_case_with_underscores,"['filter', 'loader']"
+list_running_boxes,2,1,,,,,,,,1,lower_case_with_underscores,"['list', 'running', 'boxes']"
+test_playbook_always_run,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'playbook', 'always', 'run']"
+drop,3,,,,,,,,,3,lowercase,['drop']
+domain,2,,,,,,,,,2,lowercase,['domain']
+all_comm_ok,3,,,,,,,,,3,lower_case_with_underscores,"['all', 'comm', 'ok']"
+included_sudo_vars,4,,,,,,,,,4,lower_case_with_underscores,"['included', 'sudo', 'vars']"
+LEGACY_TEMPLATE_WARNING,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['legacy', 'template', 'warning']"
+ex,2,,,,,,,,,2,lowercase,['ex']
+assertEqual,14,,,,,,,,,14,mixedCase,"['assert', 'equal']"
+dirname,49,,,,,,,,,49,lowercase,['dirname']
+connect_to_cloudservers,2,,,,,,,,,2,lower_case_with_underscores,"['connect', 'to', 'cloudservers']"
+BOOLEANS_FALSE,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['booleans', 'false']"
+space,18,,,,,,,,,18,lowercase,['space']
+notified_by,7,,,,,,,,,7,lower_case_with_underscores,"['notified', 'by']"
+_load_roles,2,1,,,,,,,,1,lower_case_with_underscores,"['load', 'roles']"
+opener,2,,,,,,,,,2,lowercase,['opener']
+key_path,8,,,,,,,,,8,lower_case_with_underscores,"['key', 'path']"
+before_header,5,,,,,,2,,,3,lower_case_with_underscores,"['before', 'header']"
+html_short_title,1,,,,,,,,,1,lower_case_with_underscores,"['html', 'short', 'title']"
+json_format_dict,24,5,,,,,,,,19,lower_case_with_underscores,"['json', 'format', 'dict']"
+_parallel_exec,2,1,,,,,,,,1,lower_case_with_underscores,"['parallel', 'exec']"
+args,202,,,,,,1,,,201,lowercase,['args']
+getcwd,10,,,,,,,,,10,lowercase,['getcwd']
+argv,24,,,,,,,,,24,lowercase,['argv']
+search_locations,2,,,,,,,,,2,lower_case_with_underscores,"['search', 'locations']"
+dependencies,2,,,,,,,,,2,lowercase,['dependencies']
+SSH_CONNECTION_CACHE,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['ssh', 'connection', 'cache']"
+_hosts_in_unenumerated_pattern,2,1,,,,,,,,1,lower_case_with_underscores,"['hosts', 'in', 'unenumerated', 'pattern']"
+return_data,29,1,,20,,,,,,8,lower_case_with_underscores,"['return', 'data']"
+dest_dict,3,,,,,,,,,3,lower_case_with_underscores,"['dest', 'dict']"
+PIPE,50,,,1,,,,,,49,UPPERCASE,"['pip', 'e']"
+_tasks,6,,,,,,,,,6,lowercase,['tasks']
+setdefault,2,,,,,,,,,2,lowercase,['setdefault']
+test_complex_enumeration,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'complex', 'enumeration']"
+fromtimestamp,1,,,,,,,,,1,lowercase,['fromtimestamp']
+_get_filters,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'filters']"
+_ITALIC,7,,,,,,,,,7,UPPERCASE,"['itali', 'c']"
+host_report_msg,2,1,,,,,,,,1,lower_case_with_underscores,"['host', 'report', 'msg']"
+Flags,5,,1,,,,,,,4,CapitalizedWords,['flags']
+isupper,1,,,,,,,,,1,lowercase,['isupper']
+ini_str,2,,,,,,,,,2,lower_case_with_underscores,"['ini', 'str']"
+test_bool_none,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'bool', 'none']"
+first,5,,,,,,,,,5,lowercase,['first']
+KERNEL,2,,,,,,,,,2,UPPERCASE,"['kerne', 'l']"
+HAVE_PARAMIKO,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['have', 'paramiko']"
+cmd2,2,,,,,,,,,2,lowercase,['cmd2']
+msg,254,,,,,,72,,,182,lowercase,['msg']
+SFTP_CONNECTION_CACHE,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['sftp', 'connection', 'cache']"
+message,2,,,,,,,,,2,lowercase,['message']
+REPLACER_COMPLEX,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['replacer', 'complex']"
+open,81,,,,,,,,,81,lowercase,['open']
+size,5,,,,,,,,,5,lowercase,['size']
+arg_raw,4,,,,,,,,,4,lower_case_with_underscores,"['arg', 'raw']"
+cur_context,8,,,,,,1,,,7,lower_case_with_underscores,"['cur', 'context']"
+given,6,,,,,,,,,6,lowercase,['given']
+allow_agent,4,,,,,,1,,,3,lower_case_with_underscores,"['allow', 'agent']"
+_prepare_stage_dir,4,2,,,,,,,,2,lower_case_with_underscores,"['prepare', 'stage', 'dir']"
+load_system_host_keys,2,,,,,,,,,2,lower_case_with_underscores,"['load', 'system', 'host', 'keys']"
+fmt,2,,,,,,,,,2,lowercase,['fmt']
+CIDR3,3,,,,,,,,,3,UPPERCASE,['cidr3']
+CIDR2,3,,,,,,,,,3,UPPERCASE,['cidr2']
+ZabbixInventory,2,,1,,,,,,,1,CapitalizedWords,"['zabbix', 'inventory']"
+jexec_cmd,3,,,,,,,,,3,lower_case_with_underscores,"['jexec', 'cmd']"
+test_search_case_insensitive,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'search', 'case', 'insensitive']"
+include_exceptions,14,,,,,,2,,,12,lower_case_with_underscores,"['include', 'exceptions']"
+params,46,,,,,,,,,46,lowercase,['params']
+types,6,,,4,,,,,,2,lowercase,['types']
+unreachable,1,,,,,,1,,,,lowercase,['unreachable']
+use_chars,6,,,,,,,,,6,lower_case_with_underscores,"['use', 'chars']"
+templates_path,1,,,,,,,,,1,lower_case_with_underscores,"['templates', 'path']"
+test_i,4,,,,,,,,,4,lower_case_with_underscores,"['test', 'i']"
+artifact,47,,,,,,,,,47,lowercase,['artifact']
+get_instances_by_region,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'instances', 'by', 'region']"
+Client,2,,,,,,,,,2,CapitalizedWords,['client']
+test_varReplace_var_complex_var,1,1,,,,,,,,,ugly,"['test', 'varreplace', 'var', 'complex', 'var']"
+_pattern_cache,5,,,,,,,,,5,lower_case_with_underscores,"['pattern', 'cache']"
+__get_hosts,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'hosts']"
+copy,19,,,1,,,,,,18,lowercase,['copy']
+setattr,2,,,,,,,,,2,lowercase,['setattr']
+ZEROMQ_PORT,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['zeromq', 'port']"
+DEFAULT_UNDEFINED_VAR_BEHAVIOR,7,,,,,,,,,7,UPPER_CASE_WITH_UNDERSCORES,"['default', 'undefined', 'var', 'behavior']"
+datacenter_id,1,,,,,,,,,1,lower_case_with_underscores,"['datacenter', 'id']"
+r,17,,,,,,,,,17,b,['r']
+DEFAULT_REMOTE_TMP,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['default', 'remote', 'tmp']"
+play_hosts,3,,,,,,,,,3,lower_case_with_underscores,"['play', 'hosts']"
+basedirs,2,,,,,,,,,2,lowercase,['basedirs']
+pre,4,,,,,,2,,,2,lowercase,['pre']
+test_search_case_sensitive,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'search', 'case', 'sensitive']"
+prc,3,,,,,,,,,3,lowercase,['prc']
+getpass,13,,,4,,,,,,9,lowercase,['getpass']
+groupname,14,,,,,,,,,14,lowercase,['groupname']
+say,14,1,,,,,,,,13,lowercase,['say']
+get_inventory_from_cache,6,3,,,,,,,,3,lower_case_with_underscores,"['get', 'inventory', 'from', 'cache']"
+auth_url,1,,,,,,1,,,,lower_case_with_underscores,"['auth', 'url']"
+any,2,,,,,,,,,2,lowercase,['any']
+ssh_cmd,13,,,,,,,,,13,lower_case_with_underscores,"['ssh', 'cmd']"
+html_title,1,,,,,,,,,1,lower_case_with_underscores,"['html', 'title']"
+source_suffix,1,,,,,,,,,1,lower_case_with_underscores,"['source', 'suffix']"
+print_paths,3,1,,,,,,,,2,lower_case_with_underscores,"['print', 'paths']"
+setype,5,,,,,,2,,,3,lowercase,['setype']
+pre_tasks,4,,,,,,,,,4,lower_case_with_underscores,"['pre', 'tasks']"
+inventory_hostname,1,,,,,,1,,,,lower_case_with_underscores,"['inventory', 'hostname']"
+result_queue,6,,,,,,,,,6,lower_case_with_underscores,"['result', 'queue']"
+LOCK_UN,10,,,,,,,,,10,UPPER_CASE_WITH_UNDERSCORES,"['lock', 'un']"
+realpath,25,,,,,,,,,25,lowercase,['realpath']
+USER_AGENT_VERSION,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['user', 'agent', 'version']"
+check_mode,9,,,,,,1,,,8,lower_case_with_underscores,"['check', 'mode']"
+on_no_hosts_matched,2,1,,,,,,,,1,lower_case_with_underscores,"['on', 'no', 'hosts', 'matched']"
+pair,2,,,,,,,,,2,lowercase,['pair']
+lift_also_restriction,2,1,,,,,,,,1,lower_case_with_underscores,"['lift', 'also', 'restriction']"
+async_poll_interval,5,,,,,,,,,5,lower_case_with_underscores,"['async', 'poll', 'interval']"
+AssertionError,1,,,,,,,,,1,CapitalizedWords,"['assertion', 'error']"
+changed_when,9,,,,,,,,,9,lower_case_with_underscores,"['changed', 'when']"
+ZONE,142,,,,,,,,,142,UPPERCASE,"['zon', 'e']"
+pwd,13,,,7,,,,,,6,lowercase,['pwd']
+testcase,39,,,,,,,,,39,lowercase,['testcase']
+packed_len,2,,,,,,,,,2,lower_case_with_underscores,"['packed', 'len']"
+playbook_on_task_start,3,3,,,,,,,,,lower_case_with_underscores,"['playbook', 'on', 'task', 'start']"
+repo_path,9,,,,,,,,,9,lower_case_with_underscores,"['repo', 'path']"
+salt,22,,,,,,3,,,19,lowercase,['salt']
+_low_level_exec_command,15,1,,,,,,,,14,lower_case_with_underscores,"['low', 'level', 'exec', 'command']"
+src_host,5,,,,,,,,,5,lower_case_with_underscores,"['src', 'host']"
+FILTER_PLUGINS,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['filter', 'plugins']"
+hosts_count,7,,,,,,,,,7,lower_case_with_underscores,"['hosts', 'count']"
+randbits,3,,,,,,,,,3,lowercase,['randbits']
+ACCELERATE_TIMEOUT,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['accelerate', 'timeout']"
+mains,4,,,,,,,,,4,lowercase,['mains']
+DEFAULT_SUDO_FLAGS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['default', 'sudo', 'flags']"
+OUTPUT_LOCKFILE,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['output', 'lockfile']"
+async_jid,6,,,,,,1,,,5,lower_case_with_underscores,"['async', 'jid']"
+random_string,5,1,,,,,,,,4,lower_case_with_underscores,"['random', 'string']"
+err2,2,,,,,,,,,2,lowercase,['err2']
+data,294,,,,,,3,,,291,lowercase,['data']
+iname,1,,,,,,,,,1,lowercase,['iname']
+title,1,,,,,,,,,1,lowercase,['title']
+load_source,2,,,,,,,,,2,lower_case_with_underscores,"['load', 'source']"
+TestConstants,1,,1,,,,,,,,CapitalizedWords,"['test', 'constants']"
+test_fetch,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'fetch']"
+cache_max_age,14,,,,,,,,,14,lower_case_with_underscores,"['cache', 'max', 'age']"
+secontext,6,,,,,,1,,,5,lowercase,['secontext']
+test_loaders_expanduser_each_dir,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'loaders', 'expanduser', 'each', 'dir']"
+invocation,3,,,,,,,,,3,lowercase,['invocation']
+AnsibleConnectionFailed,5,,1,,,,,,,4,CapitalizedWords,"['ansible', 'connection', 'failed']"
+startswith,58,,,,,,,,,58,lowercase,['startswith']
+get_fingerprint,1,,,,,,,,,1,lower_case_with_underscores,"['get', 'fingerprint']"
+mypid,2,,,,,,,,,2,lowercase,['mypid']
+get,337,2,,,,,,,,335,lowercase,['get']
+default_vars,33,,,,,,4,,,29,lower_case_with_underscores,"['default', 'vars']"
+MODULE_CACHE,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['module', 'cache']"
+repr,4,,,,,,,,,4,lowercase,['repr']
+ssh,24,,,1,,,,,,23,lowercase,['ssh']
+elementlist,4,,,,,,,,,4,lowercase,['elementlist']
+fileno,6,,,,,,,,,6,lowercase,['fileno']
+resource,3,,,,,,,,,3,lowercase,['resource']
+remote_md5sum,2,,,,,,2,,,,lower_case_with_underscores,"['remote', 'md5sum']"
+source_seq,2,,,,,,,,,2,lower_case_with_underscores,"['source', 'seq']"
+log_lockfile,2,1,,,,,,,,1,lower_case_with_underscores,"['log', 'lockfile']"
+total_search,6,,,,,,,,,6,lower_case_with_underscores,"['total', 'search']"
+sendall,2,,,,,,,,,2,lowercase,['sendall']
+possible_paths,4,,,,,,,,,4,lower_case_with_underscores,"['possible', 'paths']"
+output_stream,2,,,,,,,,,2,lower_case_with_underscores,"['output', 'stream']"
+anydict,3,,,,,,,,,3,lowercase,['anydict']
+nrange,2,,,,,,,,,2,lowercase,['nrange']
+Inventory,27,,1,1,,,,,,25,CapitalizedWords,['inventory']
+accelerate_inventory_host,3,,,,,,,,,3,lower_case_with_underscores,"['accelerate', 'inventory', 'host']"
+makedirs,11,,,,,,,,,11,lowercase,['makedirs']
+label,1,,,,,,,,,1,lowercase,['label']
+getattr,43,,,,,,,,,43,lowercase,['getattr']
+BOOK,1,,,,,,,,,1,UPPERCASE,"['boo', 'k']"
+special_keys,4,,,,,,,,,4,lower_case_with_underscores,"['special', 'keys']"
+before,4,,,,,,4,,,,lowercase,['before']
+MODULE_ARGS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['module', 'args']"
+fcntl,76,,,4,,,,,,72,lowercase,['fcntl']
+accelerate_port,11,,,,,,2,,,9,lower_case_with_underscores,"['accelerate', 'port']"
+original_transport,2,,,,,,,,,2,lower_case_with_underscores,"['original', 'transport']"
+test_playbook_changed_when,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'playbook', 'changed', 'when']"
+set_default_selinux_context,1,1,,,,,,,,,lower_case_with_underscores,"['set', 'default', 'selinux', 'context']"
+DEFAULT_MODULE_ARGS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['default', 'module', 'args']"
+test_complex_group_names,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'complex', 'group', 'names']"
+uuid,1,,,,,,,,,1,lowercase,['uuid']
+test_regex_exclude,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'regex', 'exclude']"
+varname,45,,,,,,1,,,44,lowercase,['varname']
+region,42,,,,,,2,,,40,lowercase,['region']
+convert_bare,5,,,,,,3,,,2,lower_case_with_underscores,"['convert', 'bare']"
+s,11,,,,,,,,,11,b,['s']
+node_vars,6,,,,,,,,,6,lower_case_with_underscores,"['node', 'vars']"
+load_index_from_cache,6,3,,,,,,,,3,lower_case_with_underscores,"['load', 'index', 'from', 'cache']"
+expression,6,,,,,,,,,6,lowercase,['expression']
+color,35,,,1,,,26,,,8,lowercase,['color']
+unittest,14,,,7,,,,,,7,lowercase,['unittest']
+pygments_style,1,,,,,,,,,1,lower_case_with_underscores,"['pygments', 'style']"
+_count_terms,4,1,,,,,,,,3,lower_case_with_underscores,"['count', 'terms']"
+pop,27,,,,,,,,,27,lowercase,['pop']
+group_name,30,,,,,,,,,30,lower_case_with_underscores,"['group', 'name']"
+_update_vars_files_for_host,4,1,,,,,,,,3,lower_case_with_underscores,"['update', 'vars', 'files', 'for', 'host']"
+previous_state_code,1,,,,,,,,,1,lower_case_with_underscores,"['previous', 'state', 'code']"
+poll,7,1,,,,,,,,6,lowercase,['poll']
+list_modules,2,1,,,,,,,,1,lower_case_with_underscores,"['list', 'modules']"
+sudo_pass,24,,,,,,2,,,22,lower_case_with_underscores,"['sudo', 'pass']"
+stripped,4,,,,,,,,,4,lowercase,['stripped']
+varlist,2,,,,,,,,,2,lowercase,['varlist']
+digest_method,2,,,,,,,,,2,lower_case_with_underscores,"['digest', 'method']"
+module_style,13,,,,,,,,,13,lower_case_with_underscores,"['module', 'style']"
+use_these_items,3,,,,,,,,,3,lower_case_with_underscores,"['use', 'these', 'items']"
+connect_to_region,3,,,,,,,,,3,lower_case_with_underscores,"['connect', 'to', 'region']"
+all_regions,1,,,,,,,,,1,lower_case_with_underscores,"['all', 'regions']"
+AggregateStats,11,,1,,,,,,,10,CapitalizedWords,"['aggregate', 'stats']"
+CHUNK_SIZE,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['chunk', 'size']"
+PATH_CACHE,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['path', 'cache']"
+find_plugin,4,1,,,,,,,,3,lower_case_with_underscores,"['find', 'plugin']"
+systems,4,,,,,,,,,4,lowercase,['systems']
+engine,1,,,,,,,,,1,lowercase,['engine']
+missing_file,7,,,,,,,,,7,lower_case_with_underscores,"['missing', 'file']"
+chan,9,,,,,,,,,9,lowercase,['chan']
+set_credential_file,1,,,,,,,,,1,lower_case_with_underscores,"['set', 'credential', 'file']"
+group_names,11,,,,,,1,,,10,lower_case_with_underscores,"['group', 'names']"
+commands,1,,,1,,,,,,,lowercase,['commands']
+test_configfile_not_set_env_not_set,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'configfile', 'not', 'set', 'env', 'not', 'set']"
+hasattr,10,,,,,,,,,10,lowercase,['hasattr']
+docgen,1,,,,,,,,,1,lowercase,['docgen']
+SETUP_CACHE,19,,,,,,,,,19,UPPER_CASE_WITH_UNDERSCORES,"['setup', 'cache']"
+md5sum,3,,,,,,3,,,,lowercase,['md5sum']
+compile,11,,,1,,,,,,10,lowercase,['compile']
+cast,5,,,,,,,,,5,lowercase,['cast']
+playbook_on_stats,4,4,,,,,,,,,lower_case_with_underscores,"['playbook', 'on', 'stats']"
+groups_for_host,2,1,,,,,,,,1,lower_case_with_underscores,"['groups', 'for', 'host']"
+TYPE,11,,,,,,,,,11,UPPERCASE,"['typ', 'e']"
+from_json,1,1,,,,,,,,,lower_case_with_underscores,"['from', 'json']"
+HAVE_DNS,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['have', 'dns']"
+snippet_name,3,,,,,,,,,3,lower_case_with_underscores,"['snippet', 'name']"
+stdout,90,,,,,,24,,,66,lowercase,['stdout']
+vpc_destination_variable,2,,,,,,,,,2,lower_case_with_underscores,"['vpc', 'destination', 'variable']"
+utils,421,,,89,,,,10,,322,lowercase,['utils']
+canon,2,,,,,,,,,2,lowercase,['canon']
+parse,1,,,,,,,,,1,lowercase,['parse']
+middle,8,,,,,,,,,8,lowercase,['middle']
+endswith,28,,,,,,,,,28,lowercase,['endswith']
+b64encode,5,,,,,,,,,5,lowercase,['b64encode']
+build_index,7,1,,,,,,,,6,lower_case_with_underscores,"['build', 'index']"
+shutil,29,,,9,,,,,,20,lowercase,['shutil']
+included_additional_conditions,7,,,,,,,,,7,lower_case_with_underscores,"['included', 'additional', 'conditions']"
+DEFAULT_EXECUTABLE,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['default', 'executable']"
+pat,2,,,,,,,,,2,lowercase,['pat']
+author,1,,,,,,1,,,,lowercase,['author']
+hostname,80,,,,,,,,,80,lowercase,['hostname']
+setupterm,1,,,,,,,,,1,lowercase,['setupterm']
+matchpathcon,1,,,,,,,,,1,lowercase,['matchpathcon']
+new_group,6,,,,,,,,,6,lower_case_with_underscores,"['new', 'group']"
+LibcloudInventory,2,,1,,,,,,,1,CapitalizedWords,"['libcloud', 'inventory']"
+status,12,,,,,,1,,,11,lowercase,['status']
+allow_unicode,1,,,,,,1,,,,lower_case_with_underscores,"['allow', 'unicode']"
+I,1,,,,,,,,,1,B,"['', 'i']"
+driver,3,,,,,,,,,3,lowercase,['driver']
+mutually_exclusive,2,,,,,,,,,2,lower_case_with_underscores,"['mutually', 'exclusive']"
+all_simple_hosts,3,,,,,,,,,3,lower_case_with_underscores,"['all', 'simple', 'hosts']"
+passed_vars,15,,,,,,1,,,14,lower_case_with_underscores,"['passed', 'vars']"
+stdin,31,,,,,,14,,,17,lowercase,['stdin']
+eucalyptus,6,,,,,,,,,6,lowercase,['eucalyptus']
+mk_boolean,2,1,,,,,,,,1,lower_case_with_underscores,"['mk', 'boolean']"
+undefined,2,,,,,,1,,,1,lowercase,['undefined']
+expected_hosts,29,,,,,,,,,29,lower_case_with_underscores,"['expected', 'hosts']"
+playbook_on_vars_prompt,3,3,,,,,,,,,lower_case_with_underscores,"['playbook', 'on', 'vars', 'prompt']"
+machine_type,4,,,,,,,,,4,lower_case_with_underscores,"['machine', 'type']"
+strftime,5,,,,,,,,,5,lowercase,['strftime']
+nova_load_config_file,2,1,,,,,,,,1,lower_case_with_underscores,"['nova', 'load', 'config', 'file']"
+INAME2,19,,,,,,,,,19,UPPERCASE,['iname2']
+is_connected,3,,,,,,,,,3,lower_case_with_underscores,"['is', 'connected']"
+expected_lines,11,,,,,,,,,11,lower_case_with_underscores,"['expected', 'lines']"
+filter_leading_non_json_lines,2,1,,,,,,,,1,lower_case_with_underscores,"['filter', 'leading', 'non', 'json', 'lines']"
+add_mutually_exclusive_group,1,,,,,,,,,1,lower_case_with_underscores,"['add', 'mutually', 'exclusive', 'group']"
+vvvv,15,1,,1,,,,,,13,lowercase,['vvvv']
+DISPLAY_SKIPPED_HOSTS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['display', 'skipped', 'hosts']"
+TestPlaybook,1,,1,,,,,,,,CapitalizedWords,"['test', 'playbook']"
+rest,10,,,,,,,,,10,lowercase,['rest']
+_get_config,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'config']"
+default_secontext,3,,,,,,,,,3,lower_case_with_underscores,"['default', 'secontext']"
+_connect_sftp,2,1,,,,,,,,1,lower_case_with_underscores,"['connect', 'sftp']"
+unicode,20,,,,,,,,,20,lowercase,['unicode']
+real_filename,2,,,,,,,,,2,lower_case_with_underscores,"['real', 'filename']"
+data_files,4,,,,,,1,,,3,lower_case_with_underscores,"['data', 'files']"
+has_option,19,,,,,,,,,19,lower_case_with_underscores,"['has', 'option']"
+struct,3,,,1,,,,,,2,lowercase,['struct']
+tmp_src,17,,,,,,,,,17,lower_case_with_underscores,"['tmp', 'src']"
+digest_from_file,3,1,,,,,,,,2,lower_case_with_underscores,"['digest', 'from', 'file']"
+home_dir,8,,,,,,,,,8,lower_case_with_underscores,"['home', 'dir']"
+param,10,,,,,,,,,10,lowercase,['param']
+sudopass,5,,,,,,,,,5,lowercase,['sudopass']
+unified_diff,1,,,,,,,,,1,lower_case_with_underscores,"['unified', 'diff']"
+hostvars,9,,,,,,,,,9,lowercase,['hostvars']
+child_groups,4,,,,,,,,,4,lower_case_with_underscores,"['child', 'groups']"
+load_config_file,2,1,,,,,,,,1,lower_case_with_underscores,"['load', 'config', 'file']"
+SIG_IGN,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['sig', 'ign']"
+module_vars,43,,,,,,3,,,40,lower_case_with_underscores,"['module', 'vars']"
+read,58,,,,,,,,,58,lowercase,['read']
+tearDown,3,3,,,,,,,,,mixedCase,"['tear', 'down']"
+tmp_content,7,,,,,,,,,7,lower_case_with_underscores,"['tmp', 'content']"
+seenabled,3,,,,,,,,,3,lowercase,['seenabled']
+dark,7,,,,,,2,,,5,lowercase,['dark']
+pw_name,1,,,,,,,,,1,lower_case_with_underscores,"['pw', 'name']"
+load_inventory_from_cache,2,1,,,,,,,,1,lower_case_with_underscores,"['load', 'inventory', 'from', 'cache']"
+ivalue,3,,,,,,,,,3,lowercase,['ivalue']
+load_from_cache,2,1,,,,,,,,1,lower_case_with_underscores,"['load', 'from', 'cache']"
+foo,1,,,,,,,,,1,lowercase,['foo']
+sort_keys,12,,,,,,12,,,,lower_case_with_underscores,"['sort', 'keys']"
+parse_yaml,3,1,,,,,,,,2,lower_case_with_underscores,"['parse', 'yaml']"
+new_md5,4,,,,,,,,,4,lower_case_with_underscores,"['new', 'md5']"
+server,15,,,,,,1,,,14,lowercase,['server']
+t,129,,,,,,,,,129,b,['t']
+output,37,,,,,,,,,37,lowercase,['output']
+unbalanced,3,,,,,,,,,3,lowercase,['unbalanced']
+_get_stage_file,6,2,,,,,,,,4,lower_case_with_underscores,"['get', 'stage', 'file']"
+loader_paths,3,,,,,,,,,3,lower_case_with_underscores,"['loader', 'paths']"
+var_end,7,,,,,,,,,7,lower_case_with_underscores,"['var', 'end']"
+conditional,38,,,,,,1,,,37,lowercase,['conditional']
+DEFAULT_JINJA2_EXTENSIONS,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['default', 'jinja2', 'extensions']"
+l,2,,,,,,,,,2,b,['l']
+test_invalid_range,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'invalid', 'range']"
+dest_file,9,,,,,,,,,9,lower_case_with_underscores,"['dest', 'file']"
+duration,7,,,,,,,,,7,lowercase,['duration']
+ArgumentParser,8,,,,,,,,,8,CapitalizedWords,"['argument', 'parser']"
+install_opener,1,,,,,,,,,1,lower_case_with_underscores,"['install', 'opener']"
+gr_gid,1,,,,,,,,,1,lower_case_with_underscores,"['gr', 'gid']"
+test_regex,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'regex']"
+confirm,9,,,,,,1,,,8,lowercase,['confirm']
+redis,2,,,1,,,,,,1,lowercase,['redis']
+unmatched,2,,,,,,,,,2,lowercase,['unmatched']
+exit,58,1,,,,,,,,57,lowercase,['exit']
+inject,280,,,,,,21,,,259,lowercase,['inject']
+DEFAULT_SCP_IF_SSH,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['default', 'scp', 'if', 'ssh']"
+read_settings,12,6,,,,,,,,6,lower_case_with_underscores,"['read', 'settings']"
+DEFAULT_FILTER_PLUGIN_PATH,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['default', 'filter', 'plugin', 'path']"
+infile,8,,,,,,,,,8,lowercase,['infile']
+islink,7,,,,,,,,,7,lowercase,['islink']
+_run,88,2,,,,,,,,86,lowercase,['run']
+_remote_md5,7,1,,,,,,,,6,lower_case_with_underscores,"['remote', 'md5']"
+additional_conditions,10,,,,,,1,,,9,lower_case_with_underscores,"['additional', 'conditions']"
+runner_on_async_ok,3,3,,,,,,,,,lower_case_with_underscores,"['runner', 'on', 'async', 'ok']"
+seconds,8,,,,,,,,,8,lowercase,['seconds']
+gather_facts,3,,,,,,,,,3,lower_case_with_underscores,"['gather', 'facts']"
+inspect,3,,,1,,,,,,2,lowercase,['inspect']
+communicate,19,,,,,,,,,19,lowercase,['communicate']
+AesKey,3,,,1,,,,,,2,CapitalizedWords,"['aes', 'key']"
+urllib2,9,,,2,,,,,,7,lowercase,['urllib2']
+latex_ify,2,1,,,,,,,,1,lower_case_with_underscores,"['latex', 'ify']"
+on_skipped,9,4,,,,,,,,5,lower_case_with_underscores,"['on', 'skipped']"
+json_index,6,,,,,,,,,6,lower_case_with_underscores,"['json', 'index']"
+YAMLError,1,,,,,,,,,1,CapitalizedWords,"['yaml', 'error']"
+found,15,,,,,,,,,15,lowercase,['found']
+_,8,,,,,,,,,8,ugly,[]
+LOG_NOTICE,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['log', 'notice']"
+src,31,1,,,,,2,,,28,lowercase,['src']
+broker_url,4,,,,,,,,,4,lower_case_with_underscores,"['broker', 'url']"
+ok,3,,,,,,1,,,2,lowercase,['ok']
+package,8,,,,,,,,,8,lowercase,['package']
+AES_KEYS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['aes', 'keys']"
+PluginLoader,9,,1,,,,,,,8,CapitalizedWords,"['plugin', 'loader']"
+SHORTCUT,2,,,,,,,,,2,UPPERCASE,"['shortcu', 't']"
+jvars,2,,,,,,,,,2,lowercase,['jvars']
+global_vars,1,,,,,,,,,1,lower_case_with_underscores,"['global', 'vars']"
+Globals,5,,1,,,,,,,4,CapitalizedWords,['globals']
+base_dir,2,,,,,,,,,2,lower_case_with_underscores,"['base', 'dir']"
+backup,1,,,,,,1,,,,lowercase,['backup']
+recv_data,6,1,,,,,,,,5,lower_case_with_underscores,"['recv', 'data']"
+DEFAULT_SUDO_EXE,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['default', 'sudo', 'exe']"
+json_ify,2,1,,,,,,,,1,lower_case_with_underscores,"['json', 'ify']"
+FILE_DISABLE,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['file', 'disable']"
+curses,4,,,1,,,,,,3,lowercase,['curses']
+image,7,,,,,,,,,7,lowercase,['image']
+test_git,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'git']"
+is_executable,6,2,,,,,,,,4,lower_case_with_underscores,"['is', 'executable']"
+_URL,7,,,,,,,,,7,UPPERCASE,"['ur', 'l']"
+strip,55,,,,,,,,,55,lowercase,['strip']
+operator,2,,,1,,,,,,1,lowercase,['operator']
+mark,8,,,,,,,,,8,lowercase,['mark']
+Empty,1,,,,,,,,,1,CapitalizedWords,['empty']
+_jinja2_vars,4,,1,,,,,,,3,lower_case_with_underscores,"['jinja2', 'vars']"
+loc,4,,,,,,,,,4,lowercase,['loc']
+state_code,1,,,,,,,,,1,lower_case_with_underscores,"['state', 'code']"
+log,9,1,,,,,,,,8,lowercase,['log']
+module_args_tmp,6,,,,,,,,,6,lower_case_with_underscores,"['module', 'args', 'tmp']"
+fdopen,6,,,,,,,,,6,lowercase,['fdopen']
+get_instance_route53_names,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'instance', 'route53', 'names']"
+decode,10,,,,,,,,,10,lowercase,['decode']
+start,31,,,,,,2,,,29,lowercase,['start']
+_LISTRE,2,,,,,,,,,2,UPPERCASE,"['listr', 'e']"
+rmdir,2,,,,,,,,,2,lowercase,['rmdir']
+ipv6,4,,,,,,,,,4,lowercase,['ipv6']
+NoOptionError,1,,,,,,,,,1,CapitalizedWords,"['no', 'option', 'error']"
+_set_defaults,3,1,,,,,,,,2,lower_case_with_underscores,"['set', 'defaults']"
+linode_api,2,,,,,,,,,2,lower_case_with_underscores,"['linode', 'api']"
+Sphinx,2,,,1,,,,,,1,CapitalizedWords,['sphinx']
+auth_system,1,,,,,,1,,,,lower_case_with_underscores,"['auth', 'system']"
+FILE_RUN,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['file', 'run']"
+js_ify,2,1,,,,,,,,1,lower_case_with_underscores,"['js', 'ify']"
+X_OK,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['x', 'ok']"
+_result_key_merge,1,1,,,,,,,,,lower_case_with_underscores,"['result', 'key', 'merge']"
+client_id,9,,,,,,,,,9,lower_case_with_underscores,"['client', 'id']"
+Error,6,,,,,,,,,6,CapitalizedWords,['error']
+Assign,1,,,,,,,,,1,CapitalizedWords,['assign']
+any_errors_fatal,8,,,,,,,,,8,lower_case_with_underscores,"['any', 'errors', 'fatal']"
+DEFAULT_HASH_BEHAVIOUR,8,,,,,,,,,8,UPPER_CASE_WITH_UNDERSCORES,"['default', 'hash', 'behaviour']"
+output_dir,2,,,,,,,,,2,lower_case_with_underscores,"['output', 'dir']"
+multiprocessing_runner,4,,,,,,,,1,3,lower_case_with_underscores,"['multiprocessing', 'runner']"
+ANSIBLE_SSH_CONTROL_PATH,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['ansible', 'ssh', 'control', 'path']"
+NXDOMAIN,1,,,,,,,,,1,UPPERCASE,"['nxdomai', 'n']"
+get_nodes,4,2,,,,,,,,2,lower_case_with_underscores,"['get', 'nodes']"
+ae,10,,,,,,,3,,7,lowercase,['ae']
+uid,13,,,,,,1,,,12,lowercase,['uid']
+new_host,8,,,,,,,,,8,lower_case_with_underscores,"['new', 'host']"
+resultant,8,,,,,,,,,8,lowercase,['resultant']
+tmpcond,7,,,,,,,,,7,lowercase,['tmpcond']
+variable_end_string,1,,,,,,1,,,,lower_case_with_underscores,"['variable', 'end', 'string']"
+file,22,,,,,,8,,,14,lowercase,['file']
+sftp,7,,,,,,,,,7,lowercase,['sftp']
+fill,3,,,,,,,,,3,lowercase,['fill']
+check_opts,2,,,,,,,,,2,lower_case_with_underscores,"['check', 'opts']"
+markdown_ify,2,1,,,,,,,,1,lower_case_with_underscores,"['markdown', 'ify']"
+get_zones,1,,,,,,,,,1,lower_case_with_underscores,"['get', 'zones']"
+gettext,2,,,1,,,,,,1,lowercase,['gettext']
+run_async,2,1,,,,,,,,1,lower_case_with_underscores,"['run', 'async']"
+field,2,,,,,,,,,2,lowercase,['field']
+cleanup,2,1,,,,,,,,1,lowercase,['cleanup']
+mkstemp,4,,,,,,,,,4,lowercase,['mkstemp']
+EXDEV,1,,,,,,,,,1,UPPERCASE,"['exde', 'v']"
+ACCELERATE_PORT,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['accelerate', 'port']"
+on_hosts,3,,,,,,,,,3,lower_case_with_underscores,"['on', 'hosts']"
+ApiError,2,,,,,,,,,2,CapitalizedWords,"['api', 'error']"
+base_path,6,,,,,,,,,6,lower_case_with_underscores,"['base', 'path']"
+REPLACER_ARGS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['replacer', 'args']"
+do_boilerplate,1,,,,,,,,,1,lower_case_with_underscores,"['do', 'boilerplate']"
+cmd_mod,1,,,,,,,,,1,lower_case_with_underscores,"['cmd', 'mod']"
+b64decode,7,,,,,,,,,7,lowercase,['b64decode']
+concat,2,,,,,,,,,2,lowercase,['concat']
+_enumeration_info,3,1,,,,,,,,2,lower_case_with_underscores,"['enumeration', 'info']"
+remote,3,,,,,,,,,3,lowercase,['remote']
+Runner,5,,1,,,,,,,4,CapitalizedWords,['runner']
+zabbix_server,4,,,,,,,,,4,lower_case_with_underscores,"['zabbix', 'server']"
+stringc,3,1,,1,,,,,,1,lowercase,['stringc']
+chown,1,,,,,,,,,1,lowercase,['chown']
+test_empty,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'empty']"
+clean_file,5,1,,,,,,,,4,lower_case_with_underscores,"['clean', 'file']"
+GceInventory,2,,1,,,,,,,1,CapitalizedWords,"['gce', 'inventory']"
+directory,14,,,,,,2,,,12,lowercase,['directory']
+original,7,,,,,,,,,7,lowercase,['original']
+INVENTORY,1,,,,,,,,,1,UPPERCASE,"['inventor', 'y']"
+all,34,1,,,,,3,,,30,lowercase,['all']
+route53_records,5,,,,,,,,,5,lower_case_with_underscores,"['route53', 'records']"
+get_restriction,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'restriction']"
+add_node,4,2,,,,,,,,2,lower_case_with_underscores,"['add', 'node']"
+selinux,6,,,1,,,,,,5,lowercase,['selinux']
+arg_opts,2,,,,,,,,,2,lower_case_with_underscores,"['arg', 'opts']"
+new_list,4,,,,,,,,,4,lower_case_with_underscores,"['new', 'list']"
+PlayBook,11,,1,,,,,,,10,CapitalizedWords,"['play', 'book']"
+pty,2,,,1,,,,,,1,lowercase,['pty']
+new_hosts,4,,,,,,,,,4,lower_case_with_underscores,"['new', 'hosts']"
+large_range_inventory,2,1,,,,,,,,1,lower_case_with_underscores,"['large', 'range', 'inventory']"
+node_to_dict,2,1,,,,,,,,1,lower_case_with_underscores,"['node', 'to', 'dict']"
+module_map,3,,,,,,,,,3,lower_case_with_underscores,"['module', 'map']"
+AnsibleFilterError,6,,1,,,,,,,5,CapitalizedWords,"['ansible', 'filter', 'error']"
+_re,2,,,,,,,,,2,lowercase,['re']
+linesep,1,,,,,,,,,1,lowercase,['linesep']
+task_vars,11,,,,,,,,,11,lower_case_with_underscores,"['task', 'vars']"
+tail,2,,,,,,,,,2,lowercase,['tail']
+rstrip,5,,,,,,,,,5,lowercase,['rstrip']
+symmetric_difference,3,1,,,,,,,,2,lower_case_with_underscores,"['symmetric', 'difference']"
+td,2,,,,,,,,,2,lowercase,['td']
+zmq,3,,,1,,,,,,2,lowercase,['zmq']
+pattern_regular,5,,,,,,,,,5,lower_case_with_underscores,"['pattern', 'regular']"
+sshpass,4,,,,,,,,,4,lowercase,['sshpass']
+_compare_file_output,5,1,,,,,,,,4,lower_case_with_underscores,"['compare', 'file', 'output']"
+_hosts,5,,,,,,,,,5,lowercase,['hosts']
+test_playbook_vars,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'playbook', 'vars']"
+interpreter_config,3,,,,,,,,,3,lower_case_with_underscores,"['interpreter', 'config']"
+difference,3,1,,,,,,,,2,lowercase,['difference']
+_host_keys,5,,,,,,,,,5,lower_case_with_underscores,"['host', 'keys']"
+new_name,10,,,,,,,,,10,lower_case_with_underscores,"['new', 'name']"
+load_callback_plugins,2,1,,,,,,,,1,lower_case_with_underscores,"['load', 'callback', 'plugins']"
+NETWK3,4,,,,,,,,,4,UPPERCASE,['netwk3']
+basefile,3,,,,,,,,,3,lowercase,['basefile']
+NETWK1,17,,,,,,,,,17,UPPERCASE,['netwk1']
+journal_args,4,,,,,,,,,4,lower_case_with_underscores,"['journal', 'args']"
+list,83,,,,,,,,,83,lowercase,['list']
+isabs,2,,,,,,,,,2,lowercase,['isabs']
+newfilepath,3,,,,,,,,,3,lowercase,['newfilepath']
+is_good,3,,,,,,,,,3,lower_case_with_underscores,"['is', 'good']"
+host_name,1,,,,,,,,,1,lower_case_with_underscores,"['host', 'name']"
+stderr,110,,,,,,28,,,82,lowercase,['stderr']
+test_action_plugins,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'action', 'plugins']"
+security_group,2,,,,,,,,,2,lower_case_with_underscores,"['security', 'group']"
+on_no_hosts_remaining,4,2,,,,,,,,2,lower_case_with_underscores,"['on', 'no', 'hosts', 'remaining']"
+PAUSE_TYPES,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['pause', 'types']"
+getvalue,3,,,,,,,,,3,lowercase,['getvalue']
+syslog,12,,,2,,,,,,10,lowercase,['syslog']
+CliRunnerCallbacks,11,,1,,,,,,,10,CapitalizedWords,"['cli', 'runner', 'callbacks']"
+plugins,34,,,3,,,,,,31,lowercase,['plugins']
+all_domains,1,,,,,,,,,1,lower_case_with_underscores,"['all', 'domains']"
+choices,6,,,,,,1,,,5,lowercase,['choices']
+HC2,8,,,,,,,,,8,UPPERCASE,['hc2']
+meta_basepath,2,,,,,,,,,2,lower_case_with_underscores,"['meta', 'basepath']"
+what,3,,,,,,,,,3,lowercase,['what']
+HC1,11,,,,,,,,,11,UPPERCASE,['hc1']
+sub,41,,,,,,,,,41,lowercase,['sub']
+out_path,76,,,,,,2,,,74,lower_case_with_underscores,"['out', 'path']"
+clock,23,,,,,,,,,23,lowercase,['clock']
+section,4,,,,,,,,,4,lowercase,['section']
+DEFAULT_SUDO_PASS,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['default', 'sudo', 'pass']"
+izip_longest,2,,,1,,,,,,1,lower_case_with_underscores,"['izip', 'longest']"
+inventory_basedir,3,,,,,,,,,3,lower_case_with_underscores,"['inventory', 'basedir']"
+meta_file,3,,,,,,,,,3,lower_case_with_underscores,"['meta', 'file']"
+version,9,1,,,,,4,,,4,lowercase,['version']
+intersect,2,1,,,,,,,,1,lowercase,['intersect']
+method,3,,,,,,,,,3,lowercase,['method']
+term2,3,,,,,,,,,3,lowercase,['term2']
+module_finder,8,,,,,,,,,8,lower_case_with_underscores,"['module', 'finder']"
+hash,5,,,1,,,,,,4,lowercase,['hash']
+DEFAULT_LOG_PATH,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['default', 'log', 'path']"
+tags,25,,,,,,,,,25,lowercase,['tags']
+optparse,8,,,5,,,,,,3,lowercase,['optparse']
+answers,2,,,,,,,,,2,lowercase,['answers']
+ranges,2,,,,,,,,,2,lowercase,['ranges']
+_on_any,3,1,,,,,,,,2,lower_case_with_underscores,"['on', 'any']"
+test_simple_all,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'simple', 'all']"
+diffs,4,,,,,,,,,4,lowercase,['diffs']
+search,15,1,,,,,,,,14,lowercase,['search']
+sender,15,,,,,,4,,,11,lowercase,['sender']
+StringIO,11,,,4,,,,,,7,CapitalizedWords,"['string', 'i', 'o']"
+test_simple,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'simple']"
+load_all_data_from_digital_ocean,4,1,,,,,,,,3,lower_case_with_underscores,"['load', 'all', 'data', 'from', 'digital', 'ocean']"
+data_in,2,,,,,,,,,2,lower_case_with_underscores,"['data', 'in']"
+round,2,,,,,,,,,2,lowercase,['round']
+on_import_for_host,4,2,,,,,,,,2,lower_case_with_underscores,"['on', 'import', 'for', 'host']"
+tigetnum,1,,,,,,,,,1,lowercase,['tigetnum']
+action,67,,,,,,55,,,12,lowercase,['action']
+stage_dir,6,,,,,,,,,6,lower_case_with_underscores,"['stage', 'dir']"
+fileglob,3,1,,,,,,,,2,lowercase,['fileglob']
+options,117,,,,,,,,,117,lowercase,['options']
+_subset,6,,,,,,,,,6,lowercase,['subset']
+is_playbook,6,,,,,,2,,,4,lower_case_with_underscores,"['is', 'playbook']"
+base64,19,,,7,,,,,,12,lowercase,['base64']
+to_text,1,,,,,,,,,1,lower_case_with_underscores,"['to', 'text']"
+verbose,18,1,,,,,1,,,16,lowercase,['verbose']
+orig_path,9,,,,,,,,,9,lower_case_with_underscores,"['orig', 'path']"
+REQ,1,,,,,,,,,1,UPPERCASE,"['re', 'q']"
+_get_paths,4,1,,,,,,,,3,lower_case_with_underscores,"['get', 'paths']"
+getmtime,8,,,,,,,,,8,lowercase,['getmtime']
+html_theme,1,,,,,,,,,1,lower_case_with_underscores,"['html', 'theme']"
+_start,2,1,,,,,,,,1,lowercase,['start']
+json_data,23,,,,,,,,,23,lower_case_with_underscores,"['json', 'data']"
+select,8,,,2,,,,,,6,lowercase,['select']
+script_inventory,9,1,,,,,,,,8,lower_case_with_underscores,"['script', 'inventory']"
+load_cache_from_cache,3,1,,,,,,,,2,lower_case_with_underscores,"['load', 'cache', 'from', 'cache']"
+executable,52,,,,,,8,,,44,lowercase,['executable']
+get_json_from_api,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'json', 'from', 'api']"
+destination,4,,,,,,,,,4,lowercase,['destination']
+eucalyptus_host,6,,,,,,,,,6,lower_case_with_underscores,"['eucalyptus', 'host']"
+xrange,2,,,,,,,,,2,lowercase,['xrange']
+all_changed,3,,,,,,,,,3,lower_case_with_underscores,"['all', 'changed']"
+common_args,18,,,,,,,,,18,lower_case_with_underscores,"['common', 'args']"
+ok_or_changed,6,,,,,,,,,6,lower_case_with_underscores,"['ok', 'or', 'changed']"
+serialized_batch,4,,,,,,,,,4,lower_case_with_underscores,"['serialized', 'batch']"
+actual_transport,7,,,,,,,,,7,lower_case_with_underscores,"['actual', 'transport']"
+flat,4,,,,,,,,,4,lowercase,['flat']
+Redis,1,,,,,,,,,1,CapitalizedWords,['redis']
+abspath,20,,,,,,,,,20,lowercase,['abspath']
+test_simple_combined,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'simple', 'combined']"
+log_unflock,2,1,,,,,,,,1,lower_case_with_underscores,"['log', 'unflock']"
+InventoryParser,5,,1,2,,,,,,2,CapitalizedWords,"['inventory', 'parser']"
+subset_pattern,7,,,,,,,,,7,lower_case_with_underscores,"['subset', 'pattern']"
+dep,7,,,,,,,,,7,lowercase,['dep']
+cache_path_index,12,,,,,,,,,12,lower_case_with_underscores,"['cache', 'path', 'index']"
+ModuleReplacer,3,,1,1,,,,,,1,CapitalizedWords,"['module', 'replacer']"
+option_list,1,,,,,,,,,1,lower_case_with_underscores,"['option', 'list']"
+v,90,,,,,,,,,90,b,['v']
+CobblerInventory,2,,1,,,,,,,1,CapitalizedWords,"['cobbler', 'inventory']"
+accelerate_ipv6,7,,,,,,1,,,6,lower_case_with_underscores,"['accelerate', 'ipv6']"
+generate_retry_inventory,1,1,,,,,,,,,lower_case_with_underscores,"['generate', 'retry', 'inventory']"
+data_len,4,,,,,,,,,4,lower_case_with_underscores,"['data', 'len']"
+tmp_dest,6,,,,,,,,,6,lower_case_with_underscores,"['tmp', 'dest']"
+compare,7,1,,,,,,,,6,lowercase,['compare']
+prompt,40,1,,,,,4,,,35,lowercase,['prompt']
+test_no_src,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'no', 'src']"
+encoded_lang,2,,,,,,,,,2,lower_case_with_underscores,"['encoded', 'lang']"
+one_line,1,,,,,,,,,1,lower_case_with_underscores,"['one', 'line']"
+numbers,2,,,,,,,,,2,lowercase,['numbers']
+_legacy_varFind,3,1,,,,,,,,2,ugly,"['legacy', 'varfind']"
+cows,3,,,,,,,,,3,lowercase,['cows']
+get_instance,4,2,,,,,,,,2,lower_case_with_underscores,"['get', 'instance']"
+_gitinfo,2,1,,,,,,,,1,lowercase,['gitinfo']
+_parse_base_groups,2,1,,,,,,,,1,lower_case_with_underscores,"['parse', 'base', 'groups']"
+passwd_setup,2,1,,,,,,,,1,lower_case_with_underscores,"['passwd', 'setup']"
+add_file_common_args,2,,,,,,,,,2,lower_case_with_underscores,"['add', 'file', 'common', 'args']"
+opt,1,,,,,,,,,1,lowercase,['opt']
+basicConfig,1,,,,,,,,,1,mixedCase,"['basic', 'config']"
+ValueError,16,,,,,,,,,16,CapitalizedWords,"['value', 'error']"
+fp,2,,,,,,,,,2,lowercase,['fp']
+BotoServerError,2,,,,,,,,,2,CapitalizedWords,"['boto', 'server', 'error']"
+hosts_all,2,,,,,,,,,2,lower_case_with_underscores,"['hosts', 'all']"
+choices_str,2,,,,,,,,,2,lower_case_with_underscores,"['choices', 'str']"
+log_flock,2,1,,,,,,,,1,lower_case_with_underscores,"['log', 'flock']"
+tries,4,,,,,,,,,4,lowercase,['tries']
+fc,2,,,,,,,1,,1,lowercase,['fc']
+fd,26,,,,,,,,,26,lowercase,['fd']
+fh,20,,,,,,,,,20,lowercase,['fh']
+remote_data,6,,,,,,,,,6,lower_case_with_underscores,"['remote', 'data']"
+unlink,10,,,,,,,,,10,lowercase,['unlink']
+capitalize,2,,,,,,,,,2,lowercase,['capitalize']
+response,63,,,,,,,,,63,lowercase,['response']
+fn,14,,,,,,,,,14,lowercase,['fn']
+refresh_cache,5,,,,,,,,,5,lower_case_with_underscores,"['refresh', 'cache']"
+a,69,,,,,,1,,,68,b,['a']
+argparse,16,,,8,,,,,,8,lowercase,['argparse']
+add_path_info,3,1,,,,,,,,2,lower_case_with_underscores,"['add', 'path', 'info']"
+setup_ok,2,,,,,,,,,2,lower_case_with_underscores,"['setup', 'ok']"
+register,9,,,,,,,,,9,lowercase,['register']
+height,1,,,,,,1,,,,lowercase,['height']
+callback,5,,,,,,1,,,4,lowercase,['callback']
+tilde_dirs,3,,,,,,,,,3,lower_case_with_underscores,"['tilde', 'dirs']"
+keyfile,4,,,,,,,,,4,lowercase,['keyfile']
+module_args,104,,,,,,5,,,99,lower_case_with_underscores,"['module', 'args']"
+zabbix_password,3,,,,,,,,,3,lower_case_with_underscores,"['zabbix', 'password']"
+help,68,,,,,,68,,,,lowercase,['help']
+dir_inventory,1,1,,,,,,,,,lower_case_with_underscores,"['dir', 'inventory']"
+basename,16,,,,,,,,,16,lowercase,['basename']
+JINJA2_OVERRIDE,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['jinja2', 'override']"
+disabled,2,,,,,,,,,2,lowercase,['disabled']
+uname,1,,,,,,,,,1,lowercase,['uname']
+test_script_norse,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'script', 'norse']"
+filters,18,1,,,,,,,,17,lowercase,['filters']
+ascii_uppercase,1,,,,,,,,,1,lower_case_with_underscores,"['ascii', 'uppercase']"
+codeCodes,2,,,,,,,,,2,mixedCase,"['code', 'codes']"
+cowsay,11,,,,,,,,,11,lowercase,['cowsay']
+systemd,1,,,1,,,,,,,lowercase,['systemd']
+params2,3,,,,,,,,,3,lowercase,['params2']
+libcloud_ini_path,2,,,,,,,,,2,lower_case_with_underscores,"['libcloud', 'ini', 'path']"
+tcflush,4,,,2,,,,,,2,lowercase,['tcflush']
+parts,5,,,,,,,,,5,lowercase,['parts']
+getpid,2,,,,,,,,,2,lowercase,['getpid']
+KEYCZAR_AVAILABLE,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['keyczar', 'available']"
+F_OK,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['f', 'ok']"
+FILE_COMMON_ARGUMENTS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['file', 'common', 'arguments']"
+rst_xline,3,1,,,,,,,,2,lower_case_with_underscores,"['rst', 'xline']"
+before_probline,3,,,,,,,,,3,lower_case_with_underscores,"['before', 'probline']"
+kn_salt,2,,,,,,,,,2,lower_case_with_underscores,"['kn', 'salt']"
+skipped,20,1,,,,,10,,,9,lowercase,['skipped']
+tmpfd,2,,,,,,,,,2,lowercase,['tmpfd']
+size_name,3,,,,,,,,,3,lower_case_with_underscores,"['size', 'name']"
+_load_params,2,1,,,,,,,,1,lower_case_with_underscores,"['load', 'params']"
+IndexError,2,,,,,,,,,2,CapitalizedWords,"['index', 'error']"
+rsplit,5,,,,,,,,,5,lowercase,['rsplit']
+setup_results,4,,,,,,,,,4,lower_case_with_underscores,"['setup', 'results']"
+vars_basepath,2,,,,,,,,,2,lower_case_with_underscores,"['vars', 'basepath']"
+confdir,2,,,,,,,,,2,lowercase,['confdir']
+PLUGIN_PATH_CACHE,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['plugin', 'path', 'cache']"
+parse_kv_args,2,1,,,,,,,,1,lower_case_with_underscores,"['parse', 'kv', 'args']"
+CACHE_DIR,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['cache', 'dir']"
+ANSIBLE_SSH_ARGS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['ansible', 'ssh', 'args']"
+PARAMIKO_RECORD_HOST_KEYS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['paramiko', 'record', 'host', 'keys']"
+module_name,70,,,,,,5,,,65,lower_case_with_underscores,"['module', 'name']"
+only_if,7,,,,,,,,,7,lower_case_with_underscores,"['only', 'if']"
+dgettext,1,,,,,,,,,1,lowercase,['dgettext']
+get_ssh_config,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'ssh', 'config']"
+_MARKDOWN,2,,,,,,,,,2,UPPERCASE,"['markdow', 'n']"
+failed_when,9,,,,,,,,,9,lower_case_with_underscores,"['failed', 'when']"
+p,190,,,,,,,,,190,b,['p']
+YAML_FILENAME_EXTENSIONS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['yaml', 'filename', 'extensions']"
+_vars_per_host,5,,,,,,,,,5,lower_case_with_underscores,"['vars', 'per', 'host']"
+connect,17,9,,,,,,,,8,lowercase,['connect']
+isfile,32,,,,,,,,,32,lowercase,['isfile']
+incorrect_password,2,,,,,,,,,2,lower_case_with_underscores,"['incorrect', 'password']"
+tags_set,3,,,,,,,,,3,lower_case_with_underscores,"['tags', 'set']"
+key_for_hostname,4,1,,,,,,,,3,lower_case_with_underscores,"['key', 'for', 'hostname']"
+getLogger,2,,,,,,,,,2,mixedCase,"['get', 'logger']"
+get_all_instances,2,,,,,,,,,2,lower_case_with_underscores,"['get', 'all', 'instances']"
+_password_cmd,4,1,,,,,,,,3,lower_case_with_underscores,"['password', 'cmd']"
+_list_available_hosts,7,1,,,,,,,,6,lower_case_with_underscores,"['list', 'available', 'hosts']"
+lineno,1,,,,,,,,,1,lowercase,['lineno']
+path_prefix,4,,,,,,,,,4,lower_case_with_underscores,"['path', 'prefix']"
+host_fh,3,,,,,,,,,3,lower_case_with_underscores,"['host', 'fh']"
+dirs,2,,,,,,,,,2,lowercase,['dirs']
+None,697,,,,,,,,,697,CapitalizedWords,['none']
+ast,8,,,4,,,,,,4,lowercase,['ast']
+src_path,3,,,,,,,,,3,lower_case_with_underscores,"['src', 'path']"
+action_loader,7,,,,,,,,,7,lower_case_with_underscores,"['action', 'loader']"
+reason,3,,,,,,,,,3,lowercase,['reason']
+base,4,,,,,,,,,4,lowercase,['base']
+set_task,9,1,,,,,,,,8,lower_case_with_underscores,"['set', 'task']"
+put,3,,,,,,,,,3,lowercase,['put']
+html_theme_path,1,,,,,,,,,1,lower_case_with_underscores,"['html', 'theme', 'path']"
+recv,6,,,,,,,,,6,lowercase,['recv']
+rpipes,7,,,,,,,,,7,lowercase,['rpipes']
+sudo_vars,6,,,,,,,,,6,lower_case_with_underscores,"['sudo', 'vars']"
+host_set,4,,,,,,,,,4,lower_case_with_underscores,"['host', 'set']"
+update_vars_files,2,1,,,,,,,,1,lower_case_with_underscores,"['update', 'vars', 'files']"
+DEFAULT_TRANSPORT,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['default', 'transport']"
+caption,9,,,,,,,,,9,lowercase,['caption']
+get_binary,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'binary']"
+get_config,61,2,,1,,,,,,58,lower_case_with_underscores,"['get', 'config']"
+restrict_to,7,1,,,,,,,,6,lower_case_with_underscores,"['restrict', 'to']"
+includecmt,7,,,,,,,,,7,lowercase,['includecmt']
+encoding,3,,,,,,2,,,1,lowercase,['encoding']
+instances,4,,,,,,,,,4,lowercase,['instances']
+DEFAULT_CALLBACK_PLUGIN_PATH,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['default', 'callback', 'plugin', 'path']"
+done,5,,,,,,,,,5,lowercase,['done']
+notify,6,,,,,,,,,6,lowercase,['notify']
+runner_callbacks,25,,,,,,10,,,15,lower_case_with_underscores,"['runner', 'callbacks']"
+DEFAULT_ASK_SUDO_PASS,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['default', 'ask', 'sudo', 'pass']"
+handler_name,8,,,,,,,,,8,lower_case_with_underscores,"['handler', 'name']"
+differ,2,,,,,,,,,2,lowercase,['differ']
+script,2,,,2,,,,,,,lowercase,['script']
+_new_stdin,3,,,,,,,,,3,lower_case_with_underscores,"['new', 'stdin']"
+lstrip,5,,,,,,,,,5,lowercase,['lstrip']
+isalpha,1,,,,,,,,,1,lowercase,['isalpha']
+source_files,5,,,,,,,,,5,lower_case_with_underscores,"['source', 'files']"
+test_simple_string_ipv4,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'simple', 'string', 'ipv4']"
+get_diff,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'diff']"
+_load_tasks,4,1,,,,,,,,3,lower_case_with_underscores,"['load', 'tasks']"
+option,1,,,,,,,,,1,lowercase,['option']
+boilerplate,2,1,,,,,,,,1,lowercase,['boilerplate']
+st_gid,2,,,,,,,,,2,lower_case_with_underscores,"['st', 'gid']"
+_CONST,7,,,,,,,,,7,UPPERCASE,"['cons', 't']"
+part,12,,,,,,,,,12,lowercase,['part']
+persist_files,7,,,,,,4,,,3,lower_case_with_underscores,"['persist', 'files']"
+word,10,,,,,,,,,10,lowercase,['word']
+sudoable,34,,,,,,9,,,25,lowercase,['sudoable']
+test_simple_string_ipv6,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'simple', 'string', 'ipv6']"
+hashlib,4,,,4,,,,,,,lowercase,['hashlib']
+b,16,,,,,,1,,,15,b,['b']
+eval,4,,,,,,,,,4,lowercase,['eval']
+DoError,1,,,1,,,,,,,CapitalizedWords,"['do', 'error']"
+test_playbook,2,,,,,,,,,2,lower_case_with_underscores,"['test', 'playbook']"
+test_check_conditional_jinja2_unicode,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'check', 'conditional', 'jinja2', 'unicode']"
+HAVE_ZMQ,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['have', 'zmq']"
+increment_debug,2,1,,,,,,,,1,lower_case_with_underscores,"['increment', 'debug']"
+str,102,,,,,,,,,102,lowercase,['str']
+path_option,3,,,,,,,,,3,lower_case_with_underscores,"['path', 'option']"
+pattern_intersection,3,,,,,,,,,3,lower_case_with_underscores,"['pattern', 'intersection']"
+actual_private_key_file,9,,,,,,,,,9,lower_case_with_underscores,"['actual', 'private', 'key', 'file']"
+_flag_handler,2,1,,,,,,,,1,lower_case_with_underscores,"['flag', 'handler']"
+ascii_letters,7,,,2,,,,,,5,lower_case_with_underscores,"['ascii', 'letters']"
+key_filename,5,,,,,,1,,,4,lower_case_with_underscores,"['key', 'filename']"
+difflib,2,,,1,,,,,,1,lowercase,['difflib']
+do_encrypt,3,1,,,,,,,,2,lower_case_with_underscores,"['do', 'encrypt']"
+O_NONBLOCK,6,,,,,,,,,6,UPPER_CASE_WITH_UNDERSCORES,"['o', 'nonblock']"
+PROCESS_LOCKFILE,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['process', 'lockfile']"
+configparser,6,,,,,,,,1,5,lowercase,['configparser']
+active_group_name,13,,,,,,,,,13,lower_case_with_underscores,"['active', 'group', 'name']"
+DEPRECATION_WARNINGS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['deprecation', 'warnings']"
+_list,2,1,,,,,,,,1,lowercase,['list']
+randint,3,,,,,,,,,3,lowercase,['randint']
+test_parse_kv_basic,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'parse', 'kv', 'basic']"
+lookup_fatal,20,,,,,,3,,,17,lower_case_with_underscores,"['lookup', 'fatal']"
+geteuid,5,,,,,,,,,5,lowercase,['geteuid']
+targets,2,,,,,,,,,2,lowercase,['targets']
+tmpdir,7,,,,,,,,,7,lowercase,['tmpdir']
+DEFAULT_SUBSET,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['default', 'subset']"
+efd,3,,,,,,,,,3,lowercase,['efd']
+InventoryScript,5,,1,2,,,,,,2,CapitalizedWords,"['inventory', 'script']"
+add_option,38,,,,,,,,,38,lower_case_with_underscores,"['add', 'option']"
+incvars,9,,,,,,,,,9,lowercase,['incvars']
+play,89,,,1,,,,,,88,lowercase,['play']
+warnings,6,,,2,,,,,,4,lowercase,['warnings']
+quote,29,1,,,,,,,,28,lowercase,['quote']
+chars,5,,,,,,1,,,4,lowercase,['chars']
+M,2,,,,,,,,,2,B,"['', 'm']"
+basetmp,7,,,,,,,,,7,lowercase,['basetmp']
+accessIPv4,5,,,,,,,,,5,mixedCase,"['access', 'i', 'pv4']"
+node_id,6,,,,,,,,,6,lower_case_with_underscores,"['node', 'id']"
+test_match_case_sensitive,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'match', 'case', 'sensitive']"
+literal_eval,2,,,,,,,,,2,lower_case_with_underscores,"['literal', 'eval']"
+addr,8,,,,,,,,,8,lowercase,['addr']
+path2,6,,,,,,,,,6,lowercase,['path2']
+path3,6,,,,,,,,,6,lowercase,['path3']
+path1,6,,,,,,,,,6,lowercase,['path1']
+exc,7,,,,,,,,,7,lowercase,['exc']
+kk,4,,,,,,,,,4,lowercase,['kk']
+clear,1,,,,,,,,,1,lowercase,['clear']
+DEFAULT_MANAGED_STR,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['default', 'managed', 'str']"
+includefmt,9,,,,,,,,,9,lowercase,['includefmt']
+ext,5,,,,,,,,,5,lowercase,['ext']
+error_on_undefined_vars,14,,,,,,1,,,13,lower_case_with_underscores,"['error', 'on', 'undefined', 'vars']"
+kw,3,,,,,,,,,3,lowercase,['kw']
+kv,2,,,,,,,,,2,lowercase,['kv']
+HAS_ATFORK,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['has', 'atfork']"
+test_leading_range,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'leading', 'range']"
+SyntaxError,2,,,,,,,,,2,CapitalizedWords,"['syntax', 'error']"
+sublist,2,,,,,,,,,2,lowercase,['sublist']
+user_and_group,4,1,,,,,,,,3,lower_case_with_underscores,"['user', 'and', 'group']"
+playbook_on_not_import_for_host,3,3,,,,,,,,,lower_case_with_underscores,"['playbook', 'on', 'not', 'import', 'for', 'host']"
+_paths,5,,,,,,,,,5,lowercase,['paths']
+find,50,,,,,,,,,50,lowercase,['find']
+get_ec2_creds,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'ec2', 'creds']"
+DEFAULT_HOST_LIST,10,,,,,,,,,10,UPPER_CASE_WITH_UNDERSCORES,"['default', 'host', 'list']"
+host_variables,5,,,,,,,,,5,lower_case_with_underscores,"['host', 'variables']"
+DEFAULT_REMOTE_PASS,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['default', 'remote', 'pass']"
+failed,35,1,,,,,25,,,9,lowercase,['failed']
+pretty,11,,,,,,,,,11,lowercase,['pretty']
+smtplib,2,,,1,,,,,,1,lowercase,['smtplib']
+test_get_hosts,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'get', 'hosts']"
+resp,3,,,,,,,,,3,lowercase,['resp']
+child_name,3,,,,,,,,,3,lower_case_with_underscores,"['child', 'name']"
+set_directory_attributes_if_different,1,1,,,,,,,,,lower_case_with_underscores,"['set', 'directory', 'attributes', 'if', 'different']"
+complex_inventory_file,2,,,,,,,,,2,lower_case_with_underscores,"['complex', 'inventory', 'file']"
+runner_on_error,4,4,,,,,,,,,lower_case_with_underscores,"['runner', 'on', 'error']"
+banner,6,1,,,,,,,,5,lowercase,['banner']
+sanity_check,2,1,,,,,,,,1,lower_case_with_underscores,"['sanity', 'check']"
+template_dir,2,,,,,,,,,2,lower_case_with_underscores,"['template', 'dir']"
+encoded_complex,2,,,,,,,,,2,lower_case_with_underscores,"['encoded', 'complex']"
+Random,1,,,1,,,,,,,CapitalizedWords,['random']
+cmd_args_chmod,5,,,,,,,,,5,lower_case_with_underscores,"['cmd', 'args', 'chmod']"
+remove,8,,,,,,,,,8,lowercase,['remove']
+instance_id,4,,,,,,,,,4,lower_case_with_underscores,"['instance', 'id']"
+DEFAULT_ACTION_PLUGIN_PATH,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['default', 'action', 'plugin', 'path']"
+rfd,12,,,,,,,,,12,lowercase,['rfd']
+x,211,,,,,,,,,211,b,['x']
+set,20,,,,,,,,,20,lowercase,['set']
+_get_ancestors,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'ancestors']"
+_executor,4,1,,,,,,,,3,lowercase,['executor']
+dump,2,,,,,,,,,2,lowercase,['dump']
+sep,12,,,,,,,,,12,lowercase,['sep']
+DEFAULT_CONNECTION_PLUGIN_PATH,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['default', 'connection', 'plugin', 'path']"
+hname,4,,,,,,,,,4,lowercase,['hname']
+comm_ok,36,,,,,,27,,,9,lower_case_with_underscores,"['comm', 'ok']"
+creds_file,3,,,,,,,,,3,lower_case_with_underscores,"['creds', 'file']"
+matched_tags_all,4,,,,,,,,,4,lower_case_with_underscores,"['matched', 'tags', 'all']"
+arg,26,,,,,,,,,26,lowercase,['arg']
+close,54,8,,,,,,,,46,lowercase,['close']
+locals,12,,,,,,1,,,11,lowercase,['locals']
+_save_ssh_host_keys,2,1,,,,,,,,1,lower_case_with_underscores,"['save', 'ssh', 'host', 'keys']"
+only_tags,10,,,,,,,,,10,lower_case_with_underscores,"['only', 'tags']"
+get_group,7,1,,,,,,,,6,lower_case_with_underscores,"['get', 'group']"
+formatted,2,,,,,,,,,2,lowercase,['formatted']
+Ec2Inventory,2,,1,,,,,,,1,CapitalizedWords,"['ec2', 'inventory']"
+classes,2,,,,,,,,,2,lowercase,['classes']
+subdir,5,,,,,,,,,5,lowercase,['subdir']
+key_from,2,,,,,,,,,2,lower_case_with_underscores,"['key', 'from']"
+formatter,2,,,,,,1,,,1,lowercase,['formatter']
+TCIFLUSH,4,,,2,,,,,,2,UPPERCASE,"['tciflus', 'h']"
+vvv,43,1,,9,,,,,,33,lowercase,['vvv']
+distro_name,3,,,,,,,,,3,lower_case_with_underscores,"['distro', 'name']"
+conds,5,,,,,,,,,5,lowercase,['conds']
+missing,11,,,,,,,,,11,lowercase,['missing']
+interfaces,2,,,,,,,,,2,lowercase,['interfaces']
+plugin_name,10,,,,,,,,,10,lower_case_with_underscores,"['plugin', 'name']"
+Server,1,,,,,,,,,1,CapitalizedWords,['server']
+testline_after,6,,,,,,,,,6,lower_case_with_underscores,"['testline', 'after']"
+smush_ds,4,1,,,,,,,,3,lower_case_with_underscores,"['smush', 'ds']"
+c,20,,,,,,1,,,19,b,['c']
+TypeError,2,,,,,,,,,2,CapitalizedWords,"['type', 'error']"
+last,5,,,,,,1,,,4,lowercase,['last']
+reverse,2,,,,,,,,,2,lowercase,['reverse']
+license,1,,,,,,1,,,,lowercase,['license']
+secrets,6,,,2,,,,,,4,lowercase,['secrets']
+SAY_CMD,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['say', 'cmd']"
+_resolve_main,12,1,,,,,,,,11,lower_case_with_underscores,"['resolve', 'main']"
+connection,3,,,1,,,,,,2,lowercase,['connection']
+rst_ify,2,1,,,,,,,,1,lower_case_with_underscores,"['rst', 'ify']"
+source_rel,6,,,,,,,,,6,lower_case_with_underscores,"['source', 'rel']"
+context,33,,,,,,,,,33,lowercase,['context']
+load,1,,,,,,,,,1,lowercase,['load']
+get_jail_path,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'jail', 'path']"
+KEY_LOCK,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['key', 'lock']"
+test_script,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'script']"
+skip_tags,9,,,,,,,,,9,lower_case_with_underscores,"['skip', 'tags']"
+globals,12,,,,,,,,,12,lowercase,['globals']
+doctreedir,2,,,,,,,,,2,lowercase,['doctreedir']
+parse_yaml_from_file,14,1,,,,,,,,13,lower_case_with_underscores,"['parse', 'yaml', 'from', 'file']"
+cache_filename,10,,,,,,,,,10,lower_case_with_underscores,"['cache', 'filename']"
+Play,5,,1,1,,,,,,3,CapitalizedWords,['play']
+ec2_ini_path,2,,,,,,,,,2,lower_case_with_underscores,"['ec2', 'ini', 'path']"
+test_bool_no,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'bool', 'no']"
+pb,2,,,,,,,,,2,lowercase,['pb']
+ran,2,,,,,,,,,2,lowercase,['ran']
+secret,3,,,,,,1,,,2,lowercase,['secret']
+fail_on_undefined,40,,,,,,18,,,22,lower_case_with_underscores,"['fail', 'on', 'undefined']"
+groups_list,2,1,,,,,,,,1,lower_case_with_underscores,"['groups', 'list']"
+sbin_paths,2,,,,,,,,,2,lower_case_with_underscores,"['sbin', 'paths']"
+wait,4,1,,,,,,,,3,lowercase,['wait']
+OptionParser,9,,,3,,,,,,6,CapitalizedWords,"['option', 'parser']"
+binary_data,2,,,,,,,,,2,lower_case_with_underscores,"['binary', 'data']"
+ANSIBLE_COLOR,7,,,,,,,,,7,UPPER_CASE_WITH_UNDERSCORES,"['ansible', 'color']"
+ST_MODE,9,,,,,,,,,9,UPPER_CASE_WITH_UNDERSCORES,"['st', 'mode']"
+zfill,1,,,,,,,,,1,lowercase,['zfill']
+func,1,,,1,,,,,,,lowercase,['func']
+NEEDS_TMPPATH,7,,,,,,,,,7,UPPER_CASE_WITH_UNDERSCORES,"['needs', 'tmppath']"
+presented,3,,,,,,,,,3,lowercase,['presented']
+_check_required_one_of,2,1,,,,,,,,1,lower_case_with_underscores,"['check', 'required', 'one', 'of']"
+pathdir,3,,,,,,,,,3,lowercase,['pathdir']
+HAPPY_VOICE,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['happy', 'voice']"
+TestCallbacks,11,,1,,,,,,,10,CapitalizedWords,"['test', 'callbacks']"
+dwimmed,2,,,,,,,,,2,lowercase,['dwimmed']
+call_callback_module,22,1,,,,,,,,21,lower_case_with_underscores,"['call', 'callback', 'module']"
+DEFAULT_PATTERN,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['default', 'pattern']"
+replaced,3,,,,,,,,,3,lowercase,['replaced']
+match,15,1,,,,,,,,14,lowercase,['match']
+error,9,,,,,,,,,9,lowercase,['error']
+simple_inventory,11,1,,,,,,,,10,lower_case_with_underscores,"['simple', 'inventory']"
+_load_vars,3,1,,,,,,,,2,lower_case_with_underscores,"['load', 'vars']"
+pack,1,,,,,,,,,1,lowercase,['pack']
+prev_mode,3,,,,,,,,,3,lower_case_with_underscores,"['prev', 'mode']"
+header_len,5,,,,,,,,,5,lower_case_with_underscores,"['header', 'len']"
+large_path,5,,,,,,,,,5,lower_case_with_underscores,"['large', 'path']"
+remote_md5,21,,,,,,,,,21,lower_case_with_underscores,"['remote', 'md5']"
+current_time,10,,,,,,,,,10,lower_case_with_underscores,"['current', 'time']"
+do_api_calls_update_cache,12,3,,,,,,,,9,lower_case_with_underscores,"['do', 'api', 'calls', 'update', 'cache']"
+ANSIBLE_NOCOLOR,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['ansible', 'nocolor']"
+yamlp,4,,,,,,,,,4,lowercase,['yamlp']
+hexdigest,3,,,,,,,,,3,lowercase,['hexdigest']
+exit_json,2,1,,,,,,,,1,lower_case_with_underscores,"['exit', 'json']"
+command_generic_msg,3,1,,,,,,,,2,lower_case_with_underscores,"['command', 'generic', 'msg']"
+contents,2,,,,,,,,,2,lowercase,['contents']
+get_all_rrsets,1,,,,,,,,,1,lower_case_with_underscores,"['get', 'all', 'rrsets']"
+test_copy,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'copy']"
+include_filename,3,,,,,,,,,3,lower_case_with_underscores,"['include', 'filename']"
+include_file,2,,,,,,,,,2,lower_case_with_underscores,"['include', 'file']"
+paths,22,,,,,,,,,22,lowercase,['paths']
+keys,29,,,1,,,,,,28,lowercase,['keys']
+_found,1,,,,,,,,,1,lowercase,['found']
+MyAddPolicy,2,,1,,,,,,,1,CapitalizedWords,"['my', 'add', 'policy']"
+poll_results,7,,,,,,,,,7,lower_case_with_underscores,"['poll', 'results']"
+user,42,,,,,,4,,,38,lowercase,['user']
+vars_file,5,,,,,,,,,5,lower_case_with_underscores,"['vars', 'file']"
+groupfh,3,,,,,,,,,3,lowercase,['groupfh']
+safe_eval,14,2,,5,,,,,,7,lower_case_with_underscores,"['safe', 'eval']"
+lower,15,,,,,,,,,15,lowercase,['lower']
+task,68,,,1,,,,,,67,lowercase,['task']
+S_IXGRP,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['s', 'ixgrp']"
+runner_on_ok,3,3,,,,,,,,,lower_case_with_underscores,"['runner', 'on', 'ok']"
+also_restrict_to,2,1,,,,,,,,1,lower_case_with_underscores,"['also', 'restrict', 'to']"
+flags,15,,,,,,3,,,12,lowercase,['flags']
+empty_inventory,2,1,,,,,,,,1,lower_case_with_underscores,"['empty', 'inventory']"
+with_subdir,3,,,,,,1,,,2,lower_case_with_underscores,"['with', 'subdir']"
+y,4,,,,,,,,,4,b,['y']
+entry,3,,,,,,,,,3,lowercase,['entry']
+full_path,3,,,,,,,,,3,lower_case_with_underscores,"['full', 'path']"
+template_from_string,2,1,,,,,,,,1,lower_case_with_underscores,"['template', 'from', 'string']"
+distutils,5,,,3,,,,,,2,lowercase,['distutils']
+unmatched_tags_all,6,,,,,,,,,6,lower_case_with_underscores,"['unmatched', 'tags', 'all']"
+_run_task,3,1,,,,,,,,2,lower_case_with_underscores,"['run', 'task']"
+all_tags,3,,,,,,,,,3,lower_case_with_underscores,"['all', 'tags']"
+poller,9,,,1,,,,,,8,lowercase,['poller']
+verify_ssl_cert,1,,,,,,,,,1,lower_case_with_underscores,"['verify', 'ssl', 'cert']"
+test_lineinfile,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'lineinfile']"
+password,41,,,,,,6,,,35,lowercase,['password']
+get_host_info,8,4,,,,,,,,4,lower_case_with_underscores,"['get', 'host', 'info']"
+datetime,12,,,3,,,,,,9,lowercase,['datetime']
+workers,4,,,,,,,,,4,lowercase,['workers']
+AnsibleYAMLValidationFailed,2,,1,,,,,,,1,CapitalizedWords,"['ansible', 'yaml', 'validation', 'failed']"
+source,88,,,,,,,,,88,lowercase,['source']
+rgb,1,,,,,,1,,,,lowercase,['rgb']
+DEFAULT_LEGACY_PLAYBOOK_VARIABLES,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['default', 'legacy', 'playbook', 'variables']"
+lchown,2,,,,,,,,,2,lowercase,['lchown']
+input,4,,,,,,1,,,3,lowercase,['input']
+check_invalid_arguments,2,,,,,,,,,2,lower_case_with_underscores,"['check', 'invalid', 'arguments']"
+new_stdin,9,,,,,,,,,9,lower_case_with_underscores,"['new', 'stdin']"
+format,46,,,,,,30,,,16,lowercase,['format']
+xfered,6,,,,,,,,,6,lowercase,['xfered']
+set_playbook_basedir,1,1,,,,,,,,,lower_case_with_underscores,"['set', 'playbook', 'basedir']"
+actual_host_names,2,,,,,,,,,2,lower_case_with_underscores,"['actual', 'host', 'names']"
+items_plugin,4,,,,,,,,,4,lower_case_with_underscores,"['items', 'plugin']"
+loose_pattern,1,,,,,,,,,1,lower_case_with_underscores,"['loose', 'pattern']"
+integer,9,,,,,,7,,,2,lowercase,['integer']
+PEEKING_ENABLED,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['peeking', 'enabled']"
+paramvals,8,,,,,,,,,8,lowercase,['paramvals']
+gce_ini_path,2,,,,,,,,,2,lower_case_with_underscores,"['gce', 'ini', 'path']"
+is_selinux_mls_enabled,1,,,,,,,,,1,lower_case_with_underscores,"['is', 'selinux', 'mls', 'enabled']"
+d,26,,,,,,1,,,25,b,['d']
+ips,5,,,,,,,,,5,lowercase,['ips']
+signal,5,,,1,,,,,,4,lowercase,['signal']
+jsonify,48,2,,,,,,,,46,lowercase,['jsonify']
+_any_keys_added,3,1,,,,,,,,2,lower_case_with_underscores,"['any', 'keys', 'added']"
+api,9,,,,,,,,,9,lowercase,['api']
+to_nice_yaml,2,1,,,,,,,,1,lower_case_with_underscores,"['to', 'nice', 'yaml']"
+connection_loader,2,,,,,,,,,2,lower_case_with_underscores,"['connection', 'loader']"
+FW4,4,,,,,,,,,4,UPPERCASE,['fw4']
+plainexamples,3,,,,,,,,,3,lowercase,['plainexamples']
+load_examples_section,1,1,,,,,,,,,lower_case_with_underscores,"['load', 'examples', 'section']"
+FW1,10,,,,,,,,,10,UPPERCASE,['fw1']
+FW2,6,,,,,,,,,6,UPPERCASE,['fw2']
+FW3,4,,,,,,,,,4,UPPERCASE,['fw3']
+tmpfile,4,,,,,,,,,4,lowercase,['tmpfile']
+methods,2,,,,,,,,,2,lowercase,['methods']
+private_key,5,,,,,,,,,5,lower_case_with_underscores,"['private', 'key']"
+async_module,4,,,,,,1,,,3,lower_case_with_underscores,"['async', 'module']"
+kid_hosts,2,,,,,,,,,2,lower_case_with_underscores,"['kid', 'hosts']"
+saved_hash_behavior,4,,,,,,,,,4,lower_case_with_underscores,"['saved', 'hash', 'behavior']"
+examples,2,,,,,,,,,2,lowercase,['examples']
+modify_module,2,1,,,,,,,,1,lower_case_with_underscores,"['modify', 'module']"
+local_md5,8,,,,,,,,,8,lower_case_with_underscores,"['local', 'md5']"
+items_lookup_terms,2,,,,,,,,,2,lower_case_with_underscores,"['items', 'lookup', 'terms']"
+vars_results,2,,,,,,,,,2,lower_case_with_underscores,"['vars', 'results']"
+_bool,2,,,,,,,,,2,lowercase,['bool']
+pathsep,8,,,,,,,,,8,lowercase,['pathsep']
+prompt_msg,2,,,,,,,,,2,lower_case_with_underscores,"['prompt', 'msg']"
+tmp_path,14,,,,,,2,,,12,lower_case_with_underscores,"['tmp', 'path']"
+_check_mutually_exclusive,2,1,,,,,,,,1,lower_case_with_underscores,"['check', 'mutually', 'exclusive']"
+prog,2,,,,,,,,,2,lowercase,['prog']
+new_result,3,,,,,,,,,3,lower_case_with_underscores,"['new', 'result']"
+run_command,2,1,,,,,,,,1,lower_case_with_underscores,"['run', 'command']"
+pb_basedir,3,,,,,,,,,3,lower_case_with_underscores,"['pb', 'basedir']"
+cgi,3,,,1,,,,,,2,lowercase,['cgi']
+_normalize_path,6,2,,,,,,,,4,lower_case_with_underscores,"['normalize', 'path']"
+run,75,43,,,,,,1,,31,lowercase,['run']
+interpreters,3,,,,,,,,,3,lowercase,['interpreters']
+lookup_plugin_name,5,,,,,,,,,5,lower_case_with_underscores,"['lookup', 'plugin', 'name']"
+LinodeInventory,2,,1,,,,,,,1,CapitalizedWords,"['linode', 'inventory']"
+step,5,,,,,,,,,5,lowercase,['step']
+on_error,6,4,,,,,,,,2,lower_case_with_underscores,"['on', 'error']"
+get_docstring,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'docstring']"
+ANSIBLE_NOCOWS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['ansible', 'nocows']"
+lockfile,2,,,,,,,,,2,lowercase,['lockfile']
+noncow,7,,,,,,,,,7,lowercase,['noncow']
+set_playbook,1,1,,,,,,,,,lower_case_with_underscores,"['set', 'playbook']"
+idx,9,,,,,,,,,9,lowercase,['idx']
+parse_cli_args,10,5,,,,,,,,5,lower_case_with_underscores,"['parse', 'cli', 'args']"
+included_role_dep,3,,,,,,,,,3,lower_case_with_underscores,"['included', 'role', 'dep']"
+read_cli,2,1,,,,,,,,1,lower_case_with_underscores,"['read', 'cli']"
+range,11,,,,,,,,,11,lowercase,['range']
+extensions,3,,,,,,2,,,1,lowercase,['extensions']
+on_start,3,2,,,,,,,,1,lower_case_with_underscores,"['on', 'start']"
+block,10,,,,,,2,,,8,lowercase,['block']
+arg_cooked,2,,,,,,,,,2,lower_case_with_underscores,"['arg', 'cooked']"
+Driver,2,,,,,,,,,2,CapitalizedWords,['driver']
+testline,50,,,,,,,,,50,lowercase,['testline']
+validate_md5,4,,,,,,,,,4,lower_case_with_underscores,"['validate', 'md5']"
+get_group_variables,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'group', 'variables']"
+servers,4,,,,,,,,,4,lowercase,['servers']
+GW1,3,,,,,,,,,3,UPPERCASE,['gw1']
+DEFAULT_SUDO,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['default', 'sudo']"
+DEFAULT_MODULE_LANG,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['default', 'module', 'lang']"
+REPLACER,3,,,,,,,,,3,UPPERCASE,"['replace', 'r']"
+source_full,6,,,,,,,,,6,lower_case_with_underscores,"['source', 'full']"
+errno,22,,,3,,,,,,19,lowercase,['errno']
+no_log,4,,,,,,,,,4,lower_case_with_underscores,"['no', 'log']"
+_sha256,2,,,,,,,1,,1,lowercase,['sha256']
+test_large_output,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'large', 'output']"
+etcd,4,,1,,,,,,,3,lowercase,['etcd']
+translate,2,,,,,,,,,2,lowercase,['translate']
+files,14,,,,,,,,,14,lowercase,['files']
+default_creds_file,4,,,,,,,,,4,lower_case_with_underscores,"['default', 'creds', 'file']"
+SSHClient,1,,,,,,,,,1,CapitalizedWords,"['ssh', 'client']"
+_transfer_str,7,1,,,,,,,,6,lower_case_with_underscores,"['transfer', 'str']"
+all_hosts,14,,,,,,,,,14,lower_case_with_underscores,"['all', 'hosts']"
+_make_tmp_path,5,1,,,,,,,,4,lower_case_with_underscores,"['make', 'tmp', 'path']"
+load_vars,5,,,,,,,,,5,lower_case_with_underscores,"['load', 'vars']"
+opt_dirs,2,,,,,,,,,2,lower_case_with_underscores,"['opt', 'dirs']"
+is_changed,1,1,,,,,,,,,lower_case_with_underscores,"['is', 'changed']"
+skip,5,,,2,,,,,,3,lowercase,['skip']
+_added_by_ansible_this_time,1,,,,,,,,,1,lower_case_with_underscores,"['added', 'by', 'ansible', 'this', 'time']"
+line,90,,,,,,,,,90,lowercase,['line']
+info,8,,,,,,,,,8,lowercase,['info']
+show_droplet,1,,,,,,,,,1,lower_case_with_underscores,"['show', 'droplet']"
+tests_to_run,6,,,,,,,,,6,lower_case_with_underscores,"['tests', 'to', 'run']"
+peek_result,5,,,,,,,,,5,lower_case_with_underscores,"['peek', 'result']"
+fdh,3,,,,,,,,,3,lowercase,['fdh']
+origin_lines,5,,,,,,,,,5,lower_case_with_underscores,"['origin', 'lines']"
+test_fileglob,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'fileglob']"
+getint,5,,,,,,,,,5,lowercase,['getint']
+json_cache,2,,,,,,,,,2,lower_case_with_underscores,"['json', 'cache']"
+test_match_no_match,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'match', 'no', 'match']"
+first_part,2,,,,,,,,,2,lower_case_with_underscores,"['first', 'part']"
+module_common,4,,,4,,,,,,,lower_case_with_underscores,"['module', 'common']"
+build_docs,1,1,,,,,,,,,lower_case_with_underscores,"['build', 'docs']"
+this_dns_name,4,,,,,,,,,4,lower_case_with_underscores,"['this', 'dns', 'name']"
+matched_tags,7,,,,,,,,,7,lower_case_with_underscores,"['matched', 'tags']"
+parser,106,,,,,,,,,106,lowercase,['parser']
+readlines,6,,,,,,,,,6,lowercase,['readlines']
+char,2,,,,,,,,,2,lowercase,['char']
+images,2,,,,,,,,,2,lowercase,['images']
+warning,3,1,,,,,,,,2,lowercase,['warning']
+HASHED_KEY_MAGIC,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['hashed', 'key', 'magic']"
+parsed,3,,,,,,,,,3,lowercase,['parsed']
+rrsets,2,,,,,,,,,2,lowercase,['rrsets']
+ancestors,4,,,,,,,,,4,lowercase,['ancestors']
+grp,5,,,1,,,,,,4,lowercase,['grp']
+crypt,4,,,,,,,,,4,lowercase,['crypt']
+add_password,1,,,,,,,,,1,lower_case_with_underscores,"['add', 'password']"
+DEFAULT_SUDO_USER,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['default', 'sudo', 'user']"
+REGULAR_VOICE,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['regular', 'voice']"
+application,1,,,1,,,,,,,lowercase,['application']
+vargs,2,,,,,,,,,2,lowercase,['vargs']
+tempdir,2,,,,,,,,,2,lowercase,['tempdir']
+pw_uid,1,,,,,,,,,1,lower_case_with_underscores,"['pw', 'uid']"
+job_queue,6,,,,,,,,,6,lower_case_with_underscores,"['job', 'queue']"
+get_base64,2,,,,,,,,,2,lower_case_with_underscores,"['get', 'base64']"
+S_ISREG,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['s', 'isreg']"
+_plugin_path_cache,4,,,,,,,,,4,lower_case_with_underscores,"['plugin', 'path', 'cache']"
+_get_package_paths,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'package', 'paths']"
+previous_state,1,,,,,,,,,1,lower_case_with_underscores,"['previous', 'state']"
+hostnames,4,,,,,,,,,4,lowercase,['hostnames']
+allow_dupes,3,,,,,,,,,3,lower_case_with_underscores,"['allow', 'dupes']"
+process_common_errors,2,1,,,,,,,,1,lower_case_with_underscores,"['process', 'common', 'errors']"
+reservation,4,,,,,,,,,4,lowercase,['reservation']
+on_unreachable,10,4,,,,,,,,6,lower_case_with_underscores,"['on', 'unreachable']"
+original_file,6,,,,,,1,,,5,lower_case_with_underscores,"['original', 'file']"
+md5s,9,1,,1,,,,,,7,lowercase,['md5s']
+e,91,,,,,,1,,,90,b,['e']
+format_exc,2,,,,,,,,,2,lower_case_with_underscores,"['format', 'exc']"
+copy2,1,,,,,,,,,1,lowercase,['copy2']
+required,7,,,,,,1,,,6,lowercase,['required']
+poll_interval,4,,,,,,,,,4,lower_case_with_underscores,"['poll', 'interval']"
+_get_diff_data,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'diff', 'data']"
+normpath,13,,,,,,,,,13,lowercase,['normpath']
+depth,26,,,,,,3,,,23,lowercase,['depth']
+base_parser,1,1,,,,,,,,,lower_case_with_underscores,"['base', 'parser']"
+failures,4,,,,,,1,,,3,lowercase,['failures']
+cache_refreshed,2,,,,,,,,,2,lower_case_with_underscores,"['cache', 'refreshed']"
+skippped,1,,,,,,1,,,,lowercase,['skippped']
+_get_role_path,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'role', 'path']"
+bcc,3,,,,,,,,,3,lowercase,['bcc']
+cobbler_host,2,,,,,,,,,2,lower_case_with_underscores,"['cobbler', 'host']"
+host_list,59,,,,,,11,,,48,lower_case_with_underscores,"['host', 'list']"
+results,155,,,,,,1,,,154,lowercase,['results']
+ignorecase,6,,,,,,,,,6,lowercase,['ignorecase']
+strip_comments,5,,,,,,1,,,4,lower_case_with_underscores,"['strip', 'comments']"
+PARAMIKO_PTY,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['paramiko', 'pty']"
+urandom,1,,,,,,,,,1,lowercase,['urandom']
+getfile,2,,,,,,,,,2,lowercase,['getfile']
+new_args,4,,,,,,,,,4,lower_case_with_underscores,"['new', 'args']"
+route53_names,2,,,,,,,,,2,lower_case_with_underscores,"['route53', 'names']"
+controlpersisterror,2,,,,,,,,,2,lowercase,['controlpersisterror']
+package_dir,1,,,,,,1,,,,lower_case_with_underscores,"['package', 'dir']"
+stage_path,14,,,,,,,,,14,lower_case_with_underscores,"['stage', 'path']"
+rseq,2,,,,,,,,,2,lowercase,['rseq']
+send,4,,,,,,,,,4,lowercase,['send']
+nose,3,,,3,,,,,,,lowercase,['nose']
+include,2,,,,,,2,,,,lowercase,['include']
+provider,2,,,,,,,,,2,lowercase,['provider']
+result2,11,,,,,,,,,11,lowercase,['result2']
+LOG_LOCK,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['log', 'lock']"
+Route53Connection,1,,,,,,,,,1,CapitalizedWords,"['route53', 'connection']"
+IGNORECASE,2,,,1,,,,,,1,UPPERCASE,"['ignorecas', 'e']"
+new_vars_files,4,,,,,,,,,4,lower_case_with_underscores,"['new', 'vars', 'files']"
+chdir,2,,,,,,,,,2,lowercase,['chdir']
+look_for_keys,1,,,,,,1,,,,lower_case_with_underscores,"['look', 'for', 'keys']"
+ignore_errors,28,,,,,,6,,,22,lower_case_with_underscores,"['ignore', 'errors']"
+get_a_ssh_config,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'a', 'ssh', 'config']"
+forks,18,,,,,,5,,,13,lowercase,['forks']
+categories,8,,,,,,,,,8,lowercase,['categories']
+False,323,,,,,,,,,323,CapitalizedWords,['false']
+_vars_per_group,4,,,,,,,,,4,lower_case_with_underscores,"['vars', 'per', 'group']"
+dname,5,,,,,,,,,5,lowercase,['dname']
+test_command,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'command']"
+playbook_base,2,,,,,,,,,2,lower_case_with_underscores,"['playbook', 'base']"
+DEFAULT_REMOTE_USER,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['default', 'remote', 'user']"
+build_all,2,,,,,,,,,2,lower_case_with_underscores,"['build', 'all']"
+extradata,2,,,,,,,,,2,lowercase,['extradata']
+pattern_exclude,3,,,,,,,,,3,lower_case_with_underscores,"['pattern', 'exclude']"
+print_help,3,,,,,,,,,3,lower_case_with_underscores,"['print', 'help']"
+S_ISLNK,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['s', 'islnk']"
+replay_hosts,2,,,,,,,,,2,lower_case_with_underscores,"['replay', 'hosts']"
+append,177,,,,,,,,,177,lowercase,['append']
+index,58,,,,,,,,,58,lowercase,['index']
+TestUtils,1,,1,,,,,,,,CapitalizedWords,"['test', 'utils']"
+CACHE_AGE,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['cache', 'age']"
+plays,6,,,,,,,,,6,lowercase,['plays']
+tilde_dir,2,,,,,,,,,2,lower_case_with_underscores,"['tilde', 'dir']"
+pipes,38,,,12,,,,,,26,lowercase,['pipes']
+first_available_file,4,,,,,,,,,4,lower_case_with_underscores,"['first', 'available', 'file']"
+access,5,,,,,,,,,5,lowercase,['access']
+groupnames,4,,,,,,,,,4,lowercase,['groupnames']
+_executor_internal_inner,3,1,,,,,,,,2,lower_case_with_underscores,"['executor', 'internal', 'inner']"
+merge_hash,3,1,,,,,,,,2,lower_case_with_underscores,"['merge', 'hash']"
+body,23,,,,,,4,,,19,lowercase,['body']
+tmp_dir,5,,,,,,,,,5,lower_case_with_underscores,"['tmp', 'dir']"
+setUp,5,5,,,,,,,,,mixedCase,"['set', 'up']"
+managed_str,2,,,,,,,,,2,lower_case_with_underscores,"['managed', 'str']"
+Popen,22,,,1,,,,,,21,CapitalizedWords,['popen']
+len,100,,,,,,,,,100,lowercase,['len']
+always_run,8,,,,,,,,,8,lower_case_with_underscores,"['always', 'run']"
+AnsibleFileNotFound,10,,1,,,,,,,9,CapitalizedWords,"['ansible', 'file', 'not', 'found']"
+cp_dir,3,,,,,,,,,3,lower_case_with_underscores,"['cp', 'dir']"
+callback_plugin,8,,,,,,,,,8,lower_case_with_underscores,"['callback', 'plugin']"
+ec2_secret_key,6,,,,,,,,,6,lower_case_with_underscores,"['ec2', 'secret', 'key']"
+project_id,1,,,,,,1,,,,lower_case_with_underscores,"['project', 'id']"
+copyright,1,,,,,,,,,1,lowercase,['copyright']
+rds,2,,,1,,,,,,1,lowercase,['rds']
+getgrnam,1,,,,,,,,,1,lowercase,['getgrnam']
+host,610,1,,6,,,46,,,557,lowercase,['host']
+is_conditional,9,,,,,,,,,9,lower_case_with_underscores,"['is', 'conditional']"
+_parse_group_variables,2,1,,,,,,,,1,lower_case_with_underscores,"['parse', 'group', 'variables']"
+argsfile,7,,,,,,,,,7,lowercase,['argsfile']
+_parse_group_children,2,1,,,,,,,,1,lower_case_with_underscores,"['parse', 'group', 'children']"
+test_simple_norse,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'simple', 'norse']"
+list_groups,1,1,,,,,,,,,lower_case_with_underscores,"['list', 'groups']"
+generate_sequence,2,1,,,,,,,,1,lower_case_with_underscores,"['generate', 'sequence']"
+_complex_args_hack,2,1,,,,,,,,1,lower_case_with_underscores,"['complex', 'args', 'hack']"
+addresses,4,,,,,,,,,4,lowercase,['addresses']
+app,5,,,,,,,,,5,lowercase,['app']
+__lookup_injects,4,2,,,,,,,,2,lower_case_with_underscores,"['lookup', 'injects']"
+configured_paths,2,,,,,,,,,2,lower_case_with_underscores,"['configured', 'paths']"
+private,19,,,,,,2,,,17,lowercase,['private']
+AnsibleError,206,,1,5,,,,,,200,CapitalizedWords,"['ansible', 'error']"
+boolean,31,2,,,,,14,,,15,lowercase,['boolean']
+complex_args,111,,,,,,13,,,98,lower_case_with_underscores,"['complex', 'args']"
+names,6,,,,,,,,,6,lowercase,['names']
+supports_check_mode,5,,,,,,,,,5,lower_case_with_underscores,"['supports', 'check', 'mode']"
+argument_spec,11,,,,,,,,,11,lower_case_with_underscores,"['argument', 'spec']"
+tools,1,,,1,,,,,,,lowercase,['tools']
+test_playbook_hash_replace,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'playbook', 'hash', 'replace']"
+zip,3,,,,,,,,,3,lowercase,['zip']
+binascii,1,,,1,,,,,,,lowercase,['binascii']
+next,4,,,,,,,,,4,lowercase,['next']
+chr,1,,,,,,,,,1,lowercase,['chr']
+result_data,2,,,,,,,,,2,lower_case_with_underscores,"['result', 'data']"
+sort,12,,,,,,4,,,8,lowercase,['sort']
+to_safe,22,5,,,,,,,,17,lower_case_with_underscores,"['to', 'safe']"
+region_name,4,,,,,,1,,,3,lower_case_with_underscores,"['region', 'name']"
+STATUS_RUNNING,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['status', 'running']"
+MODULEDIR,2,,,,,,,,,2,UPPERCASE,"['moduledi', 'r']"
+Connection,12,,9,2,,,,,,1,CapitalizedWords,['connection']
+ENOENT,3,,,,,,,,,3,UPPERCASE,"['enoen', 't']"
+defaults_basepath,2,,,,,,,,,2,lower_case_with_underscores,"['defaults', 'basepath']"
+AsyncPoller,2,,1,,,,,,,1,CapitalizedWords,"['async', 'poller']"
+ask_sudo_pass,2,,,,,,,,,2,lower_case_with_underscores,"['ask', 'sudo', 'pass']"
+retries,3,,,,,,,,,3,lowercase,['retries']
+role_path,17,,,,,,,,,17,lower_case_with_underscores,"['role', 'path']"
+HTTPBasicAuthHandler,1,,,,,,,,,1,CapitalizedWords,"['http', 'basic', 'auth', 'handler']"
+f,57,,,,,,1,,,56,b,['f']
+_load_role_defaults,2,1,,,,,,,,1,lower_case_with_underscores,"['load', 'role', 'defaults']"
+raw_input,4,,,,,,,,,4,lower_case_with_underscores,"['raw', 'input']"
+after_header,5,,,,,,2,,,3,lower_case_with_underscores,"['after', 'header']"
+fstat,5,,,,,,,,,5,lowercase,['fstat']
+all_images,1,,,,,,,,,1,lower_case_with_underscores,"['all', 'images']"
+SortedOptParser,2,,1,,,,,,,1,CapitalizedWords,"['sorted', 'opt', 'parser']"
+in_path,90,,,,,,2,,,88,lower_case_with_underscores,"['in', 'path']"
+module_msg,4,,,,,,,,,4,lower_case_with_underscores,"['module', 'msg']"
+list_nodes,3,,,,,,,,,3,lower_case_with_underscores,"['list', 'nodes']"
+providers,2,,,2,,,,,,,lowercase,['providers']
+test_match_case_insensitive,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'match', 'case', 'insensitive']"
+SkipTest,7,,,2,,,,,,5,CapitalizedWords,"['skip', 'test']"
+VERBOSITY,8,,,,,,,,1,7,UPPERCASE,"['verbosit', 'y']"
+sudo,40,,,,,,2,,,38,lowercase,['sudo']
+module_data,21,,,,,,,,,21,lower_case_with_underscores,"['module', 'data']"
+KeyError,9,,,,,,,,,9,CapitalizedWords,"['key', 'error']"
+has_section,1,,,,,,,,,1,lower_case_with_underscores,"['has', 'section']"
+inv_host,5,,,,,,,,,5,lower_case_with_underscores,"['inv', 'host']"
+tag,4,,,,,,,,,4,lowercase,['tag']
+deepcopy,1,,,,,,,,,1,lowercase,['deepcopy']
+non_zero,2,,,,,,,,,2,lower_case_with_underscores,"['non', 'zero']"
+voice,2,,,,,,,,,2,lowercase,['voice']
+serial,3,,,,,,,,,3,lowercase,['serial']
+S_IXUSR,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['s', 'ixusr']"
+afo,4,,,,,,,,,4,lowercase,['afo']
+gce,3,,,,,,,,,3,lowercase,['gce']
+hosts2,2,,,,,,,,,2,lowercase,['hosts2']
+afd,2,,,,,,,,,2,lowercase,['afd']
+IMAGE,13,,,,,,,,,13,UPPERCASE,"['imag', 'e']"
+ec2_default_ini_path,2,,,,,,,,,2,lower_case_with_underscores,"['ec2', 'default', 'ini', 'path']"
+method_name,2,,,,,,,,,2,lower_case_with_underscores,"['method', 'name']"
+profile,4,,,,,,,,,4,lowercase,['profile']
+blocks,1,,,,,,,,,1,lowercase,['blocks']
+get_distribution,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'distribution']"
+pretty_bytes,1,1,,,,,,,,,lower_case_with_underscores,"['pretty', 'bytes']"
+_extra_dirs,4,,,,,,,,,4,lower_case_with_underscores,"['extra', 'dirs']"
+Request,1,,,,,,,,,1,CapitalizedWords,['request']
+Generate,1,,,,,,,,,1,CapitalizedWords,['generate']
+check_rc,2,,,,,,,,,2,lower_case_with_underscores,"['check', 'rc']"
+PROJECT,7,,,,,,,,,7,UPPERCASE,"['projec', 't']"
+chroot,13,,,,,,,,,13,lowercase,['chroot']
+inst,15,,,,,,,,,15,lowercase,['inst']
+rmtree,4,,,,,,,,,4,lowercase,['rmtree']
+test_template_whitespace,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'template', 'whitespace']"
+outdir,4,,,,,,,,,4,lowercase,['outdir']
+ungrouped_hosts,1,,,,,,,,,1,lower_case_with_underscores,"['ungrouped', 'hosts']"
+probline,12,,,,,,,,,12,lowercase,['probline']
+os,677,,,76,,,,,,601,lowercase,['os']
+lines,14,,,,,,,,,14,lowercase,['lines']
+arrow,2,,,,,,,,,2,lowercase,['arrow']
+StrictUndefined,3,,,1,,,,,,2,CapitalizedWords,"['strict', 'undefined']"
+element,15,,,,,,,,,15,lowercase,['element']
+dep_stack,6,,,,,,,,,6,lower_case_with_underscores,"['dep', 'stack']"
+Encrypt,1,,,,,,,,,1,CapitalizedWords,['encrypt']
+prepare_writeable_dir,2,1,,,,,,,,1,lower_case_with_underscores,"['prepare', 'writeable', 'dir']"
+move,2,,,,,,,,,2,lowercase,['move']
+compile_when_to_only_if,8,1,,,,,,,,7,lower_case_with_underscores,"['compile', 'when', 'to', 'only', 'if']"
+test_callbacks,30,,,,,,,,,30,lower_case_with_underscores,"['test', 'callbacks']"
+pyrax,7,,,1,,,,,,6,lowercase,['pyrax']
+interpreter,2,,,,,,,,,2,lowercase,['interpreter']
+delay,6,,,,,,,,,6,lowercase,['delay']
+skip_task,6,,,,,,,,,6,lower_case_with_underscores,"['skip', 'task']"
+tempfile,22,,,10,,,,,,12,lowercase,['tempfile']
+_match,3,1,,,,,,,,2,lowercase,['match']
+temp_dir,3,,,,,,,,,3,lower_case_with_underscores,"['temp', 'dir']"
+srcdir,2,,,,,,,,,2,lowercase,['srcdir']
+env_var,22,,,,,,,,,22,lower_case_with_underscores,"['env', 'var']"
+play_ds,2,,,,,,,,,2,lower_case_with_underscores,"['play', 'ds']"
+runner_on_skipped,3,3,,,,,,,,,lower_case_with_underscores,"['runner', 'on', 'skipped']"
+root_render_func,2,,,,,,,,,2,lower_case_with_underscores,"['root', 'render', 'func']"
+Task,5,,1,1,,,,,,3,CapitalizedWords,['task']
+docs,3,,,,,,,,,3,lowercase,['docs']
+api_id,4,,,,,,1,,,3,lower_case_with_underscores,"['api', 'id']"
+subresult,7,,,,,,,,,7,lowercase,['subresult']
+get_cowsay_info,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'cowsay', 'info']"
+fingerprint,2,,,,,,,,,2,lowercase,['fingerprint']
+getpwnam,1,,,,,,,,,1,lowercase,['getpwnam']
+when_name,2,,,,,,,,,2,lower_case_with_underscores,"['when', 'name']"
+iterkeys,1,,,,,,,,,1,lowercase,['iterkeys']
+load_droplets_from_digital_ocean,2,1,,,,,,,,1,lower_case_with_underscores,"['load', 'droplets', 'from', 'digital', 'ocean']"
+MAX_FILE_SIZE_FOR_DIFF,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['max', 'file', 'size', 'for', 'diff']"
+html_ify,4,1,,,,,,,,3,lower_case_with_underscores,"['html', 'ify']"
+_vars_plugins,2,,,,,,,,,2,lower_case_with_underscores,"['vars', 'plugins']"
+make_sudo_cmd,5,1,,,,,,,,4,lower_case_with_underscores,"['make', 'sudo', 'cmd']"
+_BOLD,7,,,,,,,,,7,UPPERCASE,"['bol', 'd']"
+_assemble_from_fragments,2,1,,,,,,,,1,lower_case_with_underscores,"['assemble', 'from', 'fragments']"
+mode,24,,,,,,9,,,15,lowercase,['mode']
+play_basedir,2,,,,,,,,,2,lower_case_with_underscores,"['play', 'basedir']"
+subset,12,1,,,,,,,,11,lowercase,['subset']
+cStringIO,1,,,1,,,,,,,mixedCase,"['c', 'string', 'i', 'o']"
+communicated_ok,2,1,,,,,,,,1,lower_case_with_underscores,"['communicated', 'ok']"
+EPERM,3,,,,,,,,,3,UPPERCASE,"['eper', 'm']"
+cache_path_cache,20,,,,,,,,,20,lower_case_with_underscores,"['cache', 'path', 'cache']"
+bytes,3,,,,,,,,,3,lowercase,['bytes']
+chunk,10,,,,,,,,,10,lowercase,['chunk']
+apply_tags,8,,,,,,,,,8,lower_case_with_underscores,"['apply', 'tags']"
+send_data,5,1,,,,,,,,4,lower_case_with_underscores,"['send', 'data']"
+meta,14,,,,,,3,,,11,lowercase,['meta']
+ec2,4,,,1,,,,,,3,lowercase,['ec2']
+_async_poll,2,1,,,,,,,,1,lower_case_with_underscores,"['async', 'poll']"
+out,22,,,,,,,,,22,lowercase,['out']
+category,17,,,,,,1,,,16,lowercase,['category']
+passlib,2,,,1,,,,,,1,lowercase,['passlib']
+res,174,,,,,,,,,174,lowercase,['res']
+req,2,,,,,,,,,2,lowercase,['req']
+ret,92,,,,,,,,,92,lowercase,['ret']
+test_check_conditional_jinja2_expression,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'check', 'conditional', 'jinja2', 'expression']"
+BOOLEANS_TRUE,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['booleans', 'true']"
+_legacy_varFindLimitSpace,3,1,,,,,,,,2,ugly,"['legacy', 'varfindlimitspace']"
+DEFAULT_VARS_PLUGIN_PATH,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['default', 'vars', 'plugin', 'path']"
+cwd,17,,,,,,7,,,10,lowercase,['cwd']
+actual_lines,6,,,,,,,,,6,lower_case_with_underscores,"['actual', 'lines']"
+delegate,4,,,,,,,,,4,lowercase,['delegate']
+module_return,4,,,,,,,,,4,lower_case_with_underscores,"['module', 'return']"
+man_ify,2,1,,,,,,,,1,lower_case_with_underscores,"['man', 'ify']"
+playbook_on_start,3,3,,,,,,,,,lower_case_with_underscores,"['playbook', 'on', 'start']"
+safe_load,4,,,,,,,,,4,lower_case_with_underscores,"['safe', 'load']"
+linode_id,2,,,,,,,,,2,lower_case_with_underscores,"['linode', 'id']"
+connect_opts,2,,,,,,,,,2,lower_case_with_underscores,"['connect', 'opts']"
+release,1,,,,,,,,,1,lowercase,['release']
+is_file,4,1,,,,,,,,3,lower_case_with_underscores,"['is', 'file']"
+rdata,2,,,,,,,,,2,lowercase,['rdata']
+filedemo,36,,,,,,,,,36,lowercase,['filedemo']
+has_journal,3,,,,,,,,,3,lower_case_with_underscores,"['has', 'journal']"
+indent,17,,,,,,17,,,,lowercase,['indent']
+parse_args,14,1,,,,,,,,13,lower_case_with_underscores,"['parse', 'args']"
+g,31,,,,,,1,,,30,b,['g']
+deprecated,5,1,,,,,,,,4,lowercase,['deprecated']
+openpty,1,,,,,,,,,1,lowercase,['openpty']
+_get_vars,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'vars']"
+stride,11,,,,,,,,,11,lowercase,['stride']
+length,7,,,,,,1,,,6,lowercase,['length']
+_run_task_internal,2,1,,,,,,,,1,lower_case_with_underscores,"['run', 'task', 'internal']"
+delegate_to,13,,,,,,,,,13,lower_case_with_underscores,"['delegate', 'to']"
+pardir,2,,,,,,,,,2,lowercase,['pardir']
+returncode,12,,,,,,,,,12,lowercase,['returncode']
+added_any,1,,,,,,,,,1,lower_case_with_underscores,"['added', 'any']"
+suffix,5,,,,,,,,,5,lowercase,['suffix']
+st_in,4,,,,,,,,,4,lower_case_with_underscores,"['st', 'in']"
+write_to_cache,15,5,,,,,,,,10,lower_case_with_underscores,"['write', 'to', 'cache']"
+_copy_file,3,1,,,,,,,,2,lower_case_with_underscores,"['copy', 'file']"
+regionInfo,3,,,,,,,,,3,mixedCase,"['region', 'info']"
+random_password,2,1,,,,,,,,1,lower_case_with_underscores,"['random', 'password']"
+is_failed,2,1,,,,,,,,1,lower_case_with_underscores,"['is', 'failed']"
+owner,9,,,,,,2,,,7,lowercase,['owner']
+mandatory,2,1,,,,,,,,1,lowercase,['mandatory']
+included_dep_vars,5,,,,,,,,,5,lower_case_with_underscores,"['included', 'dep', 'vars']"
+test_check_conditional_jinja2_variable_literals,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'check', 'conditional', 'jinja2', 'variable', 'literals']"
+data_out,2,,,,,,,,,2,lower_case_with_underscores,"['data', 'out']"
+mkdtemp,5,,,,,,,,,5,lowercase,['mkdtemp']
+_also_restriction,5,,,,,,,,,5,lower_case_with_underscores,"['also', 'restriction']"
+seq,5,,,,,,,,,5,lowercase,['seq']
+unknown,2,,,,,,,,,2,lowercase,['unknown']
+mkdir,2,,,,,,,,,2,lowercase,['mkdir']
+system,10,,,,,,,,,10,lowercase,['system']
+test_cases,3,,,,,,,,,3,lower_case_with_underscores,"['test', 'cases']"
+get_list,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'list']"
+host_vars_from_top,4,,,,,,,,,4,lower_case_with_underscores,"['host', 'vars', 'from', 'top']"
+cp_path_set,3,,,,,,,,,3,lower_case_with_underscores,"['cp', 'path', 'set']"
+intermediate,4,,,,,,,,,4,lowercase,['intermediate']
+subelement,7,,,,,,,,,7,lowercase,['subelement']
+wrapped,4,,,,,,,,,4,lowercase,['wrapped']
+route53_excluded_zones,3,,,,,,,,,3,lower_case_with_underscores,"['route53', 'excluded', 'zones']"
+returned_msg,3,,,,,,,,,3,lower_case_with_underscores,"['returned', 'msg']"
+handler_basepath,2,,,,,,,,,2,lower_case_with_underscores,"['handler', 'basepath']"
+Exception,31,,,,,,,,,31,CapitalizedWords,['exception']
+shell,12,,,,,,8,,,4,lowercase,['shell']
+include_vars,3,,,,,,,,,3,lower_case_with_underscores,"['include', 'vars']"
+tuple,4,,,,,,,,,4,lowercase,['tuple']
+completed,3,,,,,,,,,3,lowercase,['completed']
+role_name,19,,,,,,4,,,15,lower_case_with_underscores,"['role', 'name']"
+getgrgid,1,,,,,,,,,1,lowercase,['getgrgid']
+methodcaller,1,,,,,,,,,1,lowercase,['methodcaller']
+split,106,,,,,,,,,106,lowercase,['split']
+beg,8,,,,,,,,,8,lowercase,['beg']
+instance_name,2,,,,,,,,,2,lower_case_with_underscores,"['instance', 'name']"
+DNAME2,6,,,,,,,,,6,UPPERCASE,['dname2']
+sec,1,,,,,,,1,,,lowercase,['sec']
+brace_level,9,,,,,,,,,9,lower_case_with_underscores,"['brace', 'level']"
+force_cache,4,,,,,,,,,4,lower_case_with_underscores,"['force', 'cache']"
+seuser,5,,,,,,2,,,3,lowercase,['seuser']
+match_type,3,,,,,,1,,,2,lower_case_with_underscores,"['match', 'type']"
+DNAME7,4,,,,,,,,,4,UPPERCASE,['dname7']
+trim_blocks,3,,,,,,3,,,,lower_case_with_underscores,"['trim', 'blocks']"
+basepath,7,,,,,,,,,7,lowercase,['basepath']
+atomic_move,1,1,,,,,,,,,lower_case_with_underscores,"['atomic', 'move']"
+input_,9,,,,,,,,,9,lowercase,['input']
+DEFAULT_PRIVATE_KEY_FILE,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['default', 'private', 'key', 'file']"
+DEFAULT_ROLES_PATH,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['default', 'roles', 'path']"
+st,16,,,,,,,,,16,lowercase,['st']
+runner_on_failed,4,4,,,,,,,,,lower_case_with_underscores,"['runner', 'on', 'failed']"
+nova_client,2,,,,,,,1,,1,lower_case_with_underscores,"['nova', 'client']"
+expected1,2,,,,,,,,,2,lowercase,['expected1']
+expected3,2,,,,,,,,,2,lowercase,['expected3']
+expected2,2,,,,,,,,,2,lowercase,['expected2']
+expected4,2,,,,,,,,,2,lowercase,['expected4']
+instance,54,,,,,,,,,54,lowercase,['instance']
+HostVars,2,,1,,,,,,,1,CapitalizedWords,"['host', 'vars']"
+catch_warnings,2,,,,,,,,,2,lower_case_with_underscores,"['catch', 'warnings']"
+test_recursive_copy,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'recursive', 'copy']"
+group_instances,2,1,,,,,,,,1,lower_case_with_underscores,"['group', 'instances']"
+TCSADRAIN,1,,,,,,,,,1,UPPERCASE,"['tcsadrai', 'n']"
+fetch_file,9,8,,,,,,,,1,lower_case_with_underscores,"['fetch', 'file']"
+default_flow_style,1,,,,,,1,,,,lower_case_with_underscores,"['default', 'flow', 'style']"
+test_yaml_hosts_list,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'yaml', 'hosts', 'list']"
+runner_on_async_failed,4,4,,,,,,,,,lower_case_with_underscores,"['runner', 'on', 'async', 'failed']"
+_check_required_together,2,1,,,,,,,,1,lower_case_with_underscores,"['check', 'required', 'together']"
+placement,1,,,,,,,,,1,lowercase,['placement']
+inventory_hostname_short,1,,,,,,1,,,,lower_case_with_underscores,"['inventory', 'hostname', 'short']"
+url,13,,,,,,1,,,12,lowercase,['url']
+AUTHOR,2,,,,,,,,,2,UPPERCASE,"['autho', 'r']"
+filelist,4,,,,,,,,,4,lowercase,['filelist']
+pipe,3,,,,,,,,,3,lowercase,['pipe']
+TestRunner,1,,1,,,,,,,,CapitalizedWords,"['test', 'runner']"
+lsetfilecon,1,,,,,,,,,1,lowercase,['lsetfilecon']
+actual_host,9,,,,,,,,,9,lower_case_with_underscores,"['actual', 'host']"
+ParamikoConnection,2,,,,,,,1,,1,CapitalizedWords,"['paramiko', 'connection']"
+hosts_to_poll,6,,,,,,,,,6,lower_case_with_underscores,"['hosts', 'to', 'poll']"
+Timeout,1,,,,,,,,,1,CapitalizedWords,['timeout']
+text,50,,,,,,,,,50,lowercase,['text']
+box_name,2,,,,,,,,,2,lower_case_with_underscores,"['box', 'name']"
+terminate,1,,,,,,,,,1,lowercase,['terminate']
+passwd_keys,2,,,,,,,,,2,lower_case_with_underscores,"['passwd', 'keys']"
+key_errors,2,,,,,,,1,,1,lower_case_with_underscores,"['key', 'errors']"
+playbook,90,,,3,,,10,,,77,lowercase,['playbook']
+list_hosts,39,1,,,,,,,,38,lower_case_with_underscores,"['list', 'hosts']"
+is_public,2,,,,,,,,,2,lower_case_with_underscores,"['is', 'public']"
+sanitize_list,8,1,,,,,,,,7,lower_case_with_underscores,"['sanitize', 'list']"
+AnsibleModule,1,,1,,,,,,,,CapitalizedWords,"['ansible', 'module']"
+buf,14,,,,,,,,,14,lowercase,['buf']
+async_limit,4,,,,,,1,,,3,lower_case_with_underscores,"['async', 'limit']"
+eval_results,3,,,,,,,,,3,lower_case_with_underscores,"['eval', 'results']"
+sendmail,1,,,,,,,,,1,lowercase,['sendmail']
+local,2,,,,,,,,,2,lowercase,['local']
+hostfh,3,,,,,,,,,3,lowercase,['hostfh']
+DEFAULT_TIMEOUT,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['default', 'timeout']"
+sanitize_dict,4,1,,,,,,,,3,lower_case_with_underscores,"['sanitize', 'dict']"
+fired_names,3,,,,,,,,,3,lower_case_with_underscores,"['fired', 'names']"
+not_in_host_file,5,1,,,,,,,,4,lower_case_with_underscores,"['not', 'in', 'host', 'file']"
+included_dep_name,2,,,,,,,,,2,lower_case_with_underscores,"['included', 'dep', 'name']"
+route53_zones,2,,,,,,,,,2,lower_case_with_underscores,"['route53', 'zones']"
+regular_generic_msg,3,1,,,,,,,,2,lower_case_with_underscores,"['regular', 'generic', 'msg']"
+cp_in_use,3,,,,,,,,,3,lower_case_with_underscores,"['cp', 'in', 'use']"
+temp_path,2,,,,,,,,,2,lower_case_with_underscores,"['temp', 'path']"
+test_missing_end,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'missing', 'end']"
+dopy,1,,,1,,,,,,,lowercase,['dopy']
+iteritems,49,,,,,,,,,49,lowercase,['iteritems']
+salt_chars,2,,,,,,,,,2,lower_case_with_underscores,"['salt', 'chars']"
+new_port,2,,,,,,,,,2,lower_case_with_underscores,"['new', 'port']"
+_MODULE,7,,,,,,,,,7,UPPERCASE,"['modul', 'e']"
+temp,1,1,,,,,,,,,lowercase,['temp']
+h,46,,,,,,1,,,45,b,['h']
+load_droplet_variables_for_host,2,1,,,,,,,,1,lower_case_with_underscores,"['load', 'droplet', 'variables', 'for', 'host']"
+default,77,1,,,,,48,,,28,lowercase,['default']
+processed,3,,,,,,,,,3,lowercase,['processed']
+new_seq,3,,,,,,,,,3,lower_case_with_underscores,"['new', 'seq']"
+_parse,6,3,,,,,,,,3,lowercase,['parse']
+a_dir,2,,,,,,,,,2,lower_case_with_underscores,"['a', 'dir']"
+ask_pass,3,,,,,,,,,3,lower_case_with_underscores,"['ask', 'pass']"
+exists,92,,,,,,,,,92,lowercase,['exists']
+all_zones,2,,,,,,,,,2,lower_case_with_underscores,"['all', 'zones']"
+connection_plugins,2,,,2,,,,,,,lower_case_with_underscores,"['connection', 'plugins']"
+import_error,4,,,,,,,,,4,lower_case_with_underscores,"['import', 'error']"
+module,23,,,,,,,,,23,lowercase,['module']
+allow_none,1,,,,,,1,,,,lower_case_with_underscores,"['allow', 'none']"
+bin_path,4,,,,,,,,,4,lower_case_with_underscores,"['bin', 'path']"
+shcmd,3,,,,,,,,,3,lowercase,['shcmd']
+on_vars_prompt,3,1,,,,,,,,2,lower_case_with_underscores,"['on', 'vars', 'prompt']"
+local_cmd,18,,,,,,,,,18,lower_case_with_underscores,"['local', 'cmd']"
+verbose_always,4,,,,,,,,,4,lower_case_with_underscores,"['verbose', 'always']"
+stats,30,,,,,,10,,,20,lowercase,['stats']
+deprecations,3,,,,,,,,,3,lowercase,['deprecations']
+pattern,49,,,,,,4,,,45,lowercase,['pattern']
+lstat,5,,,,,,,,,5,lowercase,['lstat']
+state,3,,,,,,,,,3,lowercase,['state']
+WARNING,1,,,,,,,,,1,UPPERCASE,"['warnin', 'g']"
+st_size,4,,,,,,,,,4,lower_case_with_underscores,"['st', 'size']"
+lookup_loader,8,,,,,,,,,8,lower_case_with_underscores,"['lookup', 'loader']"
+SSHConnection,2,,,,,,,1,,1,CapitalizedWords,"['ssh', 'connection']"
+api_version,1,,,,,,,,,1,lower_case_with_underscores,"['api', 'version']"
+next_host,3,,,,,,,,,3,lower_case_with_underscores,"['next', 'host']"
+SW_REPORT,6,,,,,,,,,6,UPPER_CASE_WITH_UNDERSCORES,"['sw', 'report']"
+SafeConfigParser,9,,,,,,,,,9,CapitalizedWords,"['safe', 'config', 'parser']"
+recv_exit_status,1,,,,,,,,,1,lower_case_with_underscores,"['recv', 'exit', 'status']"
+key,152,,,,,,5,,,147,lowercase,['key']
+ec2_access_key,6,,,,,,,,,6,lower_case_with_underscores,"['ec2', 'access', 'key']"
+success_key,13,,,,,,,,,13,lower_case_with_underscores,"['success', 'key']"
+spacewalk_report,3,1,,,,,,,,2,lower_case_with_underscores,"['spacewalk', 'report']"
+libcloud_default_ini_path,2,,,,,,,,,2,lower_case_with_underscores,"['libcloud', 'default', 'ini', 'path']"
+limits,3,,,,,,,,,3,lowercase,['limits']
+plugin,2,,,,,,,,,2,lowercase,['plugin']
+old_stdin,2,,,,,,,,,2,lower_case_with_underscores,"['old', 'stdin']"
+cache,44,,,,,,,,,44,lowercase,['cache']
+itertools,1,,,1,,,,,,,lowercase,['itertools']
+on_not_import_for_host,3,2,,,,,,,,1,lower_case_with_underscores,"['on', 'not', 'import', 'for', 'host']"
+module_replacer,2,,,,,,,,,2,lower_case_with_underscores,"['module', 'replacer']"
+ch,2,,,,,,,,,2,lowercase,['ch']
+has_plugin,2,1,,,,,,,,1,lower_case_with_underscores,"['has', 'plugin']"
+cc,5,,,,,,,,,5,lowercase,['cc']
+chmod,5,,,,,,,,,5,lowercase,['chmod']
+walk,1,,,,,,,,,1,lowercase,['walk']
+_execute_accelerate_module,2,1,,,,,,,,1,lower_case_with_underscores,"['execute', 'accelerate', 'module']"
+cs,4,,,,,,,,,4,lowercase,['cs']
+hostfile,3,,,,,,,,,3,lowercase,['hostfile']
+F_SETFL,6,,,,,,,,,6,UPPER_CASE_WITH_UNDERSCORES,"['f', 'setfl']"
+orig,3,,,,,,,,,3,lowercase,['orig']
+quit,1,,,,,,,,,1,lowercase,['quit']
+platform,7,,,1,,,,,,6,lowercase,['platform']
+_executor_hook,2,1,,,,,,,,1,lower_case_with_underscores,"['executor', 'hook']"
+ImportError,28,,,,,,,,,28,CapitalizedWords,"['import', 'error']"
+json,94,,,25,,,,15,,54,lowercase,['json']
+is_unset,1,1,,,,,,,,,lower_case_with_underscores,"['is', 'unset']"
+reservations,4,,,,,,,,,4,lowercase,['reservations']
+connect_euca,3,,,,,,,,,3,lower_case_with_underscores,"['connect', 'euca']"
+username,6,,,,,,2,,,4,lowercase,['username']
+expected_hosts2,2,,,,,,,,,2,lower_case_with_underscores,"['expected', 'hosts2']"
+ssh_config,4,,,,,,,,,4,lower_case_with_underscores,"['ssh', 'config']"
+LOG_USER,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['log', 'user']"
+SMTP,1,,,,,,,,,1,UPPERCASE,"['smt', 'p']"
+termios,6,,,3,,,,,,3,lowercase,['termios']
+test_template_ds_basic,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'template', 'ds', 'basic']"
+filter_fatal,3,,,,,,1,,,2,lower_case_with_underscores,"['filter', 'fatal']"
+LB1,14,,,,,,,,,14,UPPERCASE,['lb1']
+pause_type,7,,,,,,,,,7,lower_case_with_underscores,"['pause', 'type']"
+mod_time,10,,,,,,,,,10,lower_case_with_underscores,"['mod', 'time']"
+boto,9,,,4,,,,,,5,lowercase,['boto']
+print_exc,13,,,,,,,,,13,lower_case_with_underscores,"['print', 'exc']"
+value,119,,,,,,,,,119,lowercase,['value']
+rd_result,3,,,,,,,,,3,lower_case_with_underscores,"['rd', 'result']"
+playbook_on_no_hosts_matched,3,3,,,,,,,,,lower_case_with_underscores,"['playbook', 'on', 'no', 'hosts', 'matched']"
+is_complex,10,,,,,,,,,10,lower_case_with_underscores,"['is', 'complex']"
+fullpath,11,,,,,,,,,11,lowercase,['fullpath']
+getpwuid,5,,,,,,,,,5,lowercase,['getpwuid']
+process_lockfile,8,,,,,,,,,8,lower_case_with_underscores,"['process', 'lockfile']"
+ini,2,,,2,,,,,,,lowercase,['ini']
+rename,2,,,,,,,,,2,lowercase,['rename']
+read_cli_args,2,1,,,,,,,,1,lower_case_with_underscores,"['read', 'cli', 'args']"
+DEFAULT_LOOKUP_PLUGIN_PATH,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['default', 'lookup', 'plugin', 'path']"
+novaclient,1,,,1,,,,,,,lowercase,['novaclient']
+test_subset,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'subset']"
+on_task_start,3,2,,,,,,,,1,lower_case_with_underscores,"['on', 'task', 'start']"
+test_script_vars,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'script', 'vars']"
+W_OK,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['w', 'ok']"
+EACCES,1,,,,,,,,,1,UPPERCASE,"['eacce', 's']"
+ansible,317,,,238,,,,,,79,lowercase,['ansible']
+vv,12,1,,5,,,,,,6,lowercase,['vv']
+host_connection,2,,,,,,,,,2,lower_case_with_underscores,"['host', 'connection']"
+diff_opts,2,,,,,,,,,2,lower_case_with_underscores,"['diff', 'opts']"
+dest_host,7,,,,,,,,,7,lower_case_with_underscores,"['dest', 'host']"
+HAVE_SELINUX,9,,,,,,,,,9,UPPER_CASE_WITH_UNDERSCORES,"['have', 'selinux']"
+vars_loader,3,,,,,,,,,3,lower_case_with_underscores,"['vars', 'loader']"
+legacy_varReplace,5,1,,,,,,,,4,ugly,"['legacy', 'varreplace']"
+matched_only_tags,2,,,,,,,,,2,lower_case_with_underscores,"['matched', 'only', 'tags']"
+cmd_chmod,2,,,,,,,,,2,lower_case_with_underscores,"['cmd', 'chmod']"
+LB2,12,,,,,,,,,12,UPPERCASE,['lb2']
+fnd,10,,,,,,,,,10,lowercase,['fnd']
+ex_get_node,1,,,,,,,,,1,lower_case_with_underscores,"['ex', 'get', 'node']"
+InvalidSignatureError,1,,,,,,,,,1,CapitalizedWords,"['invalid', 'signature', 'error']"
+PASSLIB_AVAILABLE,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['passlib', 'available']"
+listdir,4,,,,,,,,,4,lowercase,['listdir']
+slave,3,,,,,,,,,3,lowercase,['slave']
+meta_data,3,,,,,,,,,3,lower_case_with_underscores,"['meta', 'data']"
+js_data,3,,,,,,,,,3,lower_case_with_underscores,"['js', 'data']"
+PlaybookRunnerCallbacks,11,,1,,,,,,,10,CapitalizedWords,"['playbook', 'runner', 'callbacks']"
+dat,6,,,,,,,,,6,lowercase,['dat']
+test_complex_exclude,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'complex', 'exclude']"
+i,79,,,,,,1,,,78,b,['i']
+builder,2,,,,,,,,,2,lowercase,['builder']
+_md5,7,,,,,,,4,,3,lowercase,['md5']
+grouped_hosts,7,,,,,,,,,7,lower_case_with_underscores,"['grouped', 'hosts']"
+patterns,6,,,,,,,,,6,lowercase,['patterns']
+command,1,,,,,,,,,1,lowercase,['command']
+ActionModule,20,,20,,,,,,,,CapitalizedWords,"['action', 'module']"
+folder_path,4,,,,,,,,,4,lower_case_with_underscores,"['folder', 'path']"
+get_from_rhc_config,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'from', 'rhc', 'config']"
+keytype,5,,,,,,,,,5,lowercase,['keytype']
+test_script_multiple_groups,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'script', 'multiple', 'groups']"
+DEFAULT_PASSWORD_CHARS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['default', 'password', 'chars']"
+_generate_cmd,2,1,,,,,,,,1,lower_case_with_underscores,"['generate', 'cmd']"
+api_key,10,,,,,,1,,,9,lower_case_with_underscores,"['api', 'key']"
+UnicodeDecodeError,3,,,,,,,,,3,CapitalizedWords,"['unicode', 'decode', 'error']"
+isinstance,101,,,,,,,,,101,lowercase,['isinstance']
+route53,2,,,1,,,,,,1,lowercase,['route53']
+now,6,,,,,,1,,,5,lowercase,['now']
+INAME,54,,,,,,,,,54,UPPERCASE,"['inam', 'e']"
+json_loads,1,1,,,,,,,,,lower_case_with_underscores,"['json', 'loads']"
+clear_pattern_cache,2,1,,,,,,,,1,lower_case_with_underscores,"['clear', 'pattern', 'cache']"
+add,3,,,,,,,,,3,lowercase,['add']
+combine,2,1,,,,,,,,1,lowercase,['combine']
+usage,5,,,,,,3,,,2,lowercase,['usage']
+IOError,14,,,,,,,,,14,CapitalizedWords,"['io', 'error']"
+logger,3,,,,,,,,,3,lowercase,['logger']
+EVENTS,16,,,,,,,,1,15,UPPERCASE,"['event', 's']"
+ACCELERATE_CONNECT_TIMEOUT,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['accelerate', 'connect', 'timeout']"
+Datacenter,1,,,,,,,,,1,CapitalizedWords,['datacenter']
+tests,2,,,,,,,,,2,lowercase,['tests']
+dest,152,,,,,,39,,,113,lowercase,['dest']
+playbook_data,3,,,,,,,,,3,lower_case_with_underscores,"['playbook', 'data']"
+source2,5,,,,,,,,,5,lowercase,['source2']
+resolver,4,,,1,,,,,,3,lowercase,['resolver']
+runcmd,5,,,,,,,,,5,lowercase,['runcmd']
+insert,6,,,,,,,,,6,lowercase,['insert']
+success,2,1,,,,,,,,1,lowercase,['success']
+sizes,3,,,,,,,,,3,lowercase,['sizes']
+hostn,2,,,,,,,,,2,lowercase,['hostn']
+DEFAULT_KEEP_REMOTE_FILES,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['default', 'keep', 'remote', 'files']"
+get_name,2,,,,,,,,,2,lower_case_with_underscores,"['get', 'name']"
+LENGTH,2,,,,,,,,,2,UPPERCASE,"['lengt', 'h']"
+hosts,150,,,,,,,,,150,lowercase,['hosts']
+REPLACER_LANG,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['replacer', 'lang']"
+included_roles,4,,,,,,,,,4,lower_case_with_underscores,"['included', 'roles']"
+sample_origin,5,,,,,,,,,5,lower_case_with_underscores,"['sample', 'origin']"
+replacement,18,,,,,,2,,,16,lowercase,['replacement']
+config_var,2,,,,,,,,,2,lower_case_with_underscores,"['config', 'var']"
+sequence,3,,,,,,,,,3,lowercase,['sequence']
+put_file,14,8,,,,,,,,6,lower_case_with_underscores,"['put', 'file']"
+library,8,,,,,,,,,8,lowercase,['library']
+daylight,1,,,,,,,,,1,lowercase,['daylight']
+test_ping,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'ping']"
+ec2_url,5,,,,,,,,,5,lower_case_with_underscores,"['ec2', 'url']"
+enviro,6,,,,,,,,,6,lowercase,['enviro']
+_log_invocation,2,1,,,,,,,,1,lower_case_with_underscores,"['log', 'invocation']"
+getstatusoutput,1,,,1,,,,,,,lowercase,['getstatusoutput']
+transport,28,,,,,,3,,,25,lowercase,['transport']
+post_tasks,4,,,,,,,,,4,lower_case_with_underscores,"['post', 'tasks']"
+tmp,95,,,,,,,,,95,lowercase,['tmp']
+missing_filename,1,,,,,,,,,1,lower_case_with_underscores,"['missing', 'filename']"
+results2,17,,,,,,,,,17,lowercase,['results2']
+_hosts_cache,11,,,,,,,,,11,lower_case_with_underscores,"['hosts', 'cache']"
+DEFAULTS,43,,,,,,,,,43,UPPERCASE,"['default', 's']"
+new_msg,14,,,,,,,,,14,lower_case_with_underscores,"['new', 'msg']"
+relpath,3,,,,,,,,,3,lowercase,['relpath']
+HAVE_REDIS,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['have', 'redis']"
+_handlers,5,,,,,,,,,5,lowercase,['handlers']
+journal,2,,,1,,,,,,1,lowercase,['journal']
+kn_host,2,,,,,,,,,2,lower_case_with_underscores,"['kn', 'host']"
+test_template_unicode,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'template', 'unicode']"
+image_name,3,,,,,,,,,3,lower_case_with_underscores,"['image', 'name']"
+symlink,2,,,,,,,,,2,lowercase,['symlink']
+i_beg,3,,,,,,,,,3,lower_case_with_underscores,"['i', 'beg']"
+special_vars,6,,,,,,,,,6,lower_case_with_underscores,"['special', 'vars']"
+all_tags_set,3,,,,,,,,,3,lower_case_with_underscores,"['all', 'tags', 'set']"
+offset,3,,,,,,,,,3,lowercase,['offset']
+test_configfile_set_env_not_set,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'configfile', 'set', 'env', 'not', 'set']"
+dcs,2,,,,,,,,,2,lowercase,['dcs']
+actual,17,,,,,,,,,17,lowercase,['actual']
+socket,21,,,3,,,,,,18,lowercase,['socket']
+column,6,,,,,,,,,6,lowercase,['column']
+F_GETFL,6,,,,,,,,,6,UPPER_CASE_WITH_UNDERSCORES,"['f', 'getfl']"
+public_ips,3,,,,,,,,,3,lower_case_with_underscores,"['public', 'ips']"
+discard,2,,,,,,,,,2,lowercase,['discard']
+backup_local,1,1,,,,,,,,,lower_case_with_underscores,"['backup', 'local']"
+tag_list,3,,,,,,,,,3,lower_case_with_underscores,"['tag', 'list']"
+copyfile,5,,,,,,,,,5,lowercase,['copyfile']
+inventory_script,4,,,,,,,,,4,lower_case_with_underscores,"['inventory', 'script']"
+selinux_initial_context,3,1,,,,,,,,2,lower_case_with_underscores,"['selinux', 'initial', 'context']"
+TIME_FORMAT,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['time', 'format']"
+_test_playbook_undefined_vars,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'playbook', 'undefined', 'vars']"
+package_path,3,,,,,,,,,3,lower_case_with_underscores,"['package', 'path']"
+groupfiledir,5,,,,,,,,,5,lowercase,['groupfiledir']
+hpat,2,,,,,,,,,2,lowercase,['hpat']
+actual_hosts,2,,,,,,,,,2,lower_case_with_underscores,"['actual', 'hosts']"
+val,10,,,,,,,,,10,lowercase,['val']
+*,2,,,2,,,,,,,mixedCase,['*']
+dep_vars,18,,,,,,,,,18,lower_case_with_underscores,"['dep', 'vars']"
+delegate_info,10,,,,,,,,,10,lower_case_with_underscores,"['delegate', 'info']"
+keyczar,2,,,2,,,,,,,lowercase,['keyczar']
+test_simple_port,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'simple', 'port']"
+var,27,,,,,,,,,27,lowercase,['var']
+set_setting,1,,,,,,,,,1,lower_case_with_underscores,"['set', 'setting']"
+function,2,,,,,,,,,2,lowercase,['function']
+_make_host,5,1,,,,,,,,4,lower_case_with_underscores,"['make', 'host']"
+simplejson,15,,,15,,,,,,,lowercase,['simplejson']
+runner_on_unreachable,4,4,,,,,,,,,lower_case_with_underscores,"['runner', 'on', 'unreachable']"
+on_ok,7,4,,,,,,,,3,lower_case_with_underscores,"['on', 'ok']"
+test_bool_true,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'bool', 'true']"
+baseurl,2,,,,,,,,,2,lowercase,['baseurl']
+getenv,13,,,,,,,,,13,lowercase,['getenv']
+dup,2,,,,,,,,,2,lowercase,['dup']
+secrets_path,4,,,,,,,,,4,lower_case_with_underscores,"['secrets', 'path']"
+hn,5,,,,,,,,,5,lowercase,['hn']
+hexlify,2,,,1,,,,,,1,lowercase,['hexlify']
+getuid,3,,,,,,,,,3,lowercase,['getuid']
+actual_name,3,,,,,,,,,3,lower_case_with_underscores,"['actual', 'name']"
+parsers,3,,,,,,,,,3,lowercase,['parsers']
+count,26,,,,,,,,,26,lowercase,['count']
+bypass_checks,2,,,,,,,,,2,lower_case_with_underscores,"['bypass', 'checks']"
+get_node,4,2,,,,,,,,2,lower_case_with_underscores,"['get', 'node']"
+compute,8,1,,4,,,,,,3,lowercase,['compute']
+BLACKLIST_MODULES,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['blacklist', 'modules']"
+new_conditions,3,,,,,,,,,3,lower_case_with_underscores,"['new', 'conditions']"
+hoststub,3,1,,,,,,,,2,lowercase,['hoststub']
+j,3,,,,,,1,,,2,b,['j']
+noop_on_check,11,1,,,,,,,,10,lower_case_with_underscores,"['noop', 'on', 'check']"
+record,4,,,,,,,,,4,lowercase,['record']
+limit,3,,,,,,,,,3,lowercase,['limit']
+empty,2,,,,,,,,,2,lowercase,['empty']
+distribution,12,,,,,,,,,12,lowercase,['distribution']
+display,41,1,,1,,,,,,39,lowercase,['display']
+_send_password,4,1,,,,,,,,3,lower_case_with_underscores,"['send', 'password']"
+int,46,,,,,,,,,46,lowercase,['int']
+xmlrpclib,2,,,1,,,,,,1,lowercase,['xmlrpclib']
+indata,6,,,,,,,,,6,lowercase,['indata']
+inp,2,,,,,,,,,2,lowercase,['inp']
+get_pty,1,,,,,,,,,1,lower_case_with_underscores,"['get', 'pty']"
+playbook_on_notify,3,3,,,,,,,,,lower_case_with_underscores,"['playbook', 'on', 'notify']"
+allow_ssh,3,,,,,,1,,,2,lower_case_with_underscores,"['allow', 'ssh']"
+oneline,9,,,,,,,,,9,lowercase,['oneline']
+bufsize,4,,,,,,,,,4,lowercase,['bufsize']
+chube,1,,,1,,,,,,,lowercase,['chube']
+build_inventory,3,1,,,,,,,,2,lower_case_with_underscores,"['build', 'inventory']"
+all_active_droplets,2,,,,,,,,,2,lower_case_with_underscores,"['all', 'active', 'droplets']"
+setup_cache,12,,,,,,2,,,10,lower_case_with_underscores,"['setup', 'cache']"
+direct_attr,3,,,,,,,,,3,lower_case_with_underscores,"['direct', 'attr']"
+test_template_basic,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'template', 'basic']"
+active_user,2,,,,,,,,,2,lower_case_with_underscores,"['active', 'user']"
+ungrouped,11,,,,,,2,,,9,lowercase,['ungrouped']
+selinux_default_context,4,1,,,,,,,,3,lower_case_with_underscores,"['selinux', 'default', 'context']"
+lookup,7,1,,,,,,,,6,lowercase,['lookup']
+details,5,,,,,,2,,,3,lowercase,['details']
+branch,3,,,,,,,,,3,lowercase,['branch']
+key_name,2,,,,,,,,,2,lower_case_with_underscores,"['key', 'name']"
+smush_braces,2,1,,,,,,,,1,lower_case_with_underscores,"['smush', 'braces']"
+check_conditional,43,1,,2,,,,,,40,lower_case_with_underscores,"['check', 'conditional']"
+stat,47,,,4,,,,,,43,lowercase,['stat']
+defaults_file,5,,,,,,,,,5,lower_case_with_underscores,"['defaults', 'file']"
+readlink,1,,,,,,,,,1,lowercase,['readlink']
+rel_path,2,,,,,,,,,2,lower_case_with_underscores,"['rel', 'path']"
+Context,2,,,,,,,,,2,CapitalizedWords,['context']
+readline,2,,,,,,,,,2,lowercase,['readline']
+droplet,24,,,,,,,,,24,lowercase,['droplet']
+ANSIBLE_ETCD_URL,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['ansible', 'etcd', 'url']"
+sphinx,1,,,1,,,,,,,lowercase,['sphinx']
+pathmd5,2,,,,,,,,,2,lowercase,['pathmd5']
+eol,3,,,,,,,,,3,lowercase,['eol']
+extras,5,,,,,,,,,5,lowercase,['extras']
+module_items,2,,,,,,,,,2,lower_case_with_underscores,"['module', 'items']"

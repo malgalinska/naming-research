@@ -1,9 +1,8 @@
-#!/usr/local/bin/python3.11
+#!/usr/bin/python2.7
 # coding: utf-8
 
 from logging import error
 import os
-# import string
 import sys
 import ast
 import csv
@@ -19,7 +18,7 @@ stats_dictionary = {}
 field_names = ["name", "all", "function def", "class def", "import", "exception", "param", "keyword", "alias", "object decl", "object", "case_convention", "words"]
 
 
-def get_data(input: str, output: str):
+def get_data(input, output):
     try:
         startTime = datetime.now()
 
@@ -42,7 +41,7 @@ def get_data(input: str, output: str):
                     n_of_others += 1
 
         # Zapisanie danych do pliku
-        with open(output, "w", -1, "utf-8") as stats_file:
+        with open(output, "w") as stats_file:
             csvwriter = csv.DictWriter(stats_file, fieldnames=field_names)
             csvwriter.writeheader()
             for key, value in stats_dictionary.items():
@@ -51,14 +50,11 @@ def get_data(input: str, output: str):
         
         endTime = datetime.now()
     except Exception as e:
-        with open("./log.txt", "a", -1, "utf-8") as log:
-            log_and_print(f'{output}:', log, True)
-            log_and_print(f'{repr(e)}', log)
-            log_and_print('I will try with Python 2.7!\n', log)
-
-        # os.system("pwd")
-        # os.system("ls ./src")
-        os.system(f'./src/alternative_data_getter.py {input} {output}') # To trzeba zrobić lepiej
+        with open("./log.txt", "a") as log:
+            log_and_print(output + ':', log, True)
+            log_and_print(repr(e), log)
+            log_and_print(str(e), log)
+            log_and_print('Even Python 2.7 don`t work here!\n', log)
 
     else:
         # Zakończenie progamu
@@ -66,101 +62,68 @@ def get_data(input: str, output: str):
         percent_of_py = n_of_py * 100 / n
         duration = endTime - startTime
 
-        with open("./log.txt", "a", -1, "utf-8") as log:
-            log_and_print(f'{output}:', log)
-            log_and_print(f'    Started at {startTime:%H:%M:%S}, ended at {endTime:%H:%M:%S} (duration {duration}).', log)
-            log_and_print(f'    There is {n_of_py} Python files of all {n} files({percent_of_py:.2f}%).\n', log)
+        with open("./log.txt", "a") as log:
+            log_and_print(output + ' (by Python 2.7):', log)
+            # log_and_print(f'    Started at {startTime:%H:%M:%S}, ended at {endTime:%H:%M:%S} (duration {duration}).', log) #Fix it
+            log_and_print('    Duration: ' + str(duration), log)
+            log_and_print('    There is ' + str(n_of_py) + ' Python files of all ' + str(n) + ' files(' + str(percent_of_py) + '%).\n', log)
 
     return 0
 
 
 # Wyłuskanie danych z pojedynczego pliku pythonowego
-def add_to_statistics(file_name: str):
-    with open(file_name, encoding="utf-8") as f:
+def add_to_statistics(file_name):
+    with open(file_name) as f:
         code = f.read()
         tree = ast.parse(code, file_name)
         NamesCounter().visit(tree)
 
 
 class NamesCounter(ast.NodeVisitor):
-    def visit_FunctionDef(self, node: ast.FunctionDef):
+    def visit_FunctionDef(self, node):
         add_name_with_kind(node.name, "function def")
         return self.generic_visit(node)
 
-    def visit_AsyncFunctionDef(self, node: ast.AsyncFunctionDef):
-        add_name_with_kind(node.name, "function def")
-        return self.generic_visit(node)
-
-    def visit_ClassDef(self, node: ast.ClassDef):
+    def visit_ClassDef(self, node):
         add_name_with_kind(node.name, "class def")
         return self.generic_visit(node)
 
-    def visit_ImportFrom(self, node: ast.ImportFrom):
+    def visit_ImportFrom(self, node):
         if node.module:
             add_name_with_kind(node.module, "import")
         return self.generic_visit(node)
 
-    def visit_Global(self, node: ast.Global):
+    def visit_Global(self, node):
         for name in node.names:
             add_name_with_kind(name, "object decl")
         return self.generic_visit(node)
 
-    def visit_Nonlocal(self, node: ast.Nonlocal):
-        for name in node.names:
-            add_name_with_kind(name, "object decl")
-        return self.generic_visit(node)
-
-    def visit_Attribute(self, node: ast.Attribute):
+    def visit_Attribute(self, node):
         add_name_with_kind(node.attr, "object")
         return self.generic_visit(node)
 
-    def visit_Name(self, node: ast.Name):
+    def visit_Name(self, node):
         add_name_with_kind(node.id, "object")
         return self.generic_visit(node)
 
-    def visit_ExceptHandler(self, node: ast.ExceptHandler):
-        if node.name:
-            add_name_with_kind(node.name, "exception")
+    def visit_arg(self, node):
+        if node.vararg:
+            add_name_with_kind(node.vararg, "param")
         return self.generic_visit(node)
 
-    def visit_arg(self, node: ast.arg):
-        add_name_with_kind(node.arg, "param")
+    def visit_keyword(self, node):
+        add_name_with_kind(node.arg, "keyword")
         return self.generic_visit(node)
 
-    def visit_keyword(self, node: ast.keyword):
-        if node.arg:
-            add_name_with_kind(node.arg, "keyword")
-        return self.generic_visit(node)
-
-    def visit_alias (self, node: ast.alias):
+    def visit_alias (self, node):
         add_name_with_kind(node.name, "import")
         if node.asname:
             add_name_with_kind(node.asname, "alias")
         return self.generic_visit(node)
     
-    def visit_MatchMapping(self, node: ast.MatchMapping):
-        if node.rest:
-            add_name_with_kind(node.rest, "object decl")
-        return self.generic_visit(node)
-    
-    def visit_MatchClass(self, node: ast.MatchClass):
-        for name in node.kwd_attrs:
-            add_name_with_kind(name, "object")
-        return self.generic_visit(node)
-    
-    def visit_MatchStar(self, node: ast.MatchStar):
-        if node.name:
-            add_name_with_kind(node.name, "object decl")
-        return self.generic_visit(node)
-    
-    def visit_MatchAs(self, node: ast.MatchAs):
-        if node.name:
-            add_name_with_kind(node.name, "object decl")
-        return self.generic_visit(node)
-
 
 # Dodanie wystąpienia nazwy
-def add_name_with_kind(name: str, kind: str):
+def add_name_with_kind(name, kind):
     if name is None:
         return
     
@@ -183,13 +146,13 @@ def add_name_with_kind(name: str, kind: str):
         stats_dictionary[name][kind] += 1
 
 
-def add_new_name_with_case_convention_and_words(name: str):
+def add_new_name_with_case_convention_and_words(name):
     stats_dictionary[name]["case_convention"] = convention(name)
     stats_dictionary[name]["words"] = split_to_words(name)
 
 
 # Based on: https://peps.python.org/pep-0008/#descriptive-naming-styles
-def convention(name: str):
+def convention(name):
     name = name.strip("_")
     if len(name) == 0:
         return "ugly"
@@ -216,7 +179,7 @@ def convention(name: str):
     return "ugly"
     
 
-def split_to_words(name: str):
+def split_to_words(name):
     name = name.strip("_")
     if len(name) == 0:
         return []
@@ -240,12 +203,13 @@ def split_to_words(name: str):
     return ret
             
 
-def log_and_print(text: str, file, error=False):
-    file.write(f'{text}\n')
+def log_and_print(text, file, error=False):
     if error:
-        print(f'{Fore.RED}{text}{Style.RESET_ALL}')
+        file.write(Fore.RED + text + Style.RESET_ALL + '\n')
+        print(Fore.RED + text + Style.RESET_ALL)
     else:
-        print(f'{text}')
+        file.write(text + '\n')
+        print(text)
 
 
 # Start programu

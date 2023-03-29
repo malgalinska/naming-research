@@ -1,0 +1,6 @@
+Potrzebne:
+
+Python3.11
+Python2.7
+
+pip install colorama

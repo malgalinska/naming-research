@@ -374,3 +374,308 @@ Missing parentheses in call to 'print'. Did you mean print('SKIPPING optimizatio
     Started at 03:54:55, ended at 03:55:20 (duration 0:00:24.862380).
     There is 1363 Python files of all 5888 files(23.15%).
 
+[31m./data/ansible/2014_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 27, 5, '    print "#################################"\n', 27, 46))
+I will try with Python 2.7!
+
+[31m./data/ansible/2015_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 12, 5, '    print "Ansible now needs setuptools in order to build. " \\', 13, 63))
+I will try with Python 2.7!
+
+[31m./data/ansible/2016_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 15, 4, '   print "No hosts found"\n', 15, 26))
+I will try with Python 2.7!
+
+[31m./data/ansible/2017_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 75, 5, '    print "UP ***********"\n', 75, 27))
+I will try with Python 2.7!
+
+[31m./data/ansible/2018_stats.csv:[0m
+SyntaxError('invalid syntax', ('<unknown>', 84, 33, '    def _play_ds(self, pattern, async, poll):\n', 84, 38))
+I will try with Python 2.7!
+
+[31m./data/ansible/2014_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 27, 5, '    print "#################################"\n', 27, 46))
+I will try with Python 2.7!
+
+[31m./data/ansible/2015_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 12, 5, '    print "Ansible now needs setuptools in order to build. " \\', 13, 63))
+I will try with Python 2.7!
+
+[31m./data/ansible/2016_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 15, 4, '   print "No hosts found"\n', 15, 26))
+I will try with Python 2.7!
+
+[31m./data/ansible/2017_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 75, 5, '    print "UP ***********"\n', 75, 27))
+I will try with Python 2.7!
+
+[31m./data/ansible/2018_stats.csv:[0m
+SyntaxError('invalid syntax', ('<unknown>', 84, 33, '    def _play_ds(self, pattern, async, poll):\n', 84, 38))
+I will try with Python 2.7!
+
+[31m./data/ansible/2014_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 27, 5, '    print "#################################"\n', 27, 46))
+I will try with Python 2.7!
+
+[31m./data/ansible/2015_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 12, 5, '    print "Ansible now needs setuptools in order to build. " \\', 13, 63))
+I will try with Python 2.7!
+
+[31m./data/ansible/2016_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 15, 4, '   print "No hosts found"\n', 15, 26))
+I will try with Python 2.7!
+
+[31m./data/ansible/2017_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 75, 5, '    print "UP ***********"\n', 75, 27))
+I will try with Python 2.7!
+
+[31m./data/ansible/2014_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 27, 5, '    print "#################################"\n', 27, 46))
+I will try with Python 2.7!
+
+[31m./data/ansible/2015_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 12, 5, '    print "Ansible now needs setuptools in order to build. " \\', 13, 63))
+I will try with Python 2.7!
+
+[31m./data/ansible/2016_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 15, 4, '   print "No hosts found"\n', 15, 26))
+I will try with Python 2.7!
+
+[31m./data/ansible/2017_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 75, 5, '    print "UP ***********"\n', 75, 27))
+I will try with Python 2.7!
+
+[31m./data/ansible/2014_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 27, 5, '    print "#################################"\n', 27, 46))
+I will try with Python 2.7!
+
+[31m./data/ansible/2015_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 12, 5, '    print "Ansible now needs setuptools in order to build. " \\', 13, 63))
+I will try with Python 2.7!
+
+[31m./data/ansible/2016_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 15, 4, '   print "No hosts found"\n', 15, 26))
+I will try with Python 2.7!
+
+[31m./data/ansible/2017_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 75, 5, '    print "UP ***********"\n', 75, 27))
+I will try with Python 2.7!
+
+[31m./data/ansible/2018_stats.csv:[0m
+SyntaxError('invalid syntax', ('<unknown>', 84, 33, '    def _play_ds(self, pattern, async, poll):\n', 84, 38))
+I will try with Python 2.7!
+
+[31m./data/ansible/2014_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 27, 5, '    print "#################################"\n', 27, 46))
+I will try with Python 2.7!
+
+[31m./data/ansible/2015_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 12, 5, '    print "Ansible now needs setuptools in order to build. " \\', 13, 63))
+I will try with Python 2.7!
+
+[31m./data/ansible/2016_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 15, 4, '   print "No hosts found"\n', 15, 26))
+I will try with Python 2.7!
+
+[31m./data/ansible/2014_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 27, 5, '    print "#################################"\n', 27, 46))
+I will try with Python 2.7!
+
+[31m./data/ansible/2015_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 12, 5, '    print "Ansible now needs setuptools in order to build. " \\', 13, 63))
+I will try with Python 2.7!
+
+[31m./data/ansible/2016_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 15, 4, '   print "No hosts found"\n', 15, 26))
+I will try with Python 2.7!
+
+[31m./data/ansible/2017_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 75, 5, '    print "UP ***********"\n', 75, 27))
+I will try with Python 2.7!
+
+[31m./data/ansible/2018_stats.csv:[0m
+SyntaxError('invalid syntax', ('<unknown>', 84, 33, '    def _play_ds(self, pattern, async, poll):\n', 84, 38))
+I will try with Python 2.7!
+
+[31m./data/ansible/2014_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 27, 5, '    print "#################################"\n', 27, 46))
+I will try with Python 2.7!
+
+./data/ansible/2014_stats.csv (by Python 2.7):
+[31m./data/ansible/2015_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 12, 5, '    print "Ansible now needs setuptools in order to build. " \\', 13, 63))
+I will try with Python 2.7!
+
+[31m./data/ansible/2015_stats.csv:[0m
+SyntaxError('invalid syntax', ('<unknown>', 39, 38, '   def get_current_running_task(self)\n'))
+Even Python 2.7 don`t work here!
+
+[31m./data/ansible/2016_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 15, 4, '   print "No hosts found"\n', 15, 26))
+I will try with Python 2.7!
+
+[31m./data/ansible/2016_stats.csv:[0m
+SyntaxError('invalid syntax', ('<unknown>', 1, 8, '- hosts: localhost\n'))
+Even Python 2.7 don`t work here!
+
+[31m./data/ansible/2017_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 75, 5, '    print "UP ***********"\n', 75, 27))
+I will try with Python 2.7!
+
+[31m./data/ansible/2017_stats.csv:[0m
+SyntaxError('invalid syntax', ('<unknown>', 1, 8, '- hosts: localhost\n'))
+Even Python 2.7 don`t work here!
+
+[31m./data/ansible/2018_stats.csv:[0m
+SyntaxError('invalid syntax', ('<unknown>', 84, 33, '    def _play_ds(self, pattern, async, poll):\n', 84, 38))
+I will try with Python 2.7!
+
+./data/ansible/2018_stats.csv (by Python 2.7):
+[31m./data/ansible/2014_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 27, 5, '    print "#################################"\n', 27, 46))
+I will try with Python 2.7!
+
+./data/ansible/2014_stats.csv (by Python 2.7):
+    Duration: datetime.timedelta(0, 9, 859712)
+[31m./data/ansible/2015_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 12, 5, '    print "Ansible now needs setuptools in order to build. " \\', 13, 63))
+I will try with Python 2.7!
+
+[31m./data/ansible/2015_stats.csv:[0m
+SyntaxError('invalid syntax', ('<unknown>', 39, 38, '   def get_current_running_task(self)\n'))
+Even Python 2.7 don`t work here!
+
+[31m./data/ansible/2014_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 27, 5, '    print "#################################"\n', 27, 46))
+I will try with Python 2.7!
+
+./data/ansible/2014_stats.csv (by Python 2.7):
+    Duration: 0:00:10.244063
+    There is 117 Python files of all 495 files(23%).
+
+[31m./data/ansible/2015_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 12, 5, '    print "Ansible now needs setuptools in order to build. " \\', 13, 63))
+I will try with Python 2.7!
+
+[31m./data/ansible/2015_stats.csv:[0m
+SyntaxError('invalid syntax', ('<unknown>', 39, 38, '   def get_current_running_task(self)\n'))
+invalid syntax (<unknown>, line 39)
+Even Python 2.7 don`t work here!
+
+[31m./data/ansible/2016_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 15, 4, '   print "No hosts found"\n', 15, 26))
+I will try with Python 2.7!
+
+[31m./data/ansible/2016_stats.csv:[0m
+SyntaxError('invalid syntax', ('<unknown>', 1, 8, '- hosts: localhost\n'))
+invalid syntax (<unknown>, line 1)
+Even Python 2.7 don`t work here!
+
+[31m./data/ansible/2017_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('<unknown>', 75, 5, '    print "UP ***********"\n', 75, 27))
+I will try with Python 2.7!
+
+[31m./data/ansible/2017_stats.csv:[0m
+SyntaxError('invalid syntax', ('<unknown>', 1, 8, '- hosts: localhost\n'))
+invalid syntax (<unknown>, line 1)
+Even Python 2.7 don`t work here!
+
+[31m./data/ansible/2018_stats.csv:[0m
+SyntaxError('invalid syntax', ('<unknown>', 84, 33, '    def _play_ds(self, pattern, async, poll):\n', 84, 38))
+I will try with Python 2.7!
+
+[31m./data/ansible/2014_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible/tmp/ansible-1.4.4/docsite/build-site.py', 27, 5, '    print "#################################"\n', 27, 46))
+I will try with Python 2.7!
+
+./data/ansible/2014_stats.csv (by Python 2.7):
+    Duration: 0:00:06.896227
+    There is 117 Python files of all 495 files(23%).
+
+[31m./data/ansible/2015_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible/tmp/ansible-1.8.3/setup.py', 12, 5, '    print "Ansible now needs setuptools in order to build. " \\\n', 13, 64))
+I will try with Python 2.7!
+
+[31m./data/ansible/2015_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/ansible/tmp/ansible-1.8.3/v2/ansible/executor/host_log.py', 39, 38, '   def get_current_running_task(self)\n'))
+invalid syntax (host_log.py, line 39)
+Even Python 2.7 don`t work here!
+
+[31m./data/ansible/2016_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible/tmp/ansible-2.0.0.0-1/examples/scripts/uptime.py', 15, 4, '   print "No hosts found"\n', 15, 26))
+I will try with Python 2.7!
+
+[31m./data/ansible/2016_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/ansible/tmp/ansible-2.0.0.0-1/samples/lookup_pipe.py', 1, 8, '- hosts: localhost\n'))
+invalid syntax (lookup_pipe.py, line 1)
+Even Python 2.7 don`t work here!
+
+[31m./data/ansible/2017_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible/tmp/ansible-2.1.4.0-1/examples/scripts/uptime.py', 75, 5, '    print "UP ***********"\n', 75, 27))
+I will try with Python 2.7!
+
+[31m./data/ansible/2017_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/ansible/tmp/ansible-2.1.4.0-1/samples/lookup_pipe.py', 1, 8, '- hosts: localhost\n'))
+invalid syntax (lookup_pipe.py, line 1)
+Even Python 2.7 don`t work here!
+
+[31m./data/ansible/2018_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/ansible/tmp/ansible-2.4.3.0-1/lib/ansible/cli/adhoc.py', 84, 33, '    def _play_ds(self, pattern, async, poll):\n', 84, 38))
+I will try with Python 2.7!
+
+./data/ansible/2018_stats.csv (by Python 2.7):
+    Duration: 0:03:23.689883
+    There is 2625 Python files of all 6963 files(37%).
+
+[31m./data/ansible/2014_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible/tmp/ansible-1.4.4/docsite/build-site.py', 27, 5, '    print "#################################"\n', 27, 46))
+I will try with Python 2.7!
+
+./data/ansible/2014_stats.csv (by Python 2.7):
+    Duration: 0:00:07.047534
+    There is 117 Python files of all 495 files(23%).
+
+[31m./data/ansible/2015_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible/tmp/ansible-1.8.3/setup.py', 12, 5, '    print "Ansible now needs setuptools in order to build. " \\\n', 13, 64))
+I will try with Python 2.7!
+
+./data/ansible/2015_stats.csv (by Python 2.7):
+    Duration: 0:00:19.158254
+    There is 284 Python files of all 815 files(34%).
+
+[31m./data/ansible/2015_og_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible/tmp/ansible-1.8.3/setup.py', 12, 5, '    print "Ansible now needs setuptools in order to build. " \\\n', 13, 64))
+I will try with Python 2.7!
+
+[31m./data/ansible/2015_og_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/ansible/tmp/ansible-1.8.3/v2/ansible/executor/host_log.py', 39, 38, '   def get_current_running_task(self)\n'))
+invalid syntax (host_log.py, line 39)
+Even Python 2.7 don`t work here!
+
+[31m./data/ansible/2016_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible/tmp/ansible-2.0.0.0-1/examples/scripts/uptime.py', 15, 4, '   print "No hosts found"\n', 15, 26))
+I will try with Python 2.7!
+
+[31m./data/ansible/2016_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/ansible/tmp/ansible-2.0.0.0-1/samples/lookup_pipe.py', 1, 8, '- hosts: localhost\n'))
+invalid syntax (lookup_pipe.py, line 1)
+Even Python 2.7 don`t work here!
+
+[31m./data/ansible/2017_stats.csv:[0m
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible/tmp/ansible-2.1.4.0-1/examples/scripts/uptime.py', 75, 5, '    print "UP ***********"\n', 75, 27))
+I will try with Python 2.7!
+
+[31m./data/ansible/2017_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/ansible/tmp/ansible-2.1.4.0-1/samples/lookup_pipe.py', 1, 8, '- hosts: localhost\n'))
+invalid syntax (lookup_pipe.py, line 1)
+Even Python 2.7 don`t work here!
+
+[31m./data/ansible/2018_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/ansible/tmp/ansible-2.4.3.0-1/lib/ansible/cli/adhoc.py', 84, 33, '    def _play_ds(self, pattern, async, poll):\n', 84, 38))
+I will try with Python 2.7!
+
+./data/ansible/2018_stats.csv (by Python 2.7):
+    Duration: 0:03:09.544194
+    There is 2625 Python files of all 6963 files(37%).
+
