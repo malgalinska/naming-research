@@ -54,7 +54,7 @@ def get_data(input, output):
             log_and_print(output + ':', log, True)
             log_and_print(repr(e), log)
             log_and_print(str(e), log)
-            log_and_print('Even Python 2.7 don`t work here!\n', log)
+            log_and_print('Even Python 2.7 doesn`t work here!\n', log)
 
     else:
         # Zakończenie progamu
@@ -204,11 +204,10 @@ def split_to_words(name):
             
 
 def log_and_print(text, file, error=False):
+    file.write(text + '\n')
     if error:
-        file.write(Fore.RED + text + Style.RESET_ALL + '\n')
         print(Fore.RED + text + Style.RESET_ALL)
     else:
-        file.write(text + '\n')
         print(text)
 
 

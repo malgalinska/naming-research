@@ -679,3 +679,661 @@ I will try with Python 2.7!
     Duration: 0:03:09.544194
     There is 2625 Python files of all 6963 files(37%).
 
+./data/django/django//2016_stats.csv:
+SyntaxError('invalid syntax', ('./data/django/django//tmp/django-1.9.1/django/conf/app_template/apps.py', 1, 23, '{{ unicode_literals }}from django.apps import AppConfig\n', 1, 27))
+I will try with Python 2.7!
+
+[31m./data/django/django//2016_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/django/django//tmp/django-1.9.1/django/conf/app_template/apps.py', 1, 26, '{{ unicode_literals }}from django.apps import AppConfig\n'))
+invalid syntax (apps.py, line 1)
+Even Python 2.7 don`t work here!
+
+./data/matplotlib/matplotlib//2014_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/matplotlib/matplotlib//tmp/matplotlib-1.4.0/doc/users/plotting/colormaps/Lfunction.py', 44, 5, '    print i,k\n', 44, 14))
+I will try with Python 2.7!
+
+[31m./data/matplotlib/matplotlib//2014_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/matplotlib/matplotlib//tmp/matplotlib-1.4.0/doc/users/plotting/examples/axes_zoom_effect.py', 1, 1, '../../../../examples/pylab_examples/axes_zoom_effect.py\n'))
+invalid syntax (axes_zoom_effect.py, line 1)
+Even Python 2.7 don`t work here!
+
+./data/matplotlib/matplotlib//2015_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/matplotlib/matplotlib//tmp/matplotlib-1.4.3/doc/users/plotting/colormaps/Lfunction.py', 42, 5, '    print i,k\n', 42, 14))
+I will try with Python 2.7!
+
+[31m./data/matplotlib/matplotlib//2015_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/matplotlib/matplotlib//tmp/matplotlib-1.4.3/doc/users/plotting/examples/axes_zoom_effect.py', 1, 1, '../../../../examples/pylab_examples/axes_zoom_effect.py\n'))
+invalid syntax (axes_zoom_effect.py, line 1)
+Even Python 2.7 don`t work here!
+
+./data/mopidy/mopidy//2014_stats.csv:
+SyntaxError('leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers', ('./data/mopidy/mopidy//tmp/mopidy-0.18.0/mopidy/utils/path.py', 36, 31, '        os.makedirs(dir_path, 0755)', 36, 32))
+I will try with Python 2.7!
+
+./data/mopidy/mopidy//2014_stats.csv (by Python 2.7):
+    Duration: 0:00:03.866784
+    There is 153 Python files of all 292 files(52%).
+
+./data/mopidy/mopidy//2015_stats.csv:
+SyntaxError('bytes can only contain ASCII literal characters', ('./data/mopidy/mopidy//tmp/mopidy-1.0.0/tests/utils/test_path.py', 134, 53, "            self.assertEqual(fh.read(), b'foobaræøå')\n", 134, 54))
+I will try with Python 2.7!
+
+./data/mopidy/mopidy//2015_stats.csv (by Python 2.7):
+    Duration: 0:00:03.711292
+    There is 170 Python files of all 321 files(52%).
+
+./data/mopidy/mopidy//2016_stats.csv:
+SyntaxError('bytes can only contain ASCII literal characters', ('./data/mopidy/mopidy//tmp/mopidy-1.1.2/tests/internal/test_path.py', 136, 53, "            self.assertEqual(fh.read(), b'foobaræøå')\n", 136, 54))
+I will try with Python 2.7!
+
+./data/mopidy/mopidy//2016_stats.csv (by Python 2.7):
+    Duration: 0:00:04.510369
+    There is 197 Python files of all 356 files(55%).
+
+./data/numpy//2014_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/numpy//tmp/numpy-1.8.1/doc/swig/test/testSuperTensor.py', 384, 5, '    print "Testing 4D Functions of Module SuperTensor"\n', 384, 55))
+I will try with Python 2.7!
+
+./data/numpy//2014_stats.csv (by Python 2.7):
+    Duration: 0:00:11.915485
+    There is 407 Python files of all 1029 files(39%).
+
+./data/numpy//2015_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/numpy//tmp/numpy-1.9.2/tools/swig/test/testSuperTensor.py', 384, 5, '    print "Testing 4D Functions of Module SuperTensor"\n', 384, 55))
+I will try with Python 2.7!
+
+./data/numpy//2015_stats.csv (by Python 2.7):
+    Duration: 0:00:10.193696
+    There is 361 Python files of all 945 files(38%).
+
+./data/numpy//2016_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/numpy//tmp/numpy-1.10.3/tools/swig/test/testSuperTensor.py', 384, 5, '    print "Testing 4D Functions of Module SuperTensor"\n', 384, 55))
+I will try with Python 2.7!
+
+./data/numpy//2016_stats.csv (by Python 2.7):
+    Duration: 0:00:09.716064
+    There is 366 Python files of all 964 files(37%).
+
+./data/numpy//2017_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/numpy//tmp/numpy-1.12.0/tools/swig/test/testSuperTensor.py', 384, 5, '    print "Testing 4D Functions of Module SuperTensor"\n', 384, 55))
+I will try with Python 2.7!
+
+./data/numpy//2017_stats.csv (by Python 2.7):
+    Duration: 0:00:09.856908
+    There is 366 Python files of all 958 files(38%).
+
+./data/numpy//2018_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/numpy//tmp/numpy-1.14.0/tools/swig/test/testSuperTensor.py', 384, 5, '    print "Testing 4D Functions of Module SuperTensor"\n', 384, 55))
+I will try with Python 2.7!
+
+./data/numpy//2018_stats.csv (by Python 2.7):
+    Duration: 0:00:10.182741
+    There is 390 Python files of all 952 files(40%).
+
+./data/pandas/pandas//2014_stats.csv:
+SyntaxError('multiple exception types must be parenthesized', ('./data/pandas/pandas//tmp/pandas-0.13.1/vb_suite/make.py', 74, 12, '    except (Exception, SystemExit), inst:\n', 74, 41))
+I will try with Python 2.7!
+
+./data/pandas/pandas//2014_stats.csv (by Python 2.7):
+    Duration: 0:00:09.309013
+    There is 325 Python files of all 587 files(55%).
+
+./data/pandas/pandas//2015_stats.csv:
+SyntaxError("(unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape", ('./data/pandas/pandas//tmp/pandas-0.16.0/scripts/windows_builder/check_and_build.py', 49, 58, 'base_dir = "C:\\Users\\Jeff Reback\\Documents\\GitHub\\pandas"\n', 49, 58))
+I will try with Python 2.7!
+
+[31m./data/pandas/pandas//2015_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/pandas/pandas//tmp/pandas-0.16.0/scripts/windows_builder/check_and_build.py', 52, 22, 'password=############\n'))
+invalid syntax (check_and_build.py, line 52)
+Even Python 2.7 don`t work here!
+
+./data/pandas/pandas//2016_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/pandas/pandas//tmp/pandas-0.18.0/asv_bench/vbench_to_asv.py', 117, 5, '    print target_module\n', 117, 24))
+I will try with Python 2.7!
+
+[31m./data/pandas/pandas//2016_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/pandas/pandas//tmp/pandas-0.18.0/scripts/windows_builder/check_and_build.py', 52, 22, 'password=############\n'))
+invalid syntax (check_and_build.py, line 52)
+Even Python 2.7 don`t work here!
+
+./data/pandas/pandas//2017_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/pandas/pandas//tmp/pandas-0.20.0/asv_bench/vbench_to_asv.py', 117, 5, '    print target_module\n', 117, 24))
+I will try with Python 2.7!
+
+[31m./data/pandas/pandas//2017_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/pandas/pandas//tmp/pandas-0.20.0/scripts/windows_builder/check_and_build.py', 52, 22, 'password=############\n'))
+invalid syntax (check_and_build.py, line 52)
+Even Python 2.7 don`t work here!
+
+./data/pip//2019_stats.csv:
+UnicodeDecodeError('utf-8', b'# -*- coding: latin-1 -*-\n\nfrom distutils.core import setup\n\nsetup(name="SetupPyUTF8",\n      author=u"Sa\xfal Ibarra Corretg\xe9",\n      )\n', 104, 105, 'invalid start byte')
+I will try with Python 2.7!
+
+[31m./data/pip//2019_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/pip//tmp/pip-19.0/tests/data/src/compilewheel/simple/__init__.py', 2, 14, '    yield from gen\n'))
+invalid syntax (__init__.py, line 2)
+Even Python 2.7 don`t work here!
+
+./data/pip//2020_stats.csv:
+UnicodeDecodeError('utf-8', b'# -*- coding: latin-1 -*-\n\nfrom distutils.core import setup\n\nsetup(name="SetupPyUTF8",\n      author=u"Sa\xfal Ibarra Corretg\xe9",\n      )\n', 104, 105, 'invalid start byte')
+I will try with Python 2.7!
+
+[31m./data/pip//2020_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/pip//tmp/pip-20.0/noxfile.py', 165, 44, '    session.log(f"# Updating {AUTHORS_FILE}")\n'))
+invalid syntax (noxfile.py, line 165)
+Even Python 2.7 don`t work here!
+
+./data/pip//2021_stats.csv:
+UnicodeDecodeError('utf-8', b'# -*- coding: latin-1 -*-\n\nfrom distutils.core import setup\n\nsetup(name="SetupPyUTF8",\n      author=u"Sa\xfal Ibarra Corretg\xe9",\n      )\n', 104, 105, 'invalid start byte')
+I will try with Python 2.7!
+
+[31m./data/pip//2021_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/pip//tmp/pip-20.3.4/noxfile.py', 185, 66, '            session.error(f"Could not find {name} in {vendor_txt}")\n'))
+invalid syntax (noxfile.py, line 185)
+Even Python 2.7 don`t work here!
+
+./data/pip//2022_stats.csv:
+UnicodeDecodeError('utf-8', b'# -*- coding: latin-1 -*-\n\nfrom distutils.core import setup\n\nsetup(\n    name="SetupPyUTF8",\n    author=u"Sa\xfal Ibarra Corretg\xe9",\n)\n', 107, 108, 'invalid start byte')
+I will try with Python 2.7!
+
+[31m./data/pip//2022_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/pip//tmp/pip-22.0/noxfile.py', 36, 35, 'def run_with_protected_pip(session: nox.Session, *arguments: str) -> None:\n'))
+invalid syntax (noxfile.py, line 36)
+Even Python 2.7 don`t work here!
+
+./data/pip//2023_stats.csv:
+UnicodeDecodeError('utf-8', b'# -*- coding: latin-1 -*-\n\nfrom distutils.core import setup\n\nsetup(\n    name="SetupPyUTF8",\n    author="Sa\xfal Ibarra Corretg\xe9",\n)\n', 106, 107, 'invalid start byte')
+I will try with Python 2.7!
+
+[31m./data/pip//2023_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/pip//tmp/pip-23.0/noxfile.py', 36, 35, 'def run_with_protected_pip(session: nox.Session, *arguments: str) -> None:\n'))
+invalid syntax (noxfile.py, line 36)
+Even Python 2.7 don`t work here!
+
+./data/pylint/2019_stats.csv:
+SyntaxError('invalid syntax', ('./data/pylint/tmp/pylint-pylint-2.3.0/pylint/test/functional/anomalous_unicode_escape_py2.py', 17, 17, 'RAW_UNICODE = ur"\\u0062\\n"\n', 17, 27))
+I will try with Python 2.7!
+
+[31m./data/pylint/2019_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/pylint/tmp/pylint-pylint-2.3.0/pylint/lint.py', 218, 18, 'def _cpu_count() -> int:\n'))
+invalid syntax (lint.py, line 218)
+Even Python 2.7 don`t work here!
+
+./data/pylint/2020_stats.csv:
+SyntaxError("Missing parentheses in call to 'exec'. Did you mean exec(...)?", ('./data/pylint/tmp/pylint-pylint-2.5.0/tests/functional/e/exec_used_py2.py', 3, 1, "exec 'a = __revision__' # [exec-used]\n", 3, 24))
+I will try with Python 2.7!
+
+[31m./data/pylint/2020_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/pylint/tmp/pylint-pylint-2.5.0/pylint/config.py', 88, 70, '            print("Unable to create directory %s" % PYLINT_HOME, file=sys.stderr)\n'))
+invalid syntax (config.py, line 88)
+Even Python 2.7 don`t work here!
+
+./data/pylint/2021_stats.csv:
+SyntaxError("Missing parentheses in call to 'exec'. Did you mean exec(...)?", ('./data/pylint/tmp/pylint-pylint-2.6.2/tests/functional/e/exec_used_py2.py', 3, 1, "exec 'a = __revision__' # [exec-used]\n", 3, 24))
+I will try with Python 2.7!
+
+[31m./data/pylint/2021_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/pylint/tmp/pylint-pylint-2.6.2/pylint/epylint.py', 127, 24, '        print(line, end=" ")\n'))
+invalid syntax (epylint.py, line 127)
+Even Python 2.7 don`t work here!
+
+./data/pylint/2022_stats.csv:
+IndentationError('expected an indented block after function definition on line 1', ('./data/pylint/tmp/pylint-2.13.0/doc/data/messages/a/assert-on-string-literal/good.py', 2, 65, '    # Nothing, as an assert of a string literal will always pass\n', 2, -1))
+I will try with Python 2.7!
+
+[31m./data/pylint/2022_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/pylint/tmp/pylint-2.13.0/doc/conf.py', 62, 67, 'copyright = f"2003-{current_year}, Logilab, PyCQA and contributors"\n'))
+invalid syntax (conf.py, line 62)
+Even Python 2.7 don`t work here!
+
+./data/pylint/2023_stats.csv:
+UnicodeDecodeError('utf-8', b"# coding: latin_1\n# -1: [bad-file-encoding]\n#pylint: disable=invalid-name,missing-docstring\n\nTOTO = ('Caf\xe9', 'Caf\xe9', 'Caf\xe9')\n", 105, 106, 'invalid continuation byte')
+I will try with Python 2.7!
+
+[31m./data/pylint/2023_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/pylint/tmp/pylint-2.15.10/doc/conf.py', 56, 10, 'redirects: dict[str, str] = {\n'))
+invalid syntax (conf.py, line 56)
+Even Python 2.7 don`t work here!
+
+./data/pytorch/pytorch//2019_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/pytorch/pytorch//tmp/pytorch-1.0.1/caffe2/contrib/cuda-convnet2/convdata.py', 286, 9, "        print dic['data'].shape, dic['labels'].shape\n", 286, 53))
+I will try with Python 2.7!
+
+./data/pytorch/pytorch//2019_stats.csv (by Python 2.7):
+    Duration: 0:00:45.903633
+    There is 927 Python files of all 5127 files(18%).
+
+./data/pytorch/pytorch//2020_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/pytorch/pytorch//tmp/pytorch-1.4.0/docs/caffe2/process.py', 35, 13, '            print "directory: " + directory\n', 35, 44))
+I will try with Python 2.7!
+
+[31m./data/pytorch/pytorch//2020_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/pytorch/pytorch//tmp/pytorch-1.4.0/.circleci/cimodel/data/caffe2_build_definitions.py', 20, 13, '    language: str\n'))
+invalid syntax (caffe2_build_definitions.py, line 20)
+Even Python 2.7 don`t work here!
+
+./data/pytorch/pytorch//2021_stats.csv:
+SyntaxError('invalid syntax', ('./data/pytorch/pytorch//tmp/pytorch-1.8.0/tools/autograd/templates/annotated_fn_args.py', 10, 1, '${annotated_args}\n', 10, 2))
+I will try with Python 2.7!
+
+[31m./data/pytorch/pytorch//2021_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/pytorch/pytorch//tmp/pytorch-1.8.0/.circleci/cimodel/data/pytorch_build_definitions.py', 15, 11, '    distro: str\n'))
+invalid syntax (pytorch_build_definitions.py, line 15)
+Even Python 2.7 don`t work here!
+
+./data/sentry/2014_stats.csv:
+SyntaxError('multiple exception types must be parenthesized', ('./data/sentry/tmp/sentry-6.4.4/src/sentry/coreapi.py', 171, 12, '    except Exception, e:\n', 171, 24))
+I will try with Python 2.7!
+
+./data/sentry/2014_stats.csv (by Python 2.7):
+    Duration: 0:00:14.589309
+    There is 461 Python files of all 867 files(53%).
+
+./data/sentry/2015_stats.csv:
+SyntaxError('Generator expression must be parenthesized', ('./data/sentry/tmp/sentry-7.0.0/src/sentry/api/endpoints/organization_projects.py', 33, 13, '            (t.id, c) for (t, c) in zip(team_list, serialize(team_list, request.user)),\n', 33, 87))
+I will try with Python 2.7!
+
+./data/sentry/2015_stats.csv (by Python 2.7):
+    Duration: 0:00:18.837882
+    There is 720 Python files of all 1132 files(63%).
+
+./data/sentry/2016_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/sentry/tmp/sentry-8.0.0/setup.py', 30, 5, "    print 'Error: Sentry requires Python 2.7'\n", 30, 46))
+I will try with Python 2.7!
+
+./data/sentry/2016_stats.csv (by Python 2.7):
+    Duration: 0:00:32.390561
+    There is 1109 Python files of all 1803 files(61%).
+
+./data/sentry/2017_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/sentry/tmp/sentry-8.12.0/docs/conf.py', 245, 9, "        print 'ERROR: could not import sentryext.  You need to check out the _sentryext submodule.'\n", 245, 100))
+I will try with Python 2.7!
+
+./data/sentry/2017_stats.csv (by Python 2.7):
+    Duration: 0:00:38.555197
+    There is 1476 Python files of all 2414 files(61%).
+
+./data/sentry/2018_stats.csv:
+SyntaxError('bytes can only contain ASCII literal characters', ('./data/sentry/tmp/sentry-9.0.0/src/sentry/integrations/github/testutils.py', 213, 5, '}"""\n', 213, 5))
+I will try with Python 2.7!
+
+./data/sentry/2018_stats.csv (by Python 2.7):
+    Duration: 0:01:03.307767
+    There is 2278 Python files of all 4421 files(51%).
+
+./data/spark/2014_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/spark/tmp/spark-0.9.1/dev/merge_spark_pr.py', 41, 1, 'print "%s" % PUSH_REMOTE_NAME\n', 41, 30))
+I will try with Python 2.7!
+
+./data/spark/2014_stats.csv (by Python 2.7):
+    Duration: 0:00:14.890919
+    There is 36 Python files of all 898 files(4%).
+
+./data/spark/2015_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/spark/tmp/spark-1.2.1/dev/github_jira_sync.py', 30, 5, '    print "This tool requires the jira-python library"\n', 30, 55))
+I will try with Python 2.7!
+
+./data/spark/2015_stats.csv (by Python 2.7):
+    Duration: 0:01:41.341859
+    There is 90 Python files of all 11569 files(0%).
+
+./data/spark/2016_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/spark/tmp/spark-1.6.1/dev/github_jira_sync.py', 30, 5, '    print "This tool requires the jira-python library"\n', 30, 55))
+I will try with Python 2.7!
+
+[31m./data/spark/2016_stats.csv:[0m
+SyntaxError('invalid syntax', ('./data/spark/tmp/spark-1.6.1/examples/src/main/python/streaming/direct_kafka_wordcount.py', 40, 77, '        print("Usage: direct_kafka_wordcount.py <broker_list> <topic>", file=sys.stderr)\n'))
+invalid syntax (direct_kafka_wordcount.py, line 40)
+Even Python 2.7 don`t work here!
+
+./data/spark/2017_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/spark/tmp/spark-2.1.1/dev/github_jira_sync.py', 30, 5, '    print "This tool requires the jira-python library"\n', 30, 55))
+I will try with Python 2.7!
+
+./data/spark/2017_stats.csv (by Python 2.7):
+    Duration: 0:02:30.605304
+    There is 239 Python files of all 13830 files(1%).
+
+./data/spark/2018_stats.csv:
+    Started at 02:22:54, ended at 02:23:22 (duration 0:00:28.341974).
+    There is 259 Python files of all 14456 files(1.79%).
+
+./data/theano/theano//2014_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/theano/theano//tmp/pytensor-rel-0.6/benchmark/autoencoder/aa.py', 127, 17, "                print 'SKIPPING optimizations'\n", 127, 47))
+I will try with Python 2.7!
+
+./data/theano/theano//2014_stats.csv (by Python 2.7):
+    Duration: 0:00:10.581999
+    There is 354 Python files of all 603 files(58%).
+
+./data/theano/theano//2015_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/theano/theano//tmp/Theano-rel-0.7/benchmark/autoencoder/aa.py', 125, 17, "                print 'SKIPPING optimizations'\n", 125, 47))
+I will try with Python 2.7!
+
+./data/theano/theano//2015_stats.csv (by Python 2.7):
+    Duration: 0:00:11.784376
+    There is 382 Python files of all 665 files(57%).
+
+./data/ansible/2014_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible/tmp/ansible-1.4.4/docsite/build-site.py', 27, 5, '    print "#################################"\n', 27, 46))
+I will try with Python 2.7!
+
+./data/ansible/2014_stats.csv (by Python 2.7):
+    Duration: 0:00:03.737999
+    There is 117 Python files of all 495 files(23%).
+
+./data/ansible/2015_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible/tmp/ansible-1.8.3/setup.py', 12, 5, '    print "Ansible now needs setuptools in order to build. " \\\n', 13, 64))
+I will try with Python 2.7!
+
+./data/ansible/2015_stats.csv (by Python 2.7):
+    Duration: 0:00:10.594625
+    There is 284 Python files of all 815 files(34%).
+
+./data/ansible/2015_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible/tmp/ansible-1.8.3/setup.py', 12, 5, '    print "Ansible now needs setuptools in order to build. " \\\n', 13, 64))
+I will try with Python 2.7!
+
+./data/ansible/2015_stats.csv:
+SyntaxError('invalid syntax', ('./data/ansible/tmp/ansible-1.8.3/v2/ansible/executor/host_log.py', 39, 38, '   def get_current_running_task(self)\n'))
+invalid syntax (host_log.py, line 39)
+Even Python 2.7 don`t work here!
+
+./data/ansible/2016_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible/tmp/ansible-2.0.0.0-1/examples/scripts/uptime.py', 15, 4, '   print "No hosts found"\n', 15, 26))
+I will try with Python 2.7!
+
+./data/ansible/2016_stats.csv (by Python 2.7):
+    Duration: 0:00:16.704633
+    There is 374 Python files of all 1252 files(29%).
+
+./data/ansible/2016_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible/tmp/ansible-2.0.0.0-1/examples/scripts/uptime.py', 15, 4, '   print "No hosts found"\n', 15, 26))
+I will try with Python 2.7!
+
+./data/ansible/2016_stats.csv:
+SyntaxError('invalid syntax', ('./data/ansible/tmp/ansible-2.0.0.0-1/samples/lookup_pipe.py', 1, 8, '- hosts: localhost\n'))
+invalid syntax (lookup_pipe.py, line 1)
+Even Python 2.7 don`t work here!
+
+./data/ansible/2017_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible/tmp/ansible-2.1.4.0-1/examples/scripts/uptime.py', 75, 5, '    print "UP ***********"\n', 75, 27))
+I will try with Python 2.7!
+
+./data/ansible/2017_stats.csv:
+SyntaxError('invalid syntax', ('./data/ansible/tmp/ansible-2.1.4.0-1/samples/lookup_pipe.py', 1, 8, '- hosts: localhost\n'))
+invalid syntax (lookup_pipe.py, line 1)
+Even Python 2.7 don`t work here!
+
+./data/ansible/2018_stats.csv:
+SyntaxError('invalid syntax', ('./data/ansible/tmp/ansible-2.4.3.0-1/lib/ansible/cli/adhoc.py', 84, 33, '    def _play_ds(self, pattern, async, poll):\n', 84, 38))
+I will try with Python 2.7!
+
+./data/ansible/2018_stats.csv (by Python 2.7):
+    Duration: 0:01:28.219597
+    There is 2625 Python files of all 6963 files(37%).
+
+./data/ansible//2014_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible//tmp/ansible-1.4.4/docsite/build-site.py', 27, 5, '    print "#################################"\n', 27, 46))
+I will try with Python 2.7!
+
+./data/ansible//2014_stats.csv (by Python 2.7):
+    Duration: 0:00:04.801456
+    There is 117 Python files of all 495 files(23%).
+
+./data/ansible//2015_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible//tmp/ansible-1.8.3/setup.py', 12, 5, '    print "Ansible now needs setuptools in order to build. " \\\n', 13, 64))
+I will try with Python 2.7!
+
+./data/ansible//2015_stats.csv (by Python 2.7):
+    Duration: 0:00:14.294987
+    There is 284 Python files of all 815 files(34%).
+
+./data/ansible//2016_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible//tmp/ansible-2.0.0.0-1/examples/scripts/uptime.py', 15, 4, '   print "No hosts found"\n', 15, 26))
+I will try with Python 2.7!
+
+./data/ansible//2016_stats.csv (by Python 2.7):
+    Duration: 0:00:21.340854
+    There is 374 Python files of all 1252 files(29%).
+
+./data/ansible//2017_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible//tmp/ansible-2.1.4.0-1/examples/scripts/uptime.py', 75, 5, '    print "UP ***********"\n', 75, 27))
+I will try with Python 2.7!
+
+./data/ansible//2017_stats.csv (by Python 2.7):
+    Duration: 0:01:24.331773
+    There is 433 Python files of all 1859 files(23%).
+
+./data/ansible//2018_stats.csv:
+SyntaxError('invalid syntax', ('./data/ansible//tmp/ansible-2.4.3.0-1/lib/ansible/cli/adhoc.py', 84, 33, '    def _play_ds(self, pattern, async, poll):\n', 84, 38))
+I will try with Python 2.7!
+
+./data/ansible//2018_stats.csv (by Python 2.7):
+    Duration: 0:01:54.406839
+    There is 2625 Python files of all 6963 files(37%).
+
+./data/django/django//2016_stats.csv:
+SyntaxError('invalid syntax', ('./data/django/django//tmp/django-1.9.1/django/conf/app_template/apps.py', 5, 7, 'class {{ camel_case_app_name }}Config(AppConfig):\n', 5, 8))
+I will try with Python 2.7!
+
+./data/django/django//2016_stats.csv:
+SyntaxError('invalid syntax', ('./data/django/django//tmp/django-1.9.1/django/conf/app_template/apps.py', 5, 7, 'class {{ camel_case_app_name }}Config(AppConfig):\n'))
+invalid syntax (apps.py, line 5)
+Even Python 2.7 don`t work here!
+
+./data/django/django//2016_stats.csv:
+SyntaxError('invalid syntax', ('./data/django/django//tmp/django-1.9.1/django/conf/app_template/models.py', 1, 23, '{{ unicode_literals }}from django.db import models\n', 1, 27))
+I will try with Python 2.7!
+
+./data/django/django//2016_stats.csv:
+SyntaxError('invalid syntax', ('./data/django/django//tmp/django-1.9.1/django/conf/app_template/models.py', 1, 26, '{{ unicode_literals }}from django.db import models\n'))
+invalid syntax (models.py, line 1)
+Even Python 2.7 don`t work here!
+
+./data/django/django//2016_stats.csv:
+    Started at 18:20:54, ended at 18:21:50 (duration 0:00:56.082386).
+    There is 2239 Python files of all 5383 files(41.59%).
+
+./data/ansible//2014_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible//tmp/ansible-1.4.4/docsite/build-site.py', 27, 5, '    print "#################################"\n', 27, 46))
+I will try with Python 2.7!
+
+./data/ansible//2014_stats.csv (by Python 2.7):
+    Duration: 0:00:04.214792
+    There is 117 Python files of all 495 files(23%).
+
+./data/ansible//2015_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible//tmp/ansible-1.8.3/setup.py', 12, 5, '    print "Ansible now needs setuptools in order to build. " \\\n', 13, 64))
+I will try with Python 2.7!
+
+./data/ansible//2015_stats.csv (by Python 2.7):
+    Duration: 0:00:12.473447
+    There is 284 Python files of all 815 files(34%).
+
+./data/ansible//2016_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible//tmp/ansible-2.0.0.0-1/examples/scripts/uptime.py', 15, 4, '   print "No hosts found"\n', 15, 26))
+I will try with Python 2.7!
+
+./data/ansible//2016_stats.csv (by Python 2.7):
+    Duration: 0:00:17.540668
+    There is 374 Python files of all 1252 files(29%).
+
+./data/ansible//2017_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible//tmp/ansible-2.1.4.0-1/examples/scripts/uptime.py', 75, 5, '    print "UP ***********"\n', 75, 27))
+I will try with Python 2.7!
+
+./data/ansible//2017_stats.csv (by Python 2.7):
+    Duration: 0:00:23.710904
+    There is 433 Python files of all 1420 files(30%).
+
+./data/ansible//2018_stats.csv:
+SyntaxError('invalid syntax', ('./data/ansible//tmp/ansible-2.4.3.0-1/lib/ansible/cli/adhoc.py', 84, 33, '    def _play_ds(self, pattern, async, poll):\n', 84, 38))
+I will try with Python 2.7!
+
+./data/ansible//2018_stats.csv (by Python 2.7):
+    Duration: 0:01:43.969421
+    There is 2625 Python files of all 6963 files(37%).
+
+./data/keras/2019_stats.csv:
+    Started at 18:43:54, ended at 18:43:56 (duration 0:00:02.511099).
+    There is 192 Python files of all 259 files(74.13%).
+
+./data/keras/2020_stats.csv:
+    Started at 18:43:59, ended at 18:44:01 (duration 0:00:01.742161).
+    There is 172 Python files of all 237 files(72.57%).
+
+./data/keras/2021_stats.csv:
+    Started at 18:44:13, ended at 18:44:21 (duration 0:00:07.295689).
+    There is 512 Python files of all 1346 files(38.04%).
+
+./data/keras/2022_stats.csv:
+    Started at 18:44:37, ended at 18:44:44 (duration 0:00:07.183330).
+    There is 541 Python files of all 1405 files(38.51%).
+
+./data/keras/2023_stats.csv:
+    Started at 18:45:00, ended at 18:45:09 (duration 0:00:08.847815).
+    There is 725 Python files of all 1666 files(43.52%).
+
+./data/matplotlib/matplotlib//2014_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/matplotlib/matplotlib//tmp/matplotlib-1.4.0/doc/users/plotting/colormaps/Lfunction.py', 44, 5, '    print i,k\n', 44, 14))
+I will try with Python 2.7!
+
+./data/matplotlib/matplotlib//2014_stats.csv (by Python 2.7):
+    Duration: 0:00:30.108982
+    There is 813 Python files of all 3039 files(26%).
+
+./data/matplotlib/matplotlib//2015_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/matplotlib/matplotlib//tmp/matplotlib-1.4.3/doc/users/plotting/colormaps/Lfunction.py', 42, 5, '    print i,k\n', 42, 14))
+I will try with Python 2.7!
+
+./data/matplotlib/matplotlib//2015_stats.csv:
+SyntaxError('invalid syntax', ('./data/matplotlib/matplotlib//tmp/matplotlib-1.4.3/doc/users/plotting/examples/axes_zoom_effect.py', 1, 1, '../../../../examples/pylab_examples/axes_zoom_effect.py\n'))
+invalid syntax (axes_zoom_effect.py, line 1)
+Even Python 2.7 don`t work here!
+
+./data/matplotlib/matplotlib//2014_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/matplotlib/matplotlib//tmp/matplotlib-1.4.0/doc/users/plotting/colormaps/Lfunction.py', 44, 5, '    print i,k\n', 44, 14))
+I will try with Python 2.7!
+
+./data/matplotlib/matplotlib//2014_stats.csv (by Python 2.7):
+    Duration: 0:00:28.360213
+    There is 813 Python files of all 3039 files(26%).
+
+./data/matplotlib/matplotlib//2015_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/matplotlib/matplotlib//tmp/matplotlib-1.4.3/doc/users/plotting/colormaps/Lfunction.py', 42, 5, '    print i,k\n', 42, 14))
+I will try with Python 2.7!
+
+./data/matplotlib/matplotlib//2015_stats.csv (by Python 2.7):
+    Duration: 0:00:30.224097
+    There is 814 Python files of all 3064 files(26%).
+
+./data/pandas/pandas//2015_stats.csv:
+SyntaxError("(unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape", ('./data/pandas/pandas//tmp/pandas-0.16.0/scripts/windows_builder/check_and_build.py', 49, 58, 'base_dir = "C:\\Users\\Jeff Reback\\Documents\\GitHub\\pandas"\n', 49, 58))
+I will try with Python 2.7!
+
+./data/pandas/pandas//2015_stats.csv (by Python 2.7):
+    Duration: 0:00:12.727918
+    There is 340 Python files of all 710 files(47%).
+
+./data/pandas/pandas//2016_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/pandas/pandas//tmp/pandas-0.18.0/asv_bench/vbench_to_asv.py', 117, 5, '    print target_module\n', 117, 24))
+I will try with Python 2.7!
+
+./data/pandas/pandas//2016_stats.csv:
+SyntaxError('invalid syntax', ('./data/pandas/pandas//tmp/pandas-0.18.0/scripts/windows_builder/check_and_build.py', 52, 22, 'password=############\n'))
+invalid syntax (check_and_build.py, line 52)
+Even Python 2.7 don`t work here!
+
+./data/pandas/pandas//2017_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/pandas/pandas//tmp/pandas-0.20.0/asv_bench/vbench_to_asv.py', 117, 5, '    print target_module\n', 117, 24))
+I will try with Python 2.7!
+
+./data/pandas/pandas//2017_stats.csv:
+SyntaxError('invalid syntax', ('./data/pandas/pandas//tmp/pandas-0.20.0/scripts/windows_builder/check_and_build.py', 52, 22, 'password=############\n'))
+invalid syntax (check_and_build.py, line 52)
+Even Python 2.7 don`t work here!
+
+./data/pandas/pandas//2016_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/pandas/pandas//tmp/pandas-0.18.0/asv_bench/vbench_to_asv.py', 117, 5, '    print target_module\n', 117, 24))
+I will try with Python 2.7!
+
+./data/pandas/pandas//2016_stats.csv (by Python 2.7):
+    Duration: 0:00:15.570575
+    There is 456 Python files of all 961 files(47%).
+
+./data/pandas/pandas//2017_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/pandas/pandas//tmp/pandas-0.20.0/asv_bench/vbench_to_asv.py', 117, 5, '    print target_module\n', 117, 24))
+I will try with Python 2.7!
+
+./data/pandas/pandas//2017_stats.csv (by Python 2.7):
+    Duration: 0:00:17.943317
+    There is 585 Python files of all 1177 files(49%).
+
+./data/pytorch/pytorch//2020_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/pytorch/pytorch//tmp/pytorch-1.4.0/docs/caffe2/process.py', 39, 13, '            print first_line,description\n', 39, 41))
+I will try with Python 2.7!
+
+./data/pytorch/pytorch//2020_stats.csv:
+SyntaxError('invalid syntax', ('./data/pytorch/pytorch//tmp/pytorch-1.4.0/.circleci/cimodel/data/caffe2_build_definitions.py', 20, 13, '    language: str\n'))
+invalid syntax (caffe2_build_definitions.py, line 20)
+Even Python 2.7 don`t work here!
+
+./data/pytorch/pytorch//2020_stats.csv:
+    Started at 21:19:36, ended at 21:19:58 (duration 0:00:22.182575).
+    There is 1181 Python files of all 6294 files(18.76%).
+
+./data/pytorch/pytorch//2023_stats.csv:
+    Started at 21:22:22, ended at 21:23:25 (duration 0:01:02.854826).
+    There is 3366 Python files of all 11840 files(28.43%).
+
+./data/pytorch/pytorch//2021_stats.csv:
+    Started at 22:11:56, ended at 22:12:31 (duration 0:00:35.336058).
+    There is 1771 Python files of all 8172 files(21.67%).
+
+./data/spark/spark//2016_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/spark/spark//tmp/spark-1.6.1/dev/github_jira_sync.py', 30, 5, '    print "This tool requires the jira-python library"\n', 30, 55))
+I will try with Python 2.7!
+
+./data/spark/spark//2016_stats.csv:
+SyntaxError('invalid syntax', ('./data/spark/spark//tmp/spark-1.6.1/extras/kinesis-asl/src/main/python/examples/streaming/kinesis_wordcount_asl.py', 67, 17, '            file=sys.stderr)\n'))
+invalid syntax (kinesis_wordcount_asl.py, line 67)
+Even Python 2.7 don`t work here!
+
+./data/spark/spark//2016_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/spark/spark//tmp/spark-1.6.1/dev/github_jira_sync.py', 30, 5, '    print "This tool requires the jira-python library"\n', 30, 55))
+I will try with Python 2.7!
+
+./data/spark/spark//2016_stats.csv:
+SyntaxError('invalid syntax', ('./data/spark/spark//tmp/spark-1.6.1/extras/kinesis-asl/src/main/python/examples/streaming/kinesis_wordcount_asl.py', 67, 17, '            file=sys.stderr)\n'))
+invalid syntax (kinesis_wordcount_asl.py, line 67)
+Even Python 2.7 don`t work here!
+
+./data/pip/2019_stats.csv:
+    Started at 00:15:57, ended at 00:16:05 (duration 0:00:08.149159).
+    There is 454 Python files of all 756 files(60.05%).
+
+./data/pip/pip//2020_stats.csv:
+    Started at 00:39:29, ended at 00:39:37 (duration 0:00:07.999370).
+    There is 530 Python files of all 844 files(62.80%).
+
+./data/pip/pip//2021_stats.csv:
+    Started at 00:39:50, ended at 00:39:59 (duration 0:00:08.859937).
+    There is 578 Python files of all 912 files(63.38%).
+
+./data/pip/pip//2022_stats.csv:
+    Started at 00:40:13, ended at 00:40:24 (duration 0:00:10.753077).
+    There is 724 Python files of all 1066 files(67.92%).
+
+./data/pip/pip//2023_stats.csv:
+    Started at 00:40:39, ended at 00:40:50 (duration 0:00:11.185389).
+    There is 711 Python files of all 1061 files(67.01%).
+
+./data/spark/spark//2016_stats.csv:
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/spark/spark//tmp/spark-1.6.1/dev/github_jira_sync.py', 30, 5, '    print "This tool requires the jira-python library"\n', 30, 55))
+I will try with Python 2.7!
+
+./data/spark/spark//2016_stats.csv (by Python 2.7):
+    Duration: 0:02:13.633822
+    There is 191 Python files of all 13480 files(1%).
+

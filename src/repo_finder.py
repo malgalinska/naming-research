@@ -10,26 +10,33 @@ import zipfile
 from data_getter import get_data
 
 
-def main (path: str):
+def main (input_path: str):
     # Sprawdzenie poprawności ścieżki
-    if not os.path.isdir(path):
-        error("That is not dir path.")
+    if not os.path.isdir(input_path):
+        error("That is not a dir path.")
         return 1
 
-    # Przechodzenie po katalogu
-    for path, subfiles, files in os.walk(path):
-        for file_name in files:
-            if zipfile.is_zipfile(path + "/" + file_name):
-                os.mkdir(path + "/tmp")
-                try:
-                    with zipfile.ZipFile(path + "/" + file_name, "r") as zip:
-                        zip.extractall(path + "/tmp")
+    # Przechodzenie po wszystkich plikach w drzewie katalogu
+    for path, _, files in os.walk(input_path):
+        tmp_path = os.path.join(path, "tmp")
 
-                    name = file_name.split(".", 1)[0]
-                    get_data(path + "/tmp", path + "/" + name + "_stats.csv")
-                finally:
-                    shutil.rmtree(path + "/tmp")
-    # Zakończenie progamu
+        for file_name in files:
+            file_path = os.path.join(path, file_name)
+            statistic_file_path = os.path.splitext(file_path)[0] + "_stats.csv"
+            
+            # Sprawdzenie, czy plik jest w formacie zip
+            if not zipfile.is_zipfile(file_path):
+                continue
+
+            # Tymczasowe rozpakowanie archiwum i przeanalizowanie go funkcją get_data 
+            os.mkdir(tmp_path)
+            try:
+                with zipfile.ZipFile(file_path, "r") as zip:
+                    zip.extractall(tmp_path)
+
+                get_data(tmp_path, statistic_file_path)
+            finally:
+                shutil.rmtree(tmp_path)
     return 0
 
 
