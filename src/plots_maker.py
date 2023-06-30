@@ -26,8 +26,8 @@ def make_plots (data: dict, repo_name: str, path: str):
     make_number_of_functions_with_verb_plot(data, path)
     make_words_to_avoid_in_procents_plot(data, path)
     make_number_of_words_to_avoid_plot(data, path)
-    make_procent_of_good_convention_plot(data, path)
-    make_number_of_bad_convention_plot(data, path)
+    make_procent_of_good_style_plot(data, path)
+    make_number_of_bad_style_plot(data, path)
 
     plt.close('all')
     endTime = datetime.now()
@@ -41,7 +41,7 @@ def make_plots (data: dict, repo_name: str, path: str):
     print(f'    Started at {startTime:%H:%M:%S}, ended at {endTime:%H:%M:%S} (duration {duration}).\n')
 
 
-def make_sample_plot(data, path):
+def make_sample_plot(data: dict, path: str):
     # plt.figure(figsize=(15, 15))
     fig, ax = plt.subplots()
     ax.set_xlabel("Liczba liter")
@@ -56,7 +56,7 @@ def make_sample_plot(data, path):
     plt.savefig(path + "sample_plot.jpg")
 
 
-def make_project_size_plot(data, path):
+def make_project_size_plot(data: dict, path: str):
     fig,ax = plt.subplots()
     ax.set_xlabel("Czas")
     ax.set_ylabel("Ilość")
@@ -80,7 +80,7 @@ def make_project_size_plot(data, path):
     fig.savefig(path + "project_size_plot.jpg")
 
 
-def make_mean_len_plot(data, path):
+def make_mean_len_plot(data: dict, path: str):
     fig,ax = plt.subplots()
     ax.set_xlabel("Czas")
     ax.set_ylabel("Ilość liter")
@@ -105,7 +105,7 @@ def make_mean_len_plot(data, path):
     fig.savefig(path + "maen_len_plot.jpg")
 
 
-def make_weighted_mean_len_plot(data, path):
+def make_weighted_mean_len_plot(data: dict, path: str):
     fig,ax = plt.subplots()
     ax.set_xlabel("Czas")
     ax.set_ylabel("Ilość liter")
@@ -130,7 +130,7 @@ def make_weighted_mean_len_plot(data, path):
     fig.savefig(path + "weighted_mean_len_plot.jpg")
 
 
-def make_procent_of_classes_with_noun_plot(data, path):
+def make_procent_of_classes_with_noun_plot(data: dict, path: str):
     fig,ax = plt.subplots()
     ax.set_xlabel("Czas")
     ax.set_ylabel("Procent")
@@ -162,7 +162,7 @@ def make_procent_of_classes_with_noun_plot(data, path):
     fig.savefig(path + "procent_of_class_with_noun_plot.jpg")
 
 
-def make_number_of_classes_with_noun_plot(data, path):
+def make_number_of_classes_with_noun_plot(data: dict, path: str):
     fig,ax = plt.subplots()
     ax.set_xlabel("Czas")
     ax.set_ylabel("Ilość")
@@ -192,7 +192,7 @@ def make_number_of_classes_with_noun_plot(data, path):
     fig.savefig(path + "number_of_class_with_noun_plot.jpg")
 
 
-def make_procent_of_functions_with_verb_plot(data, path):
+def make_procent_of_functions_with_verb_plot(data: dict, path: str):
     fig,ax = plt.subplots()
     ax.set_xlabel("Czas")
     ax.set_ylabel("Procent")
@@ -224,7 +224,7 @@ def make_procent_of_functions_with_verb_plot(data, path):
     fig.savefig(path + "procent_of_functions_with_verb_plot.jpg")
 
 
-def make_number_of_functions_with_verb_plot(data, path):
+def make_number_of_functions_with_verb_plot(data: dict, path: str):
     fig,ax = plt.subplots()
     ax.set_xlabel("Czas")
     ax.set_ylabel("Ilość")
@@ -254,7 +254,7 @@ def make_number_of_functions_with_verb_plot(data, path):
     fig.savefig(path + "number_of_functions_with_verb_plot.jpg")
 
 
-def make_words_to_avoid_in_procents_plot(data, path):
+def make_words_to_avoid_in_procents_plot(data: dict, path: str):
     words_to_avoid = ["klass", 'clss']
 
     fig,ax = plt.subplots()
@@ -278,7 +278,7 @@ def make_words_to_avoid_in_procents_plot(data, path):
     fig.savefig(path + "words_to_avoid_in_procents_plot.jpg")
 
 
-def make_number_of_words_to_avoid_plot(data, path):
+def make_number_of_words_to_avoid_plot(data: dict, path: str):
     words_to_avoid = ["klass", 'clss']
 
     fig,ax = plt.subplots()
@@ -302,7 +302,7 @@ def make_number_of_words_to_avoid_plot(data, path):
     fig.savefig(path + "number_of_words_to_avoid_plot.jpg")
 
     
-def make_procent_of_good_convention_plot(data, path):
+def make_procent_of_good_style_plot(data: dict, path: str):
     fig, ax = plt.subplots()
 
     ax.set_ylabel('Procent')
@@ -343,10 +343,10 @@ def make_procent_of_good_convention_plot(data, path):
     fig.tight_layout()
 
     fig.legend(loc="upper left")
-    fig.savefig(path + "procent_of_good_convention_plot.jpg")
+    fig.savefig(path + "procent_of_good_style_plot.jpg")
 
 
-def make_number_of_bad_convention_plot(data, path):
+def make_number_of_bad_style_plot(data: dict, path: str):
     fig, ax = plt.subplots()
 
     ax.set_ylabel('Ilość')
@@ -387,4 +387,4 @@ def make_number_of_bad_convention_plot(data, path):
     fig.tight_layout()
 
     fig.legend(loc="upper left")
-    fig.savefig(path + "number_of_bad_convention_plot.jpg")
+    fig.savefig(path + "number_of_bad_style_plot.jpg")

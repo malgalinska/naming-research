@@ -3,53 +3,55 @@
 
 from logging import error
 import os
-# import string
 import sys
 import ast
 import csv
 from datetime import datetime
-
 from colorama import init as colorama_init
 from colorama import Fore
 from colorama import Style
 
+from statisctics_library import *
+
 colorama_init()
 
-stats_dictionary = {}
-field_names = ["name", "all", "function def", "class def", "import", "exception", "param", "keyword", "alias", "object decl", "object", "case_convention", "words"]
+FIELD_NAMES = ["name", "all", "function def", "class def", "import", "exception", "param", "keyword", "alias", "object decl", "object", "naming_style", "words"]
 
 
 def get_data(input: str, output: str):
     try:
-        startTime = datetime.now()
+        start_time = datetime.now()
 
         # Sprawdzenie poprawności ścieżki
         if not os.path.isdir(input):
-            error("That is not dir path.")
+            error("That is not a dir path.")
             return 1
-        
-        n_of_py = 0
-        n_of_others = 0
 
         # Przechodzenie po katalogu
-        for path, subfiles, files in os.walk(input):
+        stats_dictionary = {}
+        for path, _, files in os.walk(input):
             for file_name in files:
-                x  = file_name.split(".", 1)
-                if len(x) > 1 and x[1] == "py":
-                    add_to_statistics(path + "/" + file_name)
-                    n_of_py += 1 
-                else:
-                    n_of_others += 1
+                ext  = os.path.splitext(file_name)[1]
+                if ext != "py":
+                    continue
+
+                # Zebranie danych z pojedynczego pliku pythonowego
+                file_path = os.path.join(path, file_name)
+                with open(file_path, encoding="utf-8") as file:
+                    code = file.read()
+                    tree = ast.parse(code, file_path)
+                    NamesCounter(stats_dictionary).visit(tree)
 
         # Zapisanie danych do pliku
         with open(output, "w", -1, "utf-8") as stats_file:
-            csvwriter = csv.DictWriter(stats_file, fieldnames=field_names)
+            csvwriter = csv.DictWriter(stats_file, fieldnames=FIELD_NAMES)
             csvwriter.writeheader()
             for key, value in stats_dictionary.items():
                 value["name"] = key
                 csvwriter.writerow(value)
         
-        endTime = datetime.now()
+        end_time = datetime.now()
+
     except Exception as e:
         with open("./log.txt", "a", -1, "utf-8") as log:
             log_and_print(f'{output}:', log, True)
@@ -62,185 +64,96 @@ def get_data(input: str, output: str):
 
     else:
         # Zakończenie progamu
-        n = n_of_others + n_of_py
-        percent_of_py = n_of_py * 100 / n
-        duration = endTime - startTime
-
+        duration = end_time - start_time
         with open("./log.txt", "a", -1, "utf-8") as log:
             log_and_print(f'{output}:', log)
-            log_and_print(f'    Started at {startTime:%H:%M:%S}, ended at {endTime:%H:%M:%S} (duration {duration}).', log)
-            log_and_print(f'    There is {n_of_py} Python files of all {n} files({percent_of_py:.2f}%).\n', log)
+            log_and_print(f'    Started at {start_time:%H:%M:%S}, ended at {end_time:%H:%M:%S} (duration {duration}).', log)
 
     return 0
 
 
-# Wyłuskanie danych z pojedynczego pliku pythonowego
-def add_to_statistics(file_name: str):
-    with open(file_name, encoding="utf-8") as f:
-        code = f.read()
-        tree = ast.parse(code, file_name)
-        NamesCounter().visit(tree)
-
-
 class NamesCounter(ast.NodeVisitor):
+    def __init__(self, stats_dictionary: dict) -> None:
+        self.stats_dictionary = stats_dictionary
+        super().__init__()
+
     def visit_FunctionDef(self, node: ast.FunctionDef):
-        add_name_with_kind(node.name, "function def")
+        add_name_with_kind_to_stats(node.name, "function def", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_AsyncFunctionDef(self, node: ast.AsyncFunctionDef):
-        add_name_with_kind(node.name, "function def")
+        add_name_with_kind_to_stats(node.name, "function def", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_ClassDef(self, node: ast.ClassDef):
-        add_name_with_kind(node.name, "class def")
+        add_name_with_kind_to_stats(node.name, "class def", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_ImportFrom(self, node: ast.ImportFrom):
         if node.module:
-            add_name_with_kind(node.module, "import")
+            add_name_with_kind_to_stats(node.module, "import", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_Global(self, node: ast.Global):
         for name in node.names:
-            add_name_with_kind(name, "object decl")
+            add_name_with_kind_to_stats(name, "object decl", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_Nonlocal(self, node: ast.Nonlocal):
         for name in node.names:
-            add_name_with_kind(name, "object decl")
+            add_name_with_kind_to_stats(name, "object decl", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_Attribute(self, node: ast.Attribute):
-        add_name_with_kind(node.attr, "object")
+        add_name_with_kind_to_stats(node.attr, "object", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_Name(self, node: ast.Name):
-        add_name_with_kind(node.id, "object")
+        add_name_with_kind_to_stats(node.id, "object", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_ExceptHandler(self, node: ast.ExceptHandler):
         if node.name:
-            add_name_with_kind(node.name, "exception")
+            add_name_with_kind_to_stats(node.name, "exception", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_arg(self, node: ast.arg):
-        add_name_with_kind(node.arg, "param")
+        add_name_with_kind_to_stats(node.arg, "param", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_keyword(self, node: ast.keyword):
         if node.arg:
-            add_name_with_kind(node.arg, "keyword")
+            add_name_with_kind_to_stats(node.arg, "keyword", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_alias (self, node: ast.alias):
-        add_name_with_kind(node.name, "import")
+        add_name_with_kind_to_stats(node.name, "import", self.stats_dictionary)
         if node.asname:
-            add_name_with_kind(node.asname, "alias")
+            add_name_with_kind_to_stats(node.asname, "alias", self.stats_dictionary)
         return self.generic_visit(node)
     
     def visit_MatchMapping(self, node: ast.MatchMapping):
         if node.rest:
-            add_name_with_kind(node.rest, "object decl")
+            add_name_with_kind_to_stats(node.rest, "object decl", self.stats_dictionary)
         return self.generic_visit(node)
     
     def visit_MatchClass(self, node: ast.MatchClass):
         for name in node.kwd_attrs:
-            add_name_with_kind(name, "object")
+            add_name_with_kind_to_stats(name, "object", self.stats_dictionary)
         return self.generic_visit(node)
     
     def visit_MatchStar(self, node: ast.MatchStar):
         if node.name:
-            add_name_with_kind(node.name, "object decl")
+            add_name_with_kind_to_stats(node.name, "object decl", self.stats_dictionary)
         return self.generic_visit(node)
     
     def visit_MatchAs(self, node: ast.MatchAs):
         if node.name:
-            add_name_with_kind(node.name, "object decl")
+            add_name_with_kind_to_stats(node.name, "object decl", self.stats_dictionary)
         return self.generic_visit(node)
-
-
-# Dodanie wystąpienia nazwy
-def add_name_with_kind(name: str, kind: str):
-    if name is None:
-        return
-    
-    if name == "self" or (name[:2] == "__" and name[-2:] == "__") or name == "":
-        return
-
-    if "." in name:
-        for module in name.split("."):
-            add_name_with_kind(module, kind)
-        return
-
-    if name not in stats_dictionary:
-        stats_dictionary[name] = {"all": 0}
-        add_new_name_with_case_convention_and_words(name)
-    stats_dictionary[name]["all"] += 1
-
-    if kind not in stats_dictionary[name]:
-        stats_dictionary[name][kind] = 1
-    else:
-        stats_dictionary[name][kind] += 1
-
-
-def add_new_name_with_case_convention_and_words(name: str):
-    stats_dictionary[name]["case_convention"] = convention(name)
-    stats_dictionary[name]["words"] = split_to_words(name)
-
-
-# Based on: https://peps.python.org/pep-0008/#descriptive-naming-styles
-def convention(name: str):
-    name = name.strip("_")
-    if len(name) == 0:
-        return "ugly"
-
-    if len(name) == 1:
-        if name.islower():
-            return "b" # single lowercase letter
-        if name.isupper():
-            return "B" # single uppercase letter
-    
-    if "_" in name:
-        if name.islower():
-            return "lower_case_with_underscores"
-        if name.isupper():
-            return "UPPER_CASE_WITH_UNDERSCORES"
-    else:
-        if name.islower():
-            return "lowercase"
-        if name.isupper():
-            return "UPPERCASE"
-        if name[0].isupper():
-            return "CapitalizedWords"
-        return "mixedCase"
-    return "ugly"
-    
-
-def split_to_words(name: str):
-    name = name.strip("_")
-    if len(name) == 0:
-        return []
-        
-    if "_" in name:
-        return name.lower().split("_")
-
-    ret = []
-    start_of_word = 0
-    for i in range(1, len(name) - 1):
-        if name[i].isupper() and (name[i + 1].islower() or name[i - 1].islower()):
-            ret.append(name[start_of_word:i].lower())
-            start_of_word = i
-
-    if name[-1].isupper():
-        ret.append(name[start_of_word:-1].lower())
-        ret.append(name[-1].lower())
-    else:
-        ret.append(name[start_of_word:].lower())
-
-    return ret
             
 
-def log_and_print(text: str, file, error=False):
+def log_and_print(text: str, file, error: bool=False):
     file.write(f'{text}\n')
     if error:
         print(f'{Fore.RED}{text}{Style.RESET_ALL}')
