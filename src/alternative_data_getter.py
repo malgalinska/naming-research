@@ -16,23 +16,24 @@ from statisctics_library import *
 colorama_init()
 
 FIELD_NAMES = ["name", "all", "function def", "class def", "import", "exception", "param", "keyword", "alias", "object decl", "object", "naming_style", "words"]
+PYTHON_EXTENSION = "py"
+LOG_FILE_NAME = "./log.txt"
 
-
-def get_data(input, output):
+def get_data(input_path, output_path):
     try:
         start_time = datetime.now()
 
         # Sprawdzenie poprawności ścieżki
-        if not os.path.isdir(input):
-            error("That is not a dir path.")
+        if not os.path.isdir(input_path):
+            error(f"{input_path} is not a valid directory.")
             return 1
 
         # Przechodzenie po katalogu
         stats_dictionary = {}
-        for path, _, files in os.walk(input):
+        for path, _, files in os.walk(input_path):
             for file_name in files:
                 ext  = os.path.splitext(file_name)[1]
-                if ext != "py":
+                if ext != PYTHON_EXTENSION:
                     continue
 
                 # Zebranie danych z pojedynczego pliku pythonowego
@@ -43,7 +44,7 @@ def get_data(input, output):
                     NamesCounter(stats_dictionary).visit(tree)
 
         # Zapisanie danych do pliku
-        with open(output, "w") as stats_file:
+        with open(output_path, "w") as stats_file:
             csvwriter = csv.DictWriter(stats_file, fieldnames=FIELD_NAMES)
             csvwriter.writeheader()
             for key, value in stats_dictionary.items():
@@ -53,18 +54,18 @@ def get_data(input, output):
         end_time = datetime.now()
 
     except Exception as e:
-        with open("./log.txt", "a") as log:
-            log_and_print(output + ':', log, True)
+        with open(LOG_FILE_NAME, "a") as log:
+            log_and_print(input_path + ":", log, True)
             log_and_print(repr(e), log)
             log_and_print(str(e), log)
-            log_and_print('Even Python 2.7 doesn`t work here!\n', log)
+            log_and_print("Even Python 2.7 doesn`t work here!\n", log)
 
     else:
         # Zakończenie progamu
         duration = end_time - start_time
-        with open("./log.txt", "a") as log:
-            log_and_print(output + ' (by Python 2.7):', log)
-            log_and_print('    Duration: ' + str(duration), log)
+        with open(LOG_FILE_NAME, "a") as log:
+            log_and_print(input_path + " (by Python 2.7):", log)
+            log_and_print("    Duration: " + str(duration), log)
 
     return 0
 
@@ -117,7 +118,7 @@ class NamesCounter(ast.NodeVisitor):
 
 
 def log_and_print(text, file, error=False):
-    file.write(text + '\n')
+    file.write(text + "\n")
     if error:
         print(Fore.RED + text + Style.RESET_ALL)
     else:
@@ -129,7 +130,8 @@ if __name__ == "__main__":
     args = sys.argv[1:]
     if len(args) >= 2:
         sys.exit(get_data(args[0], args[1]))
-    elif len(args) == 1:
-        sys.exit(get_data(args[0], "Stats.csv"))
     else:
-        sys.exit(get_data(".", "Stats.csv"))
+        print("Usage: " + sys.argv[0] + " input_path output_path\n")
+        print("Arguments:\n")
+        print("input_path \t:Path to project\n")
+        print("output_path \t:Path to file, in which statistics will be saved\n")

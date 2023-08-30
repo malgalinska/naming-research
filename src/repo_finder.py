@@ -9,20 +9,22 @@ import zipfile
 
 from data_getter import get_data
 
+DATA_NAME_ENDING = "_stats.csv"
+TEMPORARY_DIRECTORY_NAME = "tmp"
 
 def main (input_path: str):
     # Sprawdzenie poprawności ścieżki
     if not os.path.isdir(input_path):
-        error("That is not a dir path.")
+        error(f"{input_path} is not a valid directory.")
         return 1
 
     # Przechodzenie po wszystkich plikach w drzewie katalogu
     for path, _, files in os.walk(input_path):
-        tmp_path = os.path.join(path, "tmp")
+        tmp_path = os.path.join(path, TEMPORARY_DIRECTORY_NAME)
 
         for file_name in files:
             file_path = os.path.join(path, file_name)
-            statistic_file_path = os.path.splitext(file_path)[0] + "_stats.csv"
+            statistic_file_path = os.path.splitext(file_path)[0] + DATA_NAME_ENDING
             
             # Sprawdzenie, czy plik jest w formacie zip
             if not zipfile.is_zipfile(file_path):
@@ -44,6 +46,8 @@ def main (input_path: str):
 if __name__ == "__main__":
     args = sys.argv[1:]
     if len(args):
-        sys.exit(main(args[0]))
+        sys.exit(main(args[0])) 
     else:
-        sys.exit(main("."))  
+        print("Usage: " + sys.argv[0] + " input_path\n")
+        print("Argument:\n")
+        print("input_path \t:Path to location containing zipped projects\n")

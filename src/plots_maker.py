@@ -1,39 +1,40 @@
 #!/usr/local/bin/python3.11
 # coding: utf-8
-import os
 
+import os
+# from logging import error
 import matplotlib.pyplot as plt
 import numpy as np
 import nltk
 from datetime import datetime
 
+LOG_FILE_NAME = "./plots_log.txt"
 
-def make_plots (data: dict, repo_name: str, path: str):
+def make_plots (data: dict, repo_name: str, path_out: str):
     startTime = datetime.now()
 
-    path = path + "/" + repo_name
-    if not os.path.isdir(path):
-        os.mkdir(path)
-    path = path + "/"
+    path_out = os.path.join(path_out, repo_name)
+    if not os.path.isdir(path_out):
+        os.mkdir(path_out)
 
-    make_sample_plot(data, path)
-    make_project_size_plot(data, path)
-    make_mean_len_plot(data, path)
-    make_weighted_mean_len_plot(data, path)
-    make_procent_of_classes_with_noun_plot(data, path)
-    make_number_of_classes_with_noun_plot(data, path)
-    make_procent_of_functions_with_verb_plot(data, path)
-    make_number_of_functions_with_verb_plot(data, path)
-    make_words_to_avoid_in_procents_plot(data, path)
-    make_number_of_words_to_avoid_plot(data, path)
-    make_procent_of_good_style_plot(data, path)
-    make_number_of_bad_style_plot(data, path)
+    make_sample_plot(data, path_out)
+    make_project_size_plot(data, path_out)
+    make_mean_len_plot(data, path_out)
+    make_weighted_mean_len_plot(data, path_out)
+    make_procent_of_classes_with_noun_plot(data, path_out)
+    make_number_of_classes_with_noun_plot(data, path_out)
+    make_procent_of_functions_with_verb_plot(data, path_out)
+    make_number_of_functions_with_verb_plot(data, path_out)
+    make_words_to_avoid_in_procents_plot(data, path_out)
+    make_number_of_words_to_avoid_plot(data, path_out)
+    make_procent_of_good_style_plot(data, path_out)
+    make_number_of_bad_style_plot(data, path_out)
 
-    plt.close('all')
+    plt.close("all")
     endTime = datetime.now()
     duration = endTime - startTime
 
-    with open("./plots_log.txt", "a", -1, "utf-8") as log:
+    with open(LOG_FILE_NAME, "a", -1, "utf-8") as log:
         log.write(f'{repo_name}:\n')
         log.write(f'    Started at {startTime:%H:%M:%S}, ended at {endTime:%H:%M:%S} (duration {duration}).\n\n')
 
@@ -41,7 +42,7 @@ def make_plots (data: dict, repo_name: str, path: str):
     print(f'    Started at {startTime:%H:%M:%S}, ended at {endTime:%H:%M:%S} (duration {duration}).\n')
 
 
-def make_sample_plot(data: dict, path: str):
+def make_sample_plot(data: dict, path_out: str):
     # plt.figure(figsize=(15, 15))
     fig, ax = plt.subplots()
     ax.set_xlabel("Liczba liter")
@@ -53,10 +54,10 @@ def make_sample_plot(data: dict, path: str):
     ax.set(xlim=(0, 80), ylim=(1, 10))
 
     # plt.legend()
-    plt.savefig(path + "sample_plot.jpg")
+    plt.savefig(os.path.join(path_out, "sample_plot.jpg"))
 
 
-def make_project_size_plot(data: dict, path: str):
+def make_project_size_plot(data: dict, path_out: str):
     fig,ax = plt.subplots()
     ax.set_xlabel("Czas")
     ax.set_ylabel("Ilość")
@@ -72,22 +73,22 @@ def make_project_size_plot(data: dict, path: str):
 
     df2 = data.copy()
     for x in df2:
-        df2[x] = df2[x]['all'].sum()
+        df2[x] = df2[x]["all"].sum()
 
     ax2.plot(df2.keys(), df2.values(), label="Suma wystąpień nazw")
     
     fig.legend(loc="upper left")
-    fig.savefig(path + "project_size_plot.jpg")
+    fig.savefig(os.path.join(path_out, "project_size_plot.jpg"))
 
 
-def make_mean_len_plot(data: dict, path: str):
+def make_mean_len_plot(data: dict, path_out: str):
     fig,ax = plt.subplots()
     ax.set_xlabel("Czas")
     ax.set_ylabel("Ilość liter")
 
     df1 = data.copy()
     for x in df1:
-        df1[x] = df1[x]['len'].mean()
+        df1[x] = df1[x]["len"].mean()
 
     ax.plot(df1.keys(), df1.values(), color="red", label="Średnia długość nazwy")
     
@@ -96,23 +97,23 @@ def make_mean_len_plot(data: dict, path: str):
 
     df2 = data.copy()
     for x in df2:
-        df2[x]['n_of_words'] = df2[x]['words'].apply(lambda x: str(x).count(",") + 1)
-        df2[x] = df2[x]['n_of_words'].mean()
+        df2[x]["n_of_words"] = df2[x]["words"].apply(lambda x: str(x).count(",") + 1)
+        df2[x] = df2[x]["n_of_words"].mean()
 
     ax2.plot(df2.keys(), df2.values(), label="Średnia ilość członów w nazwie")
     
     fig.legend()
-    fig.savefig(path + "maen_len_plot.jpg")
+    fig.savefig(os.path.join(path_out, "maen_len_plot.jpg"))
 
 
-def make_weighted_mean_len_plot(data: dict, path: str):
+def make_weighted_mean_len_plot(data: dict, path_out: str):
     fig,ax = plt.subplots()
     ax.set_xlabel("Czas")
     ax.set_ylabel("Ilość liter")
 
     df1 = data.copy()
     for x in df1:
-        df1[x] = (df1[x]['len'] * df1[x]['all']).sum() / df1[x]['all'].sum()
+        df1[x] = (df1[x]["len"] * df1[x]["all"]).sum() / df1[x]["all"].sum()
 
     ax.plot(df1.keys(), df1.values(), color="red", label="Średnia ważona długości nazwy")
     
@@ -121,16 +122,16 @@ def make_weighted_mean_len_plot(data: dict, path: str):
 
     df2 = data.copy()
     for x in df2:
-        df2[x]['n_of_words'] = df2[x]['words'].apply(lambda x: str(x).count(",") + 1)
-        df2[x] = (df2[x]['n_of_words'] * df2[x]['all']).sum() / df2[x]['all'].sum()
+        df2[x]["n_of_words"] = df2[x]["words"].apply(lambda x: str(x).count(",") + 1)
+        df2[x] = (df2[x]["n_of_words"] * df2[x]["all"]).sum() / df2[x]["all"].sum()
 
     ax2.plot(df2.keys(), df2.values(), label="Średnia ważona ilości członów w nazwie")
     
     fig.legend()
-    fig.savefig(path + "weighted_mean_len_plot.jpg")
+    fig.savefig(os.path.join(path_out, "weighted_mean_len_plot.jpg"))
 
 
-def make_procent_of_classes_with_noun_plot(data: dict, path: str):
+def make_procent_of_classes_with_noun_plot(data: dict, path_out: str):
     fig,ax = plt.subplots()
     ax.set_xlabel("Czas")
     ax.set_ylabel("Procent")
@@ -159,10 +160,10 @@ def make_procent_of_classes_with_noun_plot(data: dict, path: str):
     ax.plot(df.keys(), df.values(), label="Procent klas z rzeczownikiem w nazwie")
     
     fig.legend()
-    fig.savefig(path + "procent_of_class_with_noun_plot.jpg")
+    fig.savefig(os.path.join(path_out, "procent_of_class_with_noun_plot.jpg"))
 
 
-def make_number_of_classes_with_noun_plot(data: dict, path: str):
+def make_number_of_classes_with_noun_plot(data: dict, path_out: str):
     fig,ax = plt.subplots()
     ax.set_xlabel("Czas")
     ax.set_ylabel("Ilość")
@@ -189,10 +190,10 @@ def make_number_of_classes_with_noun_plot(data: dict, path: str):
     ax.plot(df.keys(), df.values(), label="Liczba klas z rzeczownikiem w nazwie")
     
     fig.legend()
-    fig.savefig(path + "number_of_class_with_noun_plot.jpg")
+    fig.savefig(os.path.join(path_out, "number_of_class_with_noun_plot.jpg"))
 
 
-def make_procent_of_functions_with_verb_plot(data: dict, path: str):
+def make_procent_of_functions_with_verb_plot(data: dict, path_out: str):
     fig,ax = plt.subplots()
     ax.set_xlabel("Czas")
     ax.set_ylabel("Procent")
@@ -221,10 +222,10 @@ def make_procent_of_functions_with_verb_plot(data: dict, path: str):
     ax.plot(df.keys(), df.values(), label="Procent funkcji z czasownikiem w nazwie")
     
     fig.legend()
-    fig.savefig(path + "procent_of_functions_with_verb_plot.jpg")
+    fig.savefig(os.path.join(path_out, "procent_of_functions_with_verb_plot.jpg"))
 
 
-def make_number_of_functions_with_verb_plot(data: dict, path: str):
+def make_number_of_functions_with_verb_plot(data: dict, path_out: str):
     fig,ax = plt.subplots()
     ax.set_xlabel("Czas")
     ax.set_ylabel("Ilość")
@@ -251,11 +252,11 @@ def make_number_of_functions_with_verb_plot(data: dict, path: str):
     ax.plot(df.keys(), df.values(), label="Liczba funkcji z czasownikiem w nazwie")
     
     fig.legend()
-    fig.savefig(path + "number_of_functions_with_verb_plot.jpg")
+    fig.savefig(os.path.join(path_out, "number_of_functions_with_verb_plot.jpg"))
 
 
-def make_words_to_avoid_in_procents_plot(data: dict, path: str):
-    words_to_avoid = ["klass", 'clss']
+def make_words_to_avoid_in_procents_plot(data: dict, path_out: str):
+    words_to_avoid = ["klass", "clss"]
 
     fig,ax = plt.subplots()
     ax.set_xlabel("Czas")
@@ -275,11 +276,11 @@ def make_words_to_avoid_in_procents_plot(data: dict, path: str):
     ax.plot(df.keys(), df.values(), label="Procent nazw ze słowami do omijania")
     
     fig.legend()
-    fig.savefig(path + "words_to_avoid_in_procents_plot.jpg")
+    fig.savefig(os.path.join(path_out, "words_to_avoid_in_procents_plot.jpg"))
 
 
-def make_number_of_words_to_avoid_plot(data: dict, path: str):
-    words_to_avoid = ["klass", 'clss']
+def make_number_of_words_to_avoid_plot(data: dict, path_out: str):
+    words_to_avoid = ["klass", "clss"]
 
     fig,ax = plt.subplots()
     ax.set_xlabel("Czas")
@@ -299,14 +300,14 @@ def make_number_of_words_to_avoid_plot(data: dict, path: str):
     ax.plot(df.keys(), df.values(), label="Liczba nazw ze słowami do omijania")
     
     fig.legend()
-    fig.savefig(path + "number_of_words_to_avoid_plot.jpg")
+    fig.savefig(os.path.join(path_out, "number_of_words_to_avoid_plot.jpg"))
 
     
-def make_procent_of_good_style_plot(data: dict, path: str):
+def make_procent_of_good_style_plot(data: dict, path_out: str):
     fig, ax = plt.subplots()
 
-    ax.set_ylabel('Procent')
-    ax.set_title('Procent nazw w dobrej konwencji')
+    ax.set_ylabel("Procent")
+    ax.set_title("Procent nazw w dobrej konwencji")
 
     df = data.copy()
     procents_of_classes = []
@@ -334,8 +335,8 @@ def make_procent_of_good_style_plot(data: dict, path: str):
     
     ax.set_xticks(x, df.keys())
 
-    rects1 = ax.bar(x - width/2, procents_of_classes, width, label='Klasy')
-    rects2 = ax.bar(x + width/2, procents_of_functions, width, label='Funkcje')
+    rects1 = ax.bar(x - width/2, procents_of_classes, width, label="Klasy")
+    rects2 = ax.bar(x + width/2, procents_of_functions, width, label="Funkcje")
 
     ax.bar_label(rects1, padding=3)
     ax.bar_label(rects2, padding=3)
@@ -343,14 +344,14 @@ def make_procent_of_good_style_plot(data: dict, path: str):
     fig.tight_layout()
 
     fig.legend(loc="upper left")
-    fig.savefig(path + "procent_of_good_style_plot.jpg")
+    fig.savefig(os.path.join(path_out, "procent_of_good_style_plot.jpg"))
 
 
-def make_number_of_bad_style_plot(data: dict, path: str):
+def make_number_of_bad_style_plot(data: dict, path_out: str):
     fig, ax = plt.subplots()
 
-    ax.set_ylabel('Ilość')
-    ax.set_title('Liczba nazw poza dobrą konwencją')
+    ax.set_ylabel("Ilość")
+    ax.set_title("Liczba nazw poza dobrą konwencją")
 
     df = data.copy()
     bad_classes = [] # Słaba nazwa - nie oddaje sensu
@@ -378,8 +379,8 @@ def make_number_of_bad_style_plot(data: dict, path: str):
     
     ax.set_xticks(x, df.keys())
 
-    rects1 = ax.bar(x - width/2, bad_classes, width, label='Klasy')
-    rects2 = ax.bar(x + width/2, bad_functions, width, label='Funkcje')
+    rects1 = ax.bar(x - width/2, bad_classes, width, label="Klasy")
+    rects2 = ax.bar(x + width/2, bad_functions, width, label="Funkcje")
 
     ax.bar_label(rects1, padding=3)
     ax.bar_label(rects2, padding=3)
@@ -387,4 +388,4 @@ def make_number_of_bad_style_plot(data: dict, path: str):
     fig.tight_layout()
 
     fig.legend(loc="upper left")
-    fig.savefig(path + "number_of_bad_style_plot.jpg")
+    fig.savefig(os.path.join(path_out, "number_of_bad_style_plot.jpg"))

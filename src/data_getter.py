@@ -16,23 +16,25 @@ from statisctics_library import *
 colorama_init()
 
 FIELD_NAMES = ["name", "all", "function def", "class def", "import", "exception", "param", "keyword", "alias", "object decl", "object", "naming_style", "words"]
+PYTHON_EXTENSION = "py"
+LOG_FILE_NAME = "./log.txt"
+ALTERNATIVE_PROGRAM_PATH = os.path.join(os.path.dirname(__file__), "alternative_data_getter.py")
 
-
-def get_data(input: str, output: str):
+def get_data(input_path: str, output_path: str):
     try:
         start_time = datetime.now()
 
         # Sprawdzenie poprawności ścieżki
-        if not os.path.isdir(input):
-            error("That is not a dir path.")
+        if not os.path.isdir(input_path):
+            error(f"{input_path} is not a valid directory.")
             return 1
 
         # Przechodzenie po katalogu
         stats_dictionary = {}
-        for path, _, files in os.walk(input):
+        for path, _, files in os.walk(input_path):
             for file_name in files:
                 ext  = os.path.splitext(file_name)[1]
-                if ext != "py":
+                if ext != PYTHON_EXTENSION:
                     continue
 
                 # Zebranie danych z pojedynczego pliku pythonowego
@@ -43,7 +45,7 @@ def get_data(input: str, output: str):
                     NamesCounter(stats_dictionary).visit(tree)
 
         # Zapisanie danych do pliku
-        with open(output, "w", -1, "utf-8") as stats_file:
+        with open(output_path, "w", -1, "utf-8") as stats_file:
             csvwriter = csv.DictWriter(stats_file, fieldnames=FIELD_NAMES)
             csvwriter.writeheader()
             for key, value in stats_dictionary.items():
@@ -53,20 +55,18 @@ def get_data(input: str, output: str):
         end_time = datetime.now()
 
     except Exception as e:
-        with open("./log.txt", "a", -1, "utf-8") as log:
-            log_and_print(f'{output}:', log, True)
+        with open(LOG_FILE_NAME, "a", -1, "utf-8") as log:
+            log_and_print(f'{input_path}:', log, True)
             log_and_print(f'{repr(e)}', log)
-            log_and_print('I will try with Python 2.7!\n', log)
+            log_and_print("I will try with Python 2.7!\n", log)
 
-        # os.system("pwd")
-        # os.system("ls ./src")
-        os.system(f'./src/alternative_data_getter.py {input} {output}') # To trzeba zrobić lepiej
+        os.system(f'{ALTERNATIVE_PROGRAM_PATH} {input_path} {output_path}')
 
     else:
         # Zakończenie progamu
         duration = end_time - start_time
-        with open("./log.txt", "a", -1, "utf-8") as log:
-            log_and_print(f'{output}:', log)
+        with open(LOG_FILE_NAME, "a", -1, "utf-8") as log:
+            log_and_print(f'{input_path}:', log)
             log_and_print(f'    Started at {start_time:%H:%M:%S}, ended at {end_time:%H:%M:%S} (duration {duration}).', log)
 
     return 0
@@ -166,7 +166,8 @@ if __name__ == "__main__":
     args = sys.argv[1:]
     if len(args) >= 2:
         sys.exit(get_data(args[0], args[1]))
-    elif len(args) == 1:
-        sys.exit(get_data(args[0], "Stats.csv"))
     else:
-        sys.exit(get_data(".", "Stats.csv"))
+        print("Usage: " + sys.argv[0] + " input_path output_path\n")
+        print("Arguments:\n")
+        print("input_path \t:Path to project\n")
+        print("output_path \t:Path to file, in which statistics will be saved\n")

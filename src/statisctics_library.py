@@ -24,7 +24,6 @@ def add_name_with_kind_to_stats(name, kind, stats_dictionary):
         stats_dictionary[name][kind] += 1
 
 
-# Based on: https://peps.python.org/pep-0008/#descriptive-naming-styles
 def style(name):
     name = name.strip("_")
     if len(name) == 0:
@@ -41,9 +40,11 @@ def style(name):
             return "lower_case_with_underscores"
         if name.isupper():
             return "UPPER_CASE_WITH_UNDERSCORES"
-        if name[0].isupper():
+        if  all(map(lambda word: word[0].isupper(), name.split("_"))):
             return "Capitalized_Words_With_Underscores"
-        return "camel_Snake_Case"
+        if all(map(lambda word: word[0].isupper(), name.split("_")[1:])):
+            return "camel_Snake_Case"
+        return "ugly"
     
     if "-" in name:
         if name.islower():
