@@ -7,7 +7,8 @@ from datetime import datetime
 import numpy as np
 import matplotlib.pyplot as plt
 
-from statisctics_library import log_and_print, has_part_of_speech, split_to_words
+from utils import log_and_print
+from plots_utils import split_to_words, has_part_of_speech
 
 
 LOG_FILE_NAME = "./plots_log.txt"

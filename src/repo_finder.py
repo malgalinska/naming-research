@@ -8,7 +8,7 @@ import zipfile
 from logging import error
 
 from data_getter import get_data
-from statisctics_library import log_and_print
+from utils import log_and_print
 
 
 DATA_NAME_ENDING = "_stats.csv"

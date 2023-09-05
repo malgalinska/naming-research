@@ -8,7 +8,7 @@ import csv
 from logging import error
 from datetime import datetime
 
-from statisctics_library import *
+from utils import *
 
 
 FIELD_NAMES = ["name", "all", "function_def", "class_def", "import_module_or_alias", "exception", "param", "keyword",
