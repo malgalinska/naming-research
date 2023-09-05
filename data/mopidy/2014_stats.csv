@@ -1,4 +1,4 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,case_convention,words
+name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
 linebreak,4,,,,,,,,,4,lowercase,['linebreak']
 PlaylistsProvider,6,,1,1,,,,,,4,CapitalizedWords,"['playlists', 'provider']"
 validate_extension,2,1,,,,,,,,1,lower_case_with_underscores,"['validate', 'extension']"
@@ -3532,7 +3532,7 @@ test_enable_recv_on_closed_socket,1,1,,,,,,,,,lower_case_with_underscores,"['tes
 test_lsinfo_with_empty_path_returns_same_as_for_root,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'lsinfo', 'with', 'empty', 'path', 'returns', 'same', 'as', 'for', 'root']"
 test_list_genre_without_quotes,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'list', 'genre', 'without', 'quotes']"
 music_db,3,,,2,,,,,,1,lower_case_with_underscores,"['music', 'db']"
-*,3,,,3,,,,,,,mixedCase,['*']
+*,3,,,3,,,,,,,ugly,['*']
 test_search_composer_without_quotes,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'search', 'composer', 'without', 'quotes']"
 mpd_ack_error,3,,,,,,,,,3,lower_case_with_underscores,"['mpd', 'ack', 'error']"
 test_load_nothing,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'load', 'nothing']"

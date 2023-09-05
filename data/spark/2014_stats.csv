@@ -1,4 +1,4 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,case_convention,words
+name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
 sendRef,4,,,,,,,,,4,mixedCase,"['send', 'ref']"
 trainLogisticRegressionModelWithSGD,1,,,,,,,,,1,mixedCase,"['train', 'logistic', 'regression', 'model', 'with', 'sg', 'd']"
 parseNeighbors,2,1,,,,,,,,1,mixedCase,"['parse', 'neighbors']"
@@ -107,8 +107,8 @@ DISK_ONLY_2,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['disk', 'only', '2']"
 base_recurse,3,,,,,,,,,3,lower_case_with_underscores,"['base', 'recurse']"
 _unbatched_serializer,6,,,,,,,,,6,lower_case_with_underscores,"['unbatched', 'serializer']"
 takeUpToNum,2,1,,,,,,,,1,mixedCase,"['take', 'up', 'to', 'num']"
-_2,1,,,,,,,,,1,mixedCase,['2']
-_1,1,,,,,,,,,1,mixedCase,['1']
+_2,1,,,,,,,,,1,ugly,['2']
+_1,1,,,,,,,,,1,ugly,['1']
 dumps,13,5,,,,,,,,8,lowercase,['dumps']
 debug,1,,,,,,,,,1,lowercase,['debug']
 mean,9,2,,,,,1,,,6,lowercase,['mean']
@@ -365,7 +365,7 @@ jvm,6,,,,,,,,,6,lowercase,['jvm']
 combiners,12,,,,,,,,,12,lowercase,['combiners']
 assertEquals,2,,,,,,,,,2,mixedCase,"['assert', 'equals']"
 choice,2,,,,,,,,,2,lowercase,['choice']
-PyCell_New,1,,,,,,,,,1,ugly,"['pycell', 'new']"
+PyCell_New,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['pycell', 'new']"
 join,29,1,,1,,,,,,27,lowercase,['join']
 _next_accum_id,3,,,,,,,,,3,lower_case_with_underscores,"['next', 'accum', 'id']"
 key_ser,14,,,,,,,,,14,lower_case_with_underscores,"['key', 'ser']"
@@ -1201,7 +1201,7 @@ deserializer,6,,,,,,,,,6,lowercase,['deserializer']
 newPoints,3,,,,,,,,,3,mixedCase,"['new', 'points']"
 LOG_FILE_NAME,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['log', 'file', 'name']"
 range_params,2,,,,,,,,,2,lower_case_with_underscores,"['range', 'params']"
-PyObject_HEAD,4,,,,,,,,,4,ugly,"['pyobject', 'head']"
+PyObject_HEAD,4,,,,,,,,,4,Capitalized_Words_With_Underscores,"['pyobject', 'head']"
 app,3,,,,,,,,,3,lowercase,['app']
 getAll,3,1,,,,,,,,2,mixedCase,"['get', 'all']"
 usersProducts,2,,,,,,,,,2,mixedCase,"['users', 'products']"

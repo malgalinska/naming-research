@@ -1,4 +1,4 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,case_convention,words
+name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
 sendRef,4,,,,,,,,,4,mixedCase,"['send', 'ref']"
 req,2,,,,,,,,,2,lowercase,['req']
 parseNeighbors,2,1,,,,,,,,1,mixedCase,"['parse', 'neighbors']"
@@ -9,7 +9,7 @@ TypeType,3,,,,,,,,,3,CapitalizedWords,"['type', 'type']"
 ebs_vol_size,2,,,,,,,,,2,lower_case_with_underscores,"['ebs', 'vol', 'size']"
 OutputFormatTests,1,,1,,,,,,,,CapitalizedWords,"['output', 'format', 'tests']"
 prefix,5,,,,,,,,,5,lowercase,['prefix']
-_scala_HiveContext,3,,,,,,,,,3,ugly,"['scala', 'hivecontext']"
+_scala_HiveContext,3,,,,,,,,,3,camel_Snake_Case,"['scala', 'hivecontext']"
 sleep,21,1,,,,,,,,20,lowercase,['sleep']
 template_vars,7,,,,,,,,,7,lower_case_with_underscores,"['template', 'vars']"
 findall,9,,,,,,,,,9,lowercase,['findall']
@@ -1149,7 +1149,7 @@ pstats,2,,,1,,,,,,1,lowercase,['pstats']
 last_sum,2,,,,,,,,,2,lower_case_with_underscores,"['last', 'sum']"
 userlib,2,,,2,,,,,,,lowercase,['userlib']
 utf8_deserializer,4,,,,,,,,,4,lower_case_with_underscores,"['utf8', 'deserializer']"
-_1,1,,,,,,,,,1,mixedCase,['1']
+_1,1,,,,,,,,,1,ugly,['1']
 unittest,20,,,3,,,,2,,15,lowercase,['unittest']
 pygments_style,1,,,,,,,,,1,lower_case_with_underscores,"['pygments', 'style']"
 pos,32,,,,,,,,,32,lowercase,['pos']
@@ -1314,7 +1314,7 @@ miniBatchFraction,10,,,,,,,,,10,mixedCase,"['mini', 'batch', 'fraction']"
 SimpleHTTPServer,4,,,2,,,,,,2,CapitalizedWords,"['simple', 'http', 'server']"
 instance_types,3,,,,,,,,,3,lower_case_with_underscores,"['instance', 'types']"
 _read_with_length,4,1,,,,,,,,3,lower_case_with_underscores,"['read', 'with', 'length']"
-_2,1,,,,,,,,,1,mixedCase,['2']
+_2,1,,,,,,,,,1,ugly,['2']
 dest_file,2,,,,,,,,,2,lower_case_with_underscores,"['dest', 'file']"
 _fill_function,2,1,,,,,,,,1,lower_case_with_underscores,"['fill', 'function']"
 _parse_datatype_json_string,2,1,,,,,,,,1,lower_case_with_underscores,"['parse', 'datatype', 'json', 'string']"
@@ -1361,7 +1361,7 @@ _check_output,2,1,,,,,,,,1,lower_case_with_underscores,"['check', 'output']"
 collectToPython,1,,,,,,,,,1,mixedCase,"['collect', 'to', 'python']"
 image,3,,,,,,,,,3,lowercase,['image']
 islice,2,,,,,,,,,2,lowercase,['islice']
-_scala_SQLContext,4,,,,,,,,,4,ugly,"['scala', 'sqlcontext']"
+_scala_SQLContext,4,,,,,,,,,4,camel_Snake_Case,"['scala', 'sqlcontext']"
 test_regression,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'regression']"
 _infer_schema_type,4,1,,,,,,,,3,lower_case_with_underscores,"['infer', 'schema', 'type']"
 strip,26,,,,,,,,,26,lowercase,['strip']
@@ -2886,7 +2886,7 @@ redFunc,2,1,,,,,,,,1,mixedCase,"['red', 'func']"
 _make_cell,2,1,,,,,,,,1,lower_case_with_underscores,"['make', 'cell']"
 val,6,,,,,,,,,6,lowercase,['val']
 artifacts,2,,,,,,,,,2,lowercase,['artifacts']
-*,3,,,3,,,,,,,mixedCase,['*']
+*,3,,,3,,,,,,,ugly,['*']
 CartesianDeserializer,5,,1,1,,,,,,3,CapitalizedWords,"['cartesian', 'deserializer']"
 mergeCounters,2,1,,,,,,,,1,mixedCase,"['merge', 'counters']"
 ed,5,,,,,,,,,5,lowercase,['ed']

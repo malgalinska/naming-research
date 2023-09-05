@@ -1,4 +1,4 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,case_convention,words
+name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
 glob,34,1,,11,,,,,,22,lowercase,['glob']
 os,2001,,,187,,,,,,1814,lowercase,['os']
 shutil,127,,,42,,,,,,85,lowercase,['shutil']
@@ -2455,7 +2455,7 @@ file1,3,,,,,1,,,,2,lowercase,['file1']
 file2,3,,,,,1,,,,2,lowercase,['file2']
 path1,15,,,,,,,,,15,lowercase,['path1']
 path2,12,,,,,,,,,12,lowercase,['path2']
-ioctl_GWINSZ,5,1,,,,,,,,4,ugly,"['ioctl', 'gwinsz']"
+ioctl_GWINSZ,5,1,,,,,,,,4,camel_Snake_Case,"['ioctl', 'gwinsz']"
 fcntl,2,,,1,,,,,,1,lowercase,['fcntl']
 termios,2,,,1,,,,,,1,lowercase,['termios']
 struct,75,,,9,,,,,,66,lowercase,['struct']
@@ -3058,7 +3058,7 @@ kernel,2,,,,,,,,,2,lowercase,['kernel']
 Kernel32,1,,,,,,,,,1,CapitalizedWords,['kernel32']
 props,31,,,,,,,,,31,lowercase,['props']
 prop,19,,,,,,,,,19,lowercase,['prop']
-_abc_ABC,3,,,,,,,,,3,ugly,"['abc', 'abc']"
+_abc_ABC,3,,,,,,,,,3,camel_Snake_Case,"['abc', 'abc']"
 ABC,1,,,,,,,,,1,UPPERCASE,"['ab', 'c']"
 _classic_mro,3,1,,,,,,,,2,lower_case_with_underscores,"['classic', 'mro']"
 C,9,,,,,3,,,,6,B,"['', 'c']"
@@ -3946,8 +3946,8 @@ upcaseTokens,4,,,,,,,,,4,mixedCase,"['upcase', 'tokens']"
 downcaseTokens,3,,,,,,,,,3,mixedCase,"['downcase', 'tokens']"
 _makeTags,3,1,,,,,,,,2,mixedCase,"['make', 'tags']"
 tagStr,13,,,,,3,,,,10,mixedCase,"['tag', 'str']"
-suppress_LT,3,,,,,1,,,,2,ugly,"['suppress', 'lt']"
-suppress_GT,3,,,,,1,,,,2,ugly,"['suppress', 'gt']"
+suppress_LT,3,,,,,1,,,,2,camel_Snake_Case,"['suppress', 'lt']"
+suppress_GT,3,,,,,1,,,,2,camel_Snake_Case,"['suppress', 'gt']"
 resname,8,,,,,,,,,8,lowercase,['resname']
 tagAttrName,3,,,,,,,,,3,mixedCase,"['tag', 'attr', 'name']"
 tagAttrValue,4,,,,,,,,,4,mixedCase,"['tag', 'attr', 'value']"
@@ -4658,7 +4658,7 @@ _last_char_order,6,,,,,,,,,6,lower_case_with_underscores,"['last', 'char', 'orde
 num_bytes,4,,,,,1,,,,3,lower_case_with_underscores,"['num', 'bytes']"
 SJISContextAnalysis,4,,1,1,,,,,,2,CapitalizedWords,"['sjis', 'context', 'analysis']"
 _charset_name,3,,,,,,,,,3,lower_case_with_underscores,"['charset', 'name']"
-Latin5_BulgarianCharToOrderMap,2,,,,,,,,,2,ugly,"['latin5', 'bulgarianchartoordermap']"
+Latin5_BulgarianCharToOrderMap,2,,,,,,,,,2,Capitalized_Words_With_Underscores,"['latin5', 'bulgarianchartoordermap']"
 win1251BulgarianCharToOrderMap,2,,,,,,,,,2,mixedCase,"['win1251', 'bulgarian', 'char', 'to', 'order', 'map']"
 BulgarianLangModel,3,,,,,,,,,3,CapitalizedWords,"['bulgarian', 'lang', 'model']"
 Latin5BulgarianModel,3,,,1,,,,,,2,CapitalizedWords,"['latin5', 'bulgarian', 'model']"
@@ -4684,7 +4684,7 @@ Win1253GreekModel,3,,,1,,,,,,2,CapitalizedWords,"['win1253', 'greek', 'model']"
 WIN1255_CHAR_TO_ORDER_MAP,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['win1255', 'char', 'to', 'order', 'map']"
 HEBREW_LANG_MODEL,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['hebrew', 'lang', 'model']"
 Win1255HebrewModel,4,,,1,,,,,,3,CapitalizedWords,"['win1255', 'hebrew', 'model']"
-Latin2_HungarianCharToOrderMap,2,,,,,,,,,2,ugly,"['latin2', 'hungarianchartoordermap']"
+Latin2_HungarianCharToOrderMap,2,,,,,,,,,2,Capitalized_Words_With_Underscores,"['latin2', 'hungarianchartoordermap']"
 win1250HungarianCharToOrderMap,2,,,,,,,,,2,mixedCase,"['win1250', 'hungarian', 'char', 'to', 'order', 'map']"
 HungarianLangModel,3,,,,,,,,,3,CapitalizedWords,"['hungarian', 'lang', 'model']"
 Latin2HungarianModel,1,,,,,,,,,1,CapitalizedWords,"['latin2', 'hungarian', 'model']"
@@ -4692,7 +4692,7 @@ Win1250HungarianModel,1,,,,,,,,,1,CapitalizedWords,"['win1250', 'hungarian', 'mo
 TIS620CharToOrderMap,2,,,,,,,,,2,CapitalizedWords,"['tis620', 'char', 'to', 'order', 'map']"
 ThaiLangModel,2,,,,,,,,,2,CapitalizedWords,"['thai', 'lang', 'model']"
 TIS620ThaiModel,3,,,1,,,,,,2,CapitalizedWords,"['tis620', 'thai', 'model']"
-Latin5_TurkishCharToOrderMap,2,,,,,,,,,2,ugly,"['latin5', 'turkishchartoordermap']"
+Latin5_TurkishCharToOrderMap,2,,,,,,,,,2,Capitalized_Words_With_Underscores,"['latin5', 'turkishchartoordermap']"
 TurkishLangModel,2,,,,,,,,,2,CapitalizedWords,"['turkish', 'lang', 'model']"
 Latin5TurkishModel,3,,,1,,,,,,2,CapitalizedWords,"['latin5', 'turkish', 'model']"
 FREQ_CAT_NUM,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['freq', 'cat', 'num']"
@@ -4705,7 +4705,7 @@ ACO,12,,,,,,,,,12,UPPERCASE,"['ac', 'o']"
 ASV,25,,,,,,,,,25,UPPERCASE,"['as', 'v']"
 ASO,12,,,,,,,,,12,UPPERCASE,"['as', 'o']"
 CLASS_NUM,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['class', 'num']"
-Latin1_CharToClass,2,,,,,,,,,2,ugly,"['latin1', 'chartoclass']"
+Latin1_CharToClass,2,,,,,,,,,2,Capitalized_Words_With_Underscores,"['latin1', 'chartoclass']"
 Latin1ClassModel,2,,,,,,,,,2,CapitalizedWords,"['latin1', 'class', 'model']"
 Latin1Prober,4,,1,1,,,,,,2,CapitalizedWords,"['latin1', 'prober']"
 _last_char_class,4,,,,,,,,,4,lower_case_with_underscores,"['last', 'char', 'class']"
@@ -5856,9 +5856,9 @@ wrap_socket,9,3,,1,,,,,,5,lower_case_with_underscores,"['wrap', 'socket']"
 key_file,24,,,,,4,2,,,18,lower_case_with_underscores,"['key', 'file']"
 cert_file,23,,,,,3,2,,,18,lower_case_with_underscores,"['cert', 'file']"
 ssl_version,16,,,,,3,3,,,10,lower_case_with_underscores,"['ssl', 'version']"
-PROTOCOL_SSLv23,7,,,1,,,,,,6,ugly,"['protocol', 'sslv23']"
+PROTOCOL_SSLv23,7,,,1,,,,,,6,Capitalized_Words_With_Underscores,"['protocol', 'sslv23']"
 SSLContext,17,,1,2,,,,,,14,CapitalizedWords,"['ssl', 'context']"
-OP_NO_SSLv2,4,,,1,,,,,,3,ugly,"['op', 'no', 'sslv2']"
+OP_NO_SSLv2,4,,,1,,,,,,3,Capitalized_Words_With_Underscores,"['op', 'no', 'sslv2']"
 load_cert_chain,7,3,,,,,,,,4,lower_case_with_underscores,"['load', 'cert', 'chain']"
 verify_mode,15,4,,,,,,,,11,lower_case_with_underscores,"['verify', 'mode']"
 load_verify_locations,8,3,,,,,,,,5,lower_case_with_underscores,"['load', 'verify', 'locations']"
@@ -7288,7 +7288,7 @@ CodecInfo,2,,,,,,,,,2,CapitalizedWords,"['codec', 'info']"
 incrementalencoder,3,,,,,,2,,,1,lowercase,['incrementalencoder']
 incrementaldecoder,3,,,,,,2,,,1,lowercase,['incrementaldecoder']
 streamwriter,2,,,,,,2,,,,lowercase,['streamwriter']
-*,4,,,4,,,,,,,mixedCase,['*']
+*,4,,,4,,,,,,,ugly,['*']
 ToASCII,1,1,,,,,,,,,CapitalizedWords,"['to', 'asci', 'i']"
 ToUnicode,1,1,,,,,,,,,CapitalizedWords,"['to', 'unicode']"
 nameprep,1,1,,,,,,,,,lowercase,['nameprep']
@@ -8926,7 +8926,7 @@ set_tunnel,1,,,,,,,,,1,lower_case_with_underscores,"['set', 'tunnel']"
 actual_host,3,,,,,,,,,3,lower_case_with_underscores,"['actual', 'host']"
 actual_port,3,,,,,,,,,3,lower_case_with_underscores,"['actual', 'port']"
 IncompleteRead,6,,1,2,,,,,,3,CapitalizedWords,"['incomplete', 'read']"
-httplib_IncompleteRead,2,,,,,,,1,,1,ugly,"['httplib', 'incompleteread']"
+httplib_IncompleteRead,2,,,,,,,1,,1,camel_Snake_Case,"['httplib', 'incompleteread']"
 HTTPWarning,7,,1,1,,,,,,5,CapitalizedWords,"['http', 'warning']"
 PoolError,6,,1,,,,,,,5,CapitalizedWords,"['pool', 'error']"
 RequestError,6,,1,,,,,,,5,CapitalizedWords,"['request', 'error']"
@@ -9111,15 +9111,15 @@ rawuser,2,,,,,,,,,2,lowercase,['rawuser']
 user_parts,3,,,,,,,,,3,lower_case_with_underscores,"['user', 'parts']"
 req_header,3,,,,,,,,,3,lower_case_with_underscores,"['req', 'header']"
 resp_header,4,,,,,,,,,4,lower_case_with_underscores,"['resp', 'header']"
-create_NTLM_NEGOTIATE_MESSAGE,1,,,,,,,,,1,ugly,"['create', 'ntlm', 'negotiate', 'message']"
+create_NTLM_NEGOTIATE_MESSAGE,1,,,,,,,,,1,camel_Snake_Case,"['create', 'ntlm', 'negotiate', 'message']"
 reshdr,4,,,,,,,,,4,lowercase,['reshdr']
 auth_header_values,2,,,,,,,,,2,lower_case_with_underscores,"['auth', 'header', 'values']"
 auth_header_value,4,,,,,,,,,4,lower_case_with_underscores,"['auth', 'header', 'value']"
 ServerChallenge,2,,,,,,,,,2,CapitalizedWords,"['server', 'challenge']"
 NegotiateFlags,2,,,,,,,,,2,CapitalizedWords,"['negotiate', 'flags']"
-parse_NTLM_CHALLENGE_MESSAGE,1,,,,,,,,,1,ugly,"['parse', 'ntlm', 'challenge', 'message']"
+parse_NTLM_CHALLENGE_MESSAGE,1,,,,,,,,,1,camel_Snake_Case,"['parse', 'ntlm', 'challenge', 'message']"
 auth_msg,2,,,,,,,,,2,lower_case_with_underscores,"['auth', 'msg']"
-create_NTLM_AUTHENTICATE_MESSAGE,1,,,,,,,,,1,ugly,"['create', 'ntlm', 'authenticate', 'message']"
+create_NTLM_AUTHENTICATE_MESSAGE,1,,,,,,,,,1,camel_Snake_Case,"['create', 'ntlm', 'authenticate', 'message']"
 hazmat,5,,,5,,,,,,,lowercase,['hazmat']
 openssl,2,,,2,,,,,,,lowercase,['openssl']
 openssl_backend,2,,,,,,,1,,1,lower_case_with_underscores,"['openssl', 'backend']"
@@ -9131,11 +9131,11 @@ backport_makefile,5,1,,2,,,,,,2,lower_case_with_underscores,"['backport', 'makef
 HAS_SNI,20,,,2,,,,,,18,UPPER_CASE_WITH_UNDERSCORES,"['has', 'sni']"
 _openssl_versions,5,,,,,,,,,5,lower_case_with_underscores,"['openssl', 'versions']"
 PROTOCOL_TLS,10,,,2,,,,1,,7,UPPER_CASE_WITH_UNDERSCORES,"['protocol', 'tls']"
-PROTOCOL_TLSv1,2,,,,,,,,,2,ugly,"['protocol', 'tlsv1']"
-SSLv23_METHOD,1,,,,,,,,,1,ugly,"['sslv23', 'method']"
-TLSv1_METHOD,1,,,,,,,,,1,ugly,"['tlsv1', 'method']"
-PROTOCOL_SSLv3,2,,,,,,,,,2,ugly,"['protocol', 'sslv3']"
-SSLv3_METHOD,1,,,,,,,,,1,ugly,"['sslv3', 'method']"
+PROTOCOL_TLSv1,2,,,,,,,,,2,Capitalized_Words_With_Underscores,"['protocol', 'tlsv1']"
+SSLv23_METHOD,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['sslv23', 'method']"
+TLSv1_METHOD,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['tlsv1', 'method']"
+PROTOCOL_SSLv3,2,,,,,,,,,2,Capitalized_Words_With_Underscores,"['protocol', 'sslv3']"
+SSLv3_METHOD,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['sslv3', 'method']"
 PROTOCOL_TLSv1_1,2,,,,,,,,,2,ugly,"['protocol', 'tlsv1', '1']"
 TLSv1_1_METHOD,1,,,,,,,,,1,ugly,"['tlsv1', '1', 'method']"
 PROTOCOL_TLSv1_2,2,,,,,,,,,2,ugly,"['protocol', 'tlsv1', '2']"
@@ -9270,7 +9270,7 @@ TLS_RSA_WITH_AES_128_CBC_SHA,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['tls', 'r
 _protocol_to_min_max,7,,,,,,,,,7,lower_case_with_underscores,"['protocol', 'to', 'min', 'max']"
 kTLSProtocol1,5,,,,,,,,,5,mixedCase,"['k', 'tls', 'protocol1']"
 kTLSProtocol12,5,,,,,,,,,5,mixedCase,"['k', 'tls', 'protocol12']"
-PROTOCOL_SSLv2,1,,,,,,,,,1,ugly,"['protocol', 'sslv2']"
+PROTOCOL_SSLv2,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['protocol', 'sslv2']"
 kSSLProtocol2,4,,,,,,,,,4,mixedCase,"['k', 'ssl', 'protocol2']"
 kSSLProtocol3,4,,,,,,,,,4,mixedCase,"['k', 'ssl', 'protocol3']"
 kTLSProtocol11,4,,,,,,,,,4,mixedCase,"['k', 'tls', 'protocol11']"
@@ -9613,7 +9613,7 @@ HASHFUNC_MAP,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['hashfunc', 'map']"
 _const_compare_digest_backport,2,1,,,,,,,,1,lower_case_with_underscores,"['const', 'compare', 'digest', 'backport']"
 abs,1,,,,,,,,,1,lowercase,['abs']
 _const_compare_digest,2,,,,,,,,,2,lower_case_with_underscores,"['const', 'compare', 'digest']"
-OP_NO_SSLv3,3,,,1,,,,,,2,ugly,"['op', 'no', 'sslv3']"
+OP_NO_SSLv3,3,,,1,,,,,,2,Capitalized_Words_With_Underscores,"['op', 'no', 'sslv3']"
 OP_NO_COMPRESSION,3,,,1,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['op', 'no', 'compression']"
 protocol_version,2,,,,,1,,,,1,lower_case_with_underscores,"['protocol', 'version']"
 cipher_suite,2,,,,,1,,,,1,lower_case_with_underscores,"['cipher', 'suite']"
@@ -10356,7 +10356,7 @@ bindir,3,,,,,,,,,3,lowercase,['bindir']
 ve_bin,3,,,,,,,,,3,lower_case_with_underscores,"['ve', 'bin']"
 _patch_dist_in_site_packages,6,1,,1,,,,,,4,lower_case_with_underscores,"['patch', 'dist', 'in', 'site', 'packages']"
 sitecustomize,9,2,,,,,,,,7,lowercase,['sitecustomize']
-Tests_UserSite,1,,1,,,,,,,,ugly,"['tests', 'usersite']"
+Tests_UserSite,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['tests', 'usersite']"
 test_reset_env_system_site_packages_usersite,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'reset', 'env', 'system', 'site', 'packages', 'usersite']"
 test_install_subversion_usersite_editable_with_distribute,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'install', 'subversion', 'usersite', 'editable', 'with', 'distribute']"
 test_install_from_current_directory_into_usersite,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'install', 'from', 'current', 'directory', 'into', 'usersite']"
@@ -10616,7 +10616,7 @@ test_uninstall_ignores_missing_packages,1,1,,,,,,,,,lower_case_with_underscores,
 test_uninstall_ignores_missing_packages_and_uninstalls_rest,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'uninstall', 'ignores', 'missing', 'packages', 'and', 'uninstalls', 'rest']"
 functional,1,,,1,,,,,,,lowercase,['functional']
 test_install_user,1,,,1,,,,,,,lower_case_with_underscores,"['test', 'install', 'user']"
-Tests_UninstallUserSite,1,,1,,,,,,,,ugly,"['tests', 'uninstallusersite']"
+Tests_UninstallUserSite,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['tests', 'uninstallusersite']"
 test_uninstall_from_usersite,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'uninstall', 'from', 'usersite']"
 test_uninstall_from_usersite_with_dist_in_global_site,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'uninstall', 'from', 'usersite', 'with', 'dist', 'in', 'global', 'site']"
 user_bin_path,3,,,,,,,,,3,lower_case_with_underscores,"['user', 'bin', 'path']"
@@ -11426,7 +11426,7 @@ test_PIP_USE_PEP517_true,1,1,,,,,,,,,ugly,"['test', 'pip', 'use', 'pep517', 'tru
 test_PIP_USE_PEP517_false,1,1,,,,,,,,,ugly,"['test', 'pip', 'use', 'pep517', 'false']"
 test_use_pep517_and_PIP_USE_PEP517_false,1,1,,,,,,,,,ugly,"['test', 'use', 'pep517', 'and', 'pip', 'use', 'pep517', 'false']"
 test_no_use_pep517_and_PIP_USE_PEP517_true,1,1,,,,,,,,,ugly,"['test', 'no', 'use', 'pep517', 'and', 'pip', 'use', 'pep517', 'true']"
-test_PIP_NO_USE_PEP517,1,1,,,,,,,,,ugly,"['test', 'pip', 'no', 'use', 'pep517']"
+test_PIP_NO_USE_PEP517,1,1,,,,,,,,,camel_Snake_Case,"['test', 'pip', 'no', 'use', 'pep517']"
 TestOptionsInterspersed,1,,1,,,,,,,,CapitalizedWords,"['test', 'options', 'interspersed']"
 test_general_option_after_subcommand,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'general', 'option', 'after', 'subcommand']"
 test_option_after_subcommand_arg,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'option', 'after', 'subcommand', 'arg']"
@@ -11736,7 +11736,7 @@ test_url_to_path,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'url', 'to', 
 expected_path,4,,,,,,,,,4,lower_case_with_underscores,"['expected', 'path']"
 test_url_to_path_path_to_url_symmetry_win,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'url', 'to', 'path', 'path', 'to', 'url', 'symmetry', 'win']"
 unc_path,3,,,,,,,,,3,lower_case_with_underscores,"['unc', 'path']"
-Tests_EgglinkPath,1,,1,,,,,,,,ugly,"['tests', 'egglinkpath']"
+Tests_EgglinkPath,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['tests', 'egglinkpath']"
 mock_dist,13,,,,,,,,,13,lower_case_with_underscores,"['mock', 'dist']"
 user_site_egglink,5,,,,,,,,,5,lower_case_with_underscores,"['user', 'site', 'egglink']"
 site_packages_egglink,7,,,,,,,,,7,lower_case_with_underscores,"['site', 'packages', 'egglink']"

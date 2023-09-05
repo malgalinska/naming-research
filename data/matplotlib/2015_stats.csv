@@ -1,4 +1,4 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,case_convention,words
+name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
 _hatch_dict,3,,,,,,,,,3,lower_case_with_underscores,"['hatch', 'dict']"
 _sharez,6,,,,,,,,,6,lowercase,['sharez']
 use_defaults,3,,,,,,,,,3,lower_case_with_underscores,"['use', 'defaults']"
@@ -638,7 +638,7 @@ AutoLocator,6,,1,2,,,,,,3,CapitalizedWords,"['auto', 'locator']"
 BITMAP_TYPE_TIF,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['bitmap', 'type', 'tif']"
 _zsort_functions,3,,,,,,,,,3,lower_case_with_underscores,"['zsort', 'functions']"
 cbar_mode,12,,,,,,10,,,2,lower_case_with_underscores,"['cbar', 'mode']"
-test_Normalize,1,1,,,,,,,,,ugly,"['test', 'normalize']"
+test_Normalize,1,1,,,,,,,,,camel_Snake_Case,"['test', 'normalize']"
 numpts,2,,,,,,,,,2,lowercase,['numpts']
 _set_tri_up,1,1,,,,,,,,,lower_case_with_underscores,"['set', 'tri', 'up']"
 fontconfig_pattern,2,,,2,,,,,,,lower_case_with_underscores,"['fontconfig', 'pattern']"
@@ -889,9 +889,9 @@ vertices_list,5,,,,,,,,,5,lower_case_with_underscores,"['vertices', 'list']"
 axes_row,7,,,,,,,,,7,lower_case_with_underscores,"['axes', 'row']"
 borken,3,,,,,,,,,3,lowercase,['borken']
 FavIcon,2,,1,,,,,,,1,CapitalizedWords,"['fav', 'icon']"
-Key_F12,1,,,,,,,,,1,ugly,"['key', 'f12']"
+Key_F12,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'f12']"
 _drawn_artists,11,,,,,,,,,11,lower_case_with_underscores,"['drawn', 'artists']"
-Key_F11,1,,,,,,,,,1,ugly,"['key', 'f11']"
+Key_F11,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'f11']"
 yticklabels,5,,,,,,3,,,2,lowercase,['yticklabels']
 get_ylim3d,5,1,,,,,,,,4,lower_case_with_underscores,"['get', 'ylim3d']"
 multiarch_exec,3,,,,,,,,,3,lower_case_with_underscores,"['multiarch', 'exec']"
@@ -1073,7 +1073,7 @@ gs_from_subplotspec,5,,,,,,,,,5,lower_case_with_underscores,"['gs', 'from', 'sub
 Yield,2,,,,,,,,,2,CapitalizedWords,['yield']
 choice,7,,,,,,,,,7,lowercase,['choice']
 wtree,20,,,,,,,,,20,lowercase,['wtree']
-Key_Left,1,,,,,,,,,1,ugly,"['key', 'left']"
+Key_Left,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'left']"
 orientations,24,,,,,,18,,,6,lowercase,['orientations']
 locked,4,1,,,,,,,,3,lowercase,['locked']
 _BuPu_data,2,,,,,,,,,2,ugly,"['bupu', 'data']"
@@ -1148,7 +1148,7 @@ checksum,3,,,,,,,,,3,lowercase,['checksum']
 MO,3,,,2,,,,,,1,UPPERCASE,"['m', 'o']"
 funcmap,2,,,,,,,,,2,lowercase,['funcmap']
 jdRef,3,,,,,,,,,3,mixedCase,"['jd', 'ref']"
-Key_Alt,2,,,,,,,,,2,ugly,"['key', 'alt']"
+Key_Alt,2,,,,,,,,,2,Capitalized_Words_With_Underscores,"['key', 'alt']"
 tk_inc,10,,,,,,,,,10,lower_case_with_underscores,"['tk', 'inc']"
 _do_download,4,1,,,,,,,,3,lower_case_with_underscores,"['do', 'download']"
 lastchar,3,,,,,,,,,3,lowercase,['lastchar']
@@ -1234,7 +1234,7 @@ tick_iter,2,,,,,,,,,2,lower_case_with_underscores,"['tick', 'iter']"
 RawConfigParser,1,,,,,,,,,1,CapitalizedWords,"['raw', 'config', 'parser']"
 mlast,7,,,,,,,,,7,lowercase,['mlast']
 allowed,12,,,,,,,,,12,lowercase,['allowed']
-test_PowerNorm,1,1,,,,,,,,,ugly,"['test', 'powernorm']"
+test_PowerNorm,1,1,,,,,,,,,camel_Snake_Case,"['test', 'powernorm']"
 _get_tick2line,4,3,,,,,,,,1,lower_case_with_underscores,"['get', 'tick2line']"
 ToolBar,2,,,,,,,,,2,CapitalizedWords,"['tool', 'bar']"
 dyy,6,,,,,,,,,6,lowercase,['dyy']
@@ -1724,7 +1724,7 @@ invert_zaxis,1,1,,,,,,,,,lower_case_with_underscores,"['invert', 'zaxis']"
 poisson_sparse_matrix,3,1,,,,,,,,2,lower_case_with_underscores,"['poisson', 'sparse', 'matrix']"
 test_prctile,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'prctile']"
 FontProperties,65,,1,17,,,,,,47,CapitalizedWords,"['font', 'properties']"
-Key_Control,4,,,,,,,,,4,ugly,"['key', 'control']"
+Key_Control,4,,,,,,,,,4,Capitalized_Words_With_Underscores,"['key', 'control']"
 add_toolbar,4,2,,,,,,,,2,lower_case_with_underscores,"['add', 'toolbar']"
 proc_stdout,8,,,,,,,,,8,lower_case_with_underscores,"['proc', 'stdout']"
 _bone_data,2,,,,,,,,,2,lower_case_with_underscores,"['bone', 'data']"
@@ -1744,12 +1744,12 @@ Round,3,,1,,,,,,,2,CapitalizedWords,['round']
 nshift,5,,,,,,,,,5,lowercase,['nshift']
 new_w,3,,,,,,,,,3,lower_case_with_underscores,"['new', 'w']"
 _powerlimits,4,,,,,,,,,4,lowercase,['powerlimits']
-Key_F7,1,,,,,,,,,1,ugly,"['key', 'f7']"
-Key_F1,1,,,,,,,,,1,ugly,"['key', 'f1']"
-Key_F2,1,,,,,,,,,1,ugly,"['key', 'f2']"
+Key_F7,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'f7']"
+Key_F1,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'f1']"
+Key_F2,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'f2']"
 _cool_data,2,,,,,,,,,2,lower_case_with_underscores,"['cool', 'data']"
 new_z,3,,,,,,,,,3,lower_case_with_underscores,"['new', 'z']"
-Key_F9,1,,,,,,,,,1,ugly,"['key', 'f9']"
+Key_F9,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'f9']"
 new_x,6,,,,,,,,,6,lower_case_with_underscores,"['new', 'x']"
 new_y,6,,,,,,,,,6,lower_case_with_underscores,"['new', 'y']"
 colorbar,115,5,,11,,,,,,99,lowercase,['colorbar']
@@ -1992,7 +1992,7 @@ Empty,2,,,1,,,,,,1,CapitalizedWords,['empty']
 zz_dataLim,5,,,,,,,,,5,ugly,"['zz', 'datalim']"
 set_x,18,4,,,,,,,,14,lower_case_with_underscores,"['set', 'x']"
 set_y,22,4,,,,,,,,18,lower_case_with_underscores,"['set', 'y']"
-test_PsfontsMap,1,1,,,,,,,,,ugly,"['test', 'psfontsmap']"
+test_PsfontsMap,1,1,,,,,,,,,camel_Snake_Case,"['test', 'psfontsmap']"
 NFFT_spectrum_real,3,,,,,,,,,3,ugly,"['nfft', 'spectrum', 'real']"
 _set_tickleft,1,1,,,,,,,,,lower_case_with_underscores,"['set', 'tickleft']"
 total_errors,2,,,,,,,,,2,lower_case_with_underscores,"['total', 'errors']"
@@ -2178,7 +2178,7 @@ set_linewidths,3,1,,,,,,,,2,lower_case_with_underscores,"['set', 'linewidths']"
 expected_bad_files,3,,,,,,,,,3,lower_case_with_underscores,"['expected', 'bad', 'files']"
 condition,2,,,,,,,,,2,lowercase,['condition']
 PatchRC,2,,1,,,,,,,1,CapitalizedWords,"['patch', 'r', 'c']"
-Toolkits_Tests,2,,1,,,,,,,1,ugly,"['toolkits', 'tests']"
+Toolkits_Tests,2,,1,,,,,,,1,Capitalized_Words_With_Underscores,"['toolkits', 'tests']"
 ro,7,,,,,,,,,7,lowercase,['ro']
 arrow_transmuter,5,,,,,,2,,,3,lower_case_with_underscores,"['arrow', 'transmuter']"
 basefile,22,,,,,,,,,22,lowercase,['basefile']
@@ -2879,7 +2879,7 @@ draw_sizebar,2,1,,,,,,,,1,lower_case_with_underscores,"['draw', 'sizebar']"
 MSFolders,2,,,,,,,,,2,CapitalizedWords,"['ms', 'folders']"
 pickx,4,,,,,,1,,,3,lowercase,['pickx']
 picky,4,,,,,,1,,,3,lowercase,['picky']
-Key_End,1,,,,,,,,,1,ugly,"['key', 'end']"
+Key_End,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'end']"
 demo_grid_with_single_cbar,2,1,,,,,,,,1,lower_case_with_underscores,"['demo', 'grid', 'with', 'single', 'cbar']"
 set_alpha,76,13,,,,,,,,63,lower_case_with_underscores,"['set', 'alpha']"
 sinB,6,,,,,,,,,6,mixedCase,"['sin', 'b']"
@@ -2961,7 +2961,7 @@ fig_width_inch,4,,,,,,,,,4,lower_case_with_underscores,"['fig', 'width', 'inch']
 test_zorder,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'zorder']"
 c_is_stringy,3,,,,,,,,,3,lower_case_with_underscores,"['c', 'is', 'stringy']"
 draw_cursor,1,1,,,,,,,,,lower_case_with_underscores,"['draw', 'cursor']"
-Key_Right,1,,,,,,,,,1,ugly,"['key', 'right']"
+Key_Right,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'right']"
 _is_horizontal,4,,,,,,,,,4,lower_case_with_underscores,"['is', 'horizontal']"
 to_rgb,25,1,,,,,,,,24,lower_case_with_underscores,"['to', 'rgb']"
 _full_screen_flag,8,,,,,,,,,8,lower_case_with_underscores,"['full', 'screen', 'flag']"
@@ -3179,7 +3179,7 @@ code,101,,,2,,,,,,99,lowercase,['code']
 DraggableOffsetBox,4,,1,1,,,,,,2,CapitalizedWords,"['draggable', 'offset', 'box']"
 results,60,,,,,,,,,60,lowercase,['results']
 test_detrend_str_mean_0D_zeros,1,1,,,,,,,,,ugly,"['test', 'detrend', 'str', 'mean', '0d', 'zeros']"
-Key_Pause,1,,,,,,,,,1,ugly,"['key', 'pause']"
+Key_Pause,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'pause']"
 ignorecase,12,,,,,,7,,,5,lowercase,['ignorecase']
 test_given_colors_levels_and_extends,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'given', 'colors', 'levels', 'and', 'extends']"
 toggle,37,2,,,,,,,,35,lowercase,['toggle']
@@ -3272,7 +3272,7 @@ setgstate,2,,,,,,1,,,1,lowercase,['setgstate']
 nargs,3,,,,,,,,,3,lowercase,['nargs']
 norm_home_dir,6,,,,,,,,,6,lower_case_with_underscores,"['norm', 'home', 'dir']"
 len,1388,,,,,,,,,1388,lowercase,['len']
-Gen_RandLine,2,1,,,,,,,,1,ugly,"['gen', 'randline']"
+Gen_RandLine,2,1,,,,,,,,1,Capitalized_Words_With_Underscores,"['gen', 'randline']"
 ACTIVATE_BAT,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['activate', 'bat']"
 indEnd,7,,,,,,,,,7,mixedCase,"['ind', 'end']"
 lev,42,,,,,,,,,42,lowercase,['lev']
@@ -3366,7 +3366,7 @@ scatter,82,3,,,,,,,,79,lowercase,['scatter']
 USE_FONTCONFIG,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['use', 'fontconfig']"
 wedge,7,1,,,,,,,,6,lowercase,['wedge']
 on_combobox_lineprops_changed,2,2,,,,,,,,,lower_case_with_underscores,"['on', 'combobox', 'lineprops', 'changed']"
-test_SymLogNorm,1,1,,,,,,,,,ugly,"['test', 'symlognorm']"
+test_SymLogNorm,1,1,,,,,,,,,camel_Snake_Case,"['test', 'symlognorm']"
 refresh_all,2,1,,,,,,,,1,lower_case_with_underscores,"['refresh', 'all']"
 process,34,1,,,,,,,,33,lowercase,['process']
 lock,5,,,,,,,,,5,lowercase,['lock']
@@ -4062,7 +4062,7 @@ keyd,2,,,,,,,,,2,lowercase,['keyd']
 _set_offset_radius,7,1,,,,,,,,6,lower_case_with_underscores,"['set', 'offset', 'radius']"
 nth_coord,68,,,,,,4,,,64,lower_case_with_underscores,"['nth', 'coord']"
 minspan,5,,,,,,,,,5,lowercase,['minspan']
-test_DateFormatter,1,1,,,,,,,,,ugly,"['test', 'dateformatter']"
+test_DateFormatter,1,1,,,,,,,,,camel_Snake_Case,"['test', 'dateformatter']"
 dy1dy2,3,,,,,,,,,3,lowercase,['dy1dy2']
 mx2num,2,1,,1,,,,,,,lowercase,['mx2num']
 HandlerPathCollection,2,,1,,,,,,,1,CapitalizedWords,"['handler', 'path', 'collection']"
@@ -4670,7 +4670,7 @@ is_doctest,16,,,,,,,,,16,lower_case_with_underscores,"['is', 'doctest']"
 print_to_buffer,3,1,,,,,,,,2,lower_case_with_underscores,"['print', 'to', 'buffer']"
 axis_side,6,,,,,,,,,6,lower_case_with_underscores,"['axis', 'side']"
 FontEntry,3,,1,,,,,,,2,CapitalizedWords,"['font', 'entry']"
-test_LogLocator,1,1,,,,,,,,,ugly,"['test', 'loglocator']"
+test_LogLocator,1,1,,,,,,,,,camel_Snake_Case,"['test', 'loglocator']"
 test_detrend_linear_1d_slope,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'detrend', 'linear', '1d', 'slope']"
 fname,297,,,,,,6,,,291,lowercase,['fname']
 old_legend,3,,,,,,,,,3,lower_case_with_underscores,"['old', 'legend']"
@@ -4706,7 +4706,7 @@ strokeopacity,4,,,,,,,,,4,lowercase,['strokeopacity']
 useMathText,15,,,,,,9,,,6,mixedCase,"['use', 'math', 'text']"
 imshow_rgb,6,2,,1,,,,,,3,lower_case_with_underscores,"['imshow', 'rgb']"
 contour_routine,3,,,,,,,,,3,lower_case_with_underscores,"['contour', 'routine']"
-Key_Home,1,,,,,,,,,1,ugly,"['key', 'home']"
+Key_Home,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'home']"
 wildcard,2,,,,,,,,,2,lowercase,['wildcard']
 getmaskarray,5,,,,,,,,,5,lowercase,['getmaskarray']
 half_barb,2,,,,,,,,,2,lower_case_with_underscores,"['half', 'barb']"
@@ -4733,7 +4733,7 @@ latex_output,5,,,,,,,,,5,lower_case_with_underscores,"['latex', 'output']"
 spectral_testcase_nosig_real_onesided_noNFFT,1,,1,,,,,,,,ugly,"['spectral', 'testcase', 'nosig', 'real', 'onesided', 'nonfft']"
 CMAP_TEMPLATE,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['cmap', 'template']"
 get_urls,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'urls']"
-test_MultipleLocator,1,1,,,,,,,,,ugly,"['test', 'multiplelocator']"
+test_MultipleLocator,1,1,,,,,,,,,camel_Snake_Case,"['test', 'multiplelocator']"
 encodingfile,3,,,,,,1,,,2,lowercase,['encodingfile']
 tipheight,3,,,,,,,,,3,lowercase,['tipheight']
 int_literal,3,,,,,,,,,3,lower_case_with_underscores,"['int', 'literal']"
@@ -4991,7 +4991,7 @@ get_orientation,5,1,,,,,,,,4,lower_case_with_underscores,"['get', 'orientation']
 has_fignum,3,1,,,,,,,,2,lower_case_with_underscores,"['has', 'fignum']"
 TickLabels,4,,1,,,,,,,3,CapitalizedWords,"['tick', 'labels']"
 draw_event,2,1,,,,,,,,1,lower_case_with_underscores,"['draw', 'event']"
-test_RRuleLocator,1,1,,,,,,,,,ugly,"['test', 'rrulelocator']"
+test_RRuleLocator,1,1,,,,,,,,,camel_Snake_Case,"['test', 'rrulelocator']"
 spread,8,,,,,,,,,8,lowercase,['spread']
 transformed,17,2,,,,,,,,15,lowercase,['transformed']
 valign,11,,,,,,,,,11,lowercase,['valign']
@@ -5389,7 +5389,7 @@ patch_func,2,,,,,,,,,2,lower_case_with_underscores,"['patch', 'func']"
 edit_recarray,3,1,,,,,,,,2,lower_case_with_underscores,"['edit', 'recarray']"
 set_weight,10,2,,,,,,,,8,lower_case_with_underscores,"['set', 'weight']"
 post_post,4,,,,,,1,,,3,lower_case_with_underscores,"['post', 'post']"
-Key_F10,1,,,,,,,,,1,ugly,"['key', 'f10']"
+Key_F10,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'f10']"
 r1desc,2,,,,,,,,,2,lowercase,['r1desc']
 update_prop,18,2,,,,,,,,16,lower_case_with_underscores,"['update', 'prop']"
 num_datasets,2,,,,,,,,,2,lower_case_with_underscores,"['num', 'datasets']"
@@ -5707,7 +5707,7 @@ _clippath,23,,,,,,,,,23,lowercase,['clippath']
 cbox_linestyles,6,,,,,,,,,6,lower_case_with_underscores,"['cbox', 'linestyles']"
 _styles,2,,,,,,,,,2,lowercase,['styles']
 axis_direction,59,,,,,,23,,,36,lower_case_with_underscores,"['axis', 'direction']"
-test_LogFormatterExponent,1,1,,,,,,,,,ugly,"['test', 'logformatterexponent']"
+test_LogFormatterExponent,1,1,,,,,,,,,camel_Snake_Case,"['test', 'logformatterexponent']"
 matchout,6,,,,,,,,,6,lowercase,['matchout']
 fh_src,4,,,,,,,,,4,lower_case_with_underscores,"['fh', 'src']"
 inangle,2,,,,,,,,,2,lowercase,['inangle']
@@ -6396,7 +6396,7 @@ _start,12,1,,,,,,,,11,lowercase,['start']
 doplot,11,2,,,,,,,,9,lowercase,['doplot']
 next_num,3,,,,,,,,,3,lower_case_with_underscores,"['next', 'num']"
 get_figure_manager,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'figure', 'manager']"
-Key_PageUp,1,,,,,,,,,1,ugly,"['key', 'pageup']"
+Key_PageUp,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'pageup']"
 loc1a,8,,,,,,3,,,5,lowercase,['loc1a']
 loc1b,10,,,,,,3,,,7,lowercase,['loc1b']
 mouseDoubleClickEvent,1,1,,,,,,,,,mixedCase,"['mouse', 'double', 'click', 'event']"
@@ -6594,7 +6594,7 @@ decimal,9,,,1,,,5,,,3,lowercase,['decimal']
 yB,4,,,,,,,,,4,mixedCase,"['y', 'b']"
 WXK_ESCAPE,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['wxk', 'escape']"
 assert_pep8_conformance,2,1,,,,,,,,1,lower_case_with_underscores,"['assert', 'pep8', 'conformance']"
-karray_H,3,,,,,,,,,3,ugly,"['karray', 'h']"
+karray_H,3,,,,,,,,,3,camel_Snake_Case,"['karray', 'h']"
 check_update,2,1,,,,,,,,1,lower_case_with_underscores,"['check', 'update']"
 y_,4,,,,,,,,,4,b,['y']
 make_environment_relocatable,2,1,,,,,,,,1,lower_case_with_underscores,"['make', 'environment', 'relocatable']"
@@ -6676,7 +6676,7 @@ QSpinBox,1,,,,,,,,,1,CapitalizedWords,"['q', 'spin', 'box']"
 AxislineStyle,8,,1,2,,,,,,5,CapitalizedWords,"['axisline', 'style']"
 xmarg,2,,,,,,,,,2,lowercase,['xmarg']
 WEIGHT_NORMAL,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['weight', 'normal']"
-_new_UV,3,,,,,,,,,3,ugly,"['new', 'uv']"
+_new_UV,3,,,,,,,,,3,camel_Snake_Case,"['new', 'uv']"
 set_theta_zero_location,2,1,,,,,,,,1,lower_case_with_underscores,"['set', 'theta', 'zero', 'location']"
 subplot_host_class,2,,,,,,,,,2,lower_case_with_underscores,"['subplot', 'host', 'class']"
 Kff_vals,4,,,,,,,,,4,ugly,"['kff', 'vals']"
@@ -7182,7 +7182,7 @@ _filternorm,5,,,,,,,,,5,lowercase,['filternorm']
 test_evaluate_dim_and_num,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'evaluate', 'dim', 'and', 'num']"
 bbox_from_ext,8,,,,,,,,,8,lower_case_with_underscores,"['bbox', 'from', 'ext']"
 xShear,4,,,,,,,,,4,mixedCase,"['x', 'shear']"
-Py_DecRef,2,,,,,,,,,2,ugly,"['py', 'decref']"
+Py_DecRef,2,,,,,,,,,2,Capitalized_Words_With_Underscores,"['py', 'decref']"
 iter_style_files,2,1,,,,,,,,1,lower_case_with_underscores,"['iter', 'style', 'files']"
 add_artist,106,6,,,,,,,,100,lower_case_with_underscores,"['add', 'artist']"
 globstr,2,,,,,,,,,2,lowercase,['globstr']
@@ -7434,7 +7434,7 @@ PuBu_r,1,,,,,,,,,1,ugly,"['pubu', 'r']"
 _xerr_size,2,,,,,,,,,2,lower_case_with_underscores,"['xerr', 'size']"
 QHBoxLayout,9,,,,,,,,,9,CapitalizedWords,"['qh', 'box', 'layout']"
 round_to,4,,,,,,,,,4,lower_case_with_underscores,"['round', 'to']"
-Key_Play,2,,,,,,,,,2,ugly,"['key', 'play']"
+Key_Play,2,,,,,,,,,2,Capitalized_Words_With_Underscores,"['key', 'play']"
 arrow_in,3,,,,,,,,,3,lower_case_with_underscores,"['arrow', 'in']"
 _get_config_or_cache_dir,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'config', 'or', 'cache', 'dir']"
 WXK_RIGHT,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['wxk', 'right']"
@@ -7906,7 +7906,7 @@ TreeViewColumn,3,,,,,,,,,3,CapitalizedWords,"['tree', 'view', 'column']"
 NSLeftMouseUp,1,,,,,,,,,1,CapitalizedWords,"['ns', 'left', 'mouse', 'up']"
 add_polar_bar,2,1,,,,,,,,1,lower_case_with_underscores,"['add', 'polar', 'bar']"
 c_dof,2,,,,,,,,,2,lower_case_with_underscores,"['c', 'dof']"
-WA_OpaquePaintEvent,2,,,,,,,,,2,ugly,"['wa', 'opaquepaintevent']"
+WA_OpaquePaintEvent,2,,,,,,,,,2,Capitalized_Words_With_Underscores,"['wa', 'opaquepaintevent']"
 NavigationToolbar2GTKCairo,1,,,,,,,,,1,CapitalizedWords,"['navigation', 'toolbar2gtk', 'cairo']"
 _afmhot_data,2,,,,,,,,,2,lower_case_with_underscores,"['afmhot', 'data']"
 kwlist,1,,,,,,,,,1,lowercase,['kwlist']
@@ -7925,7 +7925,7 @@ macros,1,,,,,,,,,1,lowercase,['macros']
 ScrolledWindow,6,,,,,,,,,6,CapitalizedWords,"['scrolled', 'window']"
 ma20,2,,,,,,,,,2,lowercase,['ma20']
 right_beta,2,,,,,,,,,2,lower_case_with_underscores,"['right', 'beta']"
-Format_ARGB32,2,,,,,,,,,2,ugly,"['format', 'argb32']"
+Format_ARGB32,2,,,,,,,,,2,Capitalized_Words_With_Underscores,"['format', 'argb32']"
 alt_marker_trans,4,,,,,,,,,4,lower_case_with_underscores,"['alt', 'marker', 'trans']"
 pb1,17,,,,,,,,,17,lowercase,['pb1']
 h_in,2,,,,,,,,,2,lower_case_with_underscores,"['h', 'in']"
@@ -8160,7 +8160,7 @@ charprocObject,4,,,,,,,,,4,mixedCase,"['charproc', 'object']"
 LocatorHM,1,,1,,,,,,,,CapitalizedWords,"['locator', 'h', 'm']"
 push_state,5,1,,,,,,,,4,lower_case_with_underscores,"['push', 'state']"
 callable_formatting_function,2,,,,,,,,,2,lower_case_with_underscores,"['callable', 'formatting', 'function']"
-Key_Delete,1,,,,,,,,,1,ugly,"['key', 'delete']"
+Key_Delete,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'delete']"
 _number,3,,,,,,,,,3,lowercase,['number']
 TEST_EXT,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['test', 'ext']"
 bbox_found,3,,,,,,,,,3,lower_case_with_underscores,"['bbox', 'found']"
@@ -8461,7 +8461,7 @@ minor_tick_pad,2,,,,,,,,,2,lower_case_with_underscores,"['minor', 'tick', 'pad']
 ft2font,27,,,15,,,,1,,11,lowercase,['ft2font']
 _make_flip_transform,6,1,,,,,,,,5,lower_case_with_underscores,"['make', 'flip', 'transform']"
 demo_grid_with_each_cbar,2,1,,,,,,,,1,lower_case_with_underscores,"['demo', 'grid', 'with', 'each', 'cbar']"
-Key_Meta,4,,,,,,,,,4,ugly,"['key', 'meta']"
+Key_Meta,4,,,,,,,,,4,Capitalized_Words_With_Underscores,"['key', 'meta']"
 path_merged,2,,,,,,,,,2,lower_case_with_underscores,"['path', 'merged']"
 _num_to_str,2,1,,,,,,,,1,lower_case_with_underscores,"['num', 'to', 'str']"
 spectral_testcase_Fs4_real_onesided,1,,1,,,,,,,,ugly,"['spectral', 'testcase', 'fs4', 'real', 'onesided']"
@@ -8916,7 +8916,7 @@ r2ind,2,,,,,,,,,2,lowercase,['r2ind']
 boxin,8,,,,,,,,,8,lowercase,['boxin']
 ghuser_role,2,1,,,,,,,,1,lower_case_with_underscores,"['ghuser', 'role']"
 reference,3,,,,,,,,,3,lowercase,['reference']
-Key_F6,1,,,,,,,,,1,ugly,"['key', 'f6']"
+Key_F6,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'f6']"
 FigureCanvasSVG,4,,1,1,,,,,,2,CapitalizedWords,"['figure', 'canvas', 'sv', 'g']"
 testing,129,,,93,,,,,,36,lowercase,['testing']
 formatted_line,3,,,,,,,,,3,lower_case_with_underscores,"['formatted', 'line']"
@@ -8987,7 +8987,7 @@ format_xdata,4,1,,,,,,,,3,lower_case_with_underscores,"['format', 'xdata']"
 get_units,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'units']"
 binding_id,2,,,,,,,,,2,lower_case_with_underscores,"['binding', 'id']"
 cmap_d,9,,,,,,,,,9,lower_case_with_underscores,"['cmap', 'd']"
-test_EllipseCollection,1,1,,,,,,,,,ugly,"['test', 'ellipsecollection']"
+test_EllipseCollection,1,1,,,,,,,,,camel_Snake_Case,"['test', 'ellipsecollection']"
 _convert_agg_to_wx_image,1,1,,,,,,,,,lower_case_with_underscores,"['convert', 'agg', 'to', 'wx', 'image']"
 height,824,,,,,,67,,,757,lowercase,['height']
 tolerence,17,,,,,,6,,,11,lowercase,['tolerence']
@@ -9386,7 +9386,7 @@ VERSION_STRING,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['version', 'string']"
 xline,3,,,,,,,,,3,lowercase,['xline']
 assert_statement,12,,,,,,,,,12,lower_case_with_underscores,"['assert', 'statement']"
 _update_offset_text_position,4,2,,,,,,,,2,lower_case_with_underscores,"['update', 'offset', 'text', 'position']"
-_ReducedHCT_Element,5,,1,,,,,,,4,ugly,"['reducedhct', 'element']"
+_ReducedHCT_Element,5,,1,,,,,,,4,Capitalized_Words_With_Underscores,"['reducedhct', 'element']"
 _autoscaleZon,6,,,,,,,,,6,mixedCase,"['autoscale', 'zon']"
 get_ec,1,,,,,,,,,1,lower_case_with_underscores,"['get', 'ec']"
 test_str,8,,,,,,,,,8,lower_case_with_underscores,"['test', 'str']"
@@ -9832,7 +9832,7 @@ test_shaped_data,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'shaped', 'da
 fname_pgf,2,,,,,,,,,2,lower_case_with_underscores,"['fname', 'pgf']"
 zlist,6,,,,,,,,,6,lowercase,['zlist']
 AutoBaseClass,3,,,,,,,,,3,CapitalizedWords,"['auto', 'base', 'class']"
-WA_DeleteOnClose,1,,,,,,,,,1,ugly,"['wa', 'deleteonclose']"
+WA_DeleteOnClose,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['wa', 'deleteonclose']"
 coordsA,8,,,,,,1,,,7,mixedCase,"['coords', 'a']"
 coordsB,9,,,,,,1,,,8,mixedCase,"['coords', 'b']"
 set_level,4,1,,,,,,,,3,lower_case_with_underscores,"['set', 'level']"
@@ -10209,7 +10209,7 @@ nose,141,,,84,,,,,,57,lowercase,['nose']
 c1x_right,6,,,,,,,,,6,lower_case_with_underscores,"['c1x', 'right']"
 zright,2,,,,,,,,,2,lowercase,['zright']
 lowergreek,2,,,,,,,,,2,lowercase,['lowergreek']
-Key_Down,1,,,,,,,,,1,ugly,"['key', 'down']"
+Key_Down,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'down']"
 expect_rms,10,,,,,,7,,,3,lower_case_with_underscores,"['expect', 'rms']"
 test_strings,2,,,,,,,,,2,lower_case_with_underscores,"['test', 'strings']"
 GetParent,2,,,,,,,,,2,CapitalizedWords,"['get', 'parent']"
@@ -10431,11 +10431,11 @@ ylabel,70,1,,1,,,1,,,67,lowercase,['ylabel']
 test__EventCollection__set_orientation,1,1,,,,,,,,,ugly,"['test', '', 'eventcollection', '', 'set', 'orientation']"
 motion_notify,2,1,,,,,,,,1,lower_case_with_underscores,"['motion', 'notify']"
 get_ls,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'ls']"
-Key_F4,1,,,,,,,,,1,ugly,"['key', 'f4']"
+Key_F4,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'f4']"
 FreeType,4,,1,,,,,,,3,CapitalizedWords,"['free', 'type']"
 FigureCanvasNbAgg,2,,1,,,,,,,1,CapitalizedWords,"['figure', 'canvas', 'nb', 'agg']"
 _text_y,2,1,,,,,,,,1,lower_case_with_underscores,"['text', 'y']"
-Key_F5,1,,,,,,,,,1,ugly,"['key', 'f5']"
+Key_F5,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'f5']"
 ll_y,2,,,,,,,,,2,lower_case_with_underscores,"['ll', 'y']"
 majorFormatter,2,,,,,,,,,2,mixedCase,"['major', 'formatter']"
 rule_width,11,,,,,,,,,11,lower_case_with_underscores,"['rule', 'width']"
@@ -10447,7 +10447,7 @@ difference,2,,,,,,,,,2,lowercase,['difference']
 projected_xs,4,,,,,,,,,4,lower_case_with_underscores,"['projected', 'xs']"
 dcmetrics_ascii,4,,,,,,,,,4,lower_case_with_underscores,"['dcmetrics', 'ascii']"
 dcw,2,,,,,,,,,2,lowercase,['dcw']
-Key_F3,1,,,,,,,,,1,ugly,"['key', 'f3']"
+Key_F3,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'f3']"
 _pad,15,,,,,,,,,15,lowercase,['pad']
 setSliderPosition,1,,,,,,,,,1,mixedCase,"['set', 'slider', 'position']"
 test_noscale,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'noscale']"
@@ -10462,7 +10462,7 @@ _init_gridlines,2,1,,,,,,,,1,lower_case_with_underscores,"['init', 'gridlines']"
 rgb_to_gdk_color,4,1,,,,,,,,3,lower_case_with_underscores,"['rgb', 'to', 'gdk', 'color']"
 newfield,6,,,,,,,,,6,lowercase,['newfield']
 ypositions,8,,,,,,,,,8,lowercase,['ypositions']
-Key_F8,1,,,,,,,,,1,ugly,"['key', 'f8']"
+Key_F8,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'f8']"
 funcd,6,,,,,,,,,6,lowercase,['funcd']
 enc_name,2,,,,,,,,,2,lower_case_with_underscores,"['enc', 'name']"
 UiSubplotTool,6,,1,2,,,,,,3,CapitalizedWords,"['ui', 'subplot', 'tool']"
@@ -10510,7 +10510,7 @@ vals,118,,,,,,,,,118,lowercase,['vals']
 EVT_CLOSE,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['evt', 'close']"
 _FancyAxislineStyle,3,,1,,,,,,,2,CapitalizedWords,"['fancy', 'axisline', 'style']"
 search,12,,,,,,,,,12,lowercase,['search']
-Key_Escape,1,,,,,,,,,1,ugly,"['key', 'escape']"
+Key_Escape,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'escape']"
 Kfc_elem,2,,,,,,,,,2,ugly,"['kfc', 'elem']"
 keyvald,12,,,,,,,,,12,lowercase,['keyvald']
 dicts,4,,,,,,,,,4,lowercase,['dicts']
@@ -10572,7 +10572,7 @@ option_image_nocomposite,7,4,,,,,,,,3,lower_case_with_underscores,"['option', 'i
 WXK_NUMPAD_DELETE,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['wxk', 'numpad', 'delete']"
 rgb_cmd,2,1,,,,,,,,1,lower_case_with_underscores,"['rgb', 'cmd']"
 lower_ellipse,2,,,,,,,,,2,lower_case_with_underscores,"['lower', 'ellipse']"
-Key_Enter,1,,,,,,,,,1,ugly,"['key', 'enter']"
+Key_Enter,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'enter']"
 box_colors,2,,,,,,,,,2,lower_case_with_underscores,"['box', 'colors']"
 zorder_images,3,,,,,,,,,3,lower_case_with_underscores,"['zorder', 'images']"
 getargspec,3,,,,,,,,,3,lowercase,['getargspec']
@@ -10887,7 +10887,7 @@ significand,7,,,,,,,,,7,lowercase,['significand']
 set_picker,5,2,,,,,,,,3,lower_case_with_underscores,"['set', 'picker']"
 inliner,11,,,,,,,,,11,lowercase,['inliner']
 chars,30,,,,,,,,,30,lowercase,['chars']
-Key_SysReq,1,,,,,,,,,1,ugly,"['key', 'sysreq']"
+Key_SysReq,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'sysreq']"
 rotatedline,4,,,,,,,,,4,lowercase,['rotatedline']
 get_proxy_renderer,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'proxy', 'renderer']"
 depths,4,,,,,,,,,4,lowercase,['depths']
@@ -11179,7 +11179,7 @@ get_include_dirs,5,1,,,,,,,,4,lower_case_with_underscores,"['get', 'include', 'd
 colLoc,2,,,,,,,,,2,mixedCase,"['col', 'loc']"
 test_rcparams_reset_after_fail,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'rcparams', 'reset', 'after', 'fail']"
 ToolbarCls,4,,,,,,,,,4,CapitalizedWords,"['toolbar', 'cls']"
-Key_Clear,1,,,,,,,,,1,ugly,"['key', 'clear']"
+Key_Clear,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'clear']"
 _eop,2,1,,,,,,,,1,lowercase,['eop']
 lexsort,3,,,,,,,,,3,lowercase,['lexsort']
 spectral_testcase_nosig_real_onesided_nopad_to,1,,1,,,,,,,,lower_case_with_underscores,"['spectral', 'testcase', 'nosig', 'real', 'onesided', 'nopad', 'to']"
@@ -11360,7 +11360,7 @@ started,4,,,,,,,,,4,lowercase,['started']
 test_demean_1D_base_slope_off_list,1,1,,,,,,,,,ugly,"['test', 'demean', '1d', 'base', 'slope', 'off', 'list']"
 tearDownClass,1,1,,,,,,,,,mixedCase,"['tear', 'down', 'class']"
 tempdir,11,,,,,,,,,11,lowercase,['tempdir']
-QT_API_PYQTv2,6,,,,,,,,,6,ugly,"['qt', 'api', 'pyqtv2']"
+QT_API_PYQTv2,6,,,,,,,,,6,Capitalized_Words_With_Underscores,"['qt', 'api', 'pyqtv2']"
 under_state,4,,,,,,,,,4,lower_case_with_underscores,"['under', 'state']"
 labelbottom,8,,,,,,4,,,4,lowercase,['labelbottom']
 test_angle_spectrum_freqs,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'angle', 'spectrum', 'freqs']"
@@ -11407,7 +11407,7 @@ tb_h,2,,,,,,,,,2,lower_case_with_underscores,"['tb', 'h']"
 set_extra_widget,2,,,,,,,,,2,lower_case_with_underscores,"['set', 'extra', 'widget']"
 test_bxp_customwhisker,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'bxp', 'customwhisker']"
 yshared,4,,,,,,,,,4,lowercase,['yshared']
-test_AutoMinorLocator,1,1,,,,,,,,,ugly,"['test', 'autominorlocator']"
+test_AutoMinorLocator,1,1,,,,,,,,,camel_Snake_Case,"['test', 'autominorlocator']"
 test_divider_append_axes,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'divider', 'append', 'axes']"
 get_fontweight,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'fontweight']"
 script_name,3,,,,,,,,,3,lower_case_with_underscores,"['script', 'name']"
@@ -11656,7 +11656,7 @@ get_path,52,20,,1,,,,,,31,lower_case_with_underscores,"['get', 'path']"
 FFMpegFileWriter,3,,1,,,,,,,2,CapitalizedWords,"['ff', 'mpeg', 'file', 'writer']"
 gc0,48,,,,,,,,,48,lowercase,['gc0']
 _triangle_path_d,2,,,,,,,,,2,lower_case_with_underscores,"['triangle', 'path', 'd']"
-test_MaxNLocator,1,1,,,,,,,,,ugly,"['test', 'maxnlocator']"
+test_MaxNLocator,1,1,,,,,,,,,camel_Snake_Case,"['test', 'maxnlocator']"
 verts_zs,5,,,,,,,,,5,lower_case_with_underscores,"['verts', 'zs']"
 prepare_image,2,1,,,,,,,,1,lower_case_with_underscores,"['prepare', 'image']"
 set_ma,1,1,,,,,,,,,lower_case_with_underscores,"['set', 'ma']"
@@ -12270,7 +12270,7 @@ top_margin,2,,,,,,,,,2,lower_case_with_underscores,"['top', 'margin']"
 ptype,9,,,,,,5,,,4,lowercase,['ptype']
 majortick_iter,4,,,,,,,,,4,lower_case_with_underscores,"['majortick', 'iter']"
 shrinked_path,2,,,,,,,,,2,lower_case_with_underscores,"['shrinked', 'path']"
-Key_Backspace,5,,,,,,,,,5,ugly,"['key', 'backspace']"
+Key_Backspace,5,,,,,,,,,5,Capitalized_Words_With_Underscores,"['key', 'backspace']"
 tlinewidths,16,,,,,,,,,16,lowercase,['tlinewidths']
 colColours,8,,,,,,3,,,5,mixedCase,"['col', 'colours']"
 transProjection,12,,,,,,,,,12,mixedCase,"['trans', 'projection']"
@@ -12338,7 +12338,7 @@ line_to,1,,,,,,,,,1,lower_case_with_underscores,"['line', 'to']"
 interp_method,3,,,,,,,,,3,lower_case_with_underscores,"['interp', 'method']"
 _draw_grid,2,,,,,,,,,2,lower_case_with_underscores,"['draw', 'grid']"
 addItems,2,,,,,,,,,2,mixedCase,"['add', 'items']"
-autoscale_None,21,5,,,,,,,,16,ugly,"['autoscale', 'none']"
+autoscale_None,21,5,,,,,,,,16,camel_Snake_Case,"['autoscale', 'none']"
 _boxin,6,,,,,,,,,6,lowercase,['boxin']
 test__EventCollection__switch_orientation_2x,1,1,,,,,,,,,ugly,"['test', '', 'eventcollection', '', 'switch', 'orientation', '2x']"
 legends,6,,,,,,,,,6,lowercase,['legends']
@@ -12517,7 +12517,7 @@ kargs,2,,,,,,,,,2,lowercase,['kargs']
 mouse_event_pop,3,1,,,,,,,,2,lower_case_with_underscores,"['mouse', 'event', 'pop']"
 ToolItem,3,,,,,,,,,3,CapitalizedWords,"['tool', 'item']"
 issubclass,7,,,,,,,,,7,lowercase,['issubclass']
-Single_Spectrum,1,,,,,,1,,,,ugly,"['single', 'spectrum']"
+Single_Spectrum,1,,,,,,1,,,,Capitalized_Words_With_Underscores,"['single', 'spectrum']"
 xf1,2,,,,,,,,,2,lowercase,['xf1']
 xf0,2,,,,,,,,,2,lowercase,['xf0']
 sliderTextHandler,2,1,,,,,,,,1,mixedCase,"['slider', 'text', 'handler']"
@@ -12841,7 +12841,7 @@ isAvailable,2,1,,,,,,,,1,mixedCase,"['is', 'available']"
 Unchecked,1,,,,,,,,,1,CapitalizedWords,['unchecked']
 get_static_file_path,5,1,,,,,,,,4,lower_case_with_underscores,"['get', 'static', 'file', 'path']"
 rand,173,,,11,,,,,,162,lowercase,['rand']
-test_BoundaryNorm,1,1,,,,,,,,,ugly,"['test', 'boundarynorm']"
+test_BoundaryNorm,1,1,,,,,,,,,camel_Snake_Case,"['test', 'boundarynorm']"
 FigureCanvasGTKCairo,4,,1,,,,,,,3,CapitalizedWords,"['figure', 'canvas', 'gtk', 'cairo']"
 eq_,17,,,1,,,,,,16,lowercase,['eq']
 arr_s2,2,,,,,,,,,2,lower_case_with_underscores,"['arr', 's2']"
@@ -13024,7 +13024,7 @@ parse_yahoo_historical_ochl,1,1,,,,,,,,,lower_case_with_underscores,"['parse', '
 label1,27,,,,,,,,,27,lowercase,['label1']
 label2,24,,,,,,,,,24,lowercase,['label2']
 make_path_regular,4,1,,1,,,,,,2,lower_case_with_underscores,"['make', 'path', 'regular']"
-Key_Insert,1,,,,,,,,,1,ugly,"['key', 'insert']"
+Key_Insert,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'insert']"
 test_stride_windows_n1_noverlap0_axis1,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'stride', 'windows', 'n1', 'noverlap0', 'axis1']"
 pathz,2,,,,,,,,,2,lowercase,['pathz']
 test_magnitude_spectrum_freqs,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'magnitude', 'spectrum', 'freqs']"
@@ -13162,7 +13162,7 @@ containers,8,,,,,,,,,8,lowercase,['containers']
 FourierDemoWindow,2,,1,,,,,,,1,CapitalizedWords,"['fourier', 'demo', 'window']"
 load_char,12,,,,,,,,,12,lower_case_with_underscores,"['load', 'char']"
 bbox_queue,3,,,,,,,,,3,lower_case_with_underscores,"['bbox', 'queue']"
-Key_A,6,,,,,,,,,6,ugly,"['key', 'a']"
+Key_A,6,,,,,,,,,6,Capitalized_Words_With_Underscores,"['key', 'a']"
 head_length,52,,,,,,8,,,44,lower_case_with_underscores,"['head', 'length']"
 screen_get_default,1,,,,,,,,,1,lower_case_with_underscores,"['screen', 'get', 'default']"
 xxx,4,,,,,,,,,4,lowercase,['xxx']
@@ -13170,7 +13170,7 @@ barb_size,2,,,,,,,,,2,lower_case_with_underscores,"['barb', 'size']"
 LogTransformBase,6,,1,,,,,,,5,CapitalizedWords,"['log', 'transform', 'base']"
 PathPatch,46,,1,8,,,,,,37,CapitalizedWords,"['path', 'patch']"
 angle_ticks,3,,,,,,,,,3,lower_case_with_underscores,"['angle', 'ticks']"
-Key_Q,1,,,,,,,,,1,ugly,"['key', 'q']"
+Key_Q,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'q']"
 UnicodeEncodeError,4,,,,,,,,,4,CapitalizedWords,"['unicode', 'encode', 'error']"
 _nop,2,1,,,,,,,,1,lowercase,['nop']
 plot_include_source,1,,,,,,,,,1,lower_case_with_underscores,"['plot', 'include', 'source']"
@@ -13247,7 +13247,7 @@ _update_position_xytext,3,1,,,,,,,,2,lower_case_with_underscores,"['update', 'po
 FigureManagerPgf,3,,1,,,,,,,2,CapitalizedWords,"['figure', 'manager', 'pgf']"
 get_original_position,4,2,,,,,,,,2,lower_case_with_underscores,"['get', 'original', 'position']"
 set_verts,10,2,,,,,,,,8,lower_case_with_underscores,"['set', 'verts']"
-Key_Return,1,,,,,,,,,1,ugly,"['key', 'return']"
+Key_Return,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'return']"
 _Oranges_data,2,,,,,,,,,2,ugly,"['oranges', 'data']"
 dash_cmd,2,1,,,,,,,,1,lower_case_with_underscores,"['dash', 'cmd']"
 den2,2,,,,,,,,,2,lowercase,['den2']
@@ -13507,7 +13507,7 @@ find_dotted_module,2,1,,,,,,,,1,lower_case_with_underscores,"['find', 'dotted', 
 set_scale,5,1,,,,,,,,4,lower_case_with_underscores,"['set', 'scale']"
 alternatives,13,,,,,,,,,13,lowercase,['alternatives']
 _update_metrics,6,2,,,,,,,,4,lower_case_with_underscores,"['update', 'metrics']"
-test_LogNorm,1,1,,,,,,,,,ugly,"['test', 'lognorm']"
+test_LogNorm,1,1,,,,,,,,,camel_Snake_Case,"['test', 'lognorm']"
 known_exception_class,4,,,,,,1,,,3,lower_case_with_underscores,"['known', 'exception', 'class']"
 escape_attrib,4,1,,,,,,,,3,lower_case_with_underscores,"['escape', 'attrib']"
 get_filename,4,,,,,,,,,4,lower_case_with_underscores,"['get', 'filename']"
@@ -14082,7 +14082,7 @@ _yorig,5,,,,,,,,,5,lowercase,['yorig']
 makedirs,13,,,,,,,,,13,lowercase,['makedirs']
 validate_qt5,2,,,,,,,,,2,lower_case_with_underscores,"['validate', 'qt5']"
 _get_cmap_norms,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'cmap', 'norms']"
-Key_Tab,1,,,,,,,,,1,ugly,"['key', 'tab']"
+Key_Tab,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'tab']"
 axes_bbox,16,,,,,,,,,16,lower_case_with_underscores,"['axes', 'bbox']"
 signy,3,,,,,,,,,3,lowercase,['signy']
 _get_text2_transform,5,2,,,,,,,,3,lower_case_with_underscores,"['get', 'text2', 'transform']"
@@ -14158,7 +14158,7 @@ difflib,4,,,2,,,,,,2,lowercase,['difflib']
 capline_right,8,,,,,,,,,8,lower_case_with_underscores,"['capline', 'right']"
 scale_docs,1,,,,,,1,,,,lower_case_with_underscores,"['scale', 'docs']"
 plot_line,3,,,,,,,,,3,lower_case_with_underscores,"['plot', 'line']"
-set_UVC,4,2,,,,,,,,2,ugly,"['set', 'uvc']"
+set_UVC,4,2,,,,,,,,2,camel_Snake_Case,"['set', 'uvc']"
 mark_plot_labels,2,1,,,,,,,,1,lower_case_with_underscores,"['mark', 'plot', 'labels']"
 leaveWhitespace,3,,,,,,,,,3,mixedCase,"['leave', 'whitespace']"
 known_whis3_res,3,,,,,,,,,3,lower_case_with_underscores,"['known', 'whis3', 'res']"
@@ -14178,7 +14178,7 @@ tkinter_filedialog,1,,,1,,,,,,,lower_case_with_underscores,"['tkinter', 'filedia
 ImageMagickBase,3,,1,,,,,,,2,CapitalizedWords,"['image', 'magick', 'base']"
 _value,26,1,,,,,,,,25,lowercase,['value']
 zdir,133,,,,,,32,,,101,lowercase,['zdir']
-SP_MessageBoxQuestion,1,,,,,,,,,1,ugly,"['sp', 'messageboxquestion']"
+SP_MessageBoxQuestion,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['sp', 'messageboxquestion']"
 sidelen,9,,,,,,,,,9,lowercase,['sidelen']
 origedgecolor,6,,,,,,,,,6,lowercase,['origedgecolor']
 test_detrend_mean_2D_d2_ValueError,1,1,,,,,,,,,ugly,"['test', 'detrend', 'mean', '2d', 'd2', 'valueerror']"
@@ -14413,7 +14413,7 @@ indStart,8,,,,,,,,,8,mixedCase,"['ind', 'start']"
 new_ext,10,,,,,,,,,10,lower_case_with_underscores,"['new', 'ext']"
 proj3d,28,,,3,,,,,,25,lowercase,['proj3d']
 linalg,16,,,3,,,,1,,12,lowercase,['linalg']
-Key_Up,1,,,,,,,,,1,ugly,"['key', 'up']"
+Key_Up,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'up']"
 relim,5,1,,,,,,,,4,lowercase,['relim']
 _onMotion,2,1,,,,,,,,1,mixedCase,"['on', 'motion']"
 test_legend_auto3,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'legend', 'auto3']"
@@ -14454,7 +14454,7 @@ sepHeights,2,,,,,,,,,2,mixedCase,"['sep', 'heights']"
 has_pkgconfig,5,,,,,,,,,5,lower_case_with_underscores,"['has', 'pkgconfig']"
 set_source_rgba,6,,,,,,,,,6,lower_case_with_underscores,"['set', 'source', 'rgba']"
 pixelDelta,3,,,,,,,,,3,mixedCase,"['pixel', 'delta']"
-Key_Aacute,6,,,,,,,,,6,ugly,"['key', 'aacute']"
+Key_Aacute,6,,,,,,,,,6,Capitalized_Words_With_Underscores,"['key', 'aacute']"
 _set_mathtext_path,2,1,,,,,,,,1,lower_case_with_underscores,"['set', 'mathtext', 'path']"
 test_type42,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'type42']"
 get_majorticklines,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'majorticklines']"
@@ -15346,7 +15346,7 @@ _outline,3,1,,,,,,,,2,lowercase,['outline']
 range_oom,3,,,,,,,,,3,lower_case_with_underscores,"['range', 'oom']"
 Square,3,,1,,,,,,,2,CapitalizedWords,['square']
 empty_flag,4,,,,,,,,,4,lower_case_with_underscores,"['empty', 'flag']"
-Key_PageDown,1,,,,,,,,,1,ugly,"['key', 'pagedown']"
+Key_PageDown,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['key', 'pagedown']"
 _yrefindex,14,,,,,,,,,14,lowercase,['yrefindex']
 bezier_path,5,,,,,,,,,5,lower_case_with_underscores,"['bezier', 'path']"
 TE,4,,,,,,,,,4,UPPERCASE,"['t', 'e']"
@@ -15527,7 +15527,7 @@ test_detrend_bad_key_str_ValueError,1,1,,,,,,,,,ugly,"['test', 'detrend', 'bad',
 include,6,,,,,,,,,6,lowercase,['include']
 BytesIO,44,,,3,,,,,,41,CapitalizedWords,"['bytes', 'i', 'o']"
 tooltips,3,,,,,,,,,3,lowercase,['tooltips']
-Key_Shift,2,,,,,,,,,2,ugly,"['key', 'shift']"
+Key_Shift,2,,,,,,,,,2,Capitalized_Words_With_Underscores,"['key', 'shift']"
 maxunicode,1,,,,,,,,,1,lowercase,['maxunicode']
 QStyle,1,,,,,,,,,1,CapitalizedWords,"['q', 'style']"
 distribute_setup,1,,,1,,,,,,,lower_case_with_underscores,"['distribute', 'setup']"
@@ -15824,7 +15824,7 @@ dvipng_req,2,,,,,,,,,2,lower_case_with_underscores,"['dvipng', 'req']"
 get_intersection,6,1,,1,,,,,,4,lower_case_with_underscores,"['get', 'intersection']"
 ipos,8,,,,,,,,,8,lowercase,['ipos']
 NavigationToolbar2GTK3,3,,1,1,,,,,,1,CapitalizedWords,"['navigation', 'toolbar2gtk3']"
-_extended_N,1,1,,,,,,,,,ugly,"['extended', 'n']"
+_extended_N,1,1,,,,,,,,,camel_Snake_Case,"['extended', 'n']"
 unindent,5,,,,,,,,,5,lowercase,['unindent']
 unescape,1,,,,,,,,,1,lowercase,['unescape']
 parse_args,4,,,,,,,,,4,lower_case_with_underscores,"['parse', 'args']"
@@ -15895,7 +15895,7 @@ center_longitude,4,,,,,,,,,4,lower_case_with_underscores,"['center', 'longitude'
 EVT_MIDDLE_UP,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['evt', 'middle', 'up']"
 _shorthand_name,4,,,,,,,,,4,lower_case_with_underscores,"['shorthand', 'name']"
 check_output,23,1,,3,,,,,,19,lower_case_with_underscores,"['check', 'output']"
-test_LinearLocator,1,1,,,,,,,,,ugly,"['test', 'linearlocator']"
+test_LinearLocator,1,1,,,,,,,,,camel_Snake_Case,"['test', 'linearlocator']"
 xlabel,53,1,,1,,,,,,51,lowercase,['xlabel']
 ctl_points,8,,,,,,,,,8,lower_case_with_underscores,"['ctl', 'points']"
 _color,25,,,,,,,,,25,lowercase,['color']
@@ -16358,7 +16358,7 @@ get_transfrom,1,,,,,,,,,1,lower_case_with_underscores,"['get', 'transfrom']"
 level_for_integer,4,1,,,,,,,,3,lower_case_with_underscores,"['level', 'for', 'integer']"
 HCentered,9,,1,,,,,,,8,CapitalizedWords,"['h', 'centered']"
 unit_resolver,3,,,,,,,,,3,lower_case_with_underscores,"['unit', 'resolver']"
-_central_N,2,1,,,,,,,,1,ugly,"['central', 'n']"
+_central_N,2,1,,,,,,,,1,camel_Snake_Case,"['central', 'n']"
 convert_psfrags,2,1,,,,,,,,1,lower_case_with_underscores,"['convert', 'psfrags']"
 _length,3,,,,,,,,,3,lowercase,['length']
 ei,8,,,,,,,,,8,lowercase,['ei']
@@ -16369,7 +16369,7 @@ get_dashdirection,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'dashdirecti
 val,497,,,,,,,,,497,lowercase,['val']
 get_dashrotation,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'dashrotation']"
 same_y,3,,,,,,,,,3,lower_case_with_underscores,"['same', 'y']"
-*,109,,,109,,,,,,,mixedCase,['*']
+*,109,,,109,,,,,,,ugly,['*']
 spiral,3,,,,,,,,,3,lowercase,['spiral']
 thiso,8,,,,,,,,,8,lowercase,['thiso']
 make_tex_preview,2,1,,,,,,,,1,lower_case_with_underscores,"['make', 'tex', 'preview']"

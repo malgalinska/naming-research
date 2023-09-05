@@ -1,4 +1,4 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,case_convention,words
+name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
 SENTRY_USE_QUEUE,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'use', 'queue']"
 test_over_max,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'over', 'max']"
 _get_cache,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'cache']"
@@ -260,7 +260,7 @@ entry_points,1,,,,,,1,,,,lower_case_with_underscores,"['entry', 'points']"
 get_object_or_404,13,,,4,,,,,,9,lower_case_with_underscores,"['get', 'object', 'or', '404']"
 nullable,2,,,,,,1,,,1,lowercase,['nullable']
 unregister,3,1,,,,,,,,2,lowercase,['unregister']
-smtp_EHLO,3,1,,,,,,,,2,ugly,"['smtp', 'ehlo']"
+smtp_EHLO,3,1,,,,,,,,2,camel_Snake_Case,"['smtp', 'ehlo']"
 l,5,,,,,,,,,5,b,['l']
 ConfigurationError,5,,1,1,,,,,,3,CapitalizedWords,"['configuration', 'error']"
 dumps,26,1,,,,,,,,25,lowercase,['dumps']
@@ -3503,7 +3503,7 @@ resolve_alert,2,1,,,,,,,,1,lower_case_with_underscores,"['resolve', 'alert']"
 default_key,1,,,,,,1,,,,lower_case_with_underscores,"['default', 'key']"
 can_remove_team_member,3,1,,1,,,,,,1,lower_case_with_underscores,"['can', 'remove', 'team', 'member']"
 test_public_group_returns_false_with_project_membership,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'public', 'group', 'returns', 'false', 'with', 'project', 'membership']"
-*,48,,,48,,,,,,,mixedCase,['*']
+*,48,,,48,,,,,,,ugly,['*']
 maxsize,6,,,,,,,,,6,lowercase,['maxsize']
 autodiscover,2,,,,,,,,,2,lowercase,['autodiscover']
 var,2,,,,,,,,,2,lowercase,['var']

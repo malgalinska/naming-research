@@ -1,4 +1,4 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,case_convention,words
+name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
 json,85,5,,7,,5,,,,68,lowercase,['json']
 os,426,,,43,,,,,,383,lowercase,['os']
 re,52,,,15,,,,,,37,lowercase,['re']
@@ -232,7 +232,7 @@ param,165,,,19,,14,1,,,131,lowercase,['param']
 Params,237,,1,7,,,,,,229,CapitalizedWords,['params']
 mllib,212,,,163,,,,,,49,lowercase,['mllib']
 linalg,54,,,47,,,,,,7,lowercase,['linalg']
-*,39,,,39,,,,,,,mixedCase,['*']
+*,39,,,39,,,,,,,ugly,['*']
 spark,1048,,,,,13,,,,1035,lowercase,['spark']
 getOrCreate,147,4,,,,,,,,143,mixedCase,"['get', 'or', 'create']"
 appName,174,1,,,,2,58,,,113,mixedCase,"['app', 'name']"
@@ -2040,9 +2040,9 @@ setAll,2,1,,,,,,,,1,mixedCase,"['set', 'all']"
 defaultValue,6,,,,,2,,,,4,mixedCase,"['default', 'value']"
 contains,8,1,,,,,,,,7,lowercase,['contains']
 getAll,7,1,,,,,,,,6,mixedCase,"['get', 'all']"
-_1,3,,,,,,1,,,2,mixedCase,['1']
+_1,3,,,,,,1,,,2,ugly,['1']
 elem,25,,,,,,,,,25,lowercase,['elem']
-_2,5,,,,,,1,,,4,mixedCase,['2']
+_2,5,,,,,,1,,,4,ugly,['2']
 optionflags,37,,,,,,37,,,,lowercase,['optionflags']
 ELLIPSIS,37,,,,,,,,,37,UPPERCASE,"['ellipsi', 's']"
 signal,31,,,5,,1,,,,25,lowercase,['signal']
@@ -5050,7 +5050,7 @@ CoordinateMatrix,6,,1,,,,,,,5,CapitalizedWords,"['coordinate', 'matrix']"
 tallSkinnyQR,1,1,,,,,,,,,mixedCase,"['tall', 'skinny', 'q', 'r']"
 computeQ,3,,,,,1,,,,2,mixedCase,"['compute', 'q']"
 decomp,3,,,,,,,,,3,lowercase,['decomp']
-java_Q,2,,,,,,,,,2,ugly,"['java', 'q']"
+java_Q,2,,,,,,,,,2,camel_Snake_Case,"['java', 'q']"
 Q,6,1,,,,1,,,,4,B,"['', 'q']"
 rCond,4,,,,,2,,,,2,mixedCase,"['r', 'cond']"
 j_model,6,,,,,,,,,6,lower_case_with_underscores,"['j', 'model']"
@@ -5546,7 +5546,7 @@ _instantiatedSession,9,,,,,,,,,9,mixedCase,"['instantiated', 'session']"
 setConfString,1,,,,,,,,,1,mixedCase,"['set', 'conf', 'string']"
 jsparkSession,4,,,,,1,,,,3,mixedCase,"['jspark', 'session']"
 catalogImplementation,1,,,,,,1,,,,mixedCase,"['catalog', 'implementation']"
-sc_HTML,1,,,,,,1,,,,ugly,"['sc', 'html']"
+sc_HTML,1,,,,,,1,,,,camel_Snake_Case,"['sc', 'html']"
 _catalog,2,,,,,,,,,2,lowercase,['catalog']
 _inferSchemaFromList,2,1,,,,,,,,1,mixedCase,"['infer', 'schema', 'from', 'list']"
 _createFromRDD,2,1,,,,,,,,1,mixedCase,"['create', 'from', 'rd', 'd']"
@@ -5990,7 +5990,7 @@ tzset,6,,,,,,,,,6,lowercase,['tzset']
 HiveSparkSubmitTests,1,,1,,,,,,,,CapitalizedWords,"['hive', 'spark', 'submit', 'tests']"
 test_hivecontext,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'hivecontext']"
 metastore_path,3,,,,,,,,,3,lower_case_with_underscores,"['metastore', 'path']"
-metastore_URL,2,,,,,,,,,2,ugly,"['metastore', 'url']"
+metastore_URL,2,,,,,,,,,2,camel_Snake_Case,"['metastore', 'url']"
 hive_site_dir,2,,,,,,,,,2,lower_case_with_underscores,"['hive', 'site', 'dir']"
 hive_site_file,1,,,,,,,,,1,lower_case_with_underscores,"['hive', 'site', 'file']"
 SQLTests2,1,,1,,,,,,,,CapitalizedWords,"['sql', 'tests2']"

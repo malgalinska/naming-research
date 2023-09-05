@@ -1,24 +1,21 @@
 #!/usr/local/bin/python3.11
 # coding: utf-8
 
-from logging import error
 import os
 import sys
 import ast
 import csv
+from logging import error
 from datetime import datetime
-from colorama import init as colorama_init
-from colorama import Fore
-from colorama import Style
 
 from statisctics_library import *
 
-colorama_init()
 
-FIELD_NAMES = ["name", "all", "function def", "class def", "import", "exception", "param", "keyword", "alias", "object decl", "object", "naming_style", "words"]
-PYTHON_EXTENSION = "py"
+FIELD_NAMES = ["name", "all", "function def", "class def", "import", "exception", "param", "keyword", "alias",
+               "object decl", "object", "naming_style", "words"]
+PYTHON_EXTENSION = ".py"
 LOG_FILE_NAME = "./log.txt"
-ALTERNATIVE_PROGRAM_PATH = os.path.join(os.path.dirname(__file__), "alternative_data_getter.py")
+
 
 def get_data(input_path: str, output_path: str):
     try:
@@ -33,7 +30,7 @@ def get_data(input_path: str, output_path: str):
         stats_dictionary = {}
         for path, _, files in os.walk(input_path):
             for file_name in files:
-                ext  = os.path.splitext(file_name)[1]
+                ext = os.path.splitext(file_name)[1]
                 if ext != PYTHON_EXTENSION:
                     continue
 
@@ -51,23 +48,23 @@ def get_data(input_path: str, output_path: str):
             for key, value in stats_dictionary.items():
                 value["name"] = key
                 csvwriter.writerow(value)
-        
+
         end_time = datetime.now()
 
     except Exception as e:
         with open(LOG_FILE_NAME, "a", -1, "utf-8") as log:
-            log_and_print(f'{input_path}:', log, True)
-            log_and_print(f'{repr(e)}', log)
-            log_and_print("I will try with Python 2.7!\n", log)
+            log_and_print(f"{output_path} (by Python 3.11):", log, True)
+            log_and_print(f"{repr(e)}\n", log)
 
-        os.system(f'{ALTERNATIVE_PROGRAM_PATH} {input_path} {output_path}')
+        return 1
 
     else:
         # Zakończenie progamu
         duration = end_time - start_time
         with open(LOG_FILE_NAME, "a", -1, "utf-8") as log:
-            log_and_print(f'{input_path}:', log)
-            log_and_print(f'    Started at {start_time:%H:%M:%S}, ended at {end_time:%H:%M:%S} (duration {duration}).', log)
+            log_and_print(f"{output_path} (by Python 3.11):", log)
+            log_and_print(f"    Started at {start_time:%H:%M:%S}, ended at {end_time:%H:%M:%S} (duration {duration})\n",
+                          log)
 
     return 0
 
@@ -131,34 +128,26 @@ class NamesCounter(ast.NodeVisitor):
         if node.asname:
             add_name_with_kind_to_stats(node.asname, "alias", self.stats_dictionary)
         return self.generic_visit(node)
-    
+
     def visit_MatchMapping(self, node: ast.MatchMapping):
         if node.rest:
             add_name_with_kind_to_stats(node.rest, "object decl", self.stats_dictionary)
         return self.generic_visit(node)
-    
+
     def visit_MatchClass(self, node: ast.MatchClass):
         for name in node.kwd_attrs:
             add_name_with_kind_to_stats(name, "object", self.stats_dictionary)
         return self.generic_visit(node)
-    
+
     def visit_MatchStar(self, node: ast.MatchStar):
         if node.name:
             add_name_with_kind_to_stats(node.name, "object decl", self.stats_dictionary)
         return self.generic_visit(node)
-    
+
     def visit_MatchAs(self, node: ast.MatchAs):
         if node.name:
             add_name_with_kind_to_stats(node.name, "object decl", self.stats_dictionary)
         return self.generic_visit(node)
-            
-
-def log_and_print(text: str, file, error: bool=False):
-    file.write(f'{text}\n')
-    if error:
-        print(f'{Fore.RED}{text}{Style.RESET_ALL}')
-    else:
-        print(f'{text}')
 
 
 # Start programu
@@ -167,7 +156,7 @@ if __name__ == "__main__":
     if len(args) >= 2:
         sys.exit(get_data(args[0], args[1]))
     else:
-        print("Usage: " + sys.argv[0] + " input_path output_path\n")
+        print(f"Usage: {sys.argv[0]} input_path output_path\n")
         print("Arguments:\n")
         print("input_path \t:Path to project\n")
         print("output_path \t:Path to file, in which statistics will be saved\n")

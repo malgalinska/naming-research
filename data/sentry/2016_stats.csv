@@ -1,4 +1,4 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,case_convention,words
+name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
 daily_stats,2,,,,,,,,,2,lower_case_with_underscores,"['daily', 'stats']"
 all_callees,2,,,,,,,,,2,lower_case_with_underscores,"['all', 'callees']"
 TransactionAborted,3,,1,1,,,,,,1,CapitalizedWords,"['transaction', 'aborted']"
@@ -309,6 +309,7 @@ gzip,2,,,2,,,,,,,lowercase,['gzip']
 test_only_requires_only_type_or_value,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'only', 'requires', 'only', 'type', 'or', 'value']"
 frames_len,7,,,,,,,,,7,lower_case_with_underscores,"['frames', 'len']"
 ModelSerializer,4,,,,,,,,,4,CapitalizedWords,"['model', 'serializer']"
+fp_checksums,5,,,,,,,,,5,lower_case_with_underscores,"['fp', 'checksums']"
 create_issue,2,1,,,,,,,,1,lower_case_with_underscores,"['create', 'issue']"
 active_at__gte,3,,,,,,3,,,,lower_case_with_underscores,"['active', 'at', '', 'gte']"
 SuperuserPermission,7,,1,3,,,,,,3,CapitalizedWords,"['superuser', 'permission']"
@@ -318,7 +319,7 @@ projects,17,,,3,,,,,,14,lowercase,['projects']
 select_related,33,,,,,,,,,33,lower_case_with_underscores,"['select', 'related']"
 organization_settings,1,,,1,,,,,,,lower_case_with_underscores,"['organization', 'settings']"
 _process_fingerprint,5,1,,,,,,,,4,lower_case_with_underscores,"['process', 'fingerprint']"
-SENTRY_TSDB_OPTIONS,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'tsdb', 'options']"
+SENTRY_TSDB_OPTIONS,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'tsdb', 'options']"
 project_key_details,1,,,1,,,,,,,lower_case_with_underscores,"['project', 'key', 'details']"
 is_unhashable_module,2,1,,,,,,,,1,lower_case_with_underscores,"['is', 'unhashable', 'module']"
 WithoutRavenManager,2,,1,,,,,,,1,CapitalizedWords,"['without', 'raven', 'manager']"
@@ -448,7 +449,7 @@ current,15,,,1,,,,,,14,lowercase,['current']
 Abort,2,,,,,,,,,2,CapitalizedWords,['abort']
 response_data,3,,,,,,,,,3,lower_case_with_underscores,"['response', 'data']"
 grouptagvalue,7,,,,,,,,,7,lowercase,['grouptagvalue']
-True,1253,,,,,,,,,1253,CapitalizedWords,['true']
+True,1256,,,,,,,,,1256,CapitalizedWords,['true']
 CELERY_DEFAULT_EXCHANGE,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['celery', 'default', 'exchange']"
 ProjectUserReportSerializer,4,,1,1,,,,,,2,CapitalizedWords,"['project', 'user', 'report', 'serializer']"
 SENTRY_INTERFACES,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'interfaces']"
@@ -465,7 +466,6 @@ OrganizationMixin,2,,1,,,,,,,1,CapitalizedWords,"['organization', 'mixin']"
 group_notes,3,,,3,,,,,,,lower_case_with_underscores,"['group', 'notes']"
 bookmarks,9,,,,,,,,,9,lowercase,['bookmarks']
 OrganizationMemberIssuesViewedEndpoint,3,,1,1,,,,,,1,CapitalizedWords,"['organization', 'member', 'issues', 'viewed', 'endpoint']"
-test_default_fingerprint,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'default', 'fingerprint']"
 scope,20,,,,,,,,,20,lowercase,['scope']
 MailStatusTest,1,,1,,,,,,,,CapitalizedWords,"['mail', 'status', 'test']"
 with_event_counts,1,1,,,,,,,,,lower_case_with_underscores,"['with', 'event', 'counts']"
@@ -598,6 +598,7 @@ crossdomain_xml_index,2,1,,,,,,,,1,lower_case_with_underscores,"['crossdomain', 
 SamplePlugin,3,,1,,,,,,,2,CapitalizedWords,"['sample', 'plugin']"
 DatabaseCreation,1,,,1,,,,,,,CapitalizedWords,"['database', 'creation']"
 argument,10,,,,,,,,,10,lowercase,['argument']
+getpass,1,,,1,,,,,,,lowercase,['getpass']
 Field,2,,,1,,,,,,1,CapitalizedWords,['field']
 BoundedIntegerField,11,,1,3,,,,,,7,CapitalizedWords,"['bounded', 'integer', 'field']"
 test_equals,3,3,,,,,,,,,lower_case_with_underscores,"['test', 'equals']"
@@ -635,7 +636,7 @@ slot,3,,,,,,,,,3,lowercase,['slot']
 get_redis_key,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'redis', 'key']"
 CELERY_DEFAULT_EXCHANGE_TYPE,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['celery', 'default', 'exchange', 'type']"
 get_internal_type,2,2,,,,,,,,,lower_case_with_underscores,"['get', 'internal', 'type']"
-SENTRY_WEB_OPTIONS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'web', 'options']"
+SENTRY_WEB_OPTIONS,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'web', 'options']"
 bind_data,3,1,,,,,,,,2,lower_case_with_underscores,"['bind', 'data']"
 EVENTS_PER_PAGE,6,,,2,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['events', 'per', 'page']"
 do_load_config,1,,,,,,,,,1,lower_case_with_underscores,"['do', 'load', 'config']"
@@ -744,7 +745,7 @@ needs_link,2,,,,,,,,,2,lower_case_with_underscores,"['needs', 'link']"
 slugify,9,,,4,,,,,,5,lowercase,['slugify']
 _handle_existing_identity,2,1,,,,,,,,1,lower_case_with_underscores,"['handle', 'existing', 'identity']"
 replays,1,,,1,,,,,,,lowercase,['replays']
-SECRET_KEY,5,,,,,,3,,,2,UPPER_CASE_WITH_UNDERSCORES,"['secret', 'key']"
+SECRET_KEY,6,,,,,,3,,,3,UPPER_CASE_WITH_UNDERSCORES,"['secret', 'key']"
 RemoveProjectView,3,,1,1,,,,,,1,CapitalizedWords,"['remove', 'project', 'view']"
 authenticate,8,1,,2,,,,,,5,lowercase,['authenticate']
 ratelimiter,6,,,2,,,,,,4,lowercase,['ratelimiter']
@@ -1249,7 +1250,6 @@ email_list,5,,,,,,,,,5,lower_case_with_underscores,"['email', 'list']"
 required_auth_settings,3,,,,,,,,,3,lower_case_with_underscores,"['required', 'auth', 'settings']"
 TaggedEventConditionTest,1,,1,,,,,,,,CapitalizedWords,"['tagged', 'event', 'condition', 'test']"
 get_digest_option,3,,,,,,,,,3,lower_case_with_underscores,"['get', 'digest', 'option']"
-randrange,2,,,1,,,,,,1,lowercase,['randrange']
 assert_teamless_admin_can_access,2,1,,,,,,,,1,lower_case_with_underscores,"['assert', 'teamless', 'admin', 'can', 'access']"
 GroupSerializer,7,,3,,,,,,,4,CapitalizedWords,"['group', 'serializer']"
 SafeDumper,3,,,1,,,,1,,1,CapitalizedWords,"['safe', 'dumper']"
@@ -1351,7 +1351,7 @@ DOC_FOLDER,5,,,1,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['doc', 'folder']"
 StartReleaseTest,1,,1,,,,,,,,CapitalizedWords,"['start', 'release', 'test']"
 test_login_valid_credentials,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'login', 'valid', 'credentials']"
 max_content_width,1,,,,,,1,,,,lower_case_with_underscores,"['max', 'content', 'width']"
-SENTRY_BUFFER,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'buffer']"
+SENTRY_BUFFER,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'buffer']"
 separators,1,,,,,,1,,,,lowercase,['separators']
 delete_file_scenario,2,1,,,,,,,,1,lower_case_with_underscores,"['delete', 'file', 'scenario']"
 low_mark,1,,,,,,,,,1,lower_case_with_underscores,"['low', 'mark']"
@@ -1510,7 +1510,7 @@ quotas,16,,,6,,,,,,10,lowercase,['quotas']
 t_value,12,,,,,,,,,12,lower_case_with_underscores,"['t', 'value']"
 plugin_id,10,,,,,,,,,10,lower_case_with_underscores,"['plugin', 'id']"
 maybe_clean_local_cache,3,1,,,,,,,,2,lower_case_with_underscores,"['maybe', 'clean', 'local', 'cache']"
-SENTRY_WEB_PORT,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'web', 'port']"
+SENTRY_WEB_PORT,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'web', 'port']"
 send_welcome_mail,1,,,,,,,,,1,lower_case_with_underscores,"['send', 'welcome', 'mail']"
 react_page,1,,,1,,,,,,,lower_case_with_underscores,"['react', 'page']"
 _pool_cache,4,,,,,,,,,4,lower_case_with_underscores,"['pool', 'cache']"
@@ -1518,7 +1518,7 @@ exc_omitted,2,,,,,,,,,2,lower_case_with_underscores,"['exc', 'omitted']"
 test_tags_as_dict,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'tags', 'as', 'dict']"
 OrganizationAuthSettingsTest,1,,1,,,,,,,,CapitalizedWords,"['organization', 'auth', 'settings', 'test']"
 set_broker,3,1,,,,,,,,2,lower_case_with_underscores,"['set', 'broker']"
-EMAIL_HOST,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['email', 'host']"
+EMAIL_HOST,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['email', 'host']"
 member_om,29,,,,,,,,,29,lower_case_with_underscores,"['member', 'om']"
 Number,1,,,,,,,,,1,CapitalizedWords,['number']
 test_process_saves_data,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'process', 'saves', 'data']"
@@ -1579,7 +1579,7 @@ get_models,4,,,2,,,,,,2,lower_case_with_underscores,"['get', 'models']"
 s_model,3,,,,,,,,,3,lower_case_with_underscores,"['s', 'model']"
 gevent,1,,,1,,,,,,,lowercase,['gevent']
 flush,5,1,,,,,,,,4,lowercase,['flush']
-force_revive,3,1,,,,,,,,2,lower_case_with_underscores,"['force', 'revive']"
+DoesNotExist,115,,,,,,,,,115,CapitalizedWords,"['does', 'not', 'exist']"
 test_options_response,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'options', 'response']"
 group_events_oldest,1,,,1,,,,,,,lower_case_with_underscores,"['group', 'events', 'oldest']"
 CliTestCase,7,,1,3,,,,,,3,CapitalizedWords,"['cli', 'test', 'case']"
@@ -1643,7 +1643,7 @@ validate_backends,2,1,,,,,,,,1,lower_case_with_underscores,"['validate', 'backen
 test_raw_content,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'raw', 'content']"
 ZeroReturnError,6,,2,2,,,,,,2,CapitalizedWords,"['zero', 'return', 'error']"
 HTTP_REFERER,5,,,,,,5,,,,UPPER_CASE_WITH_UNDERSCORES,"['http', 'referer']"
-EMAIL_USE_TLS,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['email', 'use', 'tls']"
+EMAIL_USE_TLS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['email', 'use', 'tls']"
 test_tags_out_of_bounds,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'tags', 'out', 'of', 'bounds']"
 merge_group,10,1,,2,,,,,,7,lower_case_with_underscores,"['merge', 'group']"
 CompressedPickleCodec,1,,1,,,,,,,,CapitalizedWords,"['compressed', 'pickle', 'codec']"
@@ -1661,7 +1661,7 @@ summarized,3,,,,,,,,,3,lowercase,['summarized']
 new_release,4,,,,,,,,,4,lower_case_with_underscores,"['new', 'release']"
 ref,25,,,,,,2,,,23,lowercase,['ref']
 cmd,2,,,,,,,,,2,lowercase,['cmd']
-fp_checksums,5,,,,,,,,,5,lower_case_with_underscores,"['fp', 'checksums']"
+cwd,9,,,,,,6,,,3,lowercase,['cwd']
 test_get_api_key_with_org_access,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'get', 'api', 'key', 'with', 'org', 'access']"
 test_delete_by_id,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'delete', 'by', 'id']"
 test_ends_with,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'ends', 'with']"
@@ -1682,7 +1682,7 @@ items,66,,,,,,,,,66,lowercase,['items']
 ProjectQuotasTest,1,,1,,,,,,,,CapitalizedWords,"['project', 'quotas', 'test']"
 progressbar,5,,,1,,,,,,4,lowercase,['progressbar']
 UserDetailsEndpoint,3,,1,1,,,,,,1,CapitalizedWords,"['user', 'details', 'endpoint']"
-SENTRY_RATELIMITER_OPTIONS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'ratelimiter', 'options']"
+SENTRY_RATELIMITER_OPTIONS,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'ratelimiter', 'options']"
 secure,3,,,,,,,,,3,lowercase,['secure']
 instr,14,,,,,,,,,14,lowercase,['instr']
 _unshift_counter,2,1,,,,,,,,1,lower_case_with_underscores,"['unshift', 'counter']"
@@ -1766,7 +1766,7 @@ test_notify_users_renders_interfaces_with_utf8,1,1,,,,,,,,,lower_case_with_under
 test_should_notify_no_sendable_users,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'should', 'notify', 'no', 'sendable', 'users']"
 entry_points,1,,,,,,1,,,,lower_case_with_underscores,"['entry', 'points']"
 nullable,2,,,,,,1,,,1,lowercase,['nullable']
-smtp_EHLO,3,1,,,,,,,,2,ugly,"['smtp', 'ehlo']"
+smtp_EHLO,3,1,,,,,,,,2,camel_Snake_Case,"['smtp', 'ehlo']"
 PROJECT_SEQUENCE_FIX,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['project', 'sequence', 'fix']"
 _get_func_name,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'func', 'name']"
 authentication_classes,2,,,,,,,,,2,lower_case_with_underscores,"['authentication', 'classes']"
@@ -1845,7 +1845,7 @@ generate_id,3,1,,,,,,,,2,lower_case_with_underscores,"['generate', 'id']"
 TeamGroupsTrendingEndpoint,3,,1,1,,,,,,1,CapitalizedWords,"['team', 'groups', 'trending', 'endpoint']"
 test_empty_event_id,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'empty', 'event', 'id']"
 AttributeError,11,,,,,,,,,11,CapitalizedWords,"['attribute', 'error']"
-EMAIL_HOST_USER,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['email', 'host', 'user']"
+EMAIL_HOST_USER,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['email', 'host', 'user']"
 EISDIR,1,,,,,,,,,1,UPPERCASE,"['eisdi', 'r']"
 SDistCommand,3,,,,,,,1,,2,CapitalizedWords,"['s', 'dist', 'command']"
 BaseTSDB,9,,1,4,,,,,,4,CapitalizedWords,"['base', 'tsd', 'b']"
@@ -2015,7 +2015,7 @@ rule_is_active,5,,,,,,1,,,4,lower_case_with_underscores,"['rule', 'is', 'active'
 replace_keys,2,1,,,,,,,,1,lower_case_with_underscores,"['replace', 'keys']"
 DEFAULT_LOGGER_NAME,8,,,3,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['default', 'logger', 'name']"
 allowed_origins,9,,,,,,1,,,8,lower_case_with_underscores,"['allowed', 'origins']"
-default_values,6,,,,,,,,,6,lower_case_with_underscores,"['default', 'values']"
+LOGIN_REDIRECT_URL,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['login', 'redirect', 'url']"
 reset,2,,,,,,,,,2,lowercase,['reset']
 test_first_seen_date_filter,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'first', 'seen', 'date', 'filter']"
 MySQLdb,2,,,1,,,,,,1,CapitalizedWords,"['my', 'sq', 'ldb']"
@@ -2050,7 +2050,7 @@ modules,4,,,,,,,,,4,lowercase,['modules']
 configure_sentry_errors,2,1,,,,,,,,1,lower_case_with_underscores,"['configure', 'sentry', 'errors']"
 notification,26,,,,,,,,,26,lowercase,['notification']
 DeleteOrganizationMemberTest,1,,1,,,,,,,,CapitalizedWords,"['delete', 'organization', 'member', 'test']"
-SENTRY_FILESTORE,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'filestore']"
+SENTRY_FILESTORE,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'filestore']"
 nvalue,4,,,,,,,,,4,lowercase,['nvalue']
 HttpResponseNotFound,2,,,1,,,,,,1,CapitalizedWords,"['http', 'response', 'not', 'found']"
 ALL_SCHEMES,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['all', 'schemes']"
@@ -2097,7 +2097,6 @@ test_domain_wildcard_matches_domain_with_path,1,1,,,,,,,,,lower_case_with_unders
 weakref,5,,,2,,,,,,3,lowercase,['weakref']
 BaseModel,11,,1,3,,,,,,7,CapitalizedWords,"['base', 'model']"
 ERR_NO_SSO,7,,,,,,,,,7,UPPER_CASE_WITH_UNDERSCORES,"['err', 'no', 'sso']"
-cwd,9,,,,,,6,,,3,lowercase,['cwd']
 list_organization_teams_scenario,2,1,,,,,,,,1,lower_case_with_underscores,"['list', 'organization', 'teams', 'scenario']"
 extra,62,,,,,,9,,,53,lowercase,['extra']
 newcallers,8,,,,,,,,,8,lowercase,['newcallers']
@@ -2194,7 +2193,7 @@ replay,2,1,,,,,,,,1,lowercase,['replay']
 ex,3,,,,,,3,,,,lowercase,['ex']
 year,1,,,,,,1,,,,lowercase,['year']
 test_cannot_delete_only_owner,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'cannot', 'delete', 'only', 'owner']"
-dirname,22,,,,,,,,,22,lowercase,['dirname']
+dirname,23,,,,,,,,,23,lowercase,['dirname']
 ep,7,,,,,,,,,7,lowercase,['ep']
 is_testable,2,1,,,,,,,,1,lower_case_with_underscores,"['is', 'testable']"
 get_plugins,6,3,,,,,,,,3,lower_case_with_underscores,"['get', 'plugins']"
@@ -2279,7 +2278,7 @@ upgrade,3,1,,,,,,,,2,lowercase,['upgrade']
 title,47,1,,,,,1,,,45,lowercase,['title']
 allow_unlinked,4,,,,,,,,,4,lower_case_with_underscores,"['allow', 'unlinked']"
 new_module,2,,,,,,,,,2,lower_case_with_underscores,"['new', 'module']"
-WARNING,1,,,,,,,,,1,UPPERCASE,"['warnin', 'g']"
+test_default_fingerprint,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'default', 'fingerprint']"
 sourcemap_index,2,,,,,,,,,2,lower_case_with_underscores,"['sourcemap', 'index']"
 group_link,3,,,,,,,,,3,lower_case_with_underscores,"['group', 'link']"
 test_assigned_to,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'assigned', 'to']"
@@ -2301,7 +2300,7 @@ is_staff,6,,,,,,1,,,5,lower_case_with_underscores,"['is', 'staff']"
 last_sync,1,,,,,,,,,1,lower_case_with_underscores,"['last', 'sync']"
 FirstSeenEventCondition,3,,1,1,,,,,,1,CapitalizedWords,"['first', 'seen', 'event', 'condition']"
 test_last_seen_date_filter,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'last', 'seen', 'date', 'filter']"
-SENTRY_APIDOCS_WEB_PORT,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'apidocs', 'web', 'port']"
+SENTRY_APIDOCS_WEB_PORT,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'apidocs', 'web', 'port']"
 test_output_allows_x_sentry_auth,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'output', 'allows', 'x', 'sentry', 'auth']"
 SharedEventSerializer,5,,1,1,,,,,,3,CapitalizedWords,"['shared', 'event', 'serializer']"
 t_slug,2,,,,,,,,,2,lower_case_with_underscores,"['t', 'slug']"
@@ -2554,7 +2553,7 @@ FilterStack,1,,,,,,,,,1,CapitalizedWords,"['filter', 'stack']"
 countdown,19,,,,,,19,,,,lowercase,['countdown']
 test_to_string,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'to', 'string']"
 replay_event,1,,,1,,,,,,,lower_case_with_underscores,"['replay', 'event']"
-LOGIN_REDIRECT_URL,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['login', 'redirect', 'url']"
+default_values,6,,,,,,,,,6,lower_case_with_underscores,"['default', 'values']"
 organizationmemberteam__team,3,,,,,,3,,,,lower_case_with_underscores,"['organizationmemberteam', '', 'team']"
 get_item_key,4,3,,,,,,,,1,lower_case_with_underscores,"['get', 'item', 'key']"
 JS_INVALID_SOURCEMAP,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['js', 'invalid', 'sourcemap']"
@@ -2916,7 +2915,7 @@ OrganizationEndpoint,19,,1,9,,,,,,9,CapitalizedWords,"['organization', 'endpoint
 _write_version_file,2,1,,,,,,,,1,lower_case_with_underscores,"['write', 'version', 'file']"
 projectkey,24,1,,,,,,,,23,lowercase,['projectkey']
 thread_collector,1,,,1,,,,,,,lower_case_with_underscores,"['thread', 'collector']"
-DoesNotExist,115,,,,,,,,,115,CapitalizedWords,"['does', 'not', 'exist']"
+force_revive,3,1,,,,,,,,2,lower_case_with_underscores,"['force', 'revive']"
 project_event_details,1,,,1,,,,,,,lower_case_with_underscores,"['project', 'event', 'details']"
 application,2,,,,,,,,,2,lowercase,['application']
 attrgetter,2,,,1,,,,,,1,lowercase,['attrgetter']
@@ -3106,7 +3105,7 @@ configure,19,4,,6,,,,,,9,lowercase,['configure']
 minute,1,,,,,,1,,,,lowercase,['minute']
 system_frames,23,,,,,,10,,,13,lower_case_with_underscores,"['system', 'frames']"
 find_packages,2,,,1,,,,,,1,lower_case_with_underscores,"['find', 'packages']"
-SENTRY_QUOTAS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'quotas']"
+SENTRY_QUOTAS,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'quotas']"
 get_form_instance,4,2,,,,,,,,2,lower_case_with_underscores,"['get', 'form', 'instance']"
 test_get_traceback_response,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'get', 'traceback', 'response']"
 GroupTagKeySerializer,1,,1,,,,,,,,CapitalizedWords,"['group', 'tag', 'key', 'serializer']"
@@ -3158,7 +3157,7 @@ obj2,2,,,,,,,,,2,lowercase,['obj2']
 test_invalid_ip_address,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'invalid', 'ip', 'address']"
 test_multiple_teams,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'multiple', 'teams']"
 auth_provider_login,1,,,1,,,,,,,lower_case_with_underscores,"['auth', 'provider', 'login']"
-project_query,4,,,,,,,,,4,lower_case_with_underscores,"['project', 'query']"
+SENTRY_QUOTA_OPTIONS,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'quota', 'options']"
 endless,2,,,,,,2,,,,lowercase,['endless']
 test_soft_break_and_hyphenate,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'soft', 'break', 'and', 'hyphenate']"
 ProjectNotificationsView,3,,1,1,,,,,,1,CapitalizedWords,"['project', 'notifications', 'view']"
@@ -3276,6 +3275,7 @@ test_domain_wildcard_matches_domain,1,1,,,,,,,,,lower_case_with_underscores,"['t
 test_can_join_as_owner_without_open_membership,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'can', 'join', 'as', 'owner', 'without', 'open', 'membership']"
 home,1,,,1,,,,,,,lowercase,['home']
 test_iso_timestamp,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'iso', 'timestamp']"
+CONF_ROOT,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['conf', 'root']"
 urlize,2,,,1,,,,,,1,lowercase,['urlize']
 test_legacy_blob,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'legacy', 'blob']"
 datecol,12,,,,,,,,,12,lowercase,['datecol']
@@ -3340,7 +3340,7 @@ RoundRobinStrategy,2,,1,,,,,,,1,CapitalizedWords,"['round', 'robin', 'strategy']
 DatabaseClient,1,,,1,,,,,,,CapitalizedWords,"['database', 'client']"
 bcc,14,,,,,,5,,,9,lowercase,['bcc']
 get_tag,7,1,,,,,,,,6,lower_case_with_underscores,"['get', 'tag']"
-SENTRY_URL_PREFIX,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'url', 'prefix']"
+SENTRY_URL_PREFIX,6,,,,,,,,,6,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'url', 'prefix']"
 timestamp__lte,1,,,,,,1,,,,lower_case_with_underscores,"['timestamp', '', 'lte']"
 user__isnull,9,,,,,,9,,,,lower_case_with_underscores,"['user', '', 'isnull']"
 paretovariate,1,,,,,,,,,1,lowercase,['paretovariate']
@@ -3358,7 +3358,7 @@ preprocess,1,,,,,,,,,1,lowercase,['preprocess']
 from_string,4,1,,,,,,,,3,lower_case_with_underscores,"['from', 'string']"
 FeatureManager,2,,1,,,,,,,1,CapitalizedWords,"['feature', 'manager']"
 updated,10,,,,,,,,,10,lowercase,['updated']
-SENTRY_OPTIONS,24,,,,,,7,,,17,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'options']"
+SENTRY_OPTIONS,26,,,,,,7,,,19,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'options']"
 next_filename,2,,,,,,,,,2,lower_case_with_underscores,"['next', 'filename']"
 updates,21,,,,,,,,,21,lowercase,['updates']
 test_with_nameless_function,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'with', 'nameless', 'function']"
@@ -3733,7 +3733,7 @@ test_discards_0_percent,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'disca
 process_pending,5,3,,,,,,,,2,lower_case_with_underscores,"['process', 'pending']"
 test_register_renders_correct_template,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'register', 'renders', 'correct', 'template']"
 AuthHelper,9,,1,3,,,,,,5,CapitalizedWords,"['auth', 'helper']"
-visit_Attribute,1,1,,,,,,,,,ugly,"['visit', 'attribute']"
+visit_Attribute,1,1,,,,,,,,,camel_Snake_Case,"['visit', 'attribute']"
 get_alias,6,5,,,,,,,,1,lower_case_with_underscores,"['get', 'alias']"
 last_updated__gte,1,,,,,,1,,,,lower_case_with_underscores,"['last', 'updated', '', 'gte']"
 record_project_tag_count,1,1,,,,,,,,,lower_case_with_underscores,"['record', 'project', 'tag', 'count']"
@@ -3745,12 +3745,13 @@ SENTRY_MAX_DICTIONARY_ITEMS,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 
 add_message,45,,,,,,,,,45,lower_case_with_underscores,"['add', 'message']"
 UserManager,4,,1,1,,,,,,2,CapitalizedWords,"['user', 'manager']"
 ProjectEventsEndpoint,3,,1,1,,,,,,1,CapitalizedWords,"['project', 'events', 'endpoint']"
+SENTRY_APIDOCS_REDIS_CONF,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'apidocs', 'redis', 'conf']"
 test_validate_fails_on_pylibmc,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'validate', 'fails', 'on', 'pylibmc']"
 debug_new_release_email,1,,,1,,,,,,,lower_case_with_underscores,"['debug', 'new', 'release', 'email']"
 test_broken_regression_signal,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'broken', 'regression', 'signal']"
 utilities,2,,,2,,,,,,,lowercase,['utilities']
 OrganizationAuditLogPermissionTest,2,,1,,,,,,,1,CapitalizedWords,"['organization', 'audit', 'log', 'permission', 'test']"
-EMAIL_PORT,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['email', 'port']"
+EMAIL_PORT,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['email', 'port']"
 filter_stacktrace,3,1,,,,,,,,2,lower_case_with_underscores,"['filter', 'stacktrace']"
 Constant,15,,,1,,,,,,14,CapitalizedWords,['constant']
 test_does_not_support_port,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'does', 'not', 'support', 'port']"
@@ -3939,7 +3940,7 @@ BuildJavascriptCommand,2,,1,,,,,,,1,CapitalizedWords,"['build', 'javascript', 'c
 petname,2,,,1,,,,,,1,lowercase,['petname']
 get_display_name,15,2,,,,,,,,13,lower_case_with_underscores,"['get', 'display', 'name']"
 test_no_directory,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'no', 'directory']"
-EMAIL_HOST_PASSWORD,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['email', 'host', 'password']"
+EMAIL_HOST_PASSWORD,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['email', 'host', 'password']"
 ENABLE_EMAIL_REPLIES,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['enable', 'email', 'replies']"
 capfirst,2,,,1,,,,,,1,lowercase,['capfirst']
 ErrorPageEmbedTest,2,,1,,,,,,,1,CapitalizedWords,"['error', 'page', 'embed', 'test']"
@@ -4097,7 +4098,7 @@ ProjectSettingsView,3,,1,1,,,,,,1,CapitalizedWords,"['project', 'settings', 'vie
 test_header_value_str,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'header', 'value', 'str']"
 APIRateLimited,4,,1,1,,,,,,2,CapitalizedWords,"['api', 'rate', 'limited']"
 gevent_wait_callback,2,1,,,,,,,,1,lower_case_with_underscores,"['gevent', 'wait', 'callback']"
-server,11,,,,,,,,,11,lowercase,['server']
+server,12,,,1,,,,,,11,lowercase,['server']
 is_caused_by,2,1,,,,,,,,1,lower_case_with_underscores,"['is', 'caused', 'by']"
 get_user_model,2,,,1,,,,,,1,lower_case_with_underscores,"['get', 'user', 'model']"
 _process_data_timestamp,9,1,,,,,,,,8,lower_case_with_underscores,"['process', 'data', 'timestamp']"
@@ -4261,7 +4262,7 @@ CACHE_FETCH_ERR,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['cache', 'fetch', 'err
 two,2,,,,,,,,,2,lowercase,['two']
 _LOGIN_URL,8,,,,,,,,1,7,UPPER_CASE_WITH_UNDERSCORES,"['login', 'url']"
 get_label,15,3,,,,,,,,12,lower_case_with_underscores,"['get', 'label']"
-SENTRY_WEB_HOST,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'web', 'host']"
+SENTRY_WEB_HOST,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'web', 'host']"
 compute_hashes,5,3,,,,,,,,2,lower_case_with_underscores,"['compute', 'hashes']"
 stats_str,14,,,,,,,,,14,lower_case_with_underscores,"['stats', 'str']"
 none,2,,,,,,,,,2,lowercase,['none']
@@ -4366,7 +4367,7 @@ TemplateResponse,2,,,1,,,,,,1,CapitalizedWords,"['template', 'response']"
 b,2,,,,,,,,,2,b,['b']
 related_name,46,,,,,,44,,,2,lower_case_with_underscores,"['related', 'name']"
 newest_first,16,,,,,,2,,,14,lower_case_with_underscores,"['newest', 'first']"
-SENTRY_CACHE,6,,,,,,,,,6,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'cache']"
+SENTRY_CACHE,7,,,,,,,,,7,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'cache']"
 _project_cache,2,,,,,,,,,2,lower_case_with_underscores,"['project', 'cache']"
 headers,156,,,,,,28,,,128,lowercase,['headers']
 interactive,3,,,,,,3,,,,lowercase,['interactive']
@@ -4442,7 +4443,7 @@ existing_group_id,4,,,,,,,,,4,lower_case_with_underscores,"['existing', 'group',
 default_teams,7,,,,,,,,,7,lower_case_with_underscores,"['default', 'teams']"
 TypeError,24,,,,,,,,,24,CapitalizedWords,"['type', 'error']"
 retrieve_event_counts_organization,2,1,,,,,,,,1,lower_case_with_underscores,"['retrieve', 'event', 'counts', 'organization']"
-reverse,506,,,141,,,12,,,353,lowercase,['reverse']
+parse_qsl,4,,,2,,,,,,2,lower_case_with_underscores,"['parse', 'qsl']"
 shorten_name,8,,,,,,,,,8,lower_case_with_underscores,"['shorten', 'name']"
 LINK_HEADER,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['link', 'header']"
 interface_list,10,,,,,,,,,10,lower_case_with_underscores,"['interface', 'list']"
@@ -4490,6 +4491,7 @@ around,2,,,1,,,,,,1,lowercase,['around']
 AuthProviderSettingsForm,2,,1,,,,,,,1,CapitalizedWords,"['auth', 'provider', 'settings', 'form']"
 pytest,21,,,8,,,,,,13,lowercase,['pytest']
 UnknownCommand,2,,1,,,,,,,1,CapitalizedWords,"['unknown', 'command']"
+EMAIL_BACKEND,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['email', 'backend']"
 i_data,4,,,,,,,,,4,lower_case_with_underscores,"['i', 'data']"
 test_missing_project_id,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'missing', 'project', 'id']"
 keys,102,,,,,,13,,,89,lowercase,['keys']
@@ -4612,7 +4614,7 @@ test_valid_platform,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'valid', '
 command_path,1,,,,,,,,,1,lower_case_with_underscores,"['command', 'path']"
 is_active,86,3,,,,,51,,,32,lower_case_with_underscores,"['is', 'active']"
 test_user_lookup_with_dot_query,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'user', 'lookup', 'with', 'dot', 'query']"
-False,761,,,,,,,,,761,CapitalizedWords,['false']
+False,763,,,,,,,,,763,CapitalizedWords,['false']
 LoginTest,1,,1,,,,,,,,CapitalizedWords,"['login', 'test']"
 _parse_links,3,1,,,,,,,,2,lower_case_with_underscores,"['parse', 'links']"
 stddev,1,1,,,,,,,,,lowercase,['stddev']
@@ -4775,7 +4777,7 @@ get_env,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'env']"
 RemoveOrganizationPermissionTest,2,,1,,,,,,,1,CapitalizedWords,"['remove', 'organization', 'permission', 'test']"
 list_files_scenario,2,1,,,,,,,,1,lower_case_with_underscores,"['list', 'files', 'scenario']"
 Cluster,1,,,,,,,,,1,CapitalizedWords,['cluster']
-_get_release_info,5,2,,,,,,,,3,lower_case_with_underscores,"['get', 'release', 'info']"
+num,17,,,,,,3,,,14,lowercase,['num']
 test_with_only_http_interface,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'with', 'only', 'http', 'interface']"
 apply_legacy_settings,2,1,,,,,,,,1,lower_case_with_underscores,"['apply', 'legacy', 'settings']"
 test_large_dict,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'large', 'dict']"
@@ -4829,7 +4831,7 @@ user_counts,4,,,,,,,,,4,lower_case_with_underscores,"['user', 'counts']"
 test_default_value,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'default', 'value']"
 beat,7,,,1,,,,,,6,lowercase,['beat']
 lower_bound,2,,,,,,,,,2,lower_case_with_underscores,"['lower', 'bound']"
-SENTRY_FILESTORE_OPTIONS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'filestore', 'options']"
+SENTRY_FILESTORE_OPTIONS,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'filestore', 'options']"
 ERR_INVITE_INVALID,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['err', 'invite', 'invalid']"
 RemoveProjectPermissionTest,2,,1,,,,,,,1,CapitalizedWords,"['remove', 'project', 'permission', 'test']"
 csrf,25,,,16,,,,,,9,lowercase,['csrf']
@@ -4969,6 +4971,7 @@ ETA,1,,,,,,,,,1,UPPERCASE,"['et', 'a']"
 date_added__lte,1,,,,,,1,,,,lower_case_with_underscores,"['date', 'added', '', 'lte']"
 test_under_max,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'under', 'max']"
 other_member,5,,,,,,,,,5,lower_case_with_underscores,"['other', 'member']"
+test_custom_values,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'custom', 'values']"
 get_allowed_origins,3,2,,,,,,,,1,lower_case_with_underscores,"['get', 'allowed', 'origins']"
 test_shows_access_requests_for_team_admin,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'shows', 'access', 'requests', 'for', 'team', 'admin']"
 CrossDomainXmlIndexTest,1,,1,,,,,,,,CapitalizedWords,"['cross', 'domain', 'xml', 'index', 'test']"
@@ -4986,7 +4989,7 @@ dirnames,1,,,,,,,,,1,lowercase,['dirnames']
 summary_for_files,4,2,,,,,,,,2,lower_case_with_underscores,"['summary', 'for', 'files']"
 UnicodePickledObjectField,10,,1,4,,,,,,5,CapitalizedWords,"['unicode', 'pickled', 'object', 'field']"
 test_missing_csp_report,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'missing', 'csp', 'report']"
-CELERY_ALWAYS_EAGER,8,,,,,,,,,8,UPPER_CASE_WITH_UNDERSCORES,"['celery', 'always', 'eager']"
+CELERY_ALWAYS_EAGER,9,,,,,,,,,9,UPPER_CASE_WITH_UNDERSCORES,"['celery', 'always', 'eager']"
 create_new_user,2,1,,,,,,,,1,lower_case_with_underscores,"['create', 'new', 'user']"
 expiry,2,,,,,,,,,2,lowercase,['expiry']
 host,48,,,,,,7,,,41,lowercase,['host']
@@ -5081,7 +5084,7 @@ test_get_without_team_membership,1,1,,,,,,,,,lower_case_with_underscores,"['test
 __values,7,,,,,,,,,7,lowercase,['values']
 BASE_URL,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['base', 'url']"
 HomeView,3,,1,1,,,,,,1,CapitalizedWords,"['home', 'view']"
-path,802,46,,15,,,54,,,687,lowercase,['path']
+path,803,46,,15,,,54,,,688,lowercase,['path']
 test_pagination,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'pagination']"
 get_result,12,2,,,,,,,,10,lower_case_with_underscores,"['get', 'result']"
 property,54,,,,,,,,,54,lowercase,['property']
@@ -5118,7 +5121,7 @@ DummyBackend,1,,1,,,,,,,,CapitalizedWords,"['dummy', 'backend']"
 get_team_scenario,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'team', 'scenario']"
 ms,2,,,,,,,,,2,lowercase,['ms']
 __data,6,,,,,,,,,6,lowercase,['data']
-conf,121,,,113,,,,,,8,lowercase,['conf']
+conf,122,,,114,,,,,,8,lowercase,['conf']
 send_beacon,5,1,,1,,,,,,3,lower_case_with_underscores,"['send', 'beacon']"
 _set_cache,4,2,,,,,,,,2,lower_case_with_underscores,"['set', 'cache']"
 set_store,2,1,,,,,,,,1,lower_case_with_underscores,"['set', 'store']"
@@ -5279,7 +5282,7 @@ OrganizationMemberSerializer,3,,2,,,,,,,1,CapitalizedWords,"['organization', 'me
 member_set__user,1,,,,,,1,,,,lower_case_with_underscores,"['member', 'set', '', 'user']"
 AuditLogEntryAdmin,2,,1,,,,,,,1,CapitalizedWords,"['audit', 'log', 'entry', 'admin']"
 BuildCommand,3,,,,,,,1,,2,CapitalizedWords,"['build', 'command']"
-num,17,,,,,,3,,,14,lowercase,['num']
+_get_release_info,5,2,,,,,,,,3,lower_case_with_underscores,"['get', 'release', 'info']"
 candidate_ids,6,,,,,,,,,6,lower_case_with_underscores,"['candidate', 'ids']"
 noinput,8,,,,,,1,,,7,lowercase,['noinput']
 test_base_domain_does_not_match_subdomain,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'base', 'domain', 'does', 'not', 'match', 'subdomain']"
@@ -5406,6 +5409,7 @@ Decimal,1,,,,,,,,,1,CapitalizedWords,['decimal']
 dev_requires,2,,,,,,,,,2,lower_case_with_underscores,"['dev', 'requires']"
 ADD,1,,,,,,,,,1,UPPERCASE,"['ad', 'd']"
 OriginsField,7,,1,3,,,,,,3,CapitalizedWords,"['origins', 'field']"
+SENTRY_APIDOCS_REDIS_OPTIONS,6,,,,,,,,,6,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'apidocs', 'redis', 'options']"
 get_tags,18,7,,,,,,,,11,lower_case_with_underscores,"['get', 'tags']"
 attr,20,,,,,,,,,20,lowercase,['attr']
 calculate_expiry,4,1,,,,,,,,3,lower_case_with_underscores,"['calculate', 'expiry']"
@@ -5451,7 +5455,7 @@ robots_txt,2,1,,,,,,,,1,lower_case_with_underscores,"['robots', 'txt']"
 AddProjectForm,4,,1,1,,,,,,2,CapitalizedWords,"['add', 'project', 'form']"
 ACCOUNTS,1,,,,,,,,,1,UPPERCASE,"['account', 's']"
 delete_project,10,1,,2,,,,,,7,lower_case_with_underscores,"['delete', 'project']"
-test_custom_values,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'custom', 'values']"
+randrange,2,,,1,,,,,,1,lowercase,['randrange']
 subscribe_notes,1,,,,,,,,,1,lower_case_with_underscores,"['subscribe', 'notes']"
 test_lookup_by_event_id,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'lookup', 'by', 'event', 'id']"
 admin_view,1,,,,,,,,,1,lower_case_with_underscores,"['admin', 'view']"
@@ -5466,7 +5470,7 @@ RelaxedMemberPermission,2,,1,,,,,,,1,CapitalizedWords,"['relaxed', 'member', 'pe
 ProjectGroupStatsTest,1,,1,,,,,,,,CapitalizedWords,"['project', 'group', 'stats', 'test']"
 APIUnauthorized,11,,1,1,,,,,,9,CapitalizedWords,"['api', 'unauthorized']"
 user_logged_in,4,,,1,,,,,,3,lower_case_with_underscores,"['user', 'logged', 'in']"
-SERVER_EMAIL,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['server', 'email']"
+SERVER_EMAIL,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['server', 'email']"
 URL_PASSWORD_RE,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['url', 'password', 're']"
 hour,1,,,,,,1,,,,lowercase,['hour']
 level,31,1,,1,,,2,,,27,lowercase,['level']
@@ -5499,7 +5503,7 @@ StacktraceTest,1,,1,,,,,,,,CapitalizedWords,"['stacktrace', 'test']"
 base64_sourcemap,2,,,,,,,,,2,lower_case_with_underscores,"['base64', 'sourcemap']"
 BROKER_BACKEND,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['broker', 'backend']"
 groups,43,,,,,,3,,,40,lowercase,['groups']
-DEBUG,13,,,,,,,,,13,UPPERCASE,"['debu', 'g']"
+DEBUG,14,,,,,,,,,14,UPPERCASE,"['debu', 'g']"
 absolute_asset_url,1,1,,,,,,,,,lower_case_with_underscores,"['absolute', 'asset', 'url']"
 toolbar,15,,,1,,,,,,14,lowercase,['toolbar']
 importlib,2,,,2,,,,,,,lowercase,['importlib']
@@ -5513,7 +5517,7 @@ exists_qs,2,,,,,,,,,2,lower_case_with_underscores,"['exists', 'qs']"
 and_,2,,,,,,,,,2,lowercase,['and']
 INACTIVE,13,,,,,,,,,13,UPPERCASE,"['inactiv', 'e']"
 test_bad_logger,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'bad', 'logger']"
-SENTRY_BUFFER_OPTIONS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'buffer', 'options']"
+SENTRY_RATELIMITER,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'ratelimiter']"
 retrieve_organization_scenario,2,1,,,,,,,,1,lower_case_with_underscores,"['retrieve', 'organization', 'scenario']"
 ResolveGroupResolutions,1,,1,,,,,,,,CapitalizedWords,"['resolve', 'group', 'resolutions']"
 Enum,4,,,2,,,,,,2,CapitalizedWords,['enum']
@@ -5544,7 +5548,7 @@ create_team,92,2,,1,,,,,,89,lower_case_with_underscores,"['create', 'team']"
 event_id,149,,,,,,66,,,83,lower_case_with_underscores,"['event', 'id']"
 UserAgentPlugins,1,,1,,,,,,,,CapitalizedWords,"['user', 'agent', 'plugins']"
 _getWithReferer,4,1,,,,,,,,3,mixedCase,"['get', 'with', 'referer']"
-SENTRY_APIDOCS_REDIS_PORT,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'apidocs', 'redis', 'port']"
+SENTRY_APIDOCS_REDIS_PORT,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'apidocs', 'redis', 'port']"
 get_raven_config,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'raven', 'config']"
 NotImplemented,1,,,,,,,,,1,CapitalizedWords,"['not', 'implemented']"
 f_num,4,,,,,,,,,4,lower_case_with_underscores,"['f', 'num']"
@@ -5562,7 +5566,7 @@ ERR_NO_TEAMS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['err', 'no', 'teams']"
 iteritems,73,,,,,,,,,73,lowercase,['iteritems']
 max_quota_share,5,,,,,,,,,5,lower_case_with_underscores,"['max', 'quota', 'share']"
 tb_lasti,2,1,,,,,,,,1,lower_case_with_underscores,"['tb', 'lasti']"
-SENTRY_QUOTA_OPTIONS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'quota', 'options']"
+project_query,4,,,,,,,,,4,lower_case_with_underscores,"['project', 'query']"
 force_grace,3,,,,,,1,,,2,lower_case_with_underscores,"['force', 'grace']"
 old_value,3,1,,,,,,,,2,lower_case_with_underscores,"['old', 'value']"
 platform,57,,,,,,13,,,44,lowercase,['platform']
@@ -5770,7 +5774,7 @@ event2,22,,,,,,,,,22,lowercase,['event2']
 event3,3,,,,,,,,,3,lowercase,['event3']
 event1,9,,,,,,,,,9,lowercase,['event1']
 absolute_import,861,,,861,,,,,,,lower_case_with_underscores,"['absolute', 'import']"
-visit_ImportFrom,1,1,,,,,,,,,ugly,"['visit', 'importfrom']"
+visit_ImportFrom,1,1,,,,,,,,,camel_Snake_Case,"['visit', 'importfrom']"
 kill,4,,,,,,,,,4,lowercase,['kill']
 unicode,46,,,,,,,,,46,lowercase,['unicode']
 test_with_stats,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'with', 'stats']"
@@ -5824,7 +5828,7 @@ RequestContext,6,,,3,,,,,,3,CapitalizedWords,"['request', 'context']"
 get_conf_key,19,2,,,,,,,,17,lower_case_with_underscores,"['get', 'conf', 'key']"
 DIRECTIVES,2,,,,,,,,,2,UPPERCASE,"['directive', 's']"
 register_path,2,,,,,,,,,2,lower_case_with_underscores,"['register', 'path']"
-os,208,,,41,,,,,,167,lowercase,['os']
+os,210,,,42,,,,,,168,lowercase,['os']
 op,40,,,,,,,,,40,lowercase,['op']
 Paginator,7,,1,2,,,,,,4,CapitalizedWords,['paginator']
 test_setting_empty,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'setting', 'empty']"
@@ -5965,7 +5969,7 @@ test_extra,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'extra']"
 Int,13,,,2,,,,,,11,CapitalizedWords,['int']
 test_login_uses_default,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'login', 'uses', 'default']"
 error_set,3,,,,,,,,,3,lower_case_with_underscores,"['error', 'set']"
-sentry,1951,,,1913,,,,,,38,lowercase,['sentry']
+sentry,1952,,,1914,,,,,,38,lowercase,['sentry']
 _get_origin,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'origin']"
 POLL_READ,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['poll', 'read']"
 v,181,,,,,,,,,181,b,['v']
@@ -5997,6 +6001,7 @@ disable,9,3,,,,,,,,6,lowercase,['disable']
 test_teamless_basic_member,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'teamless', 'basic', 'member']"
 capitalize,1,,,,,,,,,1,lowercase,['capitalize']
 get_actions,5,3,,,,,,,,2,lower_case_with_underscores,"['get', 'actions']"
+WARNING,1,,,,,,,,,1,UPPERCASE,"['warnin', 'g']"
 callback,34,1,,,,,1,,,32,lowercase,['callback']
 OrganizationApiKeysView,3,,1,1,,,,,,1,CapitalizedWords,"['organization', 'api', 'keys', 'view']"
 key_id,14,,,,,,,,,14,lower_case_with_underscores,"['key', 'id']"
@@ -6189,7 +6194,7 @@ test_base_domain_matches_domain_with_port,1,1,,,,,,,,,lower_case_with_underscore
 JSONTest,1,,1,,,,,,,,CapitalizedWords,"['json', 'test']"
 deliver_digest,4,1,,1,,,,,,2,lower_case_with_underscores,"['deliver', 'digest']"
 SharedGroupDetailsEndpoint,3,,1,1,,,,,,1,CapitalizedWords,"['shared', 'group', 'details', 'endpoint']"
-SENTRY_SINGLE_ORGANIZATION,12,,,,,,5,,,7,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'single', 'organization']"
+SENTRY_SINGLE_ORGANIZATION,13,,,,,,5,,,8,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'single', 'organization']"
 TIME_ZONE,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['time', 'zone']"
 deletion,12,,,12,,,,,,,lowercase,['deletion']
 sqlite3,1,,,1,,,,,,,lowercase,['sqlite3']
@@ -6216,7 +6221,7 @@ find_mail_plugin,2,1,,,,,,,,1,lower_case_with_underscores,"['find', 'mail', 'plu
 _post_teardown,2,1,,,,,,,,1,lower_case_with_underscores,"['post', 'teardown']"
 reinvite,1,,,,,,,,,1,lowercase,['reinvite']
 finalize_response,1,,,,,,,,,1,lower_case_with_underscores,"['finalize', 'response']"
-DATABASES,15,,,,,,2,,,13,UPPERCASE,"['database', 's']"
+DATABASES,16,,,,,,2,,,14,UPPERCASE,"['database', 's']"
 UserUpdateTest,1,,1,,,,,,,,CapitalizedWords,"['user', 'update', 'test']"
 view_kwargs,7,,,,,,,,,7,lower_case_with_underscores,"['view', 'kwargs']"
 _disable_provider,2,1,,,,,,,,1,lower_case_with_underscores,"['disable', 'provider']"
@@ -6227,7 +6232,7 @@ appearance_settings,2,1,,,,,,,,1,lower_case_with_underscores,"['appearance', 'se
 to_org,11,,,,,,,,,11,lower_case_with_underscores,"['to', 'org']"
 collect,6,2,,,,,,,,4,lowercase,['collect']
 status_label,10,,,,,,,,,10,lower_case_with_underscores,"['status', 'label']"
-SENTRY_TSDB,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'tsdb']"
+SENTRY_TSDB,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'tsdb']"
 test_to_string_returns_traceback,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'to', 'string', 'returns', 'traceback']"
 send_to_list,5,,,,,,,,,5,lower_case_with_underscores,"['send', 'to', 'list']"
 DummyMetricsBackend,1,,1,,,,,,,,CapitalizedWords,"['dummy', 'metrics', 'backend']"
@@ -6250,7 +6255,7 @@ RedisCacheTest,1,,1,,,,,,,,CapitalizedWords,"['redis', 'cache', 'test']"
 NodeData,4,,1,1,,,,,,2,CapitalizedWords,"['node', 'data']"
 test_custom_protocol_without_location,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'custom', 'protocol', 'without', 'location']"
 Signer,2,,,1,,,,,,1,CapitalizedWords,['signer']
-SENTRY_RATELIMITER,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'ratelimiter']"
+SENTRY_BUFFER_OPTIONS,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'buffer', 'options']"
 TWITTER_CONSUMER_KEY,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['twitter', 'consumer', 'key']"
 pipeline,77,,,,,,,,,77,lowercase,['pipeline']
 test_admin_can_create_team,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'admin', 'can', 'create', 'team']"
@@ -6300,7 +6305,7 @@ localize_datetime,3,1,,,,,,,,2,lower_case_with_underscores,"['localize', 'dateti
 OrganizationStatsTest,1,,1,,,,,,,,CapitalizedWords,"['organization', 'stats', 'test']"
 grouper,4,,,,,,,,,4,lowercase,['grouper']
 AppearanceSettingsForm,4,,1,1,,,,,,2,CapitalizedWords,"['appearance', 'settings', 'form']"
-SENTRY_USE_BIG_INTS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'use', 'big', 'ints']"
+SENTRY_USE_BIG_INTS,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'use', 'big', 'ints']"
 grouped,4,,,,,,,,,4,lowercase,['grouped']
 can_register,11,,,,,,,,,11,lower_case_with_underscores,"['can', 'register']"
 project_rule_edit,1,,,1,,,,,,,lower_case_with_underscores,"['project', 'rule', 'edit']"
@@ -6331,7 +6336,7 @@ get_prog,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'prog']"
 instrumented_task,40,1,,14,,,,,,25,lower_case_with_underscores,"['instrumented', 'task']"
 prev_value,5,,,,,,,,,5,lower_case_with_underscores,"['prev', 'value']"
 getfile,7,2,,,,,,,,5,lowercase,['getfile']
-BROKER_URL,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['broker', 'url']"
+BROKER_URL,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['broker', 'url']"
 LOG_LEVELS,14,,,6,,,,,,8,UPPER_CASE_WITH_UNDERSCORES,"['log', 'levels']"
 assignee_set__project__in,1,,,,,,1,,,,lower_case_with_underscores,"['assignee', 'set', '', 'project', '', 'in']"
 base64,17,,,9,,,,,,8,lowercase,['base64']
@@ -6609,7 +6614,7 @@ GetLoginRedirectTest,1,,1,,,,,,,,CapitalizedWords,"['get', 'login', 'redirect', 
 pbar,4,,,,,,,,,4,lowercase,['pbar']
 next_value,6,,,,,,,,,6,lower_case_with_underscores,"['next', 'value']"
 test_query_string_and_fragment_in_url,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'query', 'string', 'and', 'fragment', 'in', 'url']"
-parse_qsl,4,,,2,,,,,,2,lower_case_with_underscores,"['parse', 'qsl']"
+reverse,506,,,141,,,12,,,353,lowercase,['reverse']
 test_timestamps_out_of_order,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'timestamps', 'out', 'of', 'order']"
 rate_limit,9,,,,,,,,,9,lower_case_with_underscores,"['rate', 'limit']"
 is_pkg,1,,,,,,,,,1,lower_case_with_underscores,"['is', 'pkg']"
@@ -6718,12 +6723,12 @@ HiddenInput,1,,,,,,,,,1,CapitalizedWords,"['hidden', 'input']"
 promise,2,,,,,,,,,2,lowercase,['promise']
 from_kwargs,3,1,,,,,,,,2,lower_case_with_underscores,"['from', 'kwargs']"
 val,19,,,,,,,,,19,lowercase,['val']
-*,51,,,51,,,,,,,mixedCase,['*']
+*,52,,,52,,,,,,,ugly,['*']
 StatsdMetricsBackendTest,1,,1,,,,,,,,CapitalizedWords,"['statsd', 'metrics', 'backend', 'test']"
 var,11,,,,,,,,,11,lowercase,['var']
 pk_name,14,,,,,,,,,14,lower_case_with_underscores,"['pk', 'name']"
 new_data,7,,,,,,2,,,5,lower_case_with_underscores,"['new', 'data']"
-SENTRY_CACHE_OPTIONS,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'cache', 'options']"
+SENTRY_CACHE_OPTIONS,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'cache', 'options']"
 simplejson,7,,,4,,,,,,3,lowercase,['simplejson']
 cfg_names,2,,,,,,,,,2,lower_case_with_underscores,"['cfg', 'names']"
 _make_cache_key,2,1,,,,,,,,1,lower_case_with_underscores,"['make', 'cache', 'key']"

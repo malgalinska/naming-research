@@ -1,4 +1,4 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,case_convention,words
+name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
 setuptools,2,,,2,,,,,,,lowercase,['setuptools']
 setup,2,,,1,,,,,,1,lowercase,['setup']
 find_packages,2,,,1,,,,,,1,lower_case_with_underscores,"['find', 'packages']"
@@ -2003,7 +2003,7 @@ _clone_sequential_model,2,1,,,,,,,,1,lower_case_with_underscores,"['clone', 'seq
 clone,2,1,,,,,,,,1,lowercase,['clone']
 origin_layer,3,,,,,,,,,3,lower_case_with_underscores,"['origin', 'layer']"
 clone_model,10,1,,1,,,,,,8,lower_case_with_underscores,"['clone', 'model']"
-*,4,,,4,,,,,,,mixedCase,['*']
+*,4,,,4,,,,,,,ugly,['*']
 legacy,26,,,26,,,,,,,lowercase,['legacy']
 interfaces,67,,,15,,,,,,52,lowercase,['interfaces']
 condition,31,,,,,4,,,,27,lowercase,['condition']
@@ -2811,7 +2811,7 @@ default_value,1,,,,,,1,,,,lower_case_with_underscores,"['default', 'value']"
 theano,35,,,9,,,,,,26,lowercase,['theano']
 sandbox,5,,,2,,,,,,3,lowercase,['sandbox']
 rng_mrg,1,,,1,,,,,,,lower_case_with_underscores,"['rng', 'mrg']"
-MRG_RandomStreams,1,,,1,,,,,,,ugly,"['mrg', 'randomstreams']"
+MRG_RandomStreams,1,,,1,,,,,,,Capitalized_Words_With_Underscores,"['mrg', 'randomstreams']"
 RandomStreams,6,,,,,,,1,,5,CapitalizedWords,"['random', 'streams']"
 printing,1,,,1,,,,,,,lowercase,['printing']
 ifelse,3,,,2,,,,,,1,lowercase,['ifelse']
@@ -4718,7 +4718,7 @@ window_size,1,,,,,,1,,,,lower_case_with_underscores,"['window', 'size']"
 test_remove_long_seq,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'remove', 'long', 'seq']"
 new_seq,2,,,,,,,,,2,lower_case_with_underscores,"['new', 'seq']"
 new_label,2,,,,,,,,,2,lower_case_with_underscores,"['new', 'label']"
-test_TimeseriesGenerator,1,1,,,,,,,,,ugly,"['test', 'timeseriesgenerator']"
+test_TimeseriesGenerator,1,1,,,,,,,,,camel_Snake_Case,"['test', 'timeseriesgenerator']"
 data_gen,24,,,,,,,,,24,lower_case_with_underscores,"['data', 'gen']"
 sampling_rate,7,,,,,,7,,,,lower_case_with_underscores,"['sampling', 'rate']"
 random_sample,2,,,,,,,,,2,lower_case_with_underscores,"['random', 'sample']"
@@ -4945,13 +4945,13 @@ test_callback_hooks_are_called_in_evaluate_generator,1,1,,,,,,,,,lower_case_with
 test_callback_hooks_are_called_in_predict_generator,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'callback', 'hooks', 'are', 'called', 'in', 'predict', 'generator']"
 test_callback_list_methods,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'callback', 'list', 'methods']"
 callback_list,5,,,,,,,,,5,lower_case_with_underscores,"['callback', 'list']"
-test_TerminateOnNaN,1,1,,,,,,,,,ugly,"['test', 'terminateonnan']"
+test_TerminateOnNaN,1,1,,,,,,,,,camel_Snake_Case,"['test', 'terminateonnan']"
 test_stop_training_csv,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'stop', 'training', 'csv']"
 fp,4,,,,,,,,,4,lowercase,['fp']
 tot,3,,,,,,,,,3,lowercase,['tot']
 nan,2,,,,,,,,,2,lowercase,['nan']
-test_ModelCheckpoint,1,1,,,,,,,,,ugly,"['test', 'modelcheckpoint']"
-test_EarlyStopping,1,1,,,,,,,,,ugly,"['test', 'earlystopping']"
+test_ModelCheckpoint,1,1,,,,,,,,,camel_Snake_Case,"['test', 'modelcheckpoint']"
+test_EarlyStopping,1,1,,,,,,,,,camel_Snake_Case,"['test', 'earlystopping']"
 test_EarlyStopping_reuse,1,1,,,,,,,,,ugly,"['test', 'earlystopping', 'reuse']"
 stopper,3,,,,,,,,,3,lowercase,['stopper']
 hist,4,,,,,,,,,4,lowercase,['hist']
@@ -4967,19 +4967,19 @@ baseline_not_met,2,,,,,,,,,2,lower_case_with_underscores,"['baseline', 'not', 'm
 test_EarlyStopping_final_weights,1,1,,,,,,,,,ugly,"['test', 'earlystopping', 'final', 'weights']"
 set_weight_to_epoch,4,2,,,,,,,,2,lower_case_with_underscores,"['set', 'weight', 'to', 'epoch']"
 test_EarlyStopping_final_weights_when_restoring_model_weights,1,1,,,,,,,,,ugly,"['test', 'earlystopping', 'final', 'weights', 'when', 'restoring', 'model', 'weights']"
-test_LearningRateScheduler,1,1,,,,,,,,,ugly,"['test', 'learningratescheduler']"
-test_ReduceLROnPlateau,1,1,,,,,,,,,ugly,"['test', 'reducelronplateau']"
+test_LearningRateScheduler,1,1,,,,,,,,,camel_Snake_Case,"['test', 'learningratescheduler']"
+test_ReduceLROnPlateau,1,1,,,,,,,,,camel_Snake_Case,"['test', 'reducelronplateau']"
 test_ReduceLROnPlateau_patience,1,1,,,,,,,,,ugly,"['test', 'reducelronplateau', 'patience']"
 DummyOptimizer,2,,1,,,,,,,1,CapitalizedWords,"['dummy', 'optimizer']"
 reduce_on_plateau,8,,,,,,,,,8,lower_case_with_underscores,"['reduce', 'on', 'plateau']"
 lrs,4,,,,,,,,,4,lowercase,['lrs']
 test_ReduceLROnPlateau_backwards_compatibility,1,1,,,,,,,,,ugly,"['test', 'reducelronplateau', 'backwards', 'compatibility']"
 record,1,,,,,,1,,,,lowercase,['record']
-test_CSVLogger,1,1,,,,,,,,,ugly,"['test', 'csvlogger']"
+test_CSVLogger,1,1,,,,,,,,,camel_Snake_Case,"['test', 'csvlogger']"
 csvfile,4,,,,,,,,,4,lowercase,['csvfile']
 sniff,1,,,,,,,,,1,lowercase,['sniff']
 list_lines,4,,,,,,,,,4,lower_case_with_underscores,"['list', 'lines']"
-test_TensorBoard,1,1,,,,,,,,,ugly,"['test', 'tensorboard']"
+test_TensorBoard,1,1,,,,,,,,,camel_Snake_Case,"['test', 'tensorboard']"
 DummyStatefulMetric,3,,1,,,,,,,2,CapitalizedWords,"['dummy', 'stateful', 'metric']"
 hidden,17,,,,,,,,,17,lowercase,['hidden']
 callbacks_factory,14,3,,,,,,,,11,lower_case_with_underscores,"['callbacks', 'factory']"
@@ -4995,15 +4995,15 @@ test_TensorBoard_convnet,1,1,,,,,,,,,ugly,"['test', 'tensorboard', 'convnet']"
 tsb,4,,,,,,,,,4,lowercase,['tsb']
 test_TensorBoard_display_float_from_logs,1,1,,,,,,,,,ugly,"['test', 'tensorboard', 'display', 'float', 'from', 'logs']"
 CustomCallback,2,,1,,,,,,,1,CapitalizedWords,"['custom', 'callback']"
-test_CallbackValData,1,1,,,,,,,,,ugly,"['test', 'callbackvaldata']"
+test_CallbackValData,1,1,,,,,,,,,camel_Snake_Case,"['test', 'callbackvaldata']"
 cbk2,6,,,,,,,,,6,lowercase,['cbk2']
-test_LambdaCallback,1,1,,,,,,,,,ugly,"['test', 'lambdacallback']"
+test_LambdaCallback,1,1,,,,,,,,,camel_Snake_Case,"['test', 'lambdacallback']"
 cleanup_callback,2,,,,,,,,,2,lower_case_with_underscores,"['cleanup', 'callback']"
 terminate,1,,,,,,,,,1,lowercase,['terminate']
 is_alive,1,,,,,,,,,1,lower_case_with_underscores,"['is', 'alive']"
 test_TensorBoard_with_ReduceLROnPlateau,1,1,,,,,,,,,ugly,"['test', 'tensorboard', 'with', 'reducelronplateau']"
-tests_RemoteMonitor,1,1,,,,,,,,,ugly,"['tests', 'remotemonitor']"
-tests_RemoteMonitorWithJsonPayload,1,1,,,,,,,,,ugly,"['tests', 'remotemonitorwithjsonpayload']"
+tests_RemoteMonitor,1,1,,,,,,,,,camel_Snake_Case,"['tests', 'remotemonitor']"
+tests_RemoteMonitorWithJsonPayload,1,1,,,,,,,,,camel_Snake_Case,"['tests', 'remotemonitorwithjsonpayload']"
 test_sequential_pop,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'sequential', 'pop']"
 test_sequential_fit_generator,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'sequential', 'fit', 'generator']"
 test_sequential,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'sequential']"
@@ -5259,7 +5259,7 @@ test_sparse_dot,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'sparse', 'dot
 x_d,6,,,,,,,,,6,lower_case_with_underscores,"['x', 'd']"
 x_sparse,3,,,,,,,,,3,lower_case_with_underscores,"['x', 'sparse']"
 x_dense,2,,,,,,,,,2,lower_case_with_underscores,"['x', 'dense']"
-t_W,3,,,,,,,,,3,ugly,"['t', 'w']"
+t_W,3,,,,,,,,,3,camel_Snake_Case,"['t', 'w']"
 k_s,6,,,,,,,,,6,lower_case_with_underscores,"['k', 's']"
 k_d,6,,,,,,,,,6,lower_case_with_underscores,"['k', 'd']"
 test_sparse_concat,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'sparse', 'concat']"
@@ -5670,9 +5670,9 @@ dot_layer,3,,,,,,,,,3,lower_case_with_underscores,"['dot', 'layer']"
 test_merge_broadcast,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'merge', 'broadcast']"
 k_ndim,2,,,,,,,,,2,lower_case_with_underscores,"['k', 'ndim']"
 test_masking_concatenate,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'masking', 'concatenate']"
-test_GaussianNoise,1,1,,,,,,,,,ugly,"['test', 'gaussiannoise']"
-test_GaussianDropout,1,1,,,,,,,,,ugly,"['test', 'gaussiandropout']"
-test_AlphaDropout,1,1,,,,,,,,,ugly,"['test', 'alphadropout']"
+test_GaussianNoise,1,1,,,,,,,,,camel_Snake_Case,"['test', 'gaussiannoise']"
+test_GaussianDropout,1,1,,,,,,,,,camel_Snake_Case,"['test', 'gaussiandropout']"
+test_AlphaDropout,1,1,,,,,,,,,camel_Snake_Case,"['test', 'alphadropout']"
 input_3,1,,,,,,,,,1,lower_case_with_underscores,"['input', '3']"
 input_4,5,,,,,,,,,5,lower_case_with_underscores,"['input', '4']"
 test_basic_batchnorm,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'basic', 'batchnorm']"
@@ -5768,7 +5768,7 @@ test_inconsistent_output_state_size,1,1,,,,,,,,,lower_case_with_underscores,"['t
 PlusOneRNNCell,3,,1,,,,,,,2,CapitalizedWords,"['plus', 'one', 'rnn', 'cell']"
 num_unit,2,,,,,1,,,,1,lower_case_with_underscores,"['num', 'unit']"
 init_state,6,,,,,,,,,6,lower_case_with_underscores,"['init', 'state']"
-test_TimeDistributed,1,1,,,,,,,,,ugly,"['test', 'timedistributed']"
+test_TimeDistributed,1,1,,,,,,,,,camel_Snake_Case,"['test', 'timedistributed']"
 test_input,6,,,,,,,,,6,lower_case_with_underscores,"['test', 'input']"
 test_output,4,,,,,,,,,4,lower_case_with_underscores,"['test', 'output']"
 reference_output,4,,,,,,,,,4,lower_case_with_underscores,"['reference', 'output']"
@@ -5783,7 +5783,7 @@ ref_mask_val_2,2,,,,,,,,,2,lower_case_with_underscores,"['ref', 'mask', 'val', '
 ref_mask_val,2,,,,,,,,,2,lower_case_with_underscores,"['ref', 'mask', 'val']"
 test_TimeDistributed_with_masking_layer,1,1,,,,,,,,,ugly,"['test', 'timedistributed', 'with', 'masking', 'layer']"
 test_regularizers,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'regularizers']"
-test_Bidirectional,1,1,,,,,,,,,ugly,"['test', 'bidirectional']"
+test_Bidirectional,1,1,,,,,,,,,camel_Snake_Case,"['test', 'bidirectional']"
 test_Bidirectional_dynamic_timesteps,1,1,,,,,,,,,ugly,"['test', 'bidirectional', 'dynamic', 'timesteps']"
 test_Bidirectional_merged_value,1,1,,,,,,,,,ugly,"['test', 'bidirectional', 'merged', 'value']"
 merge_func,7,,,,,,,,,7,lower_case_with_underscores,"['merge', 'func']"
@@ -5827,8 +5827,8 @@ inner_init,5,,,,,,5,,,,lower_case_with_underscores,"['inner', 'init']"
 forget_bias_init,3,,,,,,3,,,,lower_case_with_underscores,"['forget', 'bias', 'init']"
 inner_activation,4,,,,,,4,,,,lower_case_with_underscores,"['inner', 'activation']"
 U_regularizer,5,,,,,,5,,,,ugly,"['u', 'regularizer']"
-dropout_W,5,,,,,,5,,,,ugly,"['dropout', 'w']"
-dropout_U,5,,,,,,5,,,,ugly,"['dropout', 'u']"
+dropout_W,5,,,,,,5,,,,camel_Snake_Case,"['dropout', 'w']"
+dropout_U,5,,,,,,5,,,,camel_Snake_Case,"['dropout', 'u']"
 test_simplernn_legacy_interface,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'simplernn', 'legacy', 'interface']"
 test_gru_legacy_interface,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'gru', 'legacy', 'interface']"
 test_gaussiandropout_legacy_interface,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'gaussiandropout', 'legacy', 'interface']"

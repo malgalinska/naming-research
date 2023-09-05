@@ -1,4 +1,4 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,case_convention,words
+name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
 linebreak,4,,,,,,,,,4,lowercase,['linebreak']
 PlaylistsProvider,7,,1,,,,,,,6,CapitalizedWords,"['playlists', 'provider']"
 test_track_playback_paused_is_broadcasted,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'track', 'playback', 'paused', 'is', 'broadcasted']"
@@ -4498,7 +4498,7 @@ test_lsinfo_with_empty_path_returns_same_as_for_root,1,1,,,,,,,,,lower_case_with
 test_base_state,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'base', 'state']"
 test_list_genre_without_quotes,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'list', 'genre', 'without', 'quotes']"
 music_db,8,,,2,,,,,,6,lower_case_with_underscores,"['music', 'db']"
-*,3,,,3,,,,,,,mixedCase,['*']
+*,3,,,3,,,,,,,ugly,['*']
 apps,22,,,,,,5,,,17,lowercase,['apps']
 mpd_ack_error,3,,,,,,,,,3,lower_case_with_underscores,"['mpd', 'ack', 'error']"
 on_stream_changed,2,1,,,,,,,,1,lower_case_with_underscores,"['on', 'stream', 'changed']"

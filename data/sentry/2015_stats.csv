@@ -1,4 +1,4 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,case_convention,words
+name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
 SENTRY_USE_QUEUE,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['sentry', 'use', 'queue']"
 resource_list,2,,,,,,,,,2,lower_case_with_underscores,"['resource', 'list']"
 test_over_max,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'over', 'max']"
@@ -213,7 +213,7 @@ high_mark,1,,,,,,,,,1,lower_case_with_underscores,"['high', 'mark']"
 add_form,2,,,,,,,,,2,lower_case_with_underscores,"['add', 'form']"
 tuser,6,,,,,,1,,,5,lowercase,['tuser']
 __data,6,,,,,,,,,6,lowercase,['data']
-smtp_EHLO,3,1,,,,,,,,2,ugly,"['smtp', 'ehlo']"
+smtp_EHLO,3,1,,,,,,,,2,camel_Snake_Case,"['smtp', 'ehlo']"
 _set_cache,2,1,,,,,,,,1,lower_case_with_underscores,"['set', 'cache']"
 AcceptInviteForm,3,,1,,,,,,,2,CapitalizedWords,"['accept', 'invite', 'form']"
 smtp,3,,,2,,,,,,1,lowercase,['smtp']
@@ -4493,7 +4493,7 @@ resolve_alert,2,1,,,,,,,,1,lower_case_with_underscores,"['resolve', 'alert']"
 default_key,1,,,,,,1,,,,lower_case_with_underscores,"['default', 'key']"
 val,21,,,,,,,,,21,lowercase,['val']
 test_public_group_returns_false_with_project_membership,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'public', 'group', 'returns', 'false', 'with', 'project', 'membership']"
-*,32,,,32,,,,,,,mixedCase,['*']
+*,32,,,32,,,,,,,ugly,['*']
 ns,32,,,,,,,,,32,lowercase,['ns']
 autodiscover,2,,,,,,,,,2,lowercase,['autodiscover']
 team_stats,1,,,1,,,,,,,lower_case_with_underscores,"['team', 'stats']"

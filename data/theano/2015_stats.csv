@@ -1,4 +1,4 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,case_convention,words
+name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
 steps_b,8,,,,,,,,,8,lower_case_with_underscores,"['steps', 'b']"
 steps_a,13,,,,,,,,,13,lower_case_with_underscores,"['steps', 'a']"
 test_local_one_minus_erf,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'local', 'one', 'minus', 'erf']"
@@ -89,7 +89,7 @@ outer_dot_output,7,,,,,,,,,7,lower_case_with_underscores,"['outer', 'dot', 'outp
 here,4,,,,,,,,,4,lowercase,['here']
 Subtensor,132,,1,4,,,,,,127,CapitalizedWords,['subtensor']
 typenames,3,,,,,,,,,3,lowercase,['typenames']
-test_CSMGrad,1,1,,,,,,,,,ugly,"['test', 'csmgrad']"
+test_CSMGrad,1,1,,,,,,,,,camel_Snake_Case,"['test', 'csmgrad']"
 MatrixPinv,4,,1,2,,,,,,1,CapitalizedWords,"['matrix', 'pinv']"
 clone_with_new_inputs,4,1,,,,,,,,3,lower_case_with_underscores,"['clone', 'with', 'new', 'inputs']"
 visref,3,,,,,,,,,3,lowercase,['visref']
@@ -184,7 +184,7 @@ filters_fft_v_shape,6,,,,,,,,,6,lower_case_with_underscores,"['filters', 'fft', 
 LE,5,,1,,,,,,,4,UPPERCASE,"['l', 'e']"
 max_running_max_memory_size,11,,,,,,,,,11,lower_case_with_underscores,"['max', 'running', 'max', 'memory', 'size']"
 test_grad_1d,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'grad', '1d']"
-test_Nin_Nout,1,1,,,,,,,,,ugly,"['test', 'nin', 'nout']"
+test_Nin_Nout,1,1,,,,,,,,,camel_Snake_Case,"['test', 'nin', 'nout']"
 ViewOp,13,,1,2,,,,,,10,CapitalizedWords,"['view', 'op']"
 feature,29,,,,,,,,,29,lowercase,['feature']
 IfElseIfElseIf,2,,1,,,,,,,1,CapitalizedWords,"['if', 'else', 'if', 'else', 'if']"
@@ -244,7 +244,7 @@ cumsum,47,2,,3,,,,,,42,lowercase,['cumsum']
 v_i,2,,,,,,,,,2,lower_case_with_underscores,"['v', 'i']"
 _A,1,,,,,,,,,1,B,"['', 'a']"
 fip,2,,,,,,,,,2,lowercase,['fip']
-v_W,12,,,,,,,,,12,ugly,"['v', 'w']"
+v_W,12,,,,,,,,,12,camel_Snake_Case,"['v', 'w']"
 vectorize,2,,,,,,,,,2,lowercase,['vectorize']
 _z,3,,,,,,,,,3,b,['z']
 _y,17,,,,,,,,,17,b,['y']
@@ -295,9 +295,9 @@ cuda_shared_constructor,1,1,,,,,,,,,lower_case_with_underscores,"['cuda', 'share
 reuse_outputs,6,,,,,,,,,6,lower_case_with_underscores,"['reuse', 'outputs']"
 x_name,7,,,,,,,,,7,lower_case_with_underscores,"['x', 'name']"
 exc_trace,13,,,,,,,,,13,lower_case_with_underscores,"['exc', 'trace']"
-_3,1,,,,,,,,,1,mixedCase,['3']
-_2,19,,,,,,,,,19,mixedCase,['2']
-_1,2,,,,,,,,,2,mixedCase,['1']
+_3,1,,,,,,,,,1,ugly,['3']
+_2,19,,,,,,,,,19,ugly,['2']
+_1,2,,,,,,,,,2,ugly,['1']
 dumps,26,,,,,,,,,26,lowercase,['dumps']
 ftensor3s,1,,,,,,,,,1,lowercase,['ftensor3s']
 orig_dir,2,,,,,,,,,2,lower_case_with_underscores,"['orig', 'dir']"
@@ -399,7 +399,7 @@ grval,2,,,,,,,,,2,lowercase,['grval']
 randomfunction,2,1,,,,,,,,1,lowercase,['randomfunction']
 test_multinomial_tensor3_b,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'multinomial', 'tensor3', 'b']"
 float_func,2,,,,,,,,,2,lower_case_with_underscores,"['float', 'func']"
-T_OpContractMixin,4,,1,,,,,,,3,ugly,"['t', 'opcontractmixin']"
+T_OpContractMixin,4,,1,,,,,,,3,Capitalized_Words_With_Underscores,"['t', 'opcontractmixin']"
 max_pool_2d,16,1,,2,,,,,,13,lower_case_with_underscores,"['max', 'pool', '2d']"
 Test_pfunc,2,,1,,,,,,,1,ugly,"['test', 'pfunc']"
 test_const,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'const']"
@@ -666,7 +666,7 @@ input,929,,,,,,28,,,901,lowercase,['input']
 tensor_to_gpu,2,1,,,,,,,,1,lower_case_with_underscores,"['tensor', 'to', 'gpu']"
 test_maxpool,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'maxpool']"
 dmatrix,161,,,6,,,,,,155,lowercase,['dmatrix']
-test_SoftMax,1,,1,,,,,,,,ugly,"['test', 'softmax']"
+test_SoftMax,1,,1,,,,,,,,camel_Snake_Case,"['test', 'softmax']"
 f_tt,4,,,,,,,,,4,lower_case_with_underscores,"['f', 'tt']"
 test_infer_shape,63,56,,,,,,,,7,lower_case_with_underscores,"['test', 'infer', 'shape']"
 output_is_int,2,,,,,,,,,2,lower_case_with_underscores,"['output', 'is', 'int']"
@@ -728,7 +728,7 @@ NannyNag,1,,,,,,,,,1,CapitalizedWords,"['nanny', 'nag']"
 callbacks_time,17,,,,,,,,,17,lower_case_with_underscores,"['callbacks', 'time']"
 inner_sit_sot,2,,,,,,,,,2,lower_case_with_underscores,"['inner', 'sit', 'sot']"
 TestSumDiffOp,4,,1,,,,,,,3,CapitalizedWords,"['test', 'sum', 'diff', 'op']"
-test_Solve,2,,1,,,,,,,1,ugly,"['test', 'solve']"
+test_Solve,2,,1,,,,,,,1,camel_Snake_Case,"['test', 'solve']"
 bvis,2,,,,,,,,,2,lowercase,['bvis']
 input_broadcastable,43,,,,,,,,,43,lower_case_with_underscores,"['input', 'broadcastable']"
 f_ttn,2,,,,,,,,,2,lower_case_with_underscores,"['f', 'ttn']"
@@ -819,7 +819,7 @@ EnsureSortedIndices,5,,1,2,,,,,,2,CapitalizedWords,"['ensure', 'sorted', 'indice
 x_idx,2,,,,,,,,,2,lower_case_with_underscores,"['x', 'idx']"
 defaultdict,18,,1,5,,,,,,12,lowercase,['defaultdict']
 find_executable,1,,,,,,,,,1,lower_case_with_underscores,"['find', 'executable']"
-_constructor_Function,2,1,,,,,,,,1,ugly,"['constructor', 'function']"
+_constructor_Function,2,1,,,,,,,,1,camel_Snake_Case,"['constructor', 'function']"
 test_duallinker_mismatch,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'duallinker', 'mismatch']"
 f_terms,3,,,,,,,,,3,lower_case_with_underscores,"['f', 'terms']"
 unbroadcast,36,1,,1,,,,,,34,lowercase,['unbroadcast']
@@ -1064,7 +1064,7 @@ fmatrices,10,,,1,,,,,,9,lowercase,['fmatrices']
 t0top,2,,,,,,,,,2,lowercase,['t0top']
 Ml,2,,,,,,,,,2,CapitalizedWords,['ml']
 divmod,5,1,,,,,,,,4,lowercase,['divmod']
-T_Choose,1,,1,,,,,,,,ugly,"['t', 'choose']"
+T_Choose,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'choose']"
 input_state,3,,,,,,,,,3,lower_case_with_underscores,"['input', 'state']"
 prior_result,12,,,,,,,,,12,lower_case_with_underscores,"['prior', 'result']"
 ArcTan2,2,,1,,,,,,,1,CapitalizedWords,"['arc', 'tan2']"
@@ -1255,7 +1255,7 @@ f_vals,2,,,,,,,,,2,lower_case_with_underscores,"['f', 'vals']"
 pad_y,4,,,,,,,,,4,lower_case_with_underscores,"['pad', 'y']"
 theano_nose,10,,,,,,,,,10,lower_case_with_underscores,"['theano', 'nose']"
 numexpr_times,7,,,,,,,,,7,lower_case_with_underscores,"['numexpr', 'times']"
-tmp_W,2,,,,,,,,,2,ugly,"['tmp', 'w']"
+tmp_W,2,,,,,,,,,2,camel_Snake_Case,"['tmp', 'w']"
 d_v,2,,,,,,,,,2,lower_case_with_underscores,"['d', 'v']"
 dtype_nll,1,,,,,,,,,1,lower_case_with_underscores,"['dtype', 'nll']"
 KnownFailure,2,,,1,,,,,,1,CapitalizedWords,"['known', 'failure']"
@@ -1363,7 +1363,7 @@ one,27,,,,,,,,,27,lowercase,['one']
 test_scalar,6,6,,,,,,,,,lower_case_with_underscores,"['test', 'scalar']"
 xlen,4,,,,,,,,,4,lowercase,['xlen']
 args_ndim,4,,,,,,,,,4,lower_case_with_underscores,"['args', 'ndim']"
-launch_Ccontiguous,2,1,,,,,,,,1,ugly,"['launch', 'ccontiguous']"
+launch_Ccontiguous,2,1,,,,,,,,1,camel_Snake_Case,"['launch', 'ccontiguous']"
 test_simple_shared_mrg_random,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'simple', 'shared', 'mrg', 'random']"
 open,73,,,,,,,,,73,lowercase,['open']
 test_sort_schedule_fn,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'sort', 'schedule', 'fn']"
@@ -1448,13 +1448,13 @@ internal_type_,6,,,,,,4,,,2,lower_case_with_underscores,"['internal', 'type']"
 declare_iter,3,,,,,,,,,3,lower_case_with_underscores,"['declare', 'iter']"
 is_lazy_list,3,,,,,,1,,,2,lower_case_with_underscores,"['is', 'lazy', 'list']"
 v_u,92,,,,,,,,,92,lower_case_with_underscores,"['v', 'u']"
-cur_H,6,,,,,,,,,6,ugly,"['cur', 'h']"
+cur_H,6,,,,,,,,,6,camel_Snake_Case,"['cur', 'h']"
 check_all_files,1,1,,,,,,,,,lower_case_with_underscores,"['check', 'all', 'files']"
 orig_a,7,,,,,,,,,7,lower_case_with_underscores,"['orig', 'a']"
 orig_b,4,,,,,,,,,4,lower_case_with_underscores,"['orig', 'b']"
 subprocess,35,,,10,,,,,,25,lowercase,['subprocess']
 v_w,11,,,,,,,,,11,lower_case_with_underscores,"['v', 'w']"
-cur_V,6,,,,,,,,,6,ugly,"['cur', 'v']"
+cur_V,6,,,,,,,,,6,camel_Snake_Case,"['cur', 'v']"
 inconsistent,23,1,,,,,,,,22,lowercase,['inconsistent']
 data_var,6,,,,,,,,,6,lower_case_with_underscores,"['data', 'var']"
 high_v,2,,,,,,,,,2,lower_case_with_underscores,"['high', 'v']"
@@ -1565,11 +1565,11 @@ scalar_softsign,2,,,,,,,,,2,lower_case_with_underscores,"['scalar', 'softsign']"
 nds_y,3,,,,,,,,,3,lower_case_with_underscores,"['nds', 'y']"
 nds_x,4,,,,,,,,,4,lower_case_with_underscores,"['nds', 'x']"
 ColScaleCSCTester,2,,1,,,,,,,1,CapitalizedWords,"['col', 'scale', 'csc', 'tester']"
-test_GetItem2Lists,1,1,,,,,,,,,ugly,"['test', 'getitem2lists']"
+test_GetItem2Lists,1,1,,,,,,,,,camel_Snake_Case,"['test', 'getitem2lists']"
 wrt_elem,6,,,,,,,,,6,lower_case_with_underscores,"['wrt', 'elem']"
 try_compile_tmp,5,2,,,,,,,,3,lower_case_with_underscores,"['try', 'compile', 'tmp']"
 threshold,6,,,,,,,,,6,lowercase,['threshold']
-test_Broadcast,3,,1,1,,,,,,1,ugly,"['test', 'broadcast']"
+test_Broadcast,3,,1,1,,,,,,1,camel_Snake_Case,"['test', 'broadcast']"
 test_pycuda_memory_to_theano,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'pycuda', 'memory', 'to', 'theano']"
 Identity,6,,1,,,,,,,5,CapitalizedWords,['identity']
 specific_hint,7,,,,,,2,,,5,lower_case_with_underscores,"['specific', 'hint']"
@@ -1952,7 +1952,7 @@ t3,43,,,,,,,,,43,lowercase,['t3']
 TestEval,1,,1,,,,,,,,CapitalizedWords,"['test', 'eval']"
 t1,138,,,,,,,,,138,lowercase,['t1']
 test_range,3,,,,,,,,,3,lower_case_with_underscores,"['test', 'range']"
-_constructor_FunctionMaker,2,1,,,,,,,,1,ugly,"['constructor', 'functionmaker']"
+_constructor_FunctionMaker,2,1,,,,,,,,1,camel_Snake_Case,"['constructor', 'functionmaker']"
 adjust,5,,,,,,,,,5,lowercase,['adjust']
 sum_sum_bug,13,,,,,,,,,13,lower_case_with_underscores,"['sum', 'sum', 'bug']"
 coeffs,4,,,,,,,,,4,lowercase,['coeffs']
@@ -2087,7 +2087,7 @@ test_split_0elem,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'split', '0el
 numpy_max_pool_2d_stride,3,1,,,,,,,,2,lower_case_with_underscores,"['numpy', 'max', 'pool', '2d', 'stride']"
 fstop,4,,,,,,,,,4,lowercase,['fstop']
 both_inf,7,,,,,,,,,7,lower_case_with_underscores,"['both', 'inf']"
-T_Power,1,,1,,,,,,,,ugly,"['t', 'power']"
+T_Power,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'power']"
 mode_idx,6,,,,,,,,,6,lower_case_with_underscores,"['mode', 'idx']"
 step_signs,13,,,,,,,,,13,lower_case_with_underscores,"['step', 'signs']"
 ValueError,546,,,,,,,,,546,CapitalizedWords,"['value', 'error']"
@@ -2101,7 +2101,7 @@ new_scal,3,,,,,,,,,3,lower_case_with_underscores,"['new', 'scal']"
 argparse,2,,,1,,,,,,1,lowercase,['argparse']
 inner_lopt,6,,,,,,,,,6,lower_case_with_underscores,"['inner', 'lopt']"
 cm_mat,18,,,,,,,,,18,lower_case_with_underscores,"['cm', 'mat']"
-subprocess_Popen,5,1,,1,,,,,,3,ugly,"['subprocess', 'popen']"
+subprocess_Popen,5,1,,1,,,,,,3,camel_Snake_Case,"['subprocess', 'popen']"
 register,145,6,,,,,,,,139,lowercase,['register']
 test_broadcastable_flags_all_broadcastable_on_joinaxis,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'broadcastable', 'flags', 'all', 'broadcastable', 'on', 'joinaxis']"
 test_gpujoin_no_rebroadcast,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'gpujoin', 'no', 'rebroadcast']"
@@ -2128,13 +2128,13 @@ singular,2,,,,,,,,,2,lowercase,['singular']
 full_version,1,,,,,,,,,1,lower_case_with_underscores,"['full', 'version']"
 filterDur,23,,,,,,,,,23,mixedCase,"['filter', 'dur']"
 orig_flags,3,,,,,,,,,3,lower_case_with_underscores,"['orig', 'flags']"
-dense_B,2,,,,,,,,,2,ugly,"['dense', 'b']"
+dense_B,2,,,,,,,,,2,camel_Snake_Case,"['dense', 'b']"
 wrt,75,,,,,,15,,,60,lowercase,['wrt']
 dot22_idx,5,,,,,,,,,5,lower_case_with_underscores,"['dot22', 'idx']"
 GpuArray,10,,,,,,,,,10,CapitalizedWords,"['gpu', 'array']"
 var_descriptor,4,1,,1,,,,,,2,lower_case_with_underscores,"['var', 'descriptor']"
 compare_fns,3,1,,,,,,,,2,lower_case_with_underscores,"['compare', 'fns']"
-test_MatrixInverse,2,,1,,,,,,,1,ugly,"['test', 'matrixinverse']"
+test_MatrixInverse,2,,1,,,,,,,1,camel_Snake_Case,"['test', 'matrixinverse']"
 nw_steps,10,,,,,,,,,10,lower_case_with_underscores,"['nw', 'steps']"
 x_shape_gpu,2,,,,,,,,,2,lower_case_with_underscores,"['x', 'shape', 'gpu']"
 evaluate,4,1,,,,,,,,3,lowercase,['evaluate']
@@ -2221,7 +2221,7 @@ c_code_and_version,34,,,,,,,,,34,lower_case_with_underscores,"['c', 'code', 'and
 n_result,2,,,,,,,,,2,lower_case_with_underscores,"['n', 'result']"
 inner_in_mit_mot,4,,,,,,,,,4,lower_case_with_underscores,"['inner', 'in', 'mit', 'mot']"
 number,13,,,,,,4,,,9,lowercase,['number']
-T_CrossentropyCategorical1HotGrad,1,,1,,,,,,,,ugly,"['t', 'crossentropycategorical1hotgrad']"
+T_CrossentropyCategorical1HotGrad,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'crossentropycategorical1hotgrad']"
 test_grad_list,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'grad', 'list']"
 sum_input,2,,,,,,,,,2,lower_case_with_underscores,"['sum', 'input']"
 learn_rnn_fn,2,,,,,,,,,2,lower_case_with_underscores,"['learn', 'rnn', 'fn']"
@@ -2343,13 +2343,13 @@ real_steps,3,,,,,,,,,3,lower_case_with_underscores,"['real', 'steps']"
 impact,26,,,,,,,,,26,lowercase,['impact']
 rf2,8,,,,,,,,,8,lowercase,['rf2']
 wraps,5,,,2,,,,,,3,lowercase,['wraps']
-T_CrossentropyCategorical1Hot,1,,1,,,,,,,,ugly,"['t', 'crossentropycategorical1hot']"
+T_CrossentropyCategorical1Hot,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'crossentropycategorical1hot']"
 _conversion,13,1,,,,,,,,12,lowercase,['conversion']
 rf4,2,,,,,,,,,2,lowercase,['rf4']
 inp6,2,,,,,,,,,2,lowercase,['inp6']
 RVal,4,,1,,,,,,,3,CapitalizedWords,"['r', 'val']"
 test_neibs_manual_step,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'neibs', 'manual', 'step']"
-test_GpuCumsum4D,1,1,,,,,,,,,ugly,"['test', 'gpucumsum4d']"
+test_GpuCumsum4D,1,1,,,,,,,,,camel_Snake_Case,"['test', 'gpucumsum4d']"
 Arctan2Tester,1,,,,,,,,,1,CapitalizedWords,"['arctan2', 'tester']"
 z_shape,5,,,,,,,,,5,lower_case_with_underscores,"['z', 'shape']"
 variables_and_orphans,4,1,,,,,,,,3,lower_case_with_underscores,"['variables', 'and', 'orphans']"
@@ -2435,7 +2435,7 @@ csr_dmatrix,1,,,,,,,,,1,lower_case_with_underscores,"['csr', 'dmatrix']"
 typed_list,23,,,13,,,,,,10,lower_case_with_underscores,"['typed', 'list']"
 test_too_big,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'too', 'big']"
 npy_kern,33,,,,,,,,,33,lower_case_with_underscores,"['npy', 'kern']"
-test_DownsampleFactorMax,1,1,,,,,,,,,ugly,"['test', 'downsamplefactormax']"
+test_DownsampleFactorMax,1,1,,,,,,,,,camel_Snake_Case,"['test', 'downsamplefactormax']"
 last,8,,,,,,,,,8,lowercase,['last']
 test_uniform_vector,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'uniform', 'vector']"
 pdx,16,,,,,,,,,16,lowercase,['pdx']
@@ -2602,7 +2602,7 @@ a_s,3,,,,,,,,,3,lower_case_with_underscores,"['a', 's']"
 pooled_neibs,2,,,,,,,,,2,lower_case_with_underscores,"['pooled', 'neibs']"
 x_pos,4,,,,,,,,,4,lower_case_with_underscores,"['x', 'pos']"
 format,467,1,,,,,41,,,425,lowercase,['format']
-Test_ViewMap,1,,1,,,,,,,,ugly,"['test', 'viewmap']"
+Test_ViewMap,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['test', 'viewmap']"
 signal_conv2d_interface,1,,,,,,,,,1,lower_case_with_underscores,"['signal', 'conv2d', 'interface']"
 new_input,5,,,,,,,,,5,lower_case_with_underscores,"['new', 'input']"
 test_local_set_to_inc_subtensor,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'local', 'set', 'to', 'inc', 'subtensor']"
@@ -2630,7 +2630,7 @@ OS,2,,,,,,,,,2,UPPERCASE,"['o', 's']"
 OR,5,,1,,,,,,,4,UPPERCASE,"['o', 'r']"
 OP,10,,,,,,,,,10,UPPERCASE,"['o', 'p']"
 post_r0,2,,,,,,,,,2,lower_case_with_underscores,"['post', 'r0']"
-test_GpuCAReduceCuda,2,,1,,,,,,,1,ugly,"['test', 'gpucareducecuda']"
+test_GpuCAReduceCuda,2,,1,,,,,,,1,camel_Snake_Case,"['test', 'gpucareducecuda']"
 post_r2,5,,,,,,,,,5,lower_case_with_underscores,"['post', 'r2']"
 is_llvm,4,,,,,,,,,4,lower_case_with_underscores,"['is', 'llvm']"
 post_r4,2,,,,,,,,,2,lower_case_with_underscores,"['post', 'r4']"
@@ -2698,7 +2698,7 @@ a_m2,1,,,,,,,,,1,lower_case_with_underscores,"['a', 'm2']"
 old_default_opt,2,,,,,,,,,2,lower_case_with_underscores,"['old', 'default', 'opt']"
 wrap_linker,9,1,,,,,,,,8,lower_case_with_underscores,"['wrap', 'linker']"
 python_inc,3,,,,,,,,,3,lower_case_with_underscores,"['python', 'inc']"
-initial_W,2,,,,,,,,,2,ugly,"['initial', 'w']"
+initial_W,2,,,,,,,,,2,camel_Snake_Case,"['initial', 'w']"
 force_init_beta,11,,,,,,4,,,7,lower_case_with_underscores,"['force', 'init', 'beta']"
 intp,3,,,,,,,,,3,lowercase,['intp']
 ints,9,,,1,,,,,,8,lowercase,['ints']
@@ -2745,7 +2745,7 @@ impl,135,90,,,,,,,,45,lowercase,['impl']
 sc_complex_dot_batched,2,1,,,,,,,,1,lower_case_with_underscores,"['sc', 'complex', 'dot', 'batched']"
 imported_scipy_signal,5,,,,,,,,,5,lower_case_with_underscores,"['imported', 'scipy', 'signal']"
 theano_sol,2,,,,,,,,,2,lower_case_with_underscores,"['theano', 'sol']"
-test_CumprodOp,1,1,,,,,,,,,ugly,"['test', 'cumprodop']"
+test_CumprodOp,1,1,,,,,,,,,camel_Snake_Case,"['test', 'cumprodop']"
 ArccosTester,1,,,,,,,,,1,CapitalizedWords,"['arccos', 'tester']"
 parser,22,,,,,,,,,22,lowercase,['parser']
 inner_inputs,22,,,,,,,,,22,lower_case_with_underscores,"['inner', 'inputs']"
@@ -2753,11 +2753,11 @@ l1kernvals,4,,,,,,,,,4,lowercase,['l1kernvals']
 test_local_gpu_elemwise_careduce,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'local', 'gpu', 'elemwise', 'careduce']"
 test_strict_generic,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'strict', 'generic']"
 test_default_updates_input,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'default', 'updates', 'input']"
-T_Shape,1,,1,,,,,,,,ugly,"['t', 'shape']"
+T_Shape,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'shape']"
 to_keep,8,,,,,,,,,8,lower_case_with_underscores,"['to', 'keep']"
 defines,4,,,,,,,,,4,lowercase,['defines']
 diff_tuple,2,,,,,,,,,2,lower_case_with_underscores,"['diff', 'tuple']"
-T_Rebroadcast,1,,1,,,,,,,,ugly,"['t', 'rebroadcast']"
+T_Rebroadcast,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'rebroadcast']"
 shapes_function,3,,,,,,,,,3,lower_case_with_underscores,"['shapes', 'function']"
 codes,11,,,,,,,,,11,lowercase,['codes']
 clone_v_get_shared_updates,8,1,,,,,,,,7,lower_case_with_underscores,"['clone', 'v', 'get', 'shared', 'updates']"
@@ -2874,7 +2874,7 @@ nb_error,5,,,,,,,,,5,lower_case_with_underscores,"['nb', 'error']"
 local_gpu_dot_to_dot22,2,1,,,,,,,,1,lower_case_with_underscores,"['local', 'gpu', 'dot', 'to', 'dot22']"
 new_outer_out_mit_mot,4,,,,,,,,,4,lower_case_with_underscores,"['new', 'outer', 'out', 'mit', 'mot']"
 c_code_cleanup,4,2,,,,,,,,2,lower_case_with_underscores,"['c', 'code', 'cleanup']"
-test_GpuCumsum2D,1,1,,,,,,,,,ugly,"['test', 'gpucumsum2d']"
+test_GpuCumsum2D,1,1,,,,,,,,,camel_Snake_Case,"['test', 'gpucumsum2d']"
 test_undefined_grad_func,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'undefined', 'grad', 'func']"
 nwo_h0,4,,,,,,,,,4,lower_case_with_underscores,"['nwo', 'h0']"
 _hv_switch,3,1,,,,,,,,2,lower_case_with_underscores,"['hv', 'switch']"
@@ -3104,7 +3104,7 @@ len_post_f,4,,,,,,,,,4,lower_case_with_underscores,"['len', 'post', 'f']"
 insh,3,,,,,,,,,3,lowercase,['insh']
 s_g,5,,,,,,,,,5,lower_case_with_underscores,"['s', 'g']"
 s_i,57,,,,,,,,,57,lower_case_with_underscores,"['s', 'i']"
-TestGpuGer_OpContract,2,,2,,,,,,,,ugly,"['testgpuger', 'opcontract']"
+TestGpuGer_OpContract,2,,2,,,,,,,,Capitalized_Words_With_Underscores,"['testgpuger', 'opcontract']"
 s_j,6,,,,,,,,,6,lower_case_with_underscores,"['s', 'j']"
 npa,7,,,,,,,,,7,lowercase,['npa']
 shape_val,4,,,,,,,,,4,lower_case_with_underscores,"['shape', 'val']"
@@ -3243,7 +3243,7 @@ test_mpi_tag_ordering,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'mpi', '
 s_filters,4,,,,,,,,,4,lower_case_with_underscores,"['s', 'filters']"
 c_out,2,,,,,,,,,2,lower_case_with_underscores,"['c', 'out']"
 gpuablas_opt_inplace,2,,,,,,,,,2,lower_case_with_underscores,"['gpuablas', 'opt', 'inplace']"
-y_T,2,,,,,,,,,2,ugly,"['y', 't']"
+y_T,2,,,,,,,,,2,camel_Snake_Case,"['y', 't']"
 DiagonalSubtensor,5,,1,,,,,,,4,CapitalizedWords,"['diagonal', 'subtensor']"
 Checker,6,,2,,,,,,,4,CapitalizedWords,['checker']
 expected_gammaln,4,,,,,,,,,4,lower_case_with_underscores,"['expected', 'gammaln']"
@@ -3286,7 +3286,7 @@ OPT_FAST_RUN_STABLE,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['opt', 'fast', 'ru
 encompasses_broadcastable,4,1,,,,,,,,3,lower_case_with_underscores,"['encompasses', 'broadcastable']"
 copy_into,5,3,,,,,,,,2,lower_case_with_underscores,"['copy', 'into']"
 sparse_block_outer_ss,5,,,1,,,,,,4,lower_case_with_underscores,"['sparse', 'block', 'outer', 'ss']"
-CURAND_RandomStreams,6,,1,2,,,,,,3,ugly,"['curand', 'randomstreams']"
+CURAND_RandomStreams,6,,1,2,,,,,,3,Capitalized_Words_With_Underscores,"['curand', 'randomstreams']"
 gpu_,3,,,,,,,,,3,lowercase,['gpu']
 input_dim,3,,,,,,,,,3,lower_case_with_underscores,"['input', 'dim']"
 copyif,9,,,,,,1,,,8,lowercase,['copyif']
@@ -3327,7 +3327,7 @@ f_globals,2,,,,,,,,,2,lower_case_with_underscores,"['f', 'globals']"
 autoname_id,32,,,,,,,,,32,lower_case_with_underscores,"['autoname', 'id']"
 symbolic_fn_callable,2,,1,,,,,,,1,lower_case_with_underscores,"['symbolic', 'fn', 'callable']"
 views_of_output_i,4,,,,,,,,,4,lower_case_with_underscores,"['views', 'of', 'output', 'i']"
-T_Softmax,1,,1,,,,,,,,ugly,"['t', 'softmax']"
+T_Softmax,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'softmax']"
 test_basic_keepdims,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'basic', 'keepdims']"
 strides,116,,,,,,4,,,112,lowercase,['strides']
 test_pool_grad,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'pool', 'grad']"
@@ -3479,7 +3479,7 @@ ConvGrad3D,19,,1,9,,,,,,9,CapitalizedWords,"['conv', 'grad3', 'd']"
 ErfcinvTester,1,,,,,,,,,1,CapitalizedWords,"['erfcinv', 'tester']"
 min_informative_str,8,1,,2,,,,,,5,lower_case_with_underscores,"['min', 'informative', 'str']"
 sop_op,8,,,,,,,,,8,lower_case_with_underscores,"['sop', 'op']"
-declare_NS,2,,,,,,,,,2,ugly,"['declare', 'ns']"
+declare_NS,2,,,,,,,,,2,camel_Snake_Case,"['declare', 'ns']"
 round_half_away_from_zero_inplace,2,1,,,,,,,,1,lower_case_with_underscores,"['round', 'half', 'away', 'from', 'zero', 'inplace']"
 v0,5,,,,,,,,,5,lowercase,['v0']
 v1,89,,,,,,,,,89,lowercase,['v1']
@@ -3876,7 +3876,7 @@ local_useless_rebroadcast,2,1,,,,,,,,1,lower_case_with_underscores,"['local', 'u
 tensor3s,1,,,,,,,,,1,lowercase,['tensor3s']
 tolerated,6,,,,,,,,,6,lowercase,['tolerated']
 tnW,4,,,,,,,,,4,mixedCase,"['tn', 'w']"
-test_GetItemList,1,1,,,,,,,,,ugly,"['test', 'getitemlist']"
+test_GetItemList,1,1,,,,,,,,,camel_Snake_Case,"['test', 'getitemlist']"
 pygpu_activated,5,,,,,,,,1,4,lower_case_with_underscores,"['pygpu', 'activated']"
 vname,4,,,,,,,,,4,lowercase,['vname']
 w_copy,6,,,,,,,,,6,lower_case_with_underscores,"['w', 'copy']"
@@ -3972,7 +3972,7 @@ strg,9,,,,,,,,,9,lowercase,['strg']
 order,133,,,,,,15,,,118,lowercase,['order']
 itemgetter,5,,,1,,,,,,4,lowercase,['itemgetter']
 u2_tp1,8,,,,,,,,,8,lower_case_with_underscores,"['u2', 'tp1']"
-CURAND_Base,5,,1,,,,,,,4,ugly,"['curand', 'base']"
+CURAND_Base,5,,1,,,,,,,4,Capitalized_Words_With_Underscores,"['curand', 'base']"
 numpy_max_pool_2d,5,1,,,,,,,,4,lower_case_with_underscores,"['numpy', 'max', 'pool', '2d']"
 new_inner_nseqs,4,,,,,,,,,4,lower_case_with_underscores,"['new', 'inner', 'nseqs']"
 Eye,14,,1,1,,,,,,12,CapitalizedWords,['eye']
@@ -4030,7 +4030,7 @@ gpu_only,20,,,,,,8,,,12,lower_case_with_underscores,"['gpu', 'only']"
 test_stack_scalar,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'stack', 'scalar']"
 new_ord,4,,,,,,,,,4,lower_case_with_underscores,"['new', 'ord']"
 Type,69,,1,19,,,,,,49,CapitalizedWords,['type']
-CURAND_Normal,2,,1,,,,,,,1,ugly,"['curand', 'normal']"
+CURAND_Normal,2,,1,,,,,,,1,Capitalized_Words_With_Underscores,"['curand', 'normal']"
 assertFunctionContainsClassN,2,1,,,,,,,,1,mixedCase,"['assert', 'function', 'contains', 'class', 'n']"
 tensor_copy,9,,,1,,,,,,8,lower_case_with_underscores,"['tensor', 'copy']"
 BinomialTester,2,,1,,,,,,,1,CapitalizedWords,"['binomial', 'tester']"
@@ -4277,7 +4277,7 @@ may_share,3,,,,,,,,,3,lower_case_with_underscores,"['may', 'share']"
 max_nb_nodes,10,,,,,,,,,10,lower_case_with_underscores,"['max', 'nb', 'nodes']"
 my_randn,2,1,,,,,,,,1,lower_case_with_underscores,"['my', 'randn']"
 cov,2,,,,,,,,,2,lowercase,['cov']
-CURAND_Uniform,2,,1,,,,,,,1,ugly,"['curand', 'uniform']"
+CURAND_Uniform,2,,1,,,,,,,1,Capitalized_Words_With_Underscores,"['curand', 'uniform']"
 local_dnn_convgi_inplace,2,1,,,,,,,,1,lower_case_with_underscores,"['local', 'dnn', 'convgi', 'inplace']"
 tracks,44,9,,,,,9,,,26,lowercase,['tracks']
 acc_type,6,,,,,,1,,,5,lower_case_with_underscores,"['acc', 'type']"
@@ -4628,15 +4628,15 @@ use_c_code,2,,,,,,,,,2,lower_case_with_underscores,"['use', 'c', 'code']"
 test_broadcastable_flag_assignment_mixed_otheraxes,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'broadcastable', 'flag', 'assignment', 'mixed', 'otheraxes']"
 const_slice,4,,,,,,,,,4,lower_case_with_underscores,"['const', 'slice']"
 cand_in,4,,,,,,,,,4,lower_case_with_underscores,"['cand', 'in']"
-T_Images2Neibs,3,,1,,,,,,,2,ugly,"['t', 'images2neibs']"
+T_Images2Neibs,3,,1,,,,,,,2,Capitalized_Words_With_Underscores,"['t', 'images2neibs']"
 fzv,151,,,,,,,,,151,lowercase,['fzv']
 local_inplace_gpuagemv,2,1,,,,,,,,1,lower_case_with_underscores,"['local', 'inplace', 'gpuagemv']"
 minscore,2,,,,,,,,,2,lowercase,['minscore']
 dlimport_workdir,3,1,,,,,,,,2,lower_case_with_underscores,"['dlimport', 'workdir']"
-test_Strides3D,1,1,,,,,,,,,ugly,"['test', 'strides3d']"
+test_Strides3D,1,1,,,,,,,,,camel_Snake_Case,"['test', 'strides3d']"
 local_inplace_gpuagemm,2,1,,,,,,,,1,lower_case_with_underscores,"['local', 'inplace', 'gpuagemm']"
 atexit_print_default_profile_mode,2,1,,,,,,,,1,lower_case_with_underscores,"['atexit', 'print', 'default', 'profile', 'mode']"
-MRG_RandomStreams,28,,1,3,,,,,,24,ugly,"['mrg', 'randomstreams']"
+MRG_RandomStreams,28,,1,3,,,,,,24,Capitalized_Words_With_Underscores,"['mrg', 'randomstreams']"
 aimat,3,,,,,,,,,3,lowercase,['aimat']
 test_optimization_pipeline,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'optimization', 'pipeline']"
 prepare_test_args,2,1,,,,,,,,1,lower_case_with_underscores,"['prepare', 'test', 'args']"
@@ -4647,7 +4647,7 @@ local_pool_dnn,1,1,,,,,,,,,lower_case_with_underscores,"['local', 'pool', 'dnn']
 test_assert,3,1,1,,,,,,,1,lower_case_with_underscores,"['test', 'assert']"
 f_fn,6,,,,,,,,,6,lower_case_with_underscores,"['f', 'fn']"
 test_gemm_nested,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'gemm', 'nested']"
-_as_TensorVariable,4,2,,,,,,,,2,ugly,"['as', 'tensorvariable']"
+_as_TensorVariable,4,2,,,,,,,,2,camel_Snake_Case,"['as', 'tensorvariable']"
 f_scan,1,,,,,,,,,1,lower_case_with_underscores,"['f', 'scan']"
 tpytot_,6,,,,,,,,,6,lowercase,['tpytot']
 inc_set_subtensor1,8,,,,,,,,,8,lower_case_with_underscores,"['inc', 'set', 'subtensor1']"
@@ -4758,7 +4758,7 @@ extract_tb,1,,,,,,,,,1,lower_case_with_underscores,"['extract', 'tb']"
 VecAsRowAndCol,3,,1,,,,,,,2,CapitalizedWords,"['vec', 'as', 'row', 'and', 'col']"
 copy_to_list,3,,,,,,,,,3,lower_case_with_underscores,"['copy', 'to', 'list']"
 test_opt_unpack,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'opt', 'unpack']"
-test_GpuCrossentropySoftmax1HotWithBiasDx,2,2,,,,,,,,,ugly,"['test', 'gpucrossentropysoftmax1hotwithbiasdx']"
+test_GpuCrossentropySoftmax1HotWithBiasDx,2,2,,,,,,,,,camel_Snake_Case,"['test', 'gpucrossentropysoftmax1hotwithbiasdx']"
 get_all_basic_scalar,6,2,,,,,,,,4,lower_case_with_underscores,"['get', 'all', 'basic', 'scalar']"
 make_list,6,,,1,,,,,,5,lower_case_with_underscores,"['make', 'list']"
 SIZE,2,,,,,,,,,2,UPPERCASE,"['siz', 'e']"
@@ -5186,7 +5186,7 @@ pre_z,2,,,,,,,,,2,lower_case_with_underscores,"['pre', 'z']"
 inplace_elemwise_optimizer,4,1,,,,,,,,3,lower_case_with_underscores,"['inplace', 'elemwise', 'optimizer']"
 pre_x,4,,,,,,,,,4,lower_case_with_underscores,"['pre', 'x']"
 as_argument,2,,,,,,,,,2,lower_case_with_underscores,"['as', 'argument']"
-test_GpuDimShuffle,1,,1,,,,,,,,ugly,"['test', 'gpudimshuffle']"
+test_GpuDimShuffle,1,,1,,,,,,,,camel_Snake_Case,"['test', 'gpudimshuffle']"
 set_out,6,,,,,,2,,,4,lower_case_with_underscores,"['set', 'out']"
 did_something,10,,,,,,,,,10,lower_case_with_underscores,"['did', 'something']"
 seqs_shape,3,,,,,,,,,3,lower_case_with_underscores,"['seqs', 'shape']"
@@ -5565,7 +5565,7 @@ neigh_strides,4,,,,,,,,,4,lower_case_with_underscores,"['neigh', 'strides']"
 nit_sot_rightOrder,6,,,,,,,,,6,ugly,"['nit', 'sot', 'rightorder']"
 test005_cloning_replace_strict_not_copy_inputs,1,1,,,,,,,,,lower_case_with_underscores,"['test005', 'cloning', 'replace', 'strict', 'not', 'copy', 'inputs']"
 node_,22,,,,,,,,,22,lowercase,['node']
-buildgraph_T,6,3,,,,,,,,3,ugly,"['buildgraph', 't']"
+buildgraph_T,6,3,,,,,,,,3,camel_Snake_Case,"['buildgraph', 't']"
 input_grad_desc,1,,,,,,1,,,,lower_case_with_underscores,"['input', 'grad', 'desc']"
 decl_shared_stride,2,1,,,,,,,,1,lower_case_with_underscores,"['decl', 'shared', 'stride']"
 remove_gxx_opt,1,,,,,,,,,1,lower_case_with_underscores,"['remove', 'gxx', 'opt']"
@@ -5577,7 +5577,7 @@ a_val,123,,,,,,,,,123,lower_case_with_underscores,"['a', 'val']"
 less_than_s_s,2,,,,,,,,,2,lower_case_with_underscores,"['less', 'than', 's', 's']"
 warn_inplace,11,1,,,,,,,,10,lower_case_with_underscores,"['warn', 'inplace']"
 maximum_inplace,2,1,,,,,,,,1,lower_case_with_underscores,"['maximum', 'inplace']"
-_pickle_FunctionMaker,2,1,,,,,,,,1,ugly,"['pickle', 'functionmaker']"
+_pickle_FunctionMaker,2,1,,,,,,,,1,camel_Snake_Case,"['pickle', 'functionmaker']"
 big_sigma,2,,,,,,2,,,,lower_case_with_underscores,"['big', 'sigma']"
 test_grad_fail,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'grad', 'fail']"
 test_nan_inf_constant_signature,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'nan', 'inf', 'constant', 'signature']"
@@ -5695,7 +5695,7 @@ select_max,4,1,,,,,,,,3,lower_case_with_underscores,"['select', 'max']"
 test_DownsampleFactorMax_grad,1,1,,,,,,,,,ugly,"['test', 'downsamplefactormax', 'grad']"
 hidden_flat,2,,,,,,,,,2,lower_case_with_underscores,"['hidden', 'flat']"
 test_grad_switch,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'grad', 'switch']"
-T_CrossentropySoftmax1Hot,1,,1,,,,,,,,ugly,"['t', 'crossentropysoftmax1hot']"
+T_CrossentropySoftmax1Hot,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'crossentropysoftmax1hot']"
 groups_without_zeros,2,,,,,,,,,2,lower_case_with_underscores,"['groups', 'without', 'zeros']"
 l1propup,4,,,,,,,,,4,lowercase,['l1propup']
 fd_in,2,,,,,,,,,2,lower_case_with_underscores,"['fd', 'in']"
@@ -5784,7 +5784,7 @@ fft,23,,,3,,,,,,20,lowercase,['fft']
 y8,2,,,,,,,,,2,lowercase,['y8']
 _convert_to_uint32,2,,,,,,,,,2,lower_case_with_underscores,"['convert', 'to', 'uint32']"
 SourceModule,13,,,6,,,,,,7,CapitalizedWords,"['source', 'module']"
-test_Nparam,1,1,,,,,,,,,ugly,"['test', 'nparam']"
+test_Nparam,1,1,,,,,,,,,camel_Snake_Case,"['test', 'nparam']"
 test_hash,3,3,,,,,,,,,lower_case_with_underscores,"['test', 'hash']"
 test_invalid_input_shape,3,3,,,,,,,,,lower_case_with_underscores,"['test', 'invalid', 'input', 'shape']"
 y1,51,,,,,,,,,51,lowercase,['y1']
@@ -5852,7 +5852,7 @@ scan_can_remove_outs,2,1,,,,,,,,1,lower_case_with_underscores,"['scan', 'can', '
 gpu_op,22,,,,,,4,,,18,lower_case_with_underscores,"['gpu', 'op']"
 ArcsinTester,2,,,,,,,,,2,CapitalizedWords,"['arcsin', 'tester']"
 detach_updater,7,1,,,,,,,,6,lower_case_with_underscores,"['detach', 'updater']"
-PyCObject_Type,1,,,,,,,,,1,ugly,"['pycobject', 'type']"
+PyCObject_Type,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['pycobject', 'type']"
 autocast_cfg,3,,,,,,,,,3,lower_case_with_underscores,"['autocast', 'cfg']"
 local_fill_sink,4,1,,,,,,,,3,lower_case_with_underscores,"['local', 'fill', 'sink']"
 profiler_printers,3,,,,,,,,,3,lower_case_with_underscores,"['profiler', 'printers']"
@@ -5991,7 +5991,7 @@ useless,3,,,,,,,,,3,lowercase,['useless']
 jacobian,18,1,,1,,,,,,16,lowercase,['jacobian']
 PushOutScanOutput,2,,1,,,,,,,1,CapitalizedWords,"['push', 'out', 'scan', 'output']"
 get_test_value,16,1,,,,,,,,15,lower_case_with_underscores,"['get', 'test', 'value']"
-test_DownsampleFactorMaxStrideExtra,1,1,,,,,,,,,ugly,"['test', 'downsamplefactormaxstrideextra']"
+test_DownsampleFactorMaxStrideExtra,1,1,,,,,,,,,camel_Snake_Case,"['test', 'downsamplefactormaxstrideextra']"
 SparseFromDense,10,,1,1,,,,,,8,CapitalizedWords,"['sparse', 'from', 'dense']"
 expected_len_sym_inputs,2,,,,,,,,,2,lower_case_with_underscores,"['expected', 'len', 'sym', 'inputs']"
 _Unpickler,1,,,,,,,,,1,CapitalizedWords,['unpickler']
@@ -6030,7 +6030,7 @@ TensorFromScalar,12,,1,1,,,,,,10,CapitalizedWords,"['tensor', 'from', 'scalar']"
 randn,195,,,1,,,,,,194,lowercase,['randn']
 test7,3,2,,,,,1,,,,lowercase,['test7']
 copyright,1,,,,,,,,,1,lowercase,['copyright']
-T_CrossentropySoftmax1HotWithBiasDx,1,,1,,,,,,,,ugly,"['t', 'crossentropysoftmax1hotwithbiasdx']"
+T_CrossentropySoftmax1HotWithBiasDx,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'crossentropysoftmax1hotwithbiasdx']"
 outer_in_mit_sot,7,,,,,,,,,7,lower_case_with_underscores,"['outer', 'in', 'mit', 'sot']"
 test_1in_1out,1,1,,,,,,,,,lower_case_with_underscores,"['test', '1in', '1out']"
 unim12,3,,,,,,,,,3,lowercase,['unim12']
@@ -6142,7 +6142,7 @@ damp,3,,,,,,1,,,2,lowercase,['damp']
 advec,48,,,,,,,,,48,lowercase,['advec']
 CLinkerType,2,,1,,,,,,,1,CapitalizedWords,"['c', 'linker', 'type']"
 consider_inps,2,,,,,,,,,2,lower_case_with_underscores,"['consider', 'inps']"
-T_ProfileMode_WrapLinker,1,,1,,,,,,,,ugly,"['t', 'profilemode', 'wraplinker']"
+T_ProfileMode_WrapLinker,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'profilemode', 'wraplinker']"
 sympy_dtype,2,1,,,,,,,,1,lower_case_with_underscores,"['sympy', 'dtype']"
 _good_broadcast_unary_normal_float_no_complex,9,,,,,,,,,9,lower_case_with_underscores,"['good', 'broadcast', 'unary', 'normal', 'float', 'no', 'complex']"
 err_msg1,5,,,,,,,,,5,lower_case_with_underscores,"['err', 'msg1']"
@@ -6196,8 +6196,8 @@ compile_args,17,4,,,,,1,,,12,lower_case_with_underscores,"['compile', 'args']"
 dim1,4,,,,,,,,,4,lowercase,['dim1']
 the_split,2,,,,,,,,,2,lower_case_with_underscores,"['the', 'split']"
 err_msg2,5,,,,,,,,,5,lower_case_with_underscores,"['err', 'msg2']"
-numpy_W1,6,,,,,,,,,6,ugly,"['numpy', 'w1']"
-numpy_W2,6,,,,,,,,,6,ugly,"['numpy', 'w2']"
+numpy_W1,6,,,,,,,,,6,camel_Snake_Case,"['numpy', 'w1']"
+numpy_W2,6,,,,,,,,,6,camel_Snake_Case,"['numpy', 'w2']"
 dtype_num,3,,,,,,,,,3,lower_case_with_underscores,"['dtype', 'num']"
 vy2,22,,,,,,,,,22,lowercase,['vy2']
 vy0,3,,,,,,,,,3,lowercase,['vy0']
@@ -6591,14 +6591,14 @@ Kernel,9,,1,2,,,,,,6,CapitalizedWords,['kernel']
 convert,31,5,,,,,1,,,25,lowercase,['convert']
 aliased_outputs,3,,,,,,,,,3,lower_case_with_underscores,"['aliased', 'outputs']"
 parameters,16,,,,,,1,,,15,lowercase,['parameters']
-init_V,1,,,,,,,,,1,ugly,"['init', 'v']"
+init_V,1,,,,,,,,,1,camel_Snake_Case,"['init', 'v']"
 x_copy,6,,,,,,,,,6,lower_case_with_underscores,"['x', 'copy']"
 scan_node_topo,19,,,,,,,,,19,lower_case_with_underscores,"['scan', 'node', 'topo']"
 filters_fft_v,7,,,,,,,,,7,lower_case_with_underscores,"['filters', 'fft', 'v']"
 y_out,2,,,,,,,,,2,lower_case_with_underscores,"['y', 'out']"
 repl_pairs,8,,,,,,,,,8,lower_case_with_underscores,"['repl', 'pairs']"
-init_H,1,,,,,,,,,1,ugly,"['init', 'h']"
-T_Scan,2,,2,,,,,,,,ugly,"['t', 'scan']"
+init_H,1,,,,,,,,,1,camel_Snake_Case,"['init', 'h']"
+T_Scan,2,,2,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'scan']"
 StructuredExpTester,1,,,,,,,,,1,CapitalizedWords,"['structured', 'exp', 'tester']"
 debug_print,2,,,,,,,,,2,lower_case_with_underscores,"['debug', 'print']"
 sizeof_float,4,,,,,,,,,4,lower_case_with_underscores,"['sizeof', 'float']"
@@ -6784,7 +6784,7 @@ nnz,20,,,,,,,,,20,lowercase,['nnz']
 sub_x,13,,,,,,,,,13,lower_case_with_underscores,"['sub', 'x']"
 dummy_var,4,,,,,,,,,4,lower_case_with_underscores,"['dummy', 'var']"
 empty_mat,2,,,,,,,,,2,lower_case_with_underscores,"['empty', 'mat']"
-T_AddMul,1,,1,,,,,,,,ugly,"['t', 'addmul']"
+T_AddMul,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'addmul']"
 TruncInplaceTester,1,,,,,,,,,1,CapitalizedWords,"['trunc', 'inplace', 'tester']"
 test_perform_nan,3,3,,,,,,,,,lower_case_with_underscores,"['test', 'perform', 'nan']"
 only_connected_to_int,2,,,,,,,,,2,lower_case_with_underscores,"['only', 'connected', 'to', 'int']"
@@ -6970,7 +6970,7 @@ var_that_could_make_r_look_bad,2,,,,,,,,,2,lower_case_with_underscores,"['var', 
 shf,5,,,,,,,,,5,lowercase,['shf']
 test_target,3,,,,,,,,,3,lower_case_with_underscores,"['test', 'target']"
 f_rnn,26,13,,,,,,,,13,lower_case_with_underscores,"['f', 'rnn']"
-test_None,1,1,,,,,,,,,ugly,"['test', 'none']"
+test_None,1,1,,,,,,,,,camel_Snake_Case,"['test', 'none']"
 grad,665,234,,3,,,97,,,331,lowercase,['grad']
 isfinite,22,,,,,,,,,22,lowercase,['isfinite']
 sit_sot_shared,4,,,,,,,,,4,lower_case_with_underscores,"['sit', 'sot', 'shared']"
@@ -7109,7 +7109,7 @@ npy_row,5,,,,,,,,,5,lower_case_with_underscores,"['npy', 'row']"
 CeilIntDivTester,1,,,,,,,,,1,CapitalizedWords,"['ceil', 'int', 'div', 'tester']"
 too_big32c,1,,,,,,1,,,,lower_case_with_underscores,"['too', 'big32c']"
 theano_i_scalar,1,,,,,,,,,1,lower_case_with_underscores,"['theano', 'i', 'scalar']"
-test_GpuCAReduceCPY,2,,1,,,,,,,1,ugly,"['test', 'gpucareducecpy']"
+test_GpuCAReduceCPY,2,,1,,,,,,,1,camel_Snake_Case,"['test', 'gpucareducecpy']"
 generic,16,,,5,,,,,,11,lowercase,['generic']
 MATRIX_STRUCTURES,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['matrix', 'structures']"
 neg_offset_flag,3,,,,,,,,,3,lower_case_with_underscores,"['neg', 'offset', 'flag']"
@@ -7328,7 +7328,7 @@ save_diffs,2,1,,,,,,,,1,lower_case_with_underscores,"['save', 'diffs']"
 find_common_type,1,,,,,,,,,1,lower_case_with_underscores,"['find', 'common', 'type']"
 test_ambiguous,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'ambiguous']"
 stderr_backup,2,,,,,,,,,2,lower_case_with_underscores,"['stderr', 'backup']"
-generic_None,7,,,,,,,,,7,ugly,"['generic', 'none']"
+generic_None,7,,,,,,,,,7,camel_Snake_Case,"['generic', 'none']"
 print_mode,5,1,,,,,,,,4,lower_case_with_underscores,"['print', 'mode']"
 contextlib,1,,,1,,,,,,,lowercase,['contextlib']
 upgrade_to_float,45,,1,1,,,,,,43,lower_case_with_underscores,"['upgrade', 'to', 'float']"
@@ -7477,7 +7477,7 @@ outs_clients,4,,,,,,,,,4,lower_case_with_underscores,"['outs', 'clients']"
 replacements,16,,,,,,,,,16,lowercase,['replacements']
 filters_flat,4,,,,,,,,,4,lower_case_with_underscores,"['filters', 'flat']"
 o_self,10,,,,,,,,,10,lower_case_with_underscores,"['o', 'self']"
-BROKEN_ON_PURPOSE_Add,3,,1,,,,,,,2,ugly,"['broken', 'on', 'purpose', 'add']"
+BROKEN_ON_PURPOSE_Add,3,,1,,,,,,,2,Capitalized_Words_With_Underscores,"['broken', 'on', 'purpose', 'add']"
 active,8,,,,,,,,,8,lowercase,['active']
 z_on_gpu,6,,,,,,,,,6,lower_case_with_underscores,"['z', 'on', 'gpu']"
 rand_ranged,49,1,,,,,,,,48,lower_case_with_underscores,"['rand', 'ranged']"
@@ -7494,7 +7494,7 @@ mpi_keys,1,,,,,,,,,1,lower_case_with_underscores,"['mpi', 'keys']"
 num_args,3,,,,,,,,,3,lower_case_with_underscores,"['num', 'args']"
 errmsg,2,,,,,,,,,2,lowercase,['errmsg']
 test_memory_aliasing_updates,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'memory', 'aliasing', 'updates']"
-test_Prod,1,,1,,,,,,,,ugly,"['test', 'prod']"
+test_Prod,1,,1,,,,,,,,camel_Snake_Case,"['test', 'prod']"
 blas_c,16,,,4,,,,,,12,lower_case_with_underscores,"['blas', 'c']"
 compile_fn,2,1,,,,,,,,1,lower_case_with_underscores,"['compile', 'fn']"
 d_beta,6,,,,,,,,,6,lower_case_with_underscores,"['d', 'beta']"
@@ -7714,7 +7714,7 @@ debugprint,76,2,,2,,,,,,72,lowercase,['debugprint']
 mySymbolicMatricesList,90,,,,,,,,,90,mixedCase,"['my', 'symbolic', 'matrices', 'list']"
 test_bool,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'bool']"
 test_f32_0_1,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'f32', '0', '1']"
-test_RopLop,1,,1,,,,,,,,ugly,"['test', 'roplop']"
+test_RopLop,1,,1,,,,,,,,camel_Snake_Case,"['test', 'roplop']"
 rand_nums,2,,,,,,,,,2,lower_case_with_underscores,"['rand', 'nums']"
 get_constant_idx,6,1,,,,,,,,5,lower_case_with_underscores,"['get', 'constant', 'idx']"
 post_out2_4_4,2,,,,,,,,,2,lower_case_with_underscores,"['post', 'out2', '4', '4']"
@@ -8397,7 +8397,7 @@ warn_input_not_reused,8,,,,,,3,,,5,lower_case_with_underscores,"['warn', 'input'
 test_gpusplit_opt,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'gpusplit', 'opt']"
 mode_fusion,10,,,,,,,,,10,lower_case_with_underscores,"['mode', 'fusion']"
 adds,2,,,,,,,,,2,lowercase,['adds']
-T_XlogY0,1,,1,,,,,,,,ugly,"['t', 'xlogy0']"
+T_XlogY0,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'xlogy0']"
 mt,6,,,,,,,,,6,lowercase,['mt']
 pyplot,3,,,2,,,,1,,,lowercase,['pyplot']
 opt_name,5,,,,,,,,,5,lower_case_with_underscores,"['opt', 'name']"
@@ -8426,7 +8426,7 @@ npy_img,34,,,,,,,,,34,lower_case_with_underscores,"['npy', 'img']"
 shift,6,,,,,,,,,6,lowercase,['shift']
 whitespace_split,1,,,,,,,,,1,lower_case_with_underscores,"['whitespace', 'split']"
 test_valid_0_2,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'valid', '0', '2']"
-T_CrossentropySoftmaxArgmax1HotWithBias,2,,1,,,,,,,1,ugly,"['t', 'crossentropysoftmaxargmax1hotwithbias']"
+T_CrossentropySoftmaxArgmax1HotWithBias,2,,1,,,,,,,1,Capitalized_Words_With_Underscores,"['t', 'crossentropysoftmaxargmax1hotwithbias']"
 _version,5,,,,,,,,,5,lowercase,['version']
 scalar_ct,3,,,,,,,,,3,lower_case_with_underscores,"['scalar', 'ct']"
 local_one_add_neg_erfc,4,,,,,,,,,4,lower_case_with_underscores,"['local', 'one', 'add', 'neg', 'erfc']"
@@ -8720,7 +8720,7 @@ test_merge_3scans,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'merge', '3s
 protected,6,,,,,,,,,6,lowercase,['protected']
 z_lazy,2,,,,,,,,,2,lower_case_with_underscores,"['z', 'lazy']"
 d_vp,2,,,,,,,,,2,lower_case_with_underscores,"['d', 'vp']"
-Profile_Maker,3,,1,,,,,,,2,ugly,"['profile', 'maker']"
+Profile_Maker,3,,1,,,,,,,2,Capitalized_Words_With_Underscores,"['profile', 'maker']"
 zsh,4,,,,,,,,,4,lowercase,['zsh']
 n_apply_to_print,18,,,,,,3,,,15,lower_case_with_underscores,"['n', 'apply', 'to', 'print']"
 a_m1,2,,,,,,,,,2,lower_case_with_underscores,"['a', 'm1']"
@@ -8949,7 +8949,7 @@ test_specify_shape_partial,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'sp
 CosInplaceTester,1,,,,,,,,,1,CapitalizedWords,"['cos', 'inplace', 'tester']"
 middle,6,,,,,,,,,6,lowercase,['middle']
 endswith,24,,,,,,,,,24,lowercase,['endswith']
-test_DownsampleFactorMaxPaddingStride,1,1,,,,,,,,,ugly,"['test', 'downsamplefactormaxpaddingstride']"
+test_DownsampleFactorMaxPaddingStride,1,1,,,,,,,,,camel_Snake_Case,"['test', 'downsamplefactormaxpaddingstride']"
 H_shape,23,,,,,,,,,23,ugly,"['h', 'shape']"
 dryrun,5,,,,,,,,1,4,lowercase,['dryrun']
 local_subtensor_of_dot,1,1,,,,,,,,,lower_case_with_underscores,"['local', 'subtensor', 'of', 'dot']"
@@ -8974,7 +8974,7 @@ threads_y,4,,,,,,,,,4,lower_case_with_underscores,"['threads', 'y']"
 value_eq,1,1,,,,,,,,,lower_case_with_underscores,"['value', 'eq']"
 nodename,202,,,,,,1,,,201,lowercase,['nodename']
 shape_ndim,4,,,,,,,,,4,lower_case_with_underscores,"['shape', 'ndim']"
-MRG_RNGs,3,,,,,,,,,3,ugly,"['mrg', 'rngs']"
+MRG_RNGs,3,,,,,,,,,3,Capitalized_Words_With_Underscores,"['mrg', 'rngs']"
 test_version,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'version']"
 Expm,2,,1,,,,,,,1,CapitalizedWords,['expm']
 matrix_class,1,,,,,,,,,1,lower_case_with_underscores,"['matrix', 'class']"
@@ -9034,8 +9034,8 @@ cthunk,10,,,,,,,,,10,lowercase,['cthunk']
 denom_rest,5,,,,,,,,,5,lower_case_with_underscores,"['denom', 'rest']"
 test_stack_scalar_make_vector_constant,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'stack', 'scalar', 'make', 'vector', 'constant']"
 grid,20,,,,,,7,,,13,lowercase,['grid']
-v_W1,3,,,,,,,,,3,ugly,"['v', 'w1']"
-v_W2,3,,,,,,,,,3,ugly,"['v', 'w2']"
+v_W1,3,,,,,,,,,3,camel_Snake_Case,"['v', 'w1']"
+v_W2,3,,,,,,,,,3,camel_Snake_Case,"['v', 'w2']"
 mod,65,1,,,,,,,,64,lowercase,['mod']
 test_determinism_1,2,1,,,,,,,,1,lower_case_with_underscores,"['test', 'determinism', '1']"
 update_shape,2,1,,,,,,,,1,lower_case_with_underscores,"['update', 'shape']"
@@ -9080,7 +9080,7 @@ f_linker,3,,,,,,,,,3,lower_case_with_underscores,"['f', 'linker']"
 test_random_integers,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'random', 'integers']"
 test_sanity_0,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'sanity', '0']"
 test_canonize,1,,1,,,,,,,,lower_case_with_underscores,"['test', 'canonize']"
-T_SharedRandomStreams,1,,1,,,,,,,,ugly,"['t', 'sharedrandomstreams']"
+T_SharedRandomStreams,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'sharedrandomstreams']"
 expected_output,5,,,,,,,,,5,lower_case_with_underscores,"['expected', 'output']"
 middle_dot,2,,,,,,2,,,,lower_case_with_underscores,"['middle', 'dot']"
 pts,2,,,,,,,,,2,lowercase,['pts']
@@ -9101,7 +9101,7 @@ neib_step,42,,,,,,,,,42,lower_case_with_underscores,"['neib', 'step']"
 get_scalar_ops,6,2,,,,,,,,4,lower_case_with_underscores,"['get', 'scalar', 'ops']"
 to_compare,4,,,,,,,,,4,lower_case_with_underscores,"['to', 'compare']"
 admat,109,,,,,,,,,109,lowercase,['admat']
-_as_CudaNdarrayVariable,4,1,,,,,,,,3,ugly,"['as', 'cudandarrayvariable']"
+_as_CudaNdarrayVariable,4,1,,,,,,,,3,camel_Snake_Case,"['as', 'cudandarrayvariable']"
 n_gemvs,4,,,,,,,,,4,lower_case_with_underscores,"['n', 'gemvs']"
 argument_sequence,1,,,,,,1,,,,lower_case_with_underscores,"['argument', 'sequence']"
 format_list,1,,,,,,,,,1,lower_case_with_underscores,"['format', 'list']"
@@ -9115,7 +9115,7 @@ test_conv3d2d,3,,,1,,,,,,2,lower_case_with_underscores,"['test', 'conv3d2d']"
 test_conv_gradw,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'conv', 'gradw']"
 sum_inner,2,,,,,,,,,2,lower_case_with_underscores,"['sum', 'inner']"
 check_upper_triangular,2,1,,,,,,,,1,lower_case_with_underscores,"['check', 'upper', 'triangular']"
-rng_R,180,,,,,,,,,180,ugly,"['rng', 'r']"
+rng_R,180,,,,,,,,,180,camel_Snake_Case,"['rng', 'r']"
 test_gpualloc,2,1,,,,,,,,1,lower_case_with_underscores,"['test', 'gpualloc']"
 error_out,4,,,,,,1,,,3,lower_case_with_underscores,"['error', 'out']"
 _allclose,41,1,,9,,,,,,31,lowercase,['allclose']
@@ -9427,7 +9427,7 @@ ftensor4s,1,,,,,,,,,1,lowercase,['ftensor4s']
 test_dot22,3,3,,,,,,,,,lower_case_with_underscores,"['test', 'dot22']"
 csc,4,,,,,,,,,4,lowercase,['csc']
 remove_constants_and_unused_inputs_scan,5,1,,,,,,,,4,lower_case_with_underscores,"['remove', 'constants', 'and', 'unused', 'inputs', 'scan']"
-T_GpuImages2Neibs,2,,2,,,,,,,,ugly,"['t', 'gpuimages2neibs']"
+T_GpuImages2Neibs,2,,2,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'gpuimages2neibs']"
 routine_doc,13,,,,,,,,,13,lower_case_with_underscores,"['routine', 'doc']"
 clean_eval_points,19,,,,,,,,,19,lower_case_with_underscores,"['clean', 'eval', 'points']"
 mutable,94,,,,,,73,,,21,lowercase,['mutable']
@@ -9579,7 +9579,7 @@ as_tensor_variable_args,14,,,,,,,,,14,lower_case_with_underscores,"['as', 'tenso
 iv1,2,,,,,,,,,2,lowercase,['iv1']
 test_random,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'random']"
 test_specifyshape,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'specifyshape']"
-T_OpFromGraph,1,,1,,,,,,,,ugly,"['t', 'opfromgraph']"
+T_OpFromGraph,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'opfromgraph']"
 zm,1,,,,,,,,,1,lowercase,['zm']
 args_decl,1,,,,,,,,,1,lower_case_with_underscores,"['args', 'decl']"
 prefix_child,8,,,,,,2,,,6,lower_case_with_underscores,"['prefix', 'child']"
@@ -9628,7 +9628,7 @@ in_ns,2,,,,,,,,,2,lower_case_with_underscores,"['in', 'ns']"
 im_shp,4,,,,,,,,,4,lower_case_with_underscores,"['im', 'shp']"
 correctb3,1,,,,,,1,,,,lowercase,['correctb3']
 less_equal_s_d,3,,,,,,,,,3,lower_case_with_underscores,"['less', 'equal', 's', 'd']"
-test_CAReduce,4,,1,1,,,,,,2,ugly,"['test', 'careduce']"
+test_CAReduce,4,,1,1,,,,,,2,camel_Snake_Case,"['test', 'careduce']"
 jump,2,,,,,,,,,2,lowercase,['jump']
 format_cls,7,,,,,,,,,7,lower_case_with_underscores,"['format', 'cls']"
 b,2500,6,,2,,,12,,,2480,b,['b']
@@ -9643,7 +9643,7 @@ W_val,16,,,,,,,,,16,ugly,"['w', 'val']"
 dot_time,7,,,,,,,,,7,lower_case_with_underscores,"['dot', 'time']"
 image_shape,51,,,,,,5,,,46,lower_case_with_underscores,"['image', 'shape']"
 loaded_key_pkl,6,,,,,,,,,6,lower_case_with_underscores,"['loaded', 'key', 'pkl']"
-test_GetItemScalar,1,1,,,,,,,,,ugly,"['test', 'getitemscalar']"
+test_GetItemScalar,1,1,,,,,,,,,camel_Snake_Case,"['test', 'getitemscalar']"
 Bval,2,,,,,,,,,2,CapitalizedWords,['bval']
 neg_arg,8,,,,,,,,,8,lower_case_with_underscores,"['neg', 'arg']"
 declare,5,,,,,,,,,5,lowercase,['declare']
@@ -9711,7 +9711,7 @@ xinit,5,,,,,,,,,5,lowercase,['xinit']
 am_type,1,,,,,,,,,1,lower_case_with_underscores,"['am', 'type']"
 test_perform,14,13,,,,,,,,1,lower_case_with_underscores,"['test', 'perform']"
 new_leaves,2,,,,,,,,,2,lower_case_with_underscores,"['new', 'leaves']"
-test_SymPyCCode,1,1,,,,,,,,,ugly,"['test', 'sympyccode']"
+test_SymPyCCode,1,1,,,,,,,,,camel_Snake_Case,"['test', 'sympyccode']"
 test_neibs2images_grad,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'neibs2images', 'grad']"
 n_step,2,,,,,,,,,2,lower_case_with_underscores,"['n', 'step']"
 p_strd,4,,,,,,,,,4,lower_case_with_underscores,"['p', 'strd']"
@@ -9728,7 +9728,7 @@ dense_dtype,10,,,,,,,,,10,lower_case_with_underscores,"['dense', 'dtype']"
 run_cthunk,13,,,2,,,,,4,7,lower_case_with_underscores,"['run', 'cthunk']"
 sparse_eval,4,1,,,,,,,,3,lower_case_with_underscores,"['sparse', 'eval']"
 fn_a,3,,,,,,,,,3,lower_case_with_underscores,"['fn', 'a']"
-init_Mu1,2,,,,,,,,,2,ugly,"['init', 'mu1']"
+init_Mu1,2,,,,,,,,,2,camel_Snake_Case,"['init', 'mu1']"
 rmtree_empty,2,1,,,,,,,,1,lower_case_with_underscores,"['rmtree', 'empty']"
 splits_size,2,,,,,,,,,2,lower_case_with_underscores,"['splits', 'size']"
 sanitize,9,1,,,,,,,,8,lowercase,['sanitize']
@@ -9896,7 +9896,7 @@ test_get_debug_values_success,1,1,,,,,,,,,lower_case_with_underscores,"['test', 
 node_list,8,,,,,,,,,8,lower_case_with_underscores,"['node', 'list']"
 VdHvals,2,,,,,,,,,2,CapitalizedWords,"['vd', 'hvals']"
 merge_profile,5,2,,,,,,,,3,lower_case_with_underscores,"['merge', 'profile']"
-test_Strides1D,1,1,,,,,,,,,ugly,"['test', 'strides1d']"
+test_Strides1D,1,1,,,,,,,,,camel_Snake_Case,"['test', 'strides1d']"
 MatrixInverse,8,,1,3,,,,,,4,CapitalizedWords,"['matrix', 'inverse']"
 debugmode,51,,,5,,,,,,46,lowercase,['debugmode']
 f_inconsistent,2,,,,,,,,,2,lower_case_with_underscores,"['f', 'inconsistent']"
@@ -10033,7 +10033,7 @@ vector_sum,3,,,,,,,,,3,lower_case_with_underscores,"['vector', 'sum']"
 frombuffer,3,,,,,,,,,3,lowercase,['frombuffer']
 outputWindowSize,2,,,,,,,,,2,mixedCase,"['output', 'window', 'size']"
 constraint,15,2,,,,,9,,,4,lowercase,['constraint']
-test_GpuCumsum3D,1,1,,,,,,,,,ugly,"['test', 'gpucumsum3d']"
+test_GpuCumsum3D,1,1,,,,,,,,,camel_Snake_Case,"['test', 'gpucumsum3d']"
 then_branch,10,,,,,,,,,10,lower_case_with_underscores,"['then', 'branch']"
 cython_mintaps,2,,,,,,,,,2,lower_case_with_underscores,"['cython', 'mintaps']"
 extensions,2,,,,,,,,,2,lowercase,['extensions']
@@ -10292,7 +10292,7 @@ local_abs_merge,3,1,,,,,,,,2,lower_case_with_underscores,"['local', 'abs', 'merg
 chr,2,,,,,,,,,2,lowercase,['chr']
 test_typed_list_type,1,,1,,,,,,,,lower_case_with_underscores,"['test', 'typed', 'list', 'type']"
 inner_mitmot,16,1,,,,,,,,15,lower_case_with_underscores,"['inner', 'mitmot']"
-stabilized_X,3,,,,,,,,,3,ugly,"['stabilized', 'x']"
+stabilized_X,3,,,,,,,,,3,camel_Snake_Case,"['stabilized', 'x']"
 _dot22,38,,,2,,,,,,36,lowercase,['dot22']
 nw_outputs,6,,,,,,,,,6,lower_case_with_underscores,"['nw', 'outputs']"
 test_hostfromgpu_shape_i,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'hostfromgpu', 'shape', 'i']"
@@ -10428,7 +10428,7 @@ stop_dtype,7,,,,,,,,,7,lower_case_with_underscores,"['stop', 'dtype']"
 TestElemwise,2,,1,,,,,,,1,CapitalizedWords,"['test', 'elemwise']"
 scanStep,2,1,,,,,,,,1,mixedCase,"['scan', 'step']"
 _compute_neigh_strides,2,1,,,,,,,,1,lower_case_with_underscores,"['compute', 'neigh', 'strides']"
-T_SoftmaxWithBias,1,,1,,,,,,,,ugly,"['t', 'softmaxwithbias']"
+T_SoftmaxWithBias,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'softmaxwithbias']"
 MultinomialTester,2,,1,,,,,,,1,CapitalizedWords,"['multinomial', 'tester']"
 toks,8,,,,,,,,,8,lowercase,['toks']
 v_10,3,,,,,,,,,3,lower_case_with_underscores,"['v', '10']"
@@ -10455,7 +10455,7 @@ broadcast,12,,,,,,5,,,7,lowercase,['broadcast']
 iterv,4,,,,,,,,,4,lowercase,['iterv']
 compile_cutils_code,4,1,,1,,,,,,2,lower_case_with_underscores,"['compile', 'cutils', 'code']"
 Print,9,,1,,,,,,,8,CapitalizedWords,['print']
-T_Clip,1,,1,,,,,,,,ugly,"['t', 'clip']"
+T_Clip,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'clip']"
 aitens3,3,,,,,,,,,3,lowercase,['aitens3']
 register_stabilize,47,1,,3,,,,,,43,lower_case_with_underscores,"['register', 'stabilize']"
 Deg2Rad,2,,1,,,,,,,1,CapitalizedWords,"['deg2', 'rad']"
@@ -10505,7 +10505,7 @@ og1,6,,,,,,,,,6,lowercase,['og1']
 og2,6,,,,,,,,,6,lowercase,['og2']
 GradClip,5,,1,,,,,,,4,CapitalizedWords,"['grad', 'clip']"
 no_borrow,6,,,,,,,,,6,lower_case_with_underscores,"['no', 'borrow']"
-test_GpuCumsum1D,1,1,,,,,,,,,ugly,"['test', 'gpucumsum1d']"
+test_GpuCumsum1D,1,1,,,,,,,,,camel_Snake_Case,"['test', 'gpucumsum1d']"
 imported_sympy,2,,,,,,,,,2,lower_case_with_underscores,"['imported', 'sympy']"
 mit_sot_rightOrder,12,,,,,,,,,12,ugly,"['mit', 'sot', 'rightorder']"
 out1_4,2,,,,,,,,,2,lower_case_with_underscores,"['out1', '4']"
@@ -10643,7 +10643,7 @@ new_inner_ins,6,,,,,,,,,6,lower_case_with_underscores,"['new', 'inner', 'ins']"
 is_symmetric,3,1,,,,,,,,2,lower_case_with_underscores,"['is', 'symmetric']"
 dC_dXts,9,,,,,,,,,9,ugly,"['dc', 'dxts']"
 ConvOp,47,,1,3,,,,,,43,CapitalizedWords,"['conv', 'op']"
-test_ScalarOps,1,,1,,,,,,,,ugly,"['test', 'scalarops']"
+test_ScalarOps,1,,1,,,,,,,,camel_Snake_Case,"['test', 'scalarops']"
 dy_times_sm_i,3,,,,,,,,,3,lower_case_with_underscores,"['dy', 'times', 'sm', 'i']"
 not_same_dimensions,3,,,,,,3,,,,lower_case_with_underscores,"['not', 'same', 'dimensions']"
 timing,6,,,,,,,,,6,lowercase,['timing']
@@ -10679,14 +10679,14 @@ grad_fn_axis0,2,,,,,,,,,2,lower_case_with_underscores,"['grad', 'fn', 'axis0']"
 where_gz_not_zero,2,,,,,,,,,2,lower_case_with_underscores,"['where', 'gz', 'not', 'zero']"
 outshp,80,,,,,,,,,80,lowercase,['outshp']
 f_gpu_type,2,,,,,,,,,2,lower_case_with_underscores,"['f', 'gpu', 'type']"
-update_V,2,1,,,,,,,,1,ugly,"['update', 'v']"
+update_V,2,1,,,,,,,,1,camel_Snake_Case,"['update', 'v']"
 pattern,132,,,,,,14,,,118,lowercase,['pattern']
 order_list0,2,,,,,,,,,2,lower_case_with_underscores,"['order', 'list0']"
 cmatrix,3,,,,,,,,,3,lowercase,['cmatrix']
 merged_shape,10,,,,,,,,,10,lower_case_with_underscores,"['merged', 'shape']"
 zeros_tensor,2,,,,,,,,,2,lower_case_with_underscores,"['zeros', 'tensor']"
 default_compiledir_format,3,,,,,,,,,3,lower_case_with_underscores,"['default', 'compiledir', 'format']"
-update_H,2,1,,,,,,,,1,ugly,"['update', 'h']"
+update_H,2,1,,,,,,,,1,camel_Snake_Case,"['update', 'h']"
 make_node,447,330,,,,,,,,117,lower_case_with_underscores,"['make', 'node']"
 test_op,18,15,,,,,,,,3,lower_case_with_underscores,"['test', 'op']"
 api_version,1,,,,,,,,,1,lower_case_with_underscores,"['api', 'version']"
@@ -10790,7 +10790,7 @@ gval0,11,,,,,,,,,11,lowercase,['gval0']
 io2,3,,,,,,,,,3,lowercase,['io2']
 io1,3,,,,,,,,,3,lowercase,['io1']
 test_default_start,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'default', 'start']"
-T_SoftmaxGrad,1,,1,,,,,,,,ugly,"['t', 'softmaxgrad']"
+T_SoftmaxGrad,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'softmaxgrad']"
 local_gpua_advanced_incsubtensor,1,1,,,,,,,,,lower_case_with_underscores,"['local', 'gpua', 'advanced', 'incsubtensor']"
 test_fusion,1,,1,,,,,,,,lower_case_with_underscores,"['test', 'fusion']"
 n_steps,192,,,,,,101,,,91,lower_case_with_underscores,"['n', 'steps']"
@@ -10881,7 +10881,7 @@ g_out,33,,,,,,,,,33,lower_case_with_underscores,"['g', 'out']"
 fyv,168,,,,,,,,,168,lowercase,['fyv']
 test_gpu_fusion,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'gpu', 'fusion']"
 _new_inner_inps,2,,,,,,,,,2,lower_case_with_underscores,"['new', 'inner', 'inps']"
-TestGer_OpContract,1,,1,,,,,,,,ugly,"['testger', 'opcontract']"
+TestGer_OpContract,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['testger', 'opcontract']"
 output_names,8,,,,,,,,,8,lower_case_with_underscores,"['output', 'names']"
 inner_in_seqs,8,,,,,,,,,8,lower_case_with_underscores,"['inner', 'in', 'seqs']"
 ssd0,4,,,,,,,,,4,lowercase,['ssd0']
@@ -10939,7 +10939,7 @@ a_time,4,,,,,,,,,4,lower_case_with_underscores,"['a', 'time']"
 test_binomial_vector,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'binomial', 'vector']"
 socket,4,,,2,,,,,,2,lowercase,['socket']
 test_normal,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'normal']"
-test_Eig,3,,1,,,,,,,2,ugly,"['test', 'eig']"
+test_Eig,3,,1,,,,,,,2,camel_Snake_Case,"['test', 'eig']"
 cholesky_upper,4,,,,,,,,,4,lower_case_with_underscores,"['cholesky', 'upper']"
 make_c_gemv_destructive,2,1,,,,,,,,1,lower_case_with_underscores,"['make', 'c', 'gemv', 'destructive']"
 o_ins,2,,,,,,,,,2,lower_case_with_underscores,"['o', 'ins']"
@@ -11051,7 +11051,7 @@ y_idx_range,2,,,,,,,,,2,lower_case_with_underscores,"['y', 'idx', 'range']"
 test_default_updates_expressions,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'default', 'updates', 'expressions']"
 _init_out_var_slice,6,,,,,,,,,6,lower_case_with_underscores,"['init', 'out', 'var', 'slice']"
 DESCRIPTION,2,,,,,,,,,2,UPPERCASE,"['descriptio', 'n']"
-PyCapsule_Type,1,,,,,,,,,1,ugly,"['pycapsule', 'type']"
+PyCapsule_Type,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['pycapsule', 'type']"
 old_s,6,,,,,,,,,6,lower_case_with_underscores,"['old', 's']"
 old_r,24,,,,,,2,,,22,lower_case_with_underscores,"['old', 'r']"
 cuda_files,2,,,,,,,,,2,lower_case_with_underscores,"['cuda', 'files']"
@@ -11292,7 +11292,7 @@ ndim,1401,,,,,,74,,,1327,lowercase,['ndim']
 opt_mode,12,,,,,,,,,12,lower_case_with_underscores,"['opt', 'mode']"
 c_impl,3,,,,,,,,,3,lower_case_with_underscores,"['c', 'impl']"
 post_r2_4_4,1,,,,,,,,,1,lower_case_with_underscores,"['post', 'r2', '4', '4']"
-T_Tile,1,,1,,,,,,,,ugly,"['t', 'tile']"
+T_Tile,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'tile']"
 end_switch_typenum,2,,,,,,,,,2,lower_case_with_underscores,"['end', 'switch', 'typenum']"
 over,6,,,,,,2,,,4,lowercase,['over']
 ceil_intdiv,5,1,,,,,,,,4,lower_case_with_underscores,"['ceil', 'intdiv']"
@@ -11448,7 +11448,7 @@ expr,119,,,,,,3,,,116,lowercase,['expr']
 test_scale_cost,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'scale', 'cost']"
 none_j,4,,,,,,,,,4,lower_case_with_underscores,"['none', 'j']"
 atens3_val,9,,,,,,,,,9,lower_case_with_underscores,"['atens3', 'val']"
-T_XlogX,1,,1,,,,,,,,ugly,"['t', 'xlogx']"
+T_XlogX,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'xlogx']"
 gpu_softmax_with_bias,2,,,,,,,,,2,lower_case_with_underscores,"['gpu', 'softmax', 'with', 'bias']"
 apt,8,,,,,,,,,8,lowercase,['apt']
 floor_div,7,1,,,,,,,,6,lower_case_with_underscores,"['floor', 'div']"
@@ -11550,7 +11550,7 @@ executable_nodes,6,,,,,,,,,6,lower_case_with_underscores,"['executable', 'nodes'
 nOutputBlock,4,,,,,,,,,4,mixedCase,"['n', 'output', 'block']"
 cloops,3,,,,,,,,,3,lowercase,['cloops']
 python_all,10,,,,,,,,,10,lower_case_with_underscores,"['python', 'all']"
-uses_In,2,,,,,,,,,2,ugly,"['uses', 'in']"
+uses_In,2,,,,,,,,,2,camel_Snake_Case,"['uses', 'in']"
 make_alloc,4,1,,,,,,,,3,lower_case_with_underscores,"['make', 'alloc']"
 ElemwiseKernel,3,,,1,,,,,,2,CapitalizedWords,"['elemwise', 'kernel']"
 test_partial_input_aliasing_affecting_inplace_operations,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'partial', 'input', 'aliasing', 'affecting', 'inplace', 'operations']"
@@ -11605,7 +11605,7 @@ news,1,,,,,,,,,1,lowercase,['news']
 newp,4,,,,,,,,,4,lowercase,['newp']
 new_output,4,,,,,,,,,4,lower_case_with_underscores,"['new', 'output']"
 Erfinv,8,,1,2,,,,,,5,CapitalizedWords,['erfinv']
-Test_SharedVariable,1,,1,,,,,,,,ugly,"['test', 'sharedvariable']"
+Test_SharedVariable,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['test', 'sharedvariable']"
 mu1,4,,,,,,,,,4,lowercase,['mu1']
 upcasted,2,,,,,,,,,2,lowercase,['upcasted']
 col_st,9,,,,,,,,,9,lower_case_with_underscores,"['col', 'st']"
@@ -11692,7 +11692,7 @@ test_elemwise_multiple_inputs_optimisation2,1,1,,,,,,,,,lower_case_with_undersco
 dummy_right,4,,,,,,,,,4,lower_case_with_underscores,"['dummy', 'right']"
 test_csc_dense,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'csc', 'dense']"
 original_value,4,,,,,,,,,4,lower_case_with_underscores,"['original', 'value']"
-_pickle_DebugMode_Maker,2,1,,,,,,,,1,ugly,"['pickle', 'debugmode', 'maker']"
+_pickle_DebugMode_Maker,2,1,,,,,,,,1,camel_Snake_Case,"['pickle', 'debugmode', 'maker']"
 fnmatchcase,2,,,1,,,,,,1,lowercase,['fnmatchcase']
 theano_isfunc,2,,,,,,,,,2,lower_case_with_underscores,"['theano', 'isfunc']"
 init_nd,1,,,,,,1,,,,lower_case_with_underscores,"['init', 'nd']"
@@ -11700,7 +11700,7 @@ numpy_implementation,2,1,,,,,,,,1,lower_case_with_underscores,"['numpy', 'implem
 show_config,1,,,,,,,,,1,lower_case_with_underscores,"['show', 'config']"
 s_rng,14,,,,,,,,,14,lower_case_with_underscores,"['s', 'rng']"
 complex,46,1,,,,,10,,,35,lowercase,['complex']
-r_F,6,,,,,,,,,6,ugly,"['r', 'f']"
+r_F,6,,,,,,,,,6,camel_Snake_Case,"['r', 'f']"
 n_elements,4,,,,,,,,,4,lower_case_with_underscores,"['n', 'elements']"
 setup_z_Nz_Sz_outplace,2,,,,,,,,,2,ugly,"['setup', 'z', 'nz', 'sz', 'outplace']"
 GpuIncSubtensor,18,,2,4,,,,,,12,CapitalizedWords,"['gpu', 'inc', 'subtensor']"
@@ -11811,7 +11811,7 @@ t10,3,,,,,,,,,3,lowercase,['t10']
 my_op,2,1,,,,,,,,1,lower_case_with_underscores,"['my', 'op']"
 t12,3,,,,,,,,,3,lowercase,['t12']
 Hb,4,,,,,,,,,4,CapitalizedWords,['hb']
-test_Eigh,2,,1,,,,,,,1,ugly,"['test', 'eigh']"
+test_Eigh,2,,1,,,,,,,1,camel_Snake_Case,"['test', 'eigh']"
 sampling_dot,9,,,2,,,,,,7,lower_case_with_underscores,"['sampling', 'dot']"
 Hf,8,,,,,,,,,8,CapitalizedWords,['hf']
 core,3,,,1,,,,,,2,lowercase,['core']
@@ -11886,7 +11886,7 @@ _a,127,,,,,,,,,127,b,['a']
 test_badviewmap_slice,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'badviewmap', 'slice']"
 cost_grad,6,,,,,,,,,6,lower_case_with_underscores,"['cost', 'grad']"
 attr,96,,,15,,,,,,81,lowercase,['attr']
-_as_GpuArrayVariable,3,1,,,,,,,,2,ugly,"['as', 'gpuarrayvariable']"
+_as_GpuArrayVariable,3,1,,,,,,,,2,camel_Snake_Case,"['as', 'gpuarrayvariable']"
 nw_states_outs,6,,,,,,,,,6,lower_case_with_underscores,"['nw', 'states', 'outs']"
 test_gpu_opt,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'gpu', 'opt']"
 pos_ok,6,,,,,,,,,6,lower_case_with_underscores,"['pos', 'ok']"
@@ -12065,7 +12065,7 @@ output_index,4,,,,,,,,,4,lower_case_with_underscores,"['output', 'index']"
 IsInf,2,,1,,,,,,,1,CapitalizedWords,"['is', 'inf']"
 DEBUG,4,,,,,,,,,4,UPPERCASE,"['debu', 'g']"
 a_offset,2,,,,,,,,,2,lower_case_with_underscores,"['a', 'offset']"
-test_GpuCrossentropySoftmaxArgmax1HotWithBias,2,2,,,,,,,,,ugly,"['test', 'gpucrossentropysoftmaxargmax1hotwithbias']"
+test_GpuCrossentropySoftmaxArgmax1HotWithBias,2,2,,,,,,,,,camel_Snake_Case,"['test', 'gpucrossentropysoftmaxargmax1hotwithbias']"
 inplace_gpu_elemwise_opt,2,,,,,,,,,2,lower_case_with_underscores,"['inplace', 'gpu', 'elemwise', 'opt']"
 diff_outputs,3,,,,,,,,,3,lower_case_with_underscores,"['diff', 'outputs']"
 context_type,6,,,,,,,,,6,lower_case_with_underscores,"['context', 'type']"
@@ -12277,7 +12277,7 @@ verify_grad_sparse,45,1,,3,,,,,,41,lower_case_with_underscores,"['verify', 'grad
 Record,12,,1,1,,,,,,10,CapitalizedWords,['record']
 test_local_dot22_to_dot22scalar,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'local', 'dot22', 'to', 'dot22scalar']"
 consts,7,,,,,,,,,7,lowercase,['consts']
-test_Strides2D,1,1,,,,,,,,,ugly,"['test', 'strides2d']"
+test_Strides2D,1,1,,,,,,,,,camel_Snake_Case,"['test', 'strides2d']"
 mat_csc,4,,,,,,,,,4,lower_case_with_underscores,"['mat', 'csc']"
 GpuSplit,12,,2,4,,,,,,6,CapitalizedWords,"['gpu', 'split']"
 manner_fn,32,,,,,,,,,32,lower_case_with_underscores,"['manner', 'fn']"
@@ -12534,7 +12534,7 @@ _scal_elemwise_with_nfunc,59,1,,,,,,,,58,lower_case_with_underscores,"['scal', '
 if_false_op,2,,,,,,,,,2,lower_case_with_underscores,"['if', 'false', 'op']"
 r_unbounded,8,,,,,,,,,8,lower_case_with_underscores,"['r', 'unbounded']"
 origconsts,3,,,,,,,,,3,lowercase,['origconsts']
-test_DownsampleFactorMaxStride,1,1,,,,,,,,,ugly,"['test', 'downsamplefactormaxstride']"
+test_DownsampleFactorMaxStride,1,1,,,,,,,,,camel_Snake_Case,"['test', 'downsamplefactormaxstride']"
 compile_cmodule,3,1,,,,,,,,2,lower_case_with_underscores,"['compile', 'cmodule']"
 mpi_tag_cmp,3,,,1,,,,,,2,lower_case_with_underscores,"['mpi', 'tag', 'cmp']"
 engine,1,,,1,,,,,,,lowercase,['engine']
@@ -12671,7 +12671,7 @@ sitsot_idx,5,,,,,,,,,5,lower_case_with_underscores,"['sitsot', 'idx']"
 scheduler,2,,,,,,,,,2,lowercase,['scheduler']
 shape_infer,3,,,,,,,,,3,lower_case_with_underscores,"['shape', 'infer']"
 new_nodes,3,,,,,,,,,3,lower_case_with_underscores,"['new', 'nodes']"
-VM_Linker,19,,1,,,,,,,18,ugly,"['vm', 'linker']"
+VM_Linker,19,,1,,,,,,,18,Capitalized_Words_With_Underscores,"['vm', 'linker']"
 walk,2,,,,,,,,,2,lowercase,['walk']
 PureOp,15,,1,5,,,,,,9,CapitalizedWords,"['pure', 'op']"
 Allocb1GradTester,1,,,,,,,,,1,CapitalizedWords,"['allocb1', 'grad', 'tester']"
@@ -12709,7 +12709,7 @@ all_data,3,,,,,,,,,3,lower_case_with_underscores,"['all', 'data']"
 header_dirs,9,1,,,,,1,,,7,lower_case_with_underscores,"['header', 'dirs']"
 provided,9,,,,,,,,,9,lowercase,['provided']
 slice,215,,,,,,3,,,212,lowercase,['slice']
-sparse_A,8,,,,,,,,,8,ugly,"['sparse', 'a']"
+sparse_A,8,,,,,,,,,8,camel_Snake_Case,"['sparse', 'a']"
 assert_allclose,207,1,,5,,,,,,201,lower_case_with_underscores,"['assert', 'allclose']"
 protocol,9,,,,,,9,,,,lowercase,['protocol']
 Ceil,4,,1,,,,,,,3,CapitalizedWords,['ceil']
@@ -13550,7 +13550,7 @@ f2_inp,48,,,,,,,,,48,lower_case_with_underscores,"['f2', 'inp']"
 test_fibby_1,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'fibby', '1']"
 gemv,21,,,,,,,,,21,lowercase,['gemv']
 value_set,2,,,,,,,,,2,lower_case_with_underscores,"['value', 'set']"
-test_GetItem2D,1,1,,,,,,,,,ugly,"['test', 'getitem2d']"
+test_GetItem2D,1,1,,,,,,,,,camel_Snake_Case,"['test', 'getitem2d']"
 allstuff,2,,,,,,,,,2,lowercase,['allstuff']
 test_filter_sanity_check,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'filter', 'sanity', 'check']"
 test_local_useless_tile,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'local', 'useless', 'tile']"
@@ -13569,11 +13569,11 @@ test_constraints,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'constraints'
 lcols,1,,,,,,,,,1,lowercase,['lcols']
 dtypes,101,,,,,,3,,,98,lowercase,['dtypes']
 test_grad_none,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'grad', 'none']"
-nwo_W,4,,,,,,,,,4,ugly,"['nwo', 'w']"
+nwo_W,4,,,,,,,,,4,camel_Snake_Case,"['nwo', 'w']"
 integer,23,,,,,,1,,,22,lowercase,['integer']
 T_scan,1,,1,,,,,,,,ugly,"['t', 'scan']"
 shape_,5,,,,,,,,,5,lowercase,['shape']
-test_DimShuffle,4,,2,1,,,,,,1,ugly,"['test', 'dimshuffle']"
+test_DimShuffle,4,,2,1,,,,,,1,camel_Snake_Case,"['test', 'dimshuffle']"
 test_mul_without_zeros_zeros,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'mul', 'without', 'zeros', 'zeros']"
 prof_id,3,,,,,,,,,3,lower_case_with_underscores,"['prof', 'id']"
 rotate,2,,,,,,,,,2,lowercase,['rotate']
@@ -13629,7 +13629,7 @@ shape_kern1,7,,,,,,,,,7,lower_case_with_underscores,"['shape', 'kern1']"
 true_ins,4,,,,,,,,,4,lower_case_with_underscores,"['true', 'ins']"
 nb_nodes,17,,,,,,,,,17,lower_case_with_underscores,"['nb', 'nodes']"
 _numop,11,,,,,,,,,11,lowercase,['numop']
-n2o_W,4,,,,,,,,,4,ugly,"['n2o', 'w']"
+n2o_W,4,,,,,,,,,4,camel_Snake_Case,"['n2o', 'w']"
 test_grad_advanced_inc_subtensor,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'grad', 'advanced', 'inc', 'subtensor']"
 Timer,7,,,,,,,,,7,CapitalizedWords,['timer']
 register_specify_shape_c_code,4,1,,1,,,,,,2,lower_case_with_underscores,"['register', 'specify', 'shape', 'c', 'code']"
@@ -13692,7 +13692,7 @@ files,35,,,,,,1,,,34,lowercase,['files']
 pow_outer,2,,,,,,,,,2,lower_case_with_underscores,"['pow', 'outer']"
 cst_m05,2,,,,,,,,,2,lower_case_with_underscores,"['cst', 'm05']"
 test_compute_flag,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'compute', 'flag']"
-launch_General,2,1,,,,,,,,1,ugly,"['launch', 'general']"
+launch_General,2,1,,,,,,,,1,camel_Snake_Case,"['launch', 'general']"
 test_001,2,1,,,,,,,,1,lower_case_with_underscores,"['test', '001']"
 test_003,2,1,,,,,,,,1,lower_case_with_underscores,"['test', '003']"
 test_002,2,1,,,,,,,,1,lower_case_with_underscores,"['test', '002']"
@@ -13726,7 +13726,7 @@ test_give_variables_names,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'giv
 clear_old,3,1,,,,,,,,2,lower_case_with_underscores,"['clear', 'old']"
 gpu_y,12,,,,,,,,,12,lower_case_with_underscores,"['gpu', 'y']"
 test_floor,3,,,,,,,,,3,lower_case_with_underscores,"['test', 'floor']"
-_pickle_Function,3,1,,,,,,,,2,ugly,"['pickle', 'function']"
+_pickle_Function,3,1,,,,,,,,2,camel_Snake_Case,"['pickle', 'function']"
 y_discrete,2,,,,,,,,,2,lower_case_with_underscores,"['y', 'discrete']"
 TestConv2DGPU,2,,2,,,,,,,,CapitalizedWords,"['test', 'conv2dgp', 'u']"
 gpu_set_subtensor1,5,,,,,,,,,5,lower_case_with_underscores,"['gpu', 'set', 'subtensor1']"
@@ -13808,7 +13808,7 @@ fn_e_val1,2,,,,,,,,,2,lower_case_with_underscores,"['fn', 'e', 'val1']"
 output_no_opt,10,,,,,,,,,10,lower_case_with_underscores,"['output', 'no', 'opt']"
 __get_local_time,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'local', 'time']"
 w_l2_sqr,4,,,,,,,,,4,lower_case_with_underscores,"['w', 'l2', 'sqr']"
-Test_DB,1,,1,,,,,,,,ugly,"['test', 'db']"
+Test_DB,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['test', 'db']"
 FFT,5,,1,,,,,,,4,UPPERCASE,"['ff', 't']"
 test_bug_2009_06_02_trac_387,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'bug', '2009', '06', '02', 'trac', '387']"
 structured_maximum,4,1,,2,,,,,,1,lower_case_with_underscores,"['structured', 'maximum']"
@@ -13899,7 +13899,7 @@ test_alloc_memset_0,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'alloc', '
 new_outs,45,,,,,,,,,45,lower_case_with_underscores,"['new', 'outs']"
 test_optimization,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'optimization']"
 use,87,1,,,,,40,,,46,lowercase,['use']
-test_IsInf_IsNan,1,,1,,,,,,,,ugly,"['test', 'isinf', 'isnan']"
+test_IsInf_IsNan,1,,1,,,,,,,,camel_Snake_Case,"['test', 'isinf', 'isnan']"
 stream,112,,,,,,,,,112,lowercase,['stream']
 orig_image_data,2,,,,,,,,,2,lower_case_with_underscores,"['orig', 'image', 'data']"
 theslice,6,,,,,,,,,6,lowercase,['theslice']
@@ -14071,7 +14071,7 @@ get_fixers_from_package,2,,,1,,,,,,1,lower_case_with_underscores,"['get', 'fixer
 cpu_ops_moved_to_gpu,2,,,,,,,,,2,lower_case_with_underscores,"['cpu', 'ops', 'moved', 'to', 'gpu']"
 SgnInplaceTester,1,,,,,,,,,1,CapitalizedWords,"['sgn', 'inplace', 'tester']"
 betaval,3,,,,,,,,,3,lowercase,['betaval']
-T_MakeList,1,,1,,,,,,,,ugly,"['t', 'makelist']"
+T_MakeList,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'makelist']"
 local_softmax_grad,1,1,,,,,,,,,lower_case_with_underscores,"['local', 'softmax', 'grad']"
 e_range_high,6,,,,,,,,,6,lower_case_with_underscores,"['e', 'range', 'high']"
 out_dim,9,,,,,,4,,,5,lower_case_with_underscores,"['out', 'dim']"
@@ -14175,7 +14175,7 @@ test_nonzero_values,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'nonzero',
 clip,22,2,,3,,,,,,17,lowercase,['clip']
 nvcc_path,8,,,,,,,,1,7,lower_case_with_underscores,"['nvcc', 'path']"
 test_no_aliasing_2b,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'no', 'aliasing', '2b']"
-r_T,4,,,,,,,,,4,ugly,"['r', 't']"
+r_T,4,,,,,,,,,4,camel_Snake_Case,"['r', 't']"
 _c_code,12,,,,,,,,,12,lower_case_with_underscores,"['c', 'code']"
 frompyfunc,4,,,,,,,,,4,lowercase,['frompyfunc']
 test_clip_grad,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'clip', 'grad']"
@@ -14452,7 +14452,7 @@ graph_db_file,7,,,,,,,,,7,lower_case_with_underscores,"['graph', 'db', 'file']"
 usage,6,1,,,,,3,,,2,lowercase,['usage']
 diff_args,2,,,,,,,,,2,lower_case_with_underscores,"['diff', 'args']"
 undefined_msg,8,,,,,,,,,8,lower_case_with_underscores,"['undefined', 'msg']"
-overwrite_A,3,,,,,,,,,3,ugly,"['overwrite', 'a']"
+overwrite_A,3,,,,,,,,,3,camel_Snake_Case,"['overwrite', 'a']"
 b_order,2,,,,,,,,,2,lower_case_with_underscores,"['b', 'order']"
 abs_,21,1,,,,,,,,20,lowercase,['abs']
 execute,13,3,,,,,,,,10,lowercase,['execute']
@@ -14488,7 +14488,7 @@ Sub,11,,1,,,,,,,10,CapitalizedWords,['sub']
 get_item_list,2,,,,,,,,,2,lower_case_with_underscores,"['get', 'item', 'list']"
 drow,3,,,,,,,,,3,lowercase,['drow']
 Sum,33,,1,1,,,,,,31,CapitalizedWords,['sum']
-T_NormTests,1,,1,,,,,,,,ugly,"['t', 'normtests']"
+T_NormTests,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['t', 'normtests']"
 PowTester,1,,,,,,,,,1,CapitalizedWords,"['pow', 'tester']"
 platforms,1,,,,,,1,,,,lowercase,['platforms']
 kdx,3,,,,,,,,,3,lowercase,['kdx']
@@ -14547,7 +14547,7 @@ lv0,6,,,,,,6,,,,lowercase,['lv0']
 val,614,,,,,,,,,614,lowercase,['val']
 transfer,10,,,,,,,,,10,lowercase,['transfer']
 if_true_op,2,,,,,,,,,2,lower_case_with_underscores,"['if', 'true', 'op']"
-*,45,,,45,,,,,,,mixedCase,['*']
+*,45,,,45,,,,,,,ugly,['*']
 test_DownsampleFactorMax_grad_st,1,1,,,,,,,,,ugly,"['test', 'downsamplefactormax', 'grad', 'st']"
 sit_sot_outs,4,,,,,,,,,4,lower_case_with_underscores,"['sit', 'sot', 'outs']"
 axis_shape,1,,,,,,,,,1,lower_case_with_underscores,"['axis', 'shape']"

@@ -1,4 +1,4 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,case_convention,words
+name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
 ETXTBSY,1,,,,,,,,,1,UPPERCASE,"['etxtbs', 'y']"
 gce_cls,2,,,,,,,,,2,lower_case_with_underscores,"['gce', 'cls']"
 UsageError,2,,,1,,,,,,1,CapitalizedWords,"['usage', 'error']"
@@ -1366,7 +1366,7 @@ become_pass,24,,,,,,8,,,16,lower_case_with_underscores,"['become', 'pass']"
 zadd,1,,,,,,,,,1,lowercase,['zadd']
 user_ssh_dir,10,,,,,,,,,10,lower_case_with_underscores,"['user', 'ssh', 'dir']"
 uptime_seconds_string,2,,,,,,,,,2,lower_case_with_underscores,"['uptime', 'seconds', 'string']"
-_tempfile_NamedTemporaryFile,6,,,,,,,,,6,ugly,"['tempfile', 'namedtemporaryfile']"
+_tempfile_NamedTemporaryFile,6,,,,,,,,,6,camel_Snake_Case,"['tempfile', 'namedtemporaryfile']"
 tag_group,4,,,,,,,,,4,lower_case_with_underscores,"['tag', 'group']"
 kerberos,1,,,1,,,,,,,lowercase,['kerberos']
 _split_module_string,3,1,,,,,,,,2,lower_case_with_underscores,"['split', 'module', 'string']"
@@ -1527,7 +1527,7 @@ hostnames,20,,,,,,,,,20,lowercase,['hostnames']
 tls_config,26,,,,,,,,,26,lower_case_with_underscores,"['tls', 'config']"
 _process_pending_results,21,4,,,,,,,,17,lower_case_with_underscores,"['process', 'pending', 'results']"
 v2_playbook_on_vars_prompt,1,1,,,,,,,,,lower_case_with_underscores,"['v2', 'playbook', 'on', 'vars', 'prompt']"
-PROTOCOL_SSLv23,3,,,,,,,,,3,ugly,"['protocol', 'sslv23']"
+PROTOCOL_SSLv23,3,,,,,,,,,3,Capitalized_Words_With_Underscores,"['protocol', 'sslv23']"
 algorithm,9,,,,,,1,,,8,lowercase,['algorithm']
 format_exc,14,,,1,,,,,,13,lower_case_with_underscores,"['format', 'exc']"
 copy2,2,,,,,,,,,2,lowercase,['copy2']
@@ -1776,7 +1776,7 @@ roles_left,7,,,,,,,,,7,lower_case_with_underscores,"['roles', 'left']"
 write_cache,2,1,,,,,,,,1,lower_case_with_underscores,"['write', 'cache']"
 nova_client,2,,,,,,,1,,1,lower_case_with_underscores,"['nova', 'client']"
 vm_vdc,6,,,,,,,,,6,lower_case_with_underscores,"['vm', 'vdc']"
-openSUSE_Leap,1,,,,,,1,,,,ugly,"['opensuse', 'leap']"
+openSUSE_Leap,1,,,,,,1,,,,camel_Snake_Case,"['opensuse', 'leap']"
 jinja2_environment,2,1,,,,,,,,1,lower_case_with_underscores,"['jinja2', 'environment']"
 subscription_id,15,,,,,,3,,,12,lower_case_with_underscores,"['subscription', 'id']"
 subject,17,,,,,,3,,,14,lowercase,['subject']
@@ -1998,7 +1998,7 @@ CloudError,5,,,2,,,,,,3,CapitalizedWords,"['cloud', 'error']"
 test_load_implicit_block,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'load', 'implicit', 'block']"
 _file_mapping,13,,,,,,,,,13,lower_case_with_underscores,"['file', 'mapping']"
 keyczar,4,,,4,,,,,,,lowercase,['keyczar']
-PROTOCOL_TLSv1,2,,,,,,,,,2,ugly,"['protocol', 'tlsv1']"
+PROTOCOL_TLSv1,2,,,,,,,,,2,Capitalized_Words_With_Underscores,"['protocol', 'tlsv1']"
 archive_cmd,8,,,,,,,,,8,lower_case_with_underscores,"['archive', 'cmd']"
 set_setting,6,,,,,,,,,6,lower_case_with_underscores,"['set', 'setting']"
 collins_password,2,,,,,,,,,2,lower_case_with_underscores,"['collins', 'password']"
@@ -2834,7 +2834,7 @@ toplevel,2,,,,,,,,,2,lowercase,['toplevel']
 origin_req_host,1,,,,,,1,,,,lower_case_with_underscores,"['origin', 'req', 'host']"
 _winrm_path,2,,,,,,,,,2,lower_case_with_underscores,"['winrm', 'path']"
 changed_when,6,,,,,,,,,6,lower_case_with_underscores,"['changed', 'when']"
-c_SHA256,2,,,,,,,1,,1,ugly,"['c', 'sha256']"
+c_SHA256,2,,,,,,,1,,1,camel_Snake_Case,"['c', 'sha256']"
 get_ec2_security_group_ids_from_names,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'ec2', 'security', 'group', 'ids', 'from', 'names']"
 ssl_version,33,,,,,,24,,,9,lower_case_with_underscores,"['ssl', 'version']"
 Module,1,,,,,,,,,1,CapitalizedWords,['module']
@@ -2865,7 +2865,7 @@ _asset_has_attribute,3,1,,,,,,,,2,lower_case_with_underscores,"['asset', 'has', 
 _raise_error,8,1,,,,,,,,7,lower_case_with_underscores,"['raise', 'error']"
 to_dict,5,1,,,,,,,,4,lower_case_with_underscores,"['to', 'dict']"
 skipIf,12,,,,,,,,,12,mixedCase,"['skip', 'if']"
-TestSplitter_Gen,1,,1,,,,,,,,ugly,"['testsplitter', 'gen']"
+TestSplitter_Gen,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['testsplitter', 'gen']"
 test_templar_escape_backslashes,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'templar', 'escape', 'backslashes']"
 server_vars,9,,,,,,,,,9,lower_case_with_underscores,"['server', 'vars']"
 ansible_dict_to_boto3_filter_list,1,1,,,,,,,,,lower_case_with_underscores,"['ansible', 'dict', 'to', 'boto3', 'filter', 'list']"
@@ -3282,7 +3282,7 @@ _opener,1,,,,,,,,,1,lowercase,['opener']
 DEFAULT_ASK_SUDO_PASS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['default', 'ask', 'sudo', 'pass']"
 MemcachedCache,3,,,,,,,1,,2,CapitalizedWords,"['memcached', 'cache']"
 fq_name,2,1,,,,,,,,1,lower_case_with_underscores,"['fq', 'name']"
-get_Vm,1,,,,,,,,,1,ugly,"['get', 'vm']"
+get_Vm,1,,,,,,,,,1,camel_Snake_Case,"['get', 'vm']"
 _new_stdin,15,,,,,,,,,15,lower_case_with_underscores,"['new', 'stdin']"
 lstrip,7,,,,,,,,,7,lowercase,['lstrip']
 identity,8,,,,,,,,,8,lowercase,['identity']
@@ -5010,7 +5010,7 @@ Expr,1,,,,,,,,,1,CapitalizedWords,['expr']
 _clean_returned_data,3,1,,,,,,,,2,lower_case_with_underscores,"['clean', 'returned', 'data']"
 mock_iterator,31,,,,,,,,,31,lower_case_with_underscores,"['mock', 'iterator']"
 running,11,,,,,,,,,11,lowercase,['running']
-do_EOF,2,1,,,,,,,,1,ugly,"['do', 'eof']"
+do_EOF,2,1,,,,,,,,1,camel_Snake_Case,"['do', 'eof']"
 ipaddress,3,,,,,,,,,3,lowercase,['ipaddress']
 max_size,1,,,,,,,,,1,lower_case_with_underscores,"['max', 'size']"
 stdin,66,,,,,,24,,,42,lowercase,['stdin']
@@ -6150,7 +6150,7 @@ keyring_username,4,,,,,,,,,4,lower_case_with_underscores,"['keyring', 'username'
 real_path,6,,,,,,,,,6,lower_case_with_underscores,"['real', 'path']"
 TestAnsibleModuleSysLogSmokeTest,1,,1,,,,,,,,CapitalizedWords,"['test', 'ansible', 'module', 'sys', 'log', 'smoke', 'test']"
 SharedPluginLoaderObj,4,,1,1,,,,,,2,CapitalizedWords,"['shared', 'plugin', 'loader', 'obj']"
-b_HEADER,5,,,,,,,,,5,ugly,"['b', 'header']"
+b_HEADER,5,,,,,,,,,5,camel_Snake_Case,"['b', 'header']"
 slaac,2,1,,,,,,,,1,lowercase,['slaac']
 controlpersist,5,,,,,,,,,5,lowercase,['controlpersist']
 IndexError,20,,,,,,,,,20,CapitalizedWords,"['index', 'error']"
@@ -7019,7 +7019,7 @@ no_log_strings,11,,,,,,,,,11,lower_case_with_underscores,"['no', 'log', 'strings
 gateway_name,4,,,,,,1,,,3,lower_case_with_underscores,"['gateway', 'name']"
 RUN_UNREACHABLE_HOSTS,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['run', 'unreachable', 'hosts']"
 absolute_import,302,,,302,,,,,,,lower_case_with_underscores,"['absolute', 'import']"
-visit_ImportFrom,1,1,,,,,,,,,ugly,"['visit', 'importfrom']"
+visit_ImportFrom,1,1,,,,,,,,,camel_Snake_Case,"['visit', 'importfrom']"
 _connect_sftp,2,1,,,,,,,,1,lower_case_with_underscores,"['connect', 'sftp']"
 unicode,101,,,68,,,,,,33,lowercase,['unicode']
 has_option,67,,,,,,,,,67,lower_case_with_underscores,"['has', 'option']"
@@ -7357,7 +7357,7 @@ add_tqm_variables,5,1,,,,,,,,4,lower_case_with_underscores,"['add', 'tqm', 'vari
 clear_facts,2,1,,,,,,,,1,lower_case_with_underscores,"['clear', 'facts']"
 entstat_path,3,,,,,,,,,3,lower_case_with_underscores,"['entstat', 'path']"
 pattern_intersection,6,,,,,,,,,6,lower_case_with_underscores,"['pattern', 'intersection']"
-visit_Import,1,1,,,,,,,,,ugly,"['visit', 'import']"
+visit_Import,1,1,,,,,,,,,camel_Snake_Case,"['visit', 'import']"
 file_name,53,,,,,,8,,,45,lower_case_with_underscores,"['file', 'name']"
 ascii_letters,11,,,2,,,,,,9,lower_case_with_underscores,"['ascii', 'letters']"
 key_filename,35,,,,,,8,,,27,lower_case_with_underscores,"['key', 'filename']"
@@ -7456,8 +7456,8 @@ maketrans,4,,,1,,,,,,3,lowercase,['maketrans']
 context,51,,,,,,2,,,49,lowercase,['context']
 openstack_argument_spec,1,1,,,,,,,,,lower_case_with_underscores,"['openstack', 'argument', 'spec']"
 TestPlayContext,1,,1,,,,,,,,CapitalizedWords,"['test', 'play', 'context']"
-OP_NO_SSLv3,1,,,,,,,,,1,ugly,"['op', 'no', 'sslv3']"
-OP_NO_SSLv2,1,,,,,,,,,1,ugly,"['op', 'no', 'sslv2']"
+OP_NO_SSLv3,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['op', 'no', 'sslv3']"
+OP_NO_SSLv2,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['op', 'no', 'sslv2']"
 OMIT,30,,,,,,,,,30,UPPERCASE,"['omi', 't']"
 _ANSIBLE_ARGS,34,,,,,,,,1,33,UPPER_CASE_WITH_UNDERSCORES,"['ansible', 'args']"
 hostmask,1,,,,,,,,,1,lowercase,['hostmask']
@@ -8095,7 +8095,7 @@ _final_q,15,,,,,,,,,15,lower_case_with_underscores,"['final', 'q']"
 hpat,2,,,,,,,,,2,lowercase,['hpat']
 new_item,4,,,,,,,,,4,lower_case_with_underscores,"['new', 'item']"
 val,136,,,,,,,,,136,lowercase,['val']
-*,8,,,8,,,,,,,mixedCase,['*']
+*,8,,,8,,,,,,,ugly,['*']
 clear_modules,10,1,,,,,,,,9,lower_case_with_underscores,"['clear', 'modules']"
 sys_stdout,3,,,,,,,,,3,lower_case_with_underscores,"['sys', 'stdout']"
 var,27,,,,,,,,,27,lowercase,['var']
@@ -8106,7 +8106,7 @@ simplejson,37,,,35,,,,,,2,lowercase,['simplejson']
 test_short_string,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'short', 'string']"
 PBKDF2,4,,,3,,,,,,1,UPPERCASE,['pbkdf2']
 CaptureStd,1,,1,,,,,,,,CapitalizedWords,"['capture', 'std']"
-mock_Popen,4,,,,,,,,,4,ugly,"['mock', 'popen']"
+mock_Popen,4,,,,,,,,,4,camel_Snake_Case,"['mock', 'popen']"
 volume,12,,,,,,,,,12,lowercase,['volume']
 test_plugins_connection_ssh_exec_command,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'plugins', 'connection', 'ssh', 'exec', 'command']"
 hexlify,11,,,4,,,,,,7,lowercase,['hexlify']

@@ -1,23 +1,21 @@
 #!/usr/bin/python2.7
 # coding: utf-8
 
-from logging import error
 import os
 import sys
 import ast
 import csv
+from logging import error
 from datetime import datetime
-from colorama import init as colorama_init
-from colorama import Fore
-from colorama import Style
 
 from statisctics_library import *
 
-colorama_init()
 
-FIELD_NAMES = ["name", "all", "function def", "class def", "import", "exception", "param", "keyword", "alias", "object decl", "object", "naming_style", "words"]
-PYTHON_EXTENSION = "py"
+FIELD_NAMES = ["name", "all", "function def", "class def", "import", "exception", "param", "keyword", "alias",
+               "object decl", "object", "naming_style", "words"]
+PYTHON_EXTENSION = ".py"
 LOG_FILE_NAME = "./log.txt"
+
 
 def get_data(input_path, output_path):
     try:
@@ -25,14 +23,14 @@ def get_data(input_path, output_path):
 
         # Sprawdzenie poprawności ścieżki
         if not os.path.isdir(input_path):
-            error(f"{input_path} is not a valid directory.")
+            error(input_path + " is not a valid directory.")
             return 1
 
         # Przechodzenie po katalogu
         stats_dictionary = {}
         for path, _, files in os.walk(input_path):
             for file_name in files:
-                ext  = os.path.splitext(file_name)[1]
+                ext = os.path.splitext(file_name)[1]
                 if ext != PYTHON_EXTENSION:
                     continue
 
@@ -55,25 +53,25 @@ def get_data(input_path, output_path):
 
     except Exception as e:
         with open(LOG_FILE_NAME, "a") as log:
-            log_and_print(input_path + ":", log, True)
+            log_and_print(output_path + " (by Python 2.7):", log, True)
             log_and_print(repr(e), log)
-            log_and_print(str(e), log)
-            log_and_print("Even Python 2.7 doesn`t work here!\n", log)
+            log_and_print(str(e) + "\n", log)
+            
+        return 1
 
-    else:
-        # Zakończenie progamu
-        duration = end_time - start_time
-        with open(LOG_FILE_NAME, "a") as log:
-            log_and_print(input_path + " (by Python 2.7):", log)
-            log_and_print("    Duration: " + str(duration), log)
+    # Zakończenie progamu
+    duration = end_time - start_time
+    with open(LOG_FILE_NAME, "a") as log:
+        log_and_print(output_path + " (by Python 2.7):", log)
+        log_and_print("    Duration: " + str(duration) + "\n", log)
 
     return 0
 
 
 class NamesCounter(ast.NodeVisitor):
-    def __init__(self, stats_dictionary) -> None:
+    def __init__(self, stats_dictionary):
         self.stats_dictionary = stats_dictionary
-        super().__init__()
+        super(NamesCounter, self).__init__()
 
     def visit_FunctionDef(self, node):
         add_name_with_kind_to_stats(node.name, "function def", self.stats_dictionary)
@@ -110,19 +108,11 @@ class NamesCounter(ast.NodeVisitor):
         add_name_with_kind_to_stats(node.arg, "keyword", self.stats_dictionary)
         return self.generic_visit(node)
 
-    def visit_alias (self, node):
+    def visit_alias(self, node):
         add_name_with_kind_to_stats(node.name, "import", self.stats_dictionary)
         if node.asname:
             add_name_with_kind_to_stats(node.asname, "alias", self.stats_dictionary)
         return self.generic_visit(node)
-
-
-def log_and_print(text, file, error=False):
-    file.write(text + "\n")
-    if error:
-        print(Fore.RED + text + Style.RESET_ALL)
-    else:
-        print(text)
 
 
 # Start programu

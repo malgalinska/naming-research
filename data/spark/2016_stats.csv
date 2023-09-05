@@ -1,4 +1,4 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,case_convention,words
+name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
 wordCountsDataFrame,2,,,,,,,,,2,mixedCase,"['word', 'counts', 'data', 'frame']"
 epub_title,1,,,,,,,,,1,lower_case_with_underscores,"['epub', 'title']"
 parseNeighbors,2,1,,,,,,,,1,mixedCase,"['parse', 'neighbors']"
@@ -705,7 +705,7 @@ X,5,,,,,,,,,5,B,"['', 'x']"
 dt,23,,,,,,,,,23,lowercase,['dt']
 flatMappedRDD,16,,,,,,,,,16,mixedCase,"['flat', 'mapped', 'rd', 'd']"
 GBTRegressor,4,,1,1,,,,,,2,CapitalizedWords,"['gbt', 'regressor']"
-_scala_HiveContext,5,,,,,,,,,5,ugly,"['scala', 'hivecontext']"
+_scala_HiveContext,5,,,,,,,,,5,camel_Snake_Case,"['scala', 'hivecontext']"
 rcc,2,,,,,,,,,2,lowercase,['rcc']
 runs,3,,,,,,,,,3,lowercase,['runs']
 pearson,4,,,,,,,,,4,lowercase,['pearson']
@@ -2087,7 +2087,7 @@ pstats,2,,,1,,,,,,1,lowercase,['pstats']
 findSynonyms,3,2,,,,,,,,1,mixedCase,"['find', 'synonyms']"
 userlib,2,,,2,,,,,,,lowercase,['userlib']
 f1Score,2,,,,,,,,,2,mixedCase,"['f1', 'score']"
-_1,1,,,,,,,,,1,mixedCase,['1']
+_1,1,,,,,,,,,1,ugly,['1']
 _to_list,3,1,,1,,,,,,1,lower_case_with_underscores,"['to', 'list']"
 logLevel,2,,,,,,,,,2,mixedCase,"['log', 'level']"
 pow,9,,,1,,,,,,8,lowercase,['pow']
@@ -2355,7 +2355,7 @@ RegexTokenizer,4,,1,1,,,,,,2,CapitalizedWords,"['regex', 'tokenizer']"
 newIndices,2,,,,,,,,,2,mixedCase,"['new', 'indices']"
 _read_with_length,4,1,,,,,,,,3,lower_case_with_underscores,"['read', 'with', 'length']"
 pickled,2,,,,,,,,,2,lowercase,['pickled']
-_2,2,,,,,,,,,2,mixedCase,['2']
+_2,2,,,,,,,,,2,ugly,['2']
 ct,4,,,,,,,,,4,lowercase,['ct']
 isNotNull,1,,,,,,,,,1,mixedCase,"['is', 'not', 'null']"
 elements,5,,,,,,,,,5,lowercase,['elements']
@@ -2440,7 +2440,7 @@ run_apache_rat_checks,2,1,,,,,,,,1,lower_case_with_underscores,"['run', 'apache'
 stkm,25,,,,,,,,,25,lowercase,['stkm']
 hive_thriftserver,1,,,,,,,,,1,lower_case_with_underscores,"['hive', 'thriftserver']"
 r2,3,1,,,,,,,,2,lowercase,['r2']
-_scala_SQLContext,4,,,,,,,,,4,ugly,"['scala', 'sqlcontext']"
+_scala_SQLContext,4,,,,,,,,,4,camel_Snake_Case,"['scala', 'sqlcontext']"
 test_regression,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'regression']"
 standardize_jira_ref,2,1,,,,,,,,1,lower_case_with_underscores,"['standardize', 'jira', 'ref']"
 _infer_schema_type,7,1,,1,,,,,,5,lower_case_with_underscores,"['infer', 'schema', 'type']"
@@ -5047,7 +5047,7 @@ cacheNodeIds,22,,,,,,6,,,16,mixedCase,"['cache', 'node', 'ids']"
 _make_cell,2,1,,,,,,,,1,lower_case_with_underscores,"['make', 'cell']"
 unitcount,1,,,,,,,,,1,lowercase,['unitcount']
 artifacts,2,,,,,,,,,2,lowercase,['artifacts']
-*,16,,,16,,,,,,,mixedCase,['*']
+*,16,,,16,,,,,,,ugly,['*']
 to_str,3,1,,,,,,,,2,lower_case_with_underscores,"['to', 'str']"
 IndexedRowMatrix,3,,1,,,,,,,2,CapitalizedWords,"['indexed', 'row', 'matrix']"
 test_new_session,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'new', 'session']"

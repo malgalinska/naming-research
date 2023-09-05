@@ -1,4 +1,4 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,case_convention,words
+name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
 test_simple_string_ipv4_port,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'simple', 'string', 'ipv4', 'port']"
 child,6,,,,,,,,,6,lowercase,['child']
 actual_pass,6,,,,,,,,,6,lower_case_with_underscores,"['actual', 'pass']"
@@ -2527,7 +2527,7 @@ groupfiledir,5,,,,,,,,,5,lowercase,['groupfiledir']
 hpat,2,,,,,,,,,2,lowercase,['hpat']
 actual_hosts,2,,,,,,,,,2,lower_case_with_underscores,"['actual', 'hosts']"
 val,10,,,,,,,,,10,lowercase,['val']
-*,2,,,2,,,,,,,mixedCase,['*']
+*,2,,,2,,,,,,,ugly,['*']
 dep_vars,18,,,,,,,,,18,lower_case_with_underscores,"['dep', 'vars']"
 delegate_info,10,,,,,,,,,10,lower_case_with_underscores,"['delegate', 'info']"
 keyczar,2,,,2,,,,,,,lowercase,['keyczar']

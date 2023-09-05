@@ -1,4 +1,4 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,case_convention,words
+name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
 sheet_name,29,,,,,,,,,29,lower_case_with_underscores,"['sheet', 'name']"
 four,3,,,,,,,,,3,lowercase,['four']
 test_kde_color,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'kde', 'color']"
@@ -246,7 +246,7 @@ vars,6,,,,,,,,,6,lowercase,['vars']
 new_rb,6,,,,,,,,,6,lower_case_with_underscores,"['new', 'rb']"
 _T,3,,,,,,,,,3,B,"['', 't']"
 LooseVersion,53,,,23,,,,,,30,CapitalizedWords,"['loose', 'version']"
-visit_Index,2,2,,,,,,,,,ugly,"['visit', 'index']"
+visit_Index,2,2,,,,,,,,,camel_Snake_Case,"['visit', 'index']"
 v12_json,3,,,,,,,,,3,lower_case_with_underscores,"['v12', 'json']"
 v_o,2,,,,,,,,,2,lower_case_with_underscores,"['v', 'o']"
 cumsum,46,3,,,,,,,,43,lowercase,['cumsum']
@@ -368,7 +368,7 @@ idx_gt,3,,,,,,,,,3,lower_case_with_underscores,"['idx', 'gt']"
 str_title,2,1,,,,,,,,1,lower_case_with_underscores,"['str', 'title']"
 index_2,2,,,,,,,,,2,lower_case_with_underscores,"['index', '2']"
 get_freq_code,9,1,,1,,,,,,7,lower_case_with_underscores,"['get', 'freq', 'code']"
-test_Microsecond,1,1,,,,,,,,,ugly,"['test', 'microsecond']"
+test_Microsecond,1,1,,,,,,,,,camel_Snake_Case,"['test', 'microsecond']"
 _make_sorted_values_labels,2,1,,,,,,,,1,lower_case_with_underscores,"['make', 'sorted', 'values', 'labels']"
 h_msg,7,,,,,,2,,,5,lower_case_with_underscores,"['h', 'msg']"
 newaxis,4,,,,,,,,,4,lowercase,['newaxis']
@@ -461,7 +461,7 @@ ScatterPlot,2,,1,,,,,,,1,CapitalizedWords,"['scatter', 'plot']"
 arrmap_object,7,,,,,,,,,7,lower_case_with_underscores,"['arrmap', 'object']"
 lp2,12,,,,,,,,,12,lowercase,['lp2']
 lp1,3,,,,,,,,,3,lowercase,['lp1']
-visit_Module,1,1,,,,,,,,,ugly,"['visit', 'module']"
+visit_Module,1,1,,,,,,,,,camel_Snake_Case,"['visit', 'module']"
 test_groupby_as_index_corner,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'groupby', 'as', 'index', 'corner']"
 testDataFrameNumpyLabelled,1,1,,,,,,,,,mixedCase,"['test', 'data', 'frame', 'numpy', 'labelled']"
 u_panels,4,,,,,,,,,4,lower_case_with_underscores,"['u', 'panels']"
@@ -615,7 +615,7 @@ testWithXEffectsAndConversion,1,1,,,,,,,,,mixedCase,"['test', 'with', 'x', 'effe
 _ensure_like_indices,2,1,,,,,,,,1,lower_case_with_underscores,"['ensure', 'like', 'indices']"
 GAnalytics,6,,1,1,,,,,,4,CapitalizedWords,"['g', 'analytics']"
 end_stamps,4,,,,,,,,,4,lower_case_with_underscores,"['end', 'stamps']"
-ival_WWED,3,,,,,,,,,3,ugly,"['ival', 'wwed']"
+ival_WWED,3,,,,,,,,,3,camel_Snake_Case,"['ival', 'wwed']"
 gettempdir,1,,,,,,,,,1,lowercase,['gettempdir']
 outer_join_indexer_int64,5,,,,,,,,,5,lower_case_with_underscores,"['outer', 'join', 'indexer', 'int64']"
 country,15,,,,,,1,,,14,lowercase,['country']
@@ -1027,7 +1027,7 @@ push,1,,,,,,,,,1,lowercase,['push']
 trellis1,4,,,,,,,,,4,lowercase,['trellis1']
 ldata,8,,,,,,,,,8,lowercase,['ldata']
 test_constructor_list_of_dicts,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'constructor', 'list', 'of', 'dicts']"
-agged_A,2,,,,,,,,,2,ugly,"['agged', 'a']"
+agged_A,2,,,,,,,,,2,camel_Snake_Case,"['agged', 'a']"
 chain,20,,,2,,,,,,18,lowercase,['chain']
 test_series_getitem_multiindex,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'series', 'getitem', 'multiindex']"
 packers_read_csv,1,,,,,,,,,1,lower_case_with_underscores,"['packers', 'read', 'csv']"
@@ -1164,7 +1164,7 @@ test_date_index_query_with_NaT_duplicates,2,2,,,,,,,,,ugly,"['test', 'date', 'in
 _check_ndarray,2,1,,,,,,,,1,lower_case_with_underscores,"['check', 'ndarray']"
 testFilterWithDataFrameRHS,1,1,,,,,,,,,mixedCase,"['test', 'filter', 'with', 'data', 'frame', 'rh', 's']"
 dtype,3018,8,,,,,1198,,,1812,lowercase,['dtype']
-ival_B,14,,,,,,,,,14,ugly,"['ival', 'b']"
+ival_B,14,,,,,,,,,14,camel_Snake_Case,"['ival', 'b']"
 _shape,7,,,,,,,,,7,lowercase,['shape']
 nindex_levels,6,,,,,,4,,,2,lower_case_with_underscores,"['nindex', 'levels']"
 seriesd,6,,,,,,,,,6,lowercase,['seriesd']
@@ -1350,7 +1350,7 @@ quarter,72,,,,,,32,,,40,lowercase,['quarter']
 test_orderedDict_subclass_ctor,1,1,,,,,,,,,ugly,"['test', 'ordereddict', 'subclass', 'ctor']"
 suffixes,19,,,,,,7,,,12,lowercase,['suffixes']
 left_grouped,2,,,,,,,,,2,lower_case_with_underscores,"['left', 'grouped']"
-test_Millisecond,1,1,,,,,,,,,ugly,"['test', 'millisecond']"
+test_Millisecond,1,1,,,,,,,,,camel_Snake_Case,"['test', 'millisecond']"
 _use_all_dummies,4,1,,,,,,,,3,lower_case_with_underscores,"['use', 'all', 'dummies']"
 arrmap_int64,1,,,,,,,,,1,lower_case_with_underscores,"['arrmap', 'int64']"
 datetime_frame,6,,,,,,,,,6,lower_case_with_underscores,"['datetime', 'frame']"
@@ -1780,7 +1780,7 @@ sum2,5,,,,,,,,,5,lowercase,['sum2']
 rest,19,,,,,,,,,19,lowercase,['rest']
 plot_directive,4,1,,1,,,,,,2,lower_case_with_underscores,"['plot', 'directive']"
 test_tolist,4,4,,,,,,,,,lower_case_with_underscores,"['test', 'tolist']"
-translate_In,4,2,,,,,,,,2,ugly,"['translate', 'in']"
+translate_In,4,2,,,,,,,,2,camel_Snake_Case,"['translate', 'in']"
 reso,43,,,,,,,,,43,lowercase,['reso']
 summed,2,,,,,,,,,2,lowercase,['summed']
 this_dir,2,,,,,,,,,2,lower_case_with_underscores,"['this', 'dir']"
@@ -1870,7 +1870,7 @@ value_slice,4,,,,,,,,,4,lower_case_with_underscores,"['value', 'slice']"
 test_spam_no_match,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'spam', 'no', 'match']"
 _alpha,3,1,,,,,,,,2,lowercase,['alpha']
 nanmean,2,1,,,,,,,,1,lowercase,['nanmean']
-visit_Compare,1,1,,,,,,,,,ugly,"['visit', 'compare']"
+visit_Compare,1,1,,,,,,,,,camel_Snake_Case,"['visit', 'compare']"
 thisYearEnd,1,,,,,,,,,1,mixedCase,"['this', 'year', 'end']"
 package,5,,,,,,2,,,3,lowercase,['package']
 sv_path,2,,,,,,,,,2,lower_case_with_underscores,"['sv', 'path']"
@@ -2403,7 +2403,7 @@ wide_to_long,4,1,,2,,,,,,1,lower_case_with_underscores,"['wide', 'to', 'long']"
 test_plot_examples,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'plot', 'examples']"
 test_cumcount,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'cumcount']"
 test_basic_setitem_with_labels,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'basic', 'setitem', 'with', 'labels']"
-NA_Logical,1,,,,,,,,,1,ugly,"['na', 'logical']"
+NA_Logical,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['na', 'logical']"
 DATE_RANGE,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['date', 'range']"
 dt4,4,,,,,,,,,4,lowercase,['dt4']
 rlc,2,,,,,,,1,,1,lowercase,['rlc']
@@ -2707,7 +2707,7 @@ _maybe_null_out,5,1,,,,,,,,4,lower_case_with_underscores,"['maybe', 'null', 'out
 BlockIndex,46,,,6,,,,,,40,CapitalizedWords,"['block', 'index']"
 algo3_sort,1,1,,,,,,,,,lower_case_with_underscores,"['algo3', 'sort']"
 test_business_monthly,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'business', 'monthly']"
-OpenpyxlTests_NoMerge,1,,1,,,,,,,,ugly,"['openpyxltests', 'nomerge']"
+OpenpyxlTests_NoMerge,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['openpyxltests', 'nomerge']"
 test_scalarop_preserve_name,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'scalarop', 'preserve', 'name']"
 haxis_shape,2,,,,,,,,,2,lower_case_with_underscores,"['haxis', 'shape']"
 is_sparse_array,6,,,,,,,,,6,lower_case_with_underscores,"['is', 'sparse', 'array']"
@@ -2855,7 +2855,7 @@ test_frame_dict_constructor_datetime64_1680,1,1,,,,,,,,,lower_case_with_undersco
 popen,6,,,,,,,,,6,lowercase,['popen']
 get_store,12,1,,2,,,,,,9,lower_case_with_underscores,"['get', 'store']"
 ymdT,3,,,,,,,,,3,mixedCase,"['ymd', 't']"
-NA_Character,3,,,,,,,,,3,ugly,"['na', 'character']"
+NA_Character,3,,,,,,,,,3,Capitalized_Words_With_Underscores,"['na', 'character']"
 test_delitem_corner,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'delitem', 'corner']"
 _to_str_columns,3,1,,,,,,,,2,lower_case_with_underscores,"['to', 'str', 'columns']"
 do_ref,2,,,,,,,,,2,lower_case_with_underscores,"['do', 'ref']"
@@ -2999,7 +2999,7 @@ repstr,4,,,,,,,,,4,lowercase,['repstr']
 tuple_xy,8,,,,,,,,,8,lower_case_with_underscores,"['tuple', 'xy']"
 test_all_cacheableoffsets,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'all', 'cacheableoffsets']"
 un,4,,,,,,,,,4,lowercase,['un']
-Ret_Index,3,,,,,,,,,3,ugly,"['ret', 'index']"
+Ret_Index,3,,,,,,,,,3,Capitalized_Words_With_Underscores,"['ret', 'index']"
 _check_length_exc,3,1,,,,,,,,2,lower_case_with_underscores,"['check', 'length', 'exc']"
 test_filter_and_transform_with_non_unique_timestamp_index,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'filter', 'and', 'transform', 'with', 'non', 'unique', 'timestamp', 'index']"
 _valid_blocks,3,1,,,,,,,,2,lower_case_with_underscores,"['valid', 'blocks']"
@@ -3051,7 +3051,7 @@ left_on,48,,,,,,21,,,27,lower_case_with_underscores,"['left', 'on']"
 _labels,10,,,,,,,,,10,lowercase,['labels']
 test_week_of_month_index_creation,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'week', 'of', 'month', 'index', 'creation']"
 testEQ,2,2,,,,,,,,,mixedCase,"['test', 'e', 'q']"
-ival_WSAT,3,,,,,,,,,3,ugly,"['ival', 'wsat']"
+ival_WSAT,3,,,,,,,,,3,camel_Snake_Case,"['ival', 'wsat']"
 ival_M_to_T_start,2,,,,,,,,,2,ugly,"['ival', 'm', 'to', 't', 'start']"
 AppendableNDimTable,1,,1,,,,,,,,CapitalizedWords,"['appendable', 'n', 'dim', 'table']"
 test_ctor_str_intraday,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'ctor', 'str', 'intraday']"
@@ -3505,7 +3505,7 @@ test_short,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'short']"
 panel4dc,20,,,,,,,,,20,lowercase,['panel4dc']
 _get_empty_meta,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'empty', 'meta']"
 lab_slice,2,,,,,,,,,2,lower_case_with_underscores,"['lab', 'slice']"
-ival_WFRI,3,,,,,,,,,3,ugly,"['ival', 'wfri']"
+ival_WFRI,3,,,,,,,,,3,camel_Snake_Case,"['ival', 'wfri']"
 read_size,13,,,,,,9,,,4,lower_case_with_underscores,"['read', 'size']"
 test_fwf_compression,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'fwf', 'compression']"
 cur_year,5,,,,,,,,,5,lower_case_with_underscores,"['cur', 'year']"
@@ -4596,7 +4596,7 @@ test_align_fill_method,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'align'
 isclass,8,,,,,,,,,8,lowercase,['isclass']
 sorted_df,32,,,,,,,,,32,lower_case_with_underscores,"['sorted', 'df']"
 groupby_last,1,,,,,,,,,1,lower_case_with_underscores,"['groupby', 'last']"
-_convert_Matrix,3,1,,,,,,,,2,ugly,"['convert', 'matrix']"
+_convert_Matrix,3,1,,,,,,,,2,camel_Snake_Case,"['convert', 'matrix']"
 test_comparators,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'comparators']"
 f_stat,16,2,,,,,,,,14,lower_case_with_underscores,"['f', 'stat']"
 argname,11,,,,,,,,,11,lowercase,['argname']
@@ -5939,7 +5939,7 @@ test_append_dtype_coerce,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'appe
 test_long,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'long']"
 sparse_only,3,,,,,,1,,,2,lower_case_with_underscores,"['sparse', 'only']"
 cs,6,,,,,,,,,6,lowercase,['cs']
-visit_Expr,1,1,,,,,,,,,ugly,"['visit', 'expr']"
+visit_Expr,1,1,,,,,,,,,camel_Snake_Case,"['visit', 'expr']"
 _forecast_cov_resid_raw,2,1,,,,,,,,1,lower_case_with_underscores,"['forecast', 'cov', 'resid', 'raw']"
 test_field_access_localize,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'field', 'access', 'localize']"
 cr,10,,,,,,,,,10,lowercase,['cr']
@@ -5947,7 +5947,7 @@ test_constructor_cant_cast_datetime64,1,1,,,,,,,,,lower_case_with_underscores,"[
 test_kurt,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'kurt']"
 _maybe_update_cacher,8,1,,,,,,,,7,lower_case_with_underscores,"['maybe', 'update', 'cacher']"
 test_to_recods_index_name,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'to', 'recods', 'index', 'name']"
-visit_Call,1,1,,,,,,,,,ugly,"['visit', 'call']"
+visit_Call,1,1,,,,,,,,,camel_Snake_Case,"['visit', 'call']"
 nonzero,27,1,,,,,,,,26,lowercase,['nonzero']
 pc_expand_repr_doc,2,,,,,,,,,2,lower_case_with_underscores,"['pc', 'expand', 'repr', 'doc']"
 test_drop_nonunique,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'drop', 'nonunique']"
@@ -5981,7 +5981,7 @@ test_euro_decimal,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'euro', 'dec
 gkde,7,,,,,,,,,7,lowercase,['gkde']
 test_regex_separator,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'regex', 'separator']"
 print_function,53,,,53,,,,,,,lower_case_with_underscores,"['print', 'function']"
-visit_Str,1,1,,,,,,,,,ugly,"['visit', 'str']"
+visit_Str,1,1,,,,,,,,,camel_Snake_Case,"['visit', 'str']"
 src,29,,,,,,,,,29,lowercase,['src']
 central,3,,,,,,,,,3,lowercase,['central']
 frame_float_unequal,1,,,,,,,,,1,lower_case_with_underscores,"['frame', 'float', 'unequal']"
@@ -6186,7 +6186,7 @@ TestPanelOLS,1,,1,,,,,,,,CapitalizedWords,"['test', 'panel', 'ol', 's']"
 urlencode,4,,,3,,,,,,1,lowercase,['urlencode']
 dirs,5,,,,,,,,,5,lowercase,['dirs']
 uses_params,3,,,2,,,,,,1,lower_case_with_underscores,"['uses', 'params']"
-mixed_T,2,,,,,,,,,2,ugly,"['mixed', 't']"
+mixed_T,2,,,,,,,,,2,camel_Snake_Case,"['mixed', 't']"
 nona,29,,,,,,,,,29,lowercase,['nona']
 arr_idx,11,,,,,,,,,11,lower_case_with_underscores,"['arr', 'idx']"
 test_path,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'path']"
@@ -6381,7 +6381,7 @@ result_int_vals,6,,,,,,,,,6,lower_case_with_underscores,"['result', 'int', 'vals
 join_op,7,,,,,,,,,7,lower_case_with_underscores,"['join', 'op']"
 _all_indexes_same,6,1,,2,,,,,,3,lower_case_with_underscores,"['all', 'indexes', 'same']"
 help,34,,,,,,34,,,,lowercase,['help']
-visit_UnaryOp,2,2,,,,,,,,,ugly,"['visit', 'unaryop']"
+visit_UnaryOp,2,2,,,,,,,,,camel_Snake_Case,"['visit', 'unaryop']"
 basename,11,,,,,,,,,11,lowercase,['basename']
 _stack_multi_columns,2,1,,,,,,,,1,lower_case_with_underscores,"['stack', 'multi', 'columns']"
 bmonthEnd,10,,,,,,,,,10,mixedCase,"['bmonth', 'end']"
@@ -6594,7 +6594,7 @@ str_startswith,3,1,,,,,,,,2,lower_case_with_underscores,"['str', 'startswith']"
 as_string,4,,,,,,,,,4,lower_case_with_underscores,"['as', 'string']"
 ordered_data,2,,,,,,,,,2,lower_case_with_underscores,"['ordered', 'data']"
 test_append_series,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'append', 'series']"
-XlsxWriterTests_NoMerge,1,,1,,,,,,,,ugly,"['xlsxwritertests', 'nomerge']"
+XlsxWriterTests_NoMerge,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['xlsxwritertests', 'nomerge']"
 test_to_period_quarterly,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'to', 'period', 'quarterly']"
 test_skiprows_slice_long,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'skiprows', 'slice', 'long']"
 test_monthly_resample_error,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'monthly', 'resample', 'error']"
@@ -7117,7 +7117,7 @@ read_json,58,1,,1,,,,,,56,lower_case_with_underscores,"['read', 'json']"
 setText,1,,,,,,,,,1,mixedCase,"['set', 'text']"
 test_factor_agg,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'factor', 'agg']"
 test_coercing_dates_outside_of_datetime64_ns_bounds,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'coercing', 'dates', 'outside', 'of', 'datetime64', 'ns', 'bounds']"
-visit_Assign,2,2,,,,,,,,,ugly,"['visit', 'assign']"
+visit_Assign,2,2,,,,,,,,,camel_Snake_Case,"['visit', 'assign']"
 ordered,28,,,,,,,,,28,lowercase,['ordered']
 test_datetime64_fillna,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'datetime64', 'fillna']"
 test_infer_types,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'infer', 'types']"
@@ -7373,7 +7373,7 @@ actual,224,,,,,,,,,224,lowercase,['actual']
 resize,3,,,,,,,,,3,lowercase,['resize']
 default_frame,4,,,,,,,,,4,lower_case_with_underscores,"['default', 'frame']"
 create_index,7,1,,,,,,,,6,lower_case_with_underscores,"['create', 'index']"
-timedelta_NaT,11,,,,,,,,,11,ugly,"['timedelta', 'nat']"
+timedelta_NaT,11,,,,,,,,,11,camel_Snake_Case,"['timedelta', 'nat']"
 chdir,13,,,,,,,,,13,lowercase,['chdir']
 averaged,2,,,,,,,,,2,lowercase,['averaged']
 rolling_model,2,,,,,,,,,2,lower_case_with_underscores,"['rolling', 'model']"
@@ -7538,7 +7538,7 @@ take_2d_axis0_float64_float64,1,,,,,,,,,1,lower_case_with_underscores,"['take', 
 ival_WTUE_to_D_start,2,,,,,,,,,2,ugly,"['ival', 'wtue', 'to', 'd', 'start']"
 SoupStrainer,2,,,1,,,,,,1,CapitalizedWords,"['soup', 'strainer']"
 doc_list,3,,,,,,,,,3,lower_case_with_underscores,"['doc', 'list']"
-test_NanosecondGeneric,1,1,,,,,,,,,ugly,"['test', 'nanosecondgeneric']"
+test_NanosecondGeneric,1,1,,,,,,,,,camel_Snake_Case,"['test', 'nanosecondgeneric']"
 date2num,9,,,,,,,,,9,lowercase,['date2num']
 test_raise_on_panel_with_multiindex,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'raise', 'on', 'panel', 'with', 'multiindex']"
 parse_tables,2,1,,,,,,,,1,lower_case_with_underscores,"['parse', 'tables']"
@@ -8113,7 +8113,7 @@ hj,2,,,,,,,,,2,lowercase,['hj']
 lcd_dtype,3,,,,,,,,,3,lower_case_with_underscores,"['lcd', 'dtype']"
 hh,13,,,,,,,,,13,lowercase,['hh']
 test_append,6,6,,,,,,,,,lower_case_with_underscores,"['test', 'append']"
-ival_QEJUN,3,,,,,,,,,3,ugly,"['ival', 'qejun']"
+ival_QEJUN,3,,,,,,,,,3,camel_Snake_Case,"['ival', 'qejun']"
 wasCol,3,,,,,,,,,3,mixedCase,"['was', 'col']"
 legendlabels,2,,,,,,,,,2,lowercase,['legendlabels']
 add_nans_panel4d,2,1,,,,,,,,1,lower_case_with_underscores,"['add', 'nans', 'panel4d']"
@@ -8140,7 +8140,7 @@ evals,2,,,,,,,,,2,lowercase,['evals']
 prefix_mapping,3,,,,,,,,,3,lower_case_with_underscores,"['prefix', 'mapping']"
 _fill_zeros,5,1,,,,,,,,4,lower_case_with_underscores,"['fill', 'zeros']"
 _needs_reindex_multi,4,3,,,,,,,,1,lower_case_with_underscores,"['needs', 'reindex', 'multi']"
-visit_Name,1,1,,,,,,,,,ugly,"['visit', 'name']"
+visit_Name,1,1,,,,,,,,,camel_Snake_Case,"['visit', 'name']"
 ImportError,135,,,,,,,,,135,CapitalizedWords,"['import', 'error']"
 rlines,2,,,,,,,,,2,lowercase,['rlines']
 test_header_and_index_no_types,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'header', 'and', 'index', 'no', 'types']"
@@ -8171,7 +8171,7 @@ sparse_df,5,,,,,,,,,5,lower_case_with_underscores,"['sparse', 'df']"
 test_apply_empty_infer_type,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'apply', 'empty', 'infer', 'type']"
 test_legacy_pickle,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'legacy', 'pickle']"
 test_getitem_fancy_2d,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'getitem', 'fancy', '2d']"
-test_Hour,1,1,,,,,,,,,ugly,"['test', 'hour']"
+test_Hour,1,1,,,,,,,,,camel_Snake_Case,"['test', 'hour']"
 NA_TYPES,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['na', 'types']"
 stat,6,,,,,,,,,6,lowercase,['stat']
 str_replace,3,1,,,,,,,,2,lower_case_with_underscores,"['str', 'replace']"
@@ -8317,7 +8317,7 @@ _join_non_unique,3,1,,,,,,,,2,lower_case_with_underscores,"['join', 'non', 'uniq
 test_class_ops,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'class', 'ops']"
 test_nonzero_single_element,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'nonzero', 'single', 'element']"
 create_tempfile,4,1,,,,,,,,3,lower_case_with_underscores,"['create', 'tempfile']"
-NA_Real,3,,,,,,,,,3,ugly,"['na', 'real']"
+NA_Real,3,,,,,,,,,3,Capitalized_Words_With_Underscores,"['na', 'real']"
 in_bound_dts,2,,,,,,,,,2,lower_case_with_underscores,"['in', 'bound', 'dts']"
 parsed_lower,2,,,,,,,,,2,lower_case_with_underscores,"['parsed', 'lower']"
 raise_,2,,,,,,2,,,,lowercase,['raise']
@@ -8778,7 +8778,7 @@ stop,109,,,,,,19,,,90,lowercase,['stop']
 to_stack,3,,,,,,,,,3,lower_case_with_underscores,"['to', 'stack']"
 test_decodeObjectDepthTooBig,1,1,,,,,,,,,ugly,"['test', 'decodeobjectdepthtoobig']"
 auto_cov,3,,,,,,,,,3,lower_case_with_underscores,"['auto', 'cov']"
-ival_ANOV,3,,,,,,,,,3,ugly,"['ival', 'anov']"
+ival_ANOV,3,,,,,,,,,3,camel_Snake_Case,"['ival', 'anov']"
 test_boolean_comparison,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'boolean', 'comparison']"
 test_rotation,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'rotation']"
 test_frame_add_datetime64_col_other_units,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'frame', 'add', 'datetime64', 'col', 'other', 'units']"
@@ -8834,7 +8834,7 @@ get_obj_ex,5,1,,,,,,,,4,lower_case_with_underscores,"['get', 'obj', 'ex']"
 test_skip_bad_lines,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'skip', 'bad', 'lines']"
 C,77,,,,,,30,,,47,B,"['', 'c']"
 grp_size,3,,,,,,,,,3,lower_case_with_underscores,"['grp', 'size']"
-test_Second,1,1,,,,,,,,,ugly,"['test', 'second']"
+test_Second,1,1,,,,,,,,,camel_Snake_Case,"['test', 'second']"
 test_2d_fill_nonna,1,1,,,,,,,,,lower_case_with_underscores,"['test', '2d', 'fill', 'nonna']"
 Counter,19,,,4,,,,,,15,CapitalizedWords,['counter']
 _get_info,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'info']"
@@ -8907,7 +8907,7 @@ getpass,6,,,3,,,,,,3,lowercase,['getpass']
 exception,6,,,,,,2,,,4,lowercase,['exception']
 test_operators_reverse_object,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'operators', 'reverse', 'object']"
 put1,1,1,,,,,,,,,lowercase,['put1']
-visit_Tuple,1,,,,,,,,,1,ugly,"['visit', 'tuple']"
+visit_Tuple,1,,,,,,,,,1,camel_Snake_Case,"['visit', 'tuple']"
 result_names,10,,,,,,,,,10,lower_case_with_underscores,"['result', 'names']"
 put2,1,1,,,,,,,,,lowercase,['put2']
 Process,6,,,,,,,,,6,CapitalizedWords,['process']
@@ -8954,7 +8954,7 @@ strings_endswith,1,,,,,,,,,1,lower_case_with_underscores,"['strings', 'endswith'
 NaT,113,,,13,,,,,,100,CapitalizedWords,"['na', 't']"
 generate_bins_dt64,3,,,,,,,,,3,lower_case_with_underscores,"['generate', 'bins', 'dt64']"
 filtered,47,,,,,,,,,47,lowercase,['filtered']
-_convert_DataFrame,3,1,,,,,,,,2,ugly,"['convert', 'dataframe']"
+_convert_DataFrame,3,1,,,,,,,,2,camel_Snake_Case,"['convert', 'dataframe']"
 convert_period,3,,,,,,1,,,2,lower_case_with_underscores,"['convert', 'period']"
 dti_utc,3,,,,,,,,,3,lower_case_with_underscores,"['dti', 'utc']"
 test_cant_or_shouldnt_cast,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'cant', 'or', 'shouldnt', 'cast']"
@@ -9163,7 +9163,7 @@ _repr_running,4,,,,,,,,,4,lower_case_with_underscores,"['repr', 'running']"
 builds,4,,,,,,,,,4,lowercase,['builds']
 bracketed_names,4,,,,,,,,,4,lower_case_with_underscores,"['bracketed', 'names']"
 temp_dir,1,,,,,,,,,1,lower_case_with_underscores,"['temp', 'dir']"
-visit_Attribute,3,2,,,,,,,,1,ugly,"['visit', 'attribute']"
+visit_Attribute,3,2,,,,,,,,1,camel_Snake_Case,"['visit', 'attribute']"
 bounds,21,,,,,,,,,21,lowercase,['bounds']
 set_object_info,3,1,,,,,,,,2,lower_case_with_underscores,"['set', 'object', 'info']"
 test_partial_slicing_with_multiindex,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'partial', 'slicing', 'with', 'multiindex']"
@@ -9208,7 +9208,7 @@ month_break,3,,,,,,,,,3,lower_case_with_underscores,"['month', 'break']"
 _put_lines,5,1,,1,,,,,,3,lower_case_with_underscores,"['put', 'lines']"
 test_to_string_small_float_values,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'to', 'string', 'small', 'float', 'values']"
 unicode_errors,15,,,,,,7,,,8,lower_case_with_underscores,"['unicode', 'errors']"
-_attempt_YYYYMMDD,2,1,,,,,,,,1,ugly,"['attempt', 'yyyymmdd']"
+_attempt_YYYYMMDD,2,1,,,,,,,,1,camel_Snake_Case,"['attempt', 'yyyymmdd']"
 test_tick_offset,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'tick', 'offset']"
 _make_engine,2,1,,,,,,,,1,lower_case_with_underscores,"['make', 'engine']"
 test_frame_non_unique_index,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'frame', 'non', 'unique', 'index']"
@@ -9405,7 +9405,7 @@ visit,37,1,,,,,,,,36,lowercase,['visit']
 _RE_WHITESPACE,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['re', 'whitespace']"
 plot_basedir,2,,,,,,,,,2,lower_case_with_underscores,"['plot', 'basedir']"
 test_var_std,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'var', 'std']"
-TimeSeries_DateFormatter,4,,1,1,,,,,,2,ugly,"['timeseries', 'dateformatter']"
+TimeSeries_DateFormatter,4,,1,1,,,,,,2,Capitalized_Words_With_Underscores,"['timeseries', 'dateformatter']"
 encode,220,2,,,,,,,,218,lowercase,['encode']
 test_3,2,2,,,,,,,,,lower_case_with_underscores,"['test', '3']"
 ts_grouped,9,,,,,,,,,9,lower_case_with_underscores,"['ts', 'grouped']"
@@ -9445,7 +9445,7 @@ fig_base_path,5,,,,,,,,,5,lower_case_with_underscores,"['fig', 'base', 'path']"
 DEFAULT_VERSION,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['default', 'version']"
 predict,8,1,,,,,,,,7,lowercase,['predict']
 horribly_unconsolidated,2,1,,,,,,,,1,lower_case_with_underscores,"['horribly', 'unconsolidated']"
-test_Nanosecond,1,1,,,,,,,,,ugly,"['test', 'nanosecond']"
+test_Nanosecond,1,1,,,,,,,,,camel_Snake_Case,"['test', 'nanosecond']"
 download_base,5,,,,,,,,,5,lower_case_with_underscores,"['download', 'base']"
 sample,12,1,,,,,,,,11,lowercase,['sample']
 pindex,6,,,,,,,,,6,lowercase,['pindex']
@@ -9511,7 +9511,7 @@ convert_fast,2,1,,,,,,,,1,lower_case_with_underscores,"['convert', 'fast']"
 SPHINX_BUILD,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['sphinx', 'build']"
 gen_binary_data,3,1,,,,,,,,2,lower_case_with_underscores,"['gen', 'binary', 'data']"
 intersect1d,3,,,,,,,,,3,lowercase,['intersect1d']
-test_MillisecondTimestampArithmetic,1,1,,,,,,,,,ugly,"['test', 'millisecondtimestamparithmetic']"
+test_MillisecondTimestampArithmetic,1,1,,,,,,,,,camel_Snake_Case,"['test', 'millisecondtimestamparithmetic']"
 entity,4,,,,,,,,,4,lowercase,['entity']
 take_2d_axis1_bool_object,1,,,,,,,,,1,lower_case_with_underscores,"['take', '2d', 'axis1', 'bool', 'object']"
 lst,65,,,,,,,,,65,lowercase,['lst']
@@ -9928,7 +9928,7 @@ test_constructor_overflow_int64,1,1,,,,,,,,,lower_case_with_underscores,"['test'
 test_encodeArrayInArray,1,1,,,,,,,,,ugly,"['test', 'encodearrayinarray']"
 iterrows,8,1,,,,,,,,7,lowercase,['iterrows']
 borders,9,,,,,,,,,9,lowercase,['borders']
-TimeSeries_DateLocator,4,,1,1,,,,,,2,ugly,"['timeseries', 'datelocator']"
+TimeSeries_DateLocator,4,,1,1,,,,,,2,Capitalized_Words_With_Underscores,"['timeseries', 'datelocator']"
 test_ix_general,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'ix', 'general']"
 PanelTests,2,,1,,,,,,,1,CapitalizedWords,"['panel', 'tests']"
 test_len,4,4,,,,,,,,,lower_case_with_underscores,"['test', 'len']"
@@ -10059,7 +10059,7 @@ _annual_finder,3,1,,,,,,,,2,lower_case_with_underscores,"['annual', 'finder']"
 newelem,3,,,,,,,,,3,lowercase,['newelem']
 param,17,,,,,,,,,17,lowercase,['param']
 recons_labels,6,,,,,,,,,6,lower_case_with_underscores,"['recons', 'labels']"
-visit_Subscript,2,2,,,,,,,,,ugly,"['visit', 'subscript']"
+visit_Subscript,2,2,,,,,,,,,camel_Snake_Case,"['visit', 'subscript']"
 _fast_union,3,1,,,,,,,,2,lower_case_with_underscores,"['fast', 'union']"
 test_iterator_with_string_io,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'iterator', 'with', 'string', 'io']"
 py_modules_dict,1,,,,,,,,,1,lower_case_with_underscores,"['py', 'modules', 'dict']"
@@ -10217,21 +10217,21 @@ test_dict_entries,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'dict', 'ent
 test_merge_non_unique_index_many_to_many,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'merge', 'non', 'unique', 'index', 'many', 'to', 'many']"
 lendingType,2,,,,,,,,,2,mixedCase,"['lending', 'type']"
 test_read_chunksize,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'read', 'chunksize']"
-ival_M,17,,,,,,,,,17,ugly,"['ival', 'm']"
+ival_M,17,,,,,,,,,17,camel_Snake_Case,"['ival', 'm']"
 generic_parser,4,1,,2,,,,,,1,lower_case_with_underscores,"['generic', 'parser']"
 get_value_at,4,,,,,,,,,4,lower_case_with_underscores,"['get', 'value', 'at']"
-ival_A,21,,,,,,,,,21,ugly,"['ival', 'a']"
+ival_A,21,,,,,,,,,21,camel_Snake_Case,"['ival', 'a']"
 test_groupby_nonobject_dtype,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'groupby', 'nonobject', 'dtype']"
 test_agg_item_by_item_raise_typeerror,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'agg', 'item', 'by', 'item', 'raise', 'typeerror']"
 test_constructor_dict_dont_upcast,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'constructor', 'dict', 'dont', 'upcast']"
 last_chunk,2,,,,,,,,,2,lower_case_with_underscores,"['last', 'chunk']"
 test_tz_localize_naive,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'tz', 'localize', 'naive']"
 btseries,11,,,,,,,,,11,lowercase,['btseries']
-ival_Q,18,,,,,,,,,18,ugly,"['ival', 'q']"
-ival_S,11,,,,,,,,,11,ugly,"['ival', 's']"
+ival_Q,18,,,,,,,,,18,camel_Snake_Case,"['ival', 'q']"
+ival_S,11,,,,,,,,,11,camel_Snake_Case,"['ival', 's']"
 col_level,10,,,,,,4,,,6,lower_case_with_underscores,"['col', 'level']"
-ival_T,12,,,,,,,,,12,ugly,"['ival', 't']"
-ival_W,16,,,,,,,,,16,ugly,"['ival', 'w']"
+ival_T,12,,,,,,,,,12,camel_Snake_Case,"['ival', 't']"
+ival_W,16,,,,,,,,,16,camel_Snake_Case,"['ival', 'w']"
 _setitem_frame,2,1,,,,,,,,1,lower_case_with_underscores,"['setitem', 'frame']"
 test_getitem_setitem_slice_integers,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'getitem', 'setitem', 'slice', 'integers']"
 rname,5,,,,,,,,,5,lowercase,['rname']
@@ -11045,8 +11045,8 @@ test_split_maxsplit,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'split', '
 applied_index,2,,,,,,,,,2,lower_case_with_underscores,"['applied', 'index']"
 TestBlockManager,1,,1,,,,,,,,CapitalizedWords,"['test', 'block', 'manager']"
 offset_thur,6,,,,,,,,,6,lower_case_with_underscores,"['offset', 'thur']"
-compat_NaT,1,,,,,,,,,1,ugly,"['compat', 'nat']"
-ival_QEJAN,3,,,,,,,,,3,ugly,"['ival', 'qejan']"
+compat_NaT,1,,,,,,,,,1,camel_Snake_Case,"['compat', 'nat']"
+ival_QEJAN,3,,,,,,,,,3,camel_Snake_Case,"['ival', 'qejan']"
 flags,56,2,,,,,18,2,,34,lowercase,['flags']
 y,758,1,,,,,95,,,662,b,['y']
 masked_all,11,,,,,,,,,11,lower_case_with_underscores,"['masked', 'all']"
@@ -11854,7 +11854,7 @@ isMonthEnd,1,,,,,,,,,1,mixedCase,"['is', 'month', 'end']"
 ival_H_end_of_day,2,,,,,,,,,2,ugly,"['ival', 'h', 'end', 'of', 'day']"
 GeomHistogram,1,,1,,,,,,,,CapitalizedWords,"['geom', 'histogram']"
 namedtuple,15,,,7,,,,,,8,lowercase,['namedtuple']
-ival_H,13,,,,,,,,,13,ugly,"['ival', 'h']"
+ival_H,13,,,,,,,,,13,camel_Snake_Case,"['ival', 'h']"
 input_splitter,1,,,,,,,,,1,lower_case_with_underscores,"['input', 'splitter']"
 major_xs,20,2,,,,,,,,18,lower_case_with_underscores,"['major', 'xs']"
 _get_skiprows,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'skiprows']"
@@ -11888,7 +11888,7 @@ non_na,4,,,,,,,,,4,lower_case_with_underscores,"['non', 'na']"
 encodeBase,4,,,,,,,,,4,mixedCase,"['encode', 'base']"
 set_eng_float_format,8,1,,1,,,,,,6,lower_case_with_underscores,"['set', 'eng', 'float', 'format']"
 frame_nonunique_unequal,1,,,,,,,,,1,lower_case_with_underscores,"['frame', 'nonunique', 'unequal']"
-ival_D,15,,,,,,,,,15,ugly,"['ival', 'd']"
+ival_D,15,,,,,,,,,15,camel_Snake_Case,"['ival', 'd']"
 test_select_with_dups,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'select', 'with', 'dups']"
 raise_if_sum_is_zero,2,1,,,,,,,,1,lower_case_with_underscores,"['raise', 'if', 'sum', 'is', 'zero']"
 assert_is_valid_plot_return_object,3,1,,,,,,,,2,lower_case_with_underscores,"['assert', 'is', 'valid', 'plot', 'return', 'object']"
@@ -12039,7 +12039,7 @@ create_ols_attr,2,1,,,,,,,,1,lower_case_with_underscores,"['create', 'ols', 'att
 create_ols_dict,2,1,,,,,,,,1,lower_case_with_underscores,"['create', 'ols', 'dict']"
 ensure_int64,1,,,,,,,,,1,lower_case_with_underscores,"['ensure', 'int64']"
 truediv,47,,,,,,19,,,28,lowercase,['truediv']
-XlwtTests_NoMerge,1,,1,,,,,,,,ugly,"['xlwttests', 'nomerge']"
+XlwtTests_NoMerge,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['xlwttests', 'nomerge']"
 exp_values,28,,,,,,,,,28,lower_case_with_underscores,"['exp', 'values']"
 _try_convert_dates,6,3,,,,,,,,3,lower_case_with_underscores,"['try', 'convert', 'dates']"
 infer,7,2,,,,,,,,5,lowercase,['infer']
@@ -12177,7 +12177,7 @@ _compare_frame_evaluate,3,1,,,,,,,,2,lower_case_with_underscores,"['compare', 'f
 test_tz_aware_asfreq,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'tz', 'aware', 'asfreq']"
 recdf,4,,,,,,,,,4,lowercase,['recdf']
 test_set_column_scalar_with_ix,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'set', 'column', 'scalar', 'with', 'ix']"
-visit_BinOp,1,1,,,,,,,,,ugly,"['visit', 'binop']"
+visit_BinOp,1,1,,,,,,,,,camel_Snake_Case,"['visit', 'binop']"
 test_line_colors,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'line', 'colors']"
 test_join_empty_bug,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'join', 'empty', 'bug']"
 noise,2,,,,,,,,,2,lowercase,['noise']
@@ -12430,7 +12430,7 @@ to_freq,6,,,,,,,,,6,lower_case_with_underscores,"['to', 'freq']"
 build_id,2,,,,,,,,,2,lower_case_with_underscores,"['build', 'id']"
 pats,2,,,,,,,,,2,lowercase,['pats']
 deps,2,,,,,,,,,2,lowercase,['deps']
-visit_List,2,1,,,,,,,,1,ugly,"['visit', 'list']"
+visit_List,2,1,,,,,,,,1,camel_Snake_Case,"['visit', 'list']"
 pytype,7,,,,,,,,,7,lowercase,['pytype']
 test_to_datetime_freq,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'to', 'datetime', 'freq']"
 legal_values,3,,,,,,,,,3,lower_case_with_underscores,"['legal', 'values']"
@@ -12443,7 +12443,7 @@ _complib,5,1,,,,,,,,4,lowercase,['complib']
 eci,3,,,,,,,,,3,lowercase,['eci']
 ax_pos,10,,,,,,,,,10,lower_case_with_underscores,"['ax', 'pos']"
 path,1072,,,5,,,4,,,1063,lowercase,['path']
-visit_Num,1,1,,,,,,,,,ugly,"['visit', 'num']"
+visit_Num,1,1,,,,,,,,,camel_Snake_Case,"['visit', 'num']"
 digits,21,,,,,,2,,,19,lowercase,['digits']
 test_to_csv_from_csv_w_some_infs,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'to', 'csv', 'from', 'csv', 'w', 'some', 'infs']"
 get_result,38,8,,,,,,,,30,lower_case_with_underscores,"['get', 'result']"
@@ -12939,11 +12939,11 @@ K,123,,,,,,1,,,122,B,"['', 'k']"
 discovery,1,,,1,,,,,,,lowercase,['discovery']
 condensed_data,2,,,,,,,,,2,lower_case_with_underscores,"['condensed', 'data']"
 all_dti,3,,,,,,,,,3,lower_case_with_underscores,"['all', 'dti']"
-ival_AJAN,3,,,,,,,,,3,ugly,"['ival', 'ajan']"
+ival_AJAN,3,,,,,,,,,3,camel_Snake_Case,"['ival', 'ajan']"
 newb,48,,,,,,,,,48,lowercase,['newb']
 test_interp_nonmono_raise,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'interp', 'nonmono', 'raise']"
 _maybe_rename_join,5,2,,,,,,,,3,lower_case_with_underscores,"['maybe', 'rename', 'join']"
-visit_Div,1,1,,,,,,,,,ugly,"['visit', 'div']"
+visit_Div,1,1,,,,,,,,,camel_Snake_Case,"['visit', 'div']"
 clean_up,8,2,,,,,,,,6,lower_case_with_underscores,"['clean', 'up']"
 _use_dynamic_x,3,1,,,,,,,,2,lower_case_with_underscores,"['use', 'dynamic', 'x']"
 delim_whitespace,9,,,,,,5,,,4,lower_case_with_underscores,"['delim', 'whitespace']"
@@ -13011,7 +13011,7 @@ test_reindex_cast,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'reindex', '
 cmpop,1,,,,,,,,,1,lowercase,['cmpop']
 tday,2,,,,,,,,,2,lowercase,['tday']
 _align_core,2,1,,,,,,,,1,lower_case_with_underscores,"['align', 'core']"
-expected_K,8,,,,,,,,,8,ugly,"['expected', 'k']"
+expected_K,8,,,,,,,,,8,camel_Snake_Case,"['expected', 'k']"
 a_dtype,11,,,,,,,,,11,lower_case_with_underscores,"['a', 'dtype']"
 _parse_index,2,1,,,,,,,,1,lower_case_with_underscores,"['parse', 'index']"
 work_grid,2,1,,,,,,,,1,lower_case_with_underscores,"['work', 'grid']"
@@ -13034,7 +13034,7 @@ mi4,3,,,,,,,,,3,lowercase,['mi4']
 keep_default_dates,7,,,,,,,,,7,lower_case_with_underscores,"['keep', 'default', 'dates']"
 row_fields,5,,,,,,,,,5,lower_case_with_underscores,"['row', 'fields']"
 _save_chunk,2,1,,,,,,,,1,lower_case_with_underscores,"['save', 'chunk']"
-ival_WMON,3,,,,,,,,,3,ugly,"['ival', 'wmon']"
+ival_WMON,3,,,,,,,,,3,camel_Snake_Case,"['ival', 'wmon']"
 _p,21,,,,,,,,,21,b,['p']
 test_repr_html_wide_multiindex_cols,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'repr', 'html', 'wide', 'multiindex', 'cols']"
 from_csv,28,2,,,,,,,,26,lower_case_with_underscores,"['from', 'csv']"
@@ -13237,7 +13237,7 @@ raise_on_error,75,,,,,,26,,,49,lower_case_with_underscores,"['raise', 'on', 'err
 leftside,5,,,,,,,,,5,lowercase,['leftside']
 left_idx,6,,,,,,,,,6,lower_case_with_underscores,"['left', 'idx']"
 series_string_vector_slice,1,,,,,,,,,1,lower_case_with_underscores,"['series', 'string', 'vector', 'slice']"
-max_L1,5,,,,,,,,,5,ugly,"['max', 'l1']"
+max_L1,5,,,,,,,,,5,camel_Snake_Case,"['max', 'l1']"
 testFixMap,1,1,,,,,,,,,mixedCase,"['test', 'fix', 'map']"
 lookup_khash,2,1,,,,,,,,1,lower_case_with_underscores,"['lookup', 'khash']"
 test_join_dups,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'join', 'dups']"
@@ -13520,7 +13520,7 @@ resolver_keys,5,,,,,,,,,5,lower_case_with_underscores,"['resolver', 'keys']"
 option_string,1,,,,,,,,,1,lower_case_with_underscores,"['option', 'string']"
 cases,36,,,,,,,,,36,lowercase,['cases']
 kurtosis,7,,,3,,,,,,4,lowercase,['kurtosis']
-visit_BoolOp,1,1,,,,,,,,,ugly,"['visit', 'boolop']"
+visit_BoolOp,1,1,,,,,,,,,camel_Snake_Case,"['visit', 'boolop']"
 test_join_index_mixed,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'join', 'index', 'mixed']"
 output_encoding,2,,,,,,,,,2,lower_case_with_underscores,"['output', 'encoding']"
 thousands,36,,,,,,19,,,17,lowercase,['thousands']
@@ -13545,7 +13545,7 @@ figure,37,,,2,,,6,,,29,lowercase,['figure']
 lev2,4,,,,,,,,,4,lowercase,['lev2']
 ndim_5,7,,,,,,,,,7,lower_case_with_underscores,"['ndim', '5']"
 indent_str,3,,,,,,,,,3,lower_case_with_underscores,"['indent', 'str']"
-ioctl_GWINSZ,5,1,,,,,,,,4,ugly,"['ioctl', 'gwinsz']"
+ioctl_GWINSZ,5,1,,,,,,,,4,camel_Snake_Case,"['ioctl', 'gwinsz']"
 test_series_interpolate_intraday,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'series', 'interpolate', 'intraday']"
 obj2,13,,,,,,,,,13,lowercase,['obj2']
 dropped,46,,,,,,,,,46,lowercase,['dropped']
@@ -13817,7 +13817,7 @@ initial_indent,1,,,,,,1,,,,lower_case_with_underscores,"['initial', 'indent']"
 _stat_axis_name,2,,,,,,,,,2,lower_case_with_underscores,"['stat', 'axis', 'name']"
 wide_result,2,,,,,,,,,2,lower_case_with_underscores,"['wide', 'result']"
 test_interp_nan_idx,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'interp', 'nan', 'idx']"
-ival_AJUN,3,,,,,,,,,3,ugly,"['ival', 'ajun']"
+ival_AJUN,3,,,,,,,,,3,camel_Snake_Case,"['ival', 'ajun']"
 bifw,7,,,,,,,,,7,lowercase,['bifw']
 _print_desc,18,,,,,,16,,,2,lower_case_with_underscores,"['print', 'desc']"
 _assert_all_na,3,1,,,,,,,,2,lower_case_with_underscores,"['assert', 'all', 'na']"
@@ -13835,7 +13835,7 @@ test_series_grouper_noncontig_index,1,1,,,,,,,,,lower_case_with_underscores,"['t
 to_ret,12,,,,,,,,,12,lower_case_with_underscores,"['to', 'ret']"
 test_get_group,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'get', 'group']"
 test_class_members_doc,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'class', 'members', 'doc']"
-ival_WTUE,3,,,,,,,,,3,ugly,"['ival', 'wtue']"
+ival_WTUE,3,,,,,,,,,3,camel_Snake_Case,"['ival', 'wtue']"
 getPeriodData,2,1,,,,,,,,1,mixedCase,"['get', 'period', 'data']"
 repo_path,5,,,,,,,,,5,lower_case_with_underscores,"['repo', 'path']"
 QtCore,4,,,4,,,,,,,CapitalizedWords,"['qt', 'core']"
@@ -13976,7 +13976,7 @@ convert_objects,43,1,,,,,,,,42,lower_case_with_underscores,"['convert', 'objects
 seen_docs,3,,,,,,,,,3,lower_case_with_underscores,"['seen', 'docs']"
 frame_attr,4,,,,,,,,,4,lower_case_with_underscores,"['frame', 'attr']"
 TestDateOffset,1,,1,,,,,,,,CapitalizedWords,"['test', 'date', 'offset']"
-ival_WSUN,3,,,,,,,,,3,ugly,"['ival', 'wsun']"
+ival_WSUN,3,,,,,,,,,3,camel_Snake_Case,"['ival', 'wsun']"
 new_right,3,,,,,,,,,3,lower_case_with_underscores,"['new', 'right']"
 test_constructor_from_items,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'constructor', 'from', 'items']"
 toDict,1,1,,,,,,,,,mixedCase,"['to', 'dict']"
@@ -13996,7 +13996,7 @@ NUM_COLS,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['num', 'cols']"
 test_with_offset,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'with', 'offset']"
 existing_dtype,3,,,,,,,,,3,lower_case_with_underscores,"['existing', 'dtype']"
 iterations,24,,,,,,,,,24,lowercase,['iterations']
-_trans_B,2,1,,,,,,,,1,ugly,"['trans', 'b']"
+_trans_B,2,1,,,,,,,,1,camel_Snake_Case,"['trans', 'b']"
 poll,1,,,,,,,,,1,lowercase,['poll']
 _make_wrapper,2,1,,,,,,,,1,lower_case_with_underscores,"['make', 'wrapper']"
 test_constructor_explicit,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'constructor', 'explicit']"
@@ -14041,7 +14041,7 @@ y_index,4,,,,,,,,,4,lower_case_with_underscores,"['y', 'index']"
 x_demeaned,3,,,,,,,,,3,lower_case_with_underscores,"['x', 'demeaned']"
 check_operands,3,1,,,,,,,,2,lower_case_with_underscores,"['check', 'operands']"
 ts_slice,3,,,,,,,,,3,lower_case_with_underscores,"['ts', 'slice']"
-NA_Integer,3,,,,,,,,,3,ugly,"['na', 'integer']"
+NA_Integer,3,,,,,,,,,3,Capitalized_Words_With_Underscores,"['na', 'integer']"
 _possibly_downcast_to_dtype,14,1,,2,,,,,,11,lower_case_with_underscores,"['possibly', 'downcast', 'to', 'dtype']"
 class_type_or_tuple,3,,,,,,,,,3,lower_case_with_underscores,"['class', 'type', 'or', 'tuple']"
 parse,106,3,,14,,,,,,89,lowercase,['parse']
@@ -14494,7 +14494,7 @@ options,90,,,1,,,3,,,86,lowercase,['options']
 arg_name,3,,,,,,,,,3,lower_case_with_underscores,"['arg', 'name']"
 Style,2,,,1,,,,,,1,CapitalizedWords,['style']
 ncalls,8,,,,,,4,,,4,lowercase,['ncalls']
-ival_WTHU,3,,,,,,,,,3,ugly,"['ival', 'wthu']"
+ival_WTHU,3,,,,,,,,,3,camel_Snake_Case,"['ival', 'wthu']"
 layer,20,,,,,,,,,20,lowercase,['layer']
 day_of_year,1,,,,,,,,,1,lower_case_with_underscores,"['day', 'of', 'year']"
 monthEnd,3,,,,,,,,,3,mixedCase,"['month', 'end']"
@@ -14611,7 +14611,7 @@ _coerce_to_ndarray,3,1,,,,,,,,2,lower_case_with_underscores,"['coerce', 'to', 'n
 testBool,1,1,,,,,,,,,mixedCase,"['test', 'bool']"
 _pop_args,2,1,,,,,,,,1,lower_case_with_underscores,"['pop', 'args']"
 _check_if_open,5,1,,,,,,,,4,lower_case_with_underscores,"['check', 'if', 'open']"
-visit_USub,1,1,,,,,,,,,ugly,"['visit', 'usub']"
+visit_USub,1,1,,,,,,,,,camel_Snake_Case,"['visit', 'usub']"
 test_to_period_millisecond,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'to', 'period', 'millisecond']"
 TestAPI,1,,1,,,,,,,,CapitalizedWords,"['test', 'ap', 'i']"
 test_constructor_tuple_of_tuples,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'constructor', 'tuple', 'of', 'tuples']"
@@ -15681,15 +15681,15 @@ eval_in_python,12,,,,,,2,,,10,lower_case_with_underscores,"['eval', 'in', 'pytho
 test_create_with_tz,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'create', 'with', 'tz']"
 mrecs,4,,,,,,,,,4,lowercase,['mrecs']
 release_notes,2,1,,,,,,,,1,lower_case_with_underscores,"['release', 'notes']"
-trans_B,5,,,,,,,,,5,ugly,"['trans', 'b']"
+trans_B,5,,,,,,,,,5,camel_Snake_Case,"['trans', 'b']"
 sparse_op,17,,,,,,,,,17,lower_case_with_underscores,"['sparse', 'op']"
 labels_indexer,2,,,,,,,,,2,lower_case_with_underscores,"['labels', 'indexer']"
 _freq,2,,,,,,,,,2,lowercase,['freq']
 trimmed,14,,,,,,,,,14,lowercase,['trimmed']
-trans_Z,5,,,,,,,,,5,ugly,"['trans', 'z']"
+trans_Z,5,,,,,,,,,5,camel_Snake_Case,"['trans', 'z']"
 raise_with_traceback,13,1,,4,,,,,,8,lower_case_with_underscores,"['raise', 'with', 'traceback']"
 test_1d_with_out,1,1,,,,,,,,,lower_case_with_underscores,"['test', '1d', 'with', 'out']"
-test_Minute,1,1,,,,,,,,,ugly,"['test', 'minute']"
+test_Minute,1,1,,,,,,,,,camel_Snake_Case,"['test', 'minute']"
 ndims,9,,,,,,,,,9,lowercase,['ndims']
 _next_line,5,1,,,,,,,,4,lower_case_with_underscores,"['next', 'line']"
 get_timezone,6,,,,,,,,,6,lower_case_with_underscores,"['get', 'timezone']"
@@ -16137,7 +16137,7 @@ test_negative_ordinals,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'negati
 test_to_csv_unicode_index,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'to', 'csv', 'unicode', 'index']"
 bday_egypt,5,,,,,,,,,5,lower_case_with_underscores,"['bday', 'egypt']"
 _prefix,39,1,,,,,,,,38,lowercase,['prefix']
-visit_Slice,1,1,,,,,,,,,ugly,"['visit', 'slice']"
+visit_Slice,1,1,,,,,,,,,camel_Snake_Case,"['visit', 'slice']"
 apiclient,4,,,2,,,,,,2,lowercase,['apiclient']
 r_bin,3,,,,,,,,,3,lower_case_with_underscores,"['r', 'bin']"
 set_items_norename,4,1,,,,,,,,3,lower_case_with_underscores,"['set', 'items', 'norename']"
@@ -16206,7 +16206,7 @@ _arith_ops_dict,2,,,,,,,,,2,lower_case_with_underscores,"['arith', 'ops', 'dict'
 test_xs_level0,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'xs', 'level0']"
 new_result,5,,,,,,,,,5,lower_case_with_underscores,"['new', 'result']"
 _filter_special_cases,2,1,,,,,,,,1,lower_case_with_underscores,"['filter', 'special', 'cases']"
-test_StringIO,1,1,,,,,,,,,ugly,"['test', 'stringio']"
+test_StringIO,1,1,,,,,,,,,camel_Snake_Case,"['test', 'stringio']"
 datetime_format,13,,,,,,2,,,11,lower_case_with_underscores,"['datetime', 'format']"
 hour_col,4,,,,,,,,,4,lower_case_with_underscores,"['hour', 'col']"
 Sub,2,,,1,,,,,,1,CapitalizedWords,['sub']
@@ -16285,7 +16285,7 @@ series_dict,10,,,,,,,,,10,lower_case_with_underscores,"['series', 'dict']"
 val,394,,,,,,1,,,393,lowercase,['val']
 ranks0,10,,,,,,,,,10,lowercase,['ranks0']
 backfill_int64,2,,,,,,,,,2,lower_case_with_underscores,"['backfill', 'int64']"
-*,42,,,42,,,,,,,mixedCase,['*']
+*,42,,,42,,,,,,,ugly,['*']
 strings_contains_many,1,,,,,,,,,1,lower_case_with_underscores,"['strings', 'contains', 'many']"
 ver_f,2,,,,,,,,,2,lower_case_with_underscores,"['ver', 'f']"
 _boolop_nodes,2,,,,,,,,,2,lower_case_with_underscores,"['boolop', 'nodes']"
@@ -16347,7 +16347,7 @@ frame_empty,1,,,,,,,,,1,lower_case_with_underscores,"['frame', 'empty']"
 dirname,34,,,,,,,,,34,lowercase,['dirname']
 d4,3,,,,,,,,,3,lowercase,['d4']
 add_methods,3,1,,,,,,,,2,lower_case_with_underscores,"['add', 'methods']"
-calc_F,4,1,,,,,,,,3,ugly,"['calc', 'f']"
+calc_F,4,1,,,,,,,,3,camel_Snake_Case,"['calc', 'f']"
 existing_value,5,,,,,,,,,5,lower_case_with_underscores,"['existing', 'value']"
 test_getitem_partial_column_select,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'getitem', 'partial', 'column', 'select']"
 test_interp_regression,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'interp', 'regression']"

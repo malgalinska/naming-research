@@ -1,4 +1,4 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,case_convention,words
+name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
 basic_auth_header,2,,,,,,,,,2,lower_case_with_underscores,"['basic', 'auth', 'header']"
 gce_cls,2,,,,,,,,,2,lower_case_with_underscores,"['gce', 'cls']"
 STATUS_RUNNING,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['status', 'running']"
@@ -4645,13 +4645,13 @@ val,29,,,,,,,,,29,lowercase,['val']
 initial_value,4,,,,,,4,,,,lower_case_with_underscores,"['initial', 'value']"
 QuotaExceededError,1,,,1,,,,,,,CapitalizedWords,"['quota', 'exceeded', 'error']"
 get_options,8,1,,,,,,,,7,lower_case_with_underscores,"['get', 'options']"
-*,12,,,12,,,,,,,mixedCase,['*']
+*,12,,,12,,,,,,,ugly,['*']
 dep_vars,17,,,,,,,,,17,lower_case_with_underscores,"['dep', 'vars']"
 _role_path,7,,,,,,,,,7,lower_case_with_underscores,"['role', 'path']"
 _file_mapping,11,,,,,,,,,11,lower_case_with_underscores,"['file', 'mapping']"
 keyczar,4,,,4,,,,,,,lowercase,['keyczar']
 concat,2,,,,,,,,,2,lowercase,['concat']
-PROTOCOL_TLSv1,1,,,,,,,,,1,ugly,"['protocol', 'tlsv1']"
+PROTOCOL_TLSv1,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['protocol', 'tlsv1']"
 var,35,,,,,,,,,35,lowercase,['var']
 set_setting,6,,,,,,,,,6,lower_case_with_underscores,"['set', 'setting']"
 maxsplit,1,,,,,,1,,,,lowercase,['maxsplit']

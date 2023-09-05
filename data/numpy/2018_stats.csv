@@ -1,4 +1,4 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,case_convention,words
+name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
 TestSeterr,1,,1,,,,,,,,CapitalizedWords,"['test', 'seterr']"
 save_kwds,2,,,,,,,,,2,lower_case_with_underscores,"['save', 'kwds']"
 issubsctype,2,1,,1,,,,,,,lowercase,['issubsctype']
@@ -330,7 +330,7 @@ index_a,2,,,,,,,,,2,lower_case_with_underscores,"['index', 'a']"
 Dummy,2,,1,,,,,,,1,CapitalizedWords,['dummy']
 Extension,21,,1,7,,,,,,13,CapitalizedWords,['extension']
 tst_basic,7,3,,,,,,,,4,lower_case_with_underscores,"['tst', 'basic']"
-TestNanFunctions_Median,1,,1,,,,,,,,ugly,"['testnanfunctions', 'median']"
+TestNanFunctions_Median,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['testnanfunctions', 'median']"
 sub_class,2,,,,,,,,,2,lower_case_with_underscores,"['sub', 'class']"
 test_unsupported_type,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'unsupported', 'type']"
 test_polymul,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'polymul']"
@@ -390,7 +390,7 @@ prepareTestCase,1,1,,,,,,,,,mixedCase,"['prepare', 'test', 'case']"
 _loadtxt_chunksize,5,,,,,,,,,5,lower_case_with_underscores,"['loadtxt', 'chunksize']"
 test_frompyfunc_endian,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'frompyfunc', 'endian']"
 cvals,2,,,,,,,,,2,lowercase,['cvals']
-_is_PentiumPro,2,2,,,,,,,,,ugly,"['is', 'pentiumpro']"
+_is_PentiumPro,2,2,,,,,,,,,camel_Snake_Case,"['is', 'pentiumpro']"
 test_aligned_size,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'aligned', 'size']"
 logdet,4,,,,,,,,,4,lowercase,['logdet']
 test_signature_invalid_inputs,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'signature', 'invalid', 'inputs']"
@@ -655,7 +655,7 @@ MaskType,29,,,3,,,,,,26,CapitalizedWords,"['mask', 'type']"
 test_mean_values,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'mean', 'values']"
 TestHistogramOptimBinNums,1,,1,,,,,,,,CapitalizedWords,"['test', 'histogram', 'optim', 'bin', 'nums']"
 a2m,4,,,,,,,,,4,lowercase,['a2m']
-_is_XEON,2,1,,,,,,,,1,ugly,"['is', 'xeon']"
+_is_XEON,2,1,,,,,,,,1,camel_Snake_Case,"['is', 'xeon']"
 amd_info,2,,1,,,,,,,1,lower_case_with_underscores,"['amd', 'info']"
 cc_args,15,,,,,,,,,15,lower_case_with_underscores,"['cc', 'args']"
 sc_desired,3,,,,,,,,,3,lower_case_with_underscores,"['sc', 'desired']"
@@ -798,7 +798,7 @@ _size,3,,,,,,,,,3,lowercase,['size']
 hermegrid3d,3,1,,,,,,,,2,lowercase,['hermegrid3d']
 mintypecode,38,1,,2,,,,,,35,lowercase,['mintypecode']
 lagpol,6,,,,,,,,,6,lowercase,['lagpol']
-TestNorm_NonSystematic,1,,1,,,,,,,,ugly,"['testnorm', 'nonsystematic']"
+TestNorm_NonSystematic,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['testnorm', 'nonsystematic']"
 array1,32,,,,,,,,,32,lowercase,['array1']
 TestPercentile,1,,1,,,,,,,,CapitalizedWords,"['test', 'percentile']"
 _open,2,,,,,,,,,2,lowercase,['open']
@@ -988,7 +988,7 @@ _DomainGreater,4,,1,,,,,,,3,CapitalizedWords,"['domain', 'greater']"
 get_usedict,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'usedict']"
 _newFortranRoutine,4,2,,,,,,,,2,mixedCase,"['new', 'fortran', 'routine']"
 leggrid3d,3,1,,,,,,,,2,lowercase,['leggrid3d']
-_is_AthlonMP,1,1,,,,,,,,,ugly,"['is', 'athlonmp']"
+_is_AthlonMP,1,1,,,,,,,,,camel_Snake_Case,"['is', 'athlonmp']"
 MA,1,,1,,,,,,,,UPPERCASE,"['m', 'a']"
 isintent_aligned4,2,1,,,,,,,,1,lower_case_with_underscores,"['isintent', 'aligned4']"
 commentstr,6,,,,,,,,,6,lowercase,['commentstr']
@@ -1455,9 +1455,9 @@ nest_count,10,,,,,,,,,10,lower_case_with_underscores,"['nest', 'count']"
 fix,16,1,,,,,1,,,14,lowercase,['fix']
 _zseries_to_cseries,6,1,,,,,,,,5,lower_case_with_underscores,"['zseries', 'to', 'cseries']"
 x2r,28,,,,,,,,,28,lowercase,['x2r']
-_is_AMDK5,1,1,,,,,,,,,ugly,"['is', 'amdk5']"
-_is_AMDK6,1,1,,,,,,,,,ugly,"['is', 'amdk6']"
-_is_AMDK7,1,1,,,,,,,,,ugly,"['is', 'amdk7']"
+_is_AMDK5,1,1,,,,,,,,,camel_Snake_Case,"['is', 'amdk5']"
+_is_AMDK6,1,1,,,,,,,,,camel_Snake_Case,"['is', 'amdk6']"
+_is_AMDK7,1,1,,,,,,,,,camel_Snake_Case,"['is', 'amdk7']"
 common2fortran,2,1,,,,,,,,1,lowercase,['common2fortran']
 test_simple_circular,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'simple', 'circular']"
 test_none_wrap,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'none', 'wrap']"
@@ -1531,7 +1531,7 @@ nbin,15,,,,,,,,,15,lowercase,['nbin']
 Neach_section,3,,,,,,,,,3,ugly,"['neach', 'section']"
 assert_partitioned,12,1,,,,,,,,11,lower_case_with_underscores,"['assert', 'partitioned']"
 extra_info,15,,,,,,3,,,12,lower_case_with_underscores,"['extra', 'info']"
-_is_PentiumMMX,2,2,,,,,,,,,ugly,"['is', 'pentiummmx']"
+_is_PentiumMMX,2,2,,,,,,,,,camel_Snake_Case,"['is', 'pentiummmx']"
 binary,6,,,,,,,,,6,lowercase,['binary']
 data_dir,9,,,,,,,,,9,lower_case_with_underscores,"['data', 'dir']"
 test_empty_percentile,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'empty', 'percentile']"
@@ -1914,7 +1914,7 @@ transposed,2,,,,,,,,,2,lowercase,['transposed']
 TestArgwhere,1,,1,,,,,,,,CapitalizedWords,"['test', 'argwhere']"
 action,30,,,,,,30,,,,lowercase,['action']
 set_display,3,1,,,,,,,,2,lower_case_with_underscores,"['set', 'display']"
-old_Extension,3,,,,,,,1,,2,ugly,"['old', 'extension']"
+old_Extension,3,,,,,,,1,,2,camel_Snake_Case,"['old', 'extension']"
 idx_0d,2,,,,,,,,,2,lower_case_with_underscores,"['idx', '0d']"
 uintp,7,,,,,,,,,7,lowercase,['uintp']
 arch_re,2,,,,,,,,,2,lower_case_with_underscores,"['arch', 're']"
@@ -2295,7 +2295,7 @@ bad_b,3,,,,,,,,,3,lower_case_with_underscores,"['bad', 'b']"
 mrectxt,5,,,,,,,,,5,lowercase,['mrectxt']
 wraps,8,,,2,,,,,,6,lowercase,['wraps']
 test_object_argmax,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'object', 'argmax']"
-test_ValidFile,5,4,,,,,,,,1,ugly,"['test', 'validfile']"
+test_ValidFile,5,4,,,,,,,,1,camel_Snake_Case,"['test', 'validfile']"
 writer,5,1,,,,,1,,,3,lowercase,['writer']
 check_macro_true,2,1,,,,,,,,1,lower_case_with_underscores,"['check', 'macro', 'true']"
 nonc_f,13,,,,,,,,,13,lower_case_with_underscores,"['nonc', 'f']"
@@ -2364,7 +2364,7 @@ ErrorClass,2,,,1,,,,,,1,CapitalizedWords,"['error', 'class']"
 recarr,3,,,,,,,,,3,lowercase,['recarr']
 co_name,1,,,,,,,,,1,lower_case_with_underscores,"['co', 'name']"
 msvcrt,4,,,1,,,,,,3,lowercase,['msvcrt']
-_is_Core2,2,2,,,,,,,,,ugly,"['is', 'core2']"
+_is_Core2,2,2,,,,,,,,,camel_Snake_Case,"['is', 'core2']"
 reflect_type,4,,,,,,4,,,,lower_case_with_underscores,"['reflect', 'type']"
 linker_so,31,,,,,,12,,,19,lower_case_with_underscores,"['linker', 'so']"
 MINVER,1,,,,,,,,,1,UPPERCASE,"['minve', 'r']"
@@ -2712,7 +2712,7 @@ umath_deps,2,,,,,,,,,2,lower_case_with_underscores,"['umath', 'deps']"
 actuali,6,,,,,,,,,6,lowercase,['actuali']
 points,2,,,,,,,,,2,lowercase,['points']
 do_reduceat,2,1,,,,,,,,1,lower_case_with_underscores,"['do', 'reduceat']"
-visit_Call,1,1,,,,,,,,,ugly,"['visit', 'call']"
+visit_Call,1,1,,,,,,,,,camel_Snake_Case,"['visit', 'call']"
 mod_name,4,,,,,,,,,4,lower_case_with_underscores,"['mod', 'name']"
 text_type,4,,,,,,,,,4,lower_case_with_underscores,"['text', 'type']"
 git_version,3,1,,,,,,,,2,lower_case_with_underscores,"['git', 'version']"
@@ -2763,7 +2763,7 @@ ulongTestCase,12,,6,,,,,,,6,mixedCase,"['ulong', 'test', 'case']"
 sample_1d,2,1,,,,,,,,1,lower_case_with_underscores,"['sample', '1d']"
 test_rng_zero_and_extremes,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'rng', 'zero', 'and', 'extremes']"
 time_array_l,1,1,,,,,,,,,lower_case_with_underscores,"['time', 'array', 'l']"
-is_Intel,18,,,,,,,,,18,ugly,"['is', 'intel']"
+is_Intel,18,,,,,,,,,18,camel_Snake_Case,"['is', 'intel']"
 build_import_library,2,1,,,,,,,,1,lower_case_with_underscores,"['build', 'import', 'library']"
 test_squeeze_contiguous,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'squeeze', 'contiguous']"
 test_nextafter,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'nextafter']"
@@ -2798,7 +2798,7 @@ test_einsum_sums_float16,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'eins
 no_site_packages,3,,,,,,1,,,2,lower_case_with_underscores,"['no', 'site', 'packages']"
 test_flatten,4,4,,,,,,,,,lower_case_with_underscores,"['test', 'flatten']"
 o1,18,,,,,,,,,18,lowercase,['o1']
-test_CachedHTTPFile,1,1,,,,,,,,,ugly,"['test', 'cachedhttpfile']"
+test_CachedHTTPFile,1,1,,,,,,,,,camel_Snake_Case,"['test', 'cachedhttpfile']"
 time_array_1,1,1,,,,,,,,,lower_case_with_underscores,"['time', 'array', '1']"
 test_percentile_empty_dim,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'percentile', 'empty', 'dim']"
 test_dot,3,3,,,,,,,,,lower_case_with_underscores,"['test', 'dot']"
@@ -2872,7 +2872,7 @@ test_version_match,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'version', 
 TestBool,2,,2,,,,,,,,CapitalizedWords,"['test', 'bool']"
 bad_p_one,10,,,,,,,,,10,lower_case_with_underscores,"['bad', 'p', 'one']"
 struct1,5,,,,,,,,,5,lowercase,['struct1']
-iscomplex_X,5,,,,,,,,,5,ugly,"['iscomplex', 'x']"
+iscomplex_X,5,,,,,,,,,5,camel_Snake_Case,"['iscomplex', 'x']"
 NumpyAllocHook,2,,,1,,,,,,1,CapitalizedWords,"['numpy', 'alloc', 'hook']"
 _recursive_fill_value,5,1,,,,,,,,4,lower_case_with_underscores,"['recursive', 'fill', 'value']"
 test_rayleigh_0,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'rayleigh', '0']"
@@ -2958,7 +2958,7 @@ zipit,4,,,,,,,,,4,lowercase,['zipit']
 chk_same_position,5,1,,,,,,,,4,lower_case_with_underscores,"['chk', 'same', 'position']"
 assert_,3487,1,,98,,,,,,3388,lowercase,['assert']
 npv,5,1,,,,,,,,4,lowercase,['npv']
-is_PentiumIV,1,,,,,,,,,1,ugly,"['is', 'pentiumiv']"
+is_PentiumIV,1,,,,,,,,,1,camel_Snake_Case,"['is', 'pentiumiv']"
 shuffled,3,,,,,,,,,3,lowercase,['shuffled']
 PolyError,2,,1,,,,,,,1,CapitalizedWords,"['poly', 'error']"
 _get_info_files,4,1,,,,,,,,3,lower_case_with_underscores,"['get', 'info', 'files']"
@@ -3043,7 +3043,7 @@ assume_unique,34,,,,,,12,,,22,lower_case_with_underscores,"['assume', 'unique']"
 meth,10,,,,,,,,,10,lowercase,['meth']
 parse_string,3,1,,,,,,,,2,lower_case_with_underscores,"['parse', 'string']"
 metavar,3,,,,,,3,,,,lowercase,['metavar']
-test_UPLO,2,2,,,,,,,,,ugly,"['test', 'uplo']"
+test_UPLO,2,2,,,,,,,,,camel_Snake_Case,"['test', 'uplo']"
 float16,111,,,1,,,,,,110,lowercase,['float16']
 identity_like_generalized,2,1,,,,,,,,1,lower_case_with_underscores,"['identity', 'like', 'generalized']"
 ulonglong,2,,,,,,,,,2,lowercase,['ulonglong']
@@ -3180,7 +3180,7 @@ t_ne,3,,,,,,,,,3,lower_case_with_underscores,"['t', 'ne']"
 device,6,,,,,,,,,6,lowercase,['device']
 nd_a,4,,,,,,,,,4,lower_case_with_underscores,"['nd', 'a']"
 comparison,6,,,,,,,,,6,lowercase,['comparison']
-_is_AthlonK6,1,1,,,,,,,,,ugly,"['is', 'athlonk6']"
+_is_AthlonK6,1,1,,,,,,,,,camel_Snake_Case,"['is', 'athlonk6']"
 test_hermeval,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'hermeval']"
 exponent,2,,,,,,,,,2,lowercase,['exponent']
 _interpret_inherit,2,1,,,,,,,,1,lower_case_with_underscores,"['interpret', 'inherit']"
@@ -3379,7 +3379,7 @@ a_rot90_01,2,,,,,,,,,2,lower_case_with_underscores,"['a', 'rot90', '01']"
 _typelessdata,4,,,,,,,,,4,lowercase,['typelessdata']
 test_1D_variance,1,1,,,,,,,,,ugly,"['test', '1d', 'variance']"
 c4,12,,,,,,,,,12,lowercase,['c4']
-_is_IP30,1,1,,,,,,,,,ugly,"['is', 'ip30']"
+_is_IP30,1,1,,,,,,,,,camel_Snake_Case,"['is', 'ip30']"
 test_datetime_as_string,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'datetime', 'as', 'string']"
 legmul,8,1,,,,,,,,7,lowercase,['legmul']
 get_atlas_version,4,1,,,,,,,,3,lower_case_with_underscores,"['get', 'atlas', 'version']"
@@ -3553,7 +3553,7 @@ l3,4,,,,,,,,,4,lowercase,['l3']
 test_domained_binops_d2D,1,1,,,,,,,,,ugly,"['test', 'domained', 'binops', 'd2d']"
 hstack,19,1,,2,,,,,,16,lowercase,['hstack']
 test_mapping,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'mapping']"
-test_InvalidHTTP,4,3,,,,,,,,1,ugly,"['test', 'invalidhttp']"
+test_InvalidHTTP,4,3,,,,,,,,1,camel_Snake_Case,"['test', 'invalidhttp']"
 get_array_prepare,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'array', 'prepare']"
 zipf,12,,,,,,,,,12,lowercase,['zipf']
 tobytesdoc,3,,,,,,,,,3,lowercase,['tobytesdoc']
@@ -3601,7 +3601,7 @@ privatepattern,2,,,,,,,,,2,lowercase,['privatepattern']
 lagcompanion,7,1,,,,,,,,6,lowercase,['lagcompanion']
 pyf_files,3,,,,,,,,,3,lower_case_with_underscores,"['pyf', 'files']"
 a32_fail,3,,,,,,,,,3,lower_case_with_underscores,"['a32', 'fail']"
-_is_EV56,1,1,,,,,,,,,ugly,"['is', 'ev56']"
+_is_EV56,1,1,,,,,,,,,camel_Snake_Case,"['is', 'ev56']"
 legpol,6,,,,,,,,,6,lowercase,['legpol']
 maskrecordlength,2,,,,,,,,,2,lowercase,['maskrecordlength']
 function,23,,,,,,,,,23,lowercase,['function']
@@ -3666,7 +3666,7 @@ iternext,5,,,,,,,,,5,lowercase,['iternext']
 test_hermite_str,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'hermite', 'str']"
 emath,2,,,,,,,1,,1,lowercase,['emath']
 lname,4,,,,,,,,,4,lowercase,['lname']
-_is_PentiumIII,2,2,,,,,,,,,ugly,"['is', 'pentiumiii']"
+_is_PentiumIII,2,2,,,,,,,,,camel_Snake_Case,"['is', 'pentiumiii']"
 resolve_includes,6,2,,,,,,,,4,lower_case_with_underscores,"['resolve', 'includes']"
 dtype_types,4,,,,,,,,,4,lower_case_with_underscores,"['dtype', 'types']"
 repeat,74,1,,2,,,2,,,69,lowercase,['repeat']
@@ -3890,7 +3890,7 @@ ua3,10,,,,,,,,,10,lowercase,['ua3']
 after,4,,,,,,,,,4,lowercase,['after']
 _rc,39,1,,,,,,,,38,lowercase,['rc']
 test_basic,71,71,,,,,,,,,lower_case_with_underscores,"['test', 'basic']"
-_is_IP19,1,1,,,,,,,,,ugly,"['is', 'ip19']"
+_is_IP19,1,1,,,,,,,,,camel_Snake_Case,"['is', 'ip19']"
 time_large2,1,1,,,,,,,,,lower_case_with_underscores,"['time', 'large2']"
 usecols,67,,,,,,34,,,33,lowercase,['usecols']
 time_vb_savez_squares,1,1,,,,,,,,,lower_case_with_underscores,"['time', 'vb', 'savez', 'squares']"
@@ -3940,7 +3940,7 @@ MAGIC_LEN,8,,,,,,,,,8,UPPER_CASE_WITH_UNDERSCORES,"['magic', 'len']"
 not_m,4,,,,,,,,,4,lower_case_with_underscores,"['not', 'm']"
 last_exponent_bit_idx,3,,,,,,,,,3,lower_case_with_underscores,"['last', 'exponent', 'bit', 'idx']"
 time_array_l1,1,1,,,,,,,,,lower_case_with_underscores,"['time', 'array', 'l1']"
-_is_Prescott,1,1,,,,,,,,,ugly,"['is', 'prescott']"
+_is_Prescott,1,1,,,,,,,,,camel_Snake_Case,"['is', 'prescott']"
 test_2592_edge,1,1,,,,,,,,,lower_case_with_underscores,"['test', '2592', 'edge']"
 _TemplateContinue,3,,1,,,,,,,2,CapitalizedWords,"['template', 'continue']"
 aoa_a,2,,,,,,,,,2,lower_case_with_underscores,"['aoa', 'a']"
@@ -4270,7 +4270,7 @@ rfftn,7,1,,,,,,,,6,lowercase,['rfftn']
 _get_sorted_names,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'sorted', 'names']"
 test_shuffle_masked,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'shuffle', 'masked']"
 rffti,2,,,,,,,,,2,lowercase,['rffti']
-_is_Am5x86,1,1,,,,,,,,,ugly,"['is', 'am5x86']"
+_is_Am5x86,1,1,,,,,,,,,camel_Snake_Case,"['is', 'am5x86']"
 dll_file,7,,,,,,,,,7,lower_case_with_underscores,"['dll', 'file']"
 start_pos,6,,,,,,,,,6,lower_case_with_underscores,"['start', 'pos']"
 uc_update,3,,,,,,,,,3,lower_case_with_underscores,"['uc', 'update']"
@@ -4405,7 +4405,7 @@ test_inout_2seq,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'inout', '2seq
 l_and,89,1,,2,,,,,,86,lower_case_with_underscores,"['l', 'and']"
 aran,15,,,,,,,,,15,lowercase,['aran']
 _print_width,2,,,,,,,,,2,lower_case_with_underscores,"['print', 'width']"
-_is_AMD,4,2,,,,,,,,2,ugly,"['is', 'amd']"
+_is_AMD,4,2,,,,,,,,2,camel_Snake_Case,"['is', 'amd']"
 _ZIP_PREFIX,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['zip', 'prefix']"
 dst_name,3,,,,,,,,,3,lower_case_with_underscores,"['dst', 'name']"
 space_re,2,,,,,,,,,2,lower_case_with_underscores,"['space', 're']"
@@ -4485,7 +4485,7 @@ float,592,,,6,,,,,,586,lowercase,['float']
 numpy_distutils,7,,,5,,,,,,2,lower_case_with_underscores,"['numpy', 'distutils']"
 multiarray_api,5,,,,,,,,,5,lower_case_with_underscores,"['multiarray', 'api']"
 test_arange_non_native_dtype,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'arange', 'non', 'native', 'dtype']"
-TestNanFunctions_Percentile,1,,1,,,,,,,,ugly,"['testnanfunctions', 'percentile']"
+TestNanFunctions_Percentile,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['testnanfunctions', 'percentile']"
 check_may_share_memory_easy_fuzz,3,1,,,,,,,,2,lower_case_with_underscores,"['check', 'may', 'share', 'memory', 'easy', 'fuzz']"
 TestNewaxis,1,,1,,,,,,,,CapitalizedWords,"['test', 'newaxis']"
 TestBincount,2,,2,,,,,,,,CapitalizedWords,"['test', 'bincount']"
@@ -5028,7 +5028,7 @@ lastparent,5,,,,,,,,,5,lowercase,['lastparent']
 testNormBadList,2,2,,,,,,,,,mixedCase,"['test', 'norm', 'bad', 'list']"
 nose_is_good,4,,,,,,,,,4,lower_case_with_underscores,"['nose', 'is', 'good']"
 test_hermevander,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'hermevander']"
-test_DataSourceOpen,1,1,,,,,,,,,ugly,"['test', 'datasourceopen']"
+test_DataSourceOpen,1,1,,,,,,,,,camel_Snake_Case,"['test', 'datasourceopen']"
 UAdd,1,,,,,,,,,1,CapitalizedWords,"['u', 'add']"
 test_standard_gamma_0,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'standard', 'gamma', '0']"
 _eval_length,3,1,,,,,,,,2,lower_case_with_underscores,"['eval', 'length']"
@@ -5052,7 +5052,7 @@ all_compilers,1,,,,,,,,,1,lower_case_with_underscores,"['all', 'compilers']"
 test_pickling_keepalignment,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'pickling', 'keepalignment']"
 current_function,3,,,,,,,,,3,lower_case_with_underscores,"['current', 'function']"
 formatted,2,,,,,,,,,2,lowercase,['formatted']
-_is_Hammer,1,1,,,,,,,,,ugly,"['is', 'hammer']"
+_is_Hammer,1,1,,,,,,,,,camel_Snake_Case,"['is', 'hammer']"
 mro,5,,,,,,,,,5,lowercase,['mro']
 check_decl,9,1,,,,,,,,8,lower_case_with_underscores,"['check', 'decl']"
 test_sort,3,3,,,,,,,,,lower_case_with_underscores,"['test', 'sort']"
@@ -5118,7 +5118,7 @@ sdt2,40,,,,,,,,,40,lowercase,['sdt2']
 TestRollaxis,1,,1,,,,,,,,CapitalizedWords,"['test', 'rollaxis']"
 DummyComplexArray,2,,1,,,,,,,1,CapitalizedWords,"['dummy', 'complex', 'array']"
 test_lag2poly,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'lag2poly']"
-visit_Attribute,1,1,,,,,,,,,ugly,"['visit', 'attribute']"
+visit_Attribute,1,1,,,,,,,,,camel_Snake_Case,"['visit', 'attribute']"
 themedir,3,,,,,,,,,3,lowercase,['themedir']
 _is_intent_callback,1,1,,,,,,,,,lower_case_with_underscores,"['is', 'intent', 'callback']"
 chisquare,6,,,,,,,,,6,lowercase,['chisquare']
@@ -5130,7 +5130,7 @@ jointype,16,,,,,,6,,,10,lowercase,['jointype']
 test_check_shape,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'check', 'shape']"
 __RandomState_ctor,1,1,,,,,,,,,ugly,"['randomstate', 'ctor']"
 malicious_files,3,,,,,,,,,3,lower_case_with_underscores,"['malicious', 'files']"
-TestNanFunctions_MinMax,1,,1,,,,,,,,ugly,"['testnanfunctions', 'minmax']"
+TestNanFunctions_MinMax,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['testnanfunctions', 'minmax']"
 test_broadcasting,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'broadcasting']"
 iqr,2,,,,,,,,,2,lowercase,['iqr']
 chebpts2,7,1,,,,,,,,6,lowercase,['chebpts2']
@@ -5839,10 +5839,10 @@ soften_mask,6,2,,,,,,,,4,lower_case_with_underscores,"['soften', 'mask']"
 test_cast_equivalence,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'cast', 'equivalence']"
 polygrid3d,3,1,,,,,,,,2,lowercase,['polygrid3d']
 time_double_add_temp,1,1,,,,,,,,,lower_case_with_underscores,"['time', 'double', 'add', 'temp']"
-_is_Athlon64,1,1,,,,,,,,,ugly,"['is', 'athlon64']"
+_is_Athlon64,1,1,,,,,,,,,camel_Snake_Case,"['is', 'athlon64']"
 defmod_rules,2,,,,,,,,,2,lower_case_with_underscores,"['defmod', 'rules']"
 ignore_setup_xxx_py,2,,,,,,2,,,,lower_case_with_underscores,"['ignore', 'setup', 'xxx', 'py']"
-_is_AMD64,2,2,,,,,,,,,ugly,"['is', 'amd64']"
+_is_AMD64,2,2,,,,,,,,,camel_Snake_Case,"['is', 'amd64']"
 test_comments,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'comments']"
 dirs,61,,,,,,,,,61,lowercase,['dirs']
 None,3759,,,,,,,,,3759,CapitalizedWords,['none']
@@ -6750,7 +6750,7 @@ chunk,4,,,,,,,,,4,lowercase,['chunk']
 skipper,3,,,,,,,,,3,lowercase,['skipper']
 funcnames,2,,,,,,,,,2,lowercase,['funcnames']
 measure,1,1,,,,,,,,,lowercase,['measure']
-test_InvalidHTTPCacheURLError,1,1,,,,,,,,,ugly,"['test', 'invalidhttpcacheurlerror']"
+test_InvalidHTTPCacheURLError,1,1,,,,,,,,,camel_Snake_Case,"['test', 'invalidhttpcacheurlerror']"
 r2k,2,,,,,,,,,2,lowercase,['r2k']
 globs,13,,,,,,,,,13,lowercase,['globs']
 unshare_mask,1,1,,,,,,,,,lower_case_with_underscores,"['unshare', 'mask']"
@@ -6947,7 +6947,7 @@ conditions,21,,,,,,,,,21,lowercase,['conditions']
 local_prefixes,2,,,,,,,,,2,lower_case_with_underscores,"['local', 'prefixes']"
 polycompanion,6,1,,,,,,,,5,lowercase,['polycompanion']
 _numpy_tester,35,1,,12,,,,,,22,lower_case_with_underscores,"['numpy', 'tester']"
-TestNPY_CHAR,1,,1,,,,,,,,ugly,"['testnpy', 'char']"
+TestNPY_CHAR,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['testnpy', 'char']"
 file_insertion_enabled,1,,,,,,1,,,,lower_case_with_underscores,"['file', 'insertion', 'enabled']"
 test_arange_endian,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'arange', 'endian']"
 isintent_hide,24,1,,3,,,,,,20,lower_case_with_underscores,"['isintent', 'hide']"
@@ -6967,7 +6967,7 @@ _can_coerce_all,4,1,,,,,,,,3,lower_case_with_underscores,"['can', 'coerce', 'all
 legacy,59,,,,,,27,,,32,lowercase,['legacy']
 polyder,18,2,,,,,,,,16,lowercase,['polyder']
 test_nd,4,4,,,,,,,,,lower_case_with_underscores,"['test', 'nd']"
-is_Pentium4,1,,,,,,,,,1,ugly,"['is', 'pentium4']"
+is_Pentium4,1,,,,,,,,,1,camel_Snake_Case,"['is', 'pentium4']"
 a_inv,3,,,,,,,,,3,lower_case_with_underscores,"['a', 'inv']"
 FlatTestCase,25,,1,,,,,,,24,CapitalizedWords,"['flat', 'test', 'case']"
 lut,3,,,,,,,,,3,lowercase,['lut']
@@ -7002,7 +7002,7 @@ NotFoundError,10,,1,,,,,,,9,CapitalizedWords,"['not', 'found', 'error']"
 log1p,11,,,,,,,,,11,lowercase,['log1p']
 out_shape,4,,,,,,,,,4,lower_case_with_underscores,"['out', 'shape']"
 test_init2,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'init2']"
-is_PentiumM,1,,,,,,,,,1,ugly,"['is', 'pentiumm']"
+is_PentiumM,1,,,,,,,,,1,camel_Snake_Case,"['is', 'pentiumm']"
 old_and_unmanageable,1,,,,,,,,,1,lower_case_with_underscores,"['old', 'and', 'unmanageable']"
 rowtype,5,,,,,,,,,5,lowercase,['rowtype']
 newitem,3,,,,,,,,,3,lowercase,['newitem']
@@ -7037,7 +7037,7 @@ sary,2,,,,,,,,,2,lowercase,['sary']
 chained_dlls,9,,,,,,2,,,7,lower_case_with_underscores,"['chained', 'dlls']"
 test_matrix_multiply_by_1d_vector,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'matrix', 'multiply', 'by', '1d', 'vector']"
 next_hanging_indent,7,,,,,,,,,7,lower_case_with_underscores,"['next', 'hanging', 'indent']"
-_is_AthlonHX,1,1,,,,,,,,,ugly,"['is', 'athlonhx']"
+_is_AthlonHX,1,1,,,,,,,,,camel_Snake_Case,"['is', 'athlonhx']"
 unravel_index,18,,,1,,,,,,17,lower_case_with_underscores,"['unravel', 'index']"
 bytes_freed,3,,,,,,,,,3,lower_case_with_underscores,"['bytes', 'freed']"
 _recursive_mask_or,3,1,,,,,,,,2,lower_case_with_underscores,"['recursive', 'mask', 'or']"
@@ -7099,7 +7099,7 @@ parts,27,,,,,,,,,27,lowercase,['parts']
 matcher,5,2,,,,,,,,3,lowercase,['matcher']
 frac_part,4,,,,,,,,,4,lower_case_with_underscores,"['frac', 'part']"
 npany,3,,,,,,,1,,2,lowercase,['npany']
-_is_IP27,1,1,,,,,,,,,ugly,"['is', 'ip27']"
+_is_IP27,1,1,,,,,,,,,camel_Snake_Case,"['is', 'ip27']"
 get_code_line,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'code', 'line']"
 sub_html,1,1,,,,,,,,,lower_case_with_underscores,"['sub', 'html']"
 TestExp,1,,1,,,,,,,,CapitalizedWords,"['test', 'exp']"
@@ -7113,7 +7113,7 @@ caller_module,2,,,,,,,,,2,lower_case_with_underscores,"['caller', 'module']"
 test_setxor1d,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'setxor1d']"
 pull,4,,,,,,,,,4,lowercase,['pull']
 resout,25,,,,,,,,,25,lowercase,['resout']
-_is_PCA56,1,1,,,,,,,,,ugly,"['is', 'pca56']"
+_is_PCA56,1,1,,,,,,,,,camel_Snake_Case,"['is', 'pca56']"
 prng,19,,,,,,,,,19,lowercase,['prng']
 typestr_t,2,,,,,,,,,2,lower_case_with_underscores,"['typestr', 't']"
 base_name,2,,,,,,,,,2,lower_case_with_underscores,"['base', 'name']"
@@ -7134,7 +7134,7 @@ TestMultipleFields,1,,1,,,,,,,,CapitalizedWords,"['test', 'multiple', 'fields']"
 test_vector_return_type,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'vector', 'return', 'type']"
 FindDependenciesLdd,2,,1,,,,,,,1,CapitalizedWords,"['find', 'dependencies', 'ldd']"
 test_format_2_0,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'format', '2', '0']"
-test_BagObj,1,1,,,,,,,,,ugly,"['test', 'bagobj']"
+test_BagObj,1,1,,,,,,,,,camel_Snake_Case,"['test', 'bagobj']"
 BlasNotFoundError,9,,1,,,,,,,8,CapitalizedWords,"['blas', 'not', 'found', 'error']"
 has_pygments,3,,,,,,,,,3,lower_case_with_underscores,"['has', 'pygments']"
 expr2,6,,,,,,,,,6,lowercase,['expr2']
@@ -7156,7 +7156,7 @@ test_0d_unicode,1,1,,,,,,,,,lower_case_with_underscores,"['test', '0d', 'unicode
 test_matrix_multiply_umath_empty,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'matrix', 'multiply', 'umath', 'empty']"
 int32,117,,,1,,,,,,116,lowercase,['int32']
 TestRequire,1,,1,,,,,,,,CapitalizedWords,"['test', 'require']"
-test_ValidHTTP,6,4,,,,,,,,2,ugly,"['test', 'validhttp']"
+test_ValidHTTP,6,4,,,,,,,,2,camel_Snake_Case,"['test', 'validhttp']"
 VENDOR,2,,,,,,,,,2,UPPERCASE,"['vendo', 'r']"
 f90_module_name_match,2,,,,,,,,,2,lower_case_with_underscores,"['f90', 'module', 'name', 'match']"
 mimic_get,7,,,,,,,,,7,lower_case_with_underscores,"['mimic', 'get']"
@@ -7210,7 +7210,7 @@ _tmp,2,,,,,,,,,2,lowercase,['tmp']
 test_exception,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'exception']"
 TestMinimum,1,,1,,,,,,,,CapitalizedWords,"['test', 'minimum']"
 djbfft_info,5,,1,,,,,,,4,lower_case_with_underscores,"['djbfft', 'info']"
-Test_I0,1,,1,,,,,,,,ugly,"['test', 'i0']"
+Test_I0,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['test', 'i0']"
 test_nat_items,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'nat', 'items']"
 test_reflected_binary_methods,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'reflected', 'binary', 'methods']"
 offset,120,,,,,,23,,,97,lowercase,['offset']
@@ -7496,7 +7496,7 @@ TestSharedExtension,1,,1,,,,,,,,CapitalizedWords,"['test', 'shared', 'extension'
 arr1d,28,,,,,,,,,28,lowercase,['arr1d']
 nbnames,4,,,,,,,,,4,lowercase,['nbnames']
 warn,203,5,,,,,,,,198,lowercase,['warn']
-_is_Alpha,1,1,,,,,,,,,ugly,"['is', 'alpha']"
+_is_Alpha,1,1,,,,,,,,,camel_Snake_Case,"['is', 'alpha']"
 py_pincl_dir,6,,,,,,,,,6,lower_case_with_underscores,"['py', 'pincl', 'dir']"
 styp,8,,,,,,,,,8,lowercase,['styp']
 get_platform,20,,,11,,,,,,9,lower_case_with_underscores,"['get', 'platform']"
@@ -7520,7 +7520,7 @@ test_0d_string_scalar,1,1,,,,,,,,,lower_case_with_underscores,"['test', '0d', 's
 time_packbits_axis0,1,1,,,,,,,,,lower_case_with_underscores,"['time', 'packbits', 'axis0']"
 time_packbits_axis1,1,1,,,,,,,,,lower_case_with_underscores,"['time', 'packbits', 'axis1']"
 time_einsum_ijk_jil_kl,1,1,,,,,,,,,lower_case_with_underscores,"['time', 'einsum', 'ijk', 'jil', 'kl']"
-_is_Am486,1,1,,,,,,,,,ugly,"['is', 'am486']"
+_is_Am486,1,1,,,,,,,,,camel_Snake_Case,"['is', 'am486']"
 _run_machar_highprec,2,1,,,,,,,,1,lower_case_with_underscores,"['run', 'machar', 'highprec']"
 test_big_binary,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'big', 'binary']"
 test_matrix_element,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'matrix', 'element']"
@@ -7661,7 +7661,7 @@ dorestdoc,4,,,,,,,,,4,lowercase,['dorestdoc']
 vstack,48,1,,2,,,,,,45,lowercase,['vstack']
 test_bool,3,3,,,,,,,,,lower_case_with_underscores,"['test', 'bool']"
 polyone,2,,,,,,,,,2,lowercase,['polyone']
-test_TakeTransposeInnerOuter,1,1,,,,,,,,,ugly,"['test', 'taketransposeinnerouter']"
+test_TakeTransposeInnerOuter,1,1,,,,,,,,,camel_Snake_Case,"['test', 'taketransposeinnerouter']"
 FileInput,1,,,,,,,,,1,CapitalizedWords,"['file', 'input']"
 coverage_ignore_functions,1,,,,,,,,,1,lower_case_with_underscores,"['coverage', 'ignore', 'functions']"
 TestArrayMethods,1,,1,,,,,,,,CapitalizedWords,"['test', 'array', 'methods']"
@@ -7739,7 +7739,7 @@ fc_flags,4,,,,,,,,,4,lower_case_with_underscores,"['fc', 'flags']"
 multiarray_api_index,5,,,,,,,,,5,lower_case_with_underscores,"['multiarray', 'api', 'index']"
 notmasked_contiguous,5,1,,1,,,,,,3,lower_case_with_underscores,"['notmasked', 'contiguous']"
 python_lib,3,,,,,,,,,3,lower_case_with_underscores,"['python', 'lib']"
-_is_PentiumM,2,2,,,,,,,,,ugly,"['is', 'pentiumm']"
+_is_PentiumM,2,2,,,,,,,,,camel_Snake_Case,"['is', 'pentiumm']"
 process_tex,2,1,,,,,,,,1,lower_case_with_underscores,"['process', 'tex']"
 _is_ppc823,1,1,,,,,,,,,lower_case_with_underscores,"['is', 'ppc823']"
 _huge_dd,2,,,,,,,,,2,lower_case_with_underscores,"['huge', 'dd']"
@@ -7749,7 +7749,7 @@ mini,1,1,,,,,,,,,lowercase,['mini']
 loader_path,6,,,,,,,,,6,lower_case_with_underscores,"['loader', 'path']"
 vector,35,,,,,,,,,35,lowercase,['vector']
 ev,14,,,,,,,,,14,lowercase,['ev']
-TestNanFunctions_SumProd,1,,1,,,,,,,,ugly,"['testnanfunctions', 'sumprod']"
+TestNanFunctions_SumProd,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['testnanfunctions', 'sumprod']"
 n_hist,2,,,,,,,,,2,lower_case_with_underscores,"['n', 'hist']"
 mine,4,,,,,,,,,4,lowercase,['mine']
 minf,2,,,,,,,,,2,lowercase,['minf']
@@ -8274,7 +8274,7 @@ STATE_NAME,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['state', 'name']"
 test_lagzero,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'lagzero']"
 default_answer,2,,,,,,,,,2,lower_case_with_underscores,"['default', 'answer']"
 Broadcast,1,,1,,,,,,,,CapitalizedWords,['broadcast']
-Test_UPDATEIFCOPY,1,,1,,,,,,,,ugly,"['test', 'updateifcopy']"
+Test_UPDATEIFCOPY,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['test', 'updateifcopy']"
 parse_cond,2,1,,,,,,,,1,lower_case_with_underscores,"['parse', 'cond']"
 testSetBad1,4,4,,,,,,,,,mixedCase,"['test', 'set', 'bad1']"
 test_test_zero_rank,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'test', 'zero', 'rank']"
@@ -8297,10 +8297,10 @@ test_long_sep,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'long', 'sep']"
 lzip,3,,,,,,,,,3,lowercase,['lzip']
 datetime,78,,,9,,,,,,69,lowercase,['datetime']
 Where,1,,1,,,,,,,,CapitalizedWords,['where']
-_is_EV4,1,1,,,,,,,,,ugly,"['is', 'ev4']"
-_is_EV5,1,1,,,,,,,,,ugly,"['is', 'ev5']"
+_is_EV4,1,1,,,,,,,,,camel_Snake_Case,"['is', 'ev4']"
+_is_EV5,1,1,,,,,,,,,camel_Snake_Case,"['is', 'ev5']"
 dim,90,,,,,,,,,90,lowercase,['dim']
-_is_Pentium,2,2,,,,,,,,,ugly,"['is', 'pentium']"
+_is_Pentium,2,2,,,,,,,,,camel_Snake_Case,"['is', 'pentium']"
 new_dtype,8,,,,,,,,,8,lower_case_with_underscores,"['new', 'dtype']"
 dump_source,1,,,,,,,,,1,lower_case_with_underscores,"['dump', 'source']"
 dtypes_match,2,,,,,,,,,2,lower_case_with_underscores,"['dtypes', 'match']"
@@ -8340,7 +8340,7 @@ xml,1,,,1,,,,,,,lowercase,['xml']
 open_memmap,8,1,,,,,,,,7,lower_case_with_underscores,"['open', 'memmap']"
 deriv,8,2,,,,,,,,6,lowercase,['deriv']
 xmm,5,,,,,,,,,5,lowercase,['xmm']
-_is_PentiumIV,2,2,,,,,,,,,ugly,"['is', 'pentiumiv']"
+_is_PentiumIV,2,2,,,,,,,,,camel_Snake_Case,"['is', 'pentiumiv']"
 test_normal_types,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'normal', 'types']"
 rdir,3,,,,,,,,,3,lowercase,['rdir']
 groupbegins77,4,,,,,,,,,4,lowercase,['groupbegins77']
@@ -8349,7 +8349,7 @@ _ctypes,9,,1,,,,,,,8,lowercase,['ctypes']
 LANG_EXT,3,,,1,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['lang', 'ext']"
 uni_arr1,4,,,,,,,,,4,lower_case_with_underscores,"['uni', 'arr1']"
 test_hfft,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'hfft']"
-_is_PentiumII,2,2,,,,,,,,,ugly,"['is', 'pentiumii']"
+_is_PentiumII,2,2,,,,,,,,,camel_Snake_Case,"['is', 'pentiumii']"
 nbrows,2,,,,,,,,,2,lowercase,['nbrows']
 indices_or_sections,15,,,,,,,,,15,lower_case_with_underscores,"['indices', 'or', 'sections']"
 test_return_type,4,4,,,,,,,,,lower_case_with_underscores,"['test', 'return', 'type']"
@@ -8760,7 +8760,7 @@ test_array_astype,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'array', 'as
 startswith,154,2,,,,,,,,152,lowercase,['startswith']
 test_bad_line,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'bad', 'line']"
 testSumWrongDim,1,1,,,,,,,,,mixedCase,"['test', 'sum', 'wrong', 'dim']"
-test_A,1,1,,,,,,,,,ugly,"['test', 'a']"
+test_A,1,1,,,,,,,,,camel_Snake_Case,"['test', 'a']"
 check_func,8,2,,,,,,,,6,lower_case_with_underscores,"['check', 'func']"
 reps,9,,,,,,,,,9,lowercase,['reps']
 repr,417,,,,,,6,,,411,lowercase,['repr']
@@ -8952,7 +8952,7 @@ test_right_basic,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'right', 'bas
 kw_unicode_false,2,,,,,,,,,2,lower_case_with_underscores,"['kw', 'unicode', 'false']"
 cr,7,,,,,,,,,7,lowercase,['cr']
 max_size,16,,,,,,5,,,11,lower_case_with_underscores,"['max', 'size']"
-_is_Intel,2,2,,,,,,,,,ugly,"['is', 'intel']"
+_is_Intel,2,2,,,,,,,,,camel_Snake_Case,"['is', 'intel']"
 get_indexes,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'indexes']"
 TestFormat,1,,1,,,,,,,,CapitalizedWords,"['test', 'format']"
 test_hamming,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'hamming']"
@@ -9079,7 +9079,7 @@ out1,23,,,,,,,,,23,lowercase,['out1']
 out2,25,,,,,,,,,25,lowercase,['out2']
 get_library_dirs,11,7,,,,,,,,4,lower_case_with_underscores,"['get', 'library', 'dirs']"
 out4,2,,,,,,,,,2,lowercase,['out4']
-_is_IP32,1,1,,,,,,,,,ugly,"['is', 'ip32']"
+_is_IP32,1,1,,,,,,,,,camel_Snake_Case,"['is', 'ip32']"
 get_fieldspec,9,1,,,,,,,,8,lower_case_with_underscores,"['get', 'fieldspec']"
 order_dict,5,1,,,,,,,,4,lower_case_with_underscores,"['order', 'dict']"
 multivariate_normal,8,,,,,,,,,8,lower_case_with_underscores,"['multivariate', 'normal']"
@@ -9097,7 +9097,7 @@ _pep3118_standard_map,3,,,,,,,,,3,lower_case_with_underscores,"['pep3118', 'stan
 allaxes,4,,,,,,,,,4,lowercase,['allaxes']
 normshp,3,,,,,,,,,3,lowercase,['normshp']
 redirect_stdout,6,,1,,,,,,,5,lower_case_with_underscores,"['redirect', 'stdout']"
-TestNanFunctions_MeanVarStd,1,,1,,,,,,,,ugly,"['testnanfunctions', 'meanvarstd']"
+TestNanFunctions_MeanVarStd,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['testnanfunctions', 'meanvarstd']"
 test_number_of_arguments,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'number', 'of', 'arguments']"
 strip,171,2,,,,,,,,169,lowercase,['strip']
 hiprec,2,,,,,,,,,2,lowercase,['hiprec']
@@ -9616,7 +9616,7 @@ polyval,48,2,,5,,,,,,41,lowercase,['polyval']
 paths,51,1,,,,,,,,50,lowercase,['paths']
 isintent_copy,4,1,,1,,,,,,2,lower_case_with_underscores,"['isintent', 'copy']"
 _TestNorm,4,,1,,,,,,,3,CapitalizedWords,"['test', 'norm']"
-TestNanFunctions_ArgminArgmax,1,,1,,,,,,,,ugly,"['testnanfunctions', 'argminargmax']"
+TestNanFunctions_ArgminArgmax,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['testnanfunctions', 'argminargmax']"
 build_items,4,,,,,,,,,4,lower_case_with_underscores,"['build', 'items']"
 test_unary_gufunc_fuzz,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'unary', 'gufunc', 'fuzz']"
 hascallstatement,11,1,,1,,,,,,9,lowercase,['hascallstatement']
@@ -9673,7 +9673,7 @@ test_einsum_all_contig_non_contig_output,1,1,,,,,,,,,lower_case_with_underscores
 old_func3,2,1,,,,,,,,1,lower_case_with_underscores,"['old', 'func3']"
 U_non_cont,3,,,,,,,,,3,ugly,"['u', 'non', 'cont']"
 unixccompiler,5,,,5,,,,,,,lowercase,['unixccompiler']
-is_Alpha,4,,,,,,,,,4,ugly,"['is', 'alpha']"
+is_Alpha,4,,,,,,,,,4,camel_Snake_Case,"['is', 'alpha']"
 g_params,4,,,,,,,,,4,lower_case_with_underscores,"['g', 'params']"
 find,41,2,,,,,,,,39,lowercase,['find']
 finf,4,,,,,,,,,4,lowercase,['finf']
@@ -10123,7 +10123,7 @@ test_days_creation,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'days', 'cr
 check_sub,2,1,,,,,,,,1,lower_case_with_underscores,"['check', 'sub']"
 check_libs2,8,1,,,,,,,,7,lower_case_with_underscores,"['check', 'libs2']"
 test_chebfromroots,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'chebfromroots']"
-is_Itanium,1,,,,,,,,,1,ugly,"['is', 'itanium']"
+is_Itanium,1,,,,,,,,,1,camel_Snake_Case,"['is', 'itanium']"
 aargmin,2,,,,,,,,,2,lowercase,['aargmin']
 sig_zero_ok,2,,,,,,,,,2,lower_case_with_underscores,"['sig', 'zero', 'ok']"
 hasbody,8,1,,1,,,,,,6,lowercase,['hasbody']
@@ -10277,7 +10277,7 @@ lag2poly,5,1,,,,,,,,4,lowercase,['lag2poly']
 intel_64bit_version_strings,2,,,,,,,,,2,lower_case_with_underscores,"['intel', '64bit', 'version', 'strings']"
 test_limits_arithmetic,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'limits', 'arithmetic']"
 opflag_tests,4,,,,,,,1,,3,lower_case_with_underscores,"['opflag', 'tests']"
-_is_Celeron,1,1,,,,,,,,,ugly,"['is', 'celeron']"
+_is_Celeron,1,1,,,,,,,,,camel_Snake_Case,"['is', 'celeron']"
 test_lapack,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'lapack']"
 NumpyVersion,28,,1,2,,,,,,25,CapitalizedWords,"['numpy', 'version']"
 bind,2,,,,,,,,,2,lowercase,['bind']
@@ -10340,7 +10340,7 @@ fXX,2,,,,,,,,,2,mixedCase,"['f', 'x', 'x']"
 test_inf_pinf,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'inf', 'pinf']"
 _is_AthlonK6_2,1,1,,,,,,,,,ugly,"['is', 'athlonk6', '2']"
 recordtype,2,,,,,,,,,2,lowercase,['recordtype']
-is_AMD,14,,,,,,,,,14,ugly,"['is', 'amd']"
+is_AMD,14,,,,,,,,,14,camel_Snake_Case,"['is', 'amd']"
 test_outer_join,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'outer', 'join']"
 isainfo_n,1,,,,,,1,,,,lower_case_with_underscores,"['isainfo', 'n']"
 radians,4,,,1,,,,,,3,lowercase,['radians']
@@ -10380,7 +10380,7 @@ test_constant_no,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'constant', '
 ref,54,,,,,,,,,54,lowercase,['ref']
 cwd,26,,,,,,11,,,15,lowercase,['cwd']
 math,21,,,12,,,,,,9,lowercase,['math']
-_is_SUNW,1,1,,,,,,,,,ugly,"['is', 'sunw']"
+_is_SUNW,1,1,,,,,,,,,camel_Snake_Case,"['is', 'sunw']"
 TestF77ReturnCharacter,1,,1,,,,,,,,CapitalizedWords,"['test', 'f77', 'return', 'character']"
 numfound,4,,,,,,,,,4,lowercase,['numfound']
 triu_indices,7,1,,1,,,,,,5,lower_case_with_underscores,"['triu', 'indices']"
@@ -10889,7 +10889,7 @@ test_legdomain,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'legdomain']"
 fill_command,2,1,,,,,,,,1,lower_case_with_underscores,"['fill', 'command']"
 log10,24,1,,4,,,,,,19,lowercase,['log10']
 time_sort,1,1,,,,,,,,,lower_case_with_underscores,"['time', 'sort']"
-is_AMD64,1,,,,,,,,,1,ugly,"['is', 'amd64']"
+is_AMD64,1,,,,,,,,,1,camel_Snake_Case,"['is', 'amd64']"
 PbufferT,8,,,,,,,,,8,CapitalizedWords,"['pbuffer', 't']"
 _iswritemode,2,1,,,,,,,,1,lowercase,['iswritemode']
 test_unique_onmaskedarray,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'unique', 'onmaskedarray']"
@@ -10933,15 +10933,15 @@ innerproduct,1,,,,,,,,,1,lowercase,['innerproduct']
 test_exotic_weights,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'exotic', 'weights']"
 iadd,11,2,,,,,,,,9,lowercase,['iadd']
 _parse_einsum_input,2,1,,,,,,,,1,lower_case_with_underscores,"['parse', 'einsum', 'input']"
-_is_IP26,1,1,,,,,,,,,ugly,"['is', 'ip26']"
-_is_IP25,1,1,,,,,,,,,ugly,"['is', 'ip25']"
-_is_IP24,1,1,,,,,,,,,ugly,"['is', 'ip24']"
-_is_IP22,1,1,,,,,,,,,ugly,"['is', 'ip22']"
-_is_IP21,1,1,,,,,,,,,ugly,"['is', 'ip21']"
-_is_IP20,1,1,,,,,,,,,ugly,"['is', 'ip20']"
+_is_IP26,1,1,,,,,,,,,camel_Snake_Case,"['is', 'ip26']"
+_is_IP25,1,1,,,,,,,,,camel_Snake_Case,"['is', 'ip25']"
+_is_IP24,1,1,,,,,,,,,camel_Snake_Case,"['is', 'ip24']"
+_is_IP22,1,1,,,,,,,,,camel_Snake_Case,"['is', 'ip22']"
+_is_IP21,1,1,,,,,,,,,camel_Snake_Case,"['is', 'ip21']"
+_is_IP20,1,1,,,,,,,,,camel_Snake_Case,"['is', 'ip20']"
 groupbegins90,3,,,,,,,,,3,lowercase,['groupbegins90']
 arrmean,9,,,,,,,,,9,lowercase,['arrmean']
-_is_IP28,1,1,,,,,,,,,ugly,"['is', 'ip28']"
+_is_IP28,1,1,,,,,,,,,camel_Snake_Case,"['is', 'ip28']"
 test_instance_methods,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'instance', 'methods']"
 THIS_DIR,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['this', 'dir']"
 test_empty,23,23,,,,,,,,,lower_case_with_underscores,"['test', 'empty']"
@@ -11354,7 +11354,7 @@ extra_link_args,15,,,,,,4,,,11,lower_case_with_underscores,"['extra', 'link', 'a
 wrapped,2,,,,,,,,,2,lowercase,['wrapped']
 c2pycode_map,8,,,,,,,,,8,lower_case_with_underscores,"['c2pycode', 'map']"
 EntryPointPluginManager,2,,,1,,,,,,1,CapitalizedWords,"['entry', 'point', 'plugin', 'manager']"
-is_Core2,1,,,,,,,,,1,ugly,"['is', 'core2']"
+is_Core2,1,,,,,,,,,1,camel_Snake_Case,"['is', 'core2']"
 A_d_2,3,,,,,,,,,3,ugly,"['a', 'd', '2']"
 TestComparisonDeprecations,1,,1,,,,,,,,CapitalizedWords,"['test', 'comparison', 'deprecations']"
 _ndat_zeros,2,,,,,,,,,2,lower_case_with_underscores,"['ndat', 'zeros']"
@@ -11553,7 +11553,7 @@ first_edge,13,,,,,,,,,13,lower_case_with_underscores,"['first', 'edge']"
 test_copyto_fromscalar,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'copyto', 'fromscalar']"
 nbmissing,7,,,,,,,,,7,lowercase,['nbmissing']
 test_sibling_class,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'sibling', 'class']"
-test_ValidGzipFile,1,1,,,,,,,,,ugly,"['test', 'validgzipfile']"
+test_ValidGzipFile,1,1,,,,,,,,,camel_Snake_Case,"['test', 'validgzipfile']"
 test_integer_delimiter,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'integer', 'delimiter']"
 test_simple_flexible,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'simple', 'flexible']"
 maxsize,3,,,,,,1,,,2,lowercase,['maxsize']
@@ -11576,7 +11576,7 @@ NEIGH_MODE,36,,,,,,,,,36,UPPER_CASE_WITH_UNDERSCORES,"['neigh', 'mode']"
 UnicodeEncodeError,4,,,,,,,,,4,CapitalizedWords,"['unicode', 'encode', 'error']"
 plot_include_source,1,,,,,,,,,1,lower_case_with_underscores,"['plot', 'include', 'source']"
 OPTIONAL_STDFUNCS,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['optional', 'stdfuncs']"
-test_ValidBz2File,1,1,,,,,,,,,ugly,"['test', 'validbz2file']"
+test_ValidBz2File,1,1,,,,,,,,,camel_Snake_Case,"['test', 'validbz2file']"
 test_legfromroots,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'legfromroots']"
 constant_values,6,,,,,,6,,,,lower_case_with_underscores,"['constant', 'values']"
 nm_output,9,,,,,,,,,9,lower_case_with_underscores,"['nm', 'output']"
@@ -11707,7 +11707,7 @@ nobool_or_obj,1,,,,,,,,,1,lower_case_with_underscores,"['nobool', 'or', 'obj']"
 cnt,140,,,,,,,,,140,lowercase,['cnt']
 texinfo_documents,1,,,,,,,,,1,lower_case_with_underscores,"['texinfo', 'documents']"
 test_argmax_unicode,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'argmax', 'unicode']"
-to_ReST,3,1,,,,,,,,2,ugly,"['to', 'rest']"
+to_ReST,3,1,,,,,,,,2,camel_Snake_Case,"['to', 'rest']"
 basekwargs,5,,,,,,,,,5,lowercase,['basekwargs']
 He6,2,,,,,,,,,2,CapitalizedWords,['he6']
 _lock,3,,,,,,,,,3,lowercase,['lock']
@@ -11770,7 +11770,7 @@ test_masked_singleton_equality,1,1,,,,,,,,,lower_case_with_underscores,"['test',
 lagx,2,,,,,,,,,2,lowercase,['lagx']
 version1,2,,,,,,,,,2,lowercase,['version1']
 version2,2,,,,,,,,,2,lowercase,['version2']
-TestNanFunctions_CumSumProd,1,,1,,,,,,,,ugly,"['testnanfunctions', 'cumsumprod']"
+TestNanFunctions_CumSumProd,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['testnanfunctions', 'cumsumprod']"
 fgcode,2,,,,,,,,,2,lowercase,['fgcode']
 sup2,3,,,,,,,,,3,lowercase,['sup2']
 download_url,1,,,,,,1,,,,lower_case_with_underscores,"['download', 'url']"
@@ -12132,7 +12132,7 @@ mach,1,,,,,,1,,,,lowercase,['mach']
 test_timedelta_scalar_construction,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'timedelta', 'scalar', 'construction']"
 test_poly_coeffs_immutable,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'poly', 'coeffs', 'immutable']"
 error_template,2,,,,,,,,,2,lower_case_with_underscores,"['error', 'template']"
-_is_Nocona,1,1,,,,,,,,,ugly,"['is', 'nocona']"
+_is_Nocona,1,1,,,,,,,,,camel_Snake_Case,"['is', 'nocona']"
 platform,156,,,14,,,1,,,141,lowercase,['platform']
 test_hstack_invalid_dims,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'hstack', 'invalid', 'dims']"
 test_string_sort_with_zeros,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'string', 'sort', 'with', 'zeros']"
@@ -12148,7 +12148,7 @@ matrix_power,16,1,,3,,,,,,12,lower_case_with_underscores,"['matrix', 'power']"
 test_in_from_2casttype,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'in', 'from', '2casttype']"
 issigned_chararray,1,1,,,,,,,,,lower_case_with_underscores,"['issigned', 'chararray']"
 TimedeltaFormat,2,,1,,,,,,,1,CapitalizedWords,"['timedelta', 'format']"
-test_RemoveHTTPFile,1,1,,,,,,,,,ugly,"['test', 'removehttpfile']"
+test_RemoveHTTPFile,1,1,,,,,,,,,camel_Snake_Case,"['test', 'removehttpfile']"
 atlas_3_10_info,5,,1,,,,,,,4,lower_case_with_underscores,"['atlas', '3', '10', 'info']"
 complexfloating,25,,,1,,,,,,24,lowercase,['complexfloating']
 test_symmetric_rank,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'symmetric', 'rank']"
@@ -12374,7 +12374,7 @@ TemplateDef,2,,1,,,,,,,1,CapitalizedWords,"['template', 'def']"
 min_count,15,,,,,,2,,,13,lower_case_with_underscores,"['min', 'count']"
 TestEinSumPath,1,,1,,,,,,,,CapitalizedWords,"['test', 'ein', 'sum', 'path']"
 _interpret_code,2,1,,,,,,,,1,lower_case_with_underscores,"['interpret', 'code']"
-test_IsPythonScalar,1,1,,,,,,,,,ugly,"['test', 'ispythonscalar']"
+test_IsPythonScalar,1,1,,,,,,,,,camel_Snake_Case,"['test', 'ispythonscalar']"
 GrabStdout,2,,1,,,,,,,1,CapitalizedWords,"['grab', 'stdout']"
 _Unspecified,4,,,,,,,,,4,CapitalizedWords,['unspecified']
 fileno,3,,,,,,,,,3,lowercase,['fileno']
@@ -12634,7 +12634,7 @@ _var,10,2,,,,,,,,8,lowercase,['var']
 target_dir,38,,,,,,,,,38,lower_case_with_underscores,"['target', 'dir']"
 in1d,37,2,,2,,,,,,33,lowercase,['in1d']
 TestSqueeze,1,,1,,,,,,,,CapitalizedWords,"['test', 'squeeze']"
-_is_Itanium,1,1,,,,,,,,,ugly,"['is', 'itanium']"
+_is_Itanium,1,1,,,,,,,,,camel_Snake_Case,"['is', 'itanium']"
 ordered_funcs_api,1,,,,,,,,,1,lower_case_with_underscores,"['ordered', 'funcs', 'api']"
 test_view_assign,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'view', 'assign']"
 TestDiag,1,,1,,,,,,,,CapitalizedWords,"['test', 'diag']"
@@ -12929,7 +12929,7 @@ test_unary_ufunc_where_same,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'u
 make_array,14,2,,,,,,,,12,lower_case_with_underscores,"['make', 'array']"
 test_polyfit_with_masked_NaNs,1,1,,,,,,,,,ugly,"['test', 'polyfit', 'with', 'masked', 'nans']"
 test_poly2herme,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'poly2herme']"
-test_InvalidFile,5,4,,,,,,,,1,ugly,"['test', 'invalidfile']"
+test_InvalidFile,5,4,,,,,,,,1,camel_Snake_Case,"['test', 'invalidfile']"
 html_theme,1,,,,,,,,,1,lower_case_with_underscores,"['html', 'theme']"
 check_ieee_macros,5,2,,,,,,,,3,lower_case_with_underscores,"['check', 'ieee', 'macros']"
 f6,4,,,,,,,,,4,lowercase,['f6']
@@ -13738,7 +13738,7 @@ base64,2,,,1,,,,,,1,lowercase,['base64']
 test_defaults,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'defaults']"
 test_sig_signature,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'sig', 'signature']"
 languages,8,,,,,,,,,8,lowercase,['languages']
-TestNanFunctions_IntTypes,1,,1,,,,,,,,ugly,"['testnanfunctions', 'inttypes']"
+TestNanFunctions_IntTypes,1,,1,,,,,,,,Capitalized_Words_With_Underscores,"['testnanfunctions', 'inttypes']"
 arraypad,2,,,1,,,,,,1,lowercase,['arraypad']
 itemsize_str,3,,,,,,,,,3,lower_case_with_underscores,"['itemsize', 'str']"
 getargspec,10,1,,3,,,,,,6,lowercase,['getargspec']
@@ -13791,7 +13791,7 @@ _typestr,7,,,,,,,,,7,lowercase,['typestr']
 test_shapes,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'shapes']"
 bin_name,4,,,,,,,,,4,lower_case_with_underscores,"['bin', 'name']"
 time_percentile,1,1,,,,,,,,,lower_case_with_underscores,"['time', 'percentile']"
-_is_Power_Macintosh,1,1,,,,,,,,,ugly,"['is', 'power', 'macintosh']"
+_is_Power_Macintosh,1,1,,,,,,,,,camel_Snake_Case,"['is', 'power', 'macintosh']"
 exc_type,4,,,,,,,,,4,lower_case_with_underscores,"['exc', 'type']"
 polyfit,54,3,,1,,,,,,50,lowercase,['polyfit']
 test_edges,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'edges']"
@@ -14046,7 +14046,7 @@ test_polytrim,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'polytrim']"
 minimal_function,2,1,,,,,,,,1,lower_case_with_underscores,"['minimal', 'function']"
 TestBitwiseUFuncs,1,,1,,,,,,,,CapitalizedWords,"['test', 'bitwise', 'u', 'funcs']"
 out_triu,2,,,,,,,,,2,lower_case_with_underscores,"['out', 'triu']"
-_is_AthlonK7,1,1,,,,,,,,,ugly,"['is', 'athlonk7']"
+_is_AthlonK7,1,1,,,,,,,,,camel_Snake_Case,"['is', 'athlonk7']"
 _nat,2,,,,,,,,,2,lowercase,['nat']
 sysinfo_flags,7,,,,,,,,,7,lower_case_with_underscores,"['sysinfo', 'flags']"
 test_object_scalar_multiply,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'object', 'scalar', 'multiply']"
@@ -14093,7 +14093,7 @@ test_fancy_index,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'fancy', 'ind
 _check_complex_inf_nan,2,1,,,,,,,,1,lower_case_with_underscores,"['check', 'complex', 'inf', 'nan']"
 dtnames,2,,,,,,,,,2,lowercase,['dtnames']
 elts,2,,,,,,,,,2,lowercase,['elts']
-_is_Xeon,1,,,,,,,,,1,ugly,"['is', 'xeon']"
+_is_Xeon,1,,,,,,,,,1,camel_Snake_Case,"['is', 'xeon']"
 cached_find_executable,2,1,,,,,,,,1,lower_case_with_underscores,"['cached', 'find', 'executable']"
 clip,68,2,,,,,,,,66,lowercase,['clip']
 test_fix_invalid,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'fix', 'invalid']"
@@ -14272,7 +14272,7 @@ is_intent_exact,4,1,,,,,,,,3,lower_case_with_underscores,"['is', 'intent', 'exac
 test_specific_axes,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'specific', 'axes']"
 integer_arrays,14,1,,,,,,,,13,lower_case_with_underscores,"['integer', 'arrays']"
 test_signed_zeros,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'signed', 'zeros']"
-visit_Name,1,1,,,,,,,,,ugly,"['visit', 'name']"
+visit_Name,1,1,,,,,,,,,camel_Snake_Case,"['visit', 'name']"
 WIFEXITED,1,,,,,,,,,1,UPPERCASE,"['wifexite', 'd']"
 window,149,1,,,,,35,,,113,lowercase,['window']
 abc,1,,,1,,,,,,,lowercase,['abc']
@@ -14487,7 +14487,7 @@ nuke,1,1,,,,,,,,,lowercase,['nuke']
 van,66,,,,,,,,,66,lowercase,['van']
 val,358,,,,,,,,,358,lowercase,['val']
 s_expected,3,,,,,,,,,3,lower_case_with_underscores,"['s', 'expected']"
-*,56,,,56,,,,,,,mixedCase,['*']
+*,56,,,56,,,,,,,ugly,['*']
 platform_skip,4,1,,,,,,,,3,lower_case_with_underscores,"['platform', 'skip']"
 sys_stdout,4,,,,,,,,,4,lower_case_with_underscores,"['sys', 'stdout']"
 magic_line,5,,,,,,,,,5,lower_case_with_underscores,"['magic', 'line']"
@@ -14522,7 +14522,7 @@ test_filled_with_nested_dtype,1,1,,,,,,,,,lower_case_with_underscores,"['test', 
 base_rule,4,,,,,,,,,4,lower_case_with_underscores,"['base', 'rule']"
 _median_nancheck,4,1,,,,,,,,3,lower_case_with_underscores,"['median', 'nancheck']"
 temp,45,,,,,,,,,45,lowercase,['temp']
-old_Log,2,,,,,,,1,,1,ugly,"['old', 'log']"
+old_Log,2,,,,,,,1,,1,camel_Snake_Case,"['old', 'log']"
 test_ediff1d_tobegin_toend,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'ediff1d', 'tobegin', 'toend']"
 setup_name,6,,,,,,,,,6,lower_case_with_underscores,"['setup', 'name']"
 test_testAPI,1,1,,,,,,,,,ugly,"['test', 'testapi']"
@@ -14546,7 +14546,7 @@ ScalarType,9,,,1,,,,,,8,CapitalizedWords,"['scalar', 'type']"
 agg2_info,2,,1,,,,,,,1,lower_case_with_underscores,"['agg2', 'info']"
 set_libraries,2,,,,,,,,,2,lower_case_with_underscores,"['set', 'libraries']"
 test_lexsort_invalid_sequence,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'lexsort', 'invalid', 'sequence']"
-_is_Opteron,1,1,,,,,,,,,ugly,"['is', 'opteron']"
+_is_Opteron,1,1,,,,,,,,,camel_Snake_Case,"['is', 'opteron']"
 has_nan,5,,,,,,,,,5,lower_case_with_underscores,"['has', 'nan']"
 _insert_masked_print,4,1,,,,,,,,3,lower_case_with_underscores,"['insert', 'masked', 'print']"
 _nanpercentile,2,1,,,,,,,,1,lowercase,['nanpercentile']
