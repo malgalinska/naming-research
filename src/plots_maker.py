@@ -3,12 +3,11 @@
 
 import os
 from datetime import datetime
-\
-import nltk # TEST
+
 import numpy as np
 import matplotlib.pyplot as plt
 
-from statisctics_library import log_and_print, has_part_of_speech
+from statisctics_library import log_and_print, has_part_of_speech, split_to_words
 
 
 LOG_FILE_NAME = "./plots_log.txt"
@@ -25,15 +24,9 @@ def make_plots (data: dict, repo_name: str, path_out: str):
     make_classes_in_notations_plot(data, path_out)
     make_functions_in_notations_plot(data, path_out)
     make_classes_with_noun_plot(data, path_out)
-
-    # make_mean_len_plot(data, path_out)
-    # make_procent_of_classes_with_noun_plot(data, path_out)
-    # make_number_of_classes_with_noun_plot(data, path_out)
-    # make_procent_of_functions_with_verb_plot(data, path_out)
-    # make_number_of_functions_with_verb_plot(data, path_out)
-    # make_words_to_avoid_in_procents_plot(data, path_out)
-    # make_number_of_words_to_avoid_plot(data, path_out)
-
+    make_functions_with_verb_plot(data, path_out)
+    make_words_to_avoid_plot(data, path_out)
+    make_mean_len_plot(data, path_out)
 
     plt.close("all")
 
@@ -49,27 +42,32 @@ def make_plots (data: dict, repo_name: str, path_out: str):
 
 
 def make_project_size_plot(data: dict, path_out: str):
-    fig, ax1 = plt.subplots()
-    ax1.set_xlabel("Czas")
-    ax1.set_ylabel("Liczba")
+    df = data.copy()
 
-    df1 = data.copy()
-    for timestamp in df1:
-        df1[timestamp] = len(df1[timestamp])
+    number_of_names = []
+    sum_of_occurences = []
 
-    ax1.plot(df1.keys(), df1.values(), color="red", label="Liczba identyfikatorów")
+    for timestamp in df:
+        number_of_names.append(len(df[timestamp]))
+        sum_of_occurences.append(df[timestamp]["all"].sum())
 
-    ax2 = ax1.twinx()
-    ax2.set_ylabel("Suma")
+    width_of_bars = 0.7
 
-    df2 = data.copy()
-    for timestamp in df2:
-        df2[timestamp] = df2[timestamp]["all"].sum()
+    fig, axs = plt.subplots(1, 2, layout="constrained", figsize=(9, 4.5))
 
-    ax2.plot(df2.keys(), df2.values(), label="Suma wystąpień identyfikatorów")
+    axs[0].set_ylabel("Liczba")
+    axs[0].set_title("Liczba różnych identyfikatorów")
 
-    fig.legend(loc="upper left")
-    fig.savefig(os.path.join(path_out, "project_size_plot.jpg"))
+    p = axs[0].bar(df.keys(), number_of_names, width_of_bars)
+    axs[0].bar_label(p, label_type="center", fmt=lambda x: f"{x:.0f}")
+
+    axs[1].set_ylabel("Liczba")
+    axs[1].set_title("Suma wystąpień identyfikatorów")
+
+    p = axs[1].bar(df.keys(), sum_of_occurences, width_of_bars)
+    axs[1].bar_label(p, label_type="center", fmt=lambda x: f"{x:.0f}")
+
+    fig.savefig(os.path.join(path_out, "project_size_plot.png"), dpi=300, format="png")
 
 
 def make_classes_in_notations_plot(data: dict, path_out: str):
@@ -88,13 +86,13 @@ def make_classes_in_notations_plot(data: dict, path_out: str):
             value.append(0)
 
         for row in df[timestamp].itertuples():
-            if not np.isnan(row[4]):
+            if not np.isnan(row["class_def"]):
                 n_of_classes += 1
-                if row[12] in good_notations:
-                    good_notations[row[12]][-1] += 1
+                if row["naming_style"] in good_notations:
+                    good_notations[row["naming_style"]][-1] += 1
                 else:
-                    bad_notations[row[12]][-1] += 1
-        
+                    bad_notations[row["naming_style"]][-1] += 1
+
         for value in good_notations.values():
             value[-1] = value[-1] * 100 / n_of_classes
 
@@ -123,17 +121,16 @@ def make_classes_in_notations_plot(data: dict, path_out: str):
     for notation, procents in good_notations.items():
         p = axs[0].bar(df.keys(), procents, width_of_bars, label=notation, bottom=bottom, color=colours[notation])
         bottom += procents
-        axs[0].bar_label(p, label_type='center', fmt=lambda x: f"{x:.2f}%" if(x > 0) else "")
+        axs[0].bar_label(p, label_type="center", fmt=lambda x: f"{x:.2f}%" if(x > 0) else "")
 
     axs[1].set_ylabel("Liczba")
     axs[1].set_title("Identyfikatory klas poza dobrą notacją")
-    # axs[1].yaxis.set_major_locator(plt.MultipleLocator(1))
 
     bottom = np.zeros(len(df.keys()))
     for notation, numbers in bad_notations.items():
         p = axs[1].bar(df.keys(), numbers, width_of_bars, label=notation, bottom=bottom, color=colours[notation])
         bottom += numbers
-        axs[1].bar_label(p, label_type='center', fmt=lambda x: f"{x:.0f}" if(x > 0) else "")
+        axs[1].bar_label(p, label_type="center", fmt=lambda x: f"{x:.0f}" if(x > 0) else "")
 
     fig.legend(loc="outside lower center", reverse=True, ncols=3)
     fig.savefig(os.path.join(path_out, "classes_in_notations_plot.png"), dpi=300, format="png")
@@ -145,7 +142,7 @@ def make_functions_in_notations_plot(data: dict, path_out: str):
     good_notations = {"lower_case_with_underscores": [], "lowercase": [], "b": []}
     bad_notations = {"ugly": [], "B": [], "UPPER_CASE_WITH_UNDERSCORES": [],
                      "Capitalized_Words_With_Underscores": [], "camel_Snake_Case": [], "dash-case": [],
-                     "COBOL-CASE": [], "UPPERCASE": [], "CapitalizedWords": [], "mixedCase": []} 
+                     "COBOL-CASE": [], "UPPERCASE": [], "CapitalizedWords": [], "mixedCase": []}
 
     for timestamp in df:
         n_of_functions = 0
@@ -155,13 +152,13 @@ def make_functions_in_notations_plot(data: dict, path_out: str):
             value.append(0)
 
         for row in df[timestamp].itertuples():
-            if not np.isnan(row[3]):
+            if not np.isnan(row["function_def"]):
                 n_of_functions += 1
-                if row[12] in good_notations:
-                    good_notations[row[12]][-1] += 1
+                if row["naming_style"] in good_notations:
+                    good_notations[row["naming_style"]][-1] += 1
                 else:
-                    bad_notations[row[12]][-1] += 1
-        
+                    bad_notations[row["naming_style"]][-1] += 1
+
         for value in good_notations.values():
             value[-1] = value[-1] * 100 / n_of_functions
 
@@ -190,20 +187,20 @@ def make_functions_in_notations_plot(data: dict, path_out: str):
     for notation, procents in good_notations.items():
         p = axs[0].bar(df.keys(), procents, width_of_bars, label=notation, bottom=bottom, color=colours[notation])
         bottom += procents
-        axs[0].bar_label(p, label_type='center', fmt=lambda x: f"{x:.2f}%" if(x > 0) else "")
+        axs[0].bar_label(p, label_type="center", fmt=lambda x: f"{x:.2f}%" if(x > 0) else "")
 
     axs[1].set_ylabel("Liczba")
     axs[1].set_title("Identyfikatory funkcji poza dobrą notacją")
-    # axs[1].yaxis.set_major_locator(plt.MultipleLocator(1))
 
     bottom = np.zeros(len(df.keys()))
     for notation, numbers in bad_notations.items():
         p = axs[1].bar(df.keys(), numbers, width_of_bars, label=notation, bottom=bottom, color=colours[notation])
         bottom += numbers
-        axs[1].bar_label(p, label_type='center', fmt=lambda x: f"{x:.0f}" if(x > 0) else "")
+        axs[1].bar_label(p, label_type="center", fmt=lambda x: f"{x:.0f}" if(x > 0) else "")
 
     fig.legend(loc="outside lower center", reverse=True, ncols=3)
     fig.savefig(os.path.join(path_out, "functions_in_notations_plot.png"), dpi=300, format="png")
+
 
 def make_classes_with_noun_plot(data: dict, path_out: str):
     df = data.copy()
@@ -216,11 +213,11 @@ def make_classes_with_noun_plot(data: dict, path_out: str):
         n_of_classes_with_noun = 0
 
         for row in df[timestamp].itertuples():
-            if not np.isnan(row[4]):
+            if not np.isnan(row["class_def"]):
                 n_of_classes += 1
-                if has_part_of_speech(row[13], "n"):
+                if has_part_of_speech(row["name"], "n"):
                     n_of_classes_with_noun += 1
-        
+
         classes_with_noun_in_procents.append(n_of_classes_with_noun * 100 / n_of_classes)
         classes_without_noun_in_numbers.append(n_of_classes - n_of_classes_with_noun)
 
@@ -232,150 +229,123 @@ def make_classes_with_noun_plot(data: dict, path_out: str):
     axs[0].set_title("Identyfikatory klas zawierające rzeczownik")
 
     p = axs[0].bar(df.keys(), classes_with_noun_in_procents, width_of_bars)
-    axs[0].bar_label(p, label_type='center', fmt=lambda x: f"{x:.2f}%")
+    axs[0].bar_label(p, label_type="center", fmt=lambda x: f"{x:.2f}%")
 
     axs[1].set_ylabel("Liczba")
     axs[1].set_title("Identyfikatory klas nie zawierające rzeczownika")
 
     p = axs[1].bar(df.keys(), classes_without_noun_in_numbers, width_of_bars)
-    axs[1].bar_label(p, label_type='center', fmt=lambda x: f"{x:.0f}")
+    axs[1].bar_label(p, label_type="center", fmt=lambda x: f"{x:.0f}")
 
     fig.savefig(os.path.join(path_out, "classes_with_noun_plot.png"), dpi=300, format="png")
 
 
+def make_functions_with_verb_plot(data: dict, path_out: str):
+    df = data.copy()
+
+    functions_with_verb_in_procents = []
+    functions_without_verb_in_numbers = []
+
+    for timestamp in df:
+        n_of_functions = 0
+        n_of_functions_with_verb = 0
+
+        for row in df[timestamp].itertuples():
+            if not np.isnan(row["function_def"]):
+                n_of_functions += 1
+                if has_part_of_speech(row["name"], "v"):
+                    n_of_functions_with_verb += 1
+
+        functions_with_verb_in_procents.append(n_of_functions_with_verb * 100 / n_of_functions)
+        functions_without_verb_in_numbers.append(n_of_functions - n_of_functions_with_verb)
+
+    width_of_bars = 0.7
+
+    fig, axs = plt.subplots(1, 2, layout="constrained", figsize=(9, 4.5))
+
+    axs[0].set_ylabel("Procent")
+    axs[0].set_title("Identyfikatory funkcji zawierające czasownik")
+
+    p = axs[0].bar(df.keys(), functions_with_verb_in_procents, width_of_bars)
+    axs[0].bar_label(p, label_type="center", fmt=lambda x: f"{x:.2f}%")
+
+    axs[1].set_ylabel("Liczba")
+    axs[1].set_title("Identyfikatory funkcji nie zawierające czasownika")
+
+    p = axs[1].bar(df.keys(), functions_without_verb_in_numbers, width_of_bars)
+    axs[1].bar_label(p, label_type="center", fmt=lambda x: f"{x:.0f}")
+
+    fig.savefig(os.path.join(path_out, "functions_with_verb_plot.png"), dpi=300, format="png")
+
+
+def make_words_to_avoid_plot(data: dict, path_out: str):
+    df = data.copy()
+
+    words_to_avoid = ["klass", "clss", "classs"]
+    names_to_avoid = ["l", "O", "I"]
+
+    bad_names_in_procent = []
+    bad_names_in_numbers = []
+
+
+    for timestamp in df:
+        n_of_bad_names = 0
+        for row in df[timestamp].itertuples():
+            if str(row["name"]) in names_to_avoid:
+                n_of_bad_names += 1
+                continue
+
+            for word in split_to_words(row["name"]):
+                if word in words_to_avoid:
+                    n_of_bad_names += 1
+                    break
+
+        bad_names_in_procent.append(n_of_bad_names * 100 / len(df[timestamp]))
+        bad_names_in_numbers.append(n_of_bad_names)
+
+    width_of_bars = 0.7
+
+    fig, axs = plt.subplots(1, 2, layout="constrained", figsize=(9, 4.5))
+
+    axs[0].set_ylabel("Procent")
+    axs[0].set_title("Identyfikatory zawierające omijane słowa")
+
+    p = axs[0].bar(df.keys(), bad_names_in_procent, width_of_bars)
+    axs[0].bar_label(p, label_type="center", fmt=lambda x: f"{x:.2f}%")
+
+    axs[1].set_ylabel("Liczba")
+    axs[1].set_title("Identyfikatory zawierające omijane słowa")
+
+    p = axs[1].bar(df.keys(), bad_names_in_numbers, width_of_bars)
+    axs[1].bar_label(p, label_type="center", fmt=lambda x: f"{x:.0f}")
+
+    fig.savefig(os.path.join(path_out, "words_to_avoid_plot.png"), dpi=300, format="png")
+
+
 def make_mean_len_plot(data: dict, path_out: str):
-    fig,ax = plt.subplots()
-    ax.set_xlabel("Czas")
-    ax.set_ylabel("Liczba liter")
-
-    df1 = data.copy()
-    for x in df1:
-        df1[x] = df1[x]["len"].mean()
-
-    ax.plot(df1.keys(), df1.values(), color="red", label="Średnia długość identyfikatora")
-    
-    ax2 = ax.twinx()
-    ax2.set_ylabel("Liczba członów")
-
-    df2 = data.copy()
-    for x in df2:
-        df2[x]["n_of_words"] = df2[x]["words"].apply(lambda x: str(x).count(",") + 1)
-        df2[x] = df2[x]["n_of_words"].mean()
-
-    ax2.plot(df2.keys(), df2.values(), label="Średnia liczba członów w identyfikatorze")
-    
-    fig.legend()
-    fig.savefig(os.path.join(path_out, "maen_len_plot.jpg"))
-
-
-def make_procent_of_functions_with_verb_plot(data: dict, path_out: str):
-    fig,ax = plt.subplots()
-    ax.set_xlabel("Czas")
-    ax.set_ylabel("Procent")
-
     df = data.copy()
-    for x in df:
-        n_of_function = 0
-        n_of_function_with_verb = 0
-        for row in df[x].itertuples():
-            if not np.isnan(row[3]):
-                n_of_function += 1
-                # print(str(row))
-                for word in str(row[13]).strip("[']").split("', '"):
-                    tag = nltk.pos_tag([word])[0][1]
-                    if tag.startswith("VB"):
-                        # print(word + " - " + tag)
-                        n_of_function_with_verb += 1
-                        break
-                    # else:
-                        # print("Nie: " + word + " - " + tag)
-            # if n_of_class_with_noun >= 10:
-            #     return
-                # print (str(str(row[13]).split(", ")))
-        df[x] = n_of_function_with_verb * 100 / n_of_function
 
-    ax.plot(df.keys(), df.values(), label="Procent identyfikatorów funkcji zawierających czasownik")
-    
-    fig.legend()
-    fig.savefig(os.path.join(path_out, "procent_of_functions_with_verb_plot.jpg"))
+    mean_len = []
+    mean_number_of_words = []
 
+    for timestamp in df:
+        mean_len.append(df[timestamp]["len"].mean())
+        mean_number_of_words.append(df[timestamp]["words"].apply(lambda x: str(x).count(",") + 1).mean())
 
-def make_number_of_functions_with_verb_plot(data: dict, path_out: str):
-    fig,ax = plt.subplots()
-    ax.set_xlabel("Czas")
-    ax.set_ylabel("Liczba")
+    width_of_bars = 0.7
 
-    df = data.copy()
-    for x in df:
-        n_of_function_with_verb = 0
-        for row in df[x].itertuples():
-            if not np.isnan(row[3]):
-                # print(str(row))
-                for word in str(row[13]).strip("[']").split("', '"):
-                    tag = nltk.pos_tag([word])[0][1]
-                    if tag.startswith("VB"):
-                        # print(word + " - " + tag)
-                        n_of_function_with_verb += 1
-                        break
-                    # else:
-                        # print("Nie: " + word + " - " + tag)
-            # if n_of_class_with_noun >= 10:
-            #     return
-                # print (str(str(row[13]).split(", ")))
-        df[x] = n_of_function_with_verb
+    fig, axs = plt.subplots(1, 2, layout="constrained", figsize=(9, 4.5))
 
-    ax.plot(df.keys(), df.values(), label="Liczba identyfikatorów funkcji zawierających czasownik")
-    
-    fig.legend()
-    fig.savefig(os.path.join(path_out, "number_of_functions_with_verb_plot.jpg"))
+    axs[0].set_ylabel("Liczba liter")
+    axs[0].set_title("Średnia długość identyfikatora")
 
+    p = axs[0].bar(df.keys(), mean_len, width_of_bars)
+    axs[0].bar_label(p, label_type="center", fmt=lambda x: f"{x:.3f}")
 
-def make_words_to_avoid_in_procents_plot(data: dict, path_out: str):
-    words_to_avoid = ["klass", "clss"]
+    axs[1].set_ylabel("Liczba członów")
+    axs[1].set_title("Średnia liczba członów w identyfikatorze")
 
-    fig,ax = plt.subplots()
-    ax.set_xlabel("Czas")
-    ax.set_ylabel("Procent")
+    p = axs[1].bar(df.keys(), mean_number_of_words, width_of_bars)
+    axs[1].bar_label(p, label_type="center", fmt=lambda x: f"{x:.3f}")
 
-    df = data.copy()
-    for x in df:
-        n_of_bad_names = 0
-        for row in df[x].itertuples():
-            for word in str(row[13]).strip("[']").split("', '"):
-                if word in words_to_avoid:
-                    n_of_bad_names += 1
-                    break
-
-        df[x] = n_of_bad_names * 100 / len(df[x])
-
-    ax.plot(df.keys(), df.values(), label="Procent identyfikatorów ze słowami do omijania")
-    
-    fig.legend()
-    fig.savefig(os.path.join(path_out, "words_to_avoid_in_procents_plot.jpg"))
-
-
-def make_number_of_words_to_avoid_plot(data: dict, path_out: str):
-    words_to_avoid = ["klass", "clss"]
-
-    fig,ax = plt.subplots()
-    ax.set_xlabel("Czas")
-    ax.set_ylabel("Liczba")
-
-    df = data.copy()
-    for x in df:
-        n_of_bad_names = 0
-        for row in df[x].itertuples():
-            for word in str(row[13]).strip("[']").split("', '"):
-                if word in words_to_avoid:
-                    n_of_bad_names += 1
-                    break
-
-        df[x] = n_of_bad_names
-
-    ax.plot(df.keys(), df.values(), label="Liczba identyfikatorów ze słowami do omijania")
-    
-    fig.legend()
-    fig.savefig(os.path.join(path_out, "number_of_words_to_avoid_plot.jpg"))
-
-    
-
+    fig.savefig(os.path.join(path_out, "maen_len_plot.png"), dpi=300, format="png")

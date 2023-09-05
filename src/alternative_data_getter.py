@@ -11,8 +11,8 @@ from datetime import datetime
 from statisctics_library import *
 
 
-FIELD_NAMES = ["name", "all", "function def", "class def", "import", "exception", "param", "keyword", "alias",
-               "object decl", "object", "naming_style", "words"]
+FIELD_NAMES = ["name", "all", "function_def", "class_def", "import_module_or_alias", "exception", "param", "keyword",
+               "alias", "object_decl", "object", "naming_style"]
 PYTHON_EXTENSION = ".py"
 LOG_FILE_NAME = "./log.txt"
 
@@ -74,21 +74,21 @@ class NamesCounter(ast.NodeVisitor):
         super(NamesCounter, self).__init__()
 
     def visit_FunctionDef(self, node):
-        add_name_with_kind_to_stats(node.name, "function def", self.stats_dictionary)
+        add_name_with_kind_to_stats(node.name, "function_def", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_ClassDef(self, node):
-        add_name_with_kind_to_stats(node.name, "class def", self.stats_dictionary)
+        add_name_with_kind_to_stats(node.name, "class_def", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_ImportFrom(self, node):
         if node.module:
-            add_name_with_kind_to_stats(node.module, "import", self.stats_dictionary)
+            add_name_with_kind_to_stats(node.module, "import_module_or_alias", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_Global(self, node):
         for name in node.names:
-            add_name_with_kind_to_stats(name, "object decl", self.stats_dictionary)
+            add_name_with_kind_to_stats(name, "object_decl", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_Attribute(self, node):
@@ -109,7 +109,7 @@ class NamesCounter(ast.NodeVisitor):
         return self.generic_visit(node)
 
     def visit_alias(self, node):
-        add_name_with_kind_to_stats(node.name, "import", self.stats_dictionary)
+        add_name_with_kind_to_stats(node.name, "import_module_or_alias", self.stats_dictionary)
         if node.asname:
             add_name_with_kind_to_stats(node.asname, "alias", self.stats_dictionary)
         return self.generic_visit(node)

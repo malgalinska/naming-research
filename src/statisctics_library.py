@@ -23,8 +23,7 @@ def add_name_with_kind_to_stats(name, kind, stats_dictionary):
 
     if name not in stats_dictionary:
         stats_dictionary[name] = {"all": 0}
-        stats_dictionary[name]["naming_style"] = style(name)
-        stats_dictionary[name]["words"] = split_to_words(name)
+        stats_dictionary[name]["naming_style"] = specify_style(name)
 
     stats_dictionary[name]["all"] += 1
 
@@ -37,7 +36,7 @@ def add_name_with_kind_to_stats(name, kind, stats_dictionary):
 
 
 # Określenie notacji identyfikatora
-def style(name):
+def specify_style(name):
     name = name.strip("_")
     if not name:
         return "ugly"
@@ -106,8 +105,8 @@ def split_to_words(name):
 
 # Sprawdzanie, czy któryś z członów identyfikatora jest podaną częścią mowy
 # Przyjmuje wartości pos: v - verb, n - noun, a - adjective, r - adverb, s - adjective satellite
-def has_part_of_speech(words, pos):
-    for word in str(words).strip("[']").split("', '"):
+def has_part_of_speech(name, pos):
+    for word in split_to_words(name):
         if is_part_of_speech(word, pos):
             return True
     return False
@@ -115,8 +114,10 @@ def has_part_of_speech(words, pos):
 
 # Sprawdzanie, czy dane słowo może być użyte jako dana część mowy
 def is_part_of_speech(word, pos):
-    list_of_synsets = list(filter(lambda x: x.name().split(".")[0] == wn.morphy(word), wn.synsets(word)))
+    if word == "task" and pos == "n":
+        return True
 
+    list_of_synsets = list(filter(lambda x: x.name().split(".")[0] == wn.morphy(word), wn.synsets(word)))
     if not list_of_synsets:
         return True
 

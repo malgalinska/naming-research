@@ -11,8 +11,8 @@ from datetime import datetime
 from statisctics_library import *
 
 
-FIELD_NAMES = ["name", "all", "function def", "class def", "import", "exception", "param", "keyword", "alias",
-               "object decl", "object", "naming_style", "words"]
+FIELD_NAMES = ["name", "all", "function_def", "class_def", "import_module_or_alias", "exception", "param", "keyword",
+               "alias", "object_decl", "object", "naming_style"]
 PYTHON_EXTENSION = ".py"
 LOG_FILE_NAME = "./log.txt"
 
@@ -75,30 +75,30 @@ class NamesCounter(ast.NodeVisitor):
         super().__init__()
 
     def visit_FunctionDef(self, node: ast.FunctionDef):
-        add_name_with_kind_to_stats(node.name, "function def", self.stats_dictionary)
+        add_name_with_kind_to_stats(node.name, "function_def", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_AsyncFunctionDef(self, node: ast.AsyncFunctionDef):
-        add_name_with_kind_to_stats(node.name, "function def", self.stats_dictionary)
+        add_name_with_kind_to_stats(node.name, "function_def", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_ClassDef(self, node: ast.ClassDef):
-        add_name_with_kind_to_stats(node.name, "class def", self.stats_dictionary)
+        add_name_with_kind_to_stats(node.name, "class_def", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_ImportFrom(self, node: ast.ImportFrom):
         if node.module:
-            add_name_with_kind_to_stats(node.module, "import", self.stats_dictionary)
+            add_name_with_kind_to_stats(node.module, "import_module_or_alias", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_Global(self, node: ast.Global):
         for name in node.names:
-            add_name_with_kind_to_stats(name, "object decl", self.stats_dictionary)
+            add_name_with_kind_to_stats(name, "object_decl", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_Nonlocal(self, node: ast.Nonlocal):
         for name in node.names:
-            add_name_with_kind_to_stats(name, "object decl", self.stats_dictionary)
+            add_name_with_kind_to_stats(name, "object_decl", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_Attribute(self, node: ast.Attribute):
@@ -124,14 +124,14 @@ class NamesCounter(ast.NodeVisitor):
         return self.generic_visit(node)
 
     def visit_alias (self, node: ast.alias):
-        add_name_with_kind_to_stats(node.name, "import", self.stats_dictionary)
+        add_name_with_kind_to_stats(node.name, "import_module_or_alias", self.stats_dictionary)
         if node.asname:
             add_name_with_kind_to_stats(node.asname, "alias", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_MatchMapping(self, node: ast.MatchMapping):
         if node.rest:
-            add_name_with_kind_to_stats(node.rest, "object decl", self.stats_dictionary)
+            add_name_with_kind_to_stats(node.rest, "object_decl", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_MatchClass(self, node: ast.MatchClass):
@@ -141,12 +141,12 @@ class NamesCounter(ast.NodeVisitor):
 
     def visit_MatchStar(self, node: ast.MatchStar):
         if node.name:
-            add_name_with_kind_to_stats(node.name, "object decl", self.stats_dictionary)
+            add_name_with_kind_to_stats(node.name, "object_decl", self.stats_dictionary)
         return self.generic_visit(node)
 
     def visit_MatchAs(self, node: ast.MatchAs):
         if node.name:
-            add_name_with_kind_to_stats(node.name, "object decl", self.stats_dictionary)
+            add_name_with_kind_to_stats(node.name, "object_decl", self.stats_dictionary)
         return self.generic_visit(node)
 
 
