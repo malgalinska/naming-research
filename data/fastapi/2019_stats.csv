@@ -1,1000 +1,1000 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
-fastapi,159,,,159,,,,,,,lowercase,['fastapi']
-FastAPI,212,,1,106,,,,,,105,CapitalizedWords,"['fast', 'ap', 'i']"
-app,345,1,,30,,,,,,314,lowercase,['app']
-title,62,,,,,12,25,,,25,lowercase,['title']
-description,145,,,,,31,35,,,79,lowercase,['description']
-version,12,,,,,2,4,,,6,lowercase,['version']
-read_items,40,40,,,,,,,,,lower_case_with_underscores,"['read', 'items']"
-get,229,2,,,,,,,,227,lowercase,['get']
-openapi_url,19,,,,,3,4,,,12,lower_case_with_underscores,"['openapi', 'url']"
-docs_url,7,,,,,1,1,,,5,lower_case_with_underscores,"['docs', 'url']"
-redoc_url,7,,,,,1,1,,,5,lower_case_with_underscores,"['redoc', 'url']"
-routers,2,,,2,,,,,,,lowercase,['routers']
-tutorial001,16,,,16,,,,,,,lowercase,['tutorial001']
-router,29,,,2,,2,,,,25,lowercase,['router']
-users_router,2,,,,,,,1,,1,lower_case_with_underscores,"['users', 'router']"
-tutorial002,2,,,2,,,,,,,lowercase,['tutorial002']
-items_router,2,,,,,,,1,,1,lower_case_with_underscores,"['items', 'router']"
-include_router,6,2,,,,,,,,4,lower_case_with_underscores,"['include', 'router']"
-prefix,11,,,,,2,2,,,7,lowercase,['prefix']
-APIRouter,11,,1,4,,,,,,6,CapitalizedWords,"['api', 'router']"
-read_users,4,4,,,,,,,,,lower_case_with_underscores,"['read', 'users']"
-read_user_me,1,1,,,,,,,,,lower_case_with_underscores,"['read', 'user', 'me']"
-read_user,3,3,,,,,,,,,lower_case_with_underscores,"['read', 'user']"
-username,74,,,,,11,12,,,51,lowercase,['username']
-str,632,,,,,,,,,632,lowercase,['str']
-read_item,7,7,,,,,,,,,lower_case_with_underscores,"['read', 'item']"
-item_id,129,,,,,63,,,,66,lower_case_with_underscores,"['item', 'id']"
-pydantic,76,,,76,,,,,,,lowercase,['pydantic']
-BaseModel,162,,,49,,,,,,113,CapitalizedWords,"['base', 'model']"
-Item,64,,28,,,,,,,36,CapitalizedWords,['item']
-name,181,,,,,32,39,,,110,lowercase,['name']
-price,29,,,,,,,,,29,lowercase,['price']
-float,104,,,,,,,,,104,lowercase,['float']
-tax,26,,,,,,,,,26,lowercase,['tax']
-create_item,10,10,,,,,,,,,lower_case_with_underscores,"['create', 'item']"
-item,74,,,,,26,,,,48,lowercase,['item']
-post,47,2,,,,,,,,45,lowercase,['post']
-item_dict,3,,,,,,,,,3,lower_case_with_underscores,"['item', 'dict']"
-dict,12,,,,,,,,,12,lowercase,['dict']
-price_with_tax,2,,,,,,,,,2,lower_case_with_underscores,"['price', 'with', 'tax']"
-update,45,,,,,,,,,45,lowercase,['update']
-int,104,,,,,,,,,104,lowercase,['int']
-put,26,2,,,,,,,,24,lowercase,['put']
-q,98,,,,,32,,,,66,b,['q']
-result,9,,,,,,,,,9,lowercase,['result']
-Path,44,,1,11,,,,,,32,CapitalizedWords,['path']
-update_item,13,13,,,,,,,,,lower_case_with_underscores,"['update', 'item']"
-ge,31,,,,,8,15,,,8,lowercase,['ge']
-le,31,,,,,8,15,,,8,lowercase,['le']
-results,77,,,,,,,,,77,lowercase,['results']
-User,42,,14,,,,,,,28,CapitalizedWords,['user']
-full_name,19,,,,,,1,,,18,lower_case_with_underscores,"['full', 'name']"
-user,49,,,,,6,,,,43,lowercase,['user']
-Body,23,,1,9,,,,,,13,CapitalizedWords,['body']
-importance,4,,,,,2,,,,2,lowercase,['importance']
-gt,33,,,,,8,17,,,8,lowercase,['gt']
-embed,10,,,,,1,3,,,6,lowercase,['embed']
-tags,88,,,,,21,27,,,40,lowercase,['tags']
-list,6,,,,,,,,,6,lowercase,['list']
-typing,33,,,33,,,,,,,lowercase,['typing']
-List,93,,,16,,,,,,77,CapitalizedWords,['list']
-Set,31,,,14,,,,,,17,CapitalizedWords,['set']
-set,5,,,,,,,,,5,lowercase,['set']
-Image,10,,5,,,,,,,5,CapitalizedWords,['image']
-url,13,,,,,,,,,13,lowercase,['url']
-image,4,,,,,,,,,4,lowercase,['image']
-types,11,,,11,,,,,,,lowercase,['types']
-UrlStr,14,,,5,,,,,,9,CapitalizedWords,"['url', 'str']"
-Offer,2,,1,,,,,,,1,CapitalizedWords,['offer']
-items,16,,,,,1,,,,15,lowercase,['items']
-create_offer,1,1,,,,,,,,,lower_case_with_underscores,"['create', 'offer']"
-offer,2,,,,,1,,,,1,lowercase,['offer']
-create_multiple_images,1,1,,,,,,,,,lower_case_with_underscores,"['create', 'multiple', 'images']"
-images,2,,,,,1,,,,1,lowercase,['images']
-Schema,19,,1,6,,,,,,12,CapitalizedWords,['schema']
-max_length,31,,,,,8,15,,,8,lower_case_with_underscores,"['max', 'length']"
-example,4,,,,,,1,,,3,lowercase,['example']
-Cookie,7,,1,4,,,,,,2,CapitalizedWords,['cookie']
-ads_id,2,,,,,1,,,,1,lower_case_with_underscores,"['ads', 'id']"
-starlette,91,,,91,,,,,,,lowercase,['starlette']
-responses,13,,,11,,,,,,2,lowercase,['responses']
-UJSONResponse,2,,,1,,,,,,1,CapitalizedWords,"['ujson', 'response']"
-content_type,75,,,,,22,25,,,28,lower_case_with_underscores,"['content', 'type']"
-HTMLResponse,13,,,5,,,,,,8,CapitalizedWords,"['html', 'response']"
-html_content,4,,,,,,,,,4,lower_case_with_underscores,"['html', 'content']"
-content,8,,,,,,3,,,5,lowercase,['content']
-status_code,225,,,,,22,49,,,154,lower_case_with_underscores,"['status', 'code']"
-generate_html_response,2,1,,,,,,,,1,lower_case_with_underscores,"['generate', 'html', 'response']"
-Depends,46,,1,16,,,,,,29,CapitalizedWords,['depends']
-common_parameters,3,1,,,,,,,,2,lower_case_with_underscores,"['common', 'parameters']"
-skip,22,,,,,6,,,,16,lowercase,['skip']
-limit,18,,,,,6,,,,12,lowercase,['limit']
-commons,22,,,,,5,,,,17,lowercase,['commons']
-fake_items_db,8,,,,,,,,,8,lower_case_with_underscores,"['fake', 'items', 'db']"
-CommonQueryParams,7,,3,,,,,,,4,CapitalizedWords,"['common', 'query', 'params']"
-response,392,,,,,1,1,,,390,lowercase,['response']
-query_extractor,2,1,,,,,,,,1,lower_case_with_underscores,"['query', 'extractor']"
-query_or_cookie_extractor,2,1,,,,,,,,1,lower_case_with_underscores,"['query', 'or', 'cookie', 'extractor']"
-last_query,2,,,,,1,,,,1,lower_case_with_underscores,"['last', 'query']"
-read_query,1,1,,,,,,,,,lower_case_with_underscores,"['read', 'query']"
-query_or_default,2,,,,,1,,,,1,lower_case_with_underscores,"['query', 'or', 'default']"
-FixedContentQueryChecker,2,,1,,,,,,,1,CapitalizedWords,"['fixed', 'content', 'query', 'checker']"
-fixed_content,4,,,,,1,,,,3,lower_case_with_underscores,"['fixed', 'content']"
-checker,2,,,,,,,,,2,lowercase,['checker']
-read_query_check,1,1,,,,,,,,,lower_case_with_underscores,"['read', 'query', 'check']"
-fixed_content_included,2,,,,,1,,,,1,lower_case_with_underscores,"['fixed', 'content', 'included']"
-bool,82,,,,,,,,,82,lowercase,['bool']
-datetime,14,,,8,,,,,,6,lowercase,['datetime']
-time,4,,,2,,,,,,2,lowercase,['time']
-timedelta,8,,,3,,,,,,5,lowercase,['timedelta']
-uuid,3,,,3,,,,,,,lowercase,['uuid']
-UUID,6,,,3,,,,,,3,UPPERCASE,"['uui', 'd']"
-start_datetime,3,,,,,1,,,,2,lower_case_with_underscores,"['start', 'datetime']"
-end_datetime,3,,,,,1,,,,2,lower_case_with_underscores,"['end', 'datetime']"
-repeat_at,2,,,,,1,,,,1,lower_case_with_underscores,"['repeat', 'at']"
-process_after,3,,,,,1,,,,2,lower_case_with_underscores,"['process', 'after']"
-start_process,3,,,,,,,,,3,lower_case_with_underscores,"['start', 'process']"
-duration,2,,,,,,,,,2,lowercase,['duration']
-EmailStr,14,,1,5,,,,,,8,CapitalizedWords,"['email', 'str']"
-UserIn,11,,4,,,,,,,7,CapitalizedWords,"['user', 'in']"
-password,35,,,,,6,5,,,24,lowercase,['password']
-email,14,,,,,,1,,,13,lowercase,['email']
-UserOut,8,,4,,,,,,,4,CapitalizedWords,"['user', 'out']"
-UserInDB,13,,6,,,,,,,7,CapitalizedWords,"['user', 'in', 'd', 'b']"
-hashed_password,18,,,,,1,2,,,15,lower_case_with_underscores,"['hashed', 'password']"
-fake_password_hasher,4,2,,,,,,,,2,lower_case_with_underscores,"['fake', 'password', 'hasher']"
-raw_password,4,,,,,2,,,,2,lower_case_with_underscores,"['raw', 'password']"
-fake_save_user,4,2,,,,,,,,2,lower_case_with_underscores,"['fake', 'save', 'user']"
-user_in,10,,,,,4,,,,6,lower_case_with_underscores,"['user', 'in']"
-user_in_db,4,,,,,,,,,4,lower_case_with_underscores,"['user', 'in', 'db']"
-print,11,,,,,,,,,11,lowercase,['print']
-create_user,4,4,,,,,,,,,lower_case_with_underscores,"['create', 'user']"
-user_saved,4,,,,,,,,,4,lower_case_with_underscores,"['user', 'saved']"
-response_model,85,,,1,,21,38,,,25,lower_case_with_underscores,"['response', 'model']"
-UserBase,4,,1,,,,,,,3,CapitalizedWords,"['user', 'base']"
-root,3,3,,,,,,,,,lowercase,['root']
-my_awesome_api,2,,,,,,,,,2,lower_case_with_underscores,"['my', 'awesome', 'api']"
-Header,12,,2,4,,,,,,6,CapitalizedWords,['header']
-user_agent,2,,,,,1,,,,1,lower_case_with_underscores,"['user', 'agent']"
-strange_header,2,,,,,1,,,,1,lower_case_with_underscores,"['strange', 'header']"
-convert_underscores,4,,,,,1,1,,,2,lower_case_with_underscores,"['convert', 'underscores']"
-Optional,168,,,7,,,,,,161,CapitalizedWords,['optional']
-couchbase,3,,,3,,,,,,,lowercase,['couchbase']
-LOCKMODE_WAIT,2,,,1,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['lockmode', 'wait']"
-bucket,10,,,1,,1,1,,,7,lowercase,['bucket']
-Bucket,3,,,1,,,,,,2,CapitalizedWords,['bucket']
-cluster,4,,,1,,,,,,3,lowercase,['cluster']
-Cluster,2,,,1,,,,,,1,CapitalizedWords,['cluster']
-PasswordAuthenticator,2,,,1,,,,,,1,CapitalizedWords,"['password', 'authenticator']"
-USERPROFILE_DOC_TYPE,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['userprofile', 'doc', 'type']"
-get_bucket,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'bucket']"
-authenticator,2,,,,,,,,,2,lowercase,['authenticator']
-authenticate,1,,,,,,,,,1,lowercase,['authenticate']
-open_bucket,1,,,,,,,,,1,lower_case_with_underscores,"['open', 'bucket']"
-lockmode,1,,,,,,1,,,,lowercase,['lockmode']
-timeout,1,,,,,,,,,1,lowercase,['timeout']
-n1ql_timeout,1,,,,,,,,,1,lower_case_with_underscores,"['n1ql', 'timeout']"
-disabled,6,,,,,,,,,6,lowercase,['disabled']
-type,4,,,,,,,,,4,lowercase,['type']
-get_user,9,4,,,,,,,,5,lower_case_with_underscores,"['get', 'user']"
-doc_id,2,,,,,,,,,2,lower_case_with_underscores,"['doc', 'id']"
-quiet,1,,,,,,1,,,,lowercase,['quiet']
-value,24,,,,,,,,,24,lowercase,['value']
-operation_id,74,,,,,21,22,,,31,lower_case_with_underscores,"['operation', 'id']"
-include_in_schema,72,,,,,21,26,,,25,lower_case_with_underscores,"['include', 'in', 'schema']"
-status,9,,,9,,,,,,,lowercase,['status']
-HTTP_201_CREATED,2,,,1,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['http', '201', 'created']"
-summary,73,,,,,21,24,,,28,lowercase,['summary']
-response_description,67,,,,,21,22,,,24,lower_case_with_underscores,"['response', 'description']"
-read_elements,1,1,,,,,,,,,lower_case_with_underscores,"['read', 'elements']"
-deprecated,90,,,,,26,28,,,36,lowercase,['deprecated']
-Query,34,,1,15,,,,,,18,CapitalizedWords,['query']
-alias,59,,,,,8,28,,,23,lowercase,['alias']
-size,1,,,,,1,,,,,lowercase,['size']
-lt,30,,,,,8,14,,,8,lowercase,['lt']
-get_full_name,4,2,,,,,,,,2,lower_case_with_underscores,"['get', 'full', 'name']"
-first_name,4,,,,,2,,,,2,lower_case_with_underscores,"['first', 'name']"
-last_name,6,,,,,2,,,,4,lower_case_with_underscores,"['last', 'name']"
-get_name_with_age,2,2,,,,,,,,,lower_case_with_underscores,"['get', 'name', 'with', 'age']"
-age,5,,,,,2,,,,3,lowercase,['age']
-name_with_age,4,,,,,,,,,4,lower_case_with_underscores,"['name', 'with', 'age']"
-get_items,2,2,,,,,,,,,lower_case_with_underscores,"['get', 'items']"
-item_a,2,,,,,1,,,,1,lower_case_with_underscores,"['item', 'a']"
-item_b,2,,,,,1,,,,1,lower_case_with_underscores,"['item', 'b']"
-item_c,2,,,,,1,,,,1,lower_case_with_underscores,"['item', 'c']"
-item_d,3,,,,,1,,,,2,lower_case_with_underscores,"['item', 'd']"
-item_e,2,,,,,1,,,,1,lower_case_with_underscores,"['item', 'e']"
-bytes,4,,,,,,,,,4,lowercase,['bytes']
-process_items,3,3,,,,,,,,,lower_case_with_underscores,"['process', 'items']"
-Tuple,12,,,4,,,,,,8,CapitalizedWords,['tuple']
-items_t,2,,,,,1,,,,1,lower_case_with_underscores,"['items', 't']"
-items_s,2,,,,,1,,,,1,lower_case_with_underscores,"['items', 's']"
-Dict,77,,,6,,,,,,71,CapitalizedWords,['dict']
-prices,2,,,,,1,,,,1,lowercase,['prices']
-item_name,2,,,,,,,,,2,lower_case_with_underscores,"['item', 'name']"
-item_price,2,,,,,,,,,2,lower_case_with_underscores,"['item', 'price']"
-Person,6,,2,,,,,,,4,CapitalizedWords,['person']
-get_person_name,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'person', 'name']"
-one_person,2,,,,,1,,,,1,lower_case_with_underscores,"['one', 'person']"
-id,4,,,,,,,,,4,lowercase,['id']
-signup_ts,1,,,,,,,,,1,lower_case_with_underscores,"['signup', 'ts']"
-friends,1,,,,,,,,,1,lowercase,['friends']
-external_data,2,,,,,,,,,2,lower_case_with_underscores,"['external', 'data']"
-short,4,,,,,2,,,,2,lowercase,['short']
-read_user_item,3,3,,,,,,,,,lower_case_with_underscores,"['read', 'user', 'item']"
-user_id,2,,,,,1,,,,1,lower_case_with_underscores,"['user', 'id']"
-needy,4,,,,,2,,,,2,lowercase,['needy']
-min_length,33,,,,,8,17,,,8,lower_case_with_underscores,"['min', 'length']"
-regex,28,,,,,8,12,,,8,lowercase,['regex']
-File,9,,1,4,,,,,,4,CapitalizedWords,['file']
-create_file,2,2,,,,,,,,,lower_case_with_underscores,"['create', 'file']"
-file,12,,,,,2,,,,10,lowercase,['file']
-len,4,,,,,,,,,4,lowercase,['len']
-Form,27,,1,5,,,,,,21,CapitalizedWords,['form']
-login,2,2,,,,,,,,,lowercase,['login']
-token,16,,,,,8,,,,8,lowercase,['token']
-Security,33,,1,15,,,,,,17,CapitalizedWords,['security']
-security,35,,,25,,,,,,10,lowercase,['security']
-OAuth2PasswordBearer,11,,1,6,,,,,,4,CapitalizedWords,"['o', 'auth2', 'password', 'bearer']"
-oauth2_scheme,8,,,,,,,,,8,lower_case_with_underscores,"['oauth2', 'scheme']"
-tokenUrl,9,,,,,1,4,,,4,mixedCase,"['token', 'url']"
-fake_decode_token,4,2,,,,,,,,2,lower_case_with_underscores,"['fake', 'decode', 'token']"
-get_current_user,16,8,,,,,,,,8,lower_case_with_underscores,"['get', 'current', 'user']"
-read_users_me,3,3,,,,,,,,,lower_case_with_underscores,"['read', 'users', 'me']"
-current_user,24,,,,,11,,,,13,lower_case_with_underscores,"['current', 'user']"
-OAuth2PasswordRequestForm,9,,1,4,,,,,,4,CapitalizedWords,"['o', 'auth2', 'password', 'request', 'form']"
-exceptions,8,,,8,,,,,,,lowercase,['exceptions']
-HTTPException,32,,,8,,,,,,24,CapitalizedWords,"['http', 'exception']"
-fake_users_db,6,,,,,,,,,6,lower_case_with_underscores,"['fake', 'users', 'db']"
-fake_hash_password,2,1,,,,,,,,1,lower_case_with_underscores,"['fake', 'hash', 'password']"
-db,10,,,,,3,,,,7,lowercase,['db']
-user_dict,7,,,,,,,,,7,lower_case_with_underscores,"['user', 'dict']"
-detail,23,,,,,,22,,,1,lowercase,['detail']
-get_current_active_user,5,2,,,,,,,,3,lower_case_with_underscores,"['get', 'current', 'active', 'user']"
-form_data,9,,,,,3,,,,6,lower_case_with_underscores,"['form', 'data']"
-jwt,4,,,2,,,,,,2,lowercase,['jwt']
-PyJWTError,2,,,1,,,,,,1,CapitalizedWords,"['py', 'jwt', 'error']"
-passlib,1,,,1,,,,,,,lowercase,['passlib']
-context,1,,,1,,,,,,,lowercase,['context']
-CryptContext,2,,,1,,,,,,1,CapitalizedWords,"['crypt', 'context']"
-HTTP_403_FORBIDDEN,19,,,5,,,,,,14,UPPER_CASE_WITH_UNDERSCORES,"['http', '403', 'forbidden']"
-SECRET_KEY,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['secret', 'key']"
-ALGORITHM,3,,,,,,,,,3,UPPERCASE,"['algorith', 'm']"
-TOKEN_SUBJECT,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['token', 'subject']"
-ACCESS_TOKEN_EXPIRE_MINUTES,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['access', 'token', 'expire', 'minutes']"
-Token,2,,1,,,,,,,1,CapitalizedWords,['token']
-access_token,5,,,,,,,,,5,lower_case_with_underscores,"['access', 'token']"
-token_type,1,,,,,,,,,1,lower_case_with_underscores,"['token', 'type']"
-TokenPayload,2,,1,,,,,,,1,CapitalizedWords,"['token', 'payload']"
-pwd_context,3,,,,,,,,,3,lower_case_with_underscores,"['pwd', 'context']"
-schemes,1,,,,,,1,,,,lowercase,['schemes']
-verify_password,2,1,,,,,,,,1,lower_case_with_underscores,"['verify', 'password']"
-plain_password,2,,,,,1,,,,1,lower_case_with_underscores,"['plain', 'password']"
-verify,1,,,,,,,,,1,lowercase,['verify']
-get_password_hash,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'password', 'hash']"
-hash,1,,,,,,,,,1,lowercase,['hash']
-authenticate_user,2,1,,,,,,,,1,lower_case_with_underscores,"['authenticate', 'user']"
-fake_db,2,,,,,1,,,,1,lower_case_with_underscores,"['fake', 'db']"
-create_access_token,2,1,,,,,,,,1,lower_case_with_underscores,"['create', 'access', 'token']"
-data,26,,,,,2,9,,,15,lowercase,['data']
-expires_delta,4,,,,,1,1,,,2,lower_case_with_underscores,"['expires', 'delta']"
-to_encode,3,,,,,,,,,3,lower_case_with_underscores,"['to', 'encode']"
-copy,9,,,1,,,,,,8,lowercase,['copy']
-expire,3,,,,,,,,,3,lowercase,['expire']
-utcnow,2,,,,,,,,,2,lowercase,['utcnow']
-minutes,2,,,,,,2,,,,lowercase,['minutes']
-encoded_jwt,2,,,,,,,,,2,lower_case_with_underscores,"['encoded', 'jwt']"
-encode,1,,,,,,,,,1,lowercase,['encode']
-algorithm,1,,,,,,1,,,,lowercase,['algorithm']
-payload,4,,,,,,,,,4,lowercase,['payload']
-decode,3,,,,,,,,,3,lowercase,['decode']
-algorithms,1,,,,,,1,,,,lowercase,['algorithms']
-token_data,2,,,,,,,,,2,lower_case_with_underscores,"['token', 'data']"
-route_login_access_token,1,1,,,,,,,,,lower_case_with_underscores,"['route', 'login', 'access', 'token']"
-access_token_expires,2,,,,,,,,,2,lower_case_with_underscores,"['access', 'token', 'expires']"
-read_own_items,1,1,,,,,,,,,lower_case_with_underscores,"['read', 'own', 'items']"
-sqlalchemy,3,,,3,,,,,,,lowercase,['sqlalchemy']
-Boolean,2,,,1,,,,,,1,CapitalizedWords,['boolean']
-Column,5,,,1,,,,,,4,CapitalizedWords,['column']
-Integer,2,,,1,,,,,,1,CapitalizedWords,['integer']
-String,3,,,1,,,,,,2,CapitalizedWords,['string']
-create_engine,2,,,1,,,,,,1,lower_case_with_underscores,"['create', 'engine']"
-ext,1,,,1,,,,,,,lowercase,['ext']
-declarative,1,,,1,,,,,,,lowercase,['declarative']
-declarative_base,2,,,1,,,,,,1,lower_case_with_underscores,"['declarative', 'base']"
-declared_attr,2,,,1,,,,,,1,lower_case_with_underscores,"['declared', 'attr']"
-orm,1,,,1,,,,,,,lowercase,['orm']
-scoped_session,2,,,1,,,,,,1,lower_case_with_underscores,"['scoped', 'session']"
-sessionmaker,2,,,1,,,,,,1,lowercase,['sessionmaker']
-SQLALCHEMY_DATABASE_URI,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['sqlalchemy', 'database', 'uri']"
-engine,2,,,,,,,,,2,lowercase,['engine']
-convert_unicode,1,,,,,,1,,,,lower_case_with_underscores,"['convert', 'unicode']"
-db_session,4,,,,,1,,,,3,lower_case_with_underscores,"['db', 'session']"
-autocommit,1,,,,,,1,,,,lowercase,['autocommit']
-autoflush,1,,,,,,1,,,,lowercase,['autoflush']
-bind,1,,,,,,1,,,,lowercase,['bind']
-CustomBase,2,,1,,,,,,,1,CapitalizedWords,"['custom', 'base']"
-cls,3,,,,,1,1,,,1,lowercase,['cls']
-lower,7,,,,,,,,,7,lowercase,['lower']
-Base,2,,,,,,,,,2,CapitalizedWords,['base']
-primary_key,1,,,,,,1,,,,lower_case_with_underscores,"['primary', 'key']"
-index,4,,,,,,2,,,2,lowercase,['index']
-unique,1,,,,,,1,,,,lowercase,['unique']
-is_active,1,,,,,,,,,1,lower_case_with_underscores,"['is', 'active']"
-default,41,,,,,8,5,,,28,lowercase,['default']
-first,1,,,,,,,,,1,lowercase,['first']
-filter,1,,,,,,,,,1,lowercase,['filter']
-query,26,,,,,8,,,,18,lowercase,['query']
-Any,60,,,8,,,,,,52,CapitalizedWords,['any']
-Callable,36,,,5,,,,,,31,CapitalizedWords,['callable']
-Type,56,,,5,,,,,,51,CapitalizedWords,['type']
-routing,20,,,8,,,,,,12,lowercase,['routing']
-openapi,13,1,,10,,,,,,2,lowercase,['openapi']
-docs,1,,,1,,,,,,,lowercase,['docs']
-get_redoc_html,3,1,,1,,,,,,1,lower_case_with_underscores,"['get', 'redoc', 'html']"
-get_swagger_ui_html,3,1,,1,,,,,,1,lower_case_with_underscores,"['get', 'swagger', 'ui', 'html']"
-utils,11,,,11,,,,,,,lowercase,['utils']
-get_openapi,3,1,,1,,,,,,1,lower_case_with_underscores,"['get', 'openapi']"
-applications,2,,,2,,,,,,,lowercase,['applications']
-Starlette,2,,,1,,,,,,1,CapitalizedWords,['starlette']
-ExceptionMiddleware,2,,,1,,,,,,1,CapitalizedWords,"['exception', 'middleware']"
-middleware,2,,,2,,,,,,,lowercase,['middleware']
-errors,31,,,2,,,,,,29,lowercase,['errors']
-ServerErrorMiddleware,2,,,1,,,,,,1,CapitalizedWords,"['server', 'error', 'middleware']"
-lifespan,1,,,1,,,,,,,lowercase,['lifespan']
-LifespanMiddleware,2,,,1,,,,,,1,CapitalizedWords,"['lifespan', 'middleware']"
-requests,9,,,9,,,,,,,lowercase,['requests']
-Request,23,,,8,,,,,,15,CapitalizedWords,['request']
-JSONResponse,37,,,6,,,,,,31,CapitalizedWords,"['json', 'response']"
-Response,31,,1,2,,,,,,28,CapitalizedWords,['response']
-http_exception,2,1,,,,,,,,1,lower_case_with_underscores,"['http', 'exception']"
-request,37,,,,,14,2,,,21,lowercase,['request']
-exc,3,,,,,1,,,,2,lowercase,['exc']
-debug,6,,,,,1,2,,,3,lowercase,['debug']
-template_directory,2,,,,,1,,,,1,lower_case_with_underscores,"['template', 'directory']"
-extra,19,,,,,9,,,,10,lowercase,['extra']
-_debug,1,,,,,,,,,1,lowercase,['debug']
-exception_middleware,2,,,,,,,,,2,lower_case_with_underscores,"['exception', 'middleware']"
-error_middleware,2,,,,,,,,,2,lower_case_with_underscores,"['error', 'middleware']"
-lifespan_middleware,1,,,,,,,,,1,lower_case_with_underscores,"['lifespan', 'middleware']"
-schema_generator,1,,,,,,,,,1,lower_case_with_underscores,"['schema', 'generator']"
-template_env,1,,,,,,,,,1,lower_case_with_underscores,"['template', 'env']"
-load_template_env,1,,,,,,,,,1,lower_case_with_underscores,"['load', 'template', 'env']"
-openapi_version,5,,,,,1,1,,,3,lower_case_with_underscores,"['openapi', 'version']"
-openapi_schema,85,,,,,,,,,85,lower_case_with_underscores,"['openapi', 'schema']"
-setup,2,1,,,,,,,,1,lowercase,['setup']
-routes,9,,,,,2,1,,,6,lowercase,['routes']
-add_route,4,,,,,,,,,4,lower_case_with_underscores,"['add', 'route']"
-req,1,,,,,1,,,,,lowercase,['req']
-r,2,,,,,2,,,,,b,['r']
-add_exception_handler,1,,,,,,,,,1,lower_case_with_underscores,"['add', 'exception', 'handler']"
-add_api_route,8,2,,,,,,,,6,lower_case_with_underscores,"['add', 'api', 'route']"
-path,129,,,,,40,11,,,78,lowercase,['path']
-endpoint,16,,,,,3,2,,,11,lowercase,['endpoint']
-methods,32,,,,,5,15,,,12,lowercase,['methods']
-api_route,12,2,,,,,,,,10,lower_case_with_underscores,"['api', 'route']"
-decorator,4,2,,,,,,,,2,lowercase,['decorator']
-func,6,,,,,2,,,,4,lowercase,['func']
-delete,6,2,,,,,,,,4,lowercase,['delete']
-options,6,2,,,,,,,,4,lowercase,['options']
-head,6,2,,,,,,,,4,lowercase,['head']
-patch,6,2,,,,,,,,4,lowercase,['patch']
-trace,5,2,,,,,,,,3,lowercase,['trace']
-enum,5,,,3,,,,,,2,lowercase,['enum']
-Enum,8,,,3,,,,,,5,CapitalizedWords,['enum']
-GeneratorType,2,,,1,,,,,,1,CapitalizedWords,"['generator', 'type']"
-json,135,,,1,,,14,,,120,lowercase,['json']
-ENCODERS_BY_TYPE,2,,,1,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['encoders', 'by', 'type']"
-jsonable_encoder,16,1,,3,,,,,,12,lower_case_with_underscores,"['jsonable', 'encoder']"
-obj,15,,,,,1,,,,14,lowercase,['obj']
-include,5,,,,,1,2,,,2,lowercase,['include']
-exclude,5,,,,,1,2,,,2,lowercase,['exclude']
-by_alias,13,,,,,1,7,,,5,lower_case_with_underscores,"['by', 'alias']"
-include_none,14,,,,,1,7,,,6,lower_case_with_underscores,"['include', 'none']"
-isinstance,36,,,,,,,,,36,lowercase,['isinstance']
-key,2,,,,,,,,,2,lowercase,['key']
-frozenset,1,,,,,,,,,1,lowercase,['frozenset']
-tuple,2,,,,,,,,,2,lowercase,['tuple']
-encoder,2,,,,,,,,,2,lowercase,['encoder']
-e,8,,,,4,,,,,4,b,['e']
-KeyError,1,,,,,,,,,1,CapitalizedWords,"['key', 'error']"
-append,20,,,,,,,,,20,lowercase,['append']
-Exception,3,,,,,,,,,3,CapitalizedWords,['exception']
-vars,1,,,,,,,,,1,lowercase,['vars']
-ValueError,3,,,,,,,,,3,CapitalizedWords,"['value', 'error']"
-Sequence,11,,,5,,,,,,6,CapitalizedWords,['sequence']
-ParamTypes,12,,1,,,,,,,11,CapitalizedWords,"['param', 'types']"
-header,6,,,,,,,,,6,lowercase,['header']
-cookie,6,,,,,,,,,6,lowercase,['cookie']
-Param,14,,1,2,,,,,,11,CapitalizedWords,['param']
-in_,19,,,,,,,,,19,lowercase,['in']
-super,11,,,,,,,,,11,lowercase,['super']
-media_type,12,,,,,3,3,,,6,lower_case_with_underscores,"['media', 'type']"
-dependency,13,,,,,2,1,,,10,lowercase,['dependency']
-scopes,17,,,,,3,3,,,11,lowercase,['scopes']
-asyncio,5,,,2,,,,,,3,lowercase,['asyncio']
-inspect,10,,,2,,,,,,8,lowercase,['inspect']
-logging,4,,,2,,,,,,2,lowercase,['logging']
-params,35,,,6,,,,,,29,lowercase,['params']
-dependencies,13,,,7,,1,,,,5,lowercase,['dependencies']
-models,9,,,9,,,,,,,lowercase,['models']
-Dependant,17,,1,3,,,,,,13,CapitalizedWords,['dependant']
-get_body_field,3,1,,1,,,,,,1,lower_case_with_underscores,"['get', 'body', 'field']"
-get_dependant,4,1,,1,,,,,,2,lower_case_with_underscores,"['get', 'dependant']"
-solve_dependencies,4,1,,1,,,,,,2,lower_case_with_underscores,"['solve', 'dependencies']"
-encoders,3,,,3,,,,,,,lowercase,['encoders']
-UnconstrainedConfig,9,,1,2,,,,,,6,CapitalizedWords,"['unconstrained', 'config']"
-error_wrappers,2,,,2,,,,,,,lower_case_with_underscores,"['error', 'wrappers']"
-ErrorWrapper,11,,,2,,,,,,9,CapitalizedWords,"['error', 'wrapper']"
-ValidationError,7,,,2,,,,,,5,CapitalizedWords,"['validation', 'error']"
-fields,5,,,5,,,,,,,lowercase,['fields']
-Field,28,,,5,,,,,,23,CapitalizedWords,['field']
-lenient_issubclass,11,,,3,,,,,,8,lower_case_with_underscores,"['lenient', 'issubclass']"
-concurrency,2,,,2,,,,,,,lowercase,['concurrency']
-run_in_threadpool,4,,,2,,,,,,2,lower_case_with_underscores,"['run', 'in', 'threadpool']"
-formparsers,1,,,1,,,,,,,lowercase,['formparsers']
-UploadFile,2,,,1,,,,,,1,CapitalizedWords,"['upload', 'file']"
-get_name,2,,,1,,,,,,1,lower_case_with_underscores,"['get', 'name']"
-request_response,2,,,1,,,,,,1,lower_case_with_underscores,"['request', 'response']"
-HTTP_422_UNPROCESSABLE_ENTITY,4,,,2,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['http', '422', 'unprocessable', 'entity']"
-serialize_response,2,1,,,,,,,,1,lower_case_with_underscores,"['serialize', 'response']"
-field,41,,,,,1,1,,,39,lowercase,['field']
-encoded,3,,,,,,,,,3,lowercase,['encoded']
-errors_,15,,,,,,,,,15,lowercase,['errors']
-validate,3,,,,,,,,,3,lowercase,['validate']
-loc,5,,,,,,5,,,,lowercase,['loc']
-extend,13,,,,,,,,,13,lowercase,['extend']
-get_app,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'app']"
-dependant,57,,,,,7,8,,,42,lowercase,['dependant']
-body_field,19,,,,,2,2,,,15,lower_case_with_underscores,"['body', 'field']"
-response_field,10,,,,,1,1,,,8,lower_case_with_underscores,"['response', 'field']"
-call,25,,,,,3,3,,,19,lowercase,['call']
-is_coroutine,2,,,,,,,,,2,lower_case_with_underscores,"['is', 'coroutine']"
-iscoroutinefunction,3,,,,,,,,,3,lowercase,['iscoroutinefunction']
-is_body_form,2,,,,,,,,,2,lower_case_with_underscores,"['is', 'body', 'form']"
-schema,50,,,3,,,4,,,43,lowercase,['schema']
-body,19,,,1,,5,2,,,11,lowercase,['body']
-raw_body,2,,,,,,,,,2,lower_case_with_underscores,"['raw', 'body']"
-form,1,,,,,,,,,1,lowercase,['form']
-form_fields,5,,,,,,,,,5,lower_case_with_underscores,"['form', 'fields']"
-read,1,,,,,,,,,1,lowercase,['read']
-body_bytes,2,,,,,,,,,2,lower_case_with_underscores,"['body', 'bytes']"
-error,1,,,,,,,,,1,lowercase,['error']
-values,22,,,,,,,,,22,lowercase,['values']
-errors_out,2,,,,,,,,,2,lower_case_with_underscores,"['errors', 'out']"
-raw_response,5,,,,,,,,,5,lower_case_with_underscores,"['raw', 'response']"
-response_data,2,,,,,,,,,2,lower_case_with_underscores,"['response', 'data']"
-APIRoute,9,,1,,,,,,,8,CapitalizedWords,"['api', 'route']"
-Route,2,,,,,,,,,2,CapitalizedWords,['route']
-startswith,2,,,,,,,,,2,lowercase,['startswith']
-response_name,2,,,,,,,,,2,lower_case_with_underscores,"['response', 'name']"
-type_,9,,,,,,4,,,5,lowercase,['type']
-class_validators,4,,,,,,4,,,,lower_case_with_underscores,"['class', 'validators']"
-required,23,,,,,,4,,,19,lowercase,['required']
-model_config,4,,,,,,4,,,,lower_case_with_underscores,"['model', 'config']"
-path_regex,1,,,,,,,,,1,lower_case_with_underscores,"['path', 'regex']"
-path_format,1,,,,,,,,,1,lower_case_with_underscores,"['path', 'format']"
-param_convertors,1,,,,,,,,,1,lower_case_with_underscores,"['param', 'convertors']"
-compile_path,1,,,,,,,,,1,lower_case_with_underscores,"['compile', 'path']"
-isfunction,2,,,,,,,,,2,lowercase,['isfunction']
-ismethod,1,,,,,,,,,1,lowercase,['ismethod']
-Router,1,,,,,,,,,1,CapitalizedWords,['router']
-route,74,,,,,4,4,,,66,lowercase,['route']
-endswith,3,,,,,,,,,3,lowercase,['endswith']
-re,2,,,1,,,,,,1,lowercase,['re']
-constants,2,,,2,,,,,,,lowercase,['constants']
-REF_PREFIX,8,,,2,,,,,,6,UPPER_CASE_WITH_UNDERSCORES,"['ref', 'prefix']"
-BaseConfig,2,,,1,,,,,,1,CapitalizedWords,"['base', 'config']"
-get_flat_models_from_fields,2,,,1,,,,,,1,lower_case_with_underscores,"['get', 'flat', 'models', 'from', 'fields']"
-model_process_schema,2,,,1,,,,,,1,lower_case_with_underscores,"['model', 'process', 'schema']"
-BaseRoute,4,,,2,,,,,,2,CapitalizedWords,"['base', 'route']"
-min_anystr_length,1,,,,,,,,,1,lower_case_with_underscores,"['min', 'anystr', 'length']"
-max_anystr_length,1,,,,,,,,,1,lower_case_with_underscores,"['max', 'anystr', 'length']"
-get_flat_models_from_routes,3,1,,1,,,,,,1,lower_case_with_underscores,"['get', 'flat', 'models', 'from', 'routes']"
-body_fields_from_routes,3,,,,,,,,,3,lower_case_with_underscores,"['body', 'fields', 'from', 'routes']"
-responses_from_routes,3,,,,,,,,,3,lower_case_with_underscores,"['responses', 'from', 'routes']"
-getattr,7,,,,,,,,,7,lowercase,['getattr']
-flat_models,8,,,,,1,1,,,6,lower_case_with_underscores,"['flat', 'models']"
-get_model_definitions,3,1,,1,,,,,,1,lower_case_with_underscores,"['get', 'model', 'definitions']"
-model_name_map,18,,,,,3,7,,,8,lower_case_with_underscores,"['model', 'name', 'map']"
-definitions,19,,,,,,,,,19,lowercase,['definitions']
-model,17,,,,,,,,,17,lowercase,['model']
-m_schema,2,,,,,,,,,2,lower_case_with_underscores,"['m', 'schema']"
-m_definitions,2,,,,,,,,,2,lower_case_with_underscores,"['m', 'definitions']"
-ref_prefix,3,,,,,,3,,,,lower_case_with_underscores,"['ref', 'prefix']"
-model_name,4,,,,,,,,,4,lower_case_with_underscores,"['model', 'name']"
-get_path_param_names,3,1,,1,,,,,,1,lower_case_with_underscores,"['get', 'path', 'param', 'names']"
-strip,1,,,,,,,,,1,lowercase,['strip']
-findall,1,,,,,,,,,1,lowercase,['findall']
-base,6,,,6,,,,,,,lowercase,['base']
-SecurityBase,19,,2,7,,,,,,10,CapitalizedWords,"['security', 'base']"
-param_supported_types,7,,,,,,,,,7,lower_case_with_underscores,"['param', 'supported', 'types']"
-SecurityRequirement,4,,1,1,,,,,,2,CapitalizedWords,"['security', 'requirement']"
-security_scheme,6,,,,,1,1,,,4,lower_case_with_underscores,"['security', 'scheme']"
-path_params,11,,,,,1,1,,,9,lower_case_with_underscores,"['path', 'params']"
-query_params,14,,,2,,1,1,,,10,lower_case_with_underscores,"['query', 'params']"
-header_params,11,,,1,,1,1,,,8,lower_case_with_underscores,"['header', 'params']"
-cookie_params,11,,,1,,1,1,,,8,lower_case_with_underscores,"['cookie', 'params']"
-body_params,17,,,,,1,1,,,15,lower_case_with_underscores,"['body', 'params']"
-security_schemes,9,,,,,1,1,,,7,lower_case_with_underscores,"['security', 'schemes']"
-request_param_name,6,,,,,1,,,,5,lower_case_with_underscores,"['request', 'param', 'name']"
-security_requirements,6,,,,,,,,,6,lower_case_with_underscores,"['security', 'requirements']"
-deepcopy,3,,,1,,,,,,2,lowercase,['deepcopy']
-date,2,,,1,,,,,,1,lowercase,['date']
-decimal,1,,,1,,,,,,,lowercase,['decimal']
-Decimal,2,,,1,,,,,,1,CapitalizedWords,['decimal']
-Mapping,2,,,1,,,,,,1,CapitalizedWords,['mapping']
-Union,32,,,2,,,,,,30,CapitalizedWords,['union']
-create_model,2,,,1,,,,,,1,lower_case_with_underscores,"['create', 'model']"
-MissingError,3,,,1,,,,,,2,CapitalizedWords,"['missing', 'error']"
-Required,5,,,1,,,,,,4,CapitalizedWords,['required']
-Shape,4,,,1,,,,,,3,CapitalizedWords,['shape']
-get_annotation_from_schema,3,,,1,,,,,,2,lower_case_with_underscores,"['get', 'annotation', 'from', 'schema']"
-Headers,3,,,1,,,,,,2,CapitalizedWords,['headers']
-QueryParams,3,,,1,,,,,,2,CapitalizedWords,"['query', 'params']"
-get_sub_dependant,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'sub', 'dependant']"
-param,71,,,,,3,5,,,63,lowercase,['param']
-Parameter,7,,1,,,,,,,6,CapitalizedWords,['parameter']
-depends,5,,,,,,,,,5,lowercase,['depends']
-annotation,20,,,,,,,,,20,lowercase,['annotation']
-sub_dependant,15,,,,,,,,,15,lower_case_with_underscores,"['sub', 'dependant']"
-security_requirement,6,,,,,,,,,6,lower_case_with_underscores,"['security', 'requirement']"
-get_flat_dependant,6,1,,1,,,,,,4,lower_case_with_underscores,"['get', 'flat', 'dependant']"
-flat_dependant,26,,,,,1,1,,,24,lower_case_with_underscores,"['flat', 'dependant']"
-flat_sub,7,,,,,,,,,7,lower_case_with_underscores,"['flat', 'sub']"
-path_param_names,2,,,,,,,,,2,lower_case_with_underscores,"['path', 'param', 'names']"
-endpoint_signature,2,,,,,,,,,2,lower_case_with_underscores,"['endpoint', 'signature']"
-signature,1,,,,,,,,,1,lowercase,['signature']
-signature_params,6,,,,,,,,,6,lower_case_with_underscores,"['signature', 'params']"
-parameters,12,,,,,,,,,12,lowercase,['parameters']
-param_name,7,,,,,,,,,7,lower_case_with_underscores,"['param', 'name']"
-empty,8,,,,,,,,,8,lowercase,['empty']
-add_param_to_fields,4,1,,,,,,,,3,lower_case_with_underscores,"['add', 'param', 'to', 'fields']"
-default_schema,6,,,,,1,3,,,2,lower_case_with_underscores,"['default', 'schema']"
-force_type,4,,,,,1,1,,,2,lower_case_with_underscores,"['force', 'type']"
-origin,2,,,,,,,,,2,lowercase,['origin']
-param_all_types,3,,,,,,,,,3,lower_case_with_underscores,"['param', 'all', 'types']"
-add_param_to_body_fields,2,1,,,,,,,,1,lower_case_with_underscores,"['add', 'param', 'to', 'body', 'fields']"
-default_value,16,,,,,,,,,16,lower_case_with_underscores,"['default', 'value']"
-replace,6,,,,,,,,,6,lowercase,['replace']
-is_coroutine_callable,2,1,,,,,,,,1,lower_case_with_underscores,"['is', 'coroutine', 'callable']"
-isclass,1,,,,,,,,,1,lowercase,['isclass']
-sub_values,3,,,,,,,,,3,lower_case_with_underscores,"['sub', 'values']"
-sub_errors,3,,,,,,,,,3,lower_case_with_underscores,"['sub', 'errors']"
-solved,3,,,,,,,,,3,lowercase,['solved']
-path_values,2,,,,,,,,,2,lower_case_with_underscores,"['path', 'values']"
-path_errors,2,,,,,,,,,2,lower_case_with_underscores,"['path', 'errors']"
-request_params_to_args,5,1,,,,,,,,4,lower_case_with_underscores,"['request', 'params', 'to', 'args']"
-query_values,2,,,,,,,,,2,lower_case_with_underscores,"['query', 'values']"
-query_errors,2,,,,,,,,,2,lower_case_with_underscores,"['query', 'errors']"
-header_values,2,,,,,,,,,2,lower_case_with_underscores,"['header', 'values']"
-header_errors,2,,,,,,,,,2,lower_case_with_underscores,"['header', 'errors']"
-headers,41,,,,,1,21,,,19,lowercase,['headers']
-cookie_values,2,,,,,,,,,2,lower_case_with_underscores,"['cookie', 'values']"
-cookie_errors,2,,,,,,,,,2,lower_case_with_underscores,"['cookie', 'errors']"
-cookies,6,,,,,1,2,,,3,lowercase,['cookies']
-body_values,2,,,,,,,,,2,lower_case_with_underscores,"['body', 'values']"
-body_errors,2,,,,,,,,,2,lower_case_with_underscores,"['body', 'errors']"
-request_body_to_args,2,1,,,,,,,,1,lower_case_with_underscores,"['request', 'body', 'to', 'args']"
-required_params,9,,,,,2,,,,7,lower_case_with_underscores,"['required', 'params']"
-received_params,4,,,,,1,,,,3,lower_case_with_underscores,"['received', 'params']"
-shape,1,,,,,,,,,1,lowercase,['shape']
-LIST,1,,,,,,,,,1,UPPERCASE,"['lis', 't']"
-SET,1,,,,,,,,,1,UPPERCASE,"['se', 't']"
-TUPLE,1,,,,,,,,,1,UPPERCASE,"['tupl', 'e']"
-getlist,1,,,,,,,,,1,lowercase,['getlist']
-config,2,,,,,,2,,,,lowercase,['config']
-v_,4,,,,,,,,,4,b,['v']
-received_body,6,,,,,1,,,,5,lower_case_with_underscores,"['received', 'body']"
-first_param,3,,,,,,,,,3,lower_case_with_underscores,"['first', 'param']"
-BodyModel,3,,,,,,,,,3,CapitalizedWords,"['body', 'model']"
-f,20,,,,,,,,,20,b,['f']
-any,3,,,,,,,,,3,lowercase,['any']
-BodySchema,4,,,,,,,,,4,CapitalizedWords,"['body', 'schema']"
-METHODS_WITH_BODY,3,,,1,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['methods', 'with', 'body']"
-PSchema,21,,,,,,,1,,20,CapitalizedWords,"['p', 'schema']"
-email_validator,2,,,1,,,,,,1,lower_case_with_underscores,"['email', 'validator']"
-ImportError,1,,,,,,,,,1,CapitalizedWords,"['import', 'error']"
-warning,1,,,,,,,,,1,lowercase,['warning']
-Contact,2,,1,,,,,,,1,CapitalizedWords,['contact']
-License,2,,1,,,,,,,1,CapitalizedWords,['license']
-Info,2,,1,,,,,,,1,CapitalizedWords,['info']
-termsOfService,1,,,,,,,,,1,mixedCase,"['terms', 'of', 'service']"
-contact,1,,,,,,,,,1,lowercase,['contact']
-license,1,,,,,,,,,1,lowercase,['license']
-ServerVariable,2,,1,,,,,,,1,CapitalizedWords,"['server', 'variable']"
-Server,5,,1,,,,,,,4,CapitalizedWords,['server']
-variables,1,,,,,,,,,1,lowercase,['variables']
-Reference,23,,1,,,,,,,22,CapitalizedWords,['reference']
-ref,3,,,,,,,,,3,lowercase,['ref']
-Discriminator,2,,1,,,,,,,1,CapitalizedWords,['discriminator']
-propertyName,1,,,,,,,,,1,mixedCase,"['property', 'name']"
-mapping,1,,,,,,,,,1,lowercase,['mapping']
-XML,2,,1,,,,,,,1,UPPERCASE,"['xm', 'l']"
-namespace,1,,,,,,,,,1,lowercase,['namespace']
-attribute,1,,,,,,,,,1,lowercase,['attribute']
-wrapped,1,,,,,,,,,1,lowercase,['wrapped']
-ExternalDocumentation,5,,1,,,,,,,4,CapitalizedWords,"['external', 'documentation']"
-SchemaBase,9,,1,,,,,,,8,CapitalizedWords,"['schema', 'base']"
-multipleOf,1,,,,,,,,,1,mixedCase,"['multiple', 'of']"
-maximum,1,,,,,,,,,1,lowercase,['maximum']
-exclusiveMaximum,1,,,,,,,,,1,mixedCase,"['exclusive', 'maximum']"
-minimum,1,,,,,,,,,1,lowercase,['minimum']
-exclusiveMinimum,1,,,,,,,,,1,mixedCase,"['exclusive', 'minimum']"
-maxLength,1,,,,,,,,,1,mixedCase,"['max', 'length']"
-gte,6,,,,,,6,,,,lowercase,['gte']
-minLength,1,,,,,,,,,1,mixedCase,"['min', 'length']"
-pattern,1,,,,,,,,,1,lowercase,['pattern']
-maxItems,1,,,,,,,,,1,mixedCase,"['max', 'items']"
-minItems,1,,,,,,,,,1,mixedCase,"['min', 'items']"
-uniqueItems,1,,,,,,,,,1,mixedCase,"['unique', 'items']"
-maxProperties,1,,,,,,,,,1,mixedCase,"['max', 'properties']"
-minProperties,1,,,,,,,,,1,mixedCase,"['min', 'properties']"
-allOf,2,,,,,,,,,2,mixedCase,"['all', 'of']"
-oneOf,2,,,,,,,,,2,mixedCase,"['one', 'of']"
-anyOf,2,,,,,,,,,2,mixedCase,"['any', 'of']"
-not_,2,,,,,,,,,2,lowercase,['not']
-properties,2,,,,,,,,,2,lowercase,['properties']
-additionalProperties,2,,,,,,,,,2,mixedCase,"['additional', 'properties']"
-format,1,,,,,,,,,1,lowercase,['format']
-nullable,1,,,,,,,,,1,lowercase,['nullable']
-discriminator,1,,,,,,,,,1,lowercase,['discriminator']
-readOnly,1,,,,,,,,,1,mixedCase,"['read', 'only']"
-writeOnly,1,,,,,,,,,1,mixedCase,"['write', 'only']"
-xml,1,,,,,,,,,1,lowercase,['xml']
-externalDocs,4,,,,,,,,,4,mixedCase,"['external', 'docs']"
-Example,4,,1,,,,,,,3,CapitalizedWords,['example']
-externalValue,1,,,,,,,,,1,mixedCase,"['external', 'value']"
-ParameterInType,2,,1,,,,,,,1,CapitalizedWords,"['parameter', 'in', 'type']"
-Encoding,3,,1,,,,,,,2,CapitalizedWords,['encoding']
-contentType,1,,,,,,,,,1,mixedCase,"['content', 'type']"
-style,2,,,,,,,,,2,lowercase,['style']
-explode,2,,,,,,,,,2,lowercase,['explode']
-allowReserved,2,,,,,,,,,2,mixedCase,"['allow', 'reserved']"
-MediaType,4,,1,,,,,,,3,CapitalizedWords,"['media', 'type']"
-schema_,2,,,,,,,,,2,lowercase,['schema']
-examples,3,,,,,,,,,3,lowercase,['examples']
-encoding,1,,,,,,,,,1,lowercase,['encoding']
-ParameterBase,3,,1,,,,,,,2,CapitalizedWords,"['parameter', 'base']"
-EncodingWithHeaders,1,,1,,,,,,,,CapitalizedWords,"['encoding', 'with', 'headers']"
-RequestBody,3,,1,,,,,,,2,CapitalizedWords,"['request', 'body']"
-Link,3,,1,,,,,,,2,CapitalizedWords,['link']
-operationRef,1,,,,,,,,,1,mixedCase,"['operation', 'ref']"
-operationId,2,,,,,,,,,2,mixedCase,"['operation', 'id']"
-requestBody,2,,,,,,,,,2,mixedCase,"['request', 'body']"
-server,1,,,,,,,,,1,lowercase,['server']
-links,2,,,,,,,,,2,lowercase,['links']
-Responses,2,,1,,,,,,,1,CapitalizedWords,['responses']
-Operation,9,,1,,,,,,,8,CapitalizedWords,['operation']
-callbacks,3,,,,,,,,,3,lowercase,['callbacks']
-servers,3,,,,,,,,,3,lowercase,['servers']
-PathItem,4,,1,,,,,,,3,CapitalizedWords,"['path', 'item']"
-OperationWithCallbacks,1,,1,,,,,,,,CapitalizedWords,"['operation', 'with', 'callbacks']"
-SecuritySchemeType,6,,1,,,,,,,5,CapitalizedWords,"['security', 'scheme', 'type']"
-apiKey,2,,,,,,,,,2,mixedCase,"['api', 'key']"
-http,4,,,2,,,,,,2,lowercase,['http']
-oauth2,4,,,2,,,,,,2,lowercase,['oauth2']
-openIdConnect,2,,,,,,,,,2,mixedCase,"['open', 'id', 'connect']"
-APIKeyIn,6,,1,1,,,,,,4,CapitalizedWords,"['api', 'key', 'in']"
-APIKey,6,,1,1,,,,,,4,CapitalizedWords,"['api', 'key']"
-HTTPBase,10,,2,2,,,,,,6,CapitalizedWords,"['http', 'base']"
-scheme,32,,,,,1,7,,,24,lowercase,['scheme']
-HTTPBearer,7,,2,3,,,,,,2,CapitalizedWords,"['http', 'bearer']"
-bearerFormat,4,,,,,1,1,,,2,mixedCase,"['bearer', 'format']"
-OAuthFlow,5,,1,,,,,,,4,CapitalizedWords,"['o', 'auth', 'flow']"
-refreshUrl,1,,,,,,,,,1,mixedCase,"['refresh', 'url']"
-OAuthFlowImplicit,2,,1,,,,,,,1,CapitalizedWords,"['o', 'auth', 'flow', 'implicit']"
-authorizationUrl,2,,,,,,,,,2,mixedCase,"['authorization', 'url']"
-OAuthFlowPassword,2,,1,,,,,,,1,CapitalizedWords,"['o', 'auth', 'flow', 'password']"
-OAuthFlowClientCredentials,2,,1,,,,,,,1,CapitalizedWords,"['o', 'auth', 'flow', 'client', 'credentials']"
-OAuthFlowAuthorizationCode,2,,1,,,,,,,1,CapitalizedWords,"['o', 'auth', 'flow', 'authorization', 'code']"
-OAuthFlows,3,,1,1,,,,,,1,CapitalizedWords,"['o', 'auth', 'flows']"
-implicit,1,,,,,,,,,1,lowercase,['implicit']
-clientCredentials,1,,,,,,,,,1,mixedCase,"['client', 'credentials']"
-authorizationCode,1,,,,,,,,,1,mixedCase,"['authorization', 'code']"
-OAuth2,10,,2,4,,,,,,4,CapitalizedWords,"['o', 'auth2']"
-flows,9,,,,,1,4,,,4,lowercase,['flows']
-OpenIdConnect,7,,2,3,,,,,,2,CapitalizedWords,"['open', 'id', 'connect']"
-openIdConnectUrl,5,,,,,1,2,,,2,mixedCase,"['open', 'id', 'connect', 'url']"
-SecurityScheme,2,,,,,,,,,2,CapitalizedWords,"['security', 'scheme']"
-Components,2,,1,,,,,,,1,CapitalizedWords,['components']
-schemas,1,,,,,,,,,1,lowercase,['schemas']
-requestBodies,1,,,,,,,,,1,mixedCase,"['request', 'bodies']"
-securitySchemes,1,,,,,,,,,1,mixedCase,"['security', 'schemes']"
-Tag,2,,1,,,,,,,1,CapitalizedWords,['tag']
-OpenAPI,3,,1,1,,,,,,1,CapitalizedWords,"['open', 'ap', 'i']"
-info,4,,,,,,,,,4,lowercase,['info']
-paths,4,,,,,,,,,4,lowercase,['paths']
-components,6,,,,,,,,,6,lowercase,['components']
-field_schema,4,,,1,,,,,,3,lower_case_with_underscores,"['field', 'schema']"
-get_model_name_map,2,,,1,,,,,,1,lower_case_with_underscores,"['get', 'model', 'name', 'map']"
-validation_error_definition,3,,,,,,,,,3,lower_case_with_underscores,"['validation', 'error', 'definition']"
-validation_error_response_definition,3,,,,,,,,,3,lower_case_with_underscores,"['validation', 'error', 'response', 'definition']"
-get_openapi_params,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'openapi', 'params']"
-get_openapi_security_definitions,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'openapi', 'security', 'definitions']"
-security_definitions,6,,,,,,,,,6,lower_case_with_underscores,"['security', 'definitions']"
-operation_security,6,,,,,,,,,6,lower_case_with_underscores,"['operation', 'security']"
-security_definition,2,,,,,,,,,2,lower_case_with_underscores,"['security', 'definition']"
-security_name,3,,,,,,,,,3,lower_case_with_underscores,"['security', 'name']"
-scheme_name,32,,,,,10,1,,,21,lower_case_with_underscores,"['scheme', 'name']"
-get_openapi_operation_parameters,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'openapi', 'operation', 'parameters']"
-all_route_params,6,,,,,1,1,,,4,lower_case_with_underscores,"['all', 'route', 'params']"
-parameter,4,,,,,,,,,4,lowercase,['parameter']
-get_openapi_operation_request_body,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'openapi', 'operation', 'request', 'body']"
-body_schema,3,,,1,,,,,,2,lower_case_with_underscores,"['body', 'schema']"
-_,3,,,,,,,,,3,ugly,[]
-request_media_type,3,,,,,,,,,3,lower_case_with_underscores,"['request', 'media', 'type']"
-request_body_oai,7,,,,,,,,,7,lower_case_with_underscores,"['request', 'body', 'oai']"
-generate_operation_id,2,1,,,,,,,,1,lower_case_with_underscores,"['generate', 'operation', 'id']"
-method,14,,,,,3,3,,,8,lowercase,['method']
-generate_operation_summary,2,1,,,,,,,,1,lower_case_with_underscores,"['generate', 'operation', 'summary']"
-get_openapi_operation_metadata,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'openapi', 'operation', 'metadata']"
-operation,14,,,,,,,,,14,lowercase,['operation']
-get_openapi_path,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'openapi', 'path']"
-setdefault,4,,,,,,,,,4,lowercase,['setdefault']
-validation_definitions,2,,,,,,,,,2,lower_case_with_underscores,"['validation', 'definitions']"
-operation_parameters,2,,,,,,,,,2,lower_case_with_underscores,"['operation', 'parameters']"
-response_schema,4,,,,,,,,,4,lower_case_with_underscores,"['response', 'schema']"
-output,4,,,,,,,,,4,lowercase,['output']
-path_definitions,3,,,,,,,,,3,lower_case_with_underscores,"['path', 'definitions']"
-APIKeyBase,4,,1,,,,,,,3,CapitalizedWords,"['api', 'key', 'base']"
-APIKeyQuery,4,,1,2,,,,,,1,CapitalizedWords,"['api', 'key', 'query']"
-api_key,16,,,1,,,,,,15,lower_case_with_underscores,"['api', 'key']"
-APIKeyHeader,4,,1,2,,,,,,1,CapitalizedWords,"['api', 'key', 'header']"
-APIKeyCookie,4,,1,2,,,,,,1,CapitalizedWords,"['api', 'key', 'cookie']"
-SecurityBaseModel,2,,,,,,,1,,1,CapitalizedWords,"['security', 'base', 'model']"
-binascii,2,,,1,,,,,,1,lowercase,['binascii']
-base64,2,,,2,,,,,,,lowercase,['base64']
-b64decode,2,,,1,,,,,,1,lowercase,['b64decode']
-HTTPBaseModel,4,,,,,,,1,,3,CapitalizedWords,"['http', 'base', 'model']"
-HTTPBearerModel,2,,,,,,,1,,1,CapitalizedWords,"['http', 'bearer', 'model']"
-get_authorization_scheme_param,8,1,,2,,,,,,5,lower_case_with_underscores,"['get', 'authorization', 'scheme', 'param']"
-HTTPBasicCredentials,5,,1,2,,,,,,2,CapitalizedWords,"['http', 'basic', 'credentials']"
-HTTPAuthorizationCredentials,11,,1,4,,,,,,6,CapitalizedWords,"['http', 'authorization', 'credentials']"
-credentials,28,,,,,4,3,,,21,lowercase,['credentials']
-authorization,21,,,,,,,,,21,lowercase,['authorization']
-HTTPBasic,6,,1,3,,,,,,2,CapitalizedWords,"['http', 'basic']"
-realm,3,,,,,1,,,,2,lowercase,['realm']
-invalid_user_credentials_exc,3,,,,,,,,,3,lower_case_with_underscores,"['invalid', 'user', 'credentials', 'exc']"
-UnicodeDecodeError,1,,,,,,,,,1,CapitalizedWords,"['unicode', 'decode', 'error']"
-Error,1,,,,,,,,,1,CapitalizedWords,['error']
-separator,2,,,,,,,,,2,lowercase,['separator']
-partition,2,,,,,,,,,2,lowercase,['partition']
-HTTPDigest,4,,1,2,,,,,,1,CapitalizedWords,"['http', 'digest']"
-OAuth2Model,2,,,,,,,1,,1,CapitalizedWords,"['o', 'auth2', 'model']"
-OAuthFlowsModel,4,,,,,,,1,,3,CapitalizedWords,"['o', 'auth', 'flows', 'model']"
-grant_type,6,,,,,2,1,,,3,lower_case_with_underscores,"['grant', 'type']"
-scope,5,,,,,2,1,,,2,lowercase,['scope']
-client_id,6,,,,,2,1,,,3,lower_case_with_underscores,"['client', 'id']"
-client_secret,6,,,,,2,1,,,3,lower_case_with_underscores,"['client', 'secret']"
-split,2,,,,,,,,,2,lowercase,['split']
-OAuth2PasswordRequestFormStrict,3,,1,1,,,,,,1,CapitalizedWords,"['o', 'auth2', 'password', 'request', 'form', 'strict']"
-OpenIdConnectModel,2,,,,,,,1,,1,CapitalizedWords,"['open', 'id', 'connect', 'model']"
-authorization_header_value,3,,,,,1,,,,2,lower_case_with_underscores,"['authorization', 'header', 'value']"
-open_id_connect_url,2,,,2,,,,,,,lower_case_with_underscores,"['open', 'id', 'connect', 'url']"
-PlainTextResponse,1,,,1,,,,,,,CapitalizedWords,"['plain', 'text', 'response']"
-HTTP_202_ACCEPTED,1,,,1,,,,,,,UPPER_CASE_WITH_UNDERSCORES,"['http', '202', 'accepted']"
-get_security,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'security']"
-sec,4,,,,,2,,,,2,lowercase,['sec']
-reusable_oauth2,5,,,,,,,,,5,lower_case_with_underscores,"['reusable', 'oauth2']"
-get_security_oauth2,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'security', 'oauth2']"
-post_token,1,1,,,,,,,,,lower_case_with_underscores,"['post', 'token']"
-request_data,2,,,,,1,,,,1,lower_case_with_underscores,"['request', 'data']"
-parse,1,,,,,,,,,1,lowercase,['parse']
-is_offer,1,,,,,,,,,1,lower_case_with_underscores,"['is', 'offer']"
-FakeDB,3,,1,,,,,,,2,CapitalizedWords,"['fake', 'd', 'b']"
-DBConnectionManager,2,,1,,,,,,,1,CapitalizedWords,"['db', 'connection', 'manager']"
-connection_manager,2,,,,,,,,,2,lower_case_with_underscores,"['connection', 'manager']"
-TokenUserData,3,,1,,,,,,,2,CapitalizedWords,"['token', 'user', 'data']"
-fist_name,2,,,,,,,,,2,lower_case_with_underscores,"['fist', 'name']"
-require_token,2,1,,,,,,,,1,lower_case_with_underscores,"['require', 'token']"
-raw_token,2,,,,,,,,,2,lower_case_with_underscores,"['raw', 'token']"
-require_user,2,1,,,,,,,,1,lower_case_with_underscores,"['require', 'user']"
-user_data,2,,,,,1,,,,1,lower_case_with_underscores,"['user', 'data']"
-get_dependency,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'dependency']"
-pathlib,1,,,1,,,,,,,lowercase,['pathlib']
-PurePath,3,,,1,,,,,,2,CapitalizedWords,"['pure', 'path']"
-string,1,,,1,,,,,,,lowercase,['string']
-digits,1,,,1,,,,,,,lowercase,['digits']
-directory,4,,,,,,,,,4,lowercase,['directory']
-skip_names,2,,,,,,,,,2,lower_case_with_underscores,"['skip', 'names']"
-skip_dirs,2,,,,,,,,,2,lower_case_with_underscores,"['skip', 'dirs']"
-dirs,3,,,,,,,,,3,lowercase,['dirs']
-sorted,2,,,,,,,,,2,lowercase,['sorted']
-iterdir,2,,,,,,,,,2,lowercase,['iterdir']
-d,8,,,,,,,,,8,b,['d']
-sufix,3,,,,,,,,,3,lowercase,['sufix']
-output_dir_name,2,,,,,,,,,2,lower_case_with_underscores,"['output', 'dir', 'name']"
-output_directory,4,,,,,,,,,4,lower_case_with_underscores,"['output', 'directory']"
-mkdir,1,,,,,,,,,1,lowercase,['mkdir']
-exist_ok,1,,,,,,1,,,,lower_case_with_underscores,"['exist', 'ok']"
-files,6,,,,,,4,,,2,lowercase,['files']
-i,2,,,,,,,,,2,b,['i']
-enumerate,1,,,,,,,,,1,lowercase,['enumerate']
-zfill,1,,,,,,,,,1,lowercase,['zfill']
-new_name,4,,,,,,,,,4,lower_case_with_underscores,"['new', 'name']"
-rename,2,,,,,,,,,2,lowercase,['rename']
-current_dir,3,,,,,,,,,3,lower_case_with_underscores,"['current', 'dir']"
-non_operation,1,1,,,,,,,,,lower_case_with_underscores,"['non', 'operation']"
-non_decorated_route,2,1,,,,,,,,1,lower_case_with_underscores,"['non', 'decorated', 'route']"
-get_text,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'text']"
-get_id,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'id']"
-get_str_id,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'str', 'id']"
-get_int_id,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'int', 'id']"
-get_float_id,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'float', 'id']"
-get_bool_id,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'bool', 'id']"
-get_path_param_id,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'path', 'param', 'id']"
-get_path_param_required_id,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'path', 'param', 'required', 'id']"
-get_path_param_min_length,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'path', 'param', 'min', 'length']"
-get_path_param_max_length,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'path', 'param', 'max', 'length']"
-get_path_param_min_max_length,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'path', 'param', 'min', 'max', 'length']"
-get_path_param_gt,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'path', 'param', 'gt']"
-get_path_param_gt0,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'path', 'param', 'gt0']"
-get_path_param_ge,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'path', 'param', 'ge']"
-get_path_param_lt,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'path', 'param', 'lt']"
-get_path_param_lt0,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'path', 'param', 'lt0']"
-get_path_param_le,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'path', 'param', 'le']"
-get_path_param_lt_gt,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'path', 'param', 'lt', 'gt']"
-get_path_param_le_ge,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'path', 'param', 'le', 'ge']"
-get_path_param_lt_int,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'path', 'param', 'lt', 'int']"
-get_path_param_gt_int,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'path', 'param', 'gt', 'int']"
-get_path_param_le_int,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'path', 'param', 'le', 'int']"
-get_path_param_ge_int,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'path', 'param', 'ge', 'int']"
-get_path_param_lt_gt_int,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'path', 'param', 'lt', 'gt', 'int']"
-get_path_param_le_ge_int,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'path', 'param', 'le', 'ge', 'int']"
-get_query,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'query']"
-get_query_optional,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'query', 'optional']"
-get_query_type,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'query', 'type']"
-get_query_type_optional,2,2,,,,,,,,,lower_case_with_underscores,"['get', 'query', 'type', 'optional']"
-get_query_param,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'query', 'param']"
-get_query_param_required,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'query', 'param', 'required']"
-get_query_param_required_type,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'query', 'param', 'required', 'type']"
-pytest,42,,,20,,,,,,22,lowercase,['pytest']
-testclient,45,,,45,,,,,,,lowercase,['testclient']
-TestClient,94,,,45,,,,,,49,CapitalizedWords,"['test', 'client']"
-main,3,,,3,,,,,,,lowercase,['main']
-client,177,,,,,,,,,177,lowercase,['client']
-test_get_path,5,5,,,,,,,,,lower_case_with_underscores,"['test', 'get', 'path']"
-expected_status,36,,,,,18,,,,18,lower_case_with_underscores,"['expected', 'status']"
-expected_response,39,,,,,18,,,,21,lower_case_with_underscores,"['expected', 'response']"
-parametrize,18,,,,,,,,,18,lowercase,['parametrize']
-mark,18,,,,,,,,,18,lowercase,['mark']
-test_swagger_ui,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'swagger', 'ui']"
-text,3,,,,,,,,,3,lowercase,['text']
-test_redoc,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'redoc']"
-get_not_decorated,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'not', 'decorated']"
-delete_item,1,1,,,,,,,,,lower_case_with_underscores,"['delete', 'item']"
-head_item,1,1,,,,,,,,,lower_case_with_underscores,"['head', 'item']"
-options_item,1,1,,,,,,,,,lower_case_with_underscores,"['options', 'item']"
-patch_item,1,1,,,,,,,,,lower_case_with_underscores,"['patch', 'item']"
-trace_item,1,1,,,,,,,,,lower_case_with_underscores,"['trace', 'item']"
-test_openapi_schema,33,33,,,,,,,,,lower_case_with_underscores,"['test', 'openapi', 'schema']"
-test_get_api_route,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'get', 'api', 'route']"
-test_get_api_route_not_decorated,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'get', 'api', 'route', 'not', 'decorated']"
-test_delete,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'delete']"
-test_head,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'head']"
-test_options,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'options']"
-test_patch,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'patch']"
-test_trace,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'trace']"
-test_sub_router,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'sub', 'router']"
-Pet,3,,1,,,,,,,2,CapitalizedWords,['pet']
-owner,5,,,,,1,2,,,2,lowercase,['owner']
-DictablePerson,2,,1,,,,,,,1,CapitalizedWords,"['dictable', 'person']"
-k,4,,,,,,,,,4,b,['k']
-v,4,,,,,,,,,4,b,['v']
-DictablePet,2,,1,,,,,,,1,CapitalizedWords,"['dictable', 'pet']"
-Unserializable,2,,1,,,,,,,1,CapitalizedWords,['unserializable']
-NotImplementedError,2,,,,,,,,,2,CapitalizedWords,"['not', 'implemented', 'error']"
-property,1,,,,,,,,,1,lowercase,['property']
-test_encode_class,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'encode', 'class']"
-person,4,,,,,,,,,4,lowercase,['person']
-pet,4,,,,,,,,,4,lowercase,['pet']
-test_encode_dictable,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'encode', 'dictable']"
-test_encode_unsupported,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'encode', 'unsupported']"
-unserializable,2,,,,,,,,,2,lowercase,['unserializable']
-raises,4,,,,,,,,,4,lowercase,['raises']
-save_item_no_body,2,2,,,,,,,,,lower_case_with_underscores,"['save', 'item', 'no', 'body']"
-multiple_errors,4,,,,,,,,,4,lower_case_with_underscores,"['multiple', 'errors']"
-test_put_correct_body,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'put', 'correct', 'body']"
-test_put_incorrect_body,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'put', 'incorrect', 'body']"
-test_multi_query,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'multi', 'query']"
-test_multi_query_incorrect,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'multi', 'query', 'incorrect']"
-test_default_param_query_none,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'default', 'param', 'query', 'none']"
-test_default_param_query,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'default', 'param', 'query']"
-test_text_get,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'text', 'get']"
-test_nonexistent,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'nonexistent']"
-response_not_valid_int,16,,,,,,,,,16,lower_case_with_underscores,"['response', 'not', 'valid', 'int']"
-response_not_valid_float,3,,,,,,,,,3,lower_case_with_underscores,"['response', 'not', 'valid', 'float']"
-response_at_least_3,2,,,,,,,,,2,lower_case_with_underscores,"['response', 'at', 'least', '3']"
-response_at_least_2,2,,,,,,,,,2,lower_case_with_underscores,"['response', 'at', 'least', '2']"
-response_maximum_3,3,,,,,,,,,3,lower_case_with_underscores,"['response', 'maximum', '3']"
-response_greater_than_3,3,,,,,,,,,3,lower_case_with_underscores,"['response', 'greater', 'than', '3']"
-response_greater_than_0,2,,,,,,,,,2,lower_case_with_underscores,"['response', 'greater', 'than', '0']"
-response_greater_than_1,3,,,,,,,,,3,lower_case_with_underscores,"['response', 'greater', 'than', '1']"
-response_greater_than_equal_3,3,,,,,,,,,3,lower_case_with_underscores,"['response', 'greater', 'than', 'equal', '3']"
-response_less_than_3,5,,,,,,,,,5,lower_case_with_underscores,"['response', 'less', 'than', '3']"
-response_less_than_0,2,,,,,,,,,2,lower_case_with_underscores,"['response', 'less', 'than', '0']"
-response_less_than_equal_3,5,,,,,,,,,5,lower_case_with_underscores,"['response', 'less', 'than', 'equal', '3']"
-test_put_no_body,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'put', 'no', 'body']"
-test_put_no_body_with_body,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'put', 'no', 'body', 'with', 'body']"
-response_missing,7,,,,,,,,,7,lower_case_with_underscores,"['response', 'missing']"
-oauth_header,10,,,,,5,,,,5,lower_case_with_underscores,"['oauth', 'header']"
-read_current_user,10,10,,,,,,,,,lower_case_with_underscores,"['read', 'current', 'user']"
-test_security_api_key,3,3,,,,,,,,,lower_case_with_underscores,"['test', 'security', 'api', 'key']"
-test_security_api_key_no_key,3,3,,,,,,,,,lower_case_with_underscores,"['test', 'security', 'api', 'key', 'no', 'key']"
-test_security_http_base,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'security', 'http', 'base']"
-test_security_http_base_no_credentials,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'security', 'http', 'base', 'no', 'credentials']"
-b64encode,2,,,1,,,,,,1,lowercase,['b64encode']
-auth,4,,,1,,,1,,,2,lowercase,['auth']
-HTTPBasicAuth,2,,,1,,,,,,1,CapitalizedWords,"['http', 'basic', 'auth']"
-test_security_http_basic,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'security', 'http', 'basic']"
-test_security_http_basic_no_credentials,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'security', 'http', 'basic', 'no', 'credentials']"
-test_security_http_basic_invalid_credentials,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'security', 'http', 'basic', 'invalid', 'credentials']"
-test_security_http_basic_non_basic_credentials,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'security', 'http', 'basic', 'non', 'basic', 'credentials']"
-auth_header,2,,,,,,,,,2,lower_case_with_underscores,"['auth', 'header']"
-test_security_http_bearer,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'security', 'http', 'bearer']"
-test_security_http_bearer_no_credentials,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'security', 'http', 'bearer', 'no', 'credentials']"
-test_security_http_bearer_incorrect_scheme_credentials,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'security', 'http', 'bearer', 'incorrect', 'scheme', 'credentials']"
-test_security_http_digest,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'security', 'http', 'digest']"
-test_security_http_digest_no_credentials,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'security', 'http', 'digest', 'no', 'credentials']"
-test_security_http_digest_incorrect_scheme_credentials,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'security', 'http', 'digest', 'incorrect', 'scheme', 'credentials']"
-test_security_oauth2,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'security', 'oauth2']"
-test_security_oauth2_password_other_header,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'security', 'oauth2', 'password', 'other', 'header']"
-test_security_oauth2_password_bearer_no_header,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'security', 'oauth2', 'password', 'bearer', 'no', 'header']"
-grant_type_required,2,,,,,,,,,2,lower_case_with_underscores,"['grant', 'type', 'required']"
-grant_type_incorrect,2,,,,,,,,,2,lower_case_with_underscores,"['grant', 'type', 'incorrect']"
-test_strict_login,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'strict', 'login']"
-oid,2,,,,,,,,,2,lowercase,['oid']
-owner_ids,1,,,,,,,,,1,lower_case_with_underscores,"['owner', 'ids']"
-get_invalid,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'invalid']"
-get_innerinvalid,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'innerinvalid']"
-get_invalidlist,1,1,,,,,,,,,lower_case_with_underscores,"['get', 'invalidlist']"
-test_invalid,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'invalid']"
-test_double_invalid,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'double', 'invalid']"
-test_invalid_list,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'invalid', 'list']"
-application_configuration,1,,,1,,,,,,,lower_case_with_underscores,"['application', 'configuration']"
-test_items,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'items']"
-bigger_applications,1,,,1,,,,,,,lower_case_with_underscores,"['bigger', 'applications']"
-tutorial003,3,,,3,,,,,,,lowercase,['tutorial003']
-price_missing,2,,,,,,,,,2,lower_case_with_underscores,"['price', 'missing']"
-price_not_float,2,,,,,,,,,2,lower_case_with_underscores,"['price', 'not', 'float']"
-name_price_missing,2,,,,,,,,,2,lower_case_with_underscores,"['name', 'price', 'missing']"
-body_missing,2,,,,,,,,,2,lower_case_with_underscores,"['body', 'missing']"
-test_post_body,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'post', 'body']"
-test_post_broken_body,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'post', 'broken', 'body']"
-body_multiple_params,1,,,1,,,,,,,lower_case_with_underscores,"['body', 'multiple', 'params']"
-item_id_not_int,2,,,,,,,,,2,lower_case_with_underscores,"['item', 'id', 'not', 'int']"
-price_not_greater,2,,,,,,,,,2,lower_case_with_underscores,"['price', 'not', 'greater']"
-test,5,5,,,,,,,,,lowercase,['test']
-custom_response,2,,,2,,,,,,,lower_case_with_underscores,"['custom', 'response']"
-test_get_custom_response,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'get', 'custom', 'response']"
-tutorial004,2,,,2,,,,,,,lowercase,['tutorial004']
-html_contents,2,,,,,,,,,2,lower_case_with_underscores,"['html', 'contents']"
-test_get,4,4,,,,,,,,,lower_case_with_underscores,"['test', 'get']"
-extra_data_types,1,,,1,,,,,,,lower_case_with_underscores,"['extra', 'data', 'types']"
-test_extra_types,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'extra', 'types']"
-first_steps,1,,,1,,,,,,,lower_case_with_underscores,"['first', 'steps']"
-path_operation_advanced_configuration,2,,,2,,,,,,,lower_case_with_underscores,"['path', 'operation', 'advanced', 'configuration']"
-path_operation_configuration,2,,,2,,,,,,,lower_case_with_underscores,"['path', 'operation', 'configuration']"
-tutorial005,2,,,2,,,,,,,lowercase,['tutorial005']
-test_query_params_str_validations,3,3,,,,,,,,,lower_case_with_underscores,"['test', 'query', 'params', 'str', 'validations']"
-tutorial006,2,,,2,,,,,,,lowercase,['tutorial006']
-query_required,4,,,,,,,,,4,lower_case_with_underscores,"['query', 'required']"
-query_params_str_validations,1,,,1,,,,,,,lower_case_with_underscores,"['query', 'params', 'str', 'validations']"
-tutorial010,1,,,1,,,,,,,lowercase,['tutorial010']
-regex_error,2,,,,,,,,,2,lower_case_with_underscores,"['regex', 'error']"
-q_name,3,,,,,1,,,,2,lower_case_with_underscores,"['q', 'name']"
-os,6,,,2,,,,,,4,lowercase,['os']
-request_files,1,,,1,,,,,,,lower_case_with_underscores,"['request', 'files']"
-file_required,5,,,,,,,,,5,lower_case_with_underscores,"['file', 'required']"
-test_post_form_no_body,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'post', 'form', 'no', 'body']"
-test_post_body_json,3,3,,,,,,,,,lower_case_with_underscores,"['test', 'post', 'body', 'json']"
-test_post_file,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'post', 'file']"
-tmpdir,8,,,,,4,,,,4,lowercase,['tmpdir']
-join,4,,,,,,,,,4,lowercase,['join']
-open,8,,,,,,,,,8,lowercase,['open']
-write,4,,,,,,,,,4,lowercase,['write']
-test_post_large_file,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'post', 'large', 'file']"
-default_pydantic_max_size,3,,,,,,,,,3,lower_case_with_underscores,"['default', 'pydantic', 'max', 'size']"
-request_forms,1,,,1,,,,,,,lower_case_with_underscores,"['request', 'forms']"
-password_required,2,,,,,,,,,2,lower_case_with_underscores,"['password', 'required']"
-username_required,2,,,,,,,,,2,lower_case_with_underscores,"['username', 'required']"
-username_and_password_required,3,,,,,,,,,3,lower_case_with_underscores,"['username', 'and', 'password', 'required']"
-test_post_body_form,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'post', 'body', 'form']"
-request_forms_and_files,1,,,1,,,,,,,lower_case_with_underscores,"['request', 'forms', 'and', 'files']"
-token_required,2,,,,,,,,,2,lower_case_with_underscores,"['token', 'required']"
-file_and_token_required,3,,,,,,,,,3,lower_case_with_underscores,"['file', 'and', 'token', 'required']"
-test_post_form_no_file,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'post', 'form', 'no', 'file']"
-test_post_file_no_token,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'post', 'file', 'no', 'token']"
-test_post_file_and_token,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'post', 'file', 'and', 'token']"
-test_post_user,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'post', 'user']"
-test_no_token,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'no', 'token']"
-test_token,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'token']"
-test_incorrect_token,2,2,,,,,,,,,lower_case_with_underscores,"['test', 'incorrect', 'token']"
-test_login,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'login']"
-test_login_incorrect_password,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'login', 'incorrect', 'password']"
-test_login_incorrect_username,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'login', 'incorrect', 'username']"
-test_incorrect_token_type,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'incorrect', 'token', 'type']"
-test_inactive_user,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'inactive', 'user']"
+name,all,function_def,class_def,import_module_or_alias,exception,param,keyword,alias,object_decl,object,naming_style
+fastapi,159,,,159,,,,,,,lowercase
+FastAPI,212,,1,106,,,,,,105,CapitalizedWords
+app,345,1,,30,,,,,,314,lowercase
+title,62,,,,,12,25,,,25,lowercase
+description,145,,,,,31,35,,,79,lowercase
+version,12,,,,,2,4,,,6,lowercase
+read_items,40,40,,,,,,,,,lower_case_with_underscores
+get,229,2,,,,,,,,227,lowercase
+openapi_url,19,,,,,3,4,,,12,lower_case_with_underscores
+docs_url,7,,,,,1,1,,,5,lower_case_with_underscores
+redoc_url,7,,,,,1,1,,,5,lower_case_with_underscores
+routers,2,,,2,,,,,,,lowercase
+tutorial001,16,,,16,,,,,,,lowercase
+router,29,,,2,,2,,,,25,lowercase
+users_router,2,,,,,,,1,,1,lower_case_with_underscores
+tutorial002,2,,,2,,,,,,,lowercase
+items_router,2,,,,,,,1,,1,lower_case_with_underscores
+include_router,6,2,,,,,,,,4,lower_case_with_underscores
+prefix,11,,,,,2,2,,,7,lowercase
+APIRouter,11,,1,4,,,,,,6,CapitalizedWords
+read_users,4,4,,,,,,,,,lower_case_with_underscores
+read_user_me,1,1,,,,,,,,,lower_case_with_underscores
+read_user,3,3,,,,,,,,,lower_case_with_underscores
+username,74,,,,,11,12,,,51,lowercase
+str,632,,,,,,,,,632,lowercase
+read_item,7,7,,,,,,,,,lower_case_with_underscores
+item_id,129,,,,,63,,,,66,lower_case_with_underscores
+pydantic,76,,,76,,,,,,,lowercase
+BaseModel,162,,,49,,,,,,113,CapitalizedWords
+Item,64,,28,,,,,,,36,CapitalizedWords
+name,181,,,,,32,39,,,110,lowercase
+price,29,,,,,,,,,29,lowercase
+float,104,,,,,,,,,104,lowercase
+tax,26,,,,,,,,,26,lowercase
+create_item,10,10,,,,,,,,,lower_case_with_underscores
+item,74,,,,,26,,,,48,lowercase
+post,47,2,,,,,,,,45,lowercase
+item_dict,3,,,,,,,,,3,lower_case_with_underscores
+dict,12,,,,,,,,,12,lowercase
+price_with_tax,2,,,,,,,,,2,lower_case_with_underscores
+update,45,,,,,,,,,45,lowercase
+int,104,,,,,,,,,104,lowercase
+put,26,2,,,,,,,,24,lowercase
+q,98,,,,,32,,,,66,b
+result,9,,,,,,,,,9,lowercase
+Path,44,,1,11,,,,,,32,CapitalizedWords
+update_item,13,13,,,,,,,,,lower_case_with_underscores
+ge,31,,,,,8,15,,,8,lowercase
+le,31,,,,,8,15,,,8,lowercase
+results,77,,,,,,,,,77,lowercase
+User,42,,14,,,,,,,28,CapitalizedWords
+full_name,19,,,,,,1,,,18,lower_case_with_underscores
+user,49,,,,,6,,,,43,lowercase
+Body,23,,1,9,,,,,,13,CapitalizedWords
+importance,4,,,,,2,,,,2,lowercase
+gt,33,,,,,8,17,,,8,lowercase
+embed,10,,,,,1,3,,,6,lowercase
+tags,88,,,,,21,27,,,40,lowercase
+list,6,,,,,,,,,6,lowercase
+typing,33,,,33,,,,,,,lowercase
+List,93,,,16,,,,,,77,CapitalizedWords
+Set,31,,,14,,,,,,17,CapitalizedWords
+set,5,,,,,,,,,5,lowercase
+Image,10,,5,,,,,,,5,CapitalizedWords
+url,13,,,,,,,,,13,lowercase
+image,4,,,,,,,,,4,lowercase
+types,11,,,11,,,,,,,lowercase
+UrlStr,14,,,5,,,,,,9,CapitalizedWords
+Offer,2,,1,,,,,,,1,CapitalizedWords
+items,16,,,,,1,,,,15,lowercase
+create_offer,1,1,,,,,,,,,lower_case_with_underscores
+offer,2,,,,,1,,,,1,lowercase
+create_multiple_images,1,1,,,,,,,,,lower_case_with_underscores
+images,2,,,,,1,,,,1,lowercase
+Schema,19,,1,6,,,,,,12,CapitalizedWords
+max_length,31,,,,,8,15,,,8,lower_case_with_underscores
+example,4,,,,,,1,,,3,lowercase
+Cookie,7,,1,4,,,,,,2,CapitalizedWords
+ads_id,2,,,,,1,,,,1,lower_case_with_underscores
+starlette,91,,,91,,,,,,,lowercase
+responses,13,,,11,,,,,,2,lowercase
+UJSONResponse,2,,,1,,,,,,1,CapitalizedWords
+content_type,75,,,,,22,25,,,28,lower_case_with_underscores
+HTMLResponse,13,,,5,,,,,,8,CapitalizedWords
+html_content,4,,,,,,,,,4,lower_case_with_underscores
+content,8,,,,,,3,,,5,lowercase
+status_code,225,,,,,22,49,,,154,lower_case_with_underscores
+generate_html_response,2,1,,,,,,,,1,lower_case_with_underscores
+Depends,46,,1,16,,,,,,29,CapitalizedWords
+common_parameters,3,1,,,,,,,,2,lower_case_with_underscores
+skip,22,,,,,6,,,,16,lowercase
+limit,18,,,,,6,,,,12,lowercase
+commons,22,,,,,5,,,,17,lowercase
+fake_items_db,8,,,,,,,,,8,lower_case_with_underscores
+CommonQueryParams,7,,3,,,,,,,4,CapitalizedWords
+response,392,,,,,1,1,,,390,lowercase
+query_extractor,2,1,,,,,,,,1,lower_case_with_underscores
+query_or_cookie_extractor,2,1,,,,,,,,1,lower_case_with_underscores
+last_query,2,,,,,1,,,,1,lower_case_with_underscores
+read_query,1,1,,,,,,,,,lower_case_with_underscores
+query_or_default,2,,,,,1,,,,1,lower_case_with_underscores
+FixedContentQueryChecker,2,,1,,,,,,,1,CapitalizedWords
+fixed_content,4,,,,,1,,,,3,lower_case_with_underscores
+checker,2,,,,,,,,,2,lowercase
+read_query_check,1,1,,,,,,,,,lower_case_with_underscores
+fixed_content_included,2,,,,,1,,,,1,lower_case_with_underscores
+bool,82,,,,,,,,,82,lowercase
+datetime,14,,,8,,,,,,6,lowercase
+time,4,,,2,,,,,,2,lowercase
+timedelta,8,,,3,,,,,,5,lowercase
+uuid,3,,,3,,,,,,,lowercase
+UUID,6,,,3,,,,,,3,UPPERCASE
+start_datetime,3,,,,,1,,,,2,lower_case_with_underscores
+end_datetime,3,,,,,1,,,,2,lower_case_with_underscores
+repeat_at,2,,,,,1,,,,1,lower_case_with_underscores
+process_after,3,,,,,1,,,,2,lower_case_with_underscores
+start_process,3,,,,,,,,,3,lower_case_with_underscores
+duration,2,,,,,,,,,2,lowercase
+EmailStr,14,,1,5,,,,,,8,CapitalizedWords
+UserIn,11,,4,,,,,,,7,CapitalizedWords
+password,35,,,,,6,5,,,24,lowercase
+email,14,,,,,,1,,,13,lowercase
+UserOut,8,,4,,,,,,,4,CapitalizedWords
+UserInDB,13,,6,,,,,,,7,CapitalizedWords
+hashed_password,18,,,,,1,2,,,15,lower_case_with_underscores
+fake_password_hasher,4,2,,,,,,,,2,lower_case_with_underscores
+raw_password,4,,,,,2,,,,2,lower_case_with_underscores
+fake_save_user,4,2,,,,,,,,2,lower_case_with_underscores
+user_in,10,,,,,4,,,,6,lower_case_with_underscores
+user_in_db,4,,,,,,,,,4,lower_case_with_underscores
+print,11,,,,,,,,,11,lowercase
+create_user,4,4,,,,,,,,,lower_case_with_underscores
+user_saved,4,,,,,,,,,4,lower_case_with_underscores
+response_model,85,,,1,,21,38,,,25,lower_case_with_underscores
+UserBase,4,,1,,,,,,,3,CapitalizedWords
+root,3,3,,,,,,,,,lowercase
+my_awesome_api,2,,,,,,,,,2,lower_case_with_underscores
+Header,12,,2,4,,,,,,6,CapitalizedWords
+user_agent,2,,,,,1,,,,1,lower_case_with_underscores
+strange_header,2,,,,,1,,,,1,lower_case_with_underscores
+convert_underscores,4,,,,,1,1,,,2,lower_case_with_underscores
+Optional,168,,,7,,,,,,161,CapitalizedWords
+couchbase,3,,,3,,,,,,,lowercase
+LOCKMODE_WAIT,2,,,1,,,,,,1,UPPER_CASE_WITH_UNDERSCORES
+bucket,10,,,1,,1,1,,,7,lowercase
+Bucket,3,,,1,,,,,,2,CapitalizedWords
+cluster,4,,,1,,,,,,3,lowercase
+Cluster,2,,,1,,,,,,1,CapitalizedWords
+PasswordAuthenticator,2,,,1,,,,,,1,CapitalizedWords
+USERPROFILE_DOC_TYPE,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+get_bucket,2,1,,,,,,,,1,lower_case_with_underscores
+authenticator,2,,,,,,,,,2,lowercase
+authenticate,1,,,,,,,,,1,lowercase
+open_bucket,1,,,,,,,,,1,lower_case_with_underscores
+lockmode,1,,,,,,1,,,,lowercase
+timeout,1,,,,,,,,,1,lowercase
+n1ql_timeout,1,,,,,,,,,1,lower_case_with_underscores
+disabled,6,,,,,,,,,6,lowercase
+type,4,,,,,,,,,4,lowercase
+get_user,9,4,,,,,,,,5,lower_case_with_underscores
+doc_id,2,,,,,,,,,2,lower_case_with_underscores
+quiet,1,,,,,,1,,,,lowercase
+value,24,,,,,,,,,24,lowercase
+operation_id,74,,,,,21,22,,,31,lower_case_with_underscores
+include_in_schema,72,,,,,21,26,,,25,lower_case_with_underscores
+status,9,,,9,,,,,,,lowercase
+HTTP_201_CREATED,2,,,1,,,,,,1,UPPER_CASE_WITH_UNDERSCORES
+summary,73,,,,,21,24,,,28,lowercase
+response_description,67,,,,,21,22,,,24,lower_case_with_underscores
+read_elements,1,1,,,,,,,,,lower_case_with_underscores
+deprecated,90,,,,,26,28,,,36,lowercase
+Query,34,,1,15,,,,,,18,CapitalizedWords
+alias,59,,,,,8,28,,,23,lowercase
+size,1,,,,,1,,,,,lowercase
+lt,30,,,,,8,14,,,8,lowercase
+get_full_name,4,2,,,,,,,,2,lower_case_with_underscores
+first_name,4,,,,,2,,,,2,lower_case_with_underscores
+last_name,6,,,,,2,,,,4,lower_case_with_underscores
+get_name_with_age,2,2,,,,,,,,,lower_case_with_underscores
+age,5,,,,,2,,,,3,lowercase
+name_with_age,4,,,,,,,,,4,lower_case_with_underscores
+get_items,2,2,,,,,,,,,lower_case_with_underscores
+item_a,2,,,,,1,,,,1,lower_case_with_underscores
+item_b,2,,,,,1,,,,1,lower_case_with_underscores
+item_c,2,,,,,1,,,,1,lower_case_with_underscores
+item_d,3,,,,,1,,,,2,lower_case_with_underscores
+item_e,2,,,,,1,,,,1,lower_case_with_underscores
+bytes,4,,,,,,,,,4,lowercase
+process_items,3,3,,,,,,,,,lower_case_with_underscores
+Tuple,12,,,4,,,,,,8,CapitalizedWords
+items_t,2,,,,,1,,,,1,lower_case_with_underscores
+items_s,2,,,,,1,,,,1,lower_case_with_underscores
+Dict,77,,,6,,,,,,71,CapitalizedWords
+prices,2,,,,,1,,,,1,lowercase
+item_name,2,,,,,,,,,2,lower_case_with_underscores
+item_price,2,,,,,,,,,2,lower_case_with_underscores
+Person,6,,2,,,,,,,4,CapitalizedWords
+get_person_name,1,1,,,,,,,,,lower_case_with_underscores
+one_person,2,,,,,1,,,,1,lower_case_with_underscores
+id,4,,,,,,,,,4,lowercase
+signup_ts,1,,,,,,,,,1,lower_case_with_underscores
+friends,1,,,,,,,,,1,lowercase
+external_data,2,,,,,,,,,2,lower_case_with_underscores
+short,4,,,,,2,,,,2,lowercase
+read_user_item,3,3,,,,,,,,,lower_case_with_underscores
+user_id,2,,,,,1,,,,1,lower_case_with_underscores
+needy,4,,,,,2,,,,2,lowercase
+min_length,33,,,,,8,17,,,8,lower_case_with_underscores
+regex,28,,,,,8,12,,,8,lowercase
+File,9,,1,4,,,,,,4,CapitalizedWords
+create_file,2,2,,,,,,,,,lower_case_with_underscores
+file,12,,,,,2,,,,10,lowercase
+len,4,,,,,,,,,4,lowercase
+Form,27,,1,5,,,,,,21,CapitalizedWords
+login,2,2,,,,,,,,,lowercase
+token,16,,,,,8,,,,8,lowercase
+Security,33,,1,15,,,,,,17,CapitalizedWords
+security,35,,,25,,,,,,10,lowercase
+OAuth2PasswordBearer,11,,1,6,,,,,,4,CapitalizedWords
+oauth2_scheme,8,,,,,,,,,8,lower_case_with_underscores
+tokenUrl,9,,,,,1,4,,,4,mixedCase
+fake_decode_token,4,2,,,,,,,,2,lower_case_with_underscores
+get_current_user,16,8,,,,,,,,8,lower_case_with_underscores
+read_users_me,3,3,,,,,,,,,lower_case_with_underscores
+current_user,24,,,,,11,,,,13,lower_case_with_underscores
+OAuth2PasswordRequestForm,9,,1,4,,,,,,4,CapitalizedWords
+exceptions,8,,,8,,,,,,,lowercase
+HTTPException,32,,,8,,,,,,24,CapitalizedWords
+fake_users_db,6,,,,,,,,,6,lower_case_with_underscores
+fake_hash_password,2,1,,,,,,,,1,lower_case_with_underscores
+db,10,,,,,3,,,,7,lowercase
+user_dict,7,,,,,,,,,7,lower_case_with_underscores
+detail,23,,,,,,22,,,1,lowercase
+get_current_active_user,5,2,,,,,,,,3,lower_case_with_underscores
+form_data,9,,,,,3,,,,6,lower_case_with_underscores
+jwt,4,,,2,,,,,,2,lowercase
+PyJWTError,2,,,1,,,,,,1,CapitalizedWords
+passlib,1,,,1,,,,,,,lowercase
+context,1,,,1,,,,,,,lowercase
+CryptContext,2,,,1,,,,,,1,CapitalizedWords
+HTTP_403_FORBIDDEN,19,,,5,,,,,,14,UPPER_CASE_WITH_UNDERSCORES
+SECRET_KEY,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES
+ALGORITHM,3,,,,,,,,,3,UPPERCASE
+TOKEN_SUBJECT,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+ACCESS_TOKEN_EXPIRE_MINUTES,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+Token,2,,1,,,,,,,1,CapitalizedWords
+access_token,5,,,,,,,,,5,lower_case_with_underscores
+token_type,1,,,,,,,,,1,lower_case_with_underscores
+TokenPayload,2,,1,,,,,,,1,CapitalizedWords
+pwd_context,3,,,,,,,,,3,lower_case_with_underscores
+schemes,1,,,,,,1,,,,lowercase
+verify_password,2,1,,,,,,,,1,lower_case_with_underscores
+plain_password,2,,,,,1,,,,1,lower_case_with_underscores
+verify,1,,,,,,,,,1,lowercase
+get_password_hash,1,1,,,,,,,,,lower_case_with_underscores
+hash,1,,,,,,,,,1,lowercase
+authenticate_user,2,1,,,,,,,,1,lower_case_with_underscores
+fake_db,2,,,,,1,,,,1,lower_case_with_underscores
+create_access_token,2,1,,,,,,,,1,lower_case_with_underscores
+data,26,,,,,2,9,,,15,lowercase
+expires_delta,4,,,,,1,1,,,2,lower_case_with_underscores
+to_encode,3,,,,,,,,,3,lower_case_with_underscores
+copy,9,,,1,,,,,,8,lowercase
+expire,3,,,,,,,,,3,lowercase
+utcnow,2,,,,,,,,,2,lowercase
+minutes,2,,,,,,2,,,,lowercase
+encoded_jwt,2,,,,,,,,,2,lower_case_with_underscores
+encode,1,,,,,,,,,1,lowercase
+algorithm,1,,,,,,1,,,,lowercase
+payload,4,,,,,,,,,4,lowercase
+decode,3,,,,,,,,,3,lowercase
+algorithms,1,,,,,,1,,,,lowercase
+token_data,2,,,,,,,,,2,lower_case_with_underscores
+route_login_access_token,1,1,,,,,,,,,lower_case_with_underscores
+access_token_expires,2,,,,,,,,,2,lower_case_with_underscores
+read_own_items,1,1,,,,,,,,,lower_case_with_underscores
+sqlalchemy,3,,,3,,,,,,,lowercase
+Boolean,2,,,1,,,,,,1,CapitalizedWords
+Column,5,,,1,,,,,,4,CapitalizedWords
+Integer,2,,,1,,,,,,1,CapitalizedWords
+String,3,,,1,,,,,,2,CapitalizedWords
+create_engine,2,,,1,,,,,,1,lower_case_with_underscores
+ext,1,,,1,,,,,,,lowercase
+declarative,1,,,1,,,,,,,lowercase
+declarative_base,2,,,1,,,,,,1,lower_case_with_underscores
+declared_attr,2,,,1,,,,,,1,lower_case_with_underscores
+orm,1,,,1,,,,,,,lowercase
+scoped_session,2,,,1,,,,,,1,lower_case_with_underscores
+sessionmaker,2,,,1,,,,,,1,lowercase
+SQLALCHEMY_DATABASE_URI,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+engine,2,,,,,,,,,2,lowercase
+convert_unicode,1,,,,,,1,,,,lower_case_with_underscores
+db_session,4,,,,,1,,,,3,lower_case_with_underscores
+autocommit,1,,,,,,1,,,,lowercase
+autoflush,1,,,,,,1,,,,lowercase
+bind,1,,,,,,1,,,,lowercase
+CustomBase,2,,1,,,,,,,1,CapitalizedWords
+cls,3,,,,,1,1,,,1,lowercase
+lower,7,,,,,,,,,7,lowercase
+Base,2,,,,,,,,,2,CapitalizedWords
+primary_key,1,,,,,,1,,,,lower_case_with_underscores
+index,4,,,,,,2,,,2,lowercase
+unique,1,,,,,,1,,,,lowercase
+is_active,1,,,,,,,,,1,lower_case_with_underscores
+default,41,,,,,8,5,,,28,lowercase
+first,1,,,,,,,,,1,lowercase
+filter,1,,,,,,,,,1,lowercase
+query,26,,,,,8,,,,18,lowercase
+Any,60,,,8,,,,,,52,CapitalizedWords
+Callable,36,,,5,,,,,,31,CapitalizedWords
+Type,56,,,5,,,,,,51,CapitalizedWords
+routing,20,,,8,,,,,,12,lowercase
+openapi,13,1,,10,,,,,,2,lowercase
+docs,1,,,1,,,,,,,lowercase
+get_redoc_html,3,1,,1,,,,,,1,lower_case_with_underscores
+get_swagger_ui_html,3,1,,1,,,,,,1,lower_case_with_underscores
+utils,11,,,11,,,,,,,lowercase
+get_openapi,3,1,,1,,,,,,1,lower_case_with_underscores
+applications,2,,,2,,,,,,,lowercase
+Starlette,2,,,1,,,,,,1,CapitalizedWords
+ExceptionMiddleware,2,,,1,,,,,,1,CapitalizedWords
+middleware,2,,,2,,,,,,,lowercase
+errors,31,,,2,,,,,,29,lowercase
+ServerErrorMiddleware,2,,,1,,,,,,1,CapitalizedWords
+lifespan,1,,,1,,,,,,,lowercase
+LifespanMiddleware,2,,,1,,,,,,1,CapitalizedWords
+requests,9,,,9,,,,,,,lowercase
+Request,23,,,8,,,,,,15,CapitalizedWords
+JSONResponse,37,,,6,,,,,,31,CapitalizedWords
+Response,31,,1,2,,,,,,28,CapitalizedWords
+http_exception,2,1,,,,,,,,1,lower_case_with_underscores
+request,37,,,,,14,2,,,21,lowercase
+exc,3,,,,,1,,,,2,lowercase
+debug,6,,,,,1,2,,,3,lowercase
+template_directory,2,,,,,1,,,,1,lower_case_with_underscores
+extra,19,,,,,9,,,,10,lowercase
+_debug,1,,,,,,,,,1,lowercase
+exception_middleware,2,,,,,,,,,2,lower_case_with_underscores
+error_middleware,2,,,,,,,,,2,lower_case_with_underscores
+lifespan_middleware,1,,,,,,,,,1,lower_case_with_underscores
+schema_generator,1,,,,,,,,,1,lower_case_with_underscores
+template_env,1,,,,,,,,,1,lower_case_with_underscores
+load_template_env,1,,,,,,,,,1,lower_case_with_underscores
+openapi_version,5,,,,,1,1,,,3,lower_case_with_underscores
+openapi_schema,85,,,,,,,,,85,lower_case_with_underscores
+setup,2,1,,,,,,,,1,lowercase
+routes,9,,,,,2,1,,,6,lowercase
+add_route,4,,,,,,,,,4,lower_case_with_underscores
+req,1,,,,,1,,,,,lowercase
+r,2,,,,,2,,,,,b
+add_exception_handler,1,,,,,,,,,1,lower_case_with_underscores
+add_api_route,8,2,,,,,,,,6,lower_case_with_underscores
+path,129,,,,,40,11,,,78,lowercase
+endpoint,16,,,,,3,2,,,11,lowercase
+methods,32,,,,,5,15,,,12,lowercase
+api_route,12,2,,,,,,,,10,lower_case_with_underscores
+decorator,4,2,,,,,,,,2,lowercase
+func,6,,,,,2,,,,4,lowercase
+delete,6,2,,,,,,,,4,lowercase
+options,6,2,,,,,,,,4,lowercase
+head,6,2,,,,,,,,4,lowercase
+patch,6,2,,,,,,,,4,lowercase
+trace,5,2,,,,,,,,3,lowercase
+enum,5,,,3,,,,,,2,lowercase
+Enum,8,,,3,,,,,,5,CapitalizedWords
+GeneratorType,2,,,1,,,,,,1,CapitalizedWords
+json,135,,,1,,,14,,,120,lowercase
+ENCODERS_BY_TYPE,2,,,1,,,,,,1,UPPER_CASE_WITH_UNDERSCORES
+jsonable_encoder,16,1,,3,,,,,,12,lower_case_with_underscores
+obj,15,,,,,1,,,,14,lowercase
+include,5,,,,,1,2,,,2,lowercase
+exclude,5,,,,,1,2,,,2,lowercase
+by_alias,13,,,,,1,7,,,5,lower_case_with_underscores
+include_none,14,,,,,1,7,,,6,lower_case_with_underscores
+isinstance,36,,,,,,,,,36,lowercase
+key,2,,,,,,,,,2,lowercase
+frozenset,1,,,,,,,,,1,lowercase
+tuple,2,,,,,,,,,2,lowercase
+encoder,2,,,,,,,,,2,lowercase
+e,8,,,,4,,,,,4,b
+KeyError,1,,,,,,,,,1,CapitalizedWords
+append,20,,,,,,,,,20,lowercase
+Exception,3,,,,,,,,,3,CapitalizedWords
+vars,1,,,,,,,,,1,lowercase
+ValueError,3,,,,,,,,,3,CapitalizedWords
+Sequence,11,,,5,,,,,,6,CapitalizedWords
+ParamTypes,12,,1,,,,,,,11,CapitalizedWords
+header,6,,,,,,,,,6,lowercase
+cookie,6,,,,,,,,,6,lowercase
+Param,14,,1,2,,,,,,11,CapitalizedWords
+in_,19,,,,,,,,,19,lowercase
+super,11,,,,,,,,,11,lowercase
+media_type,12,,,,,3,3,,,6,lower_case_with_underscores
+dependency,13,,,,,2,1,,,10,lowercase
+scopes,17,,,,,3,3,,,11,lowercase
+asyncio,5,,,2,,,,,,3,lowercase
+inspect,10,,,2,,,,,,8,lowercase
+logging,4,,,2,,,,,,2,lowercase
+params,35,,,6,,,,,,29,lowercase
+dependencies,13,,,7,,1,,,,5,lowercase
+models,9,,,9,,,,,,,lowercase
+Dependant,17,,1,3,,,,,,13,CapitalizedWords
+get_body_field,3,1,,1,,,,,,1,lower_case_with_underscores
+get_dependant,4,1,,1,,,,,,2,lower_case_with_underscores
+solve_dependencies,4,1,,1,,,,,,2,lower_case_with_underscores
+encoders,3,,,3,,,,,,,lowercase
+UnconstrainedConfig,9,,1,2,,,,,,6,CapitalizedWords
+error_wrappers,2,,,2,,,,,,,lower_case_with_underscores
+ErrorWrapper,11,,,2,,,,,,9,CapitalizedWords
+ValidationError,7,,,2,,,,,,5,CapitalizedWords
+fields,5,,,5,,,,,,,lowercase
+Field,28,,,5,,,,,,23,CapitalizedWords
+lenient_issubclass,11,,,3,,,,,,8,lower_case_with_underscores
+concurrency,2,,,2,,,,,,,lowercase
+run_in_threadpool,4,,,2,,,,,,2,lower_case_with_underscores
+formparsers,1,,,1,,,,,,,lowercase
+UploadFile,2,,,1,,,,,,1,CapitalizedWords
+get_name,2,,,1,,,,,,1,lower_case_with_underscores
+request_response,2,,,1,,,,,,1,lower_case_with_underscores
+HTTP_422_UNPROCESSABLE_ENTITY,4,,,2,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+serialize_response,2,1,,,,,,,,1,lower_case_with_underscores
+field,41,,,,,1,1,,,39,lowercase
+encoded,3,,,,,,,,,3,lowercase
+errors_,15,,,,,,,,,15,lowercase
+validate,3,,,,,,,,,3,lowercase
+loc,5,,,,,,5,,,,lowercase
+extend,13,,,,,,,,,13,lowercase
+get_app,2,1,,,,,,,,1,lower_case_with_underscores
+dependant,57,,,,,7,8,,,42,lowercase
+body_field,19,,,,,2,2,,,15,lower_case_with_underscores
+response_field,10,,,,,1,1,,,8,lower_case_with_underscores
+call,25,,,,,3,3,,,19,lowercase
+is_coroutine,2,,,,,,,,,2,lower_case_with_underscores
+iscoroutinefunction,3,,,,,,,,,3,lowercase
+is_body_form,2,,,,,,,,,2,lower_case_with_underscores
+schema,50,,,3,,,4,,,43,lowercase
+body,19,,,1,,5,2,,,11,lowercase
+raw_body,2,,,,,,,,,2,lower_case_with_underscores
+form,1,,,,,,,,,1,lowercase
+form_fields,5,,,,,,,,,5,lower_case_with_underscores
+read,1,,,,,,,,,1,lowercase
+body_bytes,2,,,,,,,,,2,lower_case_with_underscores
+error,1,,,,,,,,,1,lowercase
+values,22,,,,,,,,,22,lowercase
+errors_out,2,,,,,,,,,2,lower_case_with_underscores
+raw_response,5,,,,,,,,,5,lower_case_with_underscores
+response_data,2,,,,,,,,,2,lower_case_with_underscores
+APIRoute,9,,1,,,,,,,8,CapitalizedWords
+Route,2,,,,,,,,,2,CapitalizedWords
+startswith,2,,,,,,,,,2,lowercase
+response_name,2,,,,,,,,,2,lower_case_with_underscores
+type_,9,,,,,,4,,,5,lowercase
+class_validators,4,,,,,,4,,,,lower_case_with_underscores
+required,23,,,,,,4,,,19,lowercase
+model_config,4,,,,,,4,,,,lower_case_with_underscores
+path_regex,1,,,,,,,,,1,lower_case_with_underscores
+path_format,1,,,,,,,,,1,lower_case_with_underscores
+param_convertors,1,,,,,,,,,1,lower_case_with_underscores
+compile_path,1,,,,,,,,,1,lower_case_with_underscores
+isfunction,2,,,,,,,,,2,lowercase
+ismethod,1,,,,,,,,,1,lowercase
+Router,1,,,,,,,,,1,CapitalizedWords
+route,74,,,,,4,4,,,66,lowercase
+endswith,3,,,,,,,,,3,lowercase
+re,2,,,1,,,,,,1,lowercase
+constants,2,,,2,,,,,,,lowercase
+REF_PREFIX,8,,,2,,,,,,6,UPPER_CASE_WITH_UNDERSCORES
+BaseConfig,2,,,1,,,,,,1,CapitalizedWords
+get_flat_models_from_fields,2,,,1,,,,,,1,lower_case_with_underscores
+model_process_schema,2,,,1,,,,,,1,lower_case_with_underscores
+BaseRoute,4,,,2,,,,,,2,CapitalizedWords
+min_anystr_length,1,,,,,,,,,1,lower_case_with_underscores
+max_anystr_length,1,,,,,,,,,1,lower_case_with_underscores
+get_flat_models_from_routes,3,1,,1,,,,,,1,lower_case_with_underscores
+body_fields_from_routes,3,,,,,,,,,3,lower_case_with_underscores
+responses_from_routes,3,,,,,,,,,3,lower_case_with_underscores
+getattr,7,,,,,,,,,7,lowercase
+flat_models,8,,,,,1,1,,,6,lower_case_with_underscores
+get_model_definitions,3,1,,1,,,,,,1,lower_case_with_underscores
+model_name_map,18,,,,,3,7,,,8,lower_case_with_underscores
+definitions,19,,,,,,,,,19,lowercase
+model,17,,,,,,,,,17,lowercase
+m_schema,2,,,,,,,,,2,lower_case_with_underscores
+m_definitions,2,,,,,,,,,2,lower_case_with_underscores
+ref_prefix,3,,,,,,3,,,,lower_case_with_underscores
+model_name,4,,,,,,,,,4,lower_case_with_underscores
+get_path_param_names,3,1,,1,,,,,,1,lower_case_with_underscores
+strip,1,,,,,,,,,1,lowercase
+findall,1,,,,,,,,,1,lowercase
+base,6,,,6,,,,,,,lowercase
+SecurityBase,19,,2,7,,,,,,10,CapitalizedWords
+param_supported_types,7,,,,,,,,,7,lower_case_with_underscores
+SecurityRequirement,4,,1,1,,,,,,2,CapitalizedWords
+security_scheme,6,,,,,1,1,,,4,lower_case_with_underscores
+path_params,11,,,,,1,1,,,9,lower_case_with_underscores
+query_params,14,,,2,,1,1,,,10,lower_case_with_underscores
+header_params,11,,,1,,1,1,,,8,lower_case_with_underscores
+cookie_params,11,,,1,,1,1,,,8,lower_case_with_underscores
+body_params,17,,,,,1,1,,,15,lower_case_with_underscores
+security_schemes,9,,,,,1,1,,,7,lower_case_with_underscores
+request_param_name,6,,,,,1,,,,5,lower_case_with_underscores
+security_requirements,6,,,,,,,,,6,lower_case_with_underscores
+deepcopy,3,,,1,,,,,,2,lowercase
+date,2,,,1,,,,,,1,lowercase
+decimal,1,,,1,,,,,,,lowercase
+Decimal,2,,,1,,,,,,1,CapitalizedWords
+Mapping,2,,,1,,,,,,1,CapitalizedWords
+Union,32,,,2,,,,,,30,CapitalizedWords
+create_model,2,,,1,,,,,,1,lower_case_with_underscores
+MissingError,3,,,1,,,,,,2,CapitalizedWords
+Required,5,,,1,,,,,,4,CapitalizedWords
+Shape,4,,,1,,,,,,3,CapitalizedWords
+get_annotation_from_schema,3,,,1,,,,,,2,lower_case_with_underscores
+Headers,3,,,1,,,,,,2,CapitalizedWords
+QueryParams,3,,,1,,,,,,2,CapitalizedWords
+get_sub_dependant,2,1,,,,,,,,1,lower_case_with_underscores
+param,71,,,,,3,5,,,63,lowercase
+Parameter,7,,1,,,,,,,6,CapitalizedWords
+depends,5,,,,,,,,,5,lowercase
+annotation,20,,,,,,,,,20,lowercase
+sub_dependant,15,,,,,,,,,15,lower_case_with_underscores
+security_requirement,6,,,,,,,,,6,lower_case_with_underscores
+get_flat_dependant,6,1,,1,,,,,,4,lower_case_with_underscores
+flat_dependant,26,,,,,1,1,,,24,lower_case_with_underscores
+flat_sub,7,,,,,,,,,7,lower_case_with_underscores
+path_param_names,2,,,,,,,,,2,lower_case_with_underscores
+endpoint_signature,2,,,,,,,,,2,lower_case_with_underscores
+signature,1,,,,,,,,,1,lowercase
+signature_params,6,,,,,,,,,6,lower_case_with_underscores
+parameters,12,,,,,,,,,12,lowercase
+param_name,7,,,,,,,,,7,lower_case_with_underscores
+empty,8,,,,,,,,,8,lowercase
+add_param_to_fields,4,1,,,,,,,,3,lower_case_with_underscores
+default_schema,6,,,,,1,3,,,2,lower_case_with_underscores
+force_type,4,,,,,1,1,,,2,lower_case_with_underscores
+origin,2,,,,,,,,,2,lowercase
+param_all_types,3,,,,,,,,,3,lower_case_with_underscores
+add_param_to_body_fields,2,1,,,,,,,,1,lower_case_with_underscores
+default_value,16,,,,,,,,,16,lower_case_with_underscores
+replace,6,,,,,,,,,6,lowercase
+is_coroutine_callable,2,1,,,,,,,,1,lower_case_with_underscores
+isclass,1,,,,,,,,,1,lowercase
+sub_values,3,,,,,,,,,3,lower_case_with_underscores
+sub_errors,3,,,,,,,,,3,lower_case_with_underscores
+solved,3,,,,,,,,,3,lowercase
+path_values,2,,,,,,,,,2,lower_case_with_underscores
+path_errors,2,,,,,,,,,2,lower_case_with_underscores
+request_params_to_args,5,1,,,,,,,,4,lower_case_with_underscores
+query_values,2,,,,,,,,,2,lower_case_with_underscores
+query_errors,2,,,,,,,,,2,lower_case_with_underscores
+header_values,2,,,,,,,,,2,lower_case_with_underscores
+header_errors,2,,,,,,,,,2,lower_case_with_underscores
+headers,41,,,,,1,21,,,19,lowercase
+cookie_values,2,,,,,,,,,2,lower_case_with_underscores
+cookie_errors,2,,,,,,,,,2,lower_case_with_underscores
+cookies,6,,,,,1,2,,,3,lowercase
+body_values,2,,,,,,,,,2,lower_case_with_underscores
+body_errors,2,,,,,,,,,2,lower_case_with_underscores
+request_body_to_args,2,1,,,,,,,,1,lower_case_with_underscores
+required_params,9,,,,,2,,,,7,lower_case_with_underscores
+received_params,4,,,,,1,,,,3,lower_case_with_underscores
+shape,1,,,,,,,,,1,lowercase
+LIST,1,,,,,,,,,1,UPPERCASE
+SET,1,,,,,,,,,1,UPPERCASE
+TUPLE,1,,,,,,,,,1,UPPERCASE
+getlist,1,,,,,,,,,1,lowercase
+config,2,,,,,,2,,,,lowercase
+v_,4,,,,,,,,,4,b
+received_body,6,,,,,1,,,,5,lower_case_with_underscores
+first_param,3,,,,,,,,,3,lower_case_with_underscores
+BodyModel,3,,,,,,,,,3,CapitalizedWords
+f,20,,,,,,,,,20,b
+any,3,,,,,,,,,3,lowercase
+BodySchema,4,,,,,,,,,4,CapitalizedWords
+METHODS_WITH_BODY,3,,,1,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+PSchema,21,,,,,,,1,,20,CapitalizedWords
+email_validator,2,,,1,,,,,,1,lower_case_with_underscores
+ImportError,1,,,,,,,,,1,CapitalizedWords
+warning,1,,,,,,,,,1,lowercase
+Contact,2,,1,,,,,,,1,CapitalizedWords
+License,2,,1,,,,,,,1,CapitalizedWords
+Info,2,,1,,,,,,,1,CapitalizedWords
+termsOfService,1,,,,,,,,,1,mixedCase
+contact,1,,,,,,,,,1,lowercase
+license,1,,,,,,,,,1,lowercase
+ServerVariable,2,,1,,,,,,,1,CapitalizedWords
+Server,5,,1,,,,,,,4,CapitalizedWords
+variables,1,,,,,,,,,1,lowercase
+Reference,23,,1,,,,,,,22,CapitalizedWords
+ref,3,,,,,,,,,3,lowercase
+Discriminator,2,,1,,,,,,,1,CapitalizedWords
+propertyName,1,,,,,,,,,1,mixedCase
+mapping,1,,,,,,,,,1,lowercase
+XML,2,,1,,,,,,,1,UPPERCASE
+namespace,1,,,,,,,,,1,lowercase
+attribute,1,,,,,,,,,1,lowercase
+wrapped,1,,,,,,,,,1,lowercase
+ExternalDocumentation,5,,1,,,,,,,4,CapitalizedWords
+SchemaBase,9,,1,,,,,,,8,CapitalizedWords
+multipleOf,1,,,,,,,,,1,mixedCase
+maximum,1,,,,,,,,,1,lowercase
+exclusiveMaximum,1,,,,,,,,,1,mixedCase
+minimum,1,,,,,,,,,1,lowercase
+exclusiveMinimum,1,,,,,,,,,1,mixedCase
+maxLength,1,,,,,,,,,1,mixedCase
+gte,6,,,,,,6,,,,lowercase
+minLength,1,,,,,,,,,1,mixedCase
+pattern,1,,,,,,,,,1,lowercase
+maxItems,1,,,,,,,,,1,mixedCase
+minItems,1,,,,,,,,,1,mixedCase
+uniqueItems,1,,,,,,,,,1,mixedCase
+maxProperties,1,,,,,,,,,1,mixedCase
+minProperties,1,,,,,,,,,1,mixedCase
+allOf,2,,,,,,,,,2,mixedCase
+oneOf,2,,,,,,,,,2,mixedCase
+anyOf,2,,,,,,,,,2,mixedCase
+not_,2,,,,,,,,,2,lowercase
+properties,2,,,,,,,,,2,lowercase
+additionalProperties,2,,,,,,,,,2,mixedCase
+format,1,,,,,,,,,1,lowercase
+nullable,1,,,,,,,,,1,lowercase
+discriminator,1,,,,,,,,,1,lowercase
+readOnly,1,,,,,,,,,1,mixedCase
+writeOnly,1,,,,,,,,,1,mixedCase
+xml,1,,,,,,,,,1,lowercase
+externalDocs,4,,,,,,,,,4,mixedCase
+Example,4,,1,,,,,,,3,CapitalizedWords
+externalValue,1,,,,,,,,,1,mixedCase
+ParameterInType,2,,1,,,,,,,1,CapitalizedWords
+Encoding,3,,1,,,,,,,2,CapitalizedWords
+contentType,1,,,,,,,,,1,mixedCase
+style,2,,,,,,,,,2,lowercase
+explode,2,,,,,,,,,2,lowercase
+allowReserved,2,,,,,,,,,2,mixedCase
+MediaType,4,,1,,,,,,,3,CapitalizedWords
+schema_,2,,,,,,,,,2,lowercase
+examples,3,,,,,,,,,3,lowercase
+encoding,1,,,,,,,,,1,lowercase
+ParameterBase,3,,1,,,,,,,2,CapitalizedWords
+EncodingWithHeaders,1,,1,,,,,,,,CapitalizedWords
+RequestBody,3,,1,,,,,,,2,CapitalizedWords
+Link,3,,1,,,,,,,2,CapitalizedWords
+operationRef,1,,,,,,,,,1,mixedCase
+operationId,2,,,,,,,,,2,mixedCase
+requestBody,2,,,,,,,,,2,mixedCase
+server,1,,,,,,,,,1,lowercase
+links,2,,,,,,,,,2,lowercase
+Responses,2,,1,,,,,,,1,CapitalizedWords
+Operation,9,,1,,,,,,,8,CapitalizedWords
+callbacks,3,,,,,,,,,3,lowercase
+servers,3,,,,,,,,,3,lowercase
+PathItem,4,,1,,,,,,,3,CapitalizedWords
+OperationWithCallbacks,1,,1,,,,,,,,CapitalizedWords
+SecuritySchemeType,6,,1,,,,,,,5,CapitalizedWords
+apiKey,2,,,,,,,,,2,mixedCase
+http,4,,,2,,,,,,2,lowercase
+oauth2,4,,,2,,,,,,2,lowercase
+openIdConnect,2,,,,,,,,,2,mixedCase
+APIKeyIn,6,,1,1,,,,,,4,CapitalizedWords
+APIKey,6,,1,1,,,,,,4,CapitalizedWords
+HTTPBase,10,,2,2,,,,,,6,CapitalizedWords
+scheme,32,,,,,1,7,,,24,lowercase
+HTTPBearer,7,,2,3,,,,,,2,CapitalizedWords
+bearerFormat,4,,,,,1,1,,,2,mixedCase
+OAuthFlow,5,,1,,,,,,,4,CapitalizedWords
+refreshUrl,1,,,,,,,,,1,mixedCase
+OAuthFlowImplicit,2,,1,,,,,,,1,CapitalizedWords
+authorizationUrl,2,,,,,,,,,2,mixedCase
+OAuthFlowPassword,2,,1,,,,,,,1,CapitalizedWords
+OAuthFlowClientCredentials,2,,1,,,,,,,1,CapitalizedWords
+OAuthFlowAuthorizationCode,2,,1,,,,,,,1,CapitalizedWords
+OAuthFlows,3,,1,1,,,,,,1,CapitalizedWords
+implicit,1,,,,,,,,,1,lowercase
+clientCredentials,1,,,,,,,,,1,mixedCase
+authorizationCode,1,,,,,,,,,1,mixedCase
+OAuth2,10,,2,4,,,,,,4,CapitalizedWords
+flows,9,,,,,1,4,,,4,lowercase
+OpenIdConnect,7,,2,3,,,,,,2,CapitalizedWords
+openIdConnectUrl,5,,,,,1,2,,,2,mixedCase
+SecurityScheme,2,,,,,,,,,2,CapitalizedWords
+Components,2,,1,,,,,,,1,CapitalizedWords
+schemas,1,,,,,,,,,1,lowercase
+requestBodies,1,,,,,,,,,1,mixedCase
+securitySchemes,1,,,,,,,,,1,mixedCase
+Tag,2,,1,,,,,,,1,CapitalizedWords
+OpenAPI,3,,1,1,,,,,,1,CapitalizedWords
+info,4,,,,,,,,,4,lowercase
+paths,4,,,,,,,,,4,lowercase
+components,6,,,,,,,,,6,lowercase
+field_schema,4,,,1,,,,,,3,lower_case_with_underscores
+get_model_name_map,2,,,1,,,,,,1,lower_case_with_underscores
+validation_error_definition,3,,,,,,,,,3,lower_case_with_underscores
+validation_error_response_definition,3,,,,,,,,,3,lower_case_with_underscores
+get_openapi_params,2,1,,,,,,,,1,lower_case_with_underscores
+get_openapi_security_definitions,2,1,,,,,,,,1,lower_case_with_underscores
+security_definitions,6,,,,,,,,,6,lower_case_with_underscores
+operation_security,6,,,,,,,,,6,lower_case_with_underscores
+security_definition,2,,,,,,,,,2,lower_case_with_underscores
+security_name,3,,,,,,,,,3,lower_case_with_underscores
+scheme_name,32,,,,,10,1,,,21,lower_case_with_underscores
+get_openapi_operation_parameters,2,1,,,,,,,,1,lower_case_with_underscores
+all_route_params,6,,,,,1,1,,,4,lower_case_with_underscores
+parameter,4,,,,,,,,,4,lowercase
+get_openapi_operation_request_body,2,1,,,,,,,,1,lower_case_with_underscores
+body_schema,3,,,1,,,,,,2,lower_case_with_underscores
+_,3,,,,,,,,,3,ugly
+request_media_type,3,,,,,,,,,3,lower_case_with_underscores
+request_body_oai,7,,,,,,,,,7,lower_case_with_underscores
+generate_operation_id,2,1,,,,,,,,1,lower_case_with_underscores
+method,14,,,,,3,3,,,8,lowercase
+generate_operation_summary,2,1,,,,,,,,1,lower_case_with_underscores
+get_openapi_operation_metadata,2,1,,,,,,,,1,lower_case_with_underscores
+operation,14,,,,,,,,,14,lowercase
+get_openapi_path,2,1,,,,,,,,1,lower_case_with_underscores
+setdefault,4,,,,,,,,,4,lowercase
+validation_definitions,2,,,,,,,,,2,lower_case_with_underscores
+operation_parameters,2,,,,,,,,,2,lower_case_with_underscores
+response_schema,4,,,,,,,,,4,lower_case_with_underscores
+output,4,,,,,,,,,4,lowercase
+path_definitions,3,,,,,,,,,3,lower_case_with_underscores
+APIKeyBase,4,,1,,,,,,,3,CapitalizedWords
+APIKeyQuery,4,,1,2,,,,,,1,CapitalizedWords
+api_key,16,,,1,,,,,,15,lower_case_with_underscores
+APIKeyHeader,4,,1,2,,,,,,1,CapitalizedWords
+APIKeyCookie,4,,1,2,,,,,,1,CapitalizedWords
+SecurityBaseModel,2,,,,,,,1,,1,CapitalizedWords
+binascii,2,,,1,,,,,,1,lowercase
+base64,2,,,2,,,,,,,lowercase
+b64decode,2,,,1,,,,,,1,lowercase
+HTTPBaseModel,4,,,,,,,1,,3,CapitalizedWords
+HTTPBearerModel,2,,,,,,,1,,1,CapitalizedWords
+get_authorization_scheme_param,8,1,,2,,,,,,5,lower_case_with_underscores
+HTTPBasicCredentials,5,,1,2,,,,,,2,CapitalizedWords
+HTTPAuthorizationCredentials,11,,1,4,,,,,,6,CapitalizedWords
+credentials,28,,,,,4,3,,,21,lowercase
+authorization,21,,,,,,,,,21,lowercase
+HTTPBasic,6,,1,3,,,,,,2,CapitalizedWords
+realm,3,,,,,1,,,,2,lowercase
+invalid_user_credentials_exc,3,,,,,,,,,3,lower_case_with_underscores
+UnicodeDecodeError,1,,,,,,,,,1,CapitalizedWords
+Error,1,,,,,,,,,1,CapitalizedWords
+separator,2,,,,,,,,,2,lowercase
+partition,2,,,,,,,,,2,lowercase
+HTTPDigest,4,,1,2,,,,,,1,CapitalizedWords
+OAuth2Model,2,,,,,,,1,,1,CapitalizedWords
+OAuthFlowsModel,4,,,,,,,1,,3,CapitalizedWords
+grant_type,6,,,,,2,1,,,3,lower_case_with_underscores
+scope,5,,,,,2,1,,,2,lowercase
+client_id,6,,,,,2,1,,,3,lower_case_with_underscores
+client_secret,6,,,,,2,1,,,3,lower_case_with_underscores
+split,2,,,,,,,,,2,lowercase
+OAuth2PasswordRequestFormStrict,3,,1,1,,,,,,1,CapitalizedWords
+OpenIdConnectModel,2,,,,,,,1,,1,CapitalizedWords
+authorization_header_value,3,,,,,1,,,,2,lower_case_with_underscores
+open_id_connect_url,2,,,2,,,,,,,lower_case_with_underscores
+PlainTextResponse,1,,,1,,,,,,,CapitalizedWords
+HTTP_202_ACCEPTED,1,,,1,,,,,,,UPPER_CASE_WITH_UNDERSCORES
+get_security,1,1,,,,,,,,,lower_case_with_underscores
+sec,4,,,,,2,,,,2,lowercase
+reusable_oauth2,5,,,,,,,,,5,lower_case_with_underscores
+get_security_oauth2,1,1,,,,,,,,,lower_case_with_underscores
+post_token,1,1,,,,,,,,,lower_case_with_underscores
+request_data,2,,,,,1,,,,1,lower_case_with_underscores
+parse,1,,,,,,,,,1,lowercase
+is_offer,1,,,,,,,,,1,lower_case_with_underscores
+FakeDB,3,,1,,,,,,,2,CapitalizedWords
+DBConnectionManager,2,,1,,,,,,,1,CapitalizedWords
+connection_manager,2,,,,,,,,,2,lower_case_with_underscores
+TokenUserData,3,,1,,,,,,,2,CapitalizedWords
+fist_name,2,,,,,,,,,2,lower_case_with_underscores
+require_token,2,1,,,,,,,,1,lower_case_with_underscores
+raw_token,2,,,,,,,,,2,lower_case_with_underscores
+require_user,2,1,,,,,,,,1,lower_case_with_underscores
+user_data,2,,,,,1,,,,1,lower_case_with_underscores
+get_dependency,1,1,,,,,,,,,lower_case_with_underscores
+pathlib,1,,,1,,,,,,,lowercase
+PurePath,3,,,1,,,,,,2,CapitalizedWords
+string,1,,,1,,,,,,,lowercase
+digits,1,,,1,,,,,,,lowercase
+directory,4,,,,,,,,,4,lowercase
+skip_names,2,,,,,,,,,2,lower_case_with_underscores
+skip_dirs,2,,,,,,,,,2,lower_case_with_underscores
+dirs,3,,,,,,,,,3,lowercase
+sorted,2,,,,,,,,,2,lowercase
+iterdir,2,,,,,,,,,2,lowercase
+d,8,,,,,,,,,8,b
+sufix,3,,,,,,,,,3,lowercase
+output_dir_name,2,,,,,,,,,2,lower_case_with_underscores
+output_directory,4,,,,,,,,,4,lower_case_with_underscores
+mkdir,1,,,,,,,,,1,lowercase
+exist_ok,1,,,,,,1,,,,lower_case_with_underscores
+files,6,,,,,,4,,,2,lowercase
+i,2,,,,,,,,,2,b
+enumerate,1,,,,,,,,,1,lowercase
+zfill,1,,,,,,,,,1,lowercase
+new_name,4,,,,,,,,,4,lower_case_with_underscores
+rename,2,,,,,,,,,2,lowercase
+current_dir,3,,,,,,,,,3,lower_case_with_underscores
+non_operation,1,1,,,,,,,,,lower_case_with_underscores
+non_decorated_route,2,1,,,,,,,,1,lower_case_with_underscores
+get_text,1,1,,,,,,,,,lower_case_with_underscores
+get_id,1,1,,,,,,,,,lower_case_with_underscores
+get_str_id,1,1,,,,,,,,,lower_case_with_underscores
+get_int_id,1,1,,,,,,,,,lower_case_with_underscores
+get_float_id,1,1,,,,,,,,,lower_case_with_underscores
+get_bool_id,1,1,,,,,,,,,lower_case_with_underscores
+get_path_param_id,1,1,,,,,,,,,lower_case_with_underscores
+get_path_param_required_id,1,1,,,,,,,,,lower_case_with_underscores
+get_path_param_min_length,1,1,,,,,,,,,lower_case_with_underscores
+get_path_param_max_length,1,1,,,,,,,,,lower_case_with_underscores
+get_path_param_min_max_length,1,1,,,,,,,,,lower_case_with_underscores
+get_path_param_gt,1,1,,,,,,,,,lower_case_with_underscores
+get_path_param_gt0,1,1,,,,,,,,,lower_case_with_underscores
+get_path_param_ge,1,1,,,,,,,,,lower_case_with_underscores
+get_path_param_lt,1,1,,,,,,,,,lower_case_with_underscores
+get_path_param_lt0,1,1,,,,,,,,,lower_case_with_underscores
+get_path_param_le,1,1,,,,,,,,,lower_case_with_underscores
+get_path_param_lt_gt,1,1,,,,,,,,,lower_case_with_underscores
+get_path_param_le_ge,1,1,,,,,,,,,lower_case_with_underscores
+get_path_param_lt_int,1,1,,,,,,,,,lower_case_with_underscores
+get_path_param_gt_int,1,1,,,,,,,,,lower_case_with_underscores
+get_path_param_le_int,1,1,,,,,,,,,lower_case_with_underscores
+get_path_param_ge_int,1,1,,,,,,,,,lower_case_with_underscores
+get_path_param_lt_gt_int,1,1,,,,,,,,,lower_case_with_underscores
+get_path_param_le_ge_int,1,1,,,,,,,,,lower_case_with_underscores
+get_query,1,1,,,,,,,,,lower_case_with_underscores
+get_query_optional,1,1,,,,,,,,,lower_case_with_underscores
+get_query_type,1,1,,,,,,,,,lower_case_with_underscores
+get_query_type_optional,2,2,,,,,,,,,lower_case_with_underscores
+get_query_param,1,1,,,,,,,,,lower_case_with_underscores
+get_query_param_required,1,1,,,,,,,,,lower_case_with_underscores
+get_query_param_required_type,1,1,,,,,,,,,lower_case_with_underscores
+pytest,42,,,20,,,,,,22,lowercase
+testclient,45,,,45,,,,,,,lowercase
+TestClient,94,,,45,,,,,,49,CapitalizedWords
+main,3,,,3,,,,,,,lowercase
+client,177,,,,,,,,,177,lowercase
+test_get_path,5,5,,,,,,,,,lower_case_with_underscores
+expected_status,36,,,,,18,,,,18,lower_case_with_underscores
+expected_response,39,,,,,18,,,,21,lower_case_with_underscores
+parametrize,18,,,,,,,,,18,lowercase
+mark,18,,,,,,,,,18,lowercase
+test_swagger_ui,1,1,,,,,,,,,lower_case_with_underscores
+text,3,,,,,,,,,3,lowercase
+test_redoc,1,1,,,,,,,,,lower_case_with_underscores
+get_not_decorated,2,1,,,,,,,,1,lower_case_with_underscores
+delete_item,1,1,,,,,,,,,lower_case_with_underscores
+head_item,1,1,,,,,,,,,lower_case_with_underscores
+options_item,1,1,,,,,,,,,lower_case_with_underscores
+patch_item,1,1,,,,,,,,,lower_case_with_underscores
+trace_item,1,1,,,,,,,,,lower_case_with_underscores
+test_openapi_schema,33,33,,,,,,,,,lower_case_with_underscores
+test_get_api_route,1,1,,,,,,,,,lower_case_with_underscores
+test_get_api_route_not_decorated,1,1,,,,,,,,,lower_case_with_underscores
+test_delete,1,1,,,,,,,,,lower_case_with_underscores
+test_head,1,1,,,,,,,,,lower_case_with_underscores
+test_options,1,1,,,,,,,,,lower_case_with_underscores
+test_patch,1,1,,,,,,,,,lower_case_with_underscores
+test_trace,1,1,,,,,,,,,lower_case_with_underscores
+test_sub_router,1,1,,,,,,,,,lower_case_with_underscores
+Pet,3,,1,,,,,,,2,CapitalizedWords
+owner,5,,,,,1,2,,,2,lowercase
+DictablePerson,2,,1,,,,,,,1,CapitalizedWords
+k,4,,,,,,,,,4,b
+v,4,,,,,,,,,4,b
+DictablePet,2,,1,,,,,,,1,CapitalizedWords
+Unserializable,2,,1,,,,,,,1,CapitalizedWords
+NotImplementedError,2,,,,,,,,,2,CapitalizedWords
+property,1,,,,,,,,,1,lowercase
+test_encode_class,1,1,,,,,,,,,lower_case_with_underscores
+person,4,,,,,,,,,4,lowercase
+pet,4,,,,,,,,,4,lowercase
+test_encode_dictable,1,1,,,,,,,,,lower_case_with_underscores
+test_encode_unsupported,1,1,,,,,,,,,lower_case_with_underscores
+unserializable,2,,,,,,,,,2,lowercase
+raises,4,,,,,,,,,4,lowercase
+save_item_no_body,2,2,,,,,,,,,lower_case_with_underscores
+multiple_errors,4,,,,,,,,,4,lower_case_with_underscores
+test_put_correct_body,1,1,,,,,,,,,lower_case_with_underscores
+test_put_incorrect_body,1,1,,,,,,,,,lower_case_with_underscores
+test_multi_query,1,1,,,,,,,,,lower_case_with_underscores
+test_multi_query_incorrect,1,1,,,,,,,,,lower_case_with_underscores
+test_default_param_query_none,1,1,,,,,,,,,lower_case_with_underscores
+test_default_param_query,1,1,,,,,,,,,lower_case_with_underscores
+test_text_get,1,1,,,,,,,,,lower_case_with_underscores
+test_nonexistent,1,1,,,,,,,,,lower_case_with_underscores
+response_not_valid_int,16,,,,,,,,,16,lower_case_with_underscores
+response_not_valid_float,3,,,,,,,,,3,lower_case_with_underscores
+response_at_least_3,2,,,,,,,,,2,lower_case_with_underscores
+response_at_least_2,2,,,,,,,,,2,lower_case_with_underscores
+response_maximum_3,3,,,,,,,,,3,lower_case_with_underscores
+response_greater_than_3,3,,,,,,,,,3,lower_case_with_underscores
+response_greater_than_0,2,,,,,,,,,2,lower_case_with_underscores
+response_greater_than_1,3,,,,,,,,,3,lower_case_with_underscores
+response_greater_than_equal_3,3,,,,,,,,,3,lower_case_with_underscores
+response_less_than_3,5,,,,,,,,,5,lower_case_with_underscores
+response_less_than_0,2,,,,,,,,,2,lower_case_with_underscores
+response_less_than_equal_3,5,,,,,,,,,5,lower_case_with_underscores
+test_put_no_body,1,1,,,,,,,,,lower_case_with_underscores
+test_put_no_body_with_body,1,1,,,,,,,,,lower_case_with_underscores
+response_missing,7,,,,,,,,,7,lower_case_with_underscores
+oauth_header,10,,,,,5,,,,5,lower_case_with_underscores
+read_current_user,10,10,,,,,,,,,lower_case_with_underscores
+test_security_api_key,3,3,,,,,,,,,lower_case_with_underscores
+test_security_api_key_no_key,3,3,,,,,,,,,lower_case_with_underscores
+test_security_http_base,1,1,,,,,,,,,lower_case_with_underscores
+test_security_http_base_no_credentials,1,1,,,,,,,,,lower_case_with_underscores
+b64encode,2,,,1,,,,,,1,lowercase
+auth,4,,,1,,,1,,,2,lowercase
+HTTPBasicAuth,2,,,1,,,,,,1,CapitalizedWords
+test_security_http_basic,1,1,,,,,,,,,lower_case_with_underscores
+test_security_http_basic_no_credentials,1,1,,,,,,,,,lower_case_with_underscores
+test_security_http_basic_invalid_credentials,1,1,,,,,,,,,lower_case_with_underscores
+test_security_http_basic_non_basic_credentials,1,1,,,,,,,,,lower_case_with_underscores
+auth_header,2,,,,,,,,,2,lower_case_with_underscores
+test_security_http_bearer,1,1,,,,,,,,,lower_case_with_underscores
+test_security_http_bearer_no_credentials,1,1,,,,,,,,,lower_case_with_underscores
+test_security_http_bearer_incorrect_scheme_credentials,1,1,,,,,,,,,lower_case_with_underscores
+test_security_http_digest,1,1,,,,,,,,,lower_case_with_underscores
+test_security_http_digest_no_credentials,1,1,,,,,,,,,lower_case_with_underscores
+test_security_http_digest_incorrect_scheme_credentials,1,1,,,,,,,,,lower_case_with_underscores
+test_security_oauth2,2,2,,,,,,,,,lower_case_with_underscores
+test_security_oauth2_password_other_header,2,2,,,,,,,,,lower_case_with_underscores
+test_security_oauth2_password_bearer_no_header,2,2,,,,,,,,,lower_case_with_underscores
+grant_type_required,2,,,,,,,,,2,lower_case_with_underscores
+grant_type_incorrect,2,,,,,,,,,2,lower_case_with_underscores
+test_strict_login,1,1,,,,,,,,,lower_case_with_underscores
+oid,2,,,,,,,,,2,lowercase
+owner_ids,1,,,,,,,,,1,lower_case_with_underscores
+get_invalid,1,1,,,,,,,,,lower_case_with_underscores
+get_innerinvalid,1,1,,,,,,,,,lower_case_with_underscores
+get_invalidlist,1,1,,,,,,,,,lower_case_with_underscores
+test_invalid,1,1,,,,,,,,,lower_case_with_underscores
+test_double_invalid,1,1,,,,,,,,,lower_case_with_underscores
+test_invalid_list,1,1,,,,,,,,,lower_case_with_underscores
+application_configuration,1,,,1,,,,,,,lower_case_with_underscores
+test_items,1,1,,,,,,,,,lower_case_with_underscores
+bigger_applications,1,,,1,,,,,,,lower_case_with_underscores
+tutorial003,3,,,3,,,,,,,lowercase
+price_missing,2,,,,,,,,,2,lower_case_with_underscores
+price_not_float,2,,,,,,,,,2,lower_case_with_underscores
+name_price_missing,2,,,,,,,,,2,lower_case_with_underscores
+body_missing,2,,,,,,,,,2,lower_case_with_underscores
+test_post_body,2,2,,,,,,,,,lower_case_with_underscores
+test_post_broken_body,1,1,,,,,,,,,lower_case_with_underscores
+body_multiple_params,1,,,1,,,,,,,lower_case_with_underscores
+item_id_not_int,2,,,,,,,,,2,lower_case_with_underscores
+price_not_greater,2,,,,,,,,,2,lower_case_with_underscores
+test,5,5,,,,,,,,,lowercase
+custom_response,2,,,2,,,,,,,lower_case_with_underscores
+test_get_custom_response,2,2,,,,,,,,,lower_case_with_underscores
+tutorial004,2,,,2,,,,,,,lowercase
+html_contents,2,,,,,,,,,2,lower_case_with_underscores
+test_get,4,4,,,,,,,,,lower_case_with_underscores
+extra_data_types,1,,,1,,,,,,,lower_case_with_underscores
+test_extra_types,1,1,,,,,,,,,lower_case_with_underscores
+first_steps,1,,,1,,,,,,,lower_case_with_underscores
+path_operation_advanced_configuration,2,,,2,,,,,,,lower_case_with_underscores
+path_operation_configuration,2,,,2,,,,,,,lower_case_with_underscores
+tutorial005,2,,,2,,,,,,,lowercase
+test_query_params_str_validations,3,3,,,,,,,,,lower_case_with_underscores
+tutorial006,2,,,2,,,,,,,lowercase
+query_required,4,,,,,,,,,4,lower_case_with_underscores
+query_params_str_validations,1,,,1,,,,,,,lower_case_with_underscores
+tutorial010,1,,,1,,,,,,,lowercase
+regex_error,2,,,,,,,,,2,lower_case_with_underscores
+q_name,3,,,,,1,,,,2,lower_case_with_underscores
+os,6,,,2,,,,,,4,lowercase
+request_files,1,,,1,,,,,,,lower_case_with_underscores
+file_required,5,,,,,,,,,5,lower_case_with_underscores
+test_post_form_no_body,2,2,,,,,,,,,lower_case_with_underscores
+test_post_body_json,3,3,,,,,,,,,lower_case_with_underscores
+test_post_file,1,1,,,,,,,,,lower_case_with_underscores
+tmpdir,8,,,,,4,,,,4,lowercase
+join,4,,,,,,,,,4,lowercase
+open,8,,,,,,,,,8,lowercase
+write,4,,,,,,,,,4,lowercase
+test_post_large_file,1,1,,,,,,,,,lower_case_with_underscores
+default_pydantic_max_size,3,,,,,,,,,3,lower_case_with_underscores
+request_forms,1,,,1,,,,,,,lower_case_with_underscores
+password_required,2,,,,,,,,,2,lower_case_with_underscores
+username_required,2,,,,,,,,,2,lower_case_with_underscores
+username_and_password_required,3,,,,,,,,,3,lower_case_with_underscores
+test_post_body_form,1,1,,,,,,,,,lower_case_with_underscores
+request_forms_and_files,1,,,1,,,,,,,lower_case_with_underscores
+token_required,2,,,,,,,,,2,lower_case_with_underscores
+file_and_token_required,3,,,,,,,,,3,lower_case_with_underscores
+test_post_form_no_file,1,1,,,,,,,,,lower_case_with_underscores
+test_post_file_no_token,1,1,,,,,,,,,lower_case_with_underscores
+test_post_file_and_token,1,1,,,,,,,,,lower_case_with_underscores
+test_post_user,1,1,,,,,,,,,lower_case_with_underscores
+test_no_token,2,2,,,,,,,,,lower_case_with_underscores
+test_token,2,2,,,,,,,,,lower_case_with_underscores
+test_incorrect_token,2,2,,,,,,,,,lower_case_with_underscores
+test_login,1,1,,,,,,,,,lower_case_with_underscores
+test_login_incorrect_password,1,1,,,,,,,,,lower_case_with_underscores
+test_login_incorrect_username,1,1,,,,,,,,,lower_case_with_underscores
+test_incorrect_token_type,1,1,,,,,,,,,lower_case_with_underscores
+test_inactive_user,1,1,,,,,,,,,lower_case_with_underscores

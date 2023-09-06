@@ -18,7 +18,7 @@ def main(input_path: str, output_path: str):
     if not os.path.isdir(input_path):
         error(f"{input_path} is not a valid directory.")
         return 1
-    
+
     if not os.path.isdir(output_path):
         error(f"{output_path} is not a valid directory.")
         return 1
@@ -32,8 +32,7 @@ def main(input_path: str, output_path: str):
 
             timestamp = file_name[:-10]
             dfs[timestamp] = pd.read_csv(os.path.join(path, file_name))
-            dfs[timestamp]["len"] = dfs[timestamp]["name"].apply(lambda x: len(str(x)))
-        
+
         # Tworzenie wykresów na podstawie danych z pojedynczego katalogu
         if dfs:
             make_plots(dfs, os.path.basename(path), output_path)

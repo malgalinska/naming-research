@@ -1,0 +1,393 @@
+./data/airflow/2019_stats.csv (by Python 3.11):
+    Started at 00:30:45, ended at 00:30:55 (duration 0:00:09.326179)
+
+./data/airflow/2020_stats.csv (by Python 3.11):
+    Started at 00:31:15, ended at 00:31:25 (duration 0:00:10.702348)
+
+./data/airflow/2021_stats.csv (by Python 3.11):
+    Started at 00:32:24, ended at 00:32:53 (duration 0:00:29.022482)
+
+./data/airflow/2022_stats.csv (by Python 3.11):
+    Started at 00:33:48, ended at 00:34:10 (duration 0:00:21.986677)
+
+./data/airflow/2023_stats.csv (by Python 3.11):
+    Started at 00:35:01, ended at 00:35:21 (duration 0:00:19.986363)
+
+./data/ansible/2014_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible/tmp/ansible-1.4.4/docsite/build-site.py', 27, 5, '    print "#################################"\n', 27, 46))
+
+./data/ansible/2014_stats.csv (by Python 2.7):
+    Duration: 0:00:04.873872
+
+./data/ansible/2015_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible/tmp/ansible-1.8.3/setup.py', 12, 5, '    print "Ansible now needs setuptools in order to build. " \\\n', 13, 64))
+
+./data/ansible/2015_stats.csv (by Python 2.7):
+    Duration: 0:00:13.102150
+
+./data/ansible/2016_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible/tmp/ansible-2.0.0.0-1/examples/scripts/uptime.py', 15, 4, '   print "No hosts found"\n', 15, 26))
+
+./data/ansible/2016_stats.csv (by Python 2.7):
+    Duration: 0:00:20.940416
+
+./data/ansible/2017_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/ansible/tmp/ansible-2.1.4.0-1/examples/scripts/uptime.py', 75, 5, '    print "UP ***********"\n', 75, 27))
+
+./data/ansible/2017_stats.csv (by Python 2.7):
+    Duration: 0:00:24.641773
+
+./data/ansible/2018_stats.csv (by Python 3.11):
+SyntaxError('invalid syntax', ('./data/ansible/tmp/ansible-2.4.3.0-1/lib/ansible/cli/adhoc.py', 84, 33, '    def _play_ds(self, pattern, async, poll):\n', 84, 38))
+
+./data/ansible/2018_stats.csv (by Python 2.7):
+    Duration: 0:02:09.029796
+
+./data/authlib/2019_stats.csv (by Python 3.11):
+    Started at 00:42:29, ended at 00:42:32 (duration 0:00:02.686105)
+
+./data/authlib/2020_stats.csv (by Python 3.11):
+    Started at 00:42:38, ended at 00:42:41 (duration 0:00:03.213456)
+
+./data/authlib/2021_stats.csv (by Python 3.11):
+    Started at 00:42:47, ended at 00:42:50 (duration 0:00:02.932261)
+
+./data/authlib/2022_stats.csv (by Python 3.11):
+    Started at 00:42:55, ended at 00:42:58 (duration 0:00:03.001227)
+
+./data/authlib/2023_stats.csv (by Python 3.11):
+    Started at 00:43:04, ended at 00:43:07 (duration 0:00:03.236077)
+
+./data/django/2014_stats.csv (by Python 3.11):
+    Started at 00:44:49, ended at 00:45:37 (duration 0:00:48.358789)
+
+./data/django/2015_stats.csv (by Python 3.11):
+    Started at 00:47:41, ended at 00:48:34 (duration 0:00:52.532021)
+
+./data/django/2016_stats.csv (by Python 3.11):
+    Started at 00:50:28, ended at 00:51:21 (duration 0:00:53.419393)
+
+./data/django/2017_stats.csv (by Python 3.11):
+    Started at 00:53:25, ended at 00:54:16 (duration 0:00:51.080575)
+
+./data/django/2018_stats.csv (by Python 3.11):
+    Started at 00:56:23, ended at 00:57:16 (duration 0:00:53.132919)
+
+./data/fastapi/2019_stats.csv (by Python 3.11):
+    Started at 00:57:37, ended at 00:57:39 (duration 0:00:02.004522)
+
+./data/fastapi/2020_stats.csv (by Python 3.11):
+    Started at 00:57:47, ended at 00:57:51 (duration 0:00:04.329950)
+
+./data/fastapi/2021_stats.csv (by Python 3.11):
+    Started at 00:58:05, ended at 00:58:10 (duration 0:00:05.899692)
+
+./data/fastapi/2022_stats.csv (by Python 3.11):
+    Started at 00:58:29, ended at 00:58:38 (duration 0:00:08.411865)
+
+./data/fastapi/2023_stats.csv (by Python 3.11):
+    Started at 00:58:57, ended at 00:59:07 (duration 0:00:09.296033)
+
+./data/flask/2019_stats.csv (by Python 3.11):
+    Started at 00:59:12, ended at 00:59:13 (duration 0:00:01.041363)
+
+./data/flask/2020_stats.csv (by Python 3.11):
+    Started at 00:59:16, ended at 00:59:17 (duration 0:00:01.076784)
+
+./data/flask/2021_stats.csv (by Python 3.11):
+    Started at 00:59:20, ended at 00:59:22 (duration 0:00:01.241550)
+
+./data/flask/2022_stats.csv (by Python 3.11):
+    Started at 00:59:25, ended at 00:59:26 (duration 0:00:01.224590)
+
+./data/flask/2023_stats.csv (by Python 3.11):
+    Started at 00:59:30, ended at 00:59:31 (duration 0:00:01.283229)
+
+./data/keras/2019_stats.csv (by Python 3.11):
+    Started at 00:59:35, ended at 00:59:38 (duration 0:00:02.742563)
+
+./data/keras/2020_stats.csv (by Python 3.11):
+    Started at 00:59:41, ended at 00:59:43 (duration 0:00:01.792204)
+
+./data/keras/2021_stats.csv (by Python 3.11):
+    Started at 01:00:00, ended at 01:00:07 (duration 0:00:07.235286)
+
+./data/keras/2022_stats.csv (by Python 3.11):
+    Started at 01:00:25, ended at 01:00:33 (duration 0:00:07.466580)
+
+./data/keras/2023_stats.csv (by Python 3.11):
+    Started at 01:00:54, ended at 01:01:04 (duration 0:00:09.896041)
+
+./data/matplotlib/2014_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/matplotlib/tmp/matplotlib-1.4.0/doc/users/plotting/colormaps/Lfunction.py', 44, 5, '    print i,k\n', 44, 14))
+
+./data/matplotlib/2014_stats.csv (by Python 2.7):
+    Duration: 0:00:26.477580
+
+./data/matplotlib/2015_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/matplotlib/tmp/matplotlib-1.4.3/doc/users/plotting/colormaps/Lfunction.py', 42, 5, '    print i,k\n', 42, 14))
+
+./data/matplotlib/2015_stats.csv (by Python 2.7):
+    Duration: 0:00:25.951346
+
+./data/matplotlib/2016_stats.csv (by Python 3.11):
+    Started at 01:04:14, ended at 01:04:24 (duration 0:00:09.766090)
+
+./data/matplotlib/2017_stats.csv (by Python 3.11):
+    Started at 01:05:22, ended at 01:05:32 (duration 0:00:10.324308)
+
+./data/matplotlib/2018_stats.csv (by Python 3.11):
+    Started at 01:06:32, ended at 01:06:42 (duration 0:00:10.700018)
+
+./data/mopidy/2014_stats.csv (by Python 3.11):
+SyntaxError('leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers', ('./data/mopidy/tmp/mopidy-0.18.0/mopidy/utils/path.py', 36, 31, '        os.makedirs(dir_path, 0755)', 36, 32))
+
+./data/mopidy/2014_stats.csv (by Python 2.7):
+    Duration: 0:00:03.576836
+
+./data/mopidy/2015_stats.csv (by Python 3.11):
+SyntaxError('bytes can only contain ASCII literal characters', ('./data/mopidy/tmp/mopidy-1.0.0/tests/utils/test_path.py', 134, 53, "            self.assertEqual(fh.read(), b'foobaræøå')\n", 134, 54))
+
+./data/mopidy/2015_stats.csv (by Python 2.7):
+    Duration: 0:00:03.497033
+
+./data/mopidy/2016_stats.csv (by Python 3.11):
+SyntaxError('bytes can only contain ASCII literal characters', ('./data/mopidy/tmp/mopidy-1.1.2/tests/internal/test_path.py', 136, 53, "            self.assertEqual(fh.read(), b'foobaræøå')\n", 136, 54))
+
+./data/mopidy/2016_stats.csv (by Python 2.7):
+    Duration: 0:00:03.926641
+
+./data/mopidy/2017_stats.csv (by Python 3.11):
+    Started at 01:07:22, ended at 01:07:24 (duration 0:00:02.509456)
+
+./data/mopidy/2018_stats.csv (by Python 3.11):
+    Started at 01:07:29, ended at 01:07:32 (duration 0:00:02.492963)
+
+./data/numpy/2014_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/numpy/tmp/numpy-1.8.1/doc/swig/test/testSuperTensor.py', 384, 5, '    print "Testing 4D Functions of Module SuperTensor"\n', 384, 55))
+
+./data/numpy/2014_stats.csv (by Python 2.7):
+    Duration: 0:00:12.445876
+
+./data/numpy/2015_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/numpy/tmp/numpy-1.9.2/tools/swig/test/testSuperTensor.py', 384, 5, '    print "Testing 4D Functions of Module SuperTensor"\n', 384, 55))
+
+./data/numpy/2015_stats.csv (by Python 2.7):
+    Duration: 0:00:10.286608
+
+./data/numpy/2016_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/numpy/tmp/numpy-1.10.3/tools/swig/test/testSuperTensor.py', 384, 5, '    print "Testing 4D Functions of Module SuperTensor"\n', 384, 55))
+
+./data/numpy/2016_stats.csv (by Python 2.7):
+    Duration: 0:00:10.584790
+
+./data/numpy/2017_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/numpy/tmp/numpy-1.12.0/tools/swig/test/testSuperTensor.py', 384, 5, '    print "Testing 4D Functions of Module SuperTensor"\n', 384, 55))
+
+./data/numpy/2017_stats.csv (by Python 2.7):
+    Duration: 0:00:10.887839
+
+./data/numpy/2018_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/numpy/tmp/numpy-1.14.0/tools/swig/test/testSuperTensor.py', 384, 5, '    print "Testing 4D Functions of Module SuperTensor"\n', 384, 55))
+
+./data/numpy/2018_stats.csv (by Python 2.7):
+    Duration: 0:00:11.159015
+
+./data/pandas/2014_stats.csv (by Python 3.11):
+SyntaxError('multiple exception types must be parenthesized', ('./data/pandas/tmp/pandas-0.13.1/vb_suite/make.py', 74, 12, '    except (Exception, SystemExit), inst:\n', 74, 41))
+
+./data/pandas/2014_stats.csv (by Python 2.7):
+    Duration: 0:00:08.538232
+
+./data/pandas/2015_stats.csv (by Python 3.11):
+SyntaxError("(unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape", ('./data/pandas/tmp/pandas-0.16.0/scripts/windows_builder/check_and_build.py', 49, 58, 'base_dir = "C:\\Users\\Jeff Reback\\Documents\\GitHub\\pandas"\n', 49, 58))
+
+./data/pandas/2015_stats.csv (by Python 2.7):
+    Duration: 0:00:11.115591
+
+./data/pandas/2016_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/pandas/tmp/pandas-0.18.0/asv_bench/vbench_to_asv.py', 117, 5, '    print target_module\n', 117, 24))
+
+./data/pandas/2016_stats.csv (by Python 2.7):
+    Duration: 0:00:14.054136
+
+./data/pandas/2017_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/pandas/tmp/pandas-0.20.0/asv_bench/vbench_to_asv.py', 117, 5, '    print target_module\n', 117, 24))
+
+./data/pandas/2017_stats.csv (by Python 2.7):
+    Duration: 0:00:17.435977
+
+./data/pandas/2018_stats.csv (by Python 3.11):
+    Started at 01:12:11, ended at 01:12:23 (duration 0:00:12.645655)
+
+./data/pip/2019_stats.csv (by Python 3.11):
+    Started at 01:12:37, ended at 01:12:45 (duration 0:00:08.887261)
+
+./data/pip/2020_stats.csv (by Python 3.11):
+    Started at 01:13:03, ended at 01:13:10 (duration 0:00:07.528495)
+
+./data/pip/2021_stats.csv (by Python 3.11):
+    Started at 01:13:24, ended at 01:13:32 (duration 0:00:07.708778)
+
+./data/pip/2022_stats.csv (by Python 3.11):
+    Started at 01:13:48, ended at 01:13:58 (duration 0:00:09.739631)
+
+./data/pip/2023_stats.csv (by Python 3.11):
+    Started at 01:14:13, ended at 01:14:24 (duration 0:00:10.311367)
+
+./data/pytorch/2019_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/pytorch/tmp/pytorch-1.0.1/caffe2/contrib/cuda-convnet2/convdata.py', 286, 9, "        print dic['data'].shape, dic['labels'].shape\n", 286, 53))
+
+./data/pytorch/2019_stats.csv (by Python 2.7):
+    Duration: 0:00:41.415871
+
+./data/pytorch/2020_stats.csv (by Python 3.11):
+    Started at 01:17:41, ended at 01:18:03 (duration 0:00:21.486356)
+
+./data/pytorch/2021_stats.csv (by Python 3.11):
+    Started at 01:20:02, ended at 01:20:30 (duration 0:00:28.516695)
+
+./data/pytorch/2022_stats.csv (by Python 3.11):
+    Started at 01:22:38, ended at 01:23:14 (duration 0:00:36.148763)
+
+./data/pytorch/2023_stats.csv (by Python 3.11):
+    Started at 01:26:05, ended at 01:27:01 (duration 0:00:55.985142)
+
+./data/sentry/2014_stats.csv (by Python 3.11):
+SyntaxError('multiple exception types must be parenthesized', ('./data/sentry/tmp/sentry-6.4.4/src/sentry/coreapi.py', 171, 12, '    except Exception, e:\n', 171, 24))
+
+./data/sentry/2014_stats.csv (by Python 2.7):
+    Duration: 0:00:12.235495
+
+./data/sentry/2015_stats.csv (by Python 3.11):
+SyntaxError('Generator expression must be parenthesized', ('./data/sentry/tmp/sentry-7.0.0/src/sentry/api/endpoints/organization_projects.py', 33, 13, '            (t.id, c) for (t, c) in zip(team_list, serialize(team_list, request.user)),\n', 33, 87))
+
+./data/sentry/2015_stats.csv (by Python 2.7):
+    Duration: 0:00:15.889574
+
+./data/sentry/2016_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/sentry/tmp/sentry-8.0.0/setup.py', 30, 5, "    print 'Error: Sentry requires Python 2.7'\n", 30, 46))
+
+./data/sentry/2016_stats.csv (by Python 2.7):
+    Duration: 0:00:25.851930
+
+./data/sentry/2017_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/sentry/tmp/sentry-8.12.0/docs/conf.py', 245, 9, "        print 'ERROR: could not import sentryext.  You need to check out the _sentryext submodule.'\n", 245, 100))
+
+./data/sentry/2017_stats.csv (by Python 2.7):
+    Duration: 0:00:33.598438
+
+./data/sentry/2018_stats.csv (by Python 3.11):
+SyntaxError('bytes can only contain ASCII literal characters', ('./data/sentry/tmp/sentry-9.0.0/src/sentry/integrations/github/testutils.py', 213, 5, '}"""\n', 213, 5))
+
+./data/sentry/2018_stats.csv (by Python 2.7):
+    Duration: 0:00:58.269396
+
+./data/spark/2014_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/spark/tmp/spark-0.9.1/dev/merge_spark_pr.py', 41, 1, 'print "%s" % PUSH_REMOTE_NAME\n', 41, 30))
+
+./data/spark/2014_stats.csv (by Python 2.7):
+    Duration: 0:00:14.180739
+
+./data/spark/2015_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/spark/tmp/spark-1.2.1/dev/github_jira_sync.py', 30, 5, '    print "This tool requires the jira-python library"\n', 30, 55))
+
+./data/spark/2015_stats.csv (by Python 2.7):
+    Duration: 0:01:45.602839
+
+./data/spark/2016_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/spark/tmp/spark-1.6.1/dev/github_jira_sync.py', 30, 5, '    print "This tool requires the jira-python library"\n', 30, 55))
+
+./data/spark/2016_stats.csv (by Python 2.7):
+    Duration: 0:02:03.913149
+
+./data/spark/2017_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/spark/tmp/spark-2.1.1/dev/github_jira_sync.py', 30, 5, '    print "This tool requires the jira-python library"\n', 30, 55))
+
+./data/spark/2017_stats.csv (by Python 2.7):
+    Duration: 0:02:06.710977
+
+./data/spark/2018_stats.csv (by Python 3.11):
+    Started at 01:55:02, ended at 01:55:27 (duration 0:00:24.486597)
+
+./data/superset/2019_stats.csv (by Python 3.11):
+    Started at 01:56:10, ended at 01:56:15 (duration 0:00:05.398943)
+
+./data/superset/2020_stats.csv (by Python 3.11):
+    Started at 01:56:36, ended at 01:56:40 (duration 0:00:04.518734)
+
+./data/superset/2021_stats.csv (by Python 3.11):
+    Started at 01:57:19, ended at 01:57:29 (duration 0:00:09.578289)
+
+./data/superset/2022_stats.csv (by Python 3.11):
+    Started at 01:58:19, ended at 01:58:31 (duration 0:00:12.604149)
+
+./data/superset/2023_stats.csv (by Python 3.11):
+    Started at 01:59:53, ended at 02:00:14 (duration 0:00:20.764611)
+
+./data/theano/2014_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/theano/tmp/pytensor-rel-0.6/benchmark/autoencoder/aa.py', 127, 17, "                print 'SKIPPING optimizations'\n", 127, 47))
+
+./data/theano/2014_stats.csv (by Python 2.7):
+    Duration: 0:00:08.028860
+
+./data/theano/2015_stats.csv (by Python 3.11):
+SyntaxError("Missing parentheses in call to 'print'. Did you mean print(...)?", ('./data/theano/tmp/Theano-rel-0.7/benchmark/autoencoder/aa.py', 125, 17, "                print 'SKIPPING optimizations'\n", 125, 47))
+
+./data/theano/2015_stats.csv (by Python 2.7):
+    Duration: 0:00:09.804413
+
+./data/theano/2016_stats.csv (by Python 3.11):
+    Started at 02:01:08, ended at 02:01:15 (duration 0:00:06.853503)
+
+./data/theano/2017_stats.csv (by Python 3.11):
+    Started at 02:01:26, ended at 02:01:34 (duration 0:00:07.761404)
+
+./data/theano/2018_stats.csv (by Python 3.11):
+    Started at 02:01:46, ended at 02:01:53 (duration 0:00:07.236671)
+
+./data/wagtail/2019_stats.csv (by Python 3.11):
+    Started at 02:02:52, ended at 02:03:17 (duration 0:00:25.434055)
+
+./data/wagtail/2020_stats.csv (by Python 3.11):
+    Started at 02:04:30, ended at 02:04:56 (duration 0:00:26.195699)
+
+./data/wagtail/2021_stats.csv (by Python 3.11):
+    Started at 02:06:18, ended at 02:06:48 (duration 0:00:30.303491)
+
+./data/wagtail/2022_stats.csv (by Python 3.11):
+    Started at 02:08:26, ended at 02:09:04 (duration 0:00:37.258094)
+
+./data/wagtail/2023_stats.csv (by Python 3.11):
+    Started at 02:10:51, ended at 02:11:28 (duration 0:00:37.004634)
+
+./data/youtube-dl/2014_stats.csv (by Python 3.11):
+    Started at 02:11:47, ended at 02:11:49 (duration 0:00:01.905250)
+
+./data/youtube-dl/2015_stats.csv (by Python 3.11):
+    Started at 02:11:55, ended at 02:11:59 (duration 0:00:04.011996)
+
+./data/youtube-dl/2016_stats.csv (by Python 3.11):
+    Started at 02:12:07, ended at 02:12:12 (duration 0:00:04.863493)
+
+./data/youtube-dl/2017_stats.csv (by Python 3.11):
+    Started at 02:12:22, ended at 02:12:28 (duration 0:00:06.411086)
+
+./data/youtube-dl/2018_stats.csv (by Python 3.11):
+    Started at 02:12:39, ended at 02:12:46 (duration 0:00:07.233532)
+
+./data/zulip/2019_stats.csv (by Python 3.11):
+    Started at 02:13:37, ended at 02:13:50 (duration 0:00:12.748493)
+
+./data/zulip/2020_stats.csv (by Python 3.11):
+    Started at 02:14:47, ended at 02:15:01 (duration 0:00:13.971649)
+
+./data/zulip/2021_stats.csv (by Python 3.11):
+    Started at 02:16:04, ended at 02:16:21 (duration 0:00:16.215646)
+
+./data/zulip/2022_stats.csv (by Python 3.11):
+    Started at 02:17:27, ended at 02:17:43 (duration 0:00:15.762310)
+
+./data/zulip/2023_stats.csv (by Python 3.11):
+    Started at 02:19:03, ended at 02:19:22 (duration 0:00:18.723090)
+

@@ -1,1559 +1,1559 @@
-name,all,function def,class def,import,exception,param,keyword,alias,object decl,object,naming_style,words
-sendRef,4,,,,,,,,,4,mixedCase,"['send', 'ref']"
-trainLogisticRegressionModelWithSGD,1,,,,,,,,,1,mixedCase,"['train', 'logistic', 'regression', 'model', 'with', 'sg', 'd']"
-parseNeighbors,2,1,,,,,,,,1,mixedCase,"['parse', 'neighbors']"
-_collect_iterator_through_file,3,1,,,,,,,,2,lower_case_with_underscores,"['collect', 'iterator', 'through', 'file']"
-slave_group,15,,,,,,,,,15,lower_case_with_underscores,"['slave', 'group']"
-UsageError,3,,1,,,,,,,2,CapitalizedWords,"['usage', 'error']"
-TypeType,3,,,,,,,,,3,CapitalizedWords,"['type', 'type']"
-ebs_vol_size,2,,,,,,,,,2,lower_case_with_underscores,"['ebs', 'vol', 'size']"
-sleep,10,,,,,,,,,10,lowercase,['sleep']
-template_vars,3,,,,,,,,,3,lower_case_with_underscores,"['template', 'vars']"
-findall,1,,,,,,,,,1,lowercase,['findall']
-const,4,,,,,,,,,4,lowercase,['const']
-_extract_concise_traceback,2,1,,,,,,,,1,lower_case_with_underscores,"['extract', 'concise', 'traceback']"
-django_settings_load,2,1,,,,,,,,1,lower_case_with_underscores,"['django', 'settings', 'load']"
-imap,3,,,1,,,,,,2,lowercase,['imap']
-swap,1,,,,,,,,,1,lowercase,['swap']
-dest_dir,3,,,,,,,,,3,lower_case_with_underscores,"['dest', 'dir']"
-accum,6,,,,,,,,,6,lowercase,['accum']
-SocketServer,3,,,1,,,,,,2,CapitalizedWords,"['socket', 'server']"
-save_function_tuple,3,1,,,,,,,,2,lower_case_with_underscores,"['save', 'function', 'tuple']"
-LogisticRegressionWithSGD,1,,1,,,,,,,,CapitalizedWords,"['logistic', 'regression', 'with', 'sg', 'd']"
-replication,6,,,,,,,,,6,lowercase,['replication']
-tostring,4,,,,,,,,,4,lowercase,['tostring']
-num,13,,,,,,,,,13,lowercase,['num']
-ArrayList,1,,,,,,,,,1,CapitalizedWords,"['array', 'list']"
-cmd,13,,,,,,,,,13,lowercase,['cmd']
-shlex,2,,,1,,,,,,1,lowercase,['shlex']
-_java_model,4,,,,,,,,,4,lower_case_with_underscores,"['java', 'model']"
-_batch_appends,1,,,,,,,,,1,lower_case_with_underscores,"['batch', 'appends']"
-DELETE_GLOBAL,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['delete', 'global']"
-boto,4,,,3,,,,,,1,lowercase,['boto']
-filtered_data,3,,,,,,,,,3,lower_case_with_underscores,"['filtered', 'data']"
-continue_maybe,5,1,,,,,,,,4,lower_case_with_underscores,"['continue', 'maybe']"
-reduceByKeyLocally,1,1,,,,,,,,,mixedCase,"['reduce', 'by', 'key', 'locally']"
-new,4,,,1,,,,,,3,lowercase,['new']
-java_model,2,,,,,,,,,2,lower_case_with_underscores,"['java', 'model']"
-cart,2,,,,,,,,,2,lowercase,['cart']
-trainALSModel,1,,,,,,,,,1,mixedCase,"['train', 'als', 'model']"
-active,2,,,,,,,,,2,lowercase,['active']
-path,65,,,2,,,,,,63,lowercase,['path']
-environment,7,,,,,,,,,7,lowercase,['environment']
-items,14,,,,,,,,,14,lowercase,['items']
-k,59,,,,,,,,,59,b,['k']
-JavaGateway,2,,,1,,,,,,1,CapitalizedWords,"['java', 'gateway']"
-spark_local_dirs,3,,,,,,,,,3,lower_case_with_underscores,"['spark', 'local', 'dirs']"
-slices,9,,,,,,,,,9,lowercase,['slices']
-_test,16,8,,,,,,,,8,lowercase,['test']
-asJavaRDD,1,,,,,,,,,1,mixedCase,"['as', 'java', 'rd', 'd']"
-replace,5,,,,,,,,,5,lowercase,['replace']
-RELEASE_VERSION,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['release', 'version']"
-counts,5,,,,,,,,,5,lowercase,['counts']
-total,8,,,,,,,,,8,lowercase,['total']
-getrecursionlimit,2,,,,,,,,,2,lowercase,['getrecursionlimit']
-GPG_CMD,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['gpg', 'cmd']"
-m1,8,,,,,,,,,8,lowercase,['m1']
-m2,12,,,,,,,,,12,lowercase,['m2']
-type,32,,,,,,5,,,27,lowercase,['type']
-tell,1,,,,,,,,,1,lowercase,['tell']
-heappop,1,,,1,,,,,,,lowercase,['heappop']
-cPickle,3,,,1,,,,,,2,mixedCase,"['c', 'pickle']"
-isatty,2,,,,,,,,,2,lowercase,['isatty']
-mergeCombiners,4,1,,,,,,,,3,mixedCase,"['merge', 'combiners']"
-HTTPError,1,,,,,,,,,1,CapitalizedWords,"['http', 'error']"
-unpack,3,,,,,,,,,3,lowercase,['unpack']
-sampleStdev,3,2,,,,,,,,1,mixedCase,"['sample', 'stdev']"
-launch_group,1,,,,,,1,,,,lower_case_with_underscores,"['launch', 'group']"
-word,2,,,,,,,,,2,lowercase,['word']
-tempDist,6,,,,,,,,,6,mixedCase,"['temp', 'dist']"
-mu,17,,,,,,,,,17,lowercase,['mu']
-ms,9,,,,,,,,,9,lowercase,['ms']
-co_names,3,,,,,,,,,3,lower_case_with_underscores,"['co', 'names']"
-conf,5,,,2,,,,,,3,lowercase,['conf']
-SVMModel,2,,1,,,,,,,1,CapitalizedWords,"['svm', 'model']"
-CloudPickler,7,,1,2,,,,,,4,CapitalizedWords,"['cloud', 'pickler']"
-cluster_url,2,,,,,,,,,2,lower_case_with_underscores,"['cluster', 'url']"
-OSError,1,,,,,,,,,1,CapitalizedWords,"['os', 'error']"
-first_jrdd_deserializer,2,,,,,,,,,2,lower_case_with_underscores,"['first', 'jrdd', 'deserializer']"
-length,19,,,,,,,,,19,lowercase,['length']
-id,9,,,,,,,,,9,lowercase,['id']
-TestCase,2,,,,,,,,,2,CapitalizedWords,"['test', 'case']"
-env,5,,,,,,1,,,4,lowercase,['env']
-types,19,,,1,,,,,,18,lowercase,['types']
-dir_name,3,,,,,,,,,3,lower_case_with_underscores,"['dir', 'name']"
-attempt,4,,,,,,,,,4,lowercase,['attempt']
-classmethod,13,,,,,,,,,13,lowercase,['classmethod']
-pipe_objs,2,1,,,,,,,,1,lower_case_with_underscores,"['pipe', 'objs']"
-launch_cluster,2,1,,,,,,,,1,lower_case_with_underscores,"['launch', 'cluster']"
-closestPoint,2,1,,,,,,,,1,mixedCase,"['closest', 'point']"
-NotImplementedError,8,,,,,,,,,8,CapitalizedWords,"['not', 'implemented', 'error']"
-order,2,,,,,,2,,,,lowercase,['order']
-itemgetter,2,,,,,,,,,2,lowercase,['itemgetter']
-functools,1,,,1,,,,,,,lowercase,['functools']
-assertTrue,5,,,,,,,,,5,mixedCase,"['assert', 'true']"
-JavaSparkContext,1,,,,,,,,,1,CapitalizedWords,"['java', 'spark', 'context']"
-run_cmd,34,2,,,,,,,,32,lower_case_with_underscores,"['run', 'cmd']"
-partitionFunc,5,,,,,,1,,,4,mixedCase,"['partition', 'func']"
-persist,2,1,,,,,,,,1,lowercase,['persist']
-numSlices,5,,,,,,,,,5,mixedCase,"['num', 'slices']"
-cls,24,,,,,,,,,24,lowercase,['cls']
-_deserialized,4,,,,,,,,,4,lowercase,['deserialized']
-init_time,2,,,,,,,,,2,lower_case_with_underscores,"['init', 'time']"
-ssh_write,2,1,,,,,,,,1,lower_case_with_underscores,"['ssh', 'write']"
-array_equal,1,,,1,,,,,,,lower_case_with_underscores,"['array', 'equal']"
-regParam,6,,,,,,,,,6,mixedCase,"['reg', 'param']"
-DISK_ONLY_2,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['disk', 'only', '2']"
-base_recurse,3,,,,,,,,,3,lower_case_with_underscores,"['base', 'recurse']"
-_unbatched_serializer,6,,,,,,,,,6,lower_case_with_underscores,"['unbatched', 'serializer']"
-takeUpToNum,2,1,,,,,,,,1,mixedCase,"['take', 'up', 'to', 'num']"
-_2,1,,,,,,,,,1,ugly,['2']
-_1,1,,,,,,,,,1,ugly,['1']
-dumps,13,5,,,,,,,,8,lowercase,['dumps']
-debug,1,,,,,,,,,1,lowercase,['debug']
-mean,9,2,,,,,1,,,6,lowercase,['mean']
-train,8,8,,,,,,,,,lowercase,['train']
-REDUCE,5,,,,,,,,,5,UPPERCASE,"['reduc', 'e']"
-_batch_setitems,1,,,,,,,,,1,lower_case_with_underscores,"['batch', 'setitems']"
-jbroadcast,3,,,,,,,,,3,lowercase,['jbroadcast']
-from_iterable,2,,,,,,,,,2,lower_case_with_underscores,"['from', 'iterable']"
-centers_,2,,,,,,,,,2,lowercase,['centers']
-message,2,,,,,,,,,2,lowercase,['message']
-gradient,2,1,,,,,,,,1,lowercase,['gradient']
-dst,3,,,,,,,,,3,lowercase,['dst']
-re,4,,,2,,,,,,2,lowercase,['re']
-dsh,2,,,,,,,,,2,lowercase,['dsh']
-collectAsMap,1,1,,,,,,,,,mixedCase,"['collect', 'as', 'map']"
-resume,1,,,,,,,,,1,lowercase,['resume']
-ascending,4,,,,,,,,,4,lowercase,['ascending']
-_optinfo,2,,,,,,,,,2,lowercase,['optinfo']
-freq,2,,,,,,,,,2,lowercase,['freq']
-javaStorageLevel,2,,,,,,,,,2,mixedCase,"['java', 'storage', 'level']"
-logging,5,,,2,,,,,,3,lowercase,['logging']
-compute_real_exit_code,2,1,,,,,,,,1,lower_case_with_underscores,"['compute', 'real', 'exit', 'code']"
-traceback,9,,,4,,,,,,5,lowercase,['traceback']
-AF_INET,5,,,2,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['af', 'inet']"
-shark_v,3,,,,,,,,,3,lower_case_with_underscores,"['shark', 'v']"
-filter,7,1,,,,,,,,6,lowercase,['filter']
-isf,3,,,,,,,,,3,lowercase,['isf']
-LAMBDA,2,,,,,,,,,2,UPPERCASE,"['lambd', 'a']"
-rand,8,,,1,,,,,,7,lowercase,['rand']
-ranf,1,,,,,,,,,1,lowercase,['ranf']
-makefile,1,,,,,,,,,1,lowercase,['makefile']
-RuntimeError,11,,,,,,,,,11,CapitalizedWords,"['runtime', 'error']"
-processPartition,2,1,,,,,,,,1,mixedCase,"['process', 'partition']"
-rank,12,,,,,,,,,12,lowercase,['rank']
-savedForceImports,3,,,,,,,,,3,mixedCase,"['saved', 'force', 'imports']"
-groupWith,1,1,,,,,,,,,mixedCase,"['group', 'with']"
-_from_id,2,1,,,,,,,,1,lower_case_with_underscores,"['from', 'id']"
-basestring,1,,,,,,,,,1,lowercase,['basestring']
-cartesian,4,1,,,,,,,,3,lowercase,['cartesian']
-_active_spark_context,5,,,,,,,,,5,lower_case_with_underscores,"['active', 'spark', 'context']"
-top,1,1,,,,,,,,,lowercase,['top']
-master,20,,,,,,,,,20,lowercase,['master']
-primary_author,2,,,,,,,,,2,lower_case_with_underscores,"['primary', 'author']"
-num_slaves_this_zone,10,,,,,,,,,10,lower_case_with_underscores,"['num', 'slaves', 'this', 'zone']"
-delete_on_termination,1,,,,,,,,,1,lower_case_with_underscores,"['delete', 'on', 'termination']"
-trainRidgeModelWithSGD,1,,,,,,,,,1,mixedCase,"['train', 'ridge', 'model', 'with', 'sg', 'd']"
-listen,1,,,,,,,,,1,lowercase,['listen']
-wbuf,14,,,,,,,,,14,lowercase,['wbuf']
-hdfs_data_dirs,3,,,,,,,,,3,lower_case_with_underscores,"['hdfs', 'data', 'dirs']"
-python_join,3,1,,1,,,,,,1,lower_case_with_underscores,"['python', 'join']"
-copyto,3,,,1,,,,,,2,lowercase,['copyto']
-signum,1,,,,,,,,,1,lowercase,['signum']
-setProperty,1,,,,,,,,,1,mixedCase,"['set', 'property']"
-_jvm,34,,,,,,1,,,33,lowercase,['jvm']
-target,2,,,,,,2,,,,lowercase,['target']
-iteration,1,,,,,,,,,1,lowercase,['iteration']
-loadDefaults,2,,,,,,,,,2,mixedCase,"['load', 'defaults']"
-save_function,2,1,,,,,,,,1,lower_case_with_underscores,"['save', 'function']"
-wfile,1,,,,,,,,,1,lowercase,['wfile']
-failure_count,16,,,,,,,,,16,lower_case_with_underscores,"['failure', 'count']"
-SPARK_HOME,10,,,1,,,,,,9,UPPER_CASE_WITH_UNDERSCORES,"['spark', 'home']"
-NEWOBJ,1,,,,,,,,,1,UPPERCASE,"['newob', 'j']"
-raw,2,,,,,,,,,2,lowercase,['raw']
-seed,13,,,,,,,,,13,lowercase,['seed']
-ratingBytes,4,,,,,,,,,4,mixedCase,"['rating', 'bytes']"
-seek,2,,,,,,,,,2,lowercase,['seek']
-contents,3,,,,,,,,,3,lowercase,['contents']
-save_dict,3,1,,,,,,,,2,lower_case_with_underscores,"['save', 'dict']"
-_old_sys_path,2,,,,,,,,,2,lower_case_with_underscores,"['old', 'sys', 'path']"
-stacklevel,1,,,,,,1,,,,lowercase,['stacklevel']
-glom,1,1,,,,,,,,,lowercase,['glom']
-glob,3,,,2,,,,,,1,lowercase,['glob']
-object,26,,,,,,,,,26,lowercase,['object']
-y,16,,,,,,,,,16,b,['y']
-typ,7,,,,,,,,,7,lowercase,['typ']
-predictAll,1,1,,,,,,,,,mixedCase,"['predict', 'all']"
-_prev_jrdd_deserializer,4,,,,,,,,,4,lower_case_with_underscores,"['prev', 'jrdd', 'deserializer']"
-partition,2,,,,,,,,,2,lowercase,['partition']
-m,18,,,,,,,,,18,b,['m']
-points,2,,,,,,,,,2,lowercase,['points']
-getmaskarray,1,,,,,,,,,1,lowercase,['getmaskarray']
-prev_func,2,,,,,,,,,2,lower_case_with_underscores,"['prev', 'func']"
-AttributeError,5,,,,,,,,,5,CapitalizedWords,"['attribute', 'error']"
-dot,11,,,4,,,,,,7,lowercase,['dot']
-test_save_as_textfile_with_unicode,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'save', 'as', 'textfile', 'with', 'unicode']"
-random,20,,,7,,,,,,13,lowercase,['random']
-PairwiseRDD,1,,,,,,,,,1,CapitalizedWords,"['pairwise', 'rd', 'd']"
-has_key,1,,,,,,,,,1,lower_case_with_underscores,"['has', 'key']"
-keywords,1,,,,,,,,,1,lowercase,['keywords']
-copy,16,1,,2,,,,,,13,lowercase,['copy']
-getUniformSample,2,1,,,,,,,,1,mixedCase,"['get', 'uniform', 'sample']"
-setCallSite,2,,,,,,,,,2,mixedCase,"['set', 'call', 'site']"
-RandomState,1,,,,,,,,,1,CapitalizedWords,"['random', 'state']"
-SystemExit,1,,,,,,,,,1,CapitalizedWords,"['system', 'exit']"
-dup2,1,,,,,,,,,1,lowercase,['dup2']
-stop,13,1,,,,,,,,12,lowercase,['stop']
-Accumulator,4,,1,1,,,,,,2,CapitalizedWords,['accumulator']
-X,3,,,,,,,,,3,B,"['', 'x']"
-flatMappedRDD,16,,,,,,,,,16,mixedCase,"['flat', 'mapped', 'rd', 'd']"
-runs,2,,,,,,,,,2,lowercase,['runs']
-LOAD_GLOBAL,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['load', 'global']"
-id_to_req,5,,,,,,,,,5,lower_case_with_underscores,"['id', 'to', 'req']"
-mkdtemp,2,,,,,,,,,2,lowercase,['mkdtemp']
-zones,9,,,,,,,,,9,lowercase,['zones']
-ami_path,3,,,,,,,,,3,lower_case_with_underscores,"['ami', 'path']"
-CloudPickleSerializer,3,,1,1,,,,,,1,CapitalizedWords,"['cloud', 'pickle', 'serializer']"
-result,7,,,,,,,,,7,lowercase,['result']
-getsockname,1,,,,,,,,,1,lowercase,['getsockname']
-fail,7,1,,,,,,,,6,lowercase,['fail']
-PythonAccumulatorParam,1,,,,,,,,,1,CapitalizedWords,"['python', 'accumulator', 'param']"
-_deserialize_double_vector,7,1,,4,,,,,,2,lower_case_with_underscores,"['deserialize', 'double', 'vector']"
-best,3,,,,,,,,,3,lowercase,['best']
-AccumulatorParam,2,,1,,,,,,,1,CapitalizedWords,"['accumulator', 'param']"
-_bypass_serializer,5,,,,,,,,,5,lower_case_with_underscores,"['bypass', 'serializer']"
-filename,15,,,,,,,,,15,lowercase,['filename']
-_pickled_broadcast_vars,4,,,,,,,,,4,lower_case_with_underscores,"['pickled', 'broadcast', 'vars']"
-extend,1,,,,,,,,,1,lowercase,['extend']
-AMI_PREFIX,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['ami', 'prefix']"
-clean_up,6,1,,,,,,,,5,lower_case_with_underscores,"['clean', 'up']"
-ctypes,15,,,2,,,,,,13,lowercase,['ctypes']
-stdev,4,2,,,,,,,,2,lowercase,['stdev']
-_dates,8,,,,,,,,,8,lowercase,['dates']
-latest_branch,3,,,,,,,,,3,lower_case_with_underscores,"['latest', 'branch']"
-prepare_keys_values,3,1,,,,,,,,2,lower_case_with_underscores,"['prepare', 'keys', 'values']"
-print_exc,1,,,,,,,,,1,lower_case_with_underscores,"['print', 'exc']"
-adapter,1,,,1,,,,,,,lowercase,['adapter']
-fnc,1,,,,,,,,,1,lowercase,['fnc']
-urls,9,,,,,,,,,9,lowercase,['urls']
-variance,4,2,,,,,,,,2,lowercase,['variance']
-SparkContext,55,,1,18,,,,,,36,CapitalizedWords,"['spark', 'context']"
-pickle_registry,2,,,,,,,,,2,lower_case_with_underscores,"['pickle', 'registry']"
-to_port,2,,,,,,1,,,1,lower_case_with_underscores,"['to', 'port']"
-numEdges,4,,,,,,,,,4,mixedCase,"['num', 'edges']"
-diff,5,,,,,,,,,5,lowercase,['diff']
-union,10,2,,,,,,,,8,lowercase,['union']
-SIGINT,1,,,,,,,,,1,UPPERCASE,"['sigin', 't']"
-redFunc,2,1,,,,,,,,1,mixedCase,"['red', 'func']"
-frq,2,,,,,,,,,2,lowercase,['frq']
-LinearRegressionModel,2,,1,,,,,,,1,CapitalizedWords,"['linear', 'regression', 'model']"
-numpy,22,,,15,,,,,,7,lowercase,['numpy']
-key_name,3,,,,,,3,,,,lower_case_with_underscores,"['key', 'name']"
-locally_combined,2,,,,,,,,,2,lower_case_with_underscores,"['locally', 'combined']"
-worker,3,1,,1,,,,,,1,lowercase,['worker']
-WNOHANG,2,,,,,,,,,2,UPPERCASE,"['wnohan', 'g']"
-input,4,,,1,,,,,,3,lowercase,['input']
-exception,3,,,,,,,,,3,lowercase,['exception']
-n,50,,,,,,,,,50,b,['n']
-float32,1,,,,,,,,,1,lowercase,['float32']
-aid,13,,,,,,,,,13,lowercase,['aid']
-property,7,,,,,,,,,7,lowercase,['property']
-FunctionType,2,,,,,,,,,2,CapitalizedWords,"['function', 'type']"
-MemoryError,1,,,,,,,,,1,CapitalizedWords,"['memory', 'error']"
-convergeDist,2,,,,,,,,,2,mixedCase,"['converge', 'dist']"
-im,1,,,,,,,,,1,lowercase,['im']
-TIMING_DATA,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['timing', 'data']"
-num_urls,2,,,,,,,,,2,lower_case_with_underscores,"['num', 'urls']"
-conn,42,,,,,,,,,42,lowercase,['conn']
-complex,1,,,,,,,,,1,lowercase,['complex']
-split,35,,,,,,,,,35,lowercase,['split']
-_serialize_tuple,3,1,,1,,,,,,1,lower_case_with_underscores,"['serialize', 'tuple']"
-waitpid,2,,,,,,,,,2,lowercase,['waitpid']
-local_ivy_spark,2,,,,,,,,,2,lower_case_with_underscores,"['local', 'ivy', 'spark']"
-py_object,3,,,,,,,,,3,lower_case_with_underscores,"['py', 'object']"
-Y,3,,,,,,,,,3,B,"['', 'y']"
-input_deserializer,2,,,,,,,,,2,lower_case_with_underscores,"['input', 'deserializer']"
-protocol,6,,,,,,,,,6,lowercase,['protocol']
-batchSize,20,,,,,,8,,,12,mixedCase,"['batch', 'size']"
-_partitionFunc,1,,,,,,,,,1,mixedCase,"['partition', 'func']"
-collections,2,,,2,,,,,,,lowercase,['collections']
-kPoints,5,,,,,,,,,5,mixedCase,"['k', 'points']"
-save,27,,,,,,,,,27,lowercase,['save']
-D,3,,,,,,,,,3,B,"['', 'd']"
-_get_unmangled_double_vector_rdd,8,1,,4,,,,,,3,lower_case_with_underscores,"['get', 'unmangled', 'double', 'vector', 'rdd']"
-useDisk,6,,,,,,,,,6,mixedCase,"['use', 'disk']"
-daemon,9,,,,,,,,,9,lowercase,['daemon']
-test_termination_stdin,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'termination', 'stdin']"
-steps,1,,,,,,1,,,,lowercase,['steps']
-root_dir,5,,,,,,,,,5,lower_case_with_underscores,"['root', 'dir']"
-System,2,,,,,,,,,2,CapitalizedWords,['system']
-_common,4,,,4,,,,,,,lowercase,['common']
-pyFiles,5,,,,,,3,,,2,mixedCase,"['py', 'files']"
-image_ids,1,,,,,,1,,,,lower_case_with_underscores,"['image', 'ids']"
-defaultdict,3,,,1,,,,,,2,lowercase,['defaultdict']
-assertRaises,4,,,,,,,,,4,mixedCase,"['assert', 'raises']"
-_pythonstartup,4,,,,,,,,,4,lowercase,['pythonstartup']
-SparkConf,5,,1,2,,,,,,2,CapitalizedWords,"['spark', 'conf']"
-SerializingAdapter,4,,,1,,,,,,3,CapitalizedWords,"['serializing', 'adapter']"
-obj,194,,,,,,11,,,183,lowercase,['obj']
-Image,4,,,2,,,,,,2,CapitalizedWords,['image']
-subimport,3,1,,,,,,,,2,lowercase,['subimport']
-MEMORY_ONLY,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['memory', 'only']"
-EC2ResponseError,1,,,,,,,,,1,CapitalizedWords,"['ec2', 'response', 'error']"
-NamedTemporaryFile,8,,,3,,,,,,5,CapitalizedWords,"['named', 'temporary', 'file']"
-marshal,3,,,1,,,,,,2,lowercase,['marshal']
-float,7,,,,,,,,,7,lowercase,['float']
-pair,4,,,,,,,,,4,lowercase,['pair']
-MEMORY_AND_DISK_SER_2,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['memory', 'and', 'disk', 'ser', '2']"
-NaiveBayesModel,2,,1,,,,,,,1,CapitalizedWords,"['naive', 'bayes', 'model']"
-PIPE,12,,,3,,,,,,9,UPPERCASE,"['pip', 'e']"
-_modules_to_main,2,1,,,,,,,,1,lower_case_with_underscores,"['modules', 'to', 'main']"
-fraction,14,,,,,,,,,14,lowercase,['fraction']
-call,1,,,,,,,,,1,lowercase,['call']
-fork,2,,,,,,,,,2,lowercase,['fork']
-co_code,2,,,,,,,,,2,lower_case_with_underscores,"['co', 'code']"
-MaskedArray,2,,,1,,,,,,1,CapitalizedWords,"['masked', 'array']"
-_tsreconstruct,2,,,,,,,,,2,lowercase,['tsreconstruct']
-SIGTERM,5,,,2,,,,,,3,UPPERCASE,"['sigter', 'm']"
-asJavaPairRDD,1,,,,,,,,,1,mixedCase,"['as', 'java', 'pair', 'rd', 'd']"
-EXTENDED_ARG,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['extended', 'arg']"
-attr,2,,,,,,,,,2,lowercase,['attr']
-coeff,4,,,,,,,,,4,lowercase,['coeff']
-bounds,4,,,,,,,,,4,lowercase,['bounds']
-trainLassoModelWithSGD,1,,,,,,,,,1,mixedCase,"['train', 'lasso', 'model', 'with', 'sg', 'd']"
-delete,5,,,,,,5,,,,lowercase,['delete']
-_inverted_registry,1,,,1,,,,,,,lower_case_with_underscores,"['inverted', 'registry']"
-item,5,,,,,,,,,5,lowercase,['item']
-EnvironmentError,5,,,,,,,,,5,CapitalizedWords,"['environment', 'error']"
-co_cellvars,1,,,,,,,,,1,lower_case_with_underscores,"['co', 'cellvars']"
-countByValue,2,1,,,,,,,,1,mixedCase,"['count', 'by', 'value']"
-add_help_option,1,,,,,,1,,,,lower_case_with_underscores,"['add', 'help', 'option']"
-spark_version,3,,,,,,,,,3,lower_case_with_underscores,"['spark', 'version']"
-np,21,,,,,,,3,,18,lowercase,['np']
-auto_convert,1,,,,,,1,,,,lower_case_with_underscores,"['auto', 'convert']"
-from_port,2,,,,,,1,,,1,lower_case_with_underscores,"['from', 'port']"
-sline,1,,,,,,,,,1,lowercase,['sline']
-trainImplicit,1,1,,,,,,,,,mixedCase,"['train', 'implicit']"
-urllib2,7,,,3,,,,,,4,lowercase,['urllib2']
-co_stacksize,1,,,,,,,,,1,lower_case_with_underscores,"['co', 'stacksize']"
-timeseries,2,,,2,,,,,,,lowercase,['timeseries']
-warn,1,,,,,,,,,1,lowercase,['warn']
-serialized,3,,,,,,,,,3,lowercase,['serialized']
-modules,30,,,,,,,,,30,lowercase,['modules']
-mapValues,3,1,,,,,,,,2,mixedCase,"['map', 'values']"
-_deserialize_double_matrix,7,1,,4,,,,,,2,lower_case_with_underscores,"['deserialize', 'double', 'matrix']"
-useForcedImports,2,,,,,,,,,2,mixedCase,"['use', 'forced', 'imports']"
-instance_type,17,,,,,,3,,,14,lower_case_with_underscores,"['instance', 'type']"
-time,23,,,4,,,,,,19,lowercase,['time']
-assertFalse,2,,,,,,,,,2,mixedCase,"['assert', 'false']"
-serializer,27,,,,,,,,,27,lowercase,['serializer']
-neighbors,1,,,,,,,,,1,lowercase,['neighbors']
-revoke,1,,,,,,,,,1,lowercase,['revoke']
-iterator,59,,,,,,,,,59,lowercase,['iterator']
-merge_pr,2,1,,,,,,,,1,lower_case_with_underscores,"['merge', 'pr']"
-manager,2,1,,,,,,,,1,lowercase,['manager']
-my_req_ids,4,,,,,,,,,4,lower_case_with_underscores,"['my', 'req', 'ids']"
-ufile,2,,,,,,,,,2,lowercase,['ufile']
-co_firstlineno,1,,,,,,,,,1,lower_case_with_underscores,"['co', 'firstlineno']"
-zone,13,,,,,,,,,13,lowercase,['zone']
-_jconf,15,,,,,,,,,15,lowercase,['jconf']
-cluster_name,28,,,,,,,,,28,lower_case_with_underscores,"['cluster', 'name']"
-_mergeCombiners,2,1,,,,,,,,1,mixedCase,"['merge', 'combiners']"
-vec,1,,,,,,,,,1,lowercase,['vec']
-jvm,6,,,,,,,,,6,lowercase,['jvm']
-combiners,12,,,,,,,,,12,lowercase,['combiners']
-assertEquals,2,,,,,,,,,2,mixedCase,"['assert', 'equals']"
-choice,2,,,,,,,,,2,lowercase,['choice']
-PyCell_New,1,,,,,,,,,1,Capitalized_Words_With_Underscores,"['pycell', 'new']"
-join,29,1,,1,,,,,,27,lowercase,['join']
-_next_accum_id,3,,,,,,,,,3,lower_case_with_underscores,"['next', 'accum', 'id']"
-key_ser,14,,,,,,,,,14,lower_case_with_underscores,"['key', 'ser']"
-err,10,,,,,,,,,10,lowercase,['err']
-INT_ACCUMULATOR_PARAM,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['int', 'accumulator', 'param']"
-COMPLEX_ACCUMULATOR_PARAM,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['complex', 'accumulator', 'param']"
-launch_gateway,3,1,,1,,,,,,1,lower_case_with_underscores,"['launch', 'gateway']"
-p,13,,,,,,,,,13,b,['p']
-defaults,7,,,,,,,,,7,lowercase,['defaults']
-spark_git_repo,1,,,,,,,,,1,lower_case_with_underscores,"['spark', 'git', 'repo']"
-loads,13,4,,,,,,,,9,lowercase,['loads']
-multiprocessing,3,,,1,,,,,,2,lowercase,['multiprocessing']
-dir,3,,,,,,2,,,1,lowercase,['dir']
-dis,10,,,1,,,,,,9,lowercase,['dis']
-upper,2,,,,,,,,,2,lowercase,['upper']
-reducePartition,2,1,,,,,,,,1,mixedCase,"['reduce', 'partition']"
-PR_REMOTE_NAME,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['pr', 'remote', 'name']"
-tearDown,3,2,,,,,,,,1,mixedCase,"['tear', 'down']"
-port,10,,,,,,1,,,9,lowercase,['port']
-addr,1,,,,,,,,,1,lowercase,['addr']
-uniform,1,,,,,,,,,1,lowercase,['uniform']
-get_contents,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'contents']"
-lambda_,6,,,,,,,,,6,lowercase,['lambda']
-True,74,,,,,,,,,74,CapitalizedWords,['true']
-ensure_path_not_present,2,1,,,,,,,,1,lower_case_with_underscores,"['ensure', 'path', 'not', 'present']"
-_lazyloadImage,2,1,,,,,,,,1,mixedCase,"['lazyload', 'image']"
-urlopen,3,,,,,,,,,3,lowercase,['urlopen']
-pr_branch_name,5,,,,,,,,,5,lower_case_with_underscores,"['pr', 'branch', 'name']"
-groups,6,,,,,,,,,6,lowercase,['groups']
-apache,4,,,,,,,,,4,lowercase,['apache']
-get_all_images,1,,,,,,,,,1,lower_case_with_underscores,"['get', 'all', 'images']"
-run_cmd_with_output,3,1,,,,,,,,2,lower_case_with_underscores,"['run', 'cmd', 'with', 'output']"
-clearFiles,2,1,,,,,,,,1,mixedCase,"['clear', 'files']"
-poisson,1,,,,,,,,,1,lowercase,['poisson']
-_jrdd,41,1,,,,,,,,40,lowercase,['jrdd']
-initial_weights,14,,,,,,,,,14,lower_case_with_underscores,"['initial', 'weights']"
-class_name,2,,,,,,,,,2,lower_case_with_underscores,"['class', 'name']"
-dtype,17,,,,,,12,,,5,lowercase,['dtype']
-STORE_GLOBAL,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['store', 'global']"
-read_int,11,1,,3,,,,,,7,lower_case_with_underscores,"['read', 'int']"
-_javaAccumulator,2,,,,,,,,,2,mixedCase,"['java', 'accumulator']"
-filter_func,2,,,,,,,,,2,lower_case_with_underscores,"['filter', 'func']"
-python_version,1,,,,,,,,,1,lower_case_with_underscores,"['python', 'version']"
-other_copy,2,,,,,,,,,2,lower_case_with_underscores,"['other', 'copy']"
-save_itemgetter,2,1,,,,,,,,1,lower_case_with_underscores,"['save', 'itemgetter']"
-restype,1,,,,,,,,,1,lowercase,['restype']
-coalesce,2,1,,,,,,,,1,lowercase,['coalesce']
-create_security_group,1,,,,,,,,,1,lower_case_with_underscores,"['create', 'security', 'group']"
-value2,3,,,,,,,,,3,lowercase,['value2']
-value1,4,,,,,,,,,4,lowercase,['value1']
-msg,4,,,,,,,,,4,lowercase,['msg']
-master_group,16,,,,,,,,,16,lower_case_with_underscores,"['master', 'group']"
-prev,12,,,,,,,,,12,lowercase,['prev']
-exit_flag,6,,,,,,,,2,4,lower_case_with_underscores,"['exit', 'flag']"
-msb,4,,,,,,,,,4,lowercase,['msb']
-mapPartitions,18,1,,,,,,,,17,mixedCase,"['map', 'partitions']"
-BlockDeviceMapping,2,,,1,,,,,,1,CapitalizedWords,"['block', 'device', 'mapping']"
-F,6,,,,,,,,,6,B,"['', 'f']"
-_deserialize_byte_array,3,1,,,,,,,,2,lower_case_with_underscores,"['deserialize', 'byte', 'array']"
-num_disks,3,,,,,,,,,3,lower_case_with_underscores,"['num', 'disks']"
-spot_instance_request_id,1,,,,,,,,,1,lower_case_with_underscores,"['spot', 'instance', 'request', 'id']"
-report_times,2,1,,,,,,,,1,lower_case_with_underscores,"['report', 'times']"
-addFile,5,1,,,,,,,,4,mixedCase,"['add', 'file']"
-_deserialize_accumulator,2,1,,,,,,,,1,lower_case_with_underscores,"['deserialize', 'accumulator']"
-flv,2,,,,,,,,,2,lowercase,['flv']
-values,4,,,,,,,,,4,lowercase,['values']
-rfile,2,,,,,,,,,2,lowercase,['rfile']
-delete_security_group,1,,,,,,,,,1,lower_case_with_underscores,"['delete', 'security', 'group']"
-pickle,59,,,1,,,,,,58,lowercase,['pickle']
-fget,1,,,,,,,,,1,lowercase,['fget']
-stream,54,,,,,,,,,54,lowercase,['stream']
-predict,9,7,,,,,,,,2,lowercase,['predict']
-attribute,2,,,,,,,,,2,lowercase,['attribute']
-reqs,2,,,,,,,,,2,lowercase,['reqs']
-sample,4,1,,,,,,,,3,lowercase,['sample']
-SpecialLengths,5,,1,1,,,,,,3,CapitalizedWords,"['special', 'lengths']"
-map_values_fn,2,,,,,,,,,2,lower_case_with_underscores,"['map', 'values', 'fn']"
-mergeMaps,4,2,,,,,,,,2,mixedCase,"['merge', 'maps']"
-setAppName,3,1,,,,,,,,2,mixedCase,"['set', 'app', 'name']"
-test_checkpoint_and_restore,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'checkpoint', 'and', 'restore']"
-range,23,,,,,,,,,23,lowercase,['range']
-write,44,,,,,,,,,44,lowercase,['write']
-foreach,2,1,,,,,,,,1,lowercase,['foreach']
-getRootDirectory,5,1,,,,,,,,4,mixedCase,"['get', 'root', 'directory']"
-map,40,1,,,,,,,,39,lowercase,['map']
-product,4,,,1,,,,,,3,lowercase,['product']
-mat,4,,,,,,,,,4,lowercase,['mat']
-max,2,,,,,,,,,2,lowercase,['max']
-im_class,1,,,,,,,,,1,lower_case_with_underscores,"['im', 'class']"
-data,37,,,,,,,,,37,lowercase,['data']
-branches,4,,,,,,,,,4,lowercase,['branches']
-fromstring,2,,,,,,,,,2,lowercase,['fromstring']
-master_type,4,,,,,,,,,4,lower_case_with_underscores,"['master', 'type']"
-stdin,10,,,,,,5,,,5,lowercase,['stdin']
-useMemory,6,,,,,,,,,6,mixedCase,"['use', 'memory']"
-st,3,,,,,,,,,3,lowercase,['st']
-im_func,1,,,,,,,,,1,lower_case_with_underscores,"['im', 'func']"
-int64,1,,,1,,,,,,,lowercase,['int64']
-dummy_closure,2,,,,,,,,,2,lower_case_with_underscores,"['dummy', 'closure']"
-sc,77,,,,,,,,,77,lowercase,['sc']
-opts,108,,,,,,,,,108,lowercase,['opts']
-xrange_len,4,,,,,,,,,4,lower_case_with_underscores,"['xrange', 'len']"
-LogisticRegressionModel,2,,1,,,,,,,1,CapitalizedWords,"['logistic', 'regression', 'model']"
-c_bool,2,,,1,,,,,,1,lower_case_with_underscores,"['c', 'bool']"
-cols,7,,,,,,,,,7,lowercase,['cols']
-defaultParallelism,7,1,,,,,,,,6,mixedCase,"['default', 'parallelism']"
-my_sha,2,,,,,,,,,2,lower_case_with_underscores,"['my', 'sha']"
-Rb,3,,,,,,,,,3,CapitalizedWords,['rb']
-readRDDFromFile,3,,,,,,,,,3,mixedCase,"['read', 'rdd', 'from', 'file']"
-group,11,,,,,,,,,11,lowercase,['group']
-platform,6,,,2,,,,,,4,lowercase,['platform']
-main,9,2,,1,,,,,,6,lowercase,['main']
-_cachedinfo,1,,,,,,,,,1,lowercase,['cachedinfo']
-closure,11,,,,,,,,,11,lowercase,['closure']
-expanduser,1,,,,,,,,,1,lowercase,['expanduser']
-mvn_exec_cmd,2,,,,,,,,,2,lower_case_with_underscores,"['mvn', 'exec', 'cmd']"
-GIT_API_BASE,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['git', 'api', 'base']"
-test_stdout_redirection,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'stdout', 'redirection']"
-save_codeobject,2,1,,,,,,,,1,lower_case_with_underscores,"['save', 'codeobject']"
-sorted,5,,,,,,,,,5,lowercase,['sorted']
-term,4,,,,,,,,,4,lowercase,['term']
-name,77,1,,,,,,,,76,lowercase,['name']
-rmse,2,1,,,,,,,,1,lowercase,['rmse']
-Utils,2,,,,,,,,,2,CapitalizedWords,['utils']
-src_group,5,,,,,,5,,,,lower_case_with_underscores,"['src', 'group']"
-fp,8,,,,,,,,,8,lowercase,['fp']
-ei,4,,,,,,,,,4,lowercase,['ei']
-accumulators,10,,,6,,,,,,4,lowercase,['accumulators']
-assertEqual,10,,,,,,,,,10,mixedCase,"['assert', 'equal']"
-dirname,7,,,,,,,,,7,lowercase,['dirname']
-existing_masters,5,,,,,,,,,5,lower_case_with_underscores,"['existing', 'masters']"
-createCombiner,4,1,,,,,,,,3,mixedCase,"['create', 'combiner']"
-args,25,,,,,,1,,,24,lowercase,['args']
-getcwd,1,,,,,,,,,1,lowercase,['getcwd']
-argv,39,,,,,,,,,39,lowercase,['argv']
-raw_contents,2,,,,,,,,,2,lower_case_with_underscores,"['raw', 'contents']"
-org,4,,,,,,,,,4,lowercase,['org']
-ord,2,,,,,,,,,2,lowercase,['ord']
-TestIO,1,,1,,,,,,,,CapitalizedWords,"['test', 'i', 'o']"
-first,6,1,,,,,,,,5,lowercase,['first']
-out_names,3,,,,,,,,,3,lower_case_with_underscores,"['out', 'names']"
-xs,3,,,,,,,,,3,lowercase,['xs']
-array,7,,,4,,,,,,3,lowercase,['array']
-open,6,,,,,,,,,6,lowercase,['open']
-size,6,,,,,,1,,,5,lowercase,['size']
-rdds,8,,,,,,,,,8,lowercase,['rdds']
-local_maven_kafka,3,,,,,,,,,3,lower_case_with_underscores,"['local', 'maven', 'kafka']"
-add_files,4,,,,,,,,,4,lower_case_with_underscores,"['add', 'files']"
-response,8,,,,,,,,,8,lowercase,['response']
-release_md5,2,,,,,,,,,2,lower_case_with_underscores,"['release', 'md5']"
-sock_file,3,,,,,,,,,3,lower_case_with_underscores,"['sock', 'file']"
-UnpicklingError,1,,,,,,,,,1,CapitalizedWords,"['unpickling', 'error']"
-RELEASE_URL,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['release', 'url']"
-memo,6,,,,,,,,,6,lowercase,['memo']
-artifact,10,,,,,,,,,10,lowercase,['artifact']
-broadcast,10,1,,3,,,,,,6,lowercase,['broadcast']
-x2,2,,,,,,,,,2,lowercase,['x2']
-x1,2,,,,,,,,,2,lowercase,['x1']
-rdd2,2,,,,,,,,,2,lowercase,['rdd2']
-rdd1,2,,,,,,,,,2,lowercase,['rdd1']
-_intercept,6,,,,,,,,,6,lowercase,['intercept']
-setattr,3,,,,,,,,,3,lowercase,['setattr']
-django_mod,6,,,,,,,,,6,lower_case_with_underscores,"['django', 'mod']"
-strs,4,,,,,,,,,4,lowercase,['strs']
-r,9,,,,,,,,,9,b,['r']
-base_files,4,,,,,,,,,4,lower_case_with_underscores,"['base', 'files']"
-ans,16,,,,,,,,,16,lowercase,['ans']
-any,2,,,,,,,,,2,lowercase,['any']
-FramedSerializer,5,,1,,,,,,,4,CapitalizedWords,"['framed', 'serializer']"
-fsize,3,,,,,,,,,3,lowercase,['fsize']
-take,3,1,,,,,,,,2,lowercase,['take']
-environ,19,,,,,,,,,19,lowercase,['environ']
-realpath,4,,,2,,,,,,2,lowercase,['realpath']
-buffer,12,,,,,,11,,,1,lowercase,['buffer']
-price,1,,,,,,1,,,,lowercase,['price']
-cogroup,3,1,,,,,,,,2,lowercase,['cogroup']
-initializationMode,2,,,,,,,,,2,mixedCase,"['initialization', 'mode']"
-PipelinedRDD,6,,1,,,,,,,5,CapitalizedWords,"['pipelined', 'rd', 'd']"
-serializers,7,,,7,,,,,,,lowercase,['serializers']
-best_distance,3,,,,,,,,,3,lower_case_with_underscores,"['best', 'distance']"
-infodict,2,,,,,,,,,2,lowercase,['infodict']
-slaves,6,,,,,,,,,6,lowercase,['slaves']
-subprocess,19,,,7,,,,,,12,lowercase,['subprocess']
-maxint,5,,,,,,,,,5,lowercase,['maxint']
-title,3,,,,,,,,,3,lowercase,['title']
-initRandomGenerator,4,1,,,,,,,,3,mixedCase,"['init', 'random', 'generator']"
-dict,5,,,,,,,,,5,lowercase,['dict']
-startswith,4,,,,,,,,,4,lowercase,['startswith']
-test_file,2,,,,,,,,,2,lower_case_with_underscores,"['test', 'file']"
-get,27,2,,,,,,,,25,lowercase,['get']
-dot_ssh_tar,2,,,,,,,,,2,lower_case_with_underscores,"['dot', 'ssh', 'tar']"
-zero_value,6,,,,,,,,,6,lower_case_with_underscores,"['zero', 'value']"
-save_image,2,1,,,,,,,,1,lower_case_with_underscores,"['save', 'image']"
-ssh,7,1,,,,,,,,6,lowercase,['ssh']
-theta,4,,,,,,,,,4,lowercase,['theta']
-min_count,2,,,,,,2,,,,lower_case_with_underscores,"['min', 'count']"
-zeroValue,5,,,,,,,,,5,mixedCase,"['zero', 'value']"
-fileno,2,,,,,,,,,2,lowercase,['fileno']
-keyed,6,,,,,,,,,6,lowercase,['keyed']
-threading,5,,,4,,,,,,1,lowercase,['threading']
-newStorageLevel,2,,,,,,,,,2,mixedCase,"['new', 'storage', 'level']"
-mapped,4,,,,,,,,,4,lowercase,['mapped']
-LassoWithSGD,1,,1,,,,,,,,CapitalizedWords,"['lasso', 'with', 'sg', 'd']"
-dump_stream,6,3,,,,,,,,3,lower_case_with_underscores,"['dump', 'stream']"
-map_func,2,,,,,,,,,2,lower_case_with_underscores,"['map', 'func']"
-maxSampleSize,2,,,,,,,,,2,mixedCase,"['max', 'sample', 'size']"
-setMaster,3,1,,,,,,,,2,mixedCase,"['set', 'master']"
-co_varnames,1,,,,,,,,,1,lower_case_with_underscores,"['co', 'varnames']"
-base_globals,10,,,,,,,,,10,lower_case_with_underscores,"['base', 'globals']"
-makedirs,1,,,,,,,,,1,lowercase,['makedirs']
-getattr,8,,,,,,,,,8,lowercase,['getattr']
-toString,1,,,,,,,,,1,mixedCase,"['to', 'string']"
-ModuleType,1,,,,,,,,,1,CapitalizedWords,"['module', 'type']"
-right_counter,2,,,,,,,,,2,lower_case_with_underscores,"['right', 'counter']"
-ECHILD,3,,,1,,,,,,2,UPPERCASE,"['echil', 'd']"
-save_buffer,2,1,,,,,,,,1,lower_case_with_underscores,"['save', 'buffer']"
-co_lnotab,1,,,,,,,,,1,lower_case_with_underscores,"['co', 'lnotab']"
-save_reduce,17,1,,,,,,,,16,lower_case_with_underscores,"['save', 'reduce']"
-multiplier,3,,,,,,,,,3,lowercase,['multiplier']
-spot_price,3,,,,,,,,,3,lower_case_with_underscores,"['spot', 'price']"
-spark,4,,,,,,,,,4,lowercase,['spark']
-_extension_cache,1,,,1,,,,,,,lower_case_with_underscores,"['extension', 'cache']"
-region,2,,,,,,,,,2,lowercase,['region']
-NaiveBayes,1,,1,,,,,,,,CapitalizedWords,"['naive', 'bayes']"
-s,2,,,,,,,,,2,b,['s']
-userlib,2,,,2,,,,,,,lowercase,['userlib']
-utf8_deserializer,3,,,,,,,,,3,lower_case_with_underscores,"['utf8', 'deserializer']"
-unittest,4,,,1,,,,,,3,lowercase,['unittest']
-pop,2,,,,,,,,,2,lowercase,['pop']
-grants,1,,,,,,,,,1,lowercase,['grants']
-iterations,16,,,,,,,,,16,lowercase,['iterations']
-optionflags,7,,,,,,7,,,,lowercase,['optionflags']
-connect_to_region,1,,,,,,,,,1,lower_case_with_underscores,"['connect', 'to', 'region']"
-reduceByKey,5,1,,,,,,,,4,mixedCase,"['reduce', 'by', 'key']"
-num_arrivals,3,,,,,,,,,3,lower_case_with_underscores,"['num', 'arrivals']"
-random_sample,1,,,,,,,,,1,lower_case_with_underscores,"['random', 'sample']"
-python_cogroup,3,1,,1,,,,,,1,lower_case_with_underscores,"['python', 'cogroup']"
-toDebugString,4,2,,,,,,,,2,mixedCase,"['to', 'debug', 'string']"
-combineLocally,2,1,,,,,,,,1,mixedCase,"['combine', 'locally']"
-_value,9,,,,,,,,,9,lowercase,['value']
-hasattr,15,,,,,,,,,15,lowercase,['hasattr']
-tostr,1,,,,,,1,,,,lowercase,['tostr']
-float64,4,,,1,,,,,,3,lowercase,['float64']
-compile,1,,,,,,,,,1,lowercase,['compile']
-cast,1,,,,,,,,,1,lowercase,['cast']
-save_file,2,1,,,,,,,,1,lower_case_with_underscores,"['save', 'file']"
-trainImplicitALSModel,1,,,,,,,,,1,mixedCase,"['train', 'implicit', 'als', 'model']"
-margin,4,,,,,,,,,4,lowercase,['margin']
-num_python_includes,2,,,,,,,,,2,lower_case_with_underscores,"['num', 'python', 'includes']"
-stdout,12,,,,,,5,,,7,lowercase,['stdout']
-endswith,3,,,,,,,,,3,lowercase,['endswith']
-isCheckpointed,5,1,,,,,,,,4,mixedCase,"['is', 'checkpointed']"
-INST,1,,,,,,,,,1,UPPERCASE,"['ins', 't']"
-active_master,4,,,,,,,,,4,lower_case_with_underscores,"['active', 'master']"
-shutil,8,,,4,,,,,,4,lowercase,['shutil']
-fdel,1,,,,,,,,,1,lowercase,['fdel']
-proto,2,,,,,,,,,2,lowercase,['proto']
-inject_addons,2,1,,,,,,,,1,lower_case_with_underscores,"['inject', 'addons']"
-mergeValue,4,1,,,,,,,,3,mixedCase,"['merge', 'value']"
-storageLevel,8,,,,,,,,,8,mixedCase,"['storage', 'level']"
-status,9,,,,,,,,,9,lowercase,['status']
-finish,2,,,,,,,,,2,lowercase,['finish']
-closest,5,,,,,,,,,5,lowercase,['closest']
-pythonExec,2,,,,,,,,,2,mixedCase,"['python', 'exec']"
-running,3,,,,,,,,,3,lowercase,['running']
-edges,6,,,,,,,,,6,lowercase,['edges']
-my_md5,2,,,,,,,,,2,lower_case_with_underscores,"['my', 'md5']"
-_data,1,,,,,,,,,1,lowercase,['data']
-c_size_t,2,,,,,,,,,2,lower_case_with_underscores,"['c', 'size', 't']"
-PicklingError,20,,,,,,,,,20,CapitalizedWords,"['pickling', 'error']"
-withReplacement,9,,,,,,,,,9,mixedCase,"['with', 'replacement']"
-listen_sock,11,,,,,,,,,11,lower_case_with_underscores,"['listen', 'sock']"
-spark_shark_map,3,,,,,,,,,3,lower_case_with_underscores,"['spark', 'shark', 'map']"
-solve,1,,,,,,,,,1,lowercase,['solve']
-add_option,23,,,,,,,,,23,lower_case_with_underscores,"['add', 'option']"
-BRANCH_PREFIX,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['branch', 'prefix']"
-new_array,1,,,,,,,,,1,lower_case_with_underscores,"['new', 'array']"
-heapq,1,,,1,,,,,,,lowercase,['heapq']
-rest,4,,,,,,,,,4,lowercase,['rest']
-kill,2,,,,,,,,,2,lowercase,['kill']
-unicode,3,,,,,,,,,3,lowercase,['unicode']
-getLocalDir,1,,,,,,,,,1,mixedCase,"['get', 'local', 'dir']"
-_withReplacement,2,,,,,,,,,2,mixedCase,"['with', 'replacement']"
-struct,17,,,4,,,,,,13,lowercase,['struct']
-sortByKey,2,1,,,,,,,,1,mixedCase,"['sort', 'by', 'key']"
-home_dir,3,,,,,,,,,3,lower_case_with_underscores,"['home', 'dir']"
-param,3,,,,,,,,,3,lowercase,['param']
-samples,10,,,,,,,,,10,lowercase,['samples']
-sampler,2,,,,,,,,,2,lowercase,['sampler']
-ufunc,1,,,,,,,,,1,lowercase,['ufunc']
-SIG_IGN,3,,,1,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['sig', 'ign']"
-ami,8,,,,,,,,,8,lowercase,['ami']
-SIGCHLD,3,,,1,,,,,,2,UPPERCASE,"['sigchl', 'd']"
-rules,3,,,,,,,,,3,lowercase,['rules']
-save_property,2,1,,,,,,,,1,lower_case_with_underscores,"['save', 'property']"
-sortedCount,2,,,,,,,,,2,mixedCase,"['sorted', 'count']"
-test,10,1,,,,,,,,9,lowercase,['test']
-dispatch,33,4,,,,,,,,29,lowercase,['dispatch']
-real_main,2,1,,,,,,,,1,lower_case_with_underscores,"['real', 'main']"
-mod,9,,,,,,,,,9,lowercase,['mod']
-reduce_args,4,,,,,,,,,4,lower_case_with_underscores,"['reduce', 'args']"
-_sc,3,,,,,,,,,3,lowercase,['sc']
-isDefined,1,,,,,,,,,1,mixedCase,"['is', 'defined']"
-server,3,,,,,,,,,3,lowercase,['server']
-RELEASE_KEY,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['release', 'key']"
-t,2,,,,,,,,,2,b,['t']
-output,4,,,,,,,,,4,lowercase,['output']
-MEMORY_AND_DISK_2,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['memory', 'and', 'disk', '2']"
-miniBatchFraction,10,,,,,,,,,10,mixedCase,"['mini', 'batch', 'fraction']"
-instance_types,3,,,,,,,,,3,lower_case_with_underscores,"['instance', 'types']"
-_read_with_length,5,1,,,,,,,,4,lower_case_with_underscores,"['read', 'with', 'length']"
-pickled,2,,,,,,,,,2,lowercase,['pickled']
-dest_file,2,,,,,,,,,2,lower_case_with_underscores,"['dest', 'file']"
-_fill_function,2,1,,,,,,,,1,lower_case_with_underscores,"['fill', 'function']"
-exit_on_failure,6,,,,,,4,,,2,lower_case_with_underscores,"['exit', 'on', 'failure']"
-slice,2,,,,,,,,,2,lowercase,['slice']
-mergeStats,2,1,,,,,,,,1,mixedCase,"['merge', 'stats']"
-cellnew,4,,,,,,,,,4,lowercase,['cellnew']
-FLOAT_ACCUMULATOR_PARAM,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['float', 'accumulator', 'param']"
-hadoop_major_version,2,,,,,,,,,2,lower_case_with_underscores,"['hadoop', 'major', 'version']"
-exit,34,,,,,,,,,34,lowercase,['exit']
-xrange_params,2,1,,,,,,,,1,lower_case_with_underscores,"['xrange', 'params']"
-GeneratorType,1,,,,,,,,,1,CapitalizedWords,"['generator', 'type']"
-infile,12,,,,,,,,,12,lowercase,['infile']
-mainmod,3,,,,,,,,,3,lowercase,['mainmod']
-print_help,1,,,,,,,,,1,lower_case_with_underscores,"['print', 'help']"
-power,1,,,,,,,,,1,lowercase,['power']
-pickleSer,8,,,,,,,,,8,mixedCase,"['pickle', 'ser']"
-_fraction,3,,,,,,,,,3,lowercase,['fraction']
-_,11,,,,,,,,,11,ugly,[]
-acc,11,,,,,,,,,11,lowercase,['acc']
-src,5,,,,,,,,,5,lowercase,['src']
-unitcount,1,,,,,,,,,1,lowercase,['unitcount']
-modified_env,3,,,,,,,,,3,lower_case_with_underscores,"['modified', 'env']"
-save_module,2,1,,,,,,,,1,lower_case_with_underscores,"['save', 'module']"
-AddingAccumulatorParam,4,,1,,,,,,,3,CapitalizedWords,"['adding', 'accumulator', 'param']"
-os,108,,,15,,,,,,93,lowercase,['os']
-op,7,,,,,,,,,7,lowercase,['op']
-RidgeRegressionModel,2,,1,,,,,,,1,CapitalizedWords,"['ridge', 'regression', 'model']"
-image,3,,,,,,,,,3,lowercase,['image']
-strip,8,,,,,,,,,8,lowercase,['strip']
-operator,8,,,5,,,,,,3,lowercase,['operator']
-MatrixFactorizationModel,3,,1,,,,,,,2,CapitalizedWords,"['matrix', 'factorization', 'model']"
-log,1,,,1,,,,,,,lowercase,['log']
-fdopen,2,,,,,,,,,2,lowercase,['fdopen']
-defaultValue,3,,,,,,,,,3,mixedCase,"['default', 'value']"
-_load_stream_without_unbatching,5,2,,,,,,,,3,lower_case_with_underscores,"['load', 'stream', 'without', 'unbatching']"
-doublepart,2,,,,,,,,,2,lowercase,['doublepart']
-decode,1,,,,,,,,,1,lowercase,['decode']
-_pickle_registry,2,,,,,,,,,2,lower_case_with_underscores,"['pickle', 'registry']"
-pick_branch_name,6,,,,,,,,,6,lower_case_with_underscores,"['pick', 'branch', 'name']"
-checkpointDir,5,,,,,,,,,5,mixedCase,"['checkpoint', 'dir']"
-TestDaemon,1,,1,,,,,,,,CapitalizedWords,"['test', 'daemon']"
-handle_sigchld,5,2,,,,,,,,3,lower_case_with_underscores,"['handle', 'sigchld']"
-linalg,1,,,,,,,,,1,lowercase,['linalg']
-with_statement,1,,,1,,,,,,,lower_case_with_underscores,"['with', 'statement']"
-RDD,20,,1,4,,,,,,15,UPPERCASE,"['rd', 'd']"
-cur_time,5,,,,,,,,,5,lower_case_with_underscores,"['cur', 'time']"
-test_add_egg_file_locally,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'add', 'egg', 'file', 'locally']"
-StorageLevel,28,,1,4,,,,,,23,CapitalizedWords,"['storage', 'level']"
-default,16,,,,,,16,,,,lowercase,['default']
-clearProperty,1,,,,,,,,,1,mixedCase,"['clear', 'property']"
-finish_time,2,,,,,,,,,2,lower_case_with_underscores,"['finish', 'time']"
-get_all_security_groups,2,,,,,,,,,2,lower_case_with_underscores,"['get', 'all', 'security', 'groups']"
-key_file,3,,,,,,,,,3,lower_case_with_underscores,"['key', 'file']"
-SIGHUP,5,,,1,,,,,,4,UPPERCASE,"['sighu', 'p']"
-ECONNREFUSED,2,,,1,,,,,,1,UPPERCASE,"['econnrefuse', 'd']"
-SCALA_BINARY_VERSION,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['scala', 'binary', 'version']"
-artifact_regex,1,,,,,,,,,1,lower_case_with_underscores,"['artifact', 'regex']"
-cpu_count,1,,,,,,,,,1,lower_case_with_underscores,"['cpu', 'count']"
-fset,1,,,,,,,,,1,lowercase,['fset']
-test_add_py_file,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'add', 'py', 'file']"
-file,16,,,,,,,,,16,lowercase,['file']
-split_index,3,,,,,,,,,3,lower_case_with_underscores,"['split', 'index']"
-TestAddFile,1,,1,,,,,,,,CapitalizedWords,"['test', 'add', 'file']"
-extract_func_data,2,1,,,,,,,,1,lower_case_with_underscores,"['extract', 'func', 'data']"
-get_zones,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'zones']"
-storage,1,,,,,,,,,1,lowercase,['storage']
-execfile,1,,,,,,,,,1,lowercase,['execfile']
-includes,2,,,,,,,,,2,lowercase,['includes']
-_fill_value,1,,,,,,,,,1,lower_case_with_underscores,"['fill', 'value']"
-save_global,4,1,,,,,,,,3,lower_case_with_underscores,"['save', 'global']"
-_get_initial_weights,6,1,,4,,,,,,1,lower_case_with_underscores,"['get', 'initial', 'weights']"
-KMeansModel,2,,1,,,,,,,1,CapitalizedWords,"['k', 'means', 'model']"
-partitioner,2,,,,,,,,,2,lowercase,['partitioner']
-self_copy,2,,,,,,,,,2,lower_case_with_underscores,"['self', 'copy']"
-textFile,9,1,,,,,,,,8,mixedCase,"['text', 'file']"
-bytearray,10,,,,,,,,,10,lowercase,['bytearray']
-setrecursionlimit,2,,,,,,,,,2,lowercase,['setrecursionlimit']
-cloudpickle,4,,,3,,,,,,1,lowercase,['cloudpickle']
-stringify_command,5,1,,,,,,,,4,lower_case_with_underscores,"['stringify', 'command']"
-test_count,8,,,,,,,,,8,lower_case_with_underscores,"['test', 'count']"
-TUPLE,2,,,,,,,,,2,UPPERCASE,"['tupl', 'e']"
-chain,4,,,2,,,,,,2,lowercase,['chain']
-listen_port,2,,,,,,,,,2,lower_case_with_underscores,"['listen', 'port']"
-ts,5,,,,,,,2,,3,lowercase,['ts']
-_jrdd_val,5,,,,,,,,,5,lower_case_with_underscores,"['jrdd', 'val']"
-init,2,,,,,,,,,2,lowercase,['init']
-rstrip,2,,,,,,,,,2,lowercase,['rstrip']
-tb,11,,,,,,,,,11,lowercase,['tb']
-tc,8,,,,,,,,,8,lowercase,['tc']
-WORK_DIR,10,,,,,,,,,10,UPPER_CASE_WITH_UNDERSCORES,"['work', 'dir']"
-dataBytes,10,,,,,,,,,10,mixedCase,"['data', 'bytes']"
-util,3,,,,,,,,,3,lowercase,['util']
-base_ref,2,,,,,,,,,2,lower_case_with_underscores,"['base', 'ref']"
-_prev_jrdd,5,,,,,,,,,5,lower_case_with_underscores,"['prev', 'jrdd']"
-pr_repo_desc,3,,,,,,,,,3,lower_case_with_underscores,"['pr', 'repo', 'desc']"
-list,14,,,,,,,,,14,lowercase,['list']
-stderr,35,,,1,,,2,,,32,lowercase,['stderr']
-coeffs,3,,,,,,,,,3,lowercase,['coeffs']
-ssh_args,2,1,,,,,,,,1,lower_case_with_underscores,"['ssh', 'args']"
-serve_forever,1,,,,,,,,,1,lower_case_with_underscores,"['serve', 'forever']"
-get_num_disks,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'num', 'disks']"
-print_exception,1,,,,,,,,,1,lower_case_with_underscores,"['print', 'exception']"
-getvalue,1,,,,,,,,,1,lowercase,['getvalue']
-RELEASE_REPOSITORY,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES,"['release', 'repository']"
-zero,3,2,,,,,,,,1,lowercase,['zero']
-accum_param,13,,,,,,,,,13,lower_case_with_underscores,"['accum', 'param']"
-save_instancemethod,2,1,,,,,,,,1,lower_case_with_underscores,"['save', 'instancemethod']"
-what,3,,,,,,,,,3,lowercase,['what']
-numPartitions,51,,,,,,,,,51,mixedCase,"['num', 'partitions']"
-sum,10,2,,,,,,,,8,lowercase,['sum']
-version,7,,,,,,,,,7,lowercase,['version']
-on_windows,3,,,,,,,,,3,lower_case_with_underscores,"['on', 'windows']"
-full,1,,,,,,1,,,,lowercase,['full']
-hash,1,,,,,,,,,1,lowercase,['hash']
-new_override,2,,,,,,,,,2,lower_case_with_underscores,"['new', 'override']"
-setpgid,1,,,,,,,,,1,lowercase,['setpgid']
-optparse,1,,,1,,,,,,,lowercase,['optparse']
-StreamRequestHandler,1,,,,,,,,,1,CapitalizedWords,"['stream', 'request', 'handler']"
-K,2,,,,,,,,,2,B,"['', 'k']"
-_python_includes,4,,,,,,,,,4,lower_case_with_underscores,"['python', 'includes']"
-default_branch,3,,,,,,,,,3,lower_case_with_underscores,"['default', 'branch']"
-vals,21,,,,,,,,,21,lowercase,['vals']
-ver,2,,,,,,,,,2,lowercase,['ver']
-StringIO,8,,,4,,,,,,4,CapitalizedWords,"['string', 'i', 'o']"
-doctest,23,,,8,,,,,,15,lowercase,['doctest']
-action,16,,,,,,6,,,10,lowercase,['action']
-authorize,18,,,,,,,,,18,lowercase,['authorize']
-mapPartitionsWithIndex,5,1,,,,,,,,4,mixedCase,"['map', 'partitions', 'with', 'index']"
-shuffle,5,1,,,,,,,,4,lowercase,['shuffle']
-merge_commit_desc,4,,,,,,,,,4,lower_case_with_underscores,"['merge', 'commit', 'desc']"
-Xty,3,,,,,,,,,3,CapitalizedWords,['xty']
-_extension_registry,2,,,1,,,,,,1,lower_case_with_underscores,"['extension', 'registry']"
-_getJavaStorageLevel,2,1,,,,,,,,1,mixedCase,"['get', 'java', 'storage', 'level']"
-Broadcast,5,,1,2,,,,,,2,CapitalizedWords,['broadcast']
-executable,1,,,,,,,,,1,lowercase,['executable']
-eye,1,,,,,,,,,1,lowercase,['eye']
-distinct,3,1,,,,,,,,2,lowercase,['distinct']
-contains,5,1,,,,,,,,4,lowercase,['contains']
-XtX,4,,,,,,,,,4,CapitalizedWords,"['xt', 'x']"
-PythonPartitioner,1,,,,,,,,,1,CapitalizedWords,"['python', 'partitioner']"
-_writeToFile,3,,,,,,,,,3,mixedCase,"['write', 'to', 'file']"
-BatchedSerializer,9,,1,2,,,,,,6,CapitalizedWords,"['batched', 'serializer']"
-taken,3,,,,,,,,,3,lowercase,['taken']
-setName,2,1,,,,,,,,1,mixedCase,"['set', 'name']"
-abspath,1,,,,,,,,,1,lowercase,['abspath']
-func_global_refs,4,,,,,,,,,4,lower_case_with_underscores,"['func', 'global', 'refs']"
-_write_with_length,3,1,,,,,,,,2,lower_case_with_underscores,"['write', 'with', 'length']"
-slave_reqs,2,,,,,,,,,2,lower_case_with_underscores,"['slave', 'reqs']"
-_start_update_server,2,1,,,,,,,,1,lower_case_with_underscores,"['start', 'update', 'server']"
-save_string,1,,,,,,,,,1,lower_case_with_underscores,"['save', 'string']"
-v,74,,,,,,,,,74,b,['v']
-prompt,2,,,,,,,,,2,lowercase,['prompt']
-EchoOutputThread,2,,1,,,,,,,1,CapitalizedWords,"['echo', 'output', 'thread']"
-varName,2,,,,,,,,,2,mixedCase,"['var', 'name']"
-accept,1,,,,,,,,,1,lowercase,['accept']
-max_count,2,,,,,,2,,,,lower_case_with_underscores,"['max', 'count']"
-numbers,2,,,1,,,,,,1,lowercase,['numbers']
-b64enc,1,,,,,,,1,,,lowercase,['b64enc']
-_batchSize,2,,,,,,,,,2,mixedCase,"['batch', 'size']"
-identity_file,2,,,,,,,,,2,lower_case_with_underscores,"['identity', 'file']"
-_regression_train_wrapper,10,1,,4,,,,,,5,lower_case_with_underscores,"['regression', 'train', 'wrapper']"
-basicConfig,1,,,,,,,,,1,mixedCase,"['basic', 'config']"
-ValueError,3,,,,,,,,,3,CapitalizedWords,"['value', 'error']"
-cache_ivy_spark,2,,,,,,,,,2,lower_case_with_underscores,"['cache', 'ivy', 'spark']"
-tries,8,,,,,,,,,8,lowercase,['tries']
-ff,6,,,,,,,,,6,lowercase,['ff']
-unlink,4,,,,,,,,,4,lowercase,['unlink']
-setup_cluster,3,1,,,,,,,,2,lower_case_with_underscores,"['setup', 'cluster']"
-a,12,,,,,,,,,12,b,['a']
-register,1,,,,,,,,,1,lowercase,['register']
-co_filename,2,,,,,,,,,2,lower_case_with_underscores,"['co', 'filename']"
-save_timeseries,2,1,,,,,,,,1,lower_case_with_underscores,"['save', 'timeseries']"
-save_xrange,2,1,,,,,,,,1,lower_case_with_underscores,"['save', 'xrange']"
-mapFunc,2,1,,,,,,,,1,mixedCase,"['map', 'func']"
-pairRDD,4,,,,,,,,,4,mixedCase,"['pair', 'rd', 'd']"
-write_int,10,1,,2,,,,,,7,lower_case_with_underscores,"['write', 'int']"
-help,23,,,,,,23,,,,lowercase,['help']
-co_freevars,1,,,,,,,,,1,lower_case_with_underscores,"['co', 'freevars']"
-BuiltinFunctionType,1,,,,,,,,,1,CapitalizedWords,"['builtin', 'function', 'type']"
-MethodType,2,,,,,,,,,2,CapitalizedWords,"['method', 'type']"
-y1,2,,,,,,,,,2,lowercase,['y1']
-y2,2,,,,,,,,,2,lowercase,['y2']
-numVertices,1,,,,,,,,,1,mixedCase,"['num', 'vertices']"
-swhat,1,,,,,,,,,1,lowercase,['swhat']
-group_names,5,,,,,,,,,5,lower_case_with_underscores,"['group', 'names']"
-rddsampler,1,,,1,,,,,,,lowercase,['rddsampler']
-modList,6,,,,,,,,,6,mixedCase,"['mod', 'list']"
-pack_long,3,1,,1,,,,,,1,lower_case_with_underscores,"['pack', 'long']"
-daemon_path,2,,,,,,,,,2,lower_case_with_underscores,"['daemon', 'path']"
-_temp_dir,3,,,,,,,,,3,lower_case_with_underscores,"['temp', 'dir']"
-detach,1,,,,,,,,,1,lowercase,['detach']
-func_globals,5,,,,,,,,,5,lower_case_with_underscores,"['func', 'globals']"
-modname,27,,,,,,,,,27,lowercase,['modname']
-train_func,2,,,,,,,,,2,lower_case_with_underscores,"['train', 'func']"
-cancel_spot_instance_requests,1,,,,,,,,,1,lower_case_with_underscores,"['cancel', 'spot', 'instance', 'requests']"
-vbuf,14,,,,,,,,,14,lowercase,['vbuf']
-_split,5,,,,,,,,,5,lowercase,['split']
-block_map,5,,,,,,,,,5,lower_case_with_underscores,"['block', 'map']"
-appName,4,,,,,,,,,4,mixedCase,"['app', 'name']"
-SVMWithSGD,1,,1,,,,,,,,CapitalizedWords,"['svm', 'with', 'sg', 'd']"
-SOCK_STREAM,5,,,2,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['sock', 'stream']"
-left_counter,2,,,,,,,,,2,lower_case_with_underscores,"['left', 'counter']"
-connect,5,1,,,,,,,,4,lowercase,['connect']
-block_device_map,3,,,,,,3,,,,lower_case_with_underscores,"['block', 'device', 'map']"
-isfile,3,,,,,,,,,3,lowercase,['isfile']
-ufun,1,,,,,,,,,1,lowercase,['ufun']
-getLogger,1,,,,,,,,,1,mixedCase,"['get', 'logger']"
-get_all_instances,2,,,,,,,,,2,lower_case_with_underscores,"['get', 'all', 'instances']"
-POP_MARK,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['pop', 'mark']"
-nextCount,4,,,,,,,,,4,mixedCase,"['next', 'count']"
-_make_skel_func,2,1,,,,,,,,1,lower_case_with_underscores,"['make', 'skel', 'func']"
-checkpointFile,4,,,,,,,,,4,mixedCase,"['checkpoint', 'file']"
-deploy_files,2,1,,,,,,,,1,lower_case_with_underscores,"['deploy', 'files']"
-dirs,1,,,,,,,,,1,lowercase,['dirs']
-None,133,,,,,,,,,133,CapitalizedWords,['none']
-LinearRegressionModelBase,5,,2,,,,,,,3,CapitalizedWords,"['linear', 'regression', 'model', 'base']"
-commits,2,,,,,,,,,2,lowercase,['commits']
-co_flags,1,,,,,,,,,1,lower_case_with_underscores,"['co', 'flags']"
-master_nodes,37,,,,,,,,,37,lower_case_with_underscores,"['master', 'nodes']"
-pairs,10,,,,,,,,,10,lowercase,['pairs']
-thread,3,,,,,,,,,3,lowercase,['thread']
-wait_for_cluster,3,1,,,,,,,,2,lower_case_with_underscores,"['wait', 'for', 'cluster']"
-success,5,,,,,,,,,5,lowercase,['success']
-_gateway,10,,,,,,,,,10,lowercase,['gateway']
-get_json,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'json']"
-w,13,,,,,,,,,13,b,['w']
-combineByKey,4,1,,,,,,,,3,mixedCase,"['combine', 'by', 'key']"
-savedDjangoEnv,3,,,,,,,,,3,mixedCase,"['saved', 'django', 'env']"
-instances,7,,,,,,,,,7,lowercase,['instances']
-trainKMeansModel,1,,,,,,,,,1,mixedCase,"['train', 'k', 'means', 'model']"
-val_is_batched,2,,,,,,,,,2,lower_case_with_underscores,"['val', 'is', 'batched']"
-blockdevicemapping,1,,,1,,,,,,,lowercase,['blockdevicemapping']
-script,2,,,,,,,,,2,lowercase,['script']
-pythonapi,1,,,,,,,,,1,lowercase,['pythonapi']
-checkpoint,4,1,,,,,,,,3,lowercase,['checkpoint']
-passed,6,1,,,,,,,,5,lowercase,['passed']
-zeros,3,,,,,,,,,3,lowercase,['zeros']
-ssh_read,2,1,,,,,,,,1,lower_case_with_underscores,"['ssh', 'read']"
-InstanceType,1,,,,,,,,,1,CapitalizedWords,"['instance', 'type']"
-recovered,2,,,,,,,,,2,lowercase,['recovered']
-key_setup,2,,,,,,,,,2,lower_case_with_underscores,"['key', 'setup']"
-UTF8Deserializer,5,,1,2,,,,,,2,CapitalizedWords,"['utf8', 'deserializer']"
-ListConverter,5,,,2,,,,,,3,CapitalizedWords,"['list', 'converter']"
-_accumulatorServer,5,,,,,,,,,5,mixedCase,"['accumulator', 'server']"
-authors,2,,,,,,,,,2,lowercase,['authors']
-recurse_limit,4,,,,,,,,,4,lower_case_with_underscores,"['recurse', 'limit']"
-jrdd,12,,,,,,,,,12,lowercase,['jrdd']
-b,6,,,,,,,,,6,b,['b']
-dtm,2,,,,,,,,,2,lowercase,['dtm']
-python_right_outer_join,3,1,,1,,,,,,1,lower_case_with_underscores,"['python', 'right', 'outer', 'join']"
-RatingDeserializer,3,,1,1,,,,,,1,CapitalizedWords,"['rating', 'deserializer']"
-get_all_zones,3,,,,,,,,,3,lower_case_with_underscores,"['get', 'all', 'zones']"
-dictitems,3,,,,,,,,,3,lowercase,['dictitems']
-str,28,,,,,,,,,28,lowercase,['str']
-add_shuffle_key,2,1,,,,,,,,1,lower_case_with_underscores,"['add', 'shuffle', 'key']"
-listen_host,1,,,,,,,,,1,lower_case_with_underscores,"['listen', 'host']"
-uwhat,1,,,,,,,,,1,lowercase,['uwhat']
-broadcast_vars,2,,,,,,,,,2,lower_case_with_underscores,"['broadcast', 'vars']"
-index_page,2,,,,,,,,,2,lower_case_with_underscores,"['index', 'page']"
-ratings,8,,,,,,,,,8,lowercase,['ratings']
-DeprecationWarning,1,,,,,,,,,1,CapitalizedWords,"['deprecation', 'warning']"
-randint,2,,,,,,,,,2,lowercase,['randint']
-_lock,3,,,,,,,,,3,lowercase,['lock']
-TCPServer,1,,,,,,,,,1,CapitalizedWords,"['tcp', 'server']"
-mapred_local_dirs,3,,,,,,,,,3,lower_case_with_underscores,"['mapred', 'local', 'dirs']"
-expovariate,2,,,,,,,,,2,lowercase,['expovariate']
-LinearModel,7,,2,1,,,,,,4,CapitalizedWords,"['linear', 'model']"
-initialCount,7,,,,,,,,,7,mixedCase,"['initial', 'count']"
-warnings,2,,,1,,,,,,1,lowercase,['warnings']
-quote,1,,,,,,,,,1,lowercase,['quote']
-M,6,,,,,,,,,6,B,"['', 'm']"
-PickleSerializer,9,,1,3,,,,,,5,CapitalizedWords,"['pickle', 'serializer']"
-_coeff,10,,,,,,,,,10,lowercase,['coeff']
-alpha,2,,,,,,,,,2,lowercase,['alpha']
-_broadcastRegistry,6,,,2,,,,,,4,mixedCase,"['broadcast', 'registry']"
-exc,2,,,,,,,,,2,lowercase,['exc']
-clear,1,,,,,,,,,1,lowercase,['clear']
-tpl,2,,,,,,,,,2,lowercase,['tpl']
-sparkpath,2,,,,,,,,,2,lowercase,['sparkpath']
-GLOBAL_OPS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['global', 'ops']"
-opmap,4,,,,,,,,,4,lowercase,['opmap']
-py4j,3,,,3,,,,,,,lowercase,['py4j']
-parCollection,4,,,,,,,,,4,mixedCase,"['par', 'collection']"
-die_on_error,6,,,,,,4,,,2,lower_case_with_underscores,"['die', 'on', 'error']"
-_serialize_double_matrix,5,1,,4,,,,,,,lower_case_with_underscores,"['serialize', 'double', 'matrix']"
-find,1,,,,,,,,,1,lowercase,['find']
-failed,2,1,,,,,,,,1,lowercase,['failed']
-distance,3,,,,,,,,,3,lowercase,['distance']
-Value,1,,,,,,,,,1,CapitalizedWords,['value']
-sfile,1,,,,,,,,,1,lowercase,['sfile']
-uline,2,,,,,,,,,2,lowercase,['uline']
-Random,2,,,1,,,,,,1,CapitalizedWords,['random']
-str_rep,2,,,,,,,,,2,lower_case_with_underscores,"['str', 'rep']"
-instance_id,1,,,,,,,,,1,lower_case_with_underscores,"['instance', 'id']"
-setSystemProperty,1,1,,,,,,,,,mixedCase,"['set', 'system', 'property']"
-x,136,,,,,,,,,136,b,['x']
-set,8,1,,,,,,,,7,lowercase,['set']
-dump,5,2,,,,,,,,3,lowercase,['dump']
-sep,1,,,,,,1,,,,lowercase,['sep']
-atexit,2,,,1,,,,,,1,lowercase,['atexit']
-launch_worker,2,1,,,,,,,,1,lower_case_with_underscores,"['launch', 'worker']"
-arg,4,,,,,,,,,4,lowercase,['arg']
-im_self,1,,,,,,,,,1,lower_case_with_underscores,"['im', 'self']"
-groupBy,1,1,,,,,,,,,mixedCase,"['group', 'by']"
-co_name,1,,,,,,,,,1,lower_case_with_underscores,"['co', 'name']"
-writeToFile,1,,,,,,,,,1,mixedCase,"['write', 'to', 'file']"
-tempFile,20,,,,,,,,,20,mixedCase,"['temp', 'file']"
-printSerialization,2,,,,,,,,,2,mixedCase,"['print', 'serialization']"
-proxy_port,2,,,,,,,,,2,lower_case_with_underscores,"['proxy', 'port']"
-outfile,16,,,,,,,,,16,lowercase,['outfile']
-preservesPartitioning,21,,,,,,5,,,16,mixedCase,"['preserves', 'partitioning']"
-CalledProcessError,1,,,,,,,,,1,CapitalizedWords,"['called', 'process', 'error']"
-c,8,,,,,,,,,8,b,['c']
-TypeError,20,,,,,,,,,20,CapitalizedWords,"['type', 'error']"
-preexec_fn,1,,,,,,1,,,,lower_case_with_underscores,"['preexec', 'fn']"
-inject_email,2,1,,,,,,,,1,lower_case_with_underscores,"['inject', 'email']"
-getAbsolutePath,1,,,,,,,,,1,mixedCase,"['get', 'absolute', 'path']"
-addPyFile,4,1,,,,,,,,3,mixedCase,"['add', 'py', 'file']"
-branch_names,2,,,,,,,,,2,lower_case_with_underscores,"['branch', 'names']"
-context,18,1,,5,,,,,,12,lowercase,['context']
-load,1,,,,,,,,,1,lowercase,['load']
-reduce,10,1,,,,,,,,9,lowercase,['reduce']
-GLOBAL,3,,,,,,,,,3,UPPERCASE,"['globa', 'l']"
-get_spark_ami,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'spark', 'ami']"
-header,14,,,,,,,,,14,lowercase,['header']
-globals,9,,,,,,,,,9,lowercase,['globals']
-shutdown,5,1,,,,,,,,4,lowercase,['shutdown']
-pr,9,,,,,,,,,9,lowercase,['pr']
-java,2,,,,,,,,,2,lowercase,['java']
-sfun,2,,,,,,,,,2,lowercase,['sfun']
-test_deleting_input_files,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'deleting', 'input', 'files']"
-dup,2,,,,,,,,,2,lowercase,['dup']
-wait,3,,,,,,,,,3,lowercase,['wait']
-RDDSampler,4,,1,1,,,,,,2,CapitalizedWords,"['rdd', 'sampler']"
-OptionParser,2,,,1,,,,,,1,CapitalizedWords,"['option', 'parser']"
-pickled_command,2,,,,,,,,,2,lower_case_with_underscores,"['pickled', 'command']"
-_UpdateRequestHandler,2,,1,,,,,,,1,CapitalizedWords,"['update', 'request', 'handler']"
-_linear_predictor_typecheck,7,1,,2,,,,,,4,lower_case_with_underscores,"['linear', 'predictor', 'typecheck']"
-func,81,14,,,,,,,,67,lowercase,['func']
-worker_main,2,,,,,,,1,,1,lower_case_with_underscores,"['worker', 'main']"
-_serialize_rating,7,1,,4,,,,,,2,lower_case_with_underscores,"['serialize', 'rating']"
-ClassType,3,,,,,,,,,3,CapitalizedWords,"['class', 'type']"
-num_broadcast_variables,2,,,,,,,,,2,lower_case_with_underscores,"['num', 'broadcast', 'variables']"
-error,4,,,,,,,,,4,lowercase,['error']
-fun,3,,,,,,,,,3,lowercase,['fun']
-pack,14,,,,,,,,,14,lowercase,['pack']
-save_inst_logic,2,1,,,,,,,,1,lower_case_with_underscores,"['save', 'inst', 'logic']"
-copy_reg,1,,,1,,,,,,,lower_case_with_underscores,"['copy', 'reg']"
-setExecutorEnv,4,1,,,,,,,,3,mixedCase,"['set', 'executor', 'env']"
-terminator,2,,,,,,,,,2,lowercase,['terminator']
-python_left_outer_join,3,1,,1,,,,,,1,lower_case_with_underscores,"['python', 'left', 'outer', 'join']"
-storage_level,2,,,,,,,,,2,lower_case_with_underscores,"['storage', 'level']"
-pick_ref,7,,,,,,,,,7,lower_case_with_underscores,"['pick', 'ref']"
-master_res,3,,,,,,,,,3,lower_case_with_underscores,"['master', 'res']"
-grant,2,,,,,,,,,2,lowercase,['grant']
-forced_imports,3,,,,,,,,,3,lower_case_with_underscores,"['forced', 'imports']"
-read,12,,,,,,,,,12,lowercase,['read']
-key_pair,3,,,,,,,,,3,lower_case_with_underscores,"['key', 'pair']"
-userlibrary,3,,,3,,,,,,,lowercase,['userlibrary']
-curloc,2,,,,,,,,,2,lowercase,['curloc']
-java_storage_level,5,,,,,,,,,5,lower_case_with_underscores,"['java', 'storage', 'level']"
-keys,11,,,,,,,,,11,lowercase,['keys']
-sys,135,,,22,,,,,,113,lowercase,['sys']
-save_inst,2,1,,,,,,,,1,lower_case_with_underscores,"['save', 'inst']"
-user,7,,,,,,,,,7,lowercase,['user']
-java_gateway,3,,,3,,,,,,,lower_case_with_underscores,"['java', 'gateway']"
-lower,1,,,,,,,,,1,lowercase,['lower']
-elem,3,,,,,,,,,3,lowercase,['elem']
-flags,1,,,,,,,,,1,lowercase,['flags']
-class_tag,2,,,,,,,,,2,lower_case_with_underscores,"['class', 'tag']"
-java_collections,2,,,2,,,,,,,lower_case_with_underscores,"['java', 'collections']"
-POINTER,1,,,,,,,,,1,UPPERCASE,"['pointe', 'r']"
-T,6,,,,,,,,,6,B,"['', 't']"
-UNLIMITED_BATCH_SIZE,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['unlimited', 'batch', 'size']"
-izip,3,,,1,,,,,,2,lowercase,['izip']
-shape,28,,,2,,,11,,,15,lowercase,['shape']
-CodeType,3,,,,,,,,,3,CapitalizedWords,"['code', 'type']"
-num_updates,2,,,,,,,,,2,lower_case_with_underscores,"['num', 'updates']"
-ma,1,,,1,,,,,,,lowercase,['ma']
-do_termination_test,3,1,,,,,,,,2,lower_case_with_underscores,"['do', 'termination', 'test']"
-ELLIPSIS,7,,,,,,,,,7,UPPERCASE,"['ellipsi', 's']"
-ganglia,3,,,,,,,,,3,lowercase,['ganglia']
-test_basic_checkpointing,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'basic', 'checkpointing']"
-minSplits,4,,,,,,,,,4,mixedCase,"['min', 'splits']"
-intpart,6,,,,,,,,,6,lowercase,['intpart']
-bin,1,,,,,,,,,1,lowercase,['bin']
-format,3,,,,,,,,,3,lowercase,['format']
-bid,11,,,,,,,,,11,lowercase,['bid']
-countPartition,2,1,,,,,,,,1,mixedCase,"['count', 'partition']"
-_genpartial,2,1,,,,,,,,1,lowercase,['genpartial']
-d,17,,,,,,,,,17,b,['d']
-debug_string,3,,,,,,,,,3,lower_case_with_underscores,"['debug', 'string']"
-signal,22,,,4,,,,,,18,lowercase,['signal']
-collect,20,1,,,,,,,,19,lowercase,['collect']
-distinct_authors,3,,,,,,,,,3,lower_case_with_underscores,"['distinct', 'authors']"
-func_dict,2,,,,,,,,,2,lower_case_with_underscores,"['func', 'dict']"
-tmpfile,6,,,,,,,,,6,lowercase,['tmpfile']
-usersProductsJRDD,2,,,,,,,,,2,mixedCase,"['users', 'products', 'jrd', 'd']"
-test_termination_sigterm,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'termination', 'sigterm']"
-_JavaStackTrace,4,,1,,,,,,,3,CapitalizedWords,"['java', 'stack', 'trace']"
-key_is_batched,2,,,,,,,,,2,lower_case_with_underscores,"['key', 'is', 'batched']"
-themodule,15,,,,,,,,,15,lowercase,['themodule']
-_restore_attr,2,1,,,,,,,,1,lower_case_with_underscores,"['restore', 'attr']"
-numpy_tst_mods,2,,,,,,,,,2,lower_case_with_underscores,"['numpy', 'tst', 'mods']"
-proc,9,,,,,,,,,9,lowercase,['proc']
-prob,2,,,,,,,,,2,lowercase,['prob']
-run,3,1,,,,,,,,2,lowercase,['run']
-ba,39,,,,,,,,,39,lowercase,['ba']
-NoOpSerializer,3,,1,1,,,,,,1,CapitalizedWords,"['no', 'op', 'serializer']"
-POOLSIZE,4,,,,,,,,,4,UPPERCASE,"['poolsiz', 'e']"
-step,13,,,,,,,,,13,lowercase,['step']
-SOMAXCONN,2,,,1,,,,,,1,UPPERCASE,"['somaxcon', 'n']"
-subtract,1,1,,,,,,,,,lowercase,['subtract']
-subtractByKey,2,1,,,,,,,,1,mixedCase,"['subtract', 'by', 'key']"
-idx,1,,,,,,,,,1,lowercase,['idx']
-slave_ips,2,,,,,,,,,2,lower_case_with_underscores,"['slave', 'ips']"
-flat_map_fn,2,,,,,,,,,2,lower_case_with_underscores,"['flat', 'map', 'fn']"
-exc_info,2,,,,,,1,,,1,lower_case_with_underscores,"['exc', 'info']"
-collectPartitions,1,,,,,,,,,1,mixedCase,"['collect', 'partitions']"
-StatCounter,4,,1,1,,,,,,2,CapitalizedWords,"['stat', 'counter']"
-fileinput,1,,,1,,,,,,,lowercase,['fileinput']
-keyfunc,4,,,,,,,,,4,lowercase,['keyfunc']
-setup_spark_cluster,2,1,,,,,,,,1,lower_case_with_underscores,"['setup', 'spark', 'cluster']"
-rows,7,,,,,,,,,7,lowercase,['rows']
-maybe_cherry_pick,3,1,,,,,,,,2,lower_case_with_underscores,"['maybe', 'cherry', 'pick']"
-_jbroadcast,2,,,,,,,,,2,lowercase,['jbroadcast']
-co_consts,3,,,,,,,,,3,lower_case_with_underscores,"['co', 'consts']"
-errno,8,,,2,,,,,,6,lowercase,['errno']
-DictionaryType,1,,,,,,,,,1,CapitalizedWords,"['dictionary', 'type']"
-sock,15,,,,,,,,,15,lowercase,['sock']
-_traceback,2,,,,,,,,,2,lowercase,['traceback']
-test_add_py_file_locally,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'add', 'py', 'file', 'locally']"
-release_sha,2,,,,,,,,,2,lower_case_with_underscores,"['release', 'sha']"
-Timeseries,1,,,,,,,,,1,CapitalizedWords,['timeseries']
-msk,2,,,,,,,,,2,lowercase,['msk']
-leftOuterJoin,1,1,,,,,,,,,mixedCase,"['left', 'outer', 'join']"
-files,6,,,4,,,,,,2,lowercase,['files']
-_serialize_double_vector,7,1,,4,,,,,,2,lower_case_with_underscores,"['serialize', 'double', 'vector']"
-encode,3,,,,,,,,,3,lowercase,['encode']
-link,2,,,,,,,,,2,lowercase,['link']
-delta,8,,,,,,,,,8,lowercase,['delta']
-line,8,,,,,,,,,8,lowercase,['line']
-num_zones,4,,,,,,,,,4,lower_case_with_underscores,"['num', 'zones']"
-dirName,2,,,,,,,,,2,mixedCase,"['dir', 'name']"
-uu,3,,,,,,,,,3,lowercase,['uu']
-EBSBlockDeviceType,2,,,1,,,,,,1,CapitalizedWords,"['ebs', 'block', 'device', 'type']"
-trainSVMModelWithSGD,1,,,,,,,,,1,mixedCase,"['train', 'svm', 'model', 'with', 'sg', 'd']"
-us,9,,,,,,,,,9,lowercase,['us']
-argtypes,1,,,,,,,,,1,lowercase,['argtypes']
-sampleVariance,4,2,,,,,,,,2,mixedCase,"['sample', 'variance']"
-z,4,,,,,,,,,4,b,['z']
-readPointBatch,2,1,,,,,,,,1,mixedCase,"['read', 'point', 'batch']"
-HAVE_ARGUMENT,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES,"['have', 'argument']"
-slave_nodes,38,,,,,,,,,38,lower_case_with_underscores,"['slave', 'nodes']"
-_random,8,,,,,,,,,8,lowercase,['random']
-parser,26,,,,,,,,,26,lowercase,['parser']
-groupByKey,5,1,,,,,,,,4,mixedCase,"['group', 'by', 'key']"
-warning,1,,,,,,,,,1,lowercase,['warning']
-RidgeRegressionWithSGD,1,,1,,,,,,,,CapitalizedWords,"['ridge', 'regression', 'with', 'sg', 'd']"
-trainLinearRegressionModelWithSGD,1,,,,,,,,,1,mixedCase,"['train', 'linear', 'regression', 'model', 'with', 'sg', 'd']"
-_jsc,17,,,,,,,,,17,lowercase,['jsc']
-exp,4,,,2,,,,,,2,lowercase,['exp']
-takeSample,1,1,,,,,,,,,mixedCase,"['take', 'sample']"
-LOG_FILE,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['log', 'file']"
-lang,1,,,,,,,,,1,lowercase,['lang']
-e,17,,,,,,,,,17,b,['e']
-format_exc,2,,,,,,,,,2,lower_case_with_underscores,"['format', 'exc']"
-CartesianDeserializer,5,,1,1,,,,,,3,CapitalizedWords,"['cartesian', 'deserializer']"
-first_spark_frame,5,,,,,,,,,5,lower_case_with_underscores,"['first', 'spark', 'frame']"
-MEMORY_AND_DISK,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['memory', 'and', 'disk']"
-failures,4,,,,,,,,,4,lowercase,['failures']
-SCALA_VERSION,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['scala', 'version']"
-hello,4,1,,,,,,,,3,lowercase,['hello']
-func_closure,4,,,,,,,,,4,lower_case_with_underscores,"['func', 'closure']"
-code,26,,,,,,,,,26,lowercase,['code']
-partial,3,,,1,,,,,,2,lowercase,['partial']
-extract_code_globals,3,1,,,,,,,,2,lower_case_with_underscores,"['extract', 'code', 'globals']"
-centers,6,,,,,,,,,6,lowercase,['centers']
-func_code,2,,,,,,,,,2,lower_case_with_underscores,"['func', 'code']"
-test_transforming_cartesian_result,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'transforming', 'cartesian', 'result']"
-base64,1,,,1,,,,,,,lowercase,['base64']
-send,1,,,,,,,,,1,lowercase,['send']
-mapPartitionsWithSplit,1,1,,,,,,,,,mixedCase,"['map', 'partitions', 'with', 'split']"
-islambda,2,1,,,,,,,,1,lowercase,['islambda']
-is_active,2,1,,,,,,,,1,lower_case_with_underscores,"['is', 'active']"
-max_transmit_data,3,,,,,,,,,3,lower_case_with_underscores,"['max', 'transmit', 'data']"
-setSparkHome,3,1,,,,,,,,2,mixedCase,"['set', 'spark', 'home']"
-getstate,2,,,,,,,,,2,lowercase,['getstate']
-False,58,,,,,,,,,58,CapitalizedWords,['false']
-pointStats,2,,,,,,,,,2,mixedCase,"['point', 'stats']"
-BytesToString,1,,,,,,,,,1,CapitalizedWords,"['bytes', 'to', 'string']"
-_context,6,,,,,,,,,6,lowercase,['context']
-fold,1,1,,,,,,,,,lowercase,['fold']
-append,29,,,,,,,,,29,lowercase,['append']
-index,5,,,,,,,,,5,lowercase,['index']
-pipes,2,,,1,,,,,,1,lowercase,['pipes']
-pipeline_func,2,1,,,,,,,,1,lower_case_with_underscores,"['pipeline', 'func']"
-cell,4,,,,,,,,,4,lowercase,['cell']
-PairDeserializer,4,,1,1,,,,,,2,CapitalizedWords,"['pair', 'deserializer']"
-partitionsToTake,3,,,,,,,,,3,mixedCase,"['partitions', 'to', 'take']"
-merge_hash,10,,,,,,,,,10,lower_case_with_underscores,"['merge', 'hash']"
-body,2,,,,,,,,,2,lowercase,['body']
-tmp_dir,5,,,,,,,,,5,lower_case_with_underscores,"['tmp', 'dir']"
-setUp,3,2,,,,,,,,1,mixedCase,"['set', 'up']"
-Popen,8,,,3,,,,,,5,CapitalizedWords,['popen']
-len,70,,,,,,,,,70,lowercase,['len']
-print_exec,3,1,,,,,,,,2,lower_case_with_underscores,"['print', 'exec']"
-intercept,4,,,,,,,,,4,lowercase,['intercept']
-storagelevel,4,,,4,,,,,,,lowercase,['storagelevel']
-convert,4,,,,,,,,,4,lowercase,['convert']
-saveAsTextFile,3,1,,,,,,,,2,mixedCase,"['save', 'as', 'text', 'file']"
-dtyp,2,,,,,,,,,2,lowercase,['dtyp']
-ctx,39,,,,,,,,,39,lowercase,['ctx']
-host,9,,,,,,,,,9,lowercase,['host']
-deserialized,6,,,,,,,,,6,lowercase,['deserialized']
-rdd,25,,,3,,,,,,22,lowercase,['rdd']
-func_defaults,2,,,,,,,,,2,lower_case_with_underscores,"['func', 'defaults']"
-staticmethod,1,,,,,,,,,1,lowercase,['staticmethod']
-spark_v,3,,,,,,,,,3,lower_case_with_underscores,"['spark', 'v']"
-deserializer,6,,,,,,,,,6,lowercase,['deserializer']
-newPoints,3,,,,,,,,,3,mixedCase,"['new', 'points']"
-LOG_FILE_NAME,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['log', 'file', 'name']"
-range_params,2,,,,,,,,,2,lower_case_with_underscores,"['range', 'params']"
-PyObject_HEAD,4,,,,,,,,,4,Capitalized_Words_With_Underscores,"['pyobject', 'head']"
-app,3,,,,,,,,,3,lowercase,['app']
-getAll,3,1,,,,,,,,2,mixedCase,"['get', 'all']"
-usersProducts,2,,,,,,,,,2,mixedCase,"['users', 'products']"
-ItemGetterType,2,,1,,,,,,,1,CapitalizedWords,"['item', 'getter', 'type']"
-names,2,,,,,,,,,2,lowercase,['names']
-opname,3,,,,,,,,,3,lowercase,['opname']
-gateway,7,,,,,,,,,7,lowercase,['gateway']
-usb,4,,,,,,,,,4,lowercase,['usb']
-zip,2,1,,,,,,,,1,lowercase,['zip']
-mllib,4,,,4,,,,,,,lowercase,['mllib']
-next,2,,,,,,,,,2,lowercase,['next']
-chr,10,,,,,,,,,10,lowercase,['chr']
-co_argcount,1,,,,,,,,,1,lower_case_with_underscores,"['co', 'argcount']"
-name_,3,,,,,,,,,3,lowercase,['name']
-_change_cell_value,2,1,,,,,,,,1,lower_case_with_underscores,"['change', 'cell', 'value']"
-sparkHome,4,,,,,,,,,4,mixedCase,"['spark', 'home']"
-_conf,12,,,,,,,,,12,lowercase,['conf']
-transient,4,,,,,,,,,4,lowercase,['transient']
-num_closures,2,,,,,,,,,2,lower_case_with_underscores,"['num', 'closures']"
-is_cached,6,,,,,,,,,6,lower_case_with_underscores,"['is', 'cached']"
-chdir,14,,,,,,,,,14,lowercase,['chdir']
-f,29,1,,,,,,,,28,b,['f']
-raw_input,7,,,,,,,,,7,lower_case_with_underscores,"['raw', 'input']"
-MARK,5,,,,,,,,,5,UPPERCASE,"['mar', 'k']"
-get_url,4,1,,,,,,,,3,lower_case_with_underscores,"['get', 'url']"
-ALS,1,,1,,,,,,,,UPPERCASE,"['al', 's']"
-LazyImporter,1,,,,,,,,,1,CapitalizedWords,"['lazy', 'importer']"
-links,3,,,,,,,,,3,lowercase,['links']
-KeyError,3,,,,,,,,,3,CapitalizedWords,"['key', 'error']"
-deepcopy,2,,,,,,,,,2,lowercase,['deepcopy']
-parseVector,2,1,,,,,,,,1,mixedCase,"['parse', 'vector']"
-shuffled,2,,,,,,,,,2,lowercase,['shuffled']
-toobj,1,,,,,,1,,,,lowercase,['toobj']
-flatMapValues,2,1,,,,,,,,1,mixedCase,"['flat', 'map', 'values']"
-addInPlace,3,2,,,,,,,,1,mixedCase,"['add', 'in', 'place']"
-_checkpointFile,2,1,,,,,,,,1,mixedCase,"['checkpoint', 'file']"
-blocks,4,,,,,,,,,4,lowercase,['blocks']
-trainNaiveBayes,1,,,,,,,,,1,mixedCase,"['train', 'naive', 'bayes']"
-xrangeobj,5,,,,,,,,,5,lowercase,['xrangeobj']
-inst,25,,,,,,,,,25,lowercase,['inst']
-rmtree,4,,,,,,,,,4,lowercase,['rmtree']
-_exit,3,,,,,,,,,3,lowercase,['exit']
-bind,1,,,,,,,,,1,lowercase,['bind']
-lines,8,,,,,,,,,8,lowercase,['lines']
-_keep_alive,2,,,,,,,,,2,lower_case_with_underscores,"['keep', 'alive']"
-retval,7,,,,,,,,,7,lowercase,['retval']
-testmod,8,,,,,,,,,8,lowercase,['testmod']
-_build_xrange,2,1,,,,,,,,1,lower_case_with_underscores,"['build', 'xrange']"
-tempfile,8,,,6,,,,,,2,lowercase,['tempfile']
-num_partitions,3,,,,,,,,,3,lower_case_with_underscores,"['num', 'partitions']"
-tseries,6,,,2,,,,,,4,lowercase,['tseries']
-local_dir,5,,,,,,,,,5,lower_case_with_underscores,"['local', 'dir']"
-tst,2,,,,,,,,,2,lowercase,['tst']
-inject_timeseries,2,1,,,,,,,,1,lower_case_with_underscores,"['inject', 'timeseries']"
-EXT4,1,,,,,,,,,1,UPPERCASE,['ext4']
-EXT2,1,,,,,,,,,1,UPPERCASE,['ext2']
-EXT1,1,,,,,,,,,1,UPPERCASE,['ext1']
-_seed,3,,,,,,,,,3,lowercase,['seed']
-partitionBy,4,1,,,,,,,,3,mixedCase,"['partition', 'by']"
-Integral,1,,,,,,,,,1,CapitalizedWords,['integral']
-merge,5,2,,,,,,,,3,lowercase,['merge']
-_accumulatorRegistry,10,,,4,,,,,,6,mixedCase,"['accumulator', 'registry']"
-mode,5,,,,,,,,,5,lowercase,['mode']
-oldCount,3,,,,,,,,,3,mixedCase,"['old', 'count']"
-Pickler,6,,,,,,,,,6,CapitalizedWords,['pickler']
-should_exit,7,1,,,,,,,,6,lower_case_with_underscores,"['should', 'exit']"
-cStringIO,1,,,1,,,,,,,mixedCase,"['c', 'string', 'i', 'o']"
-countByKey,1,1,,,,,,,,,mixedCase,"['count', 'by', 'key']"
-generateGraph,2,1,,,,,,,,1,mixedCase,"['generate', 'graph']"
-ec2,3,,,2,,,,,,1,lowercase,['ec2']
-globs,37,,,,,,7,,,30,lowercase,['globs']
-metavar,4,,,,,,4,,,,lowercase,['metavar']
-security_groups,3,,,,,,3,,,,lower_case_with_underscores,"['security', 'groups']"
-out,3,,,,,,,,,3,lowercase,['out']
-matrix,14,,,1,,,,,,13,lowercase,['matrix']
-res,8,,,,,,,,,8,lowercase,['res']
-req,2,,,,,,,,,2,lowercase,['req']
-ret,11,,,,,,,,,11,lowercase,['ret']
-oparg,3,,,,,,,,,3,lowercase,['oparg']
-disks_by_instance,3,,,,,,,,,3,lower_case_with_underscores,"['disks', 'by', 'instance']"
-math,6,,,4,,,,,,2,lowercase,['math']
-java_import,6,,,1,,,,,,5,lower_case_with_underscores,"['java', 'import']"
-load_stream,11,7,,,,,,,,4,lower_case_with_underscores,"['load', 'stream']"
-PUSH_REMOTE_NAME,8,,,,,,,,,8,UPPER_CASE_WITH_UNDERSCORES,"['push', 'remote', 'name']"
-itemgetter_obj,2,,,,,,,,,2,lower_case_with_underscores,"['itemgetter', 'obj']"
-computeContribs,2,1,,,,,,,,1,mixedCase,"['compute', 'contribs']"
-parse_args,3,1,,,,,,,,2,lower_case_with_underscores,"['parse', 'args']"
-g,8,,,,,,,,,8,b,['g']
-assertNotEqual,1,,,,,,,,,1,mixedCase,"['assert', 'not', 'equal']"
-get_partition,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'partition']"
-heappush,2,,,1,,,,,,1,lowercase,['heappush']
-co_nlocals,1,,,,,,,,,1,lower_case_with_underscores,"['co', 'nlocals']"
-ndim,6,,,,,,,,,6,lowercase,['ndim']
-_ensure_initialized,4,1,,,,,,,,3,lower_case_with_underscores,"['ensure', 'initialized']"
-returncode,2,,,,,,,,,2,lowercase,['returncode']
-cell_changer_code,2,,,,,,,,,2,lower_case_with_underscores,"['cell', 'changer', 'code']"
-statcounter,1,,,1,,,,,,,lowercase,['statcounter']
-val_ser,14,,,,,,,,,14,lower_case_with_underscores,"['val', 'ser']"
-val_stream,2,,,,,,,,,2,lower_case_with_underscores,"['val', 'stream']"
-seq,8,,,,,,,,,8,lowercase,['seq']
-start,12,,,,,,,,,12,lowercase,['start']
-mkdir,1,,,,,,,,,1,lowercase,['mkdir']
-system,1,,,,,,,,,1,lowercase,['system']
-offset,7,,,,,,5,,,2,lowercase,['offset']
-_batched,2,1,,,,,,,,1,lowercase,['batched']
-Exception,22,,,,,,,,,22,CapitalizedWords,['exception']
-shell,3,,,,,,3,,,,lowercase,['shell']
-tuple,1,,,,,,,,,1,lowercase,['tuple']
-update,9,1,,,,,,,,8,lowercase,['update']
-keyBy,1,1,,,,,,,,,mixedCase,"['key', 'by']"
-test_cartesian_on_textfile,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'cartesian', 'on', 'textfile']"
-R,5,,,,,,,,,5,B,"['', 'r']"
-foldByKey,1,1,,,,,,,,,mixedCase,"['fold', 'by', 'key']"
-contribs,2,,,,,,,,,2,lowercase,['contribs']
-check_output,4,,,,,,,,,4,lower_case_with_underscores,"['check', 'output']"
-_do_python_join,4,1,,,,,,,,3,lower_case_with_underscores,"['do', 'python', 'join']"
-save_ufunc,2,1,,,,,,,,1,lower_case_with_underscores,"['save', 'ufunc']"
-_get_unmangled_rdd,9,1,,4,,,,,,4,lower_case_with_underscores,"['get', 'unmangled', 'rdd']"
-clean_work_files,3,1,,,,,,,,2,lower_case_with_underscores,"['clean', 'work', 'files']"
-_fields_,1,,,,,,,,,1,lowercase,['fields']
-close,17,,,,,,,,,17,lowercase,['close']
-request_spot_instances,1,,,,,,,,,1,lower_case_with_underscores,"['request', 'spot', 'instances']"
-q,5,,,,,,,,,5,b,['q']
-min,3,,,,,,,,,3,lowercase,['min']
-instance,6,,,,,,,,,6,lowercase,['instance']
-cell_contents,1,,,,,,,,,1,lower_case_with_underscores,"['cell', 'contents']"
-java_port,2,,,,,,,,,2,lower_case_with_underscores,"['java', 'port']"
-setCheckpointDir,3,1,,,,,,,,2,mixedCase,"['set', 'checkpoint', 'dir']"
-MEMORY_ONLY_2,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['memory', 'only', '2']"
-MEMORY_ONLY_SER,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['memory', 'only', 'ser']"
-rangePartitionFunc,2,1,,,,,,,,1,mixedCase,"['range', 'partition', 'func']"
-device,4,,,,,,,,,4,lowercase,['device']
-placement,3,,,,,,3,,,,lowercase,['placement']
-url,12,,,,,,,,,12,lowercase,['url']
-Lock,2,,,1,,,,,,1,CapitalizedWords,['lock']
-pipe,4,1,,,,,,,,3,lowercase,['pipe']
-test_add_file_locally,1,1,,,,,,,,,lower_case_with_underscores,"['test', 'add', 'file', 'locally']"
-preexec_func,2,1,,,,,,,,1,lower_case_with_underscores,"['preexec', 'func']"
-repartition,2,1,,,,,,,,1,lowercase,['repartition']
-randrange,2,,,,,,,,,2,lowercase,['randrange']
-text,4,,,,,,,,,4,lowercase,['text']
-terminate,3,,,,,,,,,3,lowercase,['terminate']
-target_ref,7,,,,,,,,,7,lower_case_with_underscores,"['target', 'ref']"
-java_broadcast,2,,,,,,,,,2,lower_case_with_underscores,"['java', 'broadcast']"
-setter,1,,,,,,,,,1,lowercase,['setter']
-jrdd_deserializer,2,,,,,,,,,2,lower_case_with_underscores,"['jrdd', 'deserializer']"
-cache,8,1,,,,,,,,7,lowercase,['cache']
-_reserialize,4,1,,,,,,,,3,lowercase,['reserialize']
-_rand_initialized,4,,,,,,,,,4,lower_case_with_underscores,"['rand', 'initialized']"
-createTempDir,1,,,,,,,,,1,mixedCase,"['create', 'temp', 'dir']"
-namedtuple,1,,,1,,,,,,,lowercase,['namedtuple']
-handle,1,1,,,,,,,,,lowercase,['handle']
-pyspark,61,,,61,,,,,,,lowercase,['pyspark']
-MarshalSerializer,1,,1,,,,,,,,CapitalizedWords,"['marshal', 'serializer']"
-ones,2,,,1,,,,,,1,lowercase,['ones']
-iteritems,6,,,,,,,,,6,lowercase,['iteritems']
-_is_pipelinable,2,1,,,,,,,,1,lower_case_with_underscores,"['is', 'pipelinable']"
-bytesInJava,2,,,,,,,,,2,mixedCase,"['bytes', 'in', 'java']"
-shp,2,,,,,,,,,2,lowercase,['shp']
-get_existing_cluster,9,1,,,,,,,,8,lower_case_with_underscores,"['get', 'existing', 'cluster']"
-master_instance_type,1,,,,,,,,,1,lower_case_with_underscores,"['master', 'instance', 'type']"
-stuff,8,,,,,,,,,8,lowercase,['stuff']
-getStorageLevel,2,1,,,,,,,,1,mixedCase,"['get', 'storage', 'level']"
-exists,3,,,,,,,,,3,lowercase,['exists']
-ssh_command,6,1,,,,,,,,5,lower_case_with_underscores,"['ssh', 'command']"
-argmax,1,,,,,,,,,1,lowercase,['argmax']
-existing_slaves,2,,,,,,,,,2,lower_case_with_underscores,"['existing', 'slaves']"
-frame,1,,,,,,,,,1,lowercase,['frame']
-min_size_to_save,1,,,,,,,,,1,lower_case_with_underscores,"['min', 'size', 'to', 'save']"
-module,10,,,,,,,,,10,lowercase,['module']
-DISK_ONLY,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['disk', 'only']"
-stats,6,1,,,,,,,,5,lowercase,['stats']
-globals_ref,3,,,,,,,,,3,lower_case_with_underscores,"['globals', 'ref']"
-state,20,,,,,,,,,20,lowercase,['state']
-st_size,1,,,,,,,,,1,lower_case_with_underscores,"['st', 'size']"
-closed,2,,,,,,,,,2,lowercase,['closed']
-MEMORY_AND_DISK_SER,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['memory', 'and', 'disk', 'ser']"
-email,3,,,,,,,,,3,lowercase,['email']
-f_globals,6,,,,,,,,,6,lower_case_with_underscores,"['f', 'globals']"
-cloudLog,2,,,,,,,,,2,mixedCase,"['cloud', 'log']"
-initialWeights,10,,,,,,,,,10,mixedCase,"['initial', 'weights']"
-buckets,3,,,,,,,,,3,lowercase,['buckets']
-delete_groups,1,,,,,,,,,1,lower_case_with_underscores,"['delete', 'groups']"
-key,28,,,,,,3,,,25,lowercase,['key']
-topIterator,3,1,,,,,,,,2,mixedCase,"['top', 'iterator']"
-kwds,4,,,,,,,,,4,lowercase,['kwds']
-target_branch_name,6,,,,,,,,,6,lower_case_with_underscores,"['target', 'branch', 'name']"
-image_id,1,,,,,,1,,,,lower_case_with_underscores,"['image', 'id']"
-itertools,4,,,3,,,,,,1,lowercase,['itertools']
-LassoModel,2,,1,,,,,,,1,CapitalizedWords,"['lasso', 'model']"
-ws,4,,,,,,,,,4,lowercase,['ws']
-outputSerializer,3,,,,,,,,,3,mixedCase,"['output', 'serializer']"
-read_long,3,1,,1,,,,,,1,lower_case_with_underscores,"['read', 'long']"
-strftime,1,,,,,,,,,1,lowercase,['strftime']
-pystringIO,4,,,,,,,1,,3,mixedCase,"['pystring', 'i', 'o']"
-extended_arg,4,,,,,,,,,4,lower_case_with_underscores,"['extended', 'arg']"
-co,3,,,,,,,,,3,lowercase,['co']
-PythonMLLibAPI,9,,,,,,,,,9,CapitalizedWords,"['python', 'ml', 'lib', 'ap', 'i']"
-listitems,3,,,,,,,,,3,lowercase,['listitems']
-standard_b64encode,1,,,1,,,,,,,lower_case_with_underscores,"['standard', 'b64encode']"
-walk,1,,,,,,,,,1,lowercase,['walk']
-END_OF_DATA_SECTION,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['end', 'of', 'data', 'section']"
-cp,2,,,,,,,,,2,lowercase,['cp']
-heappushpop,2,,,1,,,,,,1,lowercase,['heappushpop']
-PythonRDD,3,,,,,,,,,3,CapitalizedWords,"['python', 'rd', 'd']"
-artifact_url,5,,,,,,,,,5,lower_case_with_underscores,"['artifact', 'url']"
-ImportError,7,,,,,,,,,7,CapitalizedWords,"['import', 'error']"
-json,2,,,1,,,,,,1,lowercase,['json']
-write_with_length,3,1,,1,,,,,,1,lower_case_with_underscores,"['write', 'with', 'length']"
-new_recurse,2,,,,,,,,,2,lower_case_with_underscores,"['new', 'recurse']"
-save_partial,2,1,,,,,,,,1,lower_case_with_underscores,"['save', 'partial']"
-time_series,5,,,,,,,,,5,lower_case_with_underscores,"['time', 'series']"
-OBJ,1,,,,,,,,,1,UPPERCASE,"['ob', 'j']"
-python_rdd,2,,,,,,,,,2,lower_case_with_underscores,"['python', 'rdd']"
-handle_sighup,2,1,,,,,,,,1,lower_case_with_underscores,"['handle', 'sighup']"
-public_dns_name,9,,,,,,,,,9,lower_case_with_underscores,"['public', 'dns', 'name']"
-TupleType,1,,,,,,,,,1,CapitalizedWords,"['tuple', 'type']"
-commit_authors,3,,,,,,,,,3,lower_case_with_underscores,"['commit', 'authors']"
-reverse,5,,,,,,5,,,,lowercase,['reverse']
-splits,1,,,,,,,,,1,lowercase,['splits']
-_use_numpy,6,,,,,,,,,6,lower_case_with_underscores,"['use', 'numpy']"
-unpersist,2,1,,,,,,,,1,lowercase,['unpersist']
-value,56,2,,,,,,,,54,lowercase,['value']
-accumulator,2,1,,,,,,,,1,lowercase,['accumulator']
-ar,2,,,,,,,,,2,lowercase,['ar']
-MAVEN_CMD,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES,"['maven', 'cmd']"
-LinearRegressionWithSGD,1,,1,,,,,,,,CapitalizedWords,"['linear', 'regression', 'with', 'sg', 'd']"
-xrange,6,,,,,,,,,6,lowercase,['xrange']
-original_head,3,,,,,,,,,3,lower_case_with_underscores,"['original', 'head']"
-active_instance_ids,5,,,,,,,,,5,lower_case_with_underscores,"['active', 'instance', 'ids']"
-toord,1,,,,,,1,,,,lowercase,['toord']
-vs,4,,,,,,,,,4,lowercase,['vs']
-get_spark_shark_version,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'spark', 'shark', 'version']"
-use_existing_master,1,,,,,,,,,1,lower_case_with_underscores,"['use', 'existing', 'master']"
-exit_code,6,,,,,,,,,6,lower_case_with_underscores,"['exit', 'code']"
-sqrt,5,,,1,,,,,,4,lowercase,['sqrt']
-parts,10,,,,,,,,,10,lowercase,['parts']
-PySparkTestCase,7,,1,,,,,,,6,CapitalizedWords,"['py', 'spark', 'test', 'case']"
-hasdups,1,,,,,,1,,,,lowercase,['hasdups']
-listdir,1,,,,,,,,,1,lowercase,['listdir']
-slave,3,,,,,,,,,3,lowercase,['slave']
-version_info,2,,,,,,,,,2,lower_case_with_underscores,"['version', 'info']"
-TestCheckpoint,1,,1,,,,,,,,CapitalizedWords,"['test', 'checkpoint']"
-boot_time,2,,,,,,,,,2,lower_case_with_underscores,"['boot', 'time']"
-_is_running_on_worker,3,,,,,,,,,3,lower_case_with_underscores,"['is', 'running', 'on', 'worker']"
-get_or_make_group,3,1,,,,,,,,2,lower_case_with_underscores,"['get', 'or', 'make', 'group']"
-check_call,4,,,,,,,,,4,lower_case_with_underscores,"['check', 'call']"
-setAll,1,1,,,,,,,,,mixedCase,"['set', 'all']"
-i,80,,,,,,,,,80,b,['i']
-printMemoization,1,,,,,,,,,1,mixedCase,"['print', 'memoization']"
-command,17,,,,,,,,,17,lowercase,['command']
-tst_mod_name,3,,,,,,,,,3,lower_case_with_underscores,"['tst', 'mod', 'name']"
-_generateImage,2,1,,,,,,,,1,mixedCase,"['generate', 'image']"
-whichmodule,2,,,,,,,,,2,lowercase,['whichmodule']
-isinstance,19,,,,,,,,,19,lowercase,['isinstance']
-_genTimeSeries,2,1,,,,,,,,1,mixedCase,"['gen', 'time', 'series']"
-_getobject,2,1,,,,,,,,1,lowercase,['getobject']
-add,18,2,,3,,,,,,13,lowercase,['add']
-PYTHON_EXCEPTION_THROWN,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['python', 'exception', 'thrown']"
-usage,1,,,,,,1,,,,lowercase,['usage']
-IOError,2,,,,,,,,,2,CapitalizedWords,"['io', 'error']"
-_spark_stack_depth,7,,,,,,,,2,5,lower_case_with_underscores,"['spark', 'stack', 'depth']"
-int32,3,,,1,,,,,,2,lowercase,['int32']
-flatMap,9,1,,,,,,,,8,mixedCase,"['flat', 'map']"
-maxIterations,2,,,,,,,,,2,mixedCase,"['max', 'iterations']"
-ip_protocol,2,,,,,,1,,,1,lower_case_with_underscores,"['ip', 'protocol']"
-Thread,6,,,2,,,,,,4,CapitalizedWords,['thread']
-dest,5,,,,,,2,,,3,lowercase,['dest']
-deploy_ssh_key,2,,,,,,,,,2,lower_case_with_underscores,"['deploy', 'ssh', 'key']"
-BUILD,2,,,,,,,,,2,UPPERCASE,"['buil', 'd']"
-insert,1,,,,,,,,,1,lowercase,['insert']
-MEMORY_ONLY_SER_2,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES,"['memory', 'only', 'ser', '2']"
-maxSelected,5,,,,,,,,,5,mixedCase,"['max', 'selected']"
-classTag,1,,,,,,,,,1,mixedCase,"['class', 'tag']"
-MapConverter,2,,,1,,,,,,1,CapitalizedWords,"['map', 'converter']"
-get_all_spot_instance_requests,1,,,,,,,,,1,lower_case_with_underscores,"['get', 'all', 'spot', 'instance', 'requests']"
-SIG_DFL,3,,,1,,,,,,2,UPPER_CASE_WITH_UNDERSCORES,"['sig', 'dfl']"
-python_build,2,,,,,,,,,2,lower_case_with_underscores,"['python', 'build']"
-KMeans,1,,1,,,,,,,,CapitalizedWords,"['k', 'means']"
-flush,1,,,,,,,,,1,lowercase,['flush']
-inject_numpy,2,1,,,,,,,,1,lower_case_with_underscores,"['inject', 'numpy']"
-_gateway_client,4,,,,,,,,,4,lower_case_with_underscores,"['gateway', 'client']"
-transport,1,,,1,,,,,,,lowercase,['transport']
-SparkFiles,13,,1,4,,,,,,8,CapitalizedWords,"['spark', 'files']"
-server_address,1,,,,,,,,,1,lower_case_with_underscores,"['server', 'address']"
-user_login,2,,,,,,,,,2,lower_case_with_underscores,"['user', 'login']"
-slave_res,3,,,,,,,,,3,lower_case_with_underscores,"['slave', 'res']"
-outvars,5,,,,,,,,,5,lowercase,['outvars']
-save_unsupported,5,1,,,,,,,,4,lower_case_with_underscores,"['save', 'unsupported']"
-EOFError,6,,,,,,,,,6,CapitalizedWords,"['eof', 'error']"
-GatewayClient,2,,,1,,,,,,1,CapitalizedWords,"['gateway', 'client']"
-current_partitions,2,,,,,,,,,2,lower_case_with_underscores,"['current', 'partitions']"
-EINTR,5,,,1,,,,,,4,UPPERCASE,"['eint', 'r']"
-dct,4,,,,,,,,,4,lowercase,['dct']
-socket,12,,,5,,,,,,7,lowercase,['socket']
-U,6,,,,,,,,,6,B,"['', 'u']"
-rddSize,2,,,,,,,,,2,mixedCase,"['rdd', 'size']"
-pick_hash,2,,,,,,,,,2,lower_case_with_underscores,"['pick', 'hash']"
-wait_for_instances,3,1,,,,,,,,2,lower_case_with_underscores,"['wait', 'for', 'instances']"
-forced_names,2,,,,,,,,,2,lower_case_with_underscores,"['forced', 'names']"
-parallelize,13,1,,,,,,,,12,lowercase,['parallelize']
-download_path,3,,,,,,,,,3,lower_case_with_underscores,"['download', 'path']"
-_jrdd_deserializer,18,,,,,,,,,18,lower_case_with_underscores,"['jrdd', 'deserializer']"
-new_edges,2,,,,,,,,,2,lower_case_with_underscores,"['new', 'edges']"
-val,4,,,,,,,,,4,lowercase,['val']
-artifacts,3,,,,,,,,,3,lowercase,['artifacts']
-var,4,,,,,,,,,4,lowercase,['var']
-bestIndex,3,,,,,,,,,3,mixedCase,"['best', 'index']"
-function,1,,,,,,,,,1,lowercase,['function']
-ifilter,2,,,1,,,,,,1,lowercase,['ifilter']
-extract_stack,1,,,,,,,,,1,lower_case_with_underscores,"['extract', 'stack']"
-pr_num,20,,,,,,,,,20,lower_case_with_underscores,"['pr', 'num']"
-getenv,3,,,,,,,,,3,lowercase,['getenv']
-scikits,2,,,2,,,,,,,lowercase,['scikits']
-Serializer,6,,1,1,,,,,,4,CapitalizedWords,['serializer']
-count,23,2,,,,,1,,,20,lowercase,['count']
-pi,4,,,,,,,,,4,lowercase,['pi']
-newval,2,,,,,,,,,2,lowercase,['newval']
-j,3,,,,,,,,,3,b,['j']
-write_long,5,1,,1,,,,,,3,lower_case_with_underscores,"['write', 'long']"
-UserClass,9,,1,5,,,,,,3,CapitalizedWords,"['user', 'class']"
-_get_module_builtins,2,1,,,,,,,,1,lower_case_with_underscores,"['get', 'module', 'builtins']"
-proxy_opt,3,,,,,,,,,3,lower_case_with_underscores,"['proxy', 'opt']"
-TestRDDFunctions,1,,1,,,,,,,,CapitalizedWords,"['test', 'rdd', 'functions']"
-setup_standalone_cluster,1,1,,,,,,,,,lower_case_with_underscores,"['setup', 'standalone', 'cluster']"
-wait_secs,3,,,,,,,,,3,lower_case_with_underscores,"['wait', 'secs']"
-local_file,2,,,,,,,,,2,lower_case_with_underscores,"['local', 'file']"
-int,19,,,,,,,,,19,lowercase,['int']
-reservations,4,,,,,,,,,4,lowercase,['reservations']
-pid,6,,,,,,,,,6,lowercase,['pid']
-ITERATIONS,3,,,,,,,,,3,UPPERCASE,"['iteration', 's']"
-tst_mod,3,,,,,,,,,3,lower_case_with_underscores,"['tst', 'mod']"
-getPoissonSample,2,1,,,,,,,,1,mixedCase,"['get', 'poisson', 'sample']"
-spark_files_dir,4,,,,,,,,,4,lower_case_with_underscores,"['spark', 'files', 'dir']"
-boot,2,,,,,,,,,2,lowercase,['boot']
-original_dir,6,,,,,,,,,6,lower_case_with_underscores,"['original', 'dir']"
-other,74,,,,,,,,,74,lowercase,['other']
-bool,3,,,,,,,,,3,lowercase,['bool']
-is_checkpointed,4,,,,,,,,,4,lower_case_with_underscores,"['is', 'checkpointed']"
-branch,3,,,,,,,,,3,lowercase,['branch']
-memoize,7,,,,,,,,,7,lowercase,['memoize']
-Structure,1,,,,,,,,,1,CapitalizedWords,['structure']
-stat,1,,,,,,,,,1,lowercase,['stat']
-getCheckpointFile,7,1,,,,,,,,6,mixedCase,"['get', 'checkpoint', 'file']"
-rightOuterJoin,1,1,,,,,,,,,mixedCase,"['right', 'outer', 'join']"
-c_void_p,2,,,,,,,,,2,lower_case_with_underscores,"['c', 'void', 'p']"
-django_settings,3,,,,,,,,,3,lower_case_with_underscores,"['django', 'settings']"
-readline,4,,,,,,,,,4,lowercase,['readline']
-ndarray,18,,,2,,,,,,16,lowercase,['ndarray']
-merge_message_flags,6,,,,,,,,,6,lower_case_with_underscores,"['merge', 'message', 'flags']"
-_root_directory,3,,,,,,,,,3,lower_case_with_underscores,"['root', 'directory']"
-ranks,4,,,,,,,,,4,lowercase,['ranks']
-key_stream,2,,,,,,,,,2,lower_case_with_underscores,"['key', 'stream']"
-rule,5,,,,,,,,,5,lowercase,['rule']
-klass,8,,,,,,,,,8,lowercase,['klass']
+name,all,function_def,class_def,import_module_or_alias,exception,param,keyword,alias,object_decl,object,naming_style
+sendRef,4,,,,,,,,,4,mixedCase
+trainLogisticRegressionModelWithSGD,1,,,,,,,,,1,mixedCase
+parseNeighbors,2,1,,,,,,,,1,mixedCase
+_collect_iterator_through_file,3,1,,,,,,,,2,lower_case_with_underscores
+slave_group,15,,,,,,,,,15,lower_case_with_underscores
+UsageError,3,,1,,,,,,,2,CapitalizedWords
+TypeType,3,,,,,,,,,3,CapitalizedWords
+ebs_vol_size,2,,,,,,,,,2,lower_case_with_underscores
+sleep,10,,,,,,,,,10,lowercase
+template_vars,3,,,,,,,,,3,lower_case_with_underscores
+findall,1,,,,,,,,,1,lowercase
+const,4,,,,,,,,,4,lowercase
+_extract_concise_traceback,2,1,,,,,,,,1,lower_case_with_underscores
+django_settings_load,2,1,,,,,,,,1,lower_case_with_underscores
+imap,3,,,1,,,,,,2,lowercase
+swap,1,,,,,,,,,1,lowercase
+dest_dir,3,,,,,,,,,3,lower_case_with_underscores
+accum,6,,,,,,,,,6,lowercase
+SocketServer,3,,,1,,,,,,2,CapitalizedWords
+save_function_tuple,3,1,,,,,,,,2,lower_case_with_underscores
+LogisticRegressionWithSGD,1,,1,,,,,,,,CapitalizedWords
+replication,6,,,,,,,,,6,lowercase
+tostring,4,,,,,,,,,4,lowercase
+num,13,,,,,,,,,13,lowercase
+ArrayList,1,,,,,,,,,1,CapitalizedWords
+cmd,13,,,,,,,,,13,lowercase
+shlex,2,,,1,,,,,,1,lowercase
+_java_model,4,,,,,,,,,4,lower_case_with_underscores
+_batch_appends,1,,,,,,,,,1,lower_case_with_underscores
+DELETE_GLOBAL,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+boto,4,,,3,,,,,,1,lowercase
+filtered_data,3,,,,,,,,,3,lower_case_with_underscores
+continue_maybe,5,1,,,,,,,,4,lower_case_with_underscores
+reduceByKeyLocally,1,1,,,,,,,,,mixedCase
+new,4,,,1,,,,,,3,lowercase
+java_model,2,,,,,,,,,2,lower_case_with_underscores
+cart,2,,,,,,,,,2,lowercase
+trainALSModel,1,,,,,,,,,1,mixedCase
+active,2,,,,,,,,,2,lowercase
+path,65,,,2,,,,,,63,lowercase
+environment,7,,,,,,,,,7,lowercase
+items,14,,,,,,,,,14,lowercase
+k,59,,,,,,,,,59,b
+JavaGateway,2,,,1,,,,,,1,CapitalizedWords
+spark_local_dirs,3,,,,,,,,,3,lower_case_with_underscores
+slices,9,,,,,,,,,9,lowercase
+_test,16,8,,,,,,,,8,lowercase
+asJavaRDD,1,,,,,,,,,1,mixedCase
+replace,5,,,,,,,,,5,lowercase
+RELEASE_VERSION,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES
+counts,5,,,,,,,,,5,lowercase
+total,8,,,,,,,,,8,lowercase
+getrecursionlimit,2,,,,,,,,,2,lowercase
+GPG_CMD,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES
+m1,8,,,,,,,,,8,lowercase
+m2,12,,,,,,,,,12,lowercase
+type,32,,,,,,5,,,27,lowercase
+tell,1,,,,,,,,,1,lowercase
+heappop,1,,,1,,,,,,,lowercase
+cPickle,3,,,1,,,,,,2,mixedCase
+isatty,2,,,,,,,,,2,lowercase
+mergeCombiners,4,1,,,,,,,,3,mixedCase
+HTTPError,1,,,,,,,,,1,CapitalizedWords
+unpack,3,,,,,,,,,3,lowercase
+sampleStdev,3,2,,,,,,,,1,mixedCase
+launch_group,1,,,,,,1,,,,lower_case_with_underscores
+word,2,,,,,,,,,2,lowercase
+tempDist,6,,,,,,,,,6,mixedCase
+mu,17,,,,,,,,,17,lowercase
+ms,9,,,,,,,,,9,lowercase
+co_names,3,,,,,,,,,3,lower_case_with_underscores
+conf,5,,,2,,,,,,3,lowercase
+SVMModel,2,,1,,,,,,,1,CapitalizedWords
+CloudPickler,7,,1,2,,,,,,4,CapitalizedWords
+cluster_url,2,,,,,,,,,2,lower_case_with_underscores
+OSError,1,,,,,,,,,1,CapitalizedWords
+first_jrdd_deserializer,2,,,,,,,,,2,lower_case_with_underscores
+length,19,,,,,,,,,19,lowercase
+id,9,,,,,,,,,9,lowercase
+TestCase,2,,,,,,,,,2,CapitalizedWords
+env,5,,,,,,1,,,4,lowercase
+types,19,,,1,,,,,,18,lowercase
+dir_name,3,,,,,,,,,3,lower_case_with_underscores
+attempt,4,,,,,,,,,4,lowercase
+classmethod,13,,,,,,,,,13,lowercase
+pipe_objs,2,1,,,,,,,,1,lower_case_with_underscores
+launch_cluster,2,1,,,,,,,,1,lower_case_with_underscores
+closestPoint,2,1,,,,,,,,1,mixedCase
+NotImplementedError,8,,,,,,,,,8,CapitalizedWords
+order,2,,,,,,2,,,,lowercase
+itemgetter,2,,,,,,,,,2,lowercase
+functools,1,,,1,,,,,,,lowercase
+assertTrue,5,,,,,,,,,5,mixedCase
+JavaSparkContext,1,,,,,,,,,1,CapitalizedWords
+run_cmd,34,2,,,,,,,,32,lower_case_with_underscores
+partitionFunc,5,,,,,,1,,,4,mixedCase
+persist,2,1,,,,,,,,1,lowercase
+numSlices,5,,,,,,,,,5,mixedCase
+cls,24,,,,,,,,,24,lowercase
+_deserialized,4,,,,,,,,,4,lowercase
+init_time,2,,,,,,,,,2,lower_case_with_underscores
+ssh_write,2,1,,,,,,,,1,lower_case_with_underscores
+array_equal,1,,,1,,,,,,,lower_case_with_underscores
+regParam,6,,,,,,,,,6,mixedCase
+DISK_ONLY_2,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES
+base_recurse,3,,,,,,,,,3,lower_case_with_underscores
+_unbatched_serializer,6,,,,,,,,,6,lower_case_with_underscores
+takeUpToNum,2,1,,,,,,,,1,mixedCase
+_2,1,,,,,,,,,1,ugly
+_1,1,,,,,,,,,1,ugly
+dumps,13,5,,,,,,,,8,lowercase
+debug,1,,,,,,,,,1,lowercase
+mean,9,2,,,,,1,,,6,lowercase
+train,8,8,,,,,,,,,lowercase
+REDUCE,5,,,,,,,,,5,UPPERCASE
+_batch_setitems,1,,,,,,,,,1,lower_case_with_underscores
+jbroadcast,3,,,,,,,,,3,lowercase
+from_iterable,2,,,,,,,,,2,lower_case_with_underscores
+centers_,2,,,,,,,,,2,lowercase
+message,2,,,,,,,,,2,lowercase
+gradient,2,1,,,,,,,,1,lowercase
+dst,3,,,,,,,,,3,lowercase
+re,4,,,2,,,,,,2,lowercase
+dsh,2,,,,,,,,,2,lowercase
+collectAsMap,1,1,,,,,,,,,mixedCase
+resume,1,,,,,,,,,1,lowercase
+ascending,4,,,,,,,,,4,lowercase
+_optinfo,2,,,,,,,,,2,lowercase
+freq,2,,,,,,,,,2,lowercase
+javaStorageLevel,2,,,,,,,,,2,mixedCase
+logging,5,,,2,,,,,,3,lowercase
+compute_real_exit_code,2,1,,,,,,,,1,lower_case_with_underscores
+traceback,9,,,4,,,,,,5,lowercase
+AF_INET,5,,,2,,,,,,3,UPPER_CASE_WITH_UNDERSCORES
+shark_v,3,,,,,,,,,3,lower_case_with_underscores
+filter,7,1,,,,,,,,6,lowercase
+isf,3,,,,,,,,,3,lowercase
+LAMBDA,2,,,,,,,,,2,UPPERCASE
+rand,8,,,1,,,,,,7,lowercase
+ranf,1,,,,,,,,,1,lowercase
+makefile,1,,,,,,,,,1,lowercase
+RuntimeError,11,,,,,,,,,11,CapitalizedWords
+processPartition,2,1,,,,,,,,1,mixedCase
+rank,12,,,,,,,,,12,lowercase
+savedForceImports,3,,,,,,,,,3,mixedCase
+groupWith,1,1,,,,,,,,,mixedCase
+_from_id,2,1,,,,,,,,1,lower_case_with_underscores
+basestring,1,,,,,,,,,1,lowercase
+cartesian,4,1,,,,,,,,3,lowercase
+_active_spark_context,5,,,,,,,,,5,lower_case_with_underscores
+top,1,1,,,,,,,,,lowercase
+master,20,,,,,,,,,20,lowercase
+primary_author,2,,,,,,,,,2,lower_case_with_underscores
+num_slaves_this_zone,10,,,,,,,,,10,lower_case_with_underscores
+delete_on_termination,1,,,,,,,,,1,lower_case_with_underscores
+trainRidgeModelWithSGD,1,,,,,,,,,1,mixedCase
+listen,1,,,,,,,,,1,lowercase
+wbuf,14,,,,,,,,,14,lowercase
+hdfs_data_dirs,3,,,,,,,,,3,lower_case_with_underscores
+python_join,3,1,,1,,,,,,1,lower_case_with_underscores
+copyto,3,,,1,,,,,,2,lowercase
+signum,1,,,,,,,,,1,lowercase
+setProperty,1,,,,,,,,,1,mixedCase
+_jvm,34,,,,,,1,,,33,lowercase
+target,2,,,,,,2,,,,lowercase
+iteration,1,,,,,,,,,1,lowercase
+loadDefaults,2,,,,,,,,,2,mixedCase
+save_function,2,1,,,,,,,,1,lower_case_with_underscores
+wfile,1,,,,,,,,,1,lowercase
+failure_count,16,,,,,,,,,16,lower_case_with_underscores
+SPARK_HOME,10,,,1,,,,,,9,UPPER_CASE_WITH_UNDERSCORES
+NEWOBJ,1,,,,,,,,,1,UPPERCASE
+raw,2,,,,,,,,,2,lowercase
+seed,13,,,,,,,,,13,lowercase
+ratingBytes,4,,,,,,,,,4,mixedCase
+seek,2,,,,,,,,,2,lowercase
+contents,3,,,,,,,,,3,lowercase
+save_dict,3,1,,,,,,,,2,lower_case_with_underscores
+_old_sys_path,2,,,,,,,,,2,lower_case_with_underscores
+stacklevel,1,,,,,,1,,,,lowercase
+glom,1,1,,,,,,,,,lowercase
+glob,3,,,2,,,,,,1,lowercase
+object,26,,,,,,,,,26,lowercase
+y,16,,,,,,,,,16,b
+typ,7,,,,,,,,,7,lowercase
+predictAll,1,1,,,,,,,,,mixedCase
+_prev_jrdd_deserializer,4,,,,,,,,,4,lower_case_with_underscores
+partition,2,,,,,,,,,2,lowercase
+m,18,,,,,,,,,18,b
+points,2,,,,,,,,,2,lowercase
+getmaskarray,1,,,,,,,,,1,lowercase
+prev_func,2,,,,,,,,,2,lower_case_with_underscores
+AttributeError,5,,,,,,,,,5,CapitalizedWords
+dot,11,,,4,,,,,,7,lowercase
+test_save_as_textfile_with_unicode,1,1,,,,,,,,,lower_case_with_underscores
+random,20,,,7,,,,,,13,lowercase
+PairwiseRDD,1,,,,,,,,,1,CapitalizedWords
+has_key,1,,,,,,,,,1,lower_case_with_underscores
+keywords,1,,,,,,,,,1,lowercase
+copy,16,1,,2,,,,,,13,lowercase
+getUniformSample,2,1,,,,,,,,1,mixedCase
+setCallSite,2,,,,,,,,,2,mixedCase
+RandomState,1,,,,,,,,,1,CapitalizedWords
+SystemExit,1,,,,,,,,,1,CapitalizedWords
+dup2,1,,,,,,,,,1,lowercase
+stop,13,1,,,,,,,,12,lowercase
+Accumulator,4,,1,1,,,,,,2,CapitalizedWords
+X,3,,,,,,,,,3,B
+flatMappedRDD,16,,,,,,,,,16,mixedCase
+runs,2,,,,,,,,,2,lowercase
+LOAD_GLOBAL,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+id_to_req,5,,,,,,,,,5,lower_case_with_underscores
+mkdtemp,2,,,,,,,,,2,lowercase
+zones,9,,,,,,,,,9,lowercase
+ami_path,3,,,,,,,,,3,lower_case_with_underscores
+CloudPickleSerializer,3,,1,1,,,,,,1,CapitalizedWords
+result,7,,,,,,,,,7,lowercase
+getsockname,1,,,,,,,,,1,lowercase
+fail,7,1,,,,,,,,6,lowercase
+PythonAccumulatorParam,1,,,,,,,,,1,CapitalizedWords
+_deserialize_double_vector,7,1,,4,,,,,,2,lower_case_with_underscores
+best,3,,,,,,,,,3,lowercase
+AccumulatorParam,2,,1,,,,,,,1,CapitalizedWords
+_bypass_serializer,5,,,,,,,,,5,lower_case_with_underscores
+filename,15,,,,,,,,,15,lowercase
+_pickled_broadcast_vars,4,,,,,,,,,4,lower_case_with_underscores
+extend,1,,,,,,,,,1,lowercase
+AMI_PREFIX,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+clean_up,6,1,,,,,,,,5,lower_case_with_underscores
+ctypes,15,,,2,,,,,,13,lowercase
+stdev,4,2,,,,,,,,2,lowercase
+_dates,8,,,,,,,,,8,lowercase
+latest_branch,3,,,,,,,,,3,lower_case_with_underscores
+prepare_keys_values,3,1,,,,,,,,2,lower_case_with_underscores
+print_exc,1,,,,,,,,,1,lower_case_with_underscores
+adapter,1,,,1,,,,,,,lowercase
+fnc,1,,,,,,,,,1,lowercase
+urls,9,,,,,,,,,9,lowercase
+variance,4,2,,,,,,,,2,lowercase
+SparkContext,55,,1,18,,,,,,36,CapitalizedWords
+pickle_registry,2,,,,,,,,,2,lower_case_with_underscores
+to_port,2,,,,,,1,,,1,lower_case_with_underscores
+numEdges,4,,,,,,,,,4,mixedCase
+diff,5,,,,,,,,,5,lowercase
+union,10,2,,,,,,,,8,lowercase
+SIGINT,1,,,,,,,,,1,UPPERCASE
+redFunc,2,1,,,,,,,,1,mixedCase
+frq,2,,,,,,,,,2,lowercase
+LinearRegressionModel,2,,1,,,,,,,1,CapitalizedWords
+numpy,22,,,15,,,,,,7,lowercase
+key_name,3,,,,,,3,,,,lower_case_with_underscores
+locally_combined,2,,,,,,,,,2,lower_case_with_underscores
+worker,3,1,,1,,,,,,1,lowercase
+WNOHANG,2,,,,,,,,,2,UPPERCASE
+input,4,,,1,,,,,,3,lowercase
+exception,3,,,,,,,,,3,lowercase
+n,50,,,,,,,,,50,b
+float32,1,,,,,,,,,1,lowercase
+aid,13,,,,,,,,,13,lowercase
+property,7,,,,,,,,,7,lowercase
+FunctionType,2,,,,,,,,,2,CapitalizedWords
+MemoryError,1,,,,,,,,,1,CapitalizedWords
+convergeDist,2,,,,,,,,,2,mixedCase
+im,1,,,,,,,,,1,lowercase
+TIMING_DATA,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+num_urls,2,,,,,,,,,2,lower_case_with_underscores
+conn,42,,,,,,,,,42,lowercase
+complex,1,,,,,,,,,1,lowercase
+split,35,,,,,,,,,35,lowercase
+_serialize_tuple,3,1,,1,,,,,,1,lower_case_with_underscores
+waitpid,2,,,,,,,,,2,lowercase
+local_ivy_spark,2,,,,,,,,,2,lower_case_with_underscores
+py_object,3,,,,,,,,,3,lower_case_with_underscores
+Y,3,,,,,,,,,3,B
+input_deserializer,2,,,,,,,,,2,lower_case_with_underscores
+protocol,6,,,,,,,,,6,lowercase
+batchSize,20,,,,,,8,,,12,mixedCase
+_partitionFunc,1,,,,,,,,,1,mixedCase
+collections,2,,,2,,,,,,,lowercase
+kPoints,5,,,,,,,,,5,mixedCase
+save,27,,,,,,,,,27,lowercase
+D,3,,,,,,,,,3,B
+_get_unmangled_double_vector_rdd,8,1,,4,,,,,,3,lower_case_with_underscores
+useDisk,6,,,,,,,,,6,mixedCase
+daemon,9,,,,,,,,,9,lowercase
+test_termination_stdin,1,1,,,,,,,,,lower_case_with_underscores
+steps,1,,,,,,1,,,,lowercase
+root_dir,5,,,,,,,,,5,lower_case_with_underscores
+System,2,,,,,,,,,2,CapitalizedWords
+_common,4,,,4,,,,,,,lowercase
+pyFiles,5,,,,,,3,,,2,mixedCase
+image_ids,1,,,,,,1,,,,lower_case_with_underscores
+defaultdict,3,,,1,,,,,,2,lowercase
+assertRaises,4,,,,,,,,,4,mixedCase
+_pythonstartup,4,,,,,,,,,4,lowercase
+SparkConf,5,,1,2,,,,,,2,CapitalizedWords
+SerializingAdapter,4,,,1,,,,,,3,CapitalizedWords
+obj,194,,,,,,11,,,183,lowercase
+Image,4,,,2,,,,,,2,CapitalizedWords
+subimport,3,1,,,,,,,,2,lowercase
+MEMORY_ONLY,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES
+EC2ResponseError,1,,,,,,,,,1,CapitalizedWords
+NamedTemporaryFile,8,,,3,,,,,,5,CapitalizedWords
+marshal,3,,,1,,,,,,2,lowercase
+float,7,,,,,,,,,7,lowercase
+pair,4,,,,,,,,,4,lowercase
+MEMORY_AND_DISK_SER_2,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES
+NaiveBayesModel,2,,1,,,,,,,1,CapitalizedWords
+PIPE,12,,,3,,,,,,9,UPPERCASE
+_modules_to_main,2,1,,,,,,,,1,lower_case_with_underscores
+fraction,14,,,,,,,,,14,lowercase
+call,1,,,,,,,,,1,lowercase
+fork,2,,,,,,,,,2,lowercase
+co_code,2,,,,,,,,,2,lower_case_with_underscores
+MaskedArray,2,,,1,,,,,,1,CapitalizedWords
+_tsreconstruct,2,,,,,,,,,2,lowercase
+SIGTERM,5,,,2,,,,,,3,UPPERCASE
+asJavaPairRDD,1,,,,,,,,,1,mixedCase
+EXTENDED_ARG,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES
+attr,2,,,,,,,,,2,lowercase
+coeff,4,,,,,,,,,4,lowercase
+bounds,4,,,,,,,,,4,lowercase
+trainLassoModelWithSGD,1,,,,,,,,,1,mixedCase
+delete,5,,,,,,5,,,,lowercase
+_inverted_registry,1,,,1,,,,,,,lower_case_with_underscores
+item,5,,,,,,,,,5,lowercase
+EnvironmentError,5,,,,,,,,,5,CapitalizedWords
+co_cellvars,1,,,,,,,,,1,lower_case_with_underscores
+countByValue,2,1,,,,,,,,1,mixedCase
+add_help_option,1,,,,,,1,,,,lower_case_with_underscores
+spark_version,3,,,,,,,,,3,lower_case_with_underscores
+np,21,,,,,,,3,,18,lowercase
+auto_convert,1,,,,,,1,,,,lower_case_with_underscores
+from_port,2,,,,,,1,,,1,lower_case_with_underscores
+sline,1,,,,,,,,,1,lowercase
+trainImplicit,1,1,,,,,,,,,mixedCase
+urllib2,7,,,3,,,,,,4,lowercase
+co_stacksize,1,,,,,,,,,1,lower_case_with_underscores
+timeseries,2,,,2,,,,,,,lowercase
+warn,1,,,,,,,,,1,lowercase
+serialized,3,,,,,,,,,3,lowercase
+modules,30,,,,,,,,,30,lowercase
+mapValues,3,1,,,,,,,,2,mixedCase
+_deserialize_double_matrix,7,1,,4,,,,,,2,lower_case_with_underscores
+useForcedImports,2,,,,,,,,,2,mixedCase
+instance_type,17,,,,,,3,,,14,lower_case_with_underscores
+time,23,,,4,,,,,,19,lowercase
+assertFalse,2,,,,,,,,,2,mixedCase
+serializer,27,,,,,,,,,27,lowercase
+neighbors,1,,,,,,,,,1,lowercase
+revoke,1,,,,,,,,,1,lowercase
+iterator,59,,,,,,,,,59,lowercase
+merge_pr,2,1,,,,,,,,1,lower_case_with_underscores
+manager,2,1,,,,,,,,1,lowercase
+my_req_ids,4,,,,,,,,,4,lower_case_with_underscores
+ufile,2,,,,,,,,,2,lowercase
+co_firstlineno,1,,,,,,,,,1,lower_case_with_underscores
+zone,13,,,,,,,,,13,lowercase
+_jconf,15,,,,,,,,,15,lowercase
+cluster_name,28,,,,,,,,,28,lower_case_with_underscores
+_mergeCombiners,2,1,,,,,,,,1,mixedCase
+vec,1,,,,,,,,,1,lowercase
+jvm,6,,,,,,,,,6,lowercase
+combiners,12,,,,,,,,,12,lowercase
+assertEquals,2,,,,,,,,,2,mixedCase
+choice,2,,,,,,,,,2,lowercase
+PyCell_New,1,,,,,,,,,1,Capitalized_Words_With_Underscores
+join,29,1,,1,,,,,,27,lowercase
+_next_accum_id,3,,,,,,,,,3,lower_case_with_underscores
+key_ser,14,,,,,,,,,14,lower_case_with_underscores
+err,10,,,,,,,,,10,lowercase
+INT_ACCUMULATOR_PARAM,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+COMPLEX_ACCUMULATOR_PARAM,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+launch_gateway,3,1,,1,,,,,,1,lower_case_with_underscores
+p,13,,,,,,,,,13,b
+defaults,7,,,,,,,,,7,lowercase
+spark_git_repo,1,,,,,,,,,1,lower_case_with_underscores
+loads,13,4,,,,,,,,9,lowercase
+multiprocessing,3,,,1,,,,,,2,lowercase
+dir,3,,,,,,2,,,1,lowercase
+dis,10,,,1,,,,,,9,lowercase
+upper,2,,,,,,,,,2,lowercase
+reducePartition,2,1,,,,,,,,1,mixedCase
+PR_REMOTE_NAME,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+tearDown,3,2,,,,,,,,1,mixedCase
+port,10,,,,,,1,,,9,lowercase
+addr,1,,,,,,,,,1,lowercase
+uniform,1,,,,,,,,,1,lowercase
+get_contents,2,1,,,,,,,,1,lower_case_with_underscores
+lambda_,6,,,,,,,,,6,lowercase
+True,74,,,,,,,,,74,CapitalizedWords
+ensure_path_not_present,2,1,,,,,,,,1,lower_case_with_underscores
+_lazyloadImage,2,1,,,,,,,,1,mixedCase
+urlopen,3,,,,,,,,,3,lowercase
+pr_branch_name,5,,,,,,,,,5,lower_case_with_underscores
+groups,6,,,,,,,,,6,lowercase
+apache,4,,,,,,,,,4,lowercase
+get_all_images,1,,,,,,,,,1,lower_case_with_underscores
+run_cmd_with_output,3,1,,,,,,,,2,lower_case_with_underscores
+clearFiles,2,1,,,,,,,,1,mixedCase
+poisson,1,,,,,,,,,1,lowercase
+_jrdd,41,1,,,,,,,,40,lowercase
+initial_weights,14,,,,,,,,,14,lower_case_with_underscores
+class_name,2,,,,,,,,,2,lower_case_with_underscores
+dtype,17,,,,,,12,,,5,lowercase
+STORE_GLOBAL,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+read_int,11,1,,3,,,,,,7,lower_case_with_underscores
+_javaAccumulator,2,,,,,,,,,2,mixedCase
+filter_func,2,,,,,,,,,2,lower_case_with_underscores
+python_version,1,,,,,,,,,1,lower_case_with_underscores
+other_copy,2,,,,,,,,,2,lower_case_with_underscores
+save_itemgetter,2,1,,,,,,,,1,lower_case_with_underscores
+restype,1,,,,,,,,,1,lowercase
+coalesce,2,1,,,,,,,,1,lowercase
+create_security_group,1,,,,,,,,,1,lower_case_with_underscores
+value2,3,,,,,,,,,3,lowercase
+value1,4,,,,,,,,,4,lowercase
+msg,4,,,,,,,,,4,lowercase
+master_group,16,,,,,,,,,16,lower_case_with_underscores
+prev,12,,,,,,,,,12,lowercase
+exit_flag,6,,,,,,,,2,4,lower_case_with_underscores
+msb,4,,,,,,,,,4,lowercase
+mapPartitions,18,1,,,,,,,,17,mixedCase
+BlockDeviceMapping,2,,,1,,,,,,1,CapitalizedWords
+F,6,,,,,,,,,6,B
+_deserialize_byte_array,3,1,,,,,,,,2,lower_case_with_underscores
+num_disks,3,,,,,,,,,3,lower_case_with_underscores
+spot_instance_request_id,1,,,,,,,,,1,lower_case_with_underscores
+report_times,2,1,,,,,,,,1,lower_case_with_underscores
+addFile,5,1,,,,,,,,4,mixedCase
+_deserialize_accumulator,2,1,,,,,,,,1,lower_case_with_underscores
+flv,2,,,,,,,,,2,lowercase
+values,4,,,,,,,,,4,lowercase
+rfile,2,,,,,,,,,2,lowercase
+delete_security_group,1,,,,,,,,,1,lower_case_with_underscores
+pickle,59,,,1,,,,,,58,lowercase
+fget,1,,,,,,,,,1,lowercase
+stream,54,,,,,,,,,54,lowercase
+predict,9,7,,,,,,,,2,lowercase
+attribute,2,,,,,,,,,2,lowercase
+reqs,2,,,,,,,,,2,lowercase
+sample,4,1,,,,,,,,3,lowercase
+SpecialLengths,5,,1,1,,,,,,3,CapitalizedWords
+map_values_fn,2,,,,,,,,,2,lower_case_with_underscores
+mergeMaps,4,2,,,,,,,,2,mixedCase
+setAppName,3,1,,,,,,,,2,mixedCase
+test_checkpoint_and_restore,1,1,,,,,,,,,lower_case_with_underscores
+range,23,,,,,,,,,23,lowercase
+write,44,,,,,,,,,44,lowercase
+foreach,2,1,,,,,,,,1,lowercase
+getRootDirectory,5,1,,,,,,,,4,mixedCase
+map,40,1,,,,,,,,39,lowercase
+product,4,,,1,,,,,,3,lowercase
+mat,4,,,,,,,,,4,lowercase
+max,2,,,,,,,,,2,lowercase
+im_class,1,,,,,,,,,1,lower_case_with_underscores
+data,37,,,,,,,,,37,lowercase
+branches,4,,,,,,,,,4,lowercase
+fromstring,2,,,,,,,,,2,lowercase
+master_type,4,,,,,,,,,4,lower_case_with_underscores
+stdin,10,,,,,,5,,,5,lowercase
+useMemory,6,,,,,,,,,6,mixedCase
+st,3,,,,,,,,,3,lowercase
+im_func,1,,,,,,,,,1,lower_case_with_underscores
+int64,1,,,1,,,,,,,lowercase
+dummy_closure,2,,,,,,,,,2,lower_case_with_underscores
+sc,77,,,,,,,,,77,lowercase
+opts,108,,,,,,,,,108,lowercase
+xrange_len,4,,,,,,,,,4,lower_case_with_underscores
+LogisticRegressionModel,2,,1,,,,,,,1,CapitalizedWords
+c_bool,2,,,1,,,,,,1,lower_case_with_underscores
+cols,7,,,,,,,,,7,lowercase
+defaultParallelism,7,1,,,,,,,,6,mixedCase
+my_sha,2,,,,,,,,,2,lower_case_with_underscores
+Rb,3,,,,,,,,,3,CapitalizedWords
+readRDDFromFile,3,,,,,,,,,3,mixedCase
+group,11,,,,,,,,,11,lowercase
+platform,6,,,2,,,,,,4,lowercase
+main,9,2,,1,,,,,,6,lowercase
+_cachedinfo,1,,,,,,,,,1,lowercase
+closure,11,,,,,,,,,11,lowercase
+expanduser,1,,,,,,,,,1,lowercase
+mvn_exec_cmd,2,,,,,,,,,2,lower_case_with_underscores
+GIT_API_BASE,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES
+test_stdout_redirection,1,1,,,,,,,,,lower_case_with_underscores
+save_codeobject,2,1,,,,,,,,1,lower_case_with_underscores
+sorted,5,,,,,,,,,5,lowercase
+term,4,,,,,,,,,4,lowercase
+name,77,1,,,,,,,,76,lowercase
+rmse,2,1,,,,,,,,1,lowercase
+Utils,2,,,,,,,,,2,CapitalizedWords
+src_group,5,,,,,,5,,,,lower_case_with_underscores
+fp,8,,,,,,,,,8,lowercase
+ei,4,,,,,,,,,4,lowercase
+accumulators,10,,,6,,,,,,4,lowercase
+assertEqual,10,,,,,,,,,10,mixedCase
+dirname,7,,,,,,,,,7,lowercase
+existing_masters,5,,,,,,,,,5,lower_case_with_underscores
+createCombiner,4,1,,,,,,,,3,mixedCase
+args,25,,,,,,1,,,24,lowercase
+getcwd,1,,,,,,,,,1,lowercase
+argv,39,,,,,,,,,39,lowercase
+raw_contents,2,,,,,,,,,2,lower_case_with_underscores
+org,4,,,,,,,,,4,lowercase
+ord,2,,,,,,,,,2,lowercase
+TestIO,1,,1,,,,,,,,CapitalizedWords
+first,6,1,,,,,,,,5,lowercase
+out_names,3,,,,,,,,,3,lower_case_with_underscores
+xs,3,,,,,,,,,3,lowercase
+array,7,,,4,,,,,,3,lowercase
+open,6,,,,,,,,,6,lowercase
+size,6,,,,,,1,,,5,lowercase
+rdds,8,,,,,,,,,8,lowercase
+local_maven_kafka,3,,,,,,,,,3,lower_case_with_underscores
+add_files,4,,,,,,,,,4,lower_case_with_underscores
+response,8,,,,,,,,,8,lowercase
+release_md5,2,,,,,,,,,2,lower_case_with_underscores
+sock_file,3,,,,,,,,,3,lower_case_with_underscores
+UnpicklingError,1,,,,,,,,,1,CapitalizedWords
+RELEASE_URL,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES
+memo,6,,,,,,,,,6,lowercase
+artifact,10,,,,,,,,,10,lowercase
+broadcast,10,1,,3,,,,,,6,lowercase
+x2,2,,,,,,,,,2,lowercase
+x1,2,,,,,,,,,2,lowercase
+rdd2,2,,,,,,,,,2,lowercase
+rdd1,2,,,,,,,,,2,lowercase
+_intercept,6,,,,,,,,,6,lowercase
+setattr,3,,,,,,,,,3,lowercase
+django_mod,6,,,,,,,,,6,lower_case_with_underscores
+strs,4,,,,,,,,,4,lowercase
+r,9,,,,,,,,,9,b
+base_files,4,,,,,,,,,4,lower_case_with_underscores
+ans,16,,,,,,,,,16,lowercase
+any,2,,,,,,,,,2,lowercase
+FramedSerializer,5,,1,,,,,,,4,CapitalizedWords
+fsize,3,,,,,,,,,3,lowercase
+take,3,1,,,,,,,,2,lowercase
+environ,19,,,,,,,,,19,lowercase
+realpath,4,,,2,,,,,,2,lowercase
+buffer,12,,,,,,11,,,1,lowercase
+price,1,,,,,,1,,,,lowercase
+cogroup,3,1,,,,,,,,2,lowercase
+initializationMode,2,,,,,,,,,2,mixedCase
+PipelinedRDD,6,,1,,,,,,,5,CapitalizedWords
+serializers,7,,,7,,,,,,,lowercase
+best_distance,3,,,,,,,,,3,lower_case_with_underscores
+infodict,2,,,,,,,,,2,lowercase
+slaves,6,,,,,,,,,6,lowercase
+subprocess,19,,,7,,,,,,12,lowercase
+maxint,5,,,,,,,,,5,lowercase
+title,3,,,,,,,,,3,lowercase
+initRandomGenerator,4,1,,,,,,,,3,mixedCase
+dict,5,,,,,,,,,5,lowercase
+startswith,4,,,,,,,,,4,lowercase
+test_file,2,,,,,,,,,2,lower_case_with_underscores
+get,27,2,,,,,,,,25,lowercase
+dot_ssh_tar,2,,,,,,,,,2,lower_case_with_underscores
+zero_value,6,,,,,,,,,6,lower_case_with_underscores
+save_image,2,1,,,,,,,,1,lower_case_with_underscores
+ssh,7,1,,,,,,,,6,lowercase
+theta,4,,,,,,,,,4,lowercase
+min_count,2,,,,,,2,,,,lower_case_with_underscores
+zeroValue,5,,,,,,,,,5,mixedCase
+fileno,2,,,,,,,,,2,lowercase
+keyed,6,,,,,,,,,6,lowercase
+threading,5,,,4,,,,,,1,lowercase
+newStorageLevel,2,,,,,,,,,2,mixedCase
+mapped,4,,,,,,,,,4,lowercase
+LassoWithSGD,1,,1,,,,,,,,CapitalizedWords
+dump_stream,6,3,,,,,,,,3,lower_case_with_underscores
+map_func,2,,,,,,,,,2,lower_case_with_underscores
+maxSampleSize,2,,,,,,,,,2,mixedCase
+setMaster,3,1,,,,,,,,2,mixedCase
+co_varnames,1,,,,,,,,,1,lower_case_with_underscores
+base_globals,10,,,,,,,,,10,lower_case_with_underscores
+makedirs,1,,,,,,,,,1,lowercase
+getattr,8,,,,,,,,,8,lowercase
+toString,1,,,,,,,,,1,mixedCase
+ModuleType,1,,,,,,,,,1,CapitalizedWords
+right_counter,2,,,,,,,,,2,lower_case_with_underscores
+ECHILD,3,,,1,,,,,,2,UPPERCASE
+save_buffer,2,1,,,,,,,,1,lower_case_with_underscores
+co_lnotab,1,,,,,,,,,1,lower_case_with_underscores
+save_reduce,17,1,,,,,,,,16,lower_case_with_underscores
+multiplier,3,,,,,,,,,3,lowercase
+spot_price,3,,,,,,,,,3,lower_case_with_underscores
+spark,4,,,,,,,,,4,lowercase
+_extension_cache,1,,,1,,,,,,,lower_case_with_underscores
+region,2,,,,,,,,,2,lowercase
+NaiveBayes,1,,1,,,,,,,,CapitalizedWords
+s,2,,,,,,,,,2,b
+userlib,2,,,2,,,,,,,lowercase
+utf8_deserializer,3,,,,,,,,,3,lower_case_with_underscores
+unittest,4,,,1,,,,,,3,lowercase
+pop,2,,,,,,,,,2,lowercase
+grants,1,,,,,,,,,1,lowercase
+iterations,16,,,,,,,,,16,lowercase
+optionflags,7,,,,,,7,,,,lowercase
+connect_to_region,1,,,,,,,,,1,lower_case_with_underscores
+reduceByKey,5,1,,,,,,,,4,mixedCase
+num_arrivals,3,,,,,,,,,3,lower_case_with_underscores
+random_sample,1,,,,,,,,,1,lower_case_with_underscores
+python_cogroup,3,1,,1,,,,,,1,lower_case_with_underscores
+toDebugString,4,2,,,,,,,,2,mixedCase
+combineLocally,2,1,,,,,,,,1,mixedCase
+_value,9,,,,,,,,,9,lowercase
+hasattr,15,,,,,,,,,15,lowercase
+tostr,1,,,,,,1,,,,lowercase
+float64,4,,,1,,,,,,3,lowercase
+compile,1,,,,,,,,,1,lowercase
+cast,1,,,,,,,,,1,lowercase
+save_file,2,1,,,,,,,,1,lower_case_with_underscores
+trainImplicitALSModel,1,,,,,,,,,1,mixedCase
+margin,4,,,,,,,,,4,lowercase
+num_python_includes,2,,,,,,,,,2,lower_case_with_underscores
+stdout,12,,,,,,5,,,7,lowercase
+endswith,3,,,,,,,,,3,lowercase
+isCheckpointed,5,1,,,,,,,,4,mixedCase
+INST,1,,,,,,,,,1,UPPERCASE
+active_master,4,,,,,,,,,4,lower_case_with_underscores
+shutil,8,,,4,,,,,,4,lowercase
+fdel,1,,,,,,,,,1,lowercase
+proto,2,,,,,,,,,2,lowercase
+inject_addons,2,1,,,,,,,,1,lower_case_with_underscores
+mergeValue,4,1,,,,,,,,3,mixedCase
+storageLevel,8,,,,,,,,,8,mixedCase
+status,9,,,,,,,,,9,lowercase
+finish,2,,,,,,,,,2,lowercase
+closest,5,,,,,,,,,5,lowercase
+pythonExec,2,,,,,,,,,2,mixedCase
+running,3,,,,,,,,,3,lowercase
+edges,6,,,,,,,,,6,lowercase
+my_md5,2,,,,,,,,,2,lower_case_with_underscores
+_data,1,,,,,,,,,1,lowercase
+c_size_t,2,,,,,,,,,2,lower_case_with_underscores
+PicklingError,20,,,,,,,,,20,CapitalizedWords
+withReplacement,9,,,,,,,,,9,mixedCase
+listen_sock,11,,,,,,,,,11,lower_case_with_underscores
+spark_shark_map,3,,,,,,,,,3,lower_case_with_underscores
+solve,1,,,,,,,,,1,lowercase
+add_option,23,,,,,,,,,23,lower_case_with_underscores
+BRANCH_PREFIX,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES
+new_array,1,,,,,,,,,1,lower_case_with_underscores
+heapq,1,,,1,,,,,,,lowercase
+rest,4,,,,,,,,,4,lowercase
+kill,2,,,,,,,,,2,lowercase
+unicode,3,,,,,,,,,3,lowercase
+getLocalDir,1,,,,,,,,,1,mixedCase
+_withReplacement,2,,,,,,,,,2,mixedCase
+struct,17,,,4,,,,,,13,lowercase
+sortByKey,2,1,,,,,,,,1,mixedCase
+home_dir,3,,,,,,,,,3,lower_case_with_underscores
+param,3,,,,,,,,,3,lowercase
+samples,10,,,,,,,,,10,lowercase
+sampler,2,,,,,,,,,2,lowercase
+ufunc,1,,,,,,,,,1,lowercase
+SIG_IGN,3,,,1,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+ami,8,,,,,,,,,8,lowercase
+SIGCHLD,3,,,1,,,,,,2,UPPERCASE
+rules,3,,,,,,,,,3,lowercase
+save_property,2,1,,,,,,,,1,lower_case_with_underscores
+sortedCount,2,,,,,,,,,2,mixedCase
+test,10,1,,,,,,,,9,lowercase
+dispatch,33,4,,,,,,,,29,lowercase
+real_main,2,1,,,,,,,,1,lower_case_with_underscores
+mod,9,,,,,,,,,9,lowercase
+reduce_args,4,,,,,,,,,4,lower_case_with_underscores
+_sc,3,,,,,,,,,3,lowercase
+isDefined,1,,,,,,,,,1,mixedCase
+server,3,,,,,,,,,3,lowercase
+RELEASE_KEY,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+t,2,,,,,,,,,2,b
+output,4,,,,,,,,,4,lowercase
+MEMORY_AND_DISK_2,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES
+miniBatchFraction,10,,,,,,,,,10,mixedCase
+instance_types,3,,,,,,,,,3,lower_case_with_underscores
+_read_with_length,5,1,,,,,,,,4,lower_case_with_underscores
+pickled,2,,,,,,,,,2,lowercase
+dest_file,2,,,,,,,,,2,lower_case_with_underscores
+_fill_function,2,1,,,,,,,,1,lower_case_with_underscores
+exit_on_failure,6,,,,,,4,,,2,lower_case_with_underscores
+slice,2,,,,,,,,,2,lowercase
+mergeStats,2,1,,,,,,,,1,mixedCase
+cellnew,4,,,,,,,,,4,lowercase
+FLOAT_ACCUMULATOR_PARAM,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+hadoop_major_version,2,,,,,,,,,2,lower_case_with_underscores
+exit,34,,,,,,,,,34,lowercase
+xrange_params,2,1,,,,,,,,1,lower_case_with_underscores
+GeneratorType,1,,,,,,,,,1,CapitalizedWords
+infile,12,,,,,,,,,12,lowercase
+mainmod,3,,,,,,,,,3,lowercase
+print_help,1,,,,,,,,,1,lower_case_with_underscores
+power,1,,,,,,,,,1,lowercase
+pickleSer,8,,,,,,,,,8,mixedCase
+_fraction,3,,,,,,,,,3,lowercase
+_,11,,,,,,,,,11,ugly
+acc,11,,,,,,,,,11,lowercase
+src,5,,,,,,,,,5,lowercase
+unitcount,1,,,,,,,,,1,lowercase
+modified_env,3,,,,,,,,,3,lower_case_with_underscores
+save_module,2,1,,,,,,,,1,lower_case_with_underscores
+AddingAccumulatorParam,4,,1,,,,,,,3,CapitalizedWords
+os,108,,,15,,,,,,93,lowercase
+op,7,,,,,,,,,7,lowercase
+RidgeRegressionModel,2,,1,,,,,,,1,CapitalizedWords
+image,3,,,,,,,,,3,lowercase
+strip,8,,,,,,,,,8,lowercase
+operator,8,,,5,,,,,,3,lowercase
+MatrixFactorizationModel,3,,1,,,,,,,2,CapitalizedWords
+log,1,,,1,,,,,,,lowercase
+fdopen,2,,,,,,,,,2,lowercase
+defaultValue,3,,,,,,,,,3,mixedCase
+_load_stream_without_unbatching,5,2,,,,,,,,3,lower_case_with_underscores
+doublepart,2,,,,,,,,,2,lowercase
+decode,1,,,,,,,,,1,lowercase
+_pickle_registry,2,,,,,,,,,2,lower_case_with_underscores
+pick_branch_name,6,,,,,,,,,6,lower_case_with_underscores
+checkpointDir,5,,,,,,,,,5,mixedCase
+TestDaemon,1,,1,,,,,,,,CapitalizedWords
+handle_sigchld,5,2,,,,,,,,3,lower_case_with_underscores
+linalg,1,,,,,,,,,1,lowercase
+with_statement,1,,,1,,,,,,,lower_case_with_underscores
+RDD,20,,1,4,,,,,,15,UPPERCASE
+cur_time,5,,,,,,,,,5,lower_case_with_underscores
+test_add_egg_file_locally,1,1,,,,,,,,,lower_case_with_underscores
+StorageLevel,28,,1,4,,,,,,23,CapitalizedWords
+default,16,,,,,,16,,,,lowercase
+clearProperty,1,,,,,,,,,1,mixedCase
+finish_time,2,,,,,,,,,2,lower_case_with_underscores
+get_all_security_groups,2,,,,,,,,,2,lower_case_with_underscores
+key_file,3,,,,,,,,,3,lower_case_with_underscores
+SIGHUP,5,,,1,,,,,,4,UPPERCASE
+ECONNREFUSED,2,,,1,,,,,,1,UPPERCASE
+SCALA_BINARY_VERSION,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES
+artifact_regex,1,,,,,,,,,1,lower_case_with_underscores
+cpu_count,1,,,,,,,,,1,lower_case_with_underscores
+fset,1,,,,,,,,,1,lowercase
+test_add_py_file,1,1,,,,,,,,,lower_case_with_underscores
+file,16,,,,,,,,,16,lowercase
+split_index,3,,,,,,,,,3,lower_case_with_underscores
+TestAddFile,1,,1,,,,,,,,CapitalizedWords
+extract_func_data,2,1,,,,,,,,1,lower_case_with_underscores
+get_zones,3,1,,,,,,,,2,lower_case_with_underscores
+storage,1,,,,,,,,,1,lowercase
+execfile,1,,,,,,,,,1,lowercase
+includes,2,,,,,,,,,2,lowercase
+_fill_value,1,,,,,,,,,1,lower_case_with_underscores
+save_global,4,1,,,,,,,,3,lower_case_with_underscores
+_get_initial_weights,6,1,,4,,,,,,1,lower_case_with_underscores
+KMeansModel,2,,1,,,,,,,1,CapitalizedWords
+partitioner,2,,,,,,,,,2,lowercase
+self_copy,2,,,,,,,,,2,lower_case_with_underscores
+textFile,9,1,,,,,,,,8,mixedCase
+bytearray,10,,,,,,,,,10,lowercase
+setrecursionlimit,2,,,,,,,,,2,lowercase
+cloudpickle,4,,,3,,,,,,1,lowercase
+stringify_command,5,1,,,,,,,,4,lower_case_with_underscores
+test_count,8,,,,,,,,,8,lower_case_with_underscores
+TUPLE,2,,,,,,,,,2,UPPERCASE
+chain,4,,,2,,,,,,2,lowercase
+listen_port,2,,,,,,,,,2,lower_case_with_underscores
+ts,5,,,,,,,2,,3,lowercase
+_jrdd_val,5,,,,,,,,,5,lower_case_with_underscores
+init,2,,,,,,,,,2,lowercase
+rstrip,2,,,,,,,,,2,lowercase
+tb,11,,,,,,,,,11,lowercase
+tc,8,,,,,,,,,8,lowercase
+WORK_DIR,10,,,,,,,,,10,UPPER_CASE_WITH_UNDERSCORES
+dataBytes,10,,,,,,,,,10,mixedCase
+util,3,,,,,,,,,3,lowercase
+base_ref,2,,,,,,,,,2,lower_case_with_underscores
+_prev_jrdd,5,,,,,,,,,5,lower_case_with_underscores
+pr_repo_desc,3,,,,,,,,,3,lower_case_with_underscores
+list,14,,,,,,,,,14,lowercase
+stderr,35,,,1,,,2,,,32,lowercase
+coeffs,3,,,,,,,,,3,lowercase
+ssh_args,2,1,,,,,,,,1,lower_case_with_underscores
+serve_forever,1,,,,,,,,,1,lower_case_with_underscores
+get_num_disks,2,1,,,,,,,,1,lower_case_with_underscores
+print_exception,1,,,,,,,,,1,lower_case_with_underscores
+getvalue,1,,,,,,,,,1,lowercase
+RELEASE_REPOSITORY,4,,,,,,,,,4,UPPER_CASE_WITH_UNDERSCORES
+zero,3,2,,,,,,,,1,lowercase
+accum_param,13,,,,,,,,,13,lower_case_with_underscores
+save_instancemethod,2,1,,,,,,,,1,lower_case_with_underscores
+what,3,,,,,,,,,3,lowercase
+numPartitions,51,,,,,,,,,51,mixedCase
+sum,10,2,,,,,,,,8,lowercase
+version,7,,,,,,,,,7,lowercase
+on_windows,3,,,,,,,,,3,lower_case_with_underscores
+full,1,,,,,,1,,,,lowercase
+hash,1,,,,,,,,,1,lowercase
+new_override,2,,,,,,,,,2,lower_case_with_underscores
+setpgid,1,,,,,,,,,1,lowercase
+optparse,1,,,1,,,,,,,lowercase
+StreamRequestHandler,1,,,,,,,,,1,CapitalizedWords
+K,2,,,,,,,,,2,B
+_python_includes,4,,,,,,,,,4,lower_case_with_underscores
+default_branch,3,,,,,,,,,3,lower_case_with_underscores
+vals,21,,,,,,,,,21,lowercase
+ver,2,,,,,,,,,2,lowercase
+StringIO,8,,,4,,,,,,4,CapitalizedWords
+doctest,23,,,8,,,,,,15,lowercase
+action,16,,,,,,6,,,10,lowercase
+authorize,18,,,,,,,,,18,lowercase
+mapPartitionsWithIndex,5,1,,,,,,,,4,mixedCase
+shuffle,5,1,,,,,,,,4,lowercase
+merge_commit_desc,4,,,,,,,,,4,lower_case_with_underscores
+Xty,3,,,,,,,,,3,CapitalizedWords
+_extension_registry,2,,,1,,,,,,1,lower_case_with_underscores
+_getJavaStorageLevel,2,1,,,,,,,,1,mixedCase
+Broadcast,5,,1,2,,,,,,2,CapitalizedWords
+executable,1,,,,,,,,,1,lowercase
+eye,1,,,,,,,,,1,lowercase
+distinct,3,1,,,,,,,,2,lowercase
+contains,5,1,,,,,,,,4,lowercase
+XtX,4,,,,,,,,,4,CapitalizedWords
+PythonPartitioner,1,,,,,,,,,1,CapitalizedWords
+_writeToFile,3,,,,,,,,,3,mixedCase
+BatchedSerializer,9,,1,2,,,,,,6,CapitalizedWords
+taken,3,,,,,,,,,3,lowercase
+setName,2,1,,,,,,,,1,mixedCase
+abspath,1,,,,,,,,,1,lowercase
+func_global_refs,4,,,,,,,,,4,lower_case_with_underscores
+_write_with_length,3,1,,,,,,,,2,lower_case_with_underscores
+slave_reqs,2,,,,,,,,,2,lower_case_with_underscores
+_start_update_server,2,1,,,,,,,,1,lower_case_with_underscores
+save_string,1,,,,,,,,,1,lower_case_with_underscores
+v,74,,,,,,,,,74,b
+prompt,2,,,,,,,,,2,lowercase
+EchoOutputThread,2,,1,,,,,,,1,CapitalizedWords
+varName,2,,,,,,,,,2,mixedCase
+accept,1,,,,,,,,,1,lowercase
+max_count,2,,,,,,2,,,,lower_case_with_underscores
+numbers,2,,,1,,,,,,1,lowercase
+b64enc,1,,,,,,,1,,,lowercase
+_batchSize,2,,,,,,,,,2,mixedCase
+identity_file,2,,,,,,,,,2,lower_case_with_underscores
+_regression_train_wrapper,10,1,,4,,,,,,5,lower_case_with_underscores
+basicConfig,1,,,,,,,,,1,mixedCase
+ValueError,3,,,,,,,,,3,CapitalizedWords
+cache_ivy_spark,2,,,,,,,,,2,lower_case_with_underscores
+tries,8,,,,,,,,,8,lowercase
+ff,6,,,,,,,,,6,lowercase
+unlink,4,,,,,,,,,4,lowercase
+setup_cluster,3,1,,,,,,,,2,lower_case_with_underscores
+a,12,,,,,,,,,12,b
+register,1,,,,,,,,,1,lowercase
+co_filename,2,,,,,,,,,2,lower_case_with_underscores
+save_timeseries,2,1,,,,,,,,1,lower_case_with_underscores
+save_xrange,2,1,,,,,,,,1,lower_case_with_underscores
+mapFunc,2,1,,,,,,,,1,mixedCase
+pairRDD,4,,,,,,,,,4,mixedCase
+write_int,10,1,,2,,,,,,7,lower_case_with_underscores
+help,23,,,,,,23,,,,lowercase
+co_freevars,1,,,,,,,,,1,lower_case_with_underscores
+BuiltinFunctionType,1,,,,,,,,,1,CapitalizedWords
+MethodType,2,,,,,,,,,2,CapitalizedWords
+y1,2,,,,,,,,,2,lowercase
+y2,2,,,,,,,,,2,lowercase
+numVertices,1,,,,,,,,,1,mixedCase
+swhat,1,,,,,,,,,1,lowercase
+group_names,5,,,,,,,,,5,lower_case_with_underscores
+rddsampler,1,,,1,,,,,,,lowercase
+modList,6,,,,,,,,,6,mixedCase
+pack_long,3,1,,1,,,,,,1,lower_case_with_underscores
+daemon_path,2,,,,,,,,,2,lower_case_with_underscores
+_temp_dir,3,,,,,,,,,3,lower_case_with_underscores
+detach,1,,,,,,,,,1,lowercase
+func_globals,5,,,,,,,,,5,lower_case_with_underscores
+modname,27,,,,,,,,,27,lowercase
+train_func,2,,,,,,,,,2,lower_case_with_underscores
+cancel_spot_instance_requests,1,,,,,,,,,1,lower_case_with_underscores
+vbuf,14,,,,,,,,,14,lowercase
+_split,5,,,,,,,,,5,lowercase
+block_map,5,,,,,,,,,5,lower_case_with_underscores
+appName,4,,,,,,,,,4,mixedCase
+SVMWithSGD,1,,1,,,,,,,,CapitalizedWords
+SOCK_STREAM,5,,,2,,,,,,3,UPPER_CASE_WITH_UNDERSCORES
+left_counter,2,,,,,,,,,2,lower_case_with_underscores
+connect,5,1,,,,,,,,4,lowercase
+block_device_map,3,,,,,,3,,,,lower_case_with_underscores
+isfile,3,,,,,,,,,3,lowercase
+ufun,1,,,,,,,,,1,lowercase
+getLogger,1,,,,,,,,,1,mixedCase
+get_all_instances,2,,,,,,,,,2,lower_case_with_underscores
+POP_MARK,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+nextCount,4,,,,,,,,,4,mixedCase
+_make_skel_func,2,1,,,,,,,,1,lower_case_with_underscores
+checkpointFile,4,,,,,,,,,4,mixedCase
+deploy_files,2,1,,,,,,,,1,lower_case_with_underscores
+dirs,1,,,,,,,,,1,lowercase
+None,133,,,,,,,,,133,CapitalizedWords
+LinearRegressionModelBase,5,,2,,,,,,,3,CapitalizedWords
+commits,2,,,,,,,,,2,lowercase
+co_flags,1,,,,,,,,,1,lower_case_with_underscores
+master_nodes,37,,,,,,,,,37,lower_case_with_underscores
+pairs,10,,,,,,,,,10,lowercase
+thread,3,,,,,,,,,3,lowercase
+wait_for_cluster,3,1,,,,,,,,2,lower_case_with_underscores
+success,5,,,,,,,,,5,lowercase
+_gateway,10,,,,,,,,,10,lowercase
+get_json,3,1,,,,,,,,2,lower_case_with_underscores
+w,13,,,,,,,,,13,b
+combineByKey,4,1,,,,,,,,3,mixedCase
+savedDjangoEnv,3,,,,,,,,,3,mixedCase
+instances,7,,,,,,,,,7,lowercase
+trainKMeansModel,1,,,,,,,,,1,mixedCase
+val_is_batched,2,,,,,,,,,2,lower_case_with_underscores
+blockdevicemapping,1,,,1,,,,,,,lowercase
+script,2,,,,,,,,,2,lowercase
+pythonapi,1,,,,,,,,,1,lowercase
+checkpoint,4,1,,,,,,,,3,lowercase
+passed,6,1,,,,,,,,5,lowercase
+zeros,3,,,,,,,,,3,lowercase
+ssh_read,2,1,,,,,,,,1,lower_case_with_underscores
+InstanceType,1,,,,,,,,,1,CapitalizedWords
+recovered,2,,,,,,,,,2,lowercase
+key_setup,2,,,,,,,,,2,lower_case_with_underscores
+UTF8Deserializer,5,,1,2,,,,,,2,CapitalizedWords
+ListConverter,5,,,2,,,,,,3,CapitalizedWords
+_accumulatorServer,5,,,,,,,,,5,mixedCase
+authors,2,,,,,,,,,2,lowercase
+recurse_limit,4,,,,,,,,,4,lower_case_with_underscores
+jrdd,12,,,,,,,,,12,lowercase
+b,6,,,,,,,,,6,b
+dtm,2,,,,,,,,,2,lowercase
+python_right_outer_join,3,1,,1,,,,,,1,lower_case_with_underscores
+RatingDeserializer,3,,1,1,,,,,,1,CapitalizedWords
+get_all_zones,3,,,,,,,,,3,lower_case_with_underscores
+dictitems,3,,,,,,,,,3,lowercase
+str,28,,,,,,,,,28,lowercase
+add_shuffle_key,2,1,,,,,,,,1,lower_case_with_underscores
+listen_host,1,,,,,,,,,1,lower_case_with_underscores
+uwhat,1,,,,,,,,,1,lowercase
+broadcast_vars,2,,,,,,,,,2,lower_case_with_underscores
+index_page,2,,,,,,,,,2,lower_case_with_underscores
+ratings,8,,,,,,,,,8,lowercase
+DeprecationWarning,1,,,,,,,,,1,CapitalizedWords
+randint,2,,,,,,,,,2,lowercase
+_lock,3,,,,,,,,,3,lowercase
+TCPServer,1,,,,,,,,,1,CapitalizedWords
+mapred_local_dirs,3,,,,,,,,,3,lower_case_with_underscores
+expovariate,2,,,,,,,,,2,lowercase
+LinearModel,7,,2,1,,,,,,4,CapitalizedWords
+initialCount,7,,,,,,,,,7,mixedCase
+warnings,2,,,1,,,,,,1,lowercase
+quote,1,,,,,,,,,1,lowercase
+M,6,,,,,,,,,6,B
+PickleSerializer,9,,1,3,,,,,,5,CapitalizedWords
+_coeff,10,,,,,,,,,10,lowercase
+alpha,2,,,,,,,,,2,lowercase
+_broadcastRegistry,6,,,2,,,,,,4,mixedCase
+exc,2,,,,,,,,,2,lowercase
+clear,1,,,,,,,,,1,lowercase
+tpl,2,,,,,,,,,2,lowercase
+sparkpath,2,,,,,,,,,2,lowercase
+GLOBAL_OPS,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+opmap,4,,,,,,,,,4,lowercase
+py4j,3,,,3,,,,,,,lowercase
+parCollection,4,,,,,,,,,4,mixedCase
+die_on_error,6,,,,,,4,,,2,lower_case_with_underscores
+_serialize_double_matrix,5,1,,4,,,,,,,lower_case_with_underscores
+find,1,,,,,,,,,1,lowercase
+failed,2,1,,,,,,,,1,lowercase
+distance,3,,,,,,,,,3,lowercase
+Value,1,,,,,,,,,1,CapitalizedWords
+sfile,1,,,,,,,,,1,lowercase
+uline,2,,,,,,,,,2,lowercase
+Random,2,,,1,,,,,,1,CapitalizedWords
+str_rep,2,,,,,,,,,2,lower_case_with_underscores
+instance_id,1,,,,,,,,,1,lower_case_with_underscores
+setSystemProperty,1,1,,,,,,,,,mixedCase
+x,136,,,,,,,,,136,b
+set,8,1,,,,,,,,7,lowercase
+dump,5,2,,,,,,,,3,lowercase
+sep,1,,,,,,1,,,,lowercase
+atexit,2,,,1,,,,,,1,lowercase
+launch_worker,2,1,,,,,,,,1,lower_case_with_underscores
+arg,4,,,,,,,,,4,lowercase
+im_self,1,,,,,,,,,1,lower_case_with_underscores
+groupBy,1,1,,,,,,,,,mixedCase
+co_name,1,,,,,,,,,1,lower_case_with_underscores
+writeToFile,1,,,,,,,,,1,mixedCase
+tempFile,20,,,,,,,,,20,mixedCase
+printSerialization,2,,,,,,,,,2,mixedCase
+proxy_port,2,,,,,,,,,2,lower_case_with_underscores
+outfile,16,,,,,,,,,16,lowercase
+preservesPartitioning,21,,,,,,5,,,16,mixedCase
+CalledProcessError,1,,,,,,,,,1,CapitalizedWords
+c,8,,,,,,,,,8,b
+TypeError,20,,,,,,,,,20,CapitalizedWords
+preexec_fn,1,,,,,,1,,,,lower_case_with_underscores
+inject_email,2,1,,,,,,,,1,lower_case_with_underscores
+getAbsolutePath,1,,,,,,,,,1,mixedCase
+addPyFile,4,1,,,,,,,,3,mixedCase
+branch_names,2,,,,,,,,,2,lower_case_with_underscores
+context,18,1,,5,,,,,,12,lowercase
+load,1,,,,,,,,,1,lowercase
+reduce,10,1,,,,,,,,9,lowercase
+GLOBAL,3,,,,,,,,,3,UPPERCASE
+get_spark_ami,2,1,,,,,,,,1,lower_case_with_underscores
+header,14,,,,,,,,,14,lowercase
+globals,9,,,,,,,,,9,lowercase
+shutdown,5,1,,,,,,,,4,lowercase
+pr,9,,,,,,,,,9,lowercase
+java,2,,,,,,,,,2,lowercase
+sfun,2,,,,,,,,,2,lowercase
+test_deleting_input_files,1,1,,,,,,,,,lower_case_with_underscores
+dup,2,,,,,,,,,2,lowercase
+wait,3,,,,,,,,,3,lowercase
+RDDSampler,4,,1,1,,,,,,2,CapitalizedWords
+OptionParser,2,,,1,,,,,,1,CapitalizedWords
+pickled_command,2,,,,,,,,,2,lower_case_with_underscores
+_UpdateRequestHandler,2,,1,,,,,,,1,CapitalizedWords
+_linear_predictor_typecheck,7,1,,2,,,,,,4,lower_case_with_underscores
+func,81,14,,,,,,,,67,lowercase
+worker_main,2,,,,,,,1,,1,lower_case_with_underscores
+_serialize_rating,7,1,,4,,,,,,2,lower_case_with_underscores
+ClassType,3,,,,,,,,,3,CapitalizedWords
+num_broadcast_variables,2,,,,,,,,,2,lower_case_with_underscores
+error,4,,,,,,,,,4,lowercase
+fun,3,,,,,,,,,3,lowercase
+pack,14,,,,,,,,,14,lowercase
+save_inst_logic,2,1,,,,,,,,1,lower_case_with_underscores
+copy_reg,1,,,1,,,,,,,lower_case_with_underscores
+setExecutorEnv,4,1,,,,,,,,3,mixedCase
+terminator,2,,,,,,,,,2,lowercase
+python_left_outer_join,3,1,,1,,,,,,1,lower_case_with_underscores
+storage_level,2,,,,,,,,,2,lower_case_with_underscores
+pick_ref,7,,,,,,,,,7,lower_case_with_underscores
+master_res,3,,,,,,,,,3,lower_case_with_underscores
+grant,2,,,,,,,,,2,lowercase
+forced_imports,3,,,,,,,,,3,lower_case_with_underscores
+read,12,,,,,,,,,12,lowercase
+key_pair,3,,,,,,,,,3,lower_case_with_underscores
+userlibrary,3,,,3,,,,,,,lowercase
+curloc,2,,,,,,,,,2,lowercase
+java_storage_level,5,,,,,,,,,5,lower_case_with_underscores
+keys,11,,,,,,,,,11,lowercase
+sys,135,,,22,,,,,,113,lowercase
+save_inst,2,1,,,,,,,,1,lower_case_with_underscores
+user,7,,,,,,,,,7,lowercase
+java_gateway,3,,,3,,,,,,,lower_case_with_underscores
+lower,1,,,,,,,,,1,lowercase
+elem,3,,,,,,,,,3,lowercase
+flags,1,,,,,,,,,1,lowercase
+class_tag,2,,,,,,,,,2,lower_case_with_underscores
+java_collections,2,,,2,,,,,,,lower_case_with_underscores
+POINTER,1,,,,,,,,,1,UPPERCASE
+T,6,,,,,,,,,6,B
+UNLIMITED_BATCH_SIZE,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES
+izip,3,,,1,,,,,,2,lowercase
+shape,28,,,2,,,11,,,15,lowercase
+CodeType,3,,,,,,,,,3,CapitalizedWords
+num_updates,2,,,,,,,,,2,lower_case_with_underscores
+ma,1,,,1,,,,,,,lowercase
+do_termination_test,3,1,,,,,,,,2,lower_case_with_underscores
+ELLIPSIS,7,,,,,,,,,7,UPPERCASE
+ganglia,3,,,,,,,,,3,lowercase
+test_basic_checkpointing,1,1,,,,,,,,,lower_case_with_underscores
+minSplits,4,,,,,,,,,4,mixedCase
+intpart,6,,,,,,,,,6,lowercase
+bin,1,,,,,,,,,1,lowercase
+format,3,,,,,,,,,3,lowercase
+bid,11,,,,,,,,,11,lowercase
+countPartition,2,1,,,,,,,,1,mixedCase
+_genpartial,2,1,,,,,,,,1,lowercase
+d,17,,,,,,,,,17,b
+debug_string,3,,,,,,,,,3,lower_case_with_underscores
+signal,22,,,4,,,,,,18,lowercase
+collect,20,1,,,,,,,,19,lowercase
+distinct_authors,3,,,,,,,,,3,lower_case_with_underscores
+func_dict,2,,,,,,,,,2,lower_case_with_underscores
+tmpfile,6,,,,,,,,,6,lowercase
+usersProductsJRDD,2,,,,,,,,,2,mixedCase
+test_termination_sigterm,1,1,,,,,,,,,lower_case_with_underscores
+_JavaStackTrace,4,,1,,,,,,,3,CapitalizedWords
+key_is_batched,2,,,,,,,,,2,lower_case_with_underscores
+themodule,15,,,,,,,,,15,lowercase
+_restore_attr,2,1,,,,,,,,1,lower_case_with_underscores
+numpy_tst_mods,2,,,,,,,,,2,lower_case_with_underscores
+proc,9,,,,,,,,,9,lowercase
+prob,2,,,,,,,,,2,lowercase
+run,3,1,,,,,,,,2,lowercase
+ba,39,,,,,,,,,39,lowercase
+NoOpSerializer,3,,1,1,,,,,,1,CapitalizedWords
+POOLSIZE,4,,,,,,,,,4,UPPERCASE
+step,13,,,,,,,,,13,lowercase
+SOMAXCONN,2,,,1,,,,,,1,UPPERCASE
+subtract,1,1,,,,,,,,,lowercase
+subtractByKey,2,1,,,,,,,,1,mixedCase
+idx,1,,,,,,,,,1,lowercase
+slave_ips,2,,,,,,,,,2,lower_case_with_underscores
+flat_map_fn,2,,,,,,,,,2,lower_case_with_underscores
+exc_info,2,,,,,,1,,,1,lower_case_with_underscores
+collectPartitions,1,,,,,,,,,1,mixedCase
+StatCounter,4,,1,1,,,,,,2,CapitalizedWords
+fileinput,1,,,1,,,,,,,lowercase
+keyfunc,4,,,,,,,,,4,lowercase
+setup_spark_cluster,2,1,,,,,,,,1,lower_case_with_underscores
+rows,7,,,,,,,,,7,lowercase
+maybe_cherry_pick,3,1,,,,,,,,2,lower_case_with_underscores
+_jbroadcast,2,,,,,,,,,2,lowercase
+co_consts,3,,,,,,,,,3,lower_case_with_underscores
+errno,8,,,2,,,,,,6,lowercase
+DictionaryType,1,,,,,,,,,1,CapitalizedWords
+sock,15,,,,,,,,,15,lowercase
+_traceback,2,,,,,,,,,2,lowercase
+test_add_py_file_locally,1,1,,,,,,,,,lower_case_with_underscores
+release_sha,2,,,,,,,,,2,lower_case_with_underscores
+Timeseries,1,,,,,,,,,1,CapitalizedWords
+msk,2,,,,,,,,,2,lowercase
+leftOuterJoin,1,1,,,,,,,,,mixedCase
+files,6,,,4,,,,,,2,lowercase
+_serialize_double_vector,7,1,,4,,,,,,2,lower_case_with_underscores
+encode,3,,,,,,,,,3,lowercase
+link,2,,,,,,,,,2,lowercase
+delta,8,,,,,,,,,8,lowercase
+line,8,,,,,,,,,8,lowercase
+num_zones,4,,,,,,,,,4,lower_case_with_underscores
+dirName,2,,,,,,,,,2,mixedCase
+uu,3,,,,,,,,,3,lowercase
+EBSBlockDeviceType,2,,,1,,,,,,1,CapitalizedWords
+trainSVMModelWithSGD,1,,,,,,,,,1,mixedCase
+us,9,,,,,,,,,9,lowercase
+argtypes,1,,,,,,,,,1,lowercase
+sampleVariance,4,2,,,,,,,,2,mixedCase
+z,4,,,,,,,,,4,b
+readPointBatch,2,1,,,,,,,,1,mixedCase
+HAVE_ARGUMENT,3,,,,,,,,,3,UPPER_CASE_WITH_UNDERSCORES
+slave_nodes,38,,,,,,,,,38,lower_case_with_underscores
+_random,8,,,,,,,,,8,lowercase
+parser,26,,,,,,,,,26,lowercase
+groupByKey,5,1,,,,,,,,4,mixedCase
+warning,1,,,,,,,,,1,lowercase
+RidgeRegressionWithSGD,1,,1,,,,,,,,CapitalizedWords
+trainLinearRegressionModelWithSGD,1,,,,,,,,,1,mixedCase
+_jsc,17,,,,,,,,,17,lowercase
+exp,4,,,2,,,,,,2,lowercase
+takeSample,1,1,,,,,,,,,mixedCase
+LOG_FILE,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES
+lang,1,,,,,,,,,1,lowercase
+e,17,,,,,,,,,17,b
+format_exc,2,,,,,,,,,2,lower_case_with_underscores
+CartesianDeserializer,5,,1,1,,,,,,3,CapitalizedWords
+first_spark_frame,5,,,,,,,,,5,lower_case_with_underscores
+MEMORY_AND_DISK,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES
+failures,4,,,,,,,,,4,lowercase
+SCALA_VERSION,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+hello,4,1,,,,,,,,3,lowercase
+func_closure,4,,,,,,,,,4,lower_case_with_underscores
+code,26,,,,,,,,,26,lowercase
+partial,3,,,1,,,,,,2,lowercase
+extract_code_globals,3,1,,,,,,,,2,lower_case_with_underscores
+centers,6,,,,,,,,,6,lowercase
+func_code,2,,,,,,,,,2,lower_case_with_underscores
+test_transforming_cartesian_result,1,1,,,,,,,,,lower_case_with_underscores
+base64,1,,,1,,,,,,,lowercase
+send,1,,,,,,,,,1,lowercase
+mapPartitionsWithSplit,1,1,,,,,,,,,mixedCase
+islambda,2,1,,,,,,,,1,lowercase
+is_active,2,1,,,,,,,,1,lower_case_with_underscores
+max_transmit_data,3,,,,,,,,,3,lower_case_with_underscores
+setSparkHome,3,1,,,,,,,,2,mixedCase
+getstate,2,,,,,,,,,2,lowercase
+False,58,,,,,,,,,58,CapitalizedWords
+pointStats,2,,,,,,,,,2,mixedCase
+BytesToString,1,,,,,,,,,1,CapitalizedWords
+_context,6,,,,,,,,,6,lowercase
+fold,1,1,,,,,,,,,lowercase
+append,29,,,,,,,,,29,lowercase
+index,5,,,,,,,,,5,lowercase
+pipes,2,,,1,,,,,,1,lowercase
+pipeline_func,2,1,,,,,,,,1,lower_case_with_underscores
+cell,4,,,,,,,,,4,lowercase
+PairDeserializer,4,,1,1,,,,,,2,CapitalizedWords
+partitionsToTake,3,,,,,,,,,3,mixedCase
+merge_hash,10,,,,,,,,,10,lower_case_with_underscores
+body,2,,,,,,,,,2,lowercase
+tmp_dir,5,,,,,,,,,5,lower_case_with_underscores
+setUp,3,2,,,,,,,,1,mixedCase
+Popen,8,,,3,,,,,,5,CapitalizedWords
+len,70,,,,,,,,,70,lowercase
+print_exec,3,1,,,,,,,,2,lower_case_with_underscores
+intercept,4,,,,,,,,,4,lowercase
+storagelevel,4,,,4,,,,,,,lowercase
+convert,4,,,,,,,,,4,lowercase
+saveAsTextFile,3,1,,,,,,,,2,mixedCase
+dtyp,2,,,,,,,,,2,lowercase
+ctx,39,,,,,,,,,39,lowercase
+host,9,,,,,,,,,9,lowercase
+deserialized,6,,,,,,,,,6,lowercase
+rdd,25,,,3,,,,,,22,lowercase
+func_defaults,2,,,,,,,,,2,lower_case_with_underscores
+staticmethod,1,,,,,,,,,1,lowercase
+spark_v,3,,,,,,,,,3,lower_case_with_underscores
+deserializer,6,,,,,,,,,6,lowercase
+newPoints,3,,,,,,,,,3,mixedCase
+LOG_FILE_NAME,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES
+range_params,2,,,,,,,,,2,lower_case_with_underscores
+PyObject_HEAD,4,,,,,,,,,4,Capitalized_Words_With_Underscores
+app,3,,,,,,,,,3,lowercase
+getAll,3,1,,,,,,,,2,mixedCase
+usersProducts,2,,,,,,,,,2,mixedCase
+ItemGetterType,2,,1,,,,,,,1,CapitalizedWords
+names,2,,,,,,,,,2,lowercase
+opname,3,,,,,,,,,3,lowercase
+gateway,7,,,,,,,,,7,lowercase
+usb,4,,,,,,,,,4,lowercase
+zip,2,1,,,,,,,,1,lowercase
+mllib,4,,,4,,,,,,,lowercase
+next,2,,,,,,,,,2,lowercase
+chr,10,,,,,,,,,10,lowercase
+co_argcount,1,,,,,,,,,1,lower_case_with_underscores
+name_,3,,,,,,,,,3,lowercase
+_change_cell_value,2,1,,,,,,,,1,lower_case_with_underscores
+sparkHome,4,,,,,,,,,4,mixedCase
+_conf,12,,,,,,,,,12,lowercase
+transient,4,,,,,,,,,4,lowercase
+num_closures,2,,,,,,,,,2,lower_case_with_underscores
+is_cached,6,,,,,,,,,6,lower_case_with_underscores
+chdir,14,,,,,,,,,14,lowercase
+f,29,1,,,,,,,,28,b
+raw_input,7,,,,,,,,,7,lower_case_with_underscores
+MARK,5,,,,,,,,,5,UPPERCASE
+get_url,4,1,,,,,,,,3,lower_case_with_underscores
+ALS,1,,1,,,,,,,,UPPERCASE
+LazyImporter,1,,,,,,,,,1,CapitalizedWords
+links,3,,,,,,,,,3,lowercase
+KeyError,3,,,,,,,,,3,CapitalizedWords
+deepcopy,2,,,,,,,,,2,lowercase
+parseVector,2,1,,,,,,,,1,mixedCase
+shuffled,2,,,,,,,,,2,lowercase
+toobj,1,,,,,,1,,,,lowercase
+flatMapValues,2,1,,,,,,,,1,mixedCase
+addInPlace,3,2,,,,,,,,1,mixedCase
+_checkpointFile,2,1,,,,,,,,1,mixedCase
+blocks,4,,,,,,,,,4,lowercase
+trainNaiveBayes,1,,,,,,,,,1,mixedCase
+xrangeobj,5,,,,,,,,,5,lowercase
+inst,25,,,,,,,,,25,lowercase
+rmtree,4,,,,,,,,,4,lowercase
+_exit,3,,,,,,,,,3,lowercase
+bind,1,,,,,,,,,1,lowercase
+lines,8,,,,,,,,,8,lowercase
+_keep_alive,2,,,,,,,,,2,lower_case_with_underscores
+retval,7,,,,,,,,,7,lowercase
+testmod,8,,,,,,,,,8,lowercase
+_build_xrange,2,1,,,,,,,,1,lower_case_with_underscores
+tempfile,8,,,6,,,,,,2,lowercase
+num_partitions,3,,,,,,,,,3,lower_case_with_underscores
+tseries,6,,,2,,,,,,4,lowercase
+local_dir,5,,,,,,,,,5,lower_case_with_underscores
+tst,2,,,,,,,,,2,lowercase
+inject_timeseries,2,1,,,,,,,,1,lower_case_with_underscores
+EXT4,1,,,,,,,,,1,UPPERCASE
+EXT2,1,,,,,,,,,1,UPPERCASE
+EXT1,1,,,,,,,,,1,UPPERCASE
+_seed,3,,,,,,,,,3,lowercase
+partitionBy,4,1,,,,,,,,3,mixedCase
+Integral,1,,,,,,,,,1,CapitalizedWords
+merge,5,2,,,,,,,,3,lowercase
+_accumulatorRegistry,10,,,4,,,,,,6,mixedCase
+mode,5,,,,,,,,,5,lowercase
+oldCount,3,,,,,,,,,3,mixedCase
+Pickler,6,,,,,,,,,6,CapitalizedWords
+should_exit,7,1,,,,,,,,6,lower_case_with_underscores
+cStringIO,1,,,1,,,,,,,mixedCase
+countByKey,1,1,,,,,,,,,mixedCase
+generateGraph,2,1,,,,,,,,1,mixedCase
+ec2,3,,,2,,,,,,1,lowercase
+globs,37,,,,,,7,,,30,lowercase
+metavar,4,,,,,,4,,,,lowercase
+security_groups,3,,,,,,3,,,,lower_case_with_underscores
+out,3,,,,,,,,,3,lowercase
+matrix,14,,,1,,,,,,13,lowercase
+res,8,,,,,,,,,8,lowercase
+req,2,,,,,,,,,2,lowercase
+ret,11,,,,,,,,,11,lowercase
+oparg,3,,,,,,,,,3,lowercase
+disks_by_instance,3,,,,,,,,,3,lower_case_with_underscores
+math,6,,,4,,,,,,2,lowercase
+java_import,6,,,1,,,,,,5,lower_case_with_underscores
+load_stream,11,7,,,,,,,,4,lower_case_with_underscores
+PUSH_REMOTE_NAME,8,,,,,,,,,8,UPPER_CASE_WITH_UNDERSCORES
+itemgetter_obj,2,,,,,,,,,2,lower_case_with_underscores
+computeContribs,2,1,,,,,,,,1,mixedCase
+parse_args,3,1,,,,,,,,2,lower_case_with_underscores
+g,8,,,,,,,,,8,b
+assertNotEqual,1,,,,,,,,,1,mixedCase
+get_partition,3,1,,,,,,,,2,lower_case_with_underscores
+heappush,2,,,1,,,,,,1,lowercase
+co_nlocals,1,,,,,,,,,1,lower_case_with_underscores
+ndim,6,,,,,,,,,6,lowercase
+_ensure_initialized,4,1,,,,,,,,3,lower_case_with_underscores
+returncode,2,,,,,,,,,2,lowercase
+cell_changer_code,2,,,,,,,,,2,lower_case_with_underscores
+statcounter,1,,,1,,,,,,,lowercase
+val_ser,14,,,,,,,,,14,lower_case_with_underscores
+val_stream,2,,,,,,,,,2,lower_case_with_underscores
+seq,8,,,,,,,,,8,lowercase
+start,12,,,,,,,,,12,lowercase
+mkdir,1,,,,,,,,,1,lowercase
+system,1,,,,,,,,,1,lowercase
+offset,7,,,,,,5,,,2,lowercase
+_batched,2,1,,,,,,,,1,lowercase
+Exception,22,,,,,,,,,22,CapitalizedWords
+shell,3,,,,,,3,,,,lowercase
+tuple,1,,,,,,,,,1,lowercase
+update,9,1,,,,,,,,8,lowercase
+keyBy,1,1,,,,,,,,,mixedCase
+test_cartesian_on_textfile,1,1,,,,,,,,,lower_case_with_underscores
+R,5,,,,,,,,,5,B
+foldByKey,1,1,,,,,,,,,mixedCase
+contribs,2,,,,,,,,,2,lowercase
+check_output,4,,,,,,,,,4,lower_case_with_underscores
+_do_python_join,4,1,,,,,,,,3,lower_case_with_underscores
+save_ufunc,2,1,,,,,,,,1,lower_case_with_underscores
+_get_unmangled_rdd,9,1,,4,,,,,,4,lower_case_with_underscores
+clean_work_files,3,1,,,,,,,,2,lower_case_with_underscores
+_fields_,1,,,,,,,,,1,lowercase
+close,17,,,,,,,,,17,lowercase
+request_spot_instances,1,,,,,,,,,1,lower_case_with_underscores
+q,5,,,,,,,,,5,b
+min,3,,,,,,,,,3,lowercase
+instance,6,,,,,,,,,6,lowercase
+cell_contents,1,,,,,,,,,1,lower_case_with_underscores
+java_port,2,,,,,,,,,2,lower_case_with_underscores
+setCheckpointDir,3,1,,,,,,,,2,mixedCase
+MEMORY_ONLY_2,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES
+MEMORY_ONLY_SER,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES
+rangePartitionFunc,2,1,,,,,,,,1,mixedCase
+device,4,,,,,,,,,4,lowercase
+placement,3,,,,,,3,,,,lowercase
+url,12,,,,,,,,,12,lowercase
+Lock,2,,,1,,,,,,1,CapitalizedWords
+pipe,4,1,,,,,,,,3,lowercase
+test_add_file_locally,1,1,,,,,,,,,lower_case_with_underscores
+preexec_func,2,1,,,,,,,,1,lower_case_with_underscores
+repartition,2,1,,,,,,,,1,lowercase
+randrange,2,,,,,,,,,2,lowercase
+text,4,,,,,,,,,4,lowercase
+terminate,3,,,,,,,,,3,lowercase
+target_ref,7,,,,,,,,,7,lower_case_with_underscores
+java_broadcast,2,,,,,,,,,2,lower_case_with_underscores
+setter,1,,,,,,,,,1,lowercase
+jrdd_deserializer,2,,,,,,,,,2,lower_case_with_underscores
+cache,8,1,,,,,,,,7,lowercase
+_reserialize,4,1,,,,,,,,3,lowercase
+_rand_initialized,4,,,,,,,,,4,lower_case_with_underscores
+createTempDir,1,,,,,,,,,1,mixedCase
+namedtuple,1,,,1,,,,,,,lowercase
+handle,1,1,,,,,,,,,lowercase
+pyspark,61,,,61,,,,,,,lowercase
+MarshalSerializer,1,,1,,,,,,,,CapitalizedWords
+ones,2,,,1,,,,,,1,lowercase
+iteritems,6,,,,,,,,,6,lowercase
+_is_pipelinable,2,1,,,,,,,,1,lower_case_with_underscores
+bytesInJava,2,,,,,,,,,2,mixedCase
+shp,2,,,,,,,,,2,lowercase
+get_existing_cluster,9,1,,,,,,,,8,lower_case_with_underscores
+master_instance_type,1,,,,,,,,,1,lower_case_with_underscores
+stuff,8,,,,,,,,,8,lowercase
+getStorageLevel,2,1,,,,,,,,1,mixedCase
+exists,3,,,,,,,,,3,lowercase
+ssh_command,6,1,,,,,,,,5,lower_case_with_underscores
+argmax,1,,,,,,,,,1,lowercase
+existing_slaves,2,,,,,,,,,2,lower_case_with_underscores
+frame,1,,,,,,,,,1,lowercase
+min_size_to_save,1,,,,,,,,,1,lower_case_with_underscores
+module,10,,,,,,,,,10,lowercase
+DISK_ONLY,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES
+stats,6,1,,,,,,,,5,lowercase
+globals_ref,3,,,,,,,,,3,lower_case_with_underscores
+state,20,,,,,,,,,20,lowercase
+st_size,1,,,,,,,,,1,lower_case_with_underscores
+closed,2,,,,,,,,,2,lowercase
+MEMORY_AND_DISK_SER,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES
+email,3,,,,,,,,,3,lowercase
+f_globals,6,,,,,,,,,6,lower_case_with_underscores
+cloudLog,2,,,,,,,,,2,mixedCase
+initialWeights,10,,,,,,,,,10,mixedCase
+buckets,3,,,,,,,,,3,lowercase
+delete_groups,1,,,,,,,,,1,lower_case_with_underscores
+key,28,,,,,,3,,,25,lowercase
+topIterator,3,1,,,,,,,,2,mixedCase
+kwds,4,,,,,,,,,4,lowercase
+target_branch_name,6,,,,,,,,,6,lower_case_with_underscores
+image_id,1,,,,,,1,,,,lower_case_with_underscores
+itertools,4,,,3,,,,,,1,lowercase
+LassoModel,2,,1,,,,,,,1,CapitalizedWords
+ws,4,,,,,,,,,4,lowercase
+outputSerializer,3,,,,,,,,,3,mixedCase
+read_long,3,1,,1,,,,,,1,lower_case_with_underscores
+strftime,1,,,,,,,,,1,lowercase
+pystringIO,4,,,,,,,1,,3,mixedCase
+extended_arg,4,,,,,,,,,4,lower_case_with_underscores
+co,3,,,,,,,,,3,lowercase
+PythonMLLibAPI,9,,,,,,,,,9,CapitalizedWords
+listitems,3,,,,,,,,,3,lowercase
+standard_b64encode,1,,,1,,,,,,,lower_case_with_underscores
+walk,1,,,,,,,,,1,lowercase
+END_OF_DATA_SECTION,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+cp,2,,,,,,,,,2,lowercase
+heappushpop,2,,,1,,,,,,1,lowercase
+PythonRDD,3,,,,,,,,,3,CapitalizedWords
+artifact_url,5,,,,,,,,,5,lower_case_with_underscores
+ImportError,7,,,,,,,,,7,CapitalizedWords
+json,2,,,1,,,,,,1,lowercase
+write_with_length,3,1,,1,,,,,,1,lower_case_with_underscores
+new_recurse,2,,,,,,,,,2,lower_case_with_underscores
+save_partial,2,1,,,,,,,,1,lower_case_with_underscores
+time_series,5,,,,,,,,,5,lower_case_with_underscores
+OBJ,1,,,,,,,,,1,UPPERCASE
+python_rdd,2,,,,,,,,,2,lower_case_with_underscores
+handle_sighup,2,1,,,,,,,,1,lower_case_with_underscores
+public_dns_name,9,,,,,,,,,9,lower_case_with_underscores
+TupleType,1,,,,,,,,,1,CapitalizedWords
+commit_authors,3,,,,,,,,,3,lower_case_with_underscores
+reverse,5,,,,,,5,,,,lowercase
+splits,1,,,,,,,,,1,lowercase
+_use_numpy,6,,,,,,,,,6,lower_case_with_underscores
+unpersist,2,1,,,,,,,,1,lowercase
+value,56,2,,,,,,,,54,lowercase
+accumulator,2,1,,,,,,,,1,lowercase
+ar,2,,,,,,,,,2,lowercase
+MAVEN_CMD,5,,,,,,,,,5,UPPER_CASE_WITH_UNDERSCORES
+LinearRegressionWithSGD,1,,1,,,,,,,,CapitalizedWords
+xrange,6,,,,,,,,,6,lowercase
+original_head,3,,,,,,,,,3,lower_case_with_underscores
+active_instance_ids,5,,,,,,,,,5,lower_case_with_underscores
+toord,1,,,,,,1,,,,lowercase
+vs,4,,,,,,,,,4,lowercase
+get_spark_shark_version,2,1,,,,,,,,1,lower_case_with_underscores
+use_existing_master,1,,,,,,,,,1,lower_case_with_underscores
+exit_code,6,,,,,,,,,6,lower_case_with_underscores
+sqrt,5,,,1,,,,,,4,lowercase
+parts,10,,,,,,,,,10,lowercase
+PySparkTestCase,7,,1,,,,,,,6,CapitalizedWords
+hasdups,1,,,,,,1,,,,lowercase
+listdir,1,,,,,,,,,1,lowercase
+slave,3,,,,,,,,,3,lowercase
+version_info,2,,,,,,,,,2,lower_case_with_underscores
+TestCheckpoint,1,,1,,,,,,,,CapitalizedWords
+boot_time,2,,,,,,,,,2,lower_case_with_underscores
+_is_running_on_worker,3,,,,,,,,,3,lower_case_with_underscores
+get_or_make_group,3,1,,,,,,,,2,lower_case_with_underscores
+check_call,4,,,,,,,,,4,lower_case_with_underscores
+setAll,1,1,,,,,,,,,mixedCase
+i,80,,,,,,,,,80,b
+printMemoization,1,,,,,,,,,1,mixedCase
+command,17,,,,,,,,,17,lowercase
+tst_mod_name,3,,,,,,,,,3,lower_case_with_underscores
+_generateImage,2,1,,,,,,,,1,mixedCase
+whichmodule,2,,,,,,,,,2,lowercase
+isinstance,19,,,,,,,,,19,lowercase
+_genTimeSeries,2,1,,,,,,,,1,mixedCase
+_getobject,2,1,,,,,,,,1,lowercase
+add,18,2,,3,,,,,,13,lowercase
+PYTHON_EXCEPTION_THROWN,2,,,,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+usage,1,,,,,,1,,,,lowercase
+IOError,2,,,,,,,,,2,CapitalizedWords
+_spark_stack_depth,7,,,,,,,,2,5,lower_case_with_underscores
+int32,3,,,1,,,,,,2,lowercase
+flatMap,9,1,,,,,,,,8,mixedCase
+maxIterations,2,,,,,,,,,2,mixedCase
+ip_protocol,2,,,,,,1,,,1,lower_case_with_underscores
+Thread,6,,,2,,,,,,4,CapitalizedWords
+dest,5,,,,,,2,,,3,lowercase
+deploy_ssh_key,2,,,,,,,,,2,lower_case_with_underscores
+BUILD,2,,,,,,,,,2,UPPERCASE
+insert,1,,,,,,,,,1,lowercase
+MEMORY_ONLY_SER_2,1,,,,,,,,,1,UPPER_CASE_WITH_UNDERSCORES
+maxSelected,5,,,,,,,,,5,mixedCase
+classTag,1,,,,,,,,,1,mixedCase
+MapConverter,2,,,1,,,,,,1,CapitalizedWords
+get_all_spot_instance_requests,1,,,,,,,,,1,lower_case_with_underscores
+SIG_DFL,3,,,1,,,,,,2,UPPER_CASE_WITH_UNDERSCORES
+python_build,2,,,,,,,,,2,lower_case_with_underscores
+KMeans,1,,1,,,,,,,,CapitalizedWords
+flush,1,,,,,,,,,1,lowercase
+inject_numpy,2,1,,,,,,,,1,lower_case_with_underscores
+_gateway_client,4,,,,,,,,,4,lower_case_with_underscores
+transport,1,,,1,,,,,,,lowercase
+SparkFiles,13,,1,4,,,,,,8,CapitalizedWords
+server_address,1,,,,,,,,,1,lower_case_with_underscores
+user_login,2,,,,,,,,,2,lower_case_with_underscores
+slave_res,3,,,,,,,,,3,lower_case_with_underscores
+outvars,5,,,,,,,,,5,lowercase
+save_unsupported,5,1,,,,,,,,4,lower_case_with_underscores
+EOFError,6,,,,,,,,,6,CapitalizedWords
+GatewayClient,2,,,1,,,,,,1,CapitalizedWords
+current_partitions,2,,,,,,,,,2,lower_case_with_underscores
+EINTR,5,,,1,,,,,,4,UPPERCASE
+dct,4,,,,,,,,,4,lowercase
+socket,12,,,5,,,,,,7,lowercase
+U,6,,,,,,,,,6,B
+rddSize,2,,,,,,,,,2,mixedCase
+pick_hash,2,,,,,,,,,2,lower_case_with_underscores
+wait_for_instances,3,1,,,,,,,,2,lower_case_with_underscores
+forced_names,2,,,,,,,,,2,lower_case_with_underscores
+parallelize,13,1,,,,,,,,12,lowercase
+download_path,3,,,,,,,,,3,lower_case_with_underscores
+_jrdd_deserializer,18,,,,,,,,,18,lower_case_with_underscores
+new_edges,2,,,,,,,,,2,lower_case_with_underscores
+val,4,,,,,,,,,4,lowercase
+artifacts,3,,,,,,,,,3,lowercase
+var,4,,,,,,,,,4,lowercase
+bestIndex,3,,,,,,,,,3,mixedCase
+function,1,,,,,,,,,1,lowercase
+ifilter,2,,,1,,,,,,1,lowercase
+extract_stack,1,,,,,,,,,1,lower_case_with_underscores
+pr_num,20,,,,,,,,,20,lower_case_with_underscores
+getenv,3,,,,,,,,,3,lowercase
+scikits,2,,,2,,,,,,,lowercase
+Serializer,6,,1,1,,,,,,4,CapitalizedWords
+count,23,2,,,,,1,,,20,lowercase
+pi,4,,,,,,,,,4,lowercase
+newval,2,,,,,,,,,2,lowercase
+j,3,,,,,,,,,3,b
+write_long,5,1,,1,,,,,,3,lower_case_with_underscores
+UserClass,9,,1,5,,,,,,3,CapitalizedWords
+_get_module_builtins,2,1,,,,,,,,1,lower_case_with_underscores
+proxy_opt,3,,,,,,,,,3,lower_case_with_underscores
+TestRDDFunctions,1,,1,,,,,,,,CapitalizedWords
+setup_standalone_cluster,1,1,,,,,,,,,lower_case_with_underscores
+wait_secs,3,,,,,,,,,3,lower_case_with_underscores
+local_file,2,,,,,,,,,2,lower_case_with_underscores
+int,19,,,,,,,,,19,lowercase
+reservations,4,,,,,,,,,4,lowercase
+pid,6,,,,,,,,,6,lowercase
+ITERATIONS,3,,,,,,,,,3,UPPERCASE
+tst_mod,3,,,,,,,,,3,lower_case_with_underscores
+getPoissonSample,2,1,,,,,,,,1,mixedCase
+spark_files_dir,4,,,,,,,,,4,lower_case_with_underscores
+boot,2,,,,,,,,,2,lowercase
+original_dir,6,,,,,,,,,6,lower_case_with_underscores
+other,74,,,,,,,,,74,lowercase
+bool,3,,,,,,,,,3,lowercase
+is_checkpointed,4,,,,,,,,,4,lower_case_with_underscores
+branch,3,,,,,,,,,3,lowercase
+memoize,7,,,,,,,,,7,lowercase
+Structure,1,,,,,,,,,1,CapitalizedWords
+stat,1,,,,,,,,,1,lowercase
+getCheckpointFile,7,1,,,,,,,,6,mixedCase
+rightOuterJoin,1,1,,,,,,,,,mixedCase
+c_void_p,2,,,,,,,,,2,lower_case_with_underscores
+django_settings,3,,,,,,,,,3,lower_case_with_underscores
+readline,4,,,,,,,,,4,lowercase
+ndarray,18,,,2,,,,,,16,lowercase
+merge_message_flags,6,,,,,,,,,6,lower_case_with_underscores
+_root_directory,3,,,,,,,,,3,lower_case_with_underscores
+ranks,4,,,,,,,,,4,lowercase
+key_stream,2,,,,,,,,,2,lower_case_with_underscores
+rule,5,,,,,,,,,5,lowercase
+klass,8,,,,,,,,,8,lowercase

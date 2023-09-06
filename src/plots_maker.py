@@ -3,6 +3,7 @@
 
 import os
 from datetime import datetime
+from statistics import mean
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -87,12 +88,12 @@ def make_classes_in_notations_plot(data: dict, path_out: str):
             value.append(0)
 
         for row in df[timestamp].itertuples():
-            if not np.isnan(row["class_def"]):
+            if not np.isnan(row.class_def):
                 n_of_classes += 1
-                if row["naming_style"] in good_notations:
-                    good_notations[row["naming_style"]][-1] += 1
+                if row.naming_style in good_notations:
+                    good_notations[row.naming_style][-1] += 1
                 else:
-                    bad_notations[row["naming_style"]][-1] += 1
+                    bad_notations[row.naming_style][-1] += 1
 
         for value in good_notations.values():
             value[-1] = value[-1] * 100 / n_of_classes
@@ -153,12 +154,12 @@ def make_functions_in_notations_plot(data: dict, path_out: str):
             value.append(0)
 
         for row in df[timestamp].itertuples():
-            if not np.isnan(row["function_def"]):
+            if not np.isnan(row.function_def):
                 n_of_functions += 1
-                if row["naming_style"] in good_notations:
-                    good_notations[row["naming_style"]][-1] += 1
+                if row.naming_style in good_notations:
+                    good_notations[row.naming_style][-1] += 1
                 else:
-                    bad_notations[row["naming_style"]][-1] += 1
+                    bad_notations[row.naming_style][-1] += 1
 
         for value in good_notations.values():
             value[-1] = value[-1] * 100 / n_of_functions
@@ -214,9 +215,9 @@ def make_classes_with_noun_plot(data: dict, path_out: str):
         n_of_classes_with_noun = 0
 
         for row in df[timestamp].itertuples():
-            if not np.isnan(row["class_def"]):
+            if not np.isnan(row.class_def):
                 n_of_classes += 1
-                if has_part_of_speech(row["name"], "n"):
+                if has_part_of_speech(str(row.name), "n"):
                     n_of_classes_with_noun += 1
 
         classes_with_noun_in_procents.append(n_of_classes_with_noun * 100 / n_of_classes)
@@ -252,9 +253,9 @@ def make_functions_with_verb_plot(data: dict, path_out: str):
         n_of_functions_with_verb = 0
 
         for row in df[timestamp].itertuples():
-            if not np.isnan(row["function_def"]):
+            if not np.isnan(row.function_def):
                 n_of_functions += 1
-                if has_part_of_speech(row["name"], "v"):
+                if has_part_of_speech(str(row.name), "v"):
                     n_of_functions_with_verb += 1
 
         functions_with_verb_in_procents.append(n_of_functions_with_verb * 100 / n_of_functions)
@@ -292,11 +293,11 @@ def make_words_to_avoid_plot(data: dict, path_out: str):
     for timestamp in df:
         n_of_bad_names = 0
         for row in df[timestamp].itertuples():
-            if str(row["name"]) in names_to_avoid:
+            if str(row.name) in names_to_avoid:
                 n_of_bad_names += 1
                 continue
 
-            for word in split_to_words(row["name"]):
+            for word in split_to_words(str(row.name)):
                 if word in words_to_avoid:
                     n_of_bad_names += 1
                     break
@@ -330,8 +331,8 @@ def make_mean_len_plot(data: dict, path_out: str):
     mean_number_of_words = []
 
     for timestamp in df:
-        mean_len.append(df[timestamp]["len"].mean())
-        mean_number_of_words.append(df[timestamp]["words"].apply(lambda x: str(x).count(",") + 1).mean())
+        mean_len.append(mean([len(str(name)) for name in df[timestamp]["name"]]))
+        mean_number_of_words.append(mean([len(split_to_words(str(name))) for name in df[timestamp]["name"]]))
 
     width_of_bars = 0.7
 
