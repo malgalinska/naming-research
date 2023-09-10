@@ -69,7 +69,7 @@ def make_project_size_plot(data: dict, path_out: str):
     p = axs[1].bar(df.keys(), sum_of_occurences, width_of_bars)
     axs[1].bar_label(p, label_type="center", fmt=lambda x: f"{x:.0f}")
 
-    fig.savefig(os.path.join(path_out, "project_size_plot.png"), dpi=300, format="png")
+    fig.savefig(os.path.join(path_out, "project_size_plot.png"), dpi=200, format="png")
 
 
 def make_classes_in_notations_plot(data: dict, path_out: str):
@@ -125,6 +125,11 @@ def make_classes_in_notations_plot(data: dict, path_out: str):
         bottom += procents
         axs[0].bar_label(p, label_type="center", fmt=lambda x: f"{x:.2f}%" if(x > 0) else "")
 
+    axs[0].bar_label(p, labels=map(lambda x: f"{x:.2f}%", bottom), padding=3, fontweight='bold')
+    axs[0].use_sticky_edges = False
+    axs[0].margins(y=0.1)
+    axs[0].set_ylim(bottom=0)
+
     axs[1].set_ylabel("Liczba")
     axs[1].set_title("Identyfikatory klas poza dobrą notacją")
 
@@ -134,8 +139,13 @@ def make_classes_in_notations_plot(data: dict, path_out: str):
         bottom += numbers
         axs[1].bar_label(p, label_type="center", fmt=lambda x: f"{x:.0f}" if(x > 0) else "")
 
+    axs[1].bar_label(p, labels=map(lambda x: f"{x:.0f}", bottom), padding=3, fontweight='bold')
+    axs[1].use_sticky_edges = False
+    axs[1].margins(y=0.1)
+    axs[1].set_ylim(bottom=0)
+
     fig.legend(loc="outside lower center", reverse=True, ncols=3)
-    fig.savefig(os.path.join(path_out, "classes_in_notations_plot.png"), dpi=300, format="png")
+    fig.savefig(os.path.join(path_out, "classes_in_notations_plot.png"), dpi=200, format="png")
 
 
 def make_functions_in_notations_plot(data: dict, path_out: str):
@@ -191,6 +201,11 @@ def make_functions_in_notations_plot(data: dict, path_out: str):
         bottom += procents
         axs[0].bar_label(p, label_type="center", fmt=lambda x: f"{x:.2f}%" if(x > 0) else "")
 
+    axs[0].bar_label(p, labels=map(lambda x: f"{x:.2f}%", bottom), padding=3, fontweight='bold')
+    axs[0].use_sticky_edges = False
+    axs[0].margins(y=0.1)
+    axs[0].set_ylim(bottom=0)
+    
     axs[1].set_ylabel("Liczba")
     axs[1].set_title("Identyfikatory funkcji poza dobrą notacją")
 
@@ -200,8 +215,13 @@ def make_functions_in_notations_plot(data: dict, path_out: str):
         bottom += numbers
         axs[1].bar_label(p, label_type="center", fmt=lambda x: f"{x:.0f}" if(x > 0) else "")
 
+    axs[1].bar_label(p, labels=map(lambda x: f"{x:.0f}", bottom), padding=3, fontweight='bold')
+    axs[1].use_sticky_edges = False
+    axs[1].margins(y=0.1)
+    axs[1].set_ylim(bottom=0)
+
     fig.legend(loc="outside lower center", reverse=True, ncols=3)
-    fig.savefig(os.path.join(path_out, "functions_in_notations_plot.png"), dpi=300, format="png")
+    fig.savefig(os.path.join(path_out, "functions_in_notations_plot.png"), dpi=200, format="png")
 
 
 def make_classes_with_noun_plot(data: dict, path_out: str):
@@ -239,7 +259,7 @@ def make_classes_with_noun_plot(data: dict, path_out: str):
     p = axs[1].bar(df.keys(), classes_without_noun_in_numbers, width_of_bars)
     axs[1].bar_label(p, label_type="center", fmt=lambda x: f"{x:.0f}")
 
-    fig.savefig(os.path.join(path_out, "classes_with_noun_plot.png"), dpi=300, format="png")
+    fig.savefig(os.path.join(path_out, "classes_with_noun_plot.png"), dpi=200, format="png")
 
 
 def make_functions_with_verb_plot(data: dict, path_out: str):
@@ -277,7 +297,7 @@ def make_functions_with_verb_plot(data: dict, path_out: str):
     p = axs[1].bar(df.keys(), functions_without_verb_in_numbers, width_of_bars)
     axs[1].bar_label(p, label_type="center", fmt=lambda x: f"{x:.0f}")
 
-    fig.savefig(os.path.join(path_out, "functions_with_verb_plot.png"), dpi=300, format="png")
+    fig.savefig(os.path.join(path_out, "functions_with_verb_plot.png"), dpi=200, format="png")
 
 
 def make_words_to_avoid_plot(data: dict, path_out: str):
@@ -321,7 +341,7 @@ def make_words_to_avoid_plot(data: dict, path_out: str):
     p = axs[1].bar(df.keys(), bad_names_in_numbers, width_of_bars)
     axs[1].bar_label(p, label_type="center", fmt=lambda x: f"{x:.0f}")
 
-    fig.savefig(os.path.join(path_out, "words_to_avoid_plot.png"), dpi=300, format="png")
+    fig.savefig(os.path.join(path_out, "words_to_avoid_plot.png"), dpi=200, format="png")
 
 
 def make_mean_len_plot(data: dict, path_out: str):
@@ -350,4 +370,4 @@ def make_mean_len_plot(data: dict, path_out: str):
     p = axs[1].bar(df.keys(), mean_number_of_words, width_of_bars)
     axs[1].bar_label(p, label_type="center", fmt=lambda x: f"{x:.3f}")
 
-    fig.savefig(os.path.join(path_out, "maen_len_plot.png"), dpi=300, format="png")
+    fig.savefig(os.path.join(path_out, "maen_len_plot.png"), dpi=200, format="png")
